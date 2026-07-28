@@ -1,0 +1,18 @@
+# Optional extra: REBUILDING the corpus, not serving it. Install alongside
+# requirements.txt when running src/ingest_expenditures.py, src/build_documents.py,
+# src/build_joins.py, or any of their --check modes.
+#
+# Split out because the MCP server never reads the Parquet — actuals are proxied live —
+# so the deployed image installs requirements.txt only and carries none of this.
+#
+#   pip install -r requirements.txt -r requirements-build.txt
+
+# Writes data/expenditures/*.parquet. decimal128(18,2) is why this is a hard dependency of
+# the ingest rather than a convenience: 668,906 dollar amounts summed as float64 do not
+# reliably reproduce the published $199,601,500,470.97 total, and the reconciliation gate
+# compares to the cent.
+pyarrow
+
+# Queries the Parquet in place (no load step) to generate the 544 agency-year documents
+# and to check joins. A full-corpus aggregate returns in single-digit milliseconds.
+duckdb
