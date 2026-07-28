@@ -35,7 +35,10 @@ sibling_source_sha256: 20a580bea2f62a91d79f0602f9ec94ecc74d3967c98cb285874cfb5c9
 extraction_status: single-appropriation
 appropriated_to: Oregon Military Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 2772 (2025R1): Appropriates moneys from the General Fund to the Oregon Military Department for distribution to counties for the purpose of acquiring analog encoders for transmission of information to broadcasters in case of an emergency.
 
-Parsed context: appropriated to **Oregon Military Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Military Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

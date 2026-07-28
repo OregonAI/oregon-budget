@@ -35,7 +35,10 @@ sibling_source_sha256: ae03b6e053b19fb031d84c855e0d881b49dcace27a20a697a0407e30b
 extraction_status: items-without-stated-total
 appropriated_to: Legislative Administration Committee
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 5016 (2025R1): Appropriates moneys from the General Fund to the Legislative Administration Committee, Legislative Assembly, Legislative Counsel Committee, Legislative Fiscal Officer, Legislative Revenue Officer, Commission on Indian Services and Legislative Policy and Research Committee for biennial expenses.
 
-Parsed context: appropriated to **Legislative Administration Committee**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Legislative Administration Committee**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

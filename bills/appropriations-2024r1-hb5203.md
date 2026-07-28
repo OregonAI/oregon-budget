@@ -35,7 +35,10 @@ sibling_source_sha256: 1cbdb70dba886fff621bd69c08b983cf886fbb4610e4394407c198ddb
 extraction_status: items-without-stated-total
 appropriated_to: null
 fund: null
-biennium_begins: July 1, 2023
+biennium: beginning 2023
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2023
 
 HB 5203 (2024R1): Establishes biennial appropriations and expenditure limitations for ______ for biennium ending June 30, 2025.
 
-Parsed context: for the biennium beginning **July 1, 2023**.
+Parsed context: for the biennium **beginning 2023** (fiscal years 2024–2025).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

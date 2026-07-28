@@ -35,7 +35,10 @@ sibling_source_sha256: 942c19996a96c90a2f5690e74dbe8771db1388e7ab172a8869fd1f086
 extraction_status: items-without-stated-total
 appropriated_to: Oregon Ocean Science Trust
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 3786 (2025R1): Appropriates moneys to the Department of State Lands for deposit in the Oregon Ocean Science Fund for the purpose of providing competitive grants.
 
-Parsed context: appropriated to **Oregon Ocean Science Trust**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Ocean Science Trust**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

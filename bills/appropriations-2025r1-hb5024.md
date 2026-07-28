@@ -35,7 +35,10 @@ sibling_source_sha256: 1ef45b8fab204771282fe5724b8f92c71572711ff19238a2e210b657a
 extraction_status: items-without-stated-total
 appropriated_to: Oregon Business Development Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 5024 (2025R1): Appropriates moneys from the General Fund to the Oregon Business Development Department for certain biennial expenses.
 
-Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

@@ -35,7 +35,10 @@ sibling_source_sha256: 737225cc7edea3d423d59ef673bf729a678e6047e2c30a0a9b5b1258b
 extraction_status: items-without-stated-total
 appropriated_to: Oregon Military Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 5533 (2025R1): Appropriates moneys from the General Fund to the Oregon Military Department for certain biennial expenses.
 
-Parsed context: appropriated to **Oregon Military Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Military Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

@@ -35,7 +35,10 @@ sibling_source_sha256: 0e4de24341ad1fdac40e9ecf4899fab4e689827f6b0304aa8055e2691
 extraction_status: single-appropriation
 appropriated_to: State Department of Agriculture
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 985 (2025R1): Appropriates moneys from the General Fund to the State Department of Agriculture for deposit in the Wolf Management Compensation and Proactive Trust Fund.
 
-Parsed context: appropriated to **State Department of Agriculture**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **State Department of Agriculture**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

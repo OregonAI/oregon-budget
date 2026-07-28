@@ -35,7 +35,10 @@ sibling_source_sha256: 0bd826fc40c0234636b7e93a1c0f459aaea66eb1d2cadf527aabbab93
 extraction_status: single-appropriation
 appropriated_to: Higher Education Coordinating Commission
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 2401 (2025R1): Appropriates moneys from the General Fund to support the operation of the AgriStress Helpline in Oregon.
 
-Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

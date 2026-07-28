@@ -35,7 +35,10 @@ sibling_source_sha256: ff525336500b1d8f625323aa8a5e4d144b209bdbc270c46b0d0ba8c85
 extraction_status: single-appropriation
 appropriated_to: Oregon Department of Administrative Services
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 452 (2025R1): Appropriates moneys from the General Fund to the Oregon Department of Administrative Services for distribution to Marion-Polk Food Share, Inc., for a capital expansion project.
 
-Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

@@ -35,7 +35,10 @@ sibling_source_sha256: a6075879cbc5c9fed4cdf1775b6e85ae312471873826665dc49b4f0fa
 extraction_status: single-appropriation
 appropriated_to: Oregon Department of Administrative Services
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 1000 (2025R1): Appropriates moneys from the General Fund to the Oregon Department of Administrative Services for distribution to Bay Area Hospital in Coos Bay.
 
-Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

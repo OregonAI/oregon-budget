@@ -77,8 +77,78 @@ def _combine(*clauses) -> str:
     return " AND ".join(c for c in clauses if c)
 
 
+def _load_joins():
+    """Every committed join document, indexed both ways.
+
+    Read from disk at registration rather than through the retrieval backend: the join
+    block lives in frontmatter, and FileBackend.get() returns a fixed field set that drops
+    corpus-specific keys — the same gap that made total_expense invisible to HybridBackend.
+    """
+    import yaml
+    from pathlib import Path
+    by_doc, by_key = {}, {}
+    joins_dir = Path(__file__).resolve().parent.parent / "joins"
+    for p in sorted(joins_dir.glob("*.md")):
+        fm = yaml.safe_load(p.read_text().split("---\n", 2)[1])
+        rec = {"join_document": fm["id"], "title": fm.get("title"),
+               "appropriation_document": fm.get("appropriation_document"),
+               "sibling_corpus": fm.get("sibling_corpus"),
+               "sibling_document_id": fm.get("sibling_document_id"),
+               "agency_code": fm.get("agency_code"),
+               "agency_registry_slug": fm.get("agency_registry_slug"),
+               "agency_registry_corpus": fm.get("agency_registry_corpus"),
+               "biennium": fm.get("biennium"), "fiscal_years": fm.get("fiscal_years"),
+               "human_reviewed": fm.get("human_reviewed", False),
+               "joins": fm.get("joins") or [],
+               "biennium_to_fiscal_year_assumption":
+                   fm.get("biennium_to_fiscal_year_assumption")}
+        for d in {fm.get("appropriation_document"), fm["id"],
+                  fm.get("sibling_document_id")} | {j["document_id"] for j in rec["joins"]}:
+            if d:
+                by_doc.setdefault(d, []).append(rec)
+        for j in rec["joins"]:
+            by_key.setdefault(j["key"], []).append(rec)
+    return by_doc, by_key
+
+
 def register(mcp, framework):
     """Called by corpus-mcp-serve after every built-in tool."""
+    joins_by_doc, joins_by_key = _load_joins()
+
+    @mcp.tool()
+    def join_lookup(document_id: str = "", dataset_key: str = "") -> dict:
+        """Find the appropriation↔spending links for a document id or a dataset key.
+
+        The hybrid half of the MCP contract. Pass a document_id (an appropriation, a join,
+        an agency-year expenditure summary, or a bill id in the legislature corpus) OR a
+        dataset_key of the form `agency=107;fiscal_year=2024`. Returns the mapped
+        counterparts on the other side, or an explicit empty result naming what was
+        searched — never a bare empty list."""
+        if not document_id and not dataset_key:
+            return {"error": "pass document_id or dataset_key",
+                    "example_key": "agency=107;fiscal_year=2024"}
+        hits = joins_by_doc.get(document_id, []) if document_id \
+            else joins_by_key.get(dataset_key, [])
+        if not hits:
+            # "No mapping recorded" is NOT "no relationship exists". 150 of 170
+            # appropriations fall outside the mirrored fiscal years and can never be
+            # joined; a caller must be able to tell that from a missing document.
+            return {"found": False, "searched": document_id or dataset_key,
+                    "join_documents": 0,
+                    "note": ("No join is recorded for this. That is not evidence no "
+                             "relationship exists: joins are only built where an "
+                             "appropriation's biennium overlaps the mirrored fiscal years "
+                             "FY2019-FY2025, which excludes 150 of the 170 extracted "
+                             "appropriation documents, and where the agency name resolves "
+                             "exactly against the sibling registry."),
+                    "disclaimer": "non-authoritative"}
+        return {"found": True, "searched": document_id or dataset_key,
+                "join_documents": len(hits), "joins": hits,
+                "warning": ("These links pair an ENTITY and a PERIOD, never dollars with "
+                            "dollars. Agency spending totals do not account for a given "
+                            "appropriation and must not be presented as though they do. "
+                            "Every join is human_reviewed: false."),
+                "disclaimer": "non-authoritative"}
 
     @mcp.tool()
     def list_datasets() -> dict:

@@ -35,7 +35,10 @@ sibling_source_sha256: 5a438ff0cd0d0295e15d8322e695d08784ad7f705f988fb6e10922d9f
 extraction_status: items-without-stated-total
 appropriated_to: Department of Human Services
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 5526 (2025R1): Appropriates moneys from the General Fund to the Department of Human Services for certain biennial expenses.
 
-Parsed context: appropriated to **Department of Human Services**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Human Services**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

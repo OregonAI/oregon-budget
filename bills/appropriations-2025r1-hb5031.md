@@ -35,7 +35,10 @@ sibling_source_sha256: 4f66f485b576a2b011e5bd2538dcca6f7c608f4c9fe49cbf826688408
 extraction_status: items-without-stated-total
 appropriated_to: Oregon Public Defense Commission
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 5031 (2025R1): Appropriates moneys from the General Fund to the Oregon Public Defense Commission for certain biennial expenses.
 
-Parsed context: appropriated to **Oregon Public Defense Commission**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Public Defense Commission**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

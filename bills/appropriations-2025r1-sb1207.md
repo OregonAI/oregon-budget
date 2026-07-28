@@ -35,7 +35,10 @@ sibling_source_sha256: 76173109380455ec1eaaaea96e7fcc246b926544185e0e47446197e00
 extraction_status: single-appropriation
 appropriated_to: Oregon Department of Administrative Services
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 1207 (2025R1): Appropriates moneys for distribution to Soul District Business Association for the acquisition and redevelopment of property as the AfroEats Community Cultural Hub in Portland.
 
-Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

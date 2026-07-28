@@ -35,7 +35,10 @@ sibling_source_sha256: 2ad7b8fbb558a006ffa606c697c20c741c9fa0e028adf283f63a28636
 extraction_status: items-without-stated-total
 appropriated_to: Department of Revenue
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 5536 (2025R1): Appropriates moneys from the General Fund to the Department of Revenue for biennial expenses.
 
-Parsed context: appropriated to **Department of Revenue**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Revenue**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

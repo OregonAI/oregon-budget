@@ -35,7 +35,10 @@ sibling_source_sha256: 9cfe2092ba329da79c1bae566a18952ac0a155e8f8b576482eeb7fee6
 extraction_status: single-appropriation
 appropriated_to: Oregon Department of Administrative Services
 fund: General Fund
-biennium_begins: null
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: null
 
 SB 1512 (2024R1): Appropriates moneys from the General Fund to the Oregon Department of Administrative Services for expenses related to the Bridge of the Gods seismic analysis and strengthening project.
 
-Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**.
+Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

@@ -35,7 +35,10 @@ sibling_source_sha256: 4405b4860d5895ae4b12fd73bdbac10d072a81d1180fed4dc9b556175
 extraction_status: items-without-stated-total
 appropriated_to: State Department of Energy
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 5518 (2025R1): Appropriates moneys from the General Fund to the State Department of Energy for certain biennial expenses.
 
-Parsed context: appropriated to **State Department of Energy**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **State Department of Energy**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

@@ -35,7 +35,10 @@ sibling_source_sha256: 171721846a5f0e8d40386a9d7cd53a0eace9ce807c497b1a50050539e
 extraction_status: items-without-stated-total
 appropriated_to: Oregon Business Development Department
 fund: General Fund
-biennium_begins: null
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: null
 
 SB 1582 (2024R1): Appropriates moneys to the Oregon Business Development Department to distribute to Oregon cultural organizations in response to the negative impact of the COVID-19 pandemic on organization finances.
 
-Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**.
+Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

@@ -35,7 +35,10 @@ sibling_source_sha256: d01b74b81771ddb27b792abe4ba199f964b7e746b479d31b1483266d1
 extraction_status: single-appropriation
 appropriated_to: Oregon Department of Administrative Services
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 466 (2025R1): Appropriates moneys from the General Fund to the Oregon Department of Administrative Services for distribution to the Tsuga Community Commission for the Oregon Summer Star program.
 
-Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

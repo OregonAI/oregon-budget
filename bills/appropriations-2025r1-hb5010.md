@@ -35,7 +35,10 @@ sibling_source_sha256: 064e072e4f62ca8a511c11d8b53cf7b47d7b70469449876de90bce868
 extraction_status: items-without-stated-total
 appropriated_to: State Department of Geology and Mineral Industries
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 5010 (2025R1): Appropriates moneys from the General Fund to the State Department of Geology and Mineral Industries for biennial expenses.
 
-Parsed context: appropriated to **State Department of Geology and Mineral Industries**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **State Department of Geology and Mineral Industries**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

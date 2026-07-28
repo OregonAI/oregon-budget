@@ -35,7 +35,10 @@ sibling_source_sha256: 2311a368d5cf1c6ca7e1e4d94050fe2421d5a485597daaf52e3816f11
 extraction_status: reconciled
 appropriated_to: Oregon Department of Administrative Services
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 2 (2025R1): Appropriates moneys from the General Fund to the Oregon Department of Administrative Services for distribution to the Salvage Chief (LSM380) Foundation for the purpose of repairing and upgrading a salvage vessel.
 
-Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **reconciled**. Every itemized section sums to its own stated appropriation.
 

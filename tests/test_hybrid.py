@@ -208,3 +208,43 @@ def test_unreviewed_appropriations_are_flagged_not_served_as_fact(config):
 def test_mirrored_documents_carry_no_review_block(config):
     """The flag must mean something. Attaching it to everything would make it noise."""
     assert "review_status" not in CorpusFramework(config).get_document(DOC)
+
+
+# ------------------------------------------------------------------ joins
+
+def test_join_lookup_resolves_both_directions(config):
+    """The contract's signature is join_lookup(document_id | dataset_key). Answering only
+    the document side is what the pre-1.6.0 get_document workaround could already do; the
+    dataset_key direction is the half that needed a real tool."""
+    mcp = build_server(config)
+    a = call(mcp, "join_lookup", document_id="appropriations-2024r1-hb4105")
+    assert a["found"] and a["joins"][0]["agency_code"] == "443"
+    b = call(mcp, "join_lookup", dataset_key="agency=443;fiscal_year=2024")
+    assert b["found"] and b["join_documents"] >= 1
+
+
+def test_no_join_is_not_no_relationship(config):
+    """150 of 170 appropriations fall outside the mirrored fiscal years and can never be
+    joined. A bare empty result would read as 'these are unrelated'."""
+    r = call(build_server(config), "join_lookup",
+             document_id="appropriations-2025r1-hb2408")
+    assert r["found"] is False
+    assert "not evidence no relationship exists" in r["note"]
+    assert r["searched"] == "appropriations-2025r1-hb2408"
+
+
+def test_joins_never_claim_dollars_account_for_dollars(config):
+    """The corpus's central fabrication risk. An agency's total spending does not account
+    for any one appropriation, and the response must say so unprompted."""
+    r = call(build_server(config), "join_lookup",
+             document_id="appropriations-2024r1-hb4105")
+    assert "never dollars with dollars" in r["warning"]
+    assert all(j["human_reviewed"] is False for j in r["joins"])
+
+
+def test_every_join_records_the_biennium_assumption(config):
+    """Mapping a biennium onto fiscal years is the single most likely source of a
+    plausible wrong number, so it travels with the join rather than living in a script."""
+    r = call(build_server(config), "join_lookup",
+             document_id="appropriations-2024r1-hb4105")
+    assert "fiscal year runs 1 July" in r["joins"][0]["biennium_to_fiscal_year_assumption"]

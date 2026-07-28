@@ -35,7 +35,10 @@ sibling_source_sha256: 048360a155a9b23257096f557a70d31cca11122ea6ca66ffd006d5646
 extraction_status: single-appropriation
 appropriated_to: Office of the Governor
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 5523 (2025R1): Appropriates moneys from the General Fund to the Office of the Governor for biennial expenses.
 
-Parsed context: appropriated to **Office of the Governor**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Office of the Governor**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

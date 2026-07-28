@@ -35,7 +35,10 @@ sibling_source_sha256: 8c2d43633b45dc151a1e27d078c13f2e0f740dbbeef34a9055cbbbc1a
 extraction_status: items-without-stated-total
 appropriated_to: Housing and Community Services Department
 fund: General Fund
-biennium_begins: null
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: null
 
 SB 1530 (2024R1): Appropriates moneys to and modifies expenditure limitations for the Housing and Community Services Department, Oregon Health Authority, Department of Human Services, State Department of Energy, Oregon Business Development Department, Department of Transportation, Water Resources Department and Oregon Department of Administrative Services for various programs.
 
-Parsed context: appropriated to **Housing and Community Services Department**, out of the **General Fund**.
+Parsed context: appropriated to **Housing and Community Services Department**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

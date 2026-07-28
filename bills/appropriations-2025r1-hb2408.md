@@ -35,7 +35,10 @@ sibling_source_sha256: 1e6a62079fd7280ea1d655bebb2fdad2f095bef0a7e5a47084dc06c8e
 extraction_status: reconciled
 appropriated_to: Higher Education Coordinating Commission
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 2408 (2025R1): Appropriates moneys from the General Fund to the Higher Education Coordinating Commission for allocation to Oregon State University to fund the agricultural experiment station and branch stations, the Oregon State University Extension Service and the Forest Research Laboratory.
 
-Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **reconciled**. Every itemized section sums to its own stated appropriation.
 

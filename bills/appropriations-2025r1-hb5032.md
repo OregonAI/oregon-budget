@@ -35,7 +35,10 @@ sibling_source_sha256: 306c6ae92f9e3291997ff1d7cf1ced6e1c8ead97338216ec6decb594a
 extraction_status: items-without-stated-total
 appropriated_to: Department of Public Safety Standards and Training
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 5032 (2025R1): Appropriates moneys from the General Fund to the Department of Public Safety Standards and Training for specified biennial expenditures.
 
-Parsed context: appropriated to **Department of Public Safety Standards and Training**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Public Safety Standards and Training**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

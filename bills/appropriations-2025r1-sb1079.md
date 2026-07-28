@@ -35,7 +35,10 @@ sibling_source_sha256: b016b625093b43dc939b0d00cf48bb7893fda9f433f8d3c6882cbc08c
 extraction_status: single-appropriation
 appropriated_to: Housing and Community Services Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 1079 (2025R1): Appropriates moneys to the Housing Project Revolving Loan Fund.
 
-Parsed context: appropriated to **Housing and Community Services Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Housing and Community Services Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

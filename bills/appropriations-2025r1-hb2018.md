@@ -35,7 +35,10 @@ sibling_source_sha256: fe2f1329af24b0b6ccb75ade3d03c9e746be104084f7663232b7eafae
 extraction_status: items-without-stated-total
 appropriated_to: Oregon Business Development Department
 fund: General Fund
-biennium_begins: null
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: null
 
 HB 2018 (2025R1): Amends the allowable uses of moneys appropriated to the Oregon Business Development Department for distribution to the City of Madras.
 
-Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**.
+Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

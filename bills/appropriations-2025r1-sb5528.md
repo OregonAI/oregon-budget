@@ -35,7 +35,10 @@ sibling_source_sha256: 92b7e8b845f206b85a62794bc489872feae9370675641cd10f19aae65
 extraction_status: items-without-stated-total
 appropriated_to: Department of Land Conservation and Development
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 5528 (2025R1): Appropriates moneys from the General Fund to the Department of Land Conservation and Development for certain biennial expenses.
 
-Parsed context: appropriated to **Department of Land Conservation and Development**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Land Conservation and Development**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

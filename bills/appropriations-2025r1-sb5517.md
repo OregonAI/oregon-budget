@@ -35,7 +35,10 @@ sibling_source_sha256: 4a66adf331041f657c592ce1a235e187513c2ff689b1298ae70cac703
 extraction_status: items-without-stated-total
 appropriated_to: Oregon Department of Emergency Management
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 5517 (2025R1): Appropriates moneys from the General Fund to the Oregon Department of Emergency Management for certain biennial expenses.
 
-Parsed context: appropriated to **Oregon Department of Emergency Management**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Department of Emergency Management**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

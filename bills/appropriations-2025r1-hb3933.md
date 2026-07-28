@@ -35,7 +35,10 @@ sibling_source_sha256: e07e6d5e932267f306bf7b7d3a2b51783ee6796439d95ea72c24a6dc9
 extraction_status: single-appropriation
 appropriated_to: Department of Early Learning and Care
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 3933 (2025R1): Appropriates moneys from the General Fund to the Department of Early Learning and Care for the purpose of funding Relief Nursery programs.
 
-Parsed context: appropriated to **Department of Early Learning and Care**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Early Learning and Care**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

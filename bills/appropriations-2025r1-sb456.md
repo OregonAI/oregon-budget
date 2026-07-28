@@ -35,7 +35,10 @@ sibling_source_sha256: b667d2e20fc8c904a24552cedf01b754e641dab4b613c226af461ef80
 extraction_status: single-appropriation
 appropriated_to: Department of Education
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 456 (2025R1): Appropriates moneys to the Department of Education for distribution as grants to address the causes of chronic absenteeism.
 
-Parsed context: appropriated to **Department of Education**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Education**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

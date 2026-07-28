@@ -35,7 +35,10 @@ sibling_source_sha256: caacf188bf35a1677831d2242e028ab34d4dec74dafdf3d2689d418fd
 extraction_status: single-appropriation
 appropriated_to: Department of Education
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 3361 (2025R1): Appropriates moneys from the General Fund to the Department of Education to fund the Summer Learning Grant program.
 
-Parsed context: appropriated to **Department of Education**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Education**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

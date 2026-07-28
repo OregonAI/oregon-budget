@@ -35,7 +35,10 @@ sibling_source_sha256: 8e8e6d1a218ec6be748753284ecc4ab78aee76150176c1b084d491f9b
 extraction_status: single-appropriation
 appropriated_to: Judicial Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 3180 (2025R1): Appropriates moneys to the Judicial Department for the Washington County Courthouse Replacement Planning Project.
 
-Parsed context: appropriated to **Judicial Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Judicial Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

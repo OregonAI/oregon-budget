@@ -35,7 +35,10 @@ sibling_source_sha256: 9fb68f951bc136c1ced07da66eed65a7c351bfd9efe71780c47a3f1e4
 extraction_status: single-appropriation
 appropriated_to: Oregon Department of Administrative Services
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 2842 (2025R1): Appropriates moneys to the Oregon Department of Administrative Services for distribution to an organization and Polk County forprograms for providing free drop-in childcare for people with business at a county courthouse or with other governmental business and data collection regarding the programs.
 
-Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

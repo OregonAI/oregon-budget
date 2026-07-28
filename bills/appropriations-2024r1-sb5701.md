@@ -35,7 +35,10 @@ sibling_source_sha256: d48b0534634f802ef038a645127fe73aea0a13b95d25faf2d3a79de5d
 extraction_status: items-without-stated-total
 appropriated_to: Department of Justice
 fund: General Fund
-biennium_begins: July 1, 2023
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2023
 
 SB 5701 (2024R1): Appropriates moneys from the General Fund to specified state agencies for biennial expenses.
 
-Parsed context: appropriated to **Department of Justice**, out of the **General Fund**, for the biennium beginning **July 1, 2023**.
+Parsed context: appropriated to **Department of Justice**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

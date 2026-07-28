@@ -35,7 +35,10 @@ sibling_source_sha256: 070f15ca3f4ec8efde76aea045003c71249d37aa3ea7538dc93c37a79
 extraction_status: single-appropriation
 appropriated_to: State Parks and Recreation Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 929 (2025R1): Appropriates moneys from the General Fund to and directs allocation of lottery revenues by the State Parks and Recreation Department to continue to develop, maintain or work toward completion of the Oregon Coast Trail.
 
-Parsed context: appropriated to **State Parks and Recreation Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **State Parks and Recreation Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

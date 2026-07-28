@@ -35,7 +35,10 @@ sibling_source_sha256: f0b75cec0a14745555c0b6ae8c5b8d503d965b9eb35bd228f825f35c9
 extraction_status: items-without-stated-total
 appropriated_to: Housing and Community Services Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 5011 (2025R1): Appropriates moneys from the General Fund to the Housing and Community Services Department for biennial expenses.
 
-Parsed context: appropriated to **Housing and Community Services Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Housing and Community Services Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

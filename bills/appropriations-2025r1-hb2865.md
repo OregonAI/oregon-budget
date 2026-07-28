@@ -35,7 +35,10 @@ sibling_source_sha256: d33598dba824240df0b4e5fea956263617c3f5d6b22d9cee8871f4717
 extraction_status: single-appropriation
 appropriated_to: Department of the State Fire Marshal
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 2865 (2025R1): Appropriates moneys from the General Fund to specified state agencies for specified purposes related to emergency management for the biennium beginning July 1, 2025.
 
-Parsed context: appropriated to **Department of the State Fire Marshal**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of the State Fire Marshal**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

@@ -57,6 +57,12 @@ jobs:
       # "0 full-text sections verified", which is honest and is exactly why this exists.
       - name: Documents must reconcile to the mirrored data
         run: python3 src/build_documents.py --check
+      # The toolkit's schema validates the SHAPE of a `joins:` block and nothing reads it:
+      # no CLI resolves a document_id, no validator confirms a key selects anything. A
+      # join could point at documents that do not exist and keys that match no rows while
+      # every other gate stayed green. This is that missing check.
+      - name: Every join must resolve to a real document and a non-empty key
+        run: python3 src/build_joins.py --check
 
   # The hybrid seam's disciplines: live figures never merge into mirrored fields, and an
   # unavailable API is never served as a zero. Both are monkeypatched rather than live —

@@ -35,7 +35,10 @@ sibling_source_sha256: 252f32914f9b26909bc387cbf73488f75f58bf394e371334ce2ea3207
 extraction_status: single-appropriation
 appropriated_to: Department of Transportation
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 2749 (2025R1): Appropriates moneys to the Department of Transportation for distribution to the City of Portland for the purpose of designing a bridge across Columbia Boulevard.
 
-Parsed context: appropriated to **Department of Transportation**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Transportation**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

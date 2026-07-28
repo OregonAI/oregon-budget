@@ -35,7 +35,10 @@ sibling_source_sha256: a0143327f3aba64aba0a256623bd8efa1fb717713ccd2d13a00d12515
 extraction_status: single-appropriation
 appropriated_to: Oregon Watershed Enhancement Board
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 3131 (2025R1): Appropriates moneys to the Oregon Watershed Enhancement Board, out of the General Fund, for deposit in the Oregon Agricultural Heritage Fund.
 
-Parsed context: appropriated to **Oregon Watershed Enhancement Board**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Watershed Enhancement Board**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

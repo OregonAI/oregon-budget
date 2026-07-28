@@ -35,7 +35,10 @@ sibling_source_sha256: 3600e146ef6e90cbdbccbf9801a645a68ddc6f1f6d7b80c972dd63d6a
 extraction_status: single-appropriation
 appropriated_to: State Department of Agriculture
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 986 (2025R1): Appropriates moneys to the State Department of Agriculture out of the General Fund for purposes related to the brand inspection program.
 
-Parsed context: appropriated to **State Department of Agriculture**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **State Department of Agriculture**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

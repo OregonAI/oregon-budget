@@ -35,7 +35,10 @@ sibling_source_sha256: f66ded38fc6f9cffef1dd868a92ef0c930233bb74078ee19d8ebe5d5a
 extraction_status: single-appropriation
 appropriated_to: State Department of Fish and Wildlife
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 351 (2025R1): Appropriates moneys to the State Department of Fish and Wildlife for the purpose of funding programs that award $5 for each take of pikeminnow, if the take complies with wildlife laws.
 
-Parsed context: appropriated to **State Department of Fish and Wildlife**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **State Department of Fish and Wildlife**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

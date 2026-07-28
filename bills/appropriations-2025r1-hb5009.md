@@ -35,7 +35,10 @@ sibling_source_sha256: 5205eb2d91b753f4e227aed23d3eb177d20fdc1642574af3a8e2013b1
 extraction_status: items-without-stated-total
 appropriated_to: State Department of Fish and Wildlife
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 5009 (2025R1): Appropriates moneys from the General Fund to the State Department of Fish and Wildlife for certain biennial expenses.
 
-Parsed context: appropriated to **State Department of Fish and Wildlife**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **State Department of Fish and Wildlife**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

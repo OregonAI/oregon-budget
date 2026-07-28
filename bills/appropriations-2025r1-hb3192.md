@@ -35,7 +35,10 @@ sibling_source_sha256: 4c70a70f3a8990044e686e8046258b396c5b54f2d47161b85d4ef6e17
 extraction_status: single-appropriation
 appropriated_to: Oregon Health Authority
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 3192 (2025R1): Appropriates moneys from the General Fund to the Oregon Health Authority for the purpose of screening newborns for five specific diseases under the Northwest Regional Newborn Bloodspot Screening Program.
 
-Parsed context: appropriated to **Oregon Health Authority**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Health Authority**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

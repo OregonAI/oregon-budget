@@ -35,7 +35,10 @@ sibling_source_sha256: 0cc6223fe191c3ca4bb137de20aa5478db383f8adce0983e9b4fe371b
 extraction_status: subsections-not-itemized
 appropriated_to: Invasive Species Council
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 356 (2025R1): Appropriates moneys to the Invasive Species Council, out of the General Fund, for certain purposes.
 
-Parsed context: appropriated to **Invasive Species Council**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Invasive Species Council**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **subsections-not-itemized**. No itemization to reconcile against.
 

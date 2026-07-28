@@ -35,7 +35,10 @@ sibling_source_sha256: 45a02c0d6a7de52d277742354dee9281517f090bf4c285584ba7bc223
 extraction_status: single-appropriation
 appropriated_to: Department of Education
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 5047 (2025R1): Appropriates moneys from the General Fund to the Department of Education and limits expenditures from the Summer Learning Grant Program Fund.
 
-Parsed context: appropriated to **Department of Education**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Education**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 
