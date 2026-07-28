@@ -8,7 +8,12 @@
 # corpus_toolkit CLIs (corpus-validate-frontmatter, corpus-verify-provenance, ...) and
 # src/*.py. The [mcp] extra installs the MCP SDK that `corpus-mcp-serve` imports; without
 # it the CLI is on PATH but fails at import, so the container cannot serve.
-corpus-toolkit[mcp] @ git+https://github.com/OregonAI/corpus-toolkit@v1.5.3
+# v1.6.0 or later is REQUIRED, not merely preferred: this corpus sets
+# plugins.tools_module, which nothing before 1.6.0 reads. An older toolkit would ignore
+# the key silently and serve a server with no list_datasets and no query_dataset — the
+# exact failure the seam's fatal-on-error behaviour exists to prevent, reintroduced by a
+# stale pin.
+corpus-toolkit[mcp] @ git+https://github.com/OregonAI/corpus-toolkit@v1.6.0
 pyyaml
 jsonschema
 

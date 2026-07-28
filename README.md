@@ -30,6 +30,25 @@ queryable mirror.
 544, not 574: 82 agencies × 7 years is an upper bound, but 30 of those agency-years have
 no spending at all. Emitting documents for them would invent years that never happened.
 
+### MCP tools
+
+The five shared tools, plus `authority_chain`, plus two this corpus registers through
+`plugins.tools_module` (corpus-toolkit ≥ 1.6.0):
+
+| Tool | Returns |
+|---|---|
+| `list_datasets()` | the three live Socrata datasets, their filterable columns, and the known trap in each |
+| `query_dataset(dataset, group_by?, …filters)` | a live aggregate, with the exact SoQL executed and an `executed_at` |
+
+`query_dataset` builds its own SoQL from named, typed filters and does **not** accept a
+`$where` string — a passthrough would let a caller reshape the query into something its
+own `executed_query` no longer describes. Queries against budgeted revenue always carry
+the `Totals` exclusion, whatever else was asked for.
+
+`join_lookup()` is the contract's third hybrid tool and lands in Stage 4 with the `joins/`
+documents it reads. Registering a stub now would answer "no joins" to every question,
+which reads as "no relationship exists".
+
 ### Two provenance clocks, never one
 
 This is a **hybrid** corpus, and its two halves are dated differently. The mirrored data
