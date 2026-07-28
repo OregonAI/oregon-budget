@@ -85,12 +85,19 @@ fresh-looking citation.
 ## Rebuilding
 
 ```
-pip install -r requirements.txt
+pip install -r requirements.txt -r requirements-build.txt
 python3 src/ingest_expenditures.py      # mirror SODA -> data/expenditures/*.parquet
 python3 src/build_documents.py          # 544 agency-year documents
 python3 src/build_dataset_docs.py       # 3 dataset docs
+python3 src/extract_appropriations.py --sibling ../oregon-legislature --session 2025R1
+python3 src/build_joins.py              # 18 appropriation -> spending joins
 python3 src/build_graph.py              # _meta/graph.json
 ```
+
+`requirements.txt` is what the **server** needs; `requirements-build.txt` adds pyarrow and
+duckdb, which only the rebuild uses. The Docker image installs the first and not the
+second — the MCP server never reads the Parquet, so shipping ~60 MB of wheels no request
+touches would be waste.
 
 Every one of those has a `--check` that verifies rather than regenerates, and each is
 wired into CI. The split is deliberate:
@@ -101,6 +108,8 @@ wired into CI. The split is deliberate:
 | `build_graph.py --check` | every PR | offline; catches a document added without rebuilding the graph |
 | `ingest_expenditures.py --check` | weekly | needs the live API; compares row count **and** summed expense per year |
 | `build_dataset_docs.py --check` | weekly | needs the live API; detects upstream schema drift |
+| `build_joins.py --check` | every PR | offline; every `document_id` resolves and every key selects rows |
+| `extract_appropriations.py --check` | every PR | clones the sibling; all 1,704 quoted bill lines must still exist |
 
 The live checks are deliberately not per-PR. A gate that depends on a third party being up
 goes red for reasons unrelated to the change, and a gate that cries wolf is one people
