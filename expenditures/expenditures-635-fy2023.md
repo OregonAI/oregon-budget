@@ -1,0 +1,144 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-635-fy2023
+title: Fish & Wildlife, Dept of — FY2023 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 635, FY2023
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 6400163010ab2f341831c864272a89c5e9f2a261fad3fd9572b230042f26e3d5
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-635-fy2022
+  - expenditures-635-fy2024
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2023
+- agency-635
+- fish-wildlife-dept-of
+agency_code: '635'
+agency_name: FISH & WILDLIFE, DEPT OF
+fiscal_year: 2023
+total_expense: '96090619.07'
+transaction_count: 4079
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Fish & Wildlife, Dept of — FY2023 expenditures
+
+## At a glance
+
+Fish & Wildlife, Dept of (agency code 635, recorded upstream as `FISH & WILDLIFE, DEPT OF`) spent **$96,090,619.07** in fiscal year 2023, across 4,079 transaction records. That is up 19.6% from $80,336,842.98 in FY2022. The agency accounts for 0.31% of the $30,726,070,119.27 in statewide agency spending recorded for FY2023, ranking **23 of 77** agencies reporting that year.
+
+The largest budget category was **Professional Services** at $20,724,674.40 (21.6% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 4300 | Professional Services | $20,724,674.40 | 21.6% | 248 |
+| 6257 | Dist To State Police | $17,168,656.58 | 17.9% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | $12,557,659.15 | 13.1% | 403 |
+| 4100 | Instate Travel | $4,982,759.31 | 5.2% | 1,167 |
+| 6025 | Distribution To Other Govts | $4,812,594.24 | 5.0% | 27 |
+| 4225 | State Government Service Charges | $4,423,113.99 | 4.6% | 5 |
+| 4650 | Other Services And Supplies | $3,600,110.73 | 3.7% | 671 |
+| 5900 | Other Capital Outlay | $2,456,926.24 | 2.6% | 33 |
+| 4450 | Fuels And Utilities | $1,783,677.11 | 1.9% | 112 |
+| 4715 | It Expendable Property | $1,769,394.59 | 1.8% | 40 |
+| 4600 | Intra-Inter Agency Charges | $1,532,327.13 | 1.6% | 5 |
+| 4475 | Facilities Maintenance | $1,404,976.68 | 1.5% | 216 |
+| 4200 | Telecomm/Tech Svc And Supplies | $1,398,074.87 | 1.5% | 79 |
+| 4315 | It Professional Services | $1,261,615.58 | 1.3% | 8 |
+| 4325 | Attorney General Legal Fees | $1,240,761.51 | 1.3% | 3 |
+| 5700 | Buildings And Structures | $1,200,559.36 | 1.2% | 18 |
+| 5350 | Industrial & Heavy Equipment | $1,191,267.06 | 1.2% | 22 |
+| 7100 | Principal - Bonds | $1,190,000.00 | 1.2% | 1 |
+| 4175 | Office Expenses | $1,112,377.98 | 1.2% | 88 |
+| 4275 | Publicity & Publications | $1,043,184.12 | 1.1% | 41 |
+| 5450 | Agricultural Equip And Machinery | $1,043,051.77 | 1.1% | 6 |
+| 4250 | Data Processing | $1,017,623.91 | 1.1% | 11 |
+| 7150 | Interest - Bonds | $969,716.11 | 1.0% | 1 |
+| 5400 | Automotive & Aircraft | $958,903.54 | 1.0% | 7 |
+| 4425 | Lease Payments & Taxes | $767,038.23 | 0.8% | 66 |
+| 6629 | Dist To Forestry | $723,372.00 | 0.8% | 1 |
+| 4150 | Employee Training | $691,161.95 | 0.7% | 512 |
+| 5200 | Technical Equipment | $543,414.13 | 0.6% | 16 |
+| 4700 | Expendable Property $250-$5000 | $452,103.38 | 0.5% | 14 |
+| 6020 | Distribution To Counties | $439,356.33 | 0.5% | 2 |
+| 6015 | Distribution To Cities | $308,694.00 | 0.3% | 1 |
+| 5650 | Land Improvements | $267,418.72 | 0.3% | 4 |
+| 4125 | Out-Of-State Travel | $254,334.97 | 0.3% | 193 |
+| 6050 | Distribution To Non-Profit Org | $182,737.80 | 0.2% | 2 |
+| 4400 | Dues And Subscriptions | $154,006.48 | 0.2% | 36 |
+| 5600 | Data Processing Hardware | $138,604.73 | 0.1% | 1 |
+| 6030 | Distribution To Non-Governments | $125,125.20 | 0.1% | 3 |
+| 3280 | Other Payroll Expenses | $59,897.28 | 0.1% | 1 |
+| 3110 | Class/Unclass Salary & Per Diem | $53,601.67 | 0.1% | 1 |
+| 4350 | Dispute Resolution Services | $34,156.40 | 0.0% | 1 |
+| 3221 | Pension Bond Contribution | $18,180.61 | 0.0% | 2 |
+| 3220 | Public Employes' Retirement System | $15,864.08 | 0.0% | 4 |
+| 3270 | Flexible Benefits | $10,497.87 | 0.0% | 1 |
+| 3230 | Social Security Tax | $4,271.98 | 0.0% | 1 |
+| 3190 | All Other Differential | $2,631.25 | 0.0% | 1 |
+| 4375 | Employee Recruitment And Development | $118.74 | 0.0% | 1 |
+| 3210 | Erb Assessment | $14.72 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | $10.59 | 0.0% | 1 |
+
+## Largest expenditure classes
+
+The 12 largest of 124 expenditure classes used by this agency in FY2023.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 6136 | Distribution To State Police | $17,168,656.58 | 17.9% |
+| 4505 | Professional Services Non-It>$75K | $15,673,981.10 | 16.3% |
+| 4976 | Agency Program Related Supplies | $12,479,536.88 | 13.0% |
+| 4500 | Professional Services Non-It | $5,050,693.30 | 5.3% |
+| 6700 | Distribution To Other Governments | $4,812,594.24 | 5.0% |
+| 4600 | State Government Service Charges | $4,423,113.99 | 4.6% |
+| 4108 | Instate Ground Transportation | $3,858,536.05 | 4.0% |
+| 4701 | Other Services | $3,218,463.40 | 3.3% |
+| 4825 | Fuels And Utilities | $1,783,677.11 | 1.9% |
+| 4650 | Intra-Inter Agency Charges | $1,532,327.13 | 1.6% |
+| 5150 | Equipment And Machinery>=$5K | $1,258,977.47 | 1.3% |
+| 4550 | Attorney General Legal Fees | $1,240,761.51 | 1.3% |
+
+## Curator notes
+
+Figures are aggregated from 4,079 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='635' AND fiscal_year='2023'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2023.parquet`, the file these figures were computed from.
+

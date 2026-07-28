@@ -1,0 +1,120 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-690-fy2021
+title: Water Resources, Dept of — FY2021 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 690, FY2021
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 81c90c241c212dba4cc304dd132bb03379de0003138cc2451899f8f95b1dcc97
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-690-fy2020
+  - expenditures-690-fy2022
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2021
+- agency-690
+- water-resources-dept-of
+agency_code: '690'
+agency_name: WATER RESOURCES, DEPT OF
+fiscal_year: 2021
+total_expense: '9945786.83'
+transaction_count: 341
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Water Resources, Dept of — FY2021 expenditures
+
+## At a glance
+
+Water Resources, Dept of (agency code 690, recorded upstream as `WATER RESOURCES, DEPT OF`) spent **$9,945,786.83** in fiscal year 2021, across 341 transaction records. That is down 49.9% from $19,858,662.97 in FY2020. The agency accounts for 0.04% of the $27,010,059,496.47 in statewide agency spending recorded for FY2021, ranking **37 of 76** agencies reporting that year.
+
+The largest budget category was **Distribution To Non-Governments** at $2,901,499.76 (29.2% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 6030 | Distribution To Non-Governments | $2,901,499.76 | 29.2% | 14 |
+| 6025 | Distribution To Other Govts | $1,967,459.84 | 19.8% | 10 |
+| 4300 | Professional Services | $1,509,505.68 | 15.2% | 32 |
+| 4425 | Lease Payments & Taxes | $866,821.94 | 8.7% | 9 |
+| 4325 | Attorney General Legal Fees | $697,623.98 | 7.0% | 1 |
+| 4225 | State Government Service Charges | $661,719.86 | 6.7% | 5 |
+| 4575 | Agency Program Related Svcs & Supp | $382,625.13 | 3.8% | 2 |
+| 4250 | Data Processing | $204,897.09 | 2.1% | 3 |
+| 4650 | Other Services And Supplies | $128,814.30 | 1.3% | 48 |
+| 4200 | Telecomm/Tech Svc And Supplies | $122,595.13 | 1.2% | 19 |
+| 4700 | Expendable Property $250-$5000 | $115,528.19 | 1.2% | 8 |
+| 4175 | Office Expenses | $82,619.40 | 0.8% | 42 |
+| 4400 | Dues And Subscriptions | $68,258.49 | 0.7% | 17 |
+| 4715 | It Expendable Property | $67,977.61 | 0.7% | 8 |
+| 5200 | Technical Equipment | $46,544.28 | 0.5% | 3 |
+| 4100 | Instate Travel | $41,219.73 | 0.4% | 72 |
+| 4275 | Publicity & Publications | $30,161.42 | 0.3% | 28 |
+| 5600 | Data Processing Hardware | $24,118.83 | 0.2% | 1 |
+| 4450 | Fuels And Utilities | $11,346.91 | 0.1% | 6 |
+| 4475 | Facilities Maintenance | $6,462.29 | 0.1% | 2 |
+| 4125 | Out-Of-State Travel | $3,678.62 | 0.0% | 8 |
+| 3240 | Unemployment Assessment | $2,443.54 | 0.0% | 1 |
+| 4150 | Employee Training | $1,000.00 | 0.0% | 1 |
+| 3110 | Class/Unclass Salary & Per Diem | $864.81 | 0.0% | 1 |
+
+## Largest expenditure classes
+
+The 12 largest of 39 expenditure classes used by this agency in FY2021.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 6725 | Distribution To Non-Governments | $2,901,499.76 | 29.2% |
+| 6700 | Distribution To Other Governments | $1,967,459.84 | 19.8% |
+| 4500 | Professional Services Non-It | $1,506,935.92 | 15.2% |
+| 4800 | Interagency Lease Payments | $866,821.94 | 8.7% |
+| 4550 | Attorney General Legal Fees | $697,623.98 | 7.0% |
+| 4600 | State Government Service Charges | $661,719.86 | 6.7% |
+| 4975 | Agency Program Related Services | $382,625.13 | 3.8% |
+| 4375 | Computer Technology Computer Processing | $159,780.66 | 1.6% |
+| 4999 | Expendable Property Non-It<$5K | $115,528.19 | 1.2% |
+| 4301 | Telecom/Voice Usage | $112,436.87 | 1.1% |
+| 4251 | Subscriptions And Publications | $68,258.49 | 0.7% |
+| 4704 | Other Supplies | $67,987.68 | 0.7% |
+
+## Curator notes
+
+Figures are aggregated from 341 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='690' AND fiscal_year='2021'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2021.parquet`, the file these figures were computed from.
+

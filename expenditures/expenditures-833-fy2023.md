@@ -1,0 +1,120 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-833-fy2023
+title: Health Related Licensing Brds — FY2023 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 833, FY2023
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 6400163010ab2f341831c864272a89c5e9f2a261fad3fd9572b230042f26e3d5
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-833-fy2022
+  - expenditures-833-fy2024
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2023
+- agency-833
+- health-related-licensing-brds
+agency_code: '833'
+agency_name: HEALTH RELATED LICENSING BRDs
+fiscal_year: 2023
+total_expense: '1139034.90'
+transaction_count: 292
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Health Related Licensing Brds — FY2023 expenditures
+
+## At a glance
+
+Health Related Licensing Brds (agency code 833, recorded upstream as `HEALTH RELATED LICENSING BRDs`) spent **$1,139,034.90** in fiscal year 2023, across 292 transaction records. That is down 9.7% from $1,261,653.89 in FY2022. The agency accounts for 0.00% of the $30,726,070,119.27 in statewide agency spending recorded for FY2023, ranking **55 of 77** agencies reporting that year.
+
+The largest budget category was **Agency Program Related Svcs & Supp** at $347,789.25 (30.5% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 4575 | Agency Program Related Svcs & Supp | $347,789.25 | 30.5% | 74 |
+| 4325 | Attorney General Legal Fees | $218,467.26 | 19.2% | 7 |
+| 4650 | Other Services And Supplies | $147,571.13 | 13.0% | 21 |
+| 4425 | Lease Payments & Taxes | $143,671.39 | 12.6% | 7 |
+| 4225 | State Government Service Charges | $84,606.22 | 7.4% | 23 |
+| 4315 | It Professional Services | $44,154.00 | 3.9% | 13 |
+| 4200 | Telecomm/Tech Svc And Supplies | $33,507.55 | 2.9% | 31 |
+| 3110 | Class/Unclass Salary & Per Diem | $29,892.71 | 2.6% | 1 |
+| 4175 | Office Expenses | $16,055.47 | 1.4% | 24 |
+| 4300 | Professional Services | $13,406.23 | 1.2% | 10 |
+| 4100 | Instate Travel | $12,509.46 | 1.1% | 53 |
+| 4700 | Expendable Property $250-$5000 | $12,230.04 | 1.1% | 1 |
+| 4250 | Data Processing | $11,645.10 | 1.0% | 7 |
+| 3270 | Flexible Benefits | $6,287.36 | 0.6% | 1 |
+| 3220 | Public Employes' Retirement System | $5,420.18 | 0.5% | 2 |
+| 4715 | It Expendable Property | $3,159.49 | 0.3% | 3 |
+| 3230 | Social Security Tax | $2,372.99 | 0.2% | 1 |
+| 4150 | Employee Training | $1,924.00 | 0.2% | 3 |
+| 3221 | Pension Bond Contribution | $1,757.69 | 0.2% | 1 |
+| 3190 | All Other Differential | $1,494.64 | 0.1% | 1 |
+| 4275 | Publicity & Publications | $897.00 | 0.1% | 5 |
+| 3260 | Mass Transit | $179.36 | 0.0% | 1 |
+| 3241 | Paid Family Medical Leave Insurance | $31.31 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | $5.07 | 0.0% | 1 |
+
+## Largest expenditure classes
+
+The 12 largest of 39 expenditure classes used by this agency in FY2023.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 4975 | Agency Program Related Services | $347,789.25 | 30.5% |
+| 4550 | Attorney General Legal Fees | $218,467.26 | 19.2% |
+| 4800 | Interagency Lease Payments | $143,671.39 | 12.6% |
+| 4600 | State Government Service Charges | $84,606.22 | 7.4% |
+| 4701 | Other Services | $79,434.58 | 7.0% |
+| 4730 | Merchant Fees | $66,607.30 | 5.8% |
+| 4519 | Professional Serv/Managed Serv Provider | $44,154.00 | 3.9% |
+| 3111 | Regular Employees | $29,892.71 | 2.6% |
+| 4301 | Telecom/Voice Usage | $17,061.33 | 1.5% |
+| 4500 | Professional Services Non-It | $13,406.23 | 1.2% |
+| 4200 | Office Supplies | $13,230.33 | 1.2% |
+| 4999 | Expendable Property Non-It<$5K | $12,230.04 | 1.1% |
+
+## Curator notes
+
+Figures are aggregated from 292 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='833' AND fiscal_year='2023'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2023.parquet`, the file these figures were computed from.
+

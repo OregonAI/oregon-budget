@@ -1,0 +1,119 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-691-fy2019
+title: Watershed Enh Brd — FY2019 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 691, FY2019
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 3900810723066d4651c7227ef0c74a8b9c41ff76c2e4bcebbbb6f2268e443d34
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-691-fy2020
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2019
+- agency-691
+- watershed-enh-brd
+agency_code: '691'
+agency_name: WATERSHED ENH BRD
+fiscal_year: 2019
+total_expense: '42966528.19'
+transaction_count: 463
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Watershed Enh Brd — FY2019 expenditures
+
+## At a glance
+
+Watershed Enh Brd (agency code 691, recorded upstream as `WATERSHED ENH BRD`) spent **$42,966,528.19** in fiscal year 2019, across 463 transaction records. FY2018 is outside the range this dataset covers. The agency accounts for 0.21% of the $20,745,841,274.19 in statewide agency spending recorded for FY2019, ranking **25 of 78** agencies reporting that year.
+
+The largest budget category was **Distribution To Non-Governments** at $23,031,617.08 (53.6% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 6030 | Distribution To Non-Governments | $23,031,617.08 | 53.6% | 109 |
+| 6025 | Distribution To Other Govts | $13,161,629.00 | 30.6% | 72 |
+| 6635 | Dist To Fish And Wildlife | $5,651,677.02 | 13.2% | 1 |
+| 6580 | Dist To Higher Education | $179,961.77 | 0.4% | 1 |
+| 4425 | Facilities Rent & Taxes | $172,935.31 | 0.4% | 23 |
+| 4300 | Professional Services | $103,039.33 | 0.2% | 9 |
+| 4225 | State Government Service Charges | $98,854.28 | 0.2% | 6 |
+| 4100 | Instate Travel | $85,314.01 | 0.2% | 107 |
+| 6690 | Dist To Water Resources | $79,335.00 | 0.2% | 1 |
+| 4325 | Attorney General Legal Fees | $69,973.77 | 0.2% | 1 |
+| 6340 | Dist To Deq | $55,376.00 | 0.1% | 1 |
+| 4650 | Other Services And Supplies | $45,930.69 | 0.1% | 27 |
+| 4575 | Agency Program Related Svcs & Supp | $45,279.76 | 0.1% | 3 |
+| 6048 | Special Payment To Public Universities | $35,524.00 | 0.1% | 1 |
+| 4150 | Employee Training | $33,351.37 | 0.1% | 38 |
+| 4175 | Office Expenses | $26,460.74 | 0.1% | 14 |
+| 4715 | It Expendable Property | $20,599.88 | 0.0% | 5 |
+| 4200 | Telecomm/Tech Svc And Supplies | $19,055.45 | 0.0% | 7 |
+| 4250 | Data Processing | $18,798.41 | 0.0% | 3 |
+| 4125 | Out-Of-State Travel | $15,126.21 | 0.0% | 19 |
+| 4700 | Expendable Property $250-$5000 | $8,733.06 | 0.0% | 1 |
+| 4275 | Publicity & Publications | $3,972.05 | 0.0% | 7 |
+| 4400 | Dues And Subscriptions | $3,833.00 | 0.0% | 5 |
+| 6035 | Distribution To Individuals | $151.00 | 0.0% | 2 |
+
+## Largest expenditure classes
+
+The 12 largest of 51 expenditure classes used by this agency in FY2019.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 6725 | Distribution To Non-Governments | $22,909,677.08 | 53.3% |
+| 6700 | Distribution To Other Governments | $13,161,629.00 | 30.6% |
+| 6179 | Distribution To Fish And Wildlife | $5,651,677.02 | 13.2% |
+| 6451 | Distribution To Oregon State University | $215,485.77 | 0.5% |
+| 4800 | Facilities Rent | $172,935.31 | 0.4% |
+| 6826 | Payments To Non-Governments | $121,940.00 | 0.3% |
+| 4500 | Professional Services Non-It | $103,039.33 | 0.2% |
+| 4600 | State Government Service Charges | $98,854.28 | 0.2% |
+| 6181 | Distribution To Water Resources | $79,335.00 | 0.2% |
+| 4550 | Attorney General Legal Fees | $69,973.77 | 0.2% |
+| 4106 | Instate Lodging | $61,649.74 | 0.1% |
+| 6144 | Distribution To Deq | $55,376.00 | 0.1% |
+
+## Curator notes
+
+Figures are aggregated from 463 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='691' AND fiscal_year='2019'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2019.parquet`, the file these figures were computed from.
+

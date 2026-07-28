@@ -1,0 +1,130 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-603-fy2022
+title: Agriculture, Dept of — FY2022 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 603, FY2022
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 5378b32aad5d54d03160dd49832cc5c4f45e517dde8ba96c7e5b8bbb6e3a99f4
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-603-fy2021
+  - expenditures-603-fy2023
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2022
+- agency-603
+- agriculture-dept-of
+agency_code: '603'
+agency_name: AGRICULTURE, DEPT OF
+fiscal_year: 2022
+total_expense: '36114453.53'
+transaction_count: 1223
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Agriculture, Dept of — FY2022 expenditures
+
+## At a glance
+
+Agriculture, Dept of (agency code 603, recorded upstream as `AGRICULTURE, DEPT OF`) spent **$36,114,453.53** in fiscal year 2022, across 1,223 transaction records. That is up 145.4% from $14,717,418.72 in FY2021. The agency accounts for 0.12% of the $30,846,521,641.15 in statewide agency spending recorded for FY2022, ranking **28 of 76** agencies reporting that year.
+
+The largest budget category was **Other Special Payments** at $16,419,729.00 (45.5% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 6085 | Other Special Payments | $16,419,729.00 | 45.5% | 4 |
+| 4650 | Other Services And Supplies | $3,756,679.88 | 10.4% | 191 |
+| 4225 | State Government Service Charges | $2,485,008.49 | 6.9% | 5 |
+| 6048 | Special Payment To Public Universities | $2,232,311.21 | 6.2% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | $1,841,346.78 | 5.1% | 129 |
+| 4425 | Lease Payments & Taxes | $1,809,044.08 | 5.0% | 33 |
+| 4100 | Instate Travel | $1,415,026.37 | 3.9% | 388 |
+| 6340 | Dist To Deq | $720,535.50 | 2.0% | 1 |
+| 6050 | Distribution To Non-Profit Org | $615,941.61 | 1.7% | 20 |
+| 4325 | Attorney General Legal Fees | $566,600.66 | 1.6% | 1 |
+| 6030 | Distribution To Non-Governments | $530,128.37 | 1.5% | 13 |
+| 4200 | Telecomm/Tech Svc And Supplies | $484,058.31 | 1.3% | 30 |
+| 4715 | It Expendable Property | $468,596.01 | 1.3% | 11 |
+| 4175 | Office Expenses | $421,138.59 | 1.2% | 70 |
+| 6020 | Distribution To Counties | $415,431.91 | 1.2% | 12 |
+| 6025 | Distribution To Other Govts | $365,999.52 | 1.0% | 17 |
+| 4300 | Professional Services | $324,933.23 | 0.9% | 17 |
+| 4315 | It Professional Services | $219,273.01 | 0.6% | 6 |
+| 4250 | Data Processing | $205,864.93 | 0.6% | 8 |
+| 6443 | Dist To Oregon Health Authority | $151,987.50 | 0.4% | 1 |
+| 4150 | Employee Training | $110,777.17 | 0.3% | 15 |
+| 5200 | Technical Equipment | $101,430.81 | 0.3% | 4 |
+| 4700 | Expendable Property $250-$5000 | $99,448.26 | 0.3% | 6 |
+| 6035 | Distribution To Individuals | $73,099.01 | 0.2% | 143 |
+| 4125 | Out-Of-State Travel | $59,446.71 | 0.2% | 60 |
+| 4400 | Dues And Subscriptions | $54,461.08 | 0.2% | 7 |
+| 3240 | Unemployment Assessment | $45,155.43 | 0.1% | 1 |
+| 4275 | Publicity & Publications | $41,272.92 | 0.1% | 10 |
+| 4450 | Fuels And Utilities | $29,407.75 | 0.1% | 6 |
+| 5550 | Data Processing Software | $14,827.46 | 0.0% | 1 |
+| 4475 | Facilities Maintenance | $13,292.94 | 0.0% | 3 |
+| 3110 | Class/Unclass Salary & Per Diem | $11,601.07 | 0.0% | 1 |
+| 4375 | Employee Recruitment And Development | $10,207.36 | 0.0% | 7 |
+| 3230 | Social Security Tax | $390.60 | 0.0% | 1 |
+
+## Largest expenditure classes
+
+The 12 largest of 80 expenditure classes used by this agency in FY2022.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 6900 | Other Special Payments | $16,419,729.00 | 45.5% |
+| 4701 | Other Services | $2,879,319.02 | 8.0% |
+| 4600 | State Government Service Charges | $2,485,008.49 | 6.9% |
+| 6451 | Distribution To Oregon State University | $2,232,311.21 | 6.2% |
+| 4800 | Interagency Lease Payments | $1,247,202.48 | 3.5% |
+| 4975 | Agency Program Related Services | $1,010,764.83 | 2.8% |
+| 4108 | Instate Ground Transportation | $989,496.87 | 2.7% |
+| 4976 | Agency Program Related Supplies | $822,152.70 | 2.3% |
+| 6144 | Distribution To Deq | $720,535.50 | 2.0% |
+| 6735 | Distribution To Non-Profit Org | $615,941.61 | 1.7% |
+| 4550 | Attorney General Legal Fees | $566,600.66 | 1.6% |
+| 4704 | Other Supplies | $556,194.39 | 1.5% |
+
+## Curator notes
+
+Figures are aggregated from 1,223 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='603' AND fiscal_year='2022'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2022.parquet`, the file these figures were computed from.
+

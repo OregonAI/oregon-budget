@@ -1,0 +1,122 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-632-fy2019
+title: Geology & Mineral Ind, Dept of — FY2019 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 632, FY2019
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 3900810723066d4651c7227ef0c74a8b9c41ff76c2e4bcebbbb6f2268e443d34
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-632-fy2020
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2019
+- agency-632
+- geology-mineral-ind-dept-of
+agency_code: '632'
+agency_name: GEOLOGY & MINERAL IND, DEPT OF
+fiscal_year: 2019
+total_expense: '1647701.96'
+transaction_count: 206
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Geology & Mineral Ind, Dept of — FY2019 expenditures
+
+## At a glance
+
+Geology & Mineral Ind, Dept of (agency code 632, recorded upstream as `GEOLOGY & MINERAL IND, DEPT OF`) spent **$1,647,701.96** in fiscal year 2019, across 206 transaction records. FY2018 is outside the range this dataset covers. The agency accounts for 0.01% of the $20,745,841,274.19 in statewide agency spending recorded for FY2019, ranking **52 of 78** agencies reporting that year.
+
+The largest budget category was **Professional Services** at $786,676.00 (47.7% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 4300 | Professional Services | $786,676.00 | 47.7% | 18 |
+| 4650 | Other Services And Supplies | $186,125.15 | 11.3% | 2 |
+| 4425 | Facilities Rent & Taxes | $179,294.50 | 10.9% | 2 |
+| 4225 | State Government Service Charges | $121,264.74 | 7.4% | 3 |
+| 4100 | Instate Travel | $56,293.38 | 3.4% | 83 |
+| 3110 | Class/Unclass Salary & Per Diem | $54,866.09 | 3.3% | 2 |
+| 4325 | Attorney General Legal Fees | $46,394.71 | 2.8% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | $44,841.03 | 2.7% | 4 |
+| 4175 | Office Expenses | $40,318.53 | 2.4% | 9 |
+| 4250 | Data Processing | $36,670.74 | 2.2% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | $26,280.17 | 1.6% | 7 |
+| 4125 | Out-Of-State Travel | $16,035.69 | 1.0% | 25 |
+| 3270 | Flexible Benefits | $12,610.59 | 0.8% | 2 |
+| 4315 | It Professional Services | $10,000.00 | 0.6% | 1 |
+| 3220 | Public Employes' Retirement System | $8,592.19 | 0.5% | 8 |
+| 4450 | Fuels And Utilities | $6,015.47 | 0.4% | 5 |
+| 4475 | Facilities Maintenance | $3,891.76 | 0.2% | 1 |
+| 3230 | Social Security Tax | $3,759.08 | 0.2% | 2 |
+| 3221 | Pension Bond Contribution | $3,100.00 | 0.2% | 2 |
+| 4150 | Employee Training | $2,174.75 | 0.1% | 14 |
+| 4275 | Publicity & Publications | $1,313.20 | 0.1% | 3 |
+| 4400 | Dues And Subscriptions | $577.00 | 0.0% | 3 |
+| 3240 | Unemployment Assessment | $472.07 | 0.0% | 1 |
+| 3170 | Overtime Payments | $80.38 | 0.0% | 1 |
+| 3260 | Mass Transit | $25.67 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | $14.94 | 0.0% | 2 |
+| 3210 | Erb Assessment | $14.13 | 0.0% | 2 |
+
+## Largest expenditure classes
+
+The 12 largest of 53 expenditure classes used by this agency in FY2019.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 4500 | Professional Services Non-It | $786,676.00 | 47.7% |
+| 4701 | Other Services | $186,125.15 | 11.3% |
+| 4800 | Facilities Rent | $179,294.50 | 10.9% |
+| 4600 | State Government Service Charges | $121,264.74 | 7.4% |
+| 3111 | Regular Employees | $54,866.09 | 3.3% |
+| 4550 | Attorney General Legal Fees | $46,394.71 | 2.8% |
+| 4200 | Office Supplies | $37,904.74 | 2.3% |
+| 4108 | Instate Ground Transportation | $29,665.61 | 1.8% |
+| 4976 | Agency Program Related Supplies | $29,008.60 | 1.8% |
+| 4301 | Telecom/Voice Usage | $23,035.62 | 1.4% |
+| 4375 | Computer Technology Computer Processing | $20,022.74 | 1.2% |
+| 4362 | Computer Technology Server Support | $16,648.00 | 1.0% |
+
+## Curator notes
+
+Figures are aggregated from 206 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='632' AND fiscal_year='2019'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2019.parquet`, the file these figures were computed from.
+

@@ -6,20 +6,20 @@ on:
 
 jobs:
   frontmatter:
-    uses: OregonAI/corpus-toolkit/.github/workflows/validate-frontmatter.yml@v1.4.0
+    uses: OregonAI/corpus-toolkit/.github/workflows/validate-frontmatter.yml@v1.5.3
     with:
       # Pin the CODE, not just the workflow file above — separate knobs.
-      toolkit-ref: v1.4.0
+      toolkit-ref: v1.5.3
   provenance:
-    uses: OregonAI/corpus-toolkit/.github/workflows/verify-provenance.yml@v1.4.0
+    uses: OregonAI/corpus-toolkit/.github/workflows/verify-provenance.yml@v1.5.3
     with:
       # Pin the CODE, not just the workflow file above — separate knobs.
-      toolkit-ref: v1.4.0
+      toolkit-ref: v1.5.3
   links:
-    uses: OregonAI/corpus-toolkit/.github/workflows/check-links.yml@v1.4.0
+    uses: OregonAI/corpus-toolkit/.github/workflows/check-links.yml@v1.5.3
     with:
       # Pin the CODE, not just the workflow file above — separate knobs.
-      toolkit-ref: v1.4.0
+      toolkit-ref: v1.5.3
       # lychee walks './**/*.md'. Without these exclusions it crawls
       # _meta/templates/document.md — a skeleton whose example URLs are not meant
       # to resolve — and every PR fails on link rot that is not link rot.
@@ -45,6 +45,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install pyyaml
+      # duckdb reads the committed Parquet; pyarrow is not needed to CHECK, only to
+      # re-mirror. These checks are deliberately OFFLINE — see the note below.
+      - run: pip install pyyaml duckdb
       - name: Authority graph must be current
         run: python3 src/build_graph.py --check
+      # Re-derives every figure in all 544 agency-year documents from the committed
+      # Parquet. corpus-verify-provenance structurally cannot do this: these are derived
+      # aggregates, not extracted source text, so with snapshot_policy: hash-only and no
+      # committed .txt it sets source_text = "" and verifies nothing — it reports
+      # "0 full-text sections verified", which is honest and is exactly why this exists.
+      - name: Documents must reconcile to the mirrored data
+        run: python3 src/build_documents.py --check
+
+  # WHY THE LIVE-API CHECKS ARE NOT HERE. Reconciling the mirror against data.oregon.gov
+  # and re-measuring dataset schemas both need the network. Running them per-PR makes
+  # every pull request depend on a third party being up, so the gate goes red for reasons
+  # unrelated to the change — and a gate that cries wolf is one people learn to ignore.
+  # They run on a schedule instead, in scheduled.yml, where a failure means what it says.

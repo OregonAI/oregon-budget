@@ -1,0 +1,112 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-919-fy2019
+title: Real Estate Agy — FY2019 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 919, FY2019
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 3900810723066d4651c7227ef0c74a8b9c41ff76c2e4bcebbbb6f2268e443d34
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-919-fy2020
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2019
+- agency-919
+- real-estate-agy
+agency_code: '919'
+agency_name: REAL ESTATE AGY
+fiscal_year: 2019
+total_expense: '620689.13'
+transaction_count: 135
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Real Estate Agy — FY2019 expenditures
+
+## At a glance
+
+Real Estate Agy (agency code 919, recorded upstream as `REAL ESTATE AGY`) spent **$620,689.13** in fiscal year 2019, across 135 transaction records. FY2018 is outside the range this dataset covers. The agency accounts for 0.00% of the $20,745,841,274.19 in statewide agency spending recorded for FY2019, ranking **59 of 78** agencies reporting that year.
+
+The largest budget category was **Facilities Rent & Taxes** at $106,074.92 (17.1% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 4425 | Facilities Rent & Taxes | $106,074.92 | 17.1% | 2 |
+| 4225 | State Government Service Charges | $104,575.52 | 16.8% | 5 |
+| 4650 | Other Services And Supplies | $77,216.34 | 12.4% | 5 |
+| 4315 | It Professional Services | $75,427.25 | 12.2% | 3 |
+| 4250 | Data Processing | $57,753.94 | 9.3% | 5 |
+| 4325 | Attorney General Legal Fees | $35,004.14 | 5.6% | 1 |
+| 4300 | Professional Services | $32,228.88 | 5.2% | 2 |
+| 4125 | Out-Of-State Travel | $27,763.82 | 4.5% | 22 |
+| 4100 | Instate Travel | $23,962.79 | 3.9% | 63 |
+| 4200 | Telecomm/Tech Svc And Supplies | $21,009.39 | 3.4% | 6 |
+| 4175 | Office Expenses | $19,787.10 | 3.2% | 7 |
+| 4150 | Employee Training | $14,026.33 | 2.3% | 4 |
+| 4715 | It Expendable Property | $13,132.47 | 2.1% | 5 |
+| 4700 | Expendable Property $250-$5000 | $10,725.27 | 1.7% | 1 |
+| 4475 | Facilities Maintenance | $1,171.42 | 0.2% | 1 |
+| 4400 | Dues And Subscriptions | $821.95 | 0.1% | 2 |
+| 4275 | Publicity & Publications | $7.60 | 0.0% | 1 |
+
+## Largest expenditure classes
+
+The 12 largest of 39 expenditure classes used by this agency in FY2019.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 4800 | Facilities Rent | $106,074.92 | 17.1% |
+| 4600 | State Government Service Charges | $104,575.52 | 16.8% |
+| 4730 | Merchant Fees | $71,127.23 | 11.5% |
+| 4375 | Computer Technology Computer Processing | $56,480.53 | 9.1% |
+| 4515 | Professional Services Application Maint | $51,164.75 | 8.2% |
+| 4550 | Attorney General Legal Fees | $35,004.14 | 5.6% |
+| 4500 | Professional Services Non-It | $32,228.88 | 5.2% |
+| 4514 | Professional Services Application Mod | $24,262.50 | 3.9% |
+| 4301 | Telecom/Voice Usage | $15,492.49 | 2.5% |
+| 4150 | Out-Of-State Lodging | $13,442.81 | 2.2% |
+| 4109 | Instate Mileage Reimbursement-Full Rate | $13,034.70 | 2.1% |
+| 4999 | Expendable Property Non-It<$5K | $10,725.27 | 1.7% |
+
+## Curator notes
+
+Figures are aggregated from 135 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='919' AND fiscal_year='2019'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2019.parquet`, the file these figures were computed from.
+

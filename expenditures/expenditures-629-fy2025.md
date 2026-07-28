@@ -1,0 +1,151 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-629-fy2025
+title: Forestry, Dept of — FY2025 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 629, FY2025
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 5e9f0c30287913ac0bfff8d74a1225d0c2816ca6a307f2141ebb35602c5a91ed
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-629-fy2024
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2025
+- agency-629
+- forestry-dept-of
+agency_code: '629'
+agency_name: FORESTRY, DEPT OF
+fiscal_year: 2025
+total_expense: '393850615.48'
+transaction_count: 4351
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Forestry, Dept of — FY2025 expenditures
+
+## At a glance
+
+Forestry, Dept of (agency code 629, recorded upstream as `FORESTRY, DEPT OF`) spent **$393,850,615.48** in fiscal year 2025, across 4,351 transaction records. That is up 99.9% from $197,015,993.06 in FY2024. The agency accounts for 1.12% of the $35,121,392,355.76 in statewide agency spending recorded for FY2025, ranking **14 of 80** agencies reporting that year.
+
+The largest budget category was **Professional Services** at $280,466,264.97 (71.2% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 4300 | Professional Services | $280,466,264.97 | 71.2% | 999 |
+| 6048 | Special Payment To Public Universities | $26,752,968.00 | 6.8% | 2 |
+| 6030 | Distribution To Non-Governments | $26,509,425.70 | 6.7% | 52 |
+| 4575 | Agency Program Related Svcs & Supp | $10,654,909.85 | 2.7% | 402 |
+| 4225 | State Government Service Charges | $8,999,465.96 | 2.3% | 4 |
+| 4525 | Medical Supplies And Services | $6,428,748.49 | 1.6% | 34 |
+| 7200 | Principal - Cert Of Participation | $4,220,000.00 | 1.1% | 1 |
+| 5700 | Buildings And Structures | $3,961,955.26 | 1.0% | 19 |
+| 7250 | Interest - Cert Of Participation | $3,070,361.10 | 0.8% | 1 |
+| 6025 | Distribution To Other Govts | $2,651,630.96 | 0.7% | 125 |
+| 5900 | Other Capital Outlay | $2,499,632.65 | 0.6% | 23 |
+| 4175 | Office Expenses | $1,816,499.49 | 0.5% | 100 |
+| 4500 | Food And Kitchen Supplies | $1,571,578.29 | 0.4% | 41 |
+| 4715 | It Expendable Property | $1,529,544.77 | 0.4% | 42 |
+| 5400 | Automotive & Aircraft | $1,248,785.79 | 0.3% | 11 |
+| 4325 | Attorney General Legal Fees | $1,039,670.39 | 0.3% | 2 |
+| 4425 | Lease Payments & Taxes | $989,491.87 | 0.3% | 79 |
+| 4200 | Telecomm/Tech Svc And Supplies | $967,728.20 | 0.2% | 41 |
+| 4475 | Facilities Maintenance | $892,447.74 | 0.2% | 133 |
+| 4650 | Other Services And Supplies | $685,541.20 | 0.2% | 349 |
+| 4275 | Publicity & Publications | $565,246.52 | 0.1% | 28 |
+| 7100 | Principal - Bonds | $565,000.00 | 0.1% | 1 |
+| 7150 | Interest - Bonds | $564,803.99 | 0.1% | 1 |
+| 3240 | Unemployment Assessment | $563,926.68 | 0.1% | 1 |
+| 6015 | Distribution To Cities | $542,277.28 | 0.1% | 54 |
+| 4100 | Instate Travel | $489,226.49 | 0.1% | 836 |
+| 4315 | It Professional Services | $474,414.27 | 0.1% | 6 |
+| 5350 | Industrial & Heavy Equipment | $418,607.45 | 0.1% | 24 |
+| 4125 | Out-Of-State Travel | $380,605.86 | 0.1% | 191 |
+| 4150 | Employee Training | $340,702.36 | 0.1% | 587 |
+| 4450 | Fuels And Utilities | $334,197.30 | 0.1% | 43 |
+| 5150 | Telecommunications | $324,347.32 | 0.1% | 7 |
+| 5550 | Data Processing Software | $313,729.17 | 0.1% | 3 |
+| 6035 | Distribution To Individuals | $266,035.00 | 0.1% | 5 |
+| 4400 | Dues And Subscriptions | $265,200.69 | 0.1% | 14 |
+| 3110 | Class/Unclass Salary & Per Diem | $146,825.71 | 0.0% | 10 |
+| 4700 | Expendable Property $250-$5000 | $88,116.88 | 0.0% | 18 |
+| 3170 | Overtime Payments | $64,089.97 | 0.0% | 1 |
+| 3220 | Public Employes' Retirement System | $34,471.29 | 0.0% | 4 |
+| 6020 | Distribution To Counties | $25,088.55 | 0.0% | 2 |
+| 3270 | Flexible Benefits | $24,800.00 | 0.0% | 4 |
+| 4375 | Employee Recruitment And Development | $20,475.63 | 0.0% | 16 |
+| 5100 | Office Furniture And Fixtures | $17,602.22 | 0.0% | 2 |
+| 4250 | Data Processing | $14,989.23 | 0.0% | 3 |
+| 3230 | Social Security Tax | $13,853.96 | 0.0% | 4 |
+| 5450 | Agricultural Equip And Machinery | $13,467.83 | 0.0% | 1 |
+| 3221 | Pension Bond Contribution | $8,381.48 | 0.0% | 4 |
+| 5200 | Technical Equipment | $4,508.00 | 0.0% | 1 |
+| 4625 | Other Certif Of Participation Costs | $4,499.13 | 0.0% | 1 |
+| 3190 | All Other Differential | $1,452.01 | 0.0% | 2 |
+| 3180 | Shift Differential | $1,094.26 | 0.0% | 1 |
+| 4600 | Intra-Inter Agency Charges | $789.18 | 0.0% | 2 |
+| 3241 | Paid Family Medical Leave Insurance | $724.37 | 0.0% | 4 |
+| 3260 | Mass Transit | $374.70 | 0.0% | 2 |
+| 3210 | Erb Assessment | $23.51 | 0.0% | 4 |
+| 3250 | Workers' Compensation Assessment | $16.51 | 0.0% | 4 |
+
+## Largest expenditure classes
+
+The 12 largest of 135 expenditure classes used by this agency in FY2025.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 4505 | Professional Services Non-It>$75K | $181,660,587.13 | 46.1% |
+| 4500 | Professional Services Non-It | $98,805,677.84 | 25.1% |
+| 6451 | Distribution To Oregon State University | $26,752,968.00 | 6.8% |
+| 6725 | Distribution To Non-Governments | $22,987,416.68 | 5.8% |
+| 4600 | State Government Service Charges | $8,999,465.96 | 2.3% |
+| 4975 | Agency Program Related Services | $6,605,237.24 | 1.7% |
+| 4901 | Medical Services | $6,428,748.49 | 1.6% |
+| 7150 | Principal-Certificates Of Participation | $4,220,000.00 | 1.1% |
+| 5805 | Buildings & Improvements>=$5K | $3,961,955.26 | 1.0% |
+| 6826 | Payments To Non-Governments | $3,496,934.97 | 0.9% |
+| 7300 | Interest-Certificates Of Participation | $3,070,361.10 | 0.8% |
+| 4976 | Agency Program Related Supplies | $2,634,547.04 | 0.7% |
+
+## Curator notes
+
+Figures are aggregated from 4,351 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='629' AND fiscal_year='2025'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2025.parquet`, the file these figures were computed from.
+

@@ -1,0 +1,115 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-919-fy2021
+title: Real Estate Agy — FY2021 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 919, FY2021
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 81c90c241c212dba4cc304dd132bb03379de0003138cc2451899f8f95b1dcc97
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-919-fy2020
+  - expenditures-919-fy2022
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2021
+- agency-919
+- real-estate-agy
+agency_code: '919'
+agency_name: REAL ESTATE AGY
+fiscal_year: 2021
+total_expense: '1223429.94'
+transaction_count: 56
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Real Estate Agy — FY2021 expenditures
+
+## At a glance
+
+Real Estate Agy (agency code 919, recorded upstream as `REAL ESTATE AGY`) spent **$1,223,429.94** in fiscal year 2021, across 56 transaction records. That is up 70.3% from $718,405.62 in FY2020. The agency accounts for 0.00% of the $27,010,059,496.47 in statewide agency spending recorded for FY2021, ranking **51 of 76** agencies reporting that year.
+
+The largest budget category was **Agency Program Related Svcs & Supp** at $398,025.00 (32.5% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 4575 | Agency Program Related Svcs & Supp | $398,025.00 | 32.5% | 1 |
+| 4225 | State Government Service Charges | $154,900.50 | 12.7% | 5 |
+| 4315 | It Professional Services | $117,130.00 | 9.6% | 1 |
+| 4325 | Attorney General Legal Fees | $114,670.30 | 9.4% | 1 |
+| 4425 | Lease Payments & Taxes | $110,982.63 | 9.1% | 1 |
+| 4250 | Data Processing | $93,210.19 | 7.6% | 5 |
+| 4650 | Other Services And Supplies | $89,592.98 | 7.3% | 3 |
+| 4715 | It Expendable Property | $56,834.37 | 4.6% | 10 |
+| 4200 | Telecomm/Tech Svc And Supplies | $33,711.70 | 2.8% | 4 |
+| 4300 | Professional Services | $13,664.60 | 1.1% | 1 |
+| 4150 | Employee Training | $12,474.07 | 1.0% | 5 |
+| 4175 | Office Expenses | $9,525.05 | 0.8% | 8 |
+| 4475 | Facilities Maintenance | $5,012.76 | 0.4% | 1 |
+| 4100 | Instate Travel | $4,455.13 | 0.4% | 3 |
+| 3240 | Unemployment Assessment | $2,592.00 | 0.2% | 1 |
+| 4275 | Publicity & Publications | $2,537.06 | 0.2% | 1 |
+| 4700 | Expendable Property $250-$5000 | $2,268.60 | 0.2% | 2 |
+| 4400 | Dues And Subscriptions | $1,784.00 | 0.1% | 2 |
+| 4525 | Medical Supplies And Services | $59.00 | 0.0% | 1 |
+
+## Largest expenditure classes
+
+The 12 largest of 32 expenditure classes used by this agency in FY2021.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 4975 | Agency Program Related Services | $398,025.00 | 32.5% |
+| 4600 | State Government Service Charges | $154,900.50 | 12.7% |
+| 4515 | Professional Services Application Maint | $117,130.00 | 9.6% |
+| 4550 | Attorney General Legal Fees | $114,670.30 | 9.4% |
+| 4800 | Interagency Lease Payments | $110,982.63 | 9.1% |
+| 4375 | Computer Technology Computer Processing | $91,864.51 | 7.5% |
+| 4730 | Merchant Fees | $81,431.08 | 6.7% |
+| 4365 | Computer Technology Pc Equipment<$5K | $34,711.91 | 2.8% |
+| 4301 | Telecom/Voice Usage | $28,776.90 | 2.4% |
+| 4500 | Professional Services Non-It | $13,664.60 | 1.1% |
+| 4366 | Computer Technology Pc Software<$5K | $10,675.69 | 0.9% |
+| 4701 | Other Services | $8,161.90 | 0.7% |
+
+## Curator notes
+
+Figures are aggregated from 56 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='919' AND fiscal_year='2021'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2021.parquet`, the file these figures were computed from.
+

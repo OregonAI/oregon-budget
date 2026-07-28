@@ -9,10 +9,10 @@ jobs:
     permissions:
       contents: write
       issues: write
-    uses: OregonAI/corpus-toolkit/.github/workflows/detect-upstream-changes.yml@v1.4.0
+    uses: OregonAI/corpus-toolkit/.github/workflows/detect-upstream-changes.yml@v1.5.3
     with:
       # Pin the CODE, not just the workflow file above — separate knobs.
-      toolkit-ref: v1.4.0
+      toolkit-ref: v1.5.3
 
   # FULL-CORPUS validation. ci.yml only ever validates files CHANGED in a PR,
   # which leaves two real holes:
@@ -28,12 +28,40 @@ jobs:
   # the full corpus for schedule/workflow_dispatch; without these two jobs that
   # branch is dead code in every corpus built from this template.
   full-frontmatter:
-    uses: OregonAI/corpus-toolkit/.github/workflows/validate-frontmatter.yml@v1.4.0
+    uses: OregonAI/corpus-toolkit/.github/workflows/validate-frontmatter.yml@v1.5.3
     with:
       # Pin the CODE, not just the workflow file above — separate knobs.
-      toolkit-ref: v1.4.0
+      toolkit-ref: v1.5.3
   full-provenance:
-    uses: OregonAI/corpus-toolkit/.github/workflows/verify-provenance.yml@v1.4.0
+    uses: OregonAI/corpus-toolkit/.github/workflows/verify-provenance.yml@v1.5.3
     with:
       # Pin the CODE, not just the workflow file above — separate knobs.
-      toolkit-ref: v1.4.0
+      toolkit-ref: v1.5.3
+
+  # THE LIVE CHECKS. These need data.oregon.gov, which is why they are here and not in
+  # ci.yml: a per-PR gate that depends on a third party being up goes red for reasons
+  # unrelated to the change, and a gate that cries wolf is one people learn to ignore.
+  #
+  # `detect-upstream-changes` above watches each dataset's METADATA document. It cannot
+  # see row-level drift, because the manifest URLs point at /api/views/<id>.json rather
+  # than at 668,906 rows of data. These two jobs cover what it cannot.
+  live-reconciliation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml pyarrow duckdb
+      # Does the committed Parquet still equal what the API reports? Compares BOTH row
+      # count and summed expense per fiscal year: rows alone catch truncation, but only
+      # the sum catches an upstream restatement that leaves the count identical and every
+      # total subtly different.
+      - name: Mirror must reconcile against live SODA
+        run: python3 src/ingest_expenditures.py --check
+      # Has any dataset's schema changed shape? The hash covers field names and types
+      # only, so a relabelled column does not fire but an added, removed, renamed, or
+      # retyped field does.
+      - name: Dataset schemas must not have drifted
+        run: python3 src/build_dataset_docs.py --check

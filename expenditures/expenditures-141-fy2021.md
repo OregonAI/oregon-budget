@@ -1,0 +1,132 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-141-fy2021
+title: Lands, Dept of St — FY2021 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 141, FY2021
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 81c90c241c212dba4cc304dd132bb03379de0003138cc2451899f8f95b1dcc97
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-141-fy2020
+  - expenditures-141-fy2022
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2021
+- agency-141
+- lands-dept-of-st
+agency_code: '141'
+agency_name: LANDS, DEPT OF ST
+fiscal_year: 2021
+total_expense: '17197108.42'
+transaction_count: 499
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Lands, Dept of St — FY2021 expenditures
+
+## At a glance
+
+Lands, Dept of St (agency code 141, recorded upstream as `LANDS, DEPT OF ST`) spent **$17,197,108.42** in fiscal year 2021, across 499 transaction records. That is down 26.1% from $23,277,960.86 in FY2020. The agency accounts for 0.06% of the $27,010,059,496.47 in statewide agency spending recorded for FY2021, ranking **31 of 76** agencies reporting that year.
+
+The largest budget category was **Professional Services** at $4,557,390.73 (26.5% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 4300 | Professional Services | $4,557,390.73 | 26.5% | 53 |
+| 4575 | Agency Program Related Svcs & Supp | $2,468,386.25 | 14.4% | 19 |
+| 4325 | Attorney General Legal Fees | $1,851,205.12 | 10.8% | 1 |
+| 6035 | Distribution To Individuals | $1,743,786.77 | 10.1% | 11 |
+| 5650 | Land Improvements | $968,926.45 | 5.6% | 5 |
+| 4315 | It Professional Services | $932,786.74 | 5.4% | 7 |
+| 4225 | State Government Service Charges | $768,076.93 | 4.5% | 5 |
+| 6030 | Distribution To Non-Governments | $718,634.63 | 4.2% | 14 |
+| 6025 | Distribution To Other Govts | $703,546.67 | 4.1% | 8 |
+| 4650 | Other Services And Supplies | $560,446.14 | 3.3% | 112 |
+| 4475 | Facilities Maintenance | $319,460.87 | 1.9% | 26 |
+| 5700 | Buildings And Structures | $292,792.85 | 1.7% | 8 |
+| 4715 | It Expendable Property | $229,006.55 | 1.3% | 13 |
+| 4425 | Lease Payments & Taxes | $156,127.96 | 0.9% | 13 |
+| 4250 | Data Processing | $137,588.26 | 0.8% | 4 |
+| 4200 | Telecomm/Tech Svc And Supplies | $127,568.96 | 0.7% | 15 |
+| 4100 | Instate Travel | $116,413.93 | 0.7% | 86 |
+| 4450 | Fuels And Utilities | $102,189.19 | 0.6% | 14 |
+| 4175 | Office Expenses | $93,109.11 | 0.5% | 17 |
+| 5100 | Office Furniture And Fixtures | $71,410.49 | 0.4% | 1 |
+| 5900 | Other Capital Outlay | $62,779.17 | 0.4% | 1 |
+| 6020 | Distribution To Counties | $38,333.00 | 0.2% | 1 |
+| 4150 | Employee Training | $36,167.41 | 0.2% | 14 |
+| 5600 | Data Processing Hardware | $26,326.56 | 0.2% | 1 |
+| 4700 | Expendable Property $250-$5000 | $21,671.06 | 0.1% | 4 |
+| 4400 | Dues And Subscriptions | $19,358.00 | 0.1% | 17 |
+| 3240 | Unemployment Assessment | $18,354.81 | 0.1% | 1 |
+| 3220 | Public Employes' Retirement System | $16,979.41 | 0.1% | 4 |
+| 3110 | Class/Unclass Salary & Per Diem | $14,466.55 | 0.1% | 1 |
+| 4275 | Publicity & Publications | $10,580.23 | 0.1% | 11 |
+| 3270 | Flexible Benefits | $6,133.79 | 0.0% | 2 |
+| 4375 | Employee Recruitment And Development | $5,259.27 | 0.0% | 6 |
+| 3230 | Social Security Tax | $1,016.53 | 0.0% | 1 |
+| 3221 | Pension Bond Contribution | $817.85 | 0.0% | 1 |
+| 3210 | Erb Assessment | $6.70 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | $3.48 | 0.0% | 1 |
+
+## Largest expenditure classes
+
+The 12 largest of 79 expenditure classes used by this agency in FY2021.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 4505 | Professional Services Non-It>$75K | $3,987,211.94 | 23.2% |
+| 4740 | Investment Expense | $2,190,553.40 | 12.7% |
+| 4550 | Attorney General Legal Fees | $1,851,205.12 | 10.8% |
+| 6800 | Distribution To Individuals | $1,743,786.77 | 10.1% |
+| 5705 | Land Improvements>=$5K | $968,926.45 | 5.6% |
+| 4600 | State Government Service Charges | $768,076.93 | 4.5% |
+| 6700 | Distribution To Other Governments | $703,077.67 | 4.1% |
+| 6725 | Distribution To Non-Governments | $693,862.53 | 4.0% |
+| 4500 | Professional Services Non-It | $570,178.79 | 3.3% |
+| 4513 | Professional Services Application New | $516,600.00 | 3.0% |
+| 4701 | Other Services | $489,137.69 | 2.8% |
+| 4519 | Professional Serv/Managed Serv Provider | $345,797.74 | 2.0% |
+
+## Curator notes
+
+Figures are aggregated from 499 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='141' AND fiscal_year='2021'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2021.parquet`, the file these figures were computed from.
+

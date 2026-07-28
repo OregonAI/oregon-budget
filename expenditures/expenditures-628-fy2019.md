@@ -1,0 +1,115 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-628-fy2019
+title: Forest Resources Inst, OR — FY2019 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 628, FY2019
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 3900810723066d4651c7227ef0c74a8b9c41ff76c2e4bcebbbb6f2268e443d34
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-628-fy2020
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2019
+- agency-628
+- forest-resources-inst-or
+agency_code: '628'
+agency_name: FOREST RESOURCES INST, OR
+fiscal_year: 2019
+total_expense: '2848340.40'
+transaction_count: 294
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Forest Resources Inst, OR — FY2019 expenditures
+
+## At a glance
+
+Forest Resources Inst, OR (agency code 628, recorded upstream as `FOREST RESOURCES INST, OR`) spent **$2,848,340.40** in fiscal year 2019, across 294 transaction records. FY2018 is outside the range this dataset covers. The agency accounts for 0.01% of the $20,745,841,274.19 in statewide agency spending recorded for FY2019, ranking **46 of 78** agencies reporting that year.
+
+The largest budget category was **Professional Services** at $1,156,052.67 (40.6% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 4300 | Professional Services | $1,156,052.67 | 40.6% | 25 |
+| 4275 | Publicity & Publications | $1,124,951.80 | 39.5% | 13 |
+| 4575 | Agency Program Related Svcs & Supp | $264,140.92 | 9.3% | 116 |
+| 4425 | Facilities Rent & Taxes | $99,596.42 | 3.5% | 13 |
+| 4100 | Instate Travel | $69,369.02 | 2.4% | 54 |
+| 4175 | Office Expenses | $30,074.06 | 1.1% | 11 |
+| 4315 | It Professional Services | $22,035.00 | 0.8% | 5 |
+| 4400 | Dues And Subscriptions | $17,875.24 | 0.6% | 6 |
+| 4200 | Telecomm/Tech Svc And Supplies | $16,890.67 | 0.6% | 4 |
+| 4125 | Out-Of-State Travel | $15,938.57 | 0.6% | 30 |
+| 4325 | Attorney General Legal Fees | $10,374.00 | 0.4% | 1 |
+| 4715 | It Expendable Property | $6,240.88 | 0.2% | 3 |
+| 4225 | State Government Service Charges | $5,937.05 | 0.2% | 5 |
+| 4700 | Expendable Property $250-$5000 | $2,653.29 | 0.1% | 1 |
+| 4375 | Employee Recruitment And Development | $2,601.73 | 0.1% | 2 |
+| 3110 | Class/Unclass Salary & Per Diem | $1,016.60 | 0.0% | 1 |
+| 4500 | Food And Kitchen Supplies | $788.27 | 0.0% | 1 |
+| 4250 | Data Processing | $755.79 | 0.0% | 1 |
+| 4650 | Other Services And Supplies | $698.42 | 0.0% | 1 |
+| 4150 | Employee Training | $350.00 | 0.0% | 1 |
+
+## Largest expenditure classes
+
+The 12 largest of 47 expenditure classes used by this agency in FY2019.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 4253 | Advertise, Publicity, Publish/Print Srvs | $1,124,951.80 | 39.5% |
+| 4505 | Professional Services Non-It>$75K | $969,523.31 | 34.0% |
+| 4975 | Agency Program Related Services | $226,718.43 | 8.0% |
+| 4500 | Professional Services Non-It | $186,529.36 | 6.5% |
+| 4800 | Facilities Rent | $99,596.42 | 3.5% |
+| 4206 | Catering Services | $30,369.44 | 1.1% |
+| 4106 | Instate Lodging | $26,079.88 | 0.9% |
+| 4516 | Professional Services Servers | $21,557.76 | 0.8% |
+| 4108 | Instate Ground Transportation | $20,494.26 | 0.7% |
+| 4109 | Instate Mileage Reimbursement-Full Rate | $16,517.15 | 0.6% |
+| 4250 | Dues/Memberships | $14,166.00 | 0.5% |
+| 4202 | Equipment Rental | $12,725.49 | 0.4% |
+
+## Curator notes
+
+Figures are aggregated from 294 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='628' AND fiscal_year='2019'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2019.parquet`, the file these figures were computed from.
+

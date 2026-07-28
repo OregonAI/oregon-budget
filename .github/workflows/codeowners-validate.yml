@@ -5,6 +5,13 @@ on:
   push:
     branches: [main]
     paths: [".github/CODEOWNERS"]
+  # The path filters above mean this fires only when CODEOWNERS ITSELF changes — so it
+  # could never catch the drift it exists to catch. A directory renamed, removed, or
+  # never created leaves a rule matching nothing, and the file goes on looking complete.
+  # That is precisely how the sibling corpus shipped `/agencies/das/` against a tree with
+  # no such directory. The schedule is what makes the path check below reachable.
+  schedule:
+    - cron: "0 15 * * 1"
   workflow_dispatch:
 
 # GitHub SILENTLY IGNORES a CODEOWNERS entry it cannot resolve — an unknown user
@@ -39,4 +46,21 @@ jobs:
                 else echo "::error::$o is not a GitHub user"; fail=1; fi;;
             esac
           done
+          exit $fail
+      - name: Every owned path must exist
+        run: |
+          set -euo pipefail
+          fail=0
+          # A rule whose path is absent matches nothing and falls through to `*` while
+          # appearing to be covered. Owners resolving is only half of "this file works".
+          while read -r path _rest; do
+            [ "$path" = "*" ] && continue
+            target="${path#/}"; target="${target%/}"
+            if [ -e "$target" ]; then
+              echo "ok: $path"
+            else
+              echo "::error::CODEOWNERS rule '$path' matches no path in the repository"
+              fail=1
+            fi
+          done < <(grep -vE '^\s*#|^\s*$' .github/CODEOWNERS)
           exit $fail

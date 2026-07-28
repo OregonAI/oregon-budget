@@ -1,0 +1,133 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-525-fy2021
+title: Hi-Ed Coord Cmsn — FY2021 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 525, FY2021
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 81c90c241c212dba4cc304dd132bb03379de0003138cc2451899f8f95b1dcc97
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-525-fy2020
+  - expenditures-525-fy2022
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2021
+- agency-525
+- hi-ed-coord-cmsn
+agency_code: '525'
+agency_name: HI-ED COORD CMSN
+fiscal_year: 2021
+total_expense: '1371502190.60'
+transaction_count: 338
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Hi-Ed Coord Cmsn — FY2021 expenditures
+
+## At a glance
+
+Hi-Ed Coord Cmsn (agency code 525, recorded upstream as `HI-ED COORD CMSN`) spent **$1,371,502,190.60** in fiscal year 2021, across 338 transaction records. That is down 11.5% from $1,549,021,006.56 in FY2020. The agency accounts for 5.08% of the $27,010,059,496.47 in statewide agency spending recorded for FY2021, ranking **6 of 76** agencies reporting that year.
+
+The largest budget category was **Special Payment To Public Universities** at $669,167,094.36 (48.8% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 6048 | Special Payment To Public Universities | $669,167,094.36 | 48.8% | 8 |
+| 6045 | Distribution To Comm Coll Districts | $289,991,752.64 | 21.1% | 21 |
+| 7100 | Principal - Bonds | $115,117,247.10 | 8.4% | 1 |
+| 7150 | Interest - Bonds | $103,654,890.80 | 7.6% | 1 |
+| 6035 | Distribution To Individuals | $102,142,286.07 | 7.4% | 49 |
+| 6590 | Dist To Ohsu | $39,242,725.00 | 2.9% | 1 |
+| 6030 | Distribution To Non-Governments | $35,628,606.34 | 2.6% | 46 |
+| 6580 | Dist To Higher Education | $7,734,464.64 | 0.6% | 2 |
+| 4225 | State Government Service Charges | $1,660,067.38 | 0.1% | 5 |
+| 4300 | Professional Services | $1,557,310.13 | 0.1% | 23 |
+| 6581 | Dist To Dept Of Education | $1,538,250.00 | 0.1% | 1 |
+| 4650 | Other Services And Supplies | $1,002,922.69 | 0.1% | 10 |
+| 4425 | Lease Payments & Taxes | $683,738.36 | 0.0% | 4 |
+| 6471 | Dist To Employment Dept | $554,961.47 | 0.0% | 1 |
+| 6040 | Distribution To Local School Dist | $497,957.97 | 0.0% | 79 |
+| 4315 | It Professional Services | $389,370.00 | 0.0% | 4 |
+| 6291 | Dist To Corrections | $173,181.20 | 0.0% | 1 |
+| 4325 | Attorney General Legal Fees | $133,414.70 | 0.0% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | $126,685.15 | 0.0% | 6 |
+| 4400 | Dues And Subscriptions | $102,691.95 | 0.0% | 10 |
+| 4475 | Facilities Maintenance | $97,996.80 | 0.0% | 3 |
+| 4575 | Agency Program Related Svcs & Supp | $56,960.41 | 0.0% | 2 |
+| 4715 | It Expendable Property | $56,790.47 | 0.0% | 4 |
+| 4175 | Office Expenses | $39,251.43 | 0.0% | 8 |
+| 6121 | Dist To Governor'S Office | $36,658.19 | 0.0% | 1 |
+| 4275 | Publicity & Publications | $34,247.95 | 0.0% | 4 |
+| 3240 | Unemployment Assessment | $26,783.83 | 0.0% | 1 |
+| 4150 | Employee Training | $24,308.34 | 0.0% | 7 |
+| 6020 | Distribution To Counties | $9,900.00 | 0.0% | 1 |
+| 4100 | Instate Travel | $7,986.73 | 0.0% | 22 |
+| 3280 | Other Payroll Expenses | $7,538.04 | 0.0% | 1 |
+| 4250 | Data Processing | $3,061.80 | 0.0% | 1 |
+| 4700 | Expendable Property $250-$5000 | $360.25 | 0.0% | 1 |
+| 3170 | Overtime Payments | $345.57 | 0.0% | 1 |
+| 4125 | Out-Of-State Travel | $251.99 | 0.0% | 2 |
+| 3220 | Public Employes' Retirement System | $130.72 | 0.0% | 4 |
+| 3250 | Workers' Compensation Assessment | $0.13 | 0.0% | 1 |
+
+## Largest expenditure classes
+
+The 12 largest of 64 expenditure classes used by this agency in FY2021.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 6451 | Distribution To Oregon State University | $297,154,150.28 | 21.7% |
+| 6500 | Distribution To Comm College Districts | $289,991,752.64 | 21.1% |
+| 6452 | Distribution To Portland State Universit | $131,665,822.17 | 9.6% |
+| 7100 | Principal-Bonds | $115,117,247.10 | 8.4% |
+| 7250 | Interest-Bonds | $103,654,890.80 | 7.6% |
+| 6800 | Distribution To Individuals | $102,142,286.07 | 7.4% |
+| 6450 | Distribution To University Of Oregon | $100,541,431.70 | 7.3% |
+| 6456 | Distribution To Oregon Inst Of Tech | $41,450,816.17 | 3.0% |
+| 6455 | Distribution To Western Or University | $41,199,814.24 | 3.0% |
+| 6093 | Distribution To Ohsu (Comp Unit) | $39,242,725.00 | 2.9% |
+| 6730 | Other Distributions To Subrecipients | $35,556,226.34 | 2.6% |
+| 6453 | Distribution To Southern Or University | $34,255,897.56 | 2.5% |
+
+## Curator notes
+
+Figures are aggregated from 338 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='525' AND fiscal_year='2021'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2021.parquet`, the file these figures were computed from.
+

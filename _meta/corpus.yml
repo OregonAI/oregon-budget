@@ -12,8 +12,10 @@ content_roots:                       # where document files live (document/hybri
                                      # whole directory —
   # Expenditure summaries: one document per agency per fiscal year. The source data is
   # 668,906 vendor-level rows; that is a database, not a corpus. 82 agencies x 7 fiscal
-  # years is at most 574 documents, which is both a shape the platform can index and the
-  # grain the question is actually asked at ("what did DAS spend in 2024").
+  # years bounds this at 574, but only 544 of those pairs exist — 30 agency-years have no
+  # spending at all, and emitting documents for them would fabricate years that never
+  # happened. 544 is both a shape the platform can index and the grain the question is
+  # actually asked at ("what did DAS spend in 2024").
   - path: "expenditures"
     doc_type: dataset_doc
   # Appropriation line items extracted from budget bills. The BILLS live in
@@ -79,20 +81,12 @@ provenance:
   coverage_fail_threshold: 0.70
   coverage_warn_threshold: 0.90
 
-# api: DELETE THIS BLOCK for archetype: document. The loader ignores it, so an
-#      orphaned api: block is silently inert — it misleads a reader into thinking
-#      live endpoints are configured when nothing reads them.
-# api:                               # api/hybrid only
-#   endpoints: []
-#   - name: "example"
-#     base_url: ""
-#     protocol: odata | soda | rest
-#     read_only: true
-#     max_results: 1000
-
 mcp:
   server_name: "oregon-budget"
-  transports: [stdio, http]
+  # `transports:` deliberately omitted. The toolkit parses it into CorpusConfig and then
+  # reads it nowhere — transport is chosen by `corpus-mcp-serve --http`. Declaring it
+  # describes a setting that does not exist, which is how the sibling corpus ended up
+  # documenting behaviour nothing implemented.
 
 status:
   reverify_days: 90                  # quarterly re-verification SLA

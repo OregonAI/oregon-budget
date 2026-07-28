@@ -1,0 +1,120 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-213-fy2019
+title: Criminal Justice Cmsn — FY2019 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 213, FY2019
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 3900810723066d4651c7227ef0c74a8b9c41ff76c2e4bcebbbb6f2268e443d34
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-213-fy2020
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2019
+- agency-213
+- criminal-justice-cmsn
+agency_code: '213'
+agency_name: CRIMINAL JUSTICE CMSN
+fiscal_year: 2019
+total_expense: '34963315.72'
+transaction_count: 186
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Criminal Justice Cmsn — FY2019 expenditures
+
+## At a glance
+
+Criminal Justice Cmsn (agency code 213, recorded upstream as `CRIMINAL JUSTICE CMSN`) spent **$34,963,315.72** in fiscal year 2019, across 186 transaction records. FY2018 is outside the range this dataset covers. The agency accounts for 0.17% of the $20,745,841,274.19 in statewide agency spending recorded for FY2019, ranking **29 of 78** agencies reporting that year.
+
+The largest budget category was **Distribution To Counties** at $29,552,809.61 (84.5% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 6020 | Distribution To Counties | $29,552,809.61 | 84.5% | 43 |
+| 6030 | Distribution To Non-Governments | $2,432,664.15 | 7.0% | 5 |
+| 4315 | It Professional Services | $1,047,187.38 | 3.0% | 1 |
+| 6198 | Dist To Judicial | $476,720.40 | 1.4% | 1 |
+| 4300 | Professional Services | $311,574.28 | 0.9% | 12 |
+| 6259 | Dist To Dept Of Public Safety Stds & Tra | $280,288.11 | 0.8% | 1 |
+| 6015 | Distribution To Cities | $181,455.19 | 0.5% | 1 |
+| 6257 | Dist To State Police | $142,076.92 | 0.4% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | $123,313.31 | 0.4% | 12 |
+| 4650 | Other Services And Supplies | $110,926.39 | 0.3% | 5 |
+| 4425 | Facilities Rent & Taxes | $71,729.35 | 0.2% | 3 |
+| 4175 | Office Expenses | $40,402.33 | 0.1% | 8 |
+| 4325 | Attorney General Legal Fees | $37,856.00 | 0.1% | 1 |
+| 4225 | State Government Service Charges | $36,622.91 | 0.1% | 6 |
+| 4250 | Data Processing | $32,456.28 | 0.1% | 2 |
+| 4150 | Employee Training | $28,241.22 | 0.1% | 33 |
+| 6291 | Dist To Corrections | $20,000.00 | 0.1% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | $13,276.62 | 0.0% | 5 |
+| 4100 | Instate Travel | $9,147.37 | 0.0% | 30 |
+| 4125 | Out-Of-State Travel | $6,207.45 | 0.0% | 5 |
+| 4715 | It Expendable Property | $5,087.53 | 0.0% | 3 |
+| 4700 | Expendable Property $250-$5000 | $1,221.64 | 0.0% | 1 |
+| 4400 | Dues And Subscriptions | $915.00 | 0.0% | 2 |
+| 4375 | Employee Recruitment And Development | $881.02 | 0.0% | 3 |
+| 4275 | Publicity & Publications | $255.26 | 0.0% | 1 |
+
+## Largest expenditure classes
+
+The 12 largest of 54 expenditure classes used by this agency in FY2019.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 6300 | Distribution To Counties | $29,552,809.61 | 84.5% |
+| 6725 | Distribution To Non-Governments | $2,432,664.15 | 7.0% |
+| 4513 | Professional Services Application New | $1,047,187.38 | 3.0% |
+| 6132 | Distribution To Judicial 198 | $476,720.40 | 1.4% |
+| 4500 | Professional Services Non-It | $311,574.28 | 0.9% |
+| 6137 | Distr To Dept Public Safety Standards & | $280,288.11 | 0.8% |
+| 6400 | Distribution To Cities | $181,455.19 | 0.5% |
+| 6136 | Distribution To State Police | $142,076.92 | 0.4% |
+| 4701 | Other Services | $110,562.39 | 0.3% |
+| 4206 | Catering Services | $93,221.82 | 0.3% |
+| 4800 | Facilities Rent | $71,729.35 | 0.2% |
+| 4550 | Attorney General Legal Fees | $37,856.00 | 0.1% |
+
+## Curator notes
+
+Figures are aggregated from 186 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='213' AND fiscal_year='2019'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2019.parquet`, the file these figures were computed from.
+

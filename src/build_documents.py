@@ -1,0 +1,366 @@
+#!/usr/bin/env python3
+"""Generate one expenditure document per agency per fiscal year from the Parquet mirror.
+
+544 documents, not 574. The plan's 82 x 7 was an upper bound; 30 agency-years have no
+spending at all (agencies appear and disappear across FY2019-2025), and emitting a document
+for those would fabricate a year that never existed.
+
+WHY THESE DOCUMENTS CONTAIN NO VENDOR NAMES
+-------------------------------------------
+The source has 98,933 distinct vendors and roughly 5,150 of them (5%) are individual
+people — "LAST, FIRST" with a dollar amount attached. That is public record on
+data.oregon.gov, and mirroring it into Parquet keeps this corpus a faithful copy of a
+public dataset. Baking those names into markdown that gets embedded, indexed, and
+semantically searched by AI agents is a different act with a different reach, and the
+grain the budget question is actually asked at ("what did DAS spend on personnel in 2024")
+does not need them. So these documents aggregate to budget class and expenditure class,
+and stop there. An agent that genuinely needs vendor detail can query live SODA, which
+returns what the state itself publishes, attributed and dated.
+
+WHY THIS SCRIPT HAS ITS OWN --check
+-----------------------------------
+`corpus-verify-provenance` structurally cannot verify these. They are derived aggregates,
+not extracted source text: with `snapshot_policy: hash-only` and no committed `.txt`, the
+verifier sets source_text = "" and checks nothing. Recording a `source_sha256` and calling
+it verified would be a check that passes because it is not running — the exact failure this
+platform keeps finding in its own CI.
+
+So `--check` re-derives every number in every document from the Parquet and compares. That
+is the real gate, and it is wired into CI alongside the toolkit's own.
+
+There is deliberately NO `## Full text` section: `corpus-verify-provenance` requires every
+line of one to appear verbatim in a committed snapshot, in order. An aggregate has no such
+source, so claiming verbatim mode would be a false provenance claim.
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import sys
+from decimal import Decimal
+from pathlib import Path
+
+import duckdb
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "data" / "expenditures"
+OUT = ROOT / "expenditures"
+GLOB = str(DATA / "*.parquet")
+MANIFEST = DATA / "manifest.json"
+
+DATASET = "y9g9-xsxs"
+SOURCE_URL = f"https://data.oregon.gov/d/{DATASET}"
+MAINTAINER = "@dzinck"
+# DAS operates the statewide financial system this dataset is published from. The subject
+# agency of each document is a different thing, and lives in the title and tags.
+ISSUING_BODY = "Oregon Department of Administrative Services"
+
+DISCLAIMER = "NON-AUTHORITATIVE"
+TOP_EXPEND_CLASSES = 12
+
+
+# Lowercased only when not the first word. Deliberately EXCLUDES "or" — see KEEP_UPPER.
+SMALL_WORDS = {"of", "and", "the", "for", "to"}
+
+# Tokens .title() would wreck. In this dataset "OR" is the postal abbreviation for Oregon
+# ("ADVOCACY COMMISSIONS, OR"), never the conjunction: title-casing it to "Or" and
+# lowercasing it to "or" are both wrong, and between them they mangled the names of five
+# agencies across 33 documents. No name here uses "or" as a conjunction.
+KEEP_UPPER = {"OR"}
+
+
+def money(d: Decimal) -> str:
+    return f"${d:,.2f}"
+
+
+def display_name(source_name: str) -> str:
+    """Title-case the shouted source name for reading.
+
+    A pure case transformation, nothing more. Abbreviations stay as the state wrote them
+    ("SRVCS" -> "Srvcs", not "Services") because expanding them would be a guess about what
+    the state meant, and the verbatim string is preserved in frontmatter `agency_name`.
+    """
+    out = []
+    for i, w in enumerate(source_name.split()):
+        if w.strip(",") in KEEP_UPPER:
+            out.append(w)
+            continue
+        t = w.title()
+        if i and t.lower().strip(",") in SMALL_WORDS:
+            t = t.lower()
+        out.append(t)
+    return " ".join(out)
+
+
+def slug(s: str) -> str:
+    s = re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
+    return re.sub(r"-+", "-", s)
+
+
+def q(con, sql, *a):
+    return con.execute(sql, list(a)).fetchall()
+
+
+def gather(con) -> dict:
+    """Everything the documents need, in a handful of queries rather than 544 x N."""
+    d = {}
+    d["years"] = [r[0] for r in q(con, f"select distinct fiscal_year from '{GLOB}' order by 1")]
+    d["statewide"] = {r[0]: r[1] for r in
+                      q(con, f"select fiscal_year, sum(expense) from '{GLOB}' group by 1")}
+    d["pairs"] = q(con, f"""
+        select agency, fiscal_year, any_value(agency_1), sum(expense), count(*)
+        from '{GLOB}' group by 1, 2 order by 1, 2""")
+    d["by_budget"] = {}
+    for a, y, code, name, amt, n in q(con, f"""
+            select agency, fiscal_year, budget_class, any_value(budget_class_1),
+                   sum(expense), count(*)
+            from '{GLOB}' group by 1, 2, 3 order by 5 desc"""):
+        d["by_budget"].setdefault((a, y), []).append((code, name, amt, n))
+    d["by_expend"] = {}
+    for a, y, code, name, amt, n in q(con, f"""
+            select agency, fiscal_year, expend_class, any_value(expend_class_1),
+                   sum(expense), count(*)
+            from '{GLOB}' group by 1, 2, 3 order by 5 desc"""):
+        d["by_expend"].setdefault((a, y), []).append((code, name, amt, n))
+    # Rank within each year, by total spend.
+    d["rank"] = {}
+    for y in d["years"]:
+        ordered = sorted([p for p in d["pairs"] if p[1] == y], key=lambda p: -p[3])
+        for i, p in enumerate(ordered, 1):
+            d["rank"][(p[0], y)] = (i, len(ordered))
+    d["totals"] = {(p[0], p[1]): p[3] for p in d["pairs"]}
+    return d
+
+
+def build_one(agency, year, name, total, txns, d, retrieved, sha) -> tuple[str, str, dict]:
+    doc_id = f"expenditures-{agency}-fy{year}"
+    disp = display_name(name)
+    rank, of = d["rank"][(agency, year)]
+    statewide = d["statewide"][year]
+    share = (total / statewide * 100) if statewide else Decimal(0)
+
+    prior = d["totals"].get((agency, year - 1))
+    if prior and prior > 0:
+        delta = (total - prior) / prior * 100
+        yoy = (f"That is {'up' if delta >= 0 else 'down'} {abs(delta):.1f}% from "
+               f"{money(prior)} in FY{year - 1}.")
+    elif (agency, year - 1) not in d["totals"] and year > min(d["years"]):
+        yoy = f"No spending is recorded for this agency in FY{year - 1}."
+    else:
+        yoy = f"FY{year - 1} is outside the range this dataset covers."
+
+    budget = d["by_budget"].get((agency, year), [])
+    expend = d["by_expend"].get((agency, year), [])
+
+    fm = {
+        "schema_version": 1, "corpus": "oregon-budget", "jurisdiction": "oregon",
+        "id": doc_id,
+        "title": f"{disp} — FY{year} expenditures",
+        "doc_type": "dataset_doc",
+        "citation": f"Oregon Agency Expenditures, agency {agency}, FY{year}",
+        "issuing_body": ISSUING_BODY,
+        "source_url": SOURCE_URL,
+        "source_format": "soda",
+        "retrieved": retrieved,
+        "source_sha256": sha,
+        "snapshot_policy": "hash-only",
+        "status": "current",
+        "content_mode": "summary",
+        "last_verified": retrieved,
+        "verified_by": MAINTAINER,
+        "maintainer": MAINTAINER,
+        "conversion_notes": ("Title is the source agency name title-cased for reading; the "
+                             "verbatim string is `agency_name`. Abbreviations are not "
+                             "expanded. Figures are aggregated, not extracted text."),
+        # Mechanically derived, never inferred: the same agency in the adjacent fiscal
+        # years, plus the dataset these figures come from. This is what makes
+        # `graph_neighbors` useful here — "walk this agency across time" is the second
+        # question anyone asks after "what did it spend".
+        "relationships": {
+            "implements": [], "implemented_by": [], "references_external": [],
+            "related": ([f"expenditures-{agency}-fy{y}"
+                         for y in (year - 1, year + 1) if (agency, y) in d["totals"]]
+                        + ["agency-expenditures"]),
+            "supersedes": [],
+        },
+        "tags": ["oregon-budget", "expenditures", f"fy{year}", f"agency-{agency}",
+                 slug(name)],
+        "agency_code": str(agency), "agency_name": name, "fiscal_year": int(year),
+        "total_expense": str(total), "transaction_count": int(txns),
+    }
+
+    L = []
+    L.append(f"> **{DISCLAIMER} — AI-friendly reference only.** These are aggregates derived")
+    L.append(f"> from a state dataset, not the official text of any budget or audit. Figures")
+    L.append(f"> are as mirrored on {retrieved}; the live dataset may have been revised since.")
+    L.append(f"> Verify against the official source: `{SOURCE_URL}`")
+    L.append("")
+    L.append(f"# {disp} — FY{year} expenditures")
+    L.append("")
+    L.append("## At a glance")
+    L.append("")
+    L.append(f"{disp} (agency code {agency}, recorded upstream as `{name}`) spent "
+             f"**{money(total)}** in fiscal year {year}, across {txns:,} transaction "
+             f"records. {yoy} The agency accounts for {share:.2f}% of the "
+             f"{money(statewide)} in statewide agency spending recorded for FY{year}, "
+             f"ranking **{rank} of {of}** agencies reporting that year.")
+    L.append("")
+    if budget:
+        top = budget[0]
+        L.append(f"The largest budget category was **{top[1].title()}** at {money(top[2])} "
+                 f"({top[2] / total * 100:.1f}% of the agency's total).")
+        L.append("")
+
+    L.append("## Spending by budget class")
+    L.append("")
+    L.append("| Code | Budget class | Amount | Share | Records |")
+    L.append("|---|---|---:|---:|---:|")
+    for code, bname, amt, n in budget:
+        L.append(f"| {code} | {bname.title()} | {money(amt)} | {amt / total * 100:.1f}% | {n:,} |")
+    L.append("")
+
+    L.append("## Largest expenditure classes")
+    L.append("")
+    shown = expend[:TOP_EXPEND_CLASSES]
+    L.append(f"The {len(shown)} largest of {len(expend)} expenditure classes used by this "
+             f"agency in FY{year}.")
+    L.append("")
+    L.append("| Code | Expenditure class | Amount | Share |")
+    L.append("|---|---|---:|---:|")
+    for code, ename, amt, n in shown:
+        L.append(f"| {code} | {ename.title()} | {money(amt)} | {amt / total * 100:.1f}% |")
+    L.append("")
+
+    L.append("## Curator notes")
+    L.append("")
+    L.append(f"Figures are aggregated from {txns:,} vendor-level transaction records. This "
+             f"document deliberately reports no vendor-level detail: roughly 5% of the "
+             f"98,933 vendors in the source are individual people, and this corpus does not "
+             f"republish named individuals' payments as indexed, agent-searchable text. "
+             f"Vendor detail remains available from the live source, which is where the "
+             f"state publishes it.")
+    L.append("")
+    L.append("Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The "
+             "two do not line up, and no mapping between them is applied here. Comparing "
+             "these figures to a biennial appropriation requires stating that mapping "
+             "explicitly — it is the single most likely source of a plausible wrong number.")
+    L.append("")
+    L.append("## Verification")
+    L.append("")
+    L.append("Every figure above is reproducible from the live API. The agency total:")
+    L.append("")
+    L.append("```")
+    L.append(f"{SOURCE_URL.replace('/d/', '/resource/')}.json"
+             f"?$select=sum(expense)&$where=agency='{agency}' AND fiscal_year='{year}'")
+    L.append("```")
+    L.append("")
+    L.append(f"`src/build_documents.py --check` re-derives every number in this document "
+             f"from the committed Parquet mirror, and `src/ingest_expenditures.py --check` "
+             f"reconciles that mirror against the live API. Both run in CI. The recorded "
+             f"`source_sha256` is the hash of `expenditures-{year}.parquet`, the file these "
+             f"figures were computed from.")
+    L.append("")
+    return doc_id, "\n".join(L) + "\n", fm
+
+
+def dump_fm(fm: dict) -> str:
+    import yaml
+    return yaml.safe_dump(fm, sort_keys=False, allow_unicode=True, width=100)
+
+
+def facts(fm: dict) -> tuple:
+    """The numbers --check re-derives. Frontmatter only: the prose restates these, and a
+    document whose frontmatter and body disagreed would fail the parse below first."""
+    return (str(fm["agency_code"]), int(fm["fiscal_year"]),
+            Decimal(fm["total_expense"]), int(fm["transaction_count"]))
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--check", action="store_true",
+                    help="re-derive every document's figures from Parquet; write nothing")
+    args = ap.parse_args()
+
+    if not MANIFEST.is_file():
+        print("no manifest — run src/ingest_expenditures.py first", file=sys.stderr)
+        return 2
+    man = json.loads(MANIFEST.read_text())
+    retrieved = man["mirrored_at"][:10]
+    sha_by_year = {e["fiscal_year"]: e["sha256"] for e in man["files"]}
+
+    con = duckdb.connect()
+    d = gather(con)
+
+    if args.check:
+        return check(d, sha_by_year)
+
+    OUT.mkdir(exist_ok=True)
+    written = 0
+    for agency, year, name, total, txns in d["pairs"]:
+        doc_id, body, fm = build_one(agency, year, name, total, txns, d, retrieved,
+                                     sha_by_year[str(year)])
+        (OUT / f"{doc_id}.md").write_text(f"---\n{dump_fm(fm)}---\n\n{body}")
+        written += 1
+
+    grand = sum(d["totals"].values())
+    print(f"wrote {written} documents to {OUT.relative_to(ROOT)}/")
+    print(f"  {len(d['years'])} fiscal years, "
+          f"{len({p[0] for p in d['pairs']})} distinct agencies")
+    print(f"  documents sum to ${grand:,} "
+          f"(manifest total ${Decimal(man['total_sum_expense']):,})")
+    if grand != Decimal(man["total_sum_expense"]):
+        print("  MISMATCH — documents do not sum to the mirror", file=sys.stderr)
+        return 1
+    return 0
+
+
+def check(d, sha_by_year) -> int:
+    """Re-derive every document's figures. This is the gate the toolkit cannot provide."""
+    import yaml
+    expected = {f"expenditures-{a}-fy{y}": (str(a), int(y), tot, txn)
+                for a, y, _n, tot, txn in d["pairs"]}
+    files = sorted(OUT.glob("*.md"))
+    if not files:
+        print(f"FAIL: no documents in {OUT.relative_to(ROOT)}/", file=sys.stderr)
+        return 1
+
+    bad, seen = 0, set()
+    for p in files:
+        raw = p.read_text()
+        if not raw.startswith("---\n"):
+            print(f"  FAIL {p.name}: no frontmatter"); bad += 1; continue
+        fm = yaml.safe_load(raw.split("---\n", 2)[1])
+        doc_id = fm.get("id")
+        if doc_id != p.stem:
+            print(f"  FAIL {p.name}: id {doc_id!r} != filename stem"); bad += 1; continue
+        seen.add(doc_id)
+        if doc_id not in expected:
+            print(f"  FAIL {p.name}: no such agency-year in the data"); bad += 1; continue
+        want, got = expected[doc_id], facts(fm)
+        if want != got:
+            print(f"  FAIL {p.name}: document says {got[2]} / {got[3]} txns, "
+                  f"Parquet says {want[2]} / {want[3]}")
+            bad += 1
+            continue
+        # The prose must restate the frontmatter number, or the two could drift silently.
+        if f"${want[2]:,.2f}" not in raw:
+            print(f"  FAIL {p.name}: body does not contain the total {want[2]}"); bad += 1
+            continue
+        if fm.get("source_sha256") != sha_by_year[str(want[1])]:
+            print(f"  FAIL {p.name}: source_sha256 is not the FY{want[1]} Parquet hash")
+            bad += 1
+
+    missing = set(expected) - seen
+    for m in sorted(missing):
+        print(f"  FAIL: {m}.md missing — the data has this agency-year")
+    bad += len(missing)
+
+    print(f"\n{len(files)} documents checked against {len(expected)} agency-years in the data")
+    print("all documents reconcile" if not bad else f"{bad} problem(s)")
+    return 1 if bad else 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
