@@ -6,20 +6,20 @@ on:
 
 jobs:
   frontmatter:
-    uses: OregonAI/corpus-toolkit/.github/workflows/validate-frontmatter.yml@v1.5.3
+    uses: OregonAI/corpus-toolkit/.github/workflows/validate-frontmatter.yml@v1.6.0
     with:
       # Pin the CODE, not just the workflow file above — separate knobs.
-      toolkit-ref: v1.5.3
+      toolkit-ref: v1.6.0
   provenance:
-    uses: OregonAI/corpus-toolkit/.github/workflows/verify-provenance.yml@v1.5.3
+    uses: OregonAI/corpus-toolkit/.github/workflows/verify-provenance.yml@v1.6.0
     with:
       # Pin the CODE, not just the workflow file above — separate knobs.
-      toolkit-ref: v1.5.3
+      toolkit-ref: v1.6.0
   links:
-    uses: OregonAI/corpus-toolkit/.github/workflows/check-links.yml@v1.5.3
+    uses: OregonAI/corpus-toolkit/.github/workflows/check-links.yml@v1.6.0
     with:
       # Pin the CODE, not just the workflow file above — separate knobs.
-      toolkit-ref: v1.5.3
+      toolkit-ref: v1.6.0
       # lychee walks './**/*.md'. Without these exclusions it crawls
       # _meta/templates/document.md — a skeleton whose example URLs are not meant
       # to resolve — and every PR fails on link rot that is not link rot.
@@ -78,7 +78,7 @@ jobs:
   # Bill text is REFERENCED, not copied, so this corpus holds no bytes to check its own
   # quotations against. Without the sibling checked out beside it, every "verbatim source
   # line" under bills/ is just a string in a file. This job clones the sibling and
-  # re-verifies all 1,228 of them.
+  # re-verifies all 1,704 of them, across both mirrored sessions.
   #
   # `--check` exits 2 when the sibling is absent — a LOUD SKIP, never a pass. Reporting
   # "0 failures" for a comparison that never ran is the failure this repo keeps finding
