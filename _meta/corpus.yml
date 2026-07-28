@@ -37,6 +37,14 @@ content_roots:                       # where document files live (document/hybri
   #     procedures: procedure
 
 plugins:
+  # Mirrored documents + a live SODA proxy. Overrides only get/health/overview; search and
+  # the FTS index are FileBackend's, unchanged — the 547 documents are ordinary markdown.
+  # Live figures attach under a separate `live` key and are never merged into mirrored
+  # fields, because this corpus has two provenance clocks and an answer must show both.
+  retrieval_module: "src.budget_backend:HybridBackend"
+  # The API-corpus extensions the MCP contract promises: list_datasets, query_dataset.
+  # Requires corpus-toolkit >= 1.6.0; before that the built-in tools were a closed set.
+  tools_module: "src.budget_tools:register"
   # citation_module: "src.citation_schemes"    # calls mcp.framework.register_scheme()
   # snapshot_slice_module: "src.slicing:slice" # (doc_id, snapshot_id, raw_text) -> str
   # semantic_search_module: "src.semantic_search"  # module exposing available() -> bool

@@ -58,6 +58,23 @@ jobs:
       - name: Documents must reconcile to the mirrored data
         run: python3 src/build_documents.py --check
 
+  # The hybrid seam's disciplines: live figures never merge into mirrored fields, and an
+  # unavailable API is never served as a zero. Both are monkeypatched rather than live —
+  # a suite that reaches data.oregon.gov fails when a third party has a bad afternoon.
+  hybrid:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # The mcp extra is a TEST dependency here, not just a runtime one: these tests build
+      # a real server. Installing without it made the toolkit's own suite red for four
+      # releases while every one of them reported "N tests pass".
+      - run: pip install pytest "corpus-toolkit[mcp] @ git+https://github.com/OregonAI/corpus-toolkit@v1.6.0"
+      - run: python -m pytest tests/ -q
+
   # WHY THE LIVE-API CHECKS ARE NOT HERE. Reconciling the mirror against data.oregon.gov
   # and re-measuring dataset schemas both need the network. Running them per-PR makes
   # every pull request depend on a third party being up, so the gate goes red for reasons
