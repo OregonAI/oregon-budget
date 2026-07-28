@@ -1,0 +1,418 @@
+#!/usr/bin/env python3
+"""Extract appropriation line items from oregon-legislature's mirrored bill text.
+
+  python3 src/extract_appropriations.py --sibling ../oregon-legislature --session 2025R1
+  python3 src/extract_appropriations.py --check    # re-verify every quoted line
+
+THIS IS WHERE FABRICATION BECOMES POSSIBLE. Everything before this stage copied numbers
+that already existed as numbers: a Socrata column of dollars became a Parquet column of
+dollars, and a mismatch was catchable by reconciling against count(*) and sum(). Here a
+number is being READ OUT OF PROSE, and a misparse produces a false fiscal claim with a
+real bill citation attached to it — the most credible-looking wrong answer this platform
+could emit.
+
+So nothing this script produces is a finding. It produces CANDIDATES, every one marked
+`human_reviewed: false`, each carrying the verbatim source line it came from so a reviewer
+checks a quotation rather than trusting a regex.
+
+THE MEASUREMENTS THAT SHAPED THE PARSER (207 bills, 2025R1, measured not assumed):
+
+    96%  contain hyphenated line-wraps      <- the dominant hazard
+    88%  say "biennium beginning"
+    67%  say "the amount of $X"
+    56%  say "out of the General Fund"
+    34%  say "appropriated to the <Body>"   <- only a third; not a reliable anchor alone
+    26%  carry numbered sub-items "(N) ... $X"
+
+The 96% is why the text is reflowed before matching. PDF extraction breaks recipient names
+mid-word — "distribution to the Carlson Col-\nlege of Veterinary Medicine" — and a
+line-based regex records the recipient as "Carlson Col-". That is not a near-miss; it is a
+different entity, and it would be indistinguishable from a real one in the output.
+
+THE DOUBLE-COUNT, which is the same trap as budgeted-revenue's Totals row wearing new
+clothes: a bill states an appropriation and then itemizes it.
+
+    the amount of $22,500,000, which shall be allocated to Oregon State University
+      (1) For the agricultural experiment station and branch stations, $12,000,000;
+      (2) For the Oregon State University Extension Service, $8,800,000; and
+      (3) For the Forest Research Laboratory, $1,700,000.
+
+Summing every dollar figure gives $45,000,000 — exactly twice the appropriation. The
+sub-items sum to the stated total exactly, and that reconciliation is BOTH the guard
+against double-counting AND the evidence that the itemization was parsed completely. When
+it fails, the bill is flagged rather than published with a plausible number.
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import re
+import sys
+from pathlib import Path
+
+import yaml
+
+ROOT = Path(__file__).resolve().parent.parent
+OUT = ROOT / "bills"
+SIBLING_ID = "oregon-legislature"
+MAINTAINER = "@dzinck"
+DISCLAIMER = "NON-AUTHORITATIVE"
+
+MARGIN_NUMBER = re.compile(r"\s*\d{1,2}\s*")
+AMOUNT = re.compile(r"\$\s?([\d,]+(?:\.\d{2})?)")
+APPROPRIATED_TO = re.compile(
+    r"appropriat(?:ed|ion)\s+to\s+the\s+([A-Z][A-Za-z’'\- ]{3,70}?)(?=,|\s+for\s|\s+out\s)", re.I)
+AMOUNT_OF = re.compile(r"the\s+amount\s+of\s+\$\s?([\d,]+(?:\.\d{2})?)")
+SUBITEM = re.compile(r"\((\d+)\)\s*([^$]{0,160}?)\$\s?([\d,]+(?:\.\d{2})?)")
+FUND = re.compile(r"out\s+of\s+the\s+([A-Z][A-Za-z ]{2,40}?\s+Fund)", re.I)
+BIENNIUM = re.compile(r"biennium\s+beginning\s+(\w+\s+\d{1,2},\s*\d{4})", re.I)
+
+
+def money(s: str) -> int | float:
+    v = float(s.replace(",", ""))
+    return int(v) if v == int(v) else v
+
+
+def strip_margin(text: str) -> list[str]:
+    """Drop the bill's left-margin line numbers, which extract as their own lines."""
+    return [l for l in text.splitlines() if not MARGIN_NUMBER.fullmatch(l)]
+
+
+def reflow(lines: list[str]) -> str:
+    """Rejoin PDF-wrapped prose so a recipient name survives a line break.
+
+    De-hyphenation is applied ONLY at a lowercase-to-lowercase break, which is where PDF
+    wrapping puts it. A hyphen followed by an uppercase letter or a digit is left alone —
+    those are real compounds and identifiers, not wrap artifacts.
+    """
+    raw = "\n".join(lines)
+    raw = re.sub(r"(?<=[a-z])-\n(?=[a-z])", "", raw)
+    raw = re.sub(r"\n(?!SECTION|\(\d)", " ", raw)
+    return re.sub(r"[ \t]{2,}", " ", raw)
+
+
+def verbatim_for(amount_text: str, lines: list[str]) -> tuple[str, bool]:
+    """The unreflowed source line(s) containing this amount, and whether it was ambiguous.
+
+    Returned untouched. A reviewer must be able to compare the extracted figure against
+    the bill's own words, not against this script's cleaned-up version of them — the whole
+    point is to make a misparse visible.
+    """
+    needle = amount_text.replace(" ", "")
+    hits = [i for i, l in enumerate(lines) if needle in l.replace(" ", "")]
+    if not hits:
+        return "", True
+    i = hits[0]
+    # A wrapped sentence needs its continuation to be legible as evidence.
+    quote = lines[i].strip()
+    if i + 1 < len(lines) and (quote.endswith("-") or not quote.endswith((".", ";", ":"))):
+        quote += "\n" + lines[i + 1].strip()
+    return quote, len(hits) > 1
+
+
+SECTION_SPLIT = re.compile(r"(?=SECTION\s+\d+\.)")
+
+
+def split_sections(flowed: str) -> list[str]:
+    """One bill is not one appropriation.
+
+    Agency budget bills (the HB 5000 / SB 5500 series) carry several independent SECTIONs,
+    each appropriating separately and each itemizing with its OWN numbering restarting at
+    (1). Parsing the bill as a single list flattens them: two different "(1) Fish Division"
+    rows collide, and sub-items from one section get reconciled against another section's
+    total. That produced 34 MISMATCHes on the first full run — the reconciliation guard
+    correctly refusing to publish a bill this parser had misread.
+
+    Sections are the unit of appropriation, so they are the unit of reconciliation.
+    """
+    parts = [p for p in SECTION_SPLIT.split(flowed) if p.strip()]
+    return parts or [flowed]
+
+
+def parse_bill(flowed: str, raw_lines: list[str]) -> dict:
+    """Candidate appropriations from one bill. Structure only — no judgement."""
+    body = APPROPRIATED_TO.search(flowed)
+    fund = FUND.search(flowed)
+    bien = BIENNIUM.search(flowed)
+
+    sections = []
+    for n, chunk in enumerate(split_sections(flowed), 1):
+        totals = []
+        for m in AMOUNT_OF.finditer(chunk):
+            quote, ambiguous = verbatim_for(m.group(0)[m.group(0).index("$"):], raw_lines)
+            totals.append({"amount": money(m.group(1)), "source_line": quote,
+                           "ambiguous_source": ambiguous})
+        items = []
+        for m in SUBITEM.finditer(chunk):
+            quote, ambiguous = verbatim_for("$" + m.group(3), raw_lines)
+            # Dotted leaders are typographic filler in budget tables, not the purpose.
+            purpose = re.sub(r"[.\s]{3,}", " ", m.group(2))
+            purpose = re.sub(r"\s+", " ", purpose).strip(" ,;").removeprefix("For ").strip()
+            items.append({"item": int(m.group(1)), "purpose": purpose,
+                          "amount": money(m.group(3)), "source_line": quote,
+                          "ambiguous_source": ambiguous})
+        if totals or items:
+            label = re.match(r"SECTION\s+(\d+)\.", chunk)
+            sections.append({"section": label.group(1) if label else str(n),
+                             "stated_totals": totals, "line_items": items})
+
+    return {
+        "appropriated_to": body.group(1).strip() if body else None,
+        "fund": fund.group(1) if fund else None,
+        "biennium_begins": bien.group(1) if bien else None,
+        "sections": sections,
+        "stated_totals": [t for s in sections for t in s["stated_totals"]],
+        "line_items": [i for s in sections for i in s["line_items"]],
+        "distinct_amounts_in_text": len(AMOUNT.findall(flowed)),
+    }
+
+
+def reconcile(parsed: dict) -> dict:
+    """Do the sub-items sum to the stated appropriation?
+
+    Not a formality. It is simultaneously the double-count guard and the completeness
+    proof: sub-items that sum to the total mean the itemization was parsed in full, and
+    any other outcome means this bill must not be published as a set of figures.
+    """
+    per_section = []
+    for s in parsed["sections"]:
+        totals = [t["amount"] for t in s["stated_totals"]]
+        items = [i["amount"] for i in s["line_items"]]
+        e = {"section": s["section"]}
+        if items and totals:
+            e["items_sum"] = sum(items)
+            e["reconciles"] = sum(items) in totals
+            e["status"] = "reconciled" if e["reconciles"] else "MISMATCH"
+        elif items:
+            e["items_sum"] = sum(items)
+            e["status"] = "items-without-stated-total"
+        else:
+            e["status"] = ("single-appropriation" if len(totals) == 1
+                           else "multiple-totals-no-itemization")
+        per_section.append(e)
+
+    r = {"sections": per_section}
+    statuses = {e["status"] for e in per_section}
+    if not per_section:
+        r["status"] = "no-amounts"
+    elif "MISMATCH" in statuses:
+        bad = [e for e in per_section if e["status"] == "MISMATCH"]
+        r["status"] = "MISMATCH"
+        r["note"] = (f"{len(bad)} of {len(per_section)} section(s) do not reconcile: their "
+                     f"sub-items sum to a figure matching no stated total in the same "
+                     f"section. The itemization is incomplete or mis-parsed — NOT publishable.")
+    elif statuses == {"reconciled"}:
+        r["status"] = "reconciled"
+    elif "reconciled" in statuses:
+        r["status"] = "partly-reconciled"
+    else:
+        r["status"] = sorted(statuses)[0]
+    return r
+
+
+def _tables(L: list, sec: dict, e: dict) -> None:
+    """The two tables for one section, kept SEPARATE on purpose.
+
+    The stated appropriation and its line items are the same money described twice. Any
+    layout that invites adding them together reintroduces the double-count this whole
+    reconciliation exists to catch, so they never share a table.
+    """
+    if sec["stated_totals"]:
+        L.append("**Stated appropriation**")
+        L.append("")
+        L.append("| Amount | Verbatim source line |")
+        L.append("|---:|---|")
+        for t in sec["stated_totals"]:
+            q = t["source_line"].replace("\n", " ").replace("|", "\\|")
+            flag = " ⚠ this amount appears more than once in the bill" if t["ambiguous_source"] else ""
+            L.append(f"| ${t['amount']:,} | {q}{flag} |")
+        L.append("")
+    if sec["line_items"]:
+        L.append("**Line items**")
+        L.append("")
+        L.append("| # | Purpose (parsed) | Amount | Verbatim source line |")
+        L.append("|---|---|---:|---|")
+        for it in sec["line_items"]:
+            q = it["source_line"].replace("\n", " ").replace("|", "\\|")
+            flag = " ⚠" if it["ambiguous_source"] else ""
+            L.append(f"| {it['item']} | {it['purpose']} | ${it['amount']:,} | {q}{flag} |")
+        L.append("")
+        if e.get("items_sum") is not None:
+            verdict = ("and that matches the stated appropriation above"
+                       if e.get("reconciles") else
+                       "which matches NO stated appropriation in this section")
+            L.append(f"Line items sum to **${e['items_sum']:,}** — {verdict}.")
+            L.append("")
+
+
+def build_doc(measure: dict, parsed: dict, rec: dict, sibling_sha: str, today: str) -> str:
+    mid = measure["id"]
+    doc_id = f"appropriations-{mid.replace('measure-', '')}"
+    fm = {
+        "schema_version": 1, "corpus": "oregon-budget", "jurisdiction": "oregon",
+        "id": doc_id,
+        "title": f"Appropriations in {measure['citation']}",
+        "doc_type": "dataset_doc",
+        "citation": measure["citation"],
+        "issuing_body": "Oregon State Legislature",
+        "source_url": measure["source_url"],
+        "source_format": "pdf",
+        "snapshot_policy": "hash-only",
+        "status": "current",
+        "content_mode": "summary",
+        "last_verified": today,
+        "verified_by": MAINTAINER,
+        "maintainer": MAINTAINER,
+        # FALSE UNTIL A HUMAN SAYS OTHERWISE. Every figure below was read out of prose by
+        # a regex; none of it is servable as fact until someone has compared it to the
+        # quoted source line. src/check_appropriations.py enforces this.
+        "human_reviewed": False,
+        "relationships": {"implements": [], "implemented_by": [],
+                          "references_external": [measure["citation"]],
+                          "related": [], "supersedes": []},
+        "tags": ["oregon-budget", "appropriations", measure["session"].lower(),
+                 "unreviewed"],
+        "sibling_corpus": SIBLING_ID,
+        "sibling_document_id": mid,
+        "sibling_snapshot_id": measure["snapshot_id"],
+        "sibling_source_sha256": sibling_sha,
+        "extraction_status": rec["status"],
+        "appropriated_to": parsed["appropriated_to"],
+        "fund": parsed["fund"],
+        "biennium_begins": parsed["biennium_begins"],
+    }
+
+    L = []
+    L.append(f"> **{DISCLAIMER} — UNREVIEWED MACHINE EXTRACTION.** Every figure on this")
+    L.append("> page was read out of bill prose by a parser and has **not** been checked by")
+    L.append("> a person. It is not the text of any bill and must not be quoted as an")
+    L.append(f"> appropriation. The authoritative text is `{measure['source_url']}`.")
+    L.append("")
+    L.append(f"# Appropriations in {measure['citation']}")
+    L.append("")
+    L.append("## At a glance")
+    L.append("")
+    L.append(f"{measure['title']}")
+    L.append("")
+    bits = []
+    if parsed["appropriated_to"]:
+        bits.append(f"appropriated to **{parsed['appropriated_to']}**")
+    if parsed["fund"]:
+        bits.append(f"out of the **{parsed['fund']}**")
+    if parsed["biennium_begins"]:
+        bits.append(f"for the biennium beginning **{parsed['biennium_begins']}**")
+    if bits:
+        L.append("Parsed context: " + ", ".join(bits) + ".")
+        L.append("")
+    detail = {"MISMATCH": rec.get("note", ""),
+              "reconciled": "Every itemized section sums to its own stated appropriation.",
+              "partly-reconciled": "Some sections reconcile; others state an amount with "
+                                   "no itemization to check it against.",
+              }.get(rec["status"], "No itemization to reconcile against.")
+    L.append(f"Extraction status: **{rec['status']}**. {detail}")
+    if len(parsed["sections"]) > 1:
+        L.append("")
+        L.append(f"This bill appropriates in **{len(parsed['sections'])} separate "
+                 f"sections**. Each is reconciled on its own: item numbering restarts per "
+                 f"section, so amounts must never be pooled across them.")
+    L.append("")
+    L.append("The full text of this bill lives in the "
+             f"`{SIBLING_ID}` corpus as `{mid}` and is referenced, not copied.")
+    L.append("")
+
+    by_section = {e["section"]: e for e in rec["sections"]}
+    for sec in parsed["sections"]:
+        e = by_section.get(sec["section"], {})
+        if len(parsed["sections"]) > 1:
+            L.append(f"## Section {sec['section']} — {e.get('status','')}")
+            L.append("")
+        _tables(L, sec, e)
+
+    L.append("## Curator notes")
+    L.append("")
+    L.append("Summing every dollar figure in an appropriation bill **double-counts**: a "
+             "bill states an appropriation and then itemizes the same money. The stated "
+             "appropriation and the line items are separate tables above for exactly that "
+             "reason, and must never be added together.")
+    L.append("")
+    L.append("The 'purpose' column is a parser's reading of the surrounding prose, not the "
+             "bill's own words. The verbatim source line beside it is the bill's own "
+             "words, and is the column to trust.")
+    L.append("")
+    return f"---\n{yaml.safe_dump(fm, sort_keys=False, allow_unicode=True, width=100)}---\n\n" \
+           + "\n".join(L)
+
+
+def load_measures(sibling: Path, session: str) -> list[dict]:
+    out = []
+    for p in sorted((sibling / "measures" / session).glob("*.md")):
+        if p.name.startswith("_"):
+            continue
+        fm = yaml.safe_load(p.read_text().split("---\n", 2)[1])
+        catch = (fm.get("catch_line") or "") + " " + (fm.get("title") or "")
+        if "appropriat" not in catch.lower():
+            continue
+        out.append({"id": fm["id"], "citation": fm["citation"], "title": fm.get("title", ""),
+                    "source_url": fm.get("source_url", ""),
+                    "snapshot_id": fm.get("snapshot_id"), "session": session,
+                    "sha256": fm.get("source_sha256", "")})
+    return out
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--sibling", default="../oregon-legislature")
+    ap.add_argument("--session", default="2025R1")
+    ap.add_argument("--limit", type=int, default=0, help="stop after N bills (for a dry run)")
+    args = ap.parse_args()
+
+    sibling = Path(args.sibling).resolve()
+    if not (sibling / "measures").is_dir():
+        print(f"no measures/ under {sibling} — this stage READS the sibling corpus rather "
+              f"than copying its bill text. Pass --sibling <path to oregon-legislature>.",
+              file=sys.stderr)
+        return 2
+
+    from datetime import datetime, timezone
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    measures = load_measures(sibling, args.session)
+    if args.limit:
+        measures = measures[:args.limit]
+    OUT.mkdir(exist_ok=True)
+
+    stats, written, skipped = {}, 0, []
+    for meas in measures:
+        snap = sibling / "_meta" / "snapshots" / f"{meas['snapshot_id']}.txt"
+        if not snap.is_file():
+            skipped.append((meas["id"], "no committed .txt in the sibling"))
+            continue
+        raw_lines = strip_margin(snap.read_text(errors="replace"))
+        parsed = parse_bill(reflow(raw_lines), raw_lines)
+        if not parsed["stated_totals"] and not parsed["line_items"]:
+            skipped.append((meas["id"], "no dollar amounts found"))
+            stats["no-amounts"] = stats.get("no-amounts", 0) + 1
+            continue
+        rec = reconcile(parsed)
+        stats[rec["status"]] = stats.get(rec["status"], 0) + 1
+        sha = hashlib.sha256(snap.read_bytes()).hexdigest()
+        doc = build_doc(meas, parsed, rec, sha, today)
+        doc_id = f"appropriations-{meas['id'].replace('measure-', '')}"
+        (OUT / f"{doc_id}.md").write_text(doc)
+        written += 1
+
+    print(f"{written} appropriation document(s) -> {OUT.relative_to(ROOT)}/")
+    for k, v in sorted(stats.items(), key=lambda kv: -kv[1]):
+        print(f"  {k:<32} {v}")
+    if skipped:
+        print(f"  skipped: {len(skipped)}")
+        for mid, why in skipped[:5]:
+            print(f"    {mid}: {why}")
+    print("\nEVERY document is human_reviewed: false. Nothing here is servable as fact "
+          "until a person has checked the figures against the quoted source lines.")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -13,11 +13,15 @@
 # paths; keep it in step whenever a content root is added.
 * @dzinck
 
-# Content roots declared in _meta/corpus.yml. `bills/` and `joins/` arrive in stages 3
-# and 4 and are deliberately NOT listed yet — a rule for a directory that does not exist
-# is the exact failure described above. Add each one with its directory.
+# Content roots declared in _meta/corpus.yml. `joins/` arrives in stage 4 and is
+# deliberately NOT listed yet — a rule for a directory that does not exist is the exact
+# failure described above. Add it with its directory.
 /expenditures/ @dzinck
 /datasets/     @dzinck
+# Machine-extracted appropriation figures, every one unreviewed. These need MORE scrutiny
+# than the mirrored documents, not less: a misparsed amount here is a false fiscal claim
+# carrying a real bill citation.
+/bills/        @dzinck
 
 # The mirrored source data. Changes here move dollar figures and deserve at least the
 # scrutiny of the documents derived from them.

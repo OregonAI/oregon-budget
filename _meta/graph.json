@@ -1,8 +1,8 @@
 {
  "corpus": "oregon-budget",
- "n_nodes": 547,
- "n_edges": 1474,
- "n_edges_external": 0,
+ "n_nodes": 703,
+ "n_edges": 1630,
+ "n_edges_external": 156,
  "nodes": [
   {
    "id": "expenditures-100-fy2019",
@@ -3267,6 +3267,942 @@
    "title": "Cntrl Agy/St General Fund/B-Up Wh — FY2019 expenditures",
    "doc_type": "dataset_doc",
    "path": "expenditures/expenditures-999-fy2019.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2018",
+   "title": "Appropriations in 2025 Regular Session House Bill 2018",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2018.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2030",
+   "title": "Appropriations in 2025 Regular Session House Bill 2030",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2030.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2043",
+   "title": "Appropriations in 2025 Regular Session House Bill 2043",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2043.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2165",
+   "title": "Appropriations in 2025 Regular Session House Bill 2165",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2165.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2167",
+   "title": "Appropriations in 2025 Regular Session House Bill 2167",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2167.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2257",
+   "title": "Appropriations in 2025 Regular Session House Bill 2257",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2257.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2401",
+   "title": "Appropriations in 2025 Regular Session House Bill 2401",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2401.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2408",
+   "title": "Appropriations in 2025 Regular Session House Bill 2408",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2408.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2527",
+   "title": "Appropriations in 2025 Regular Session House Bill 2527",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2527.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2531",
+   "title": "Appropriations in 2025 Regular Session House Bill 2531",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2531.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2532",
+   "title": "Appropriations in 2025 Regular Session House Bill 2532",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2532.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2543",
+   "title": "Appropriations in 2025 Regular Session House Bill 2543",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2543.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2546",
+   "title": "Appropriations in 2025 Regular Session House Bill 2546",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2546.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2588",
+   "title": "Appropriations in 2025 Regular Session House Bill 2588",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2588.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2589",
+   "title": "Appropriations in 2025 Regular Session House Bill 2589",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2589.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2675",
+   "title": "Appropriations in 2025 Regular Session House Bill 2675",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2675.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2749",
+   "title": "Appropriations in 2025 Regular Session House Bill 2749",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2749.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2772",
+   "title": "Appropriations in 2025 Regular Session House Bill 2772",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2772.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2839",
+   "title": "Appropriations in 2025 Regular Session House Bill 2839",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2839.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2842",
+   "title": "Appropriations in 2025 Regular Session House Bill 2842",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2842.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2865",
+   "title": "Appropriations in 2025 Regular Session House Bill 2865",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2865.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2976",
+   "title": "Appropriations in 2025 Regular Session House Bill 2976",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2976.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2979",
+   "title": "Appropriations in 2025 Regular Session House Bill 2979",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2979.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2984",
+   "title": "Appropriations in 2025 Regular Session House Bill 2984",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2984.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2991",
+   "title": "Appropriations in 2025 Regular Session House Bill 2991",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2991.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3011",
+   "title": "Appropriations in 2025 Regular Session House Bill 3011",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3011.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3066",
+   "title": "Appropriations in 2025 Regular Session House Bill 3066",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3066.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3070",
+   "title": "Appropriations in 2025 Regular Session House Bill 3070",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3070.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3105",
+   "title": "Appropriations in 2025 Regular Session House Bill 3105",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3105.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3116",
+   "title": "Appropriations in 2025 Regular Session House Bill 3116",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3116.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3131",
+   "title": "Appropriations in 2025 Regular Session House Bill 3131",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3131.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3135",
+   "title": "Appropriations in 2025 Regular Session House Bill 3135",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3135.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3162",
+   "title": "Appropriations in 2025 Regular Session House Bill 3162",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3162.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3180",
+   "title": "Appropriations in 2025 Regular Session House Bill 3180",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3180.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3183",
+   "title": "Appropriations in 2025 Regular Session House Bill 3183",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3183.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3189",
+   "title": "Appropriations in 2025 Regular Session House Bill 3189",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3189.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3191",
+   "title": "Appropriations in 2025 Regular Session House Bill 3191",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3191.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3192",
+   "title": "Appropriations in 2025 Regular Session House Bill 3192",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3192.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3295",
+   "title": "Appropriations in 2025 Regular Session House Bill 3295",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3295.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3314",
+   "title": "Appropriations in 2025 Regular Session House Bill 3314",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3314.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3341",
+   "title": "Appropriations in 2025 Regular Session House Bill 3341",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3341.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3356",
+   "title": "Appropriations in 2025 Regular Session House Bill 3356",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3356.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3361",
+   "title": "Appropriations in 2025 Regular Session House Bill 3361",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3361.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3366",
+   "title": "Appropriations in 2025 Regular Session House Bill 3366",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3366.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3476",
+   "title": "Appropriations in 2025 Regular Session House Bill 3476",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3476.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3504",
+   "title": "Appropriations in 2025 Regular Session House Bill 3504",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3504.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3528",
+   "title": "Appropriations in 2025 Regular Session House Bill 3528",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3528.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3543",
+   "title": "Appropriations in 2025 Regular Session House Bill 3543",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3543.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3567",
+   "title": "Appropriations in 2025 Regular Session House Bill 3567",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3567.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3568",
+   "title": "Appropriations in 2025 Regular Session House Bill 3568",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3568.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3571",
+   "title": "Appropriations in 2025 Regular Session House Bill 3571",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3571.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3573",
+   "title": "Appropriations in 2025 Regular Session House Bill 3573",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3573.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3577",
+   "title": "Appropriations in 2025 Regular Session House Bill 3577",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3577.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3616",
+   "title": "Appropriations in 2025 Regular Session House Bill 3616",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3616.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3617",
+   "title": "Appropriations in 2025 Regular Session House Bill 3617",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3617.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3618",
+   "title": "Appropriations in 2025 Regular Session House Bill 3618",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3618.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3732",
+   "title": "Appropriations in 2025 Regular Session House Bill 3732",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3732.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3733",
+   "title": "Appropriations in 2025 Regular Session House Bill 3733",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3733.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3734",
+   "title": "Appropriations in 2025 Regular Session House Bill 3734",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3734.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3775",
+   "title": "Appropriations in 2025 Regular Session House Bill 3775",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3775.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3786",
+   "title": "Appropriations in 2025 Regular Session House Bill 3786",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3786.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3837",
+   "title": "Appropriations in 2025 Regular Session House Bill 3837",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3837.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3870",
+   "title": "Appropriations in 2025 Regular Session House Bill 3870",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3870.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3911",
+   "title": "Appropriations in 2025 Regular Session House Bill 3911",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3911.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3933",
+   "title": "Appropriations in 2025 Regular Session House Bill 3933",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3933.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3952",
+   "title": "Appropriations in 2025 Regular Session House Bill 3952",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3952.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5002",
+   "title": "Appropriations in 2025 Regular Session House Bill 5002",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5002.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5003",
+   "title": "Appropriations in 2025 Regular Session House Bill 5003",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5003.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5004",
+   "title": "Appropriations in 2025 Regular Session House Bill 5004",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5004.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5005",
+   "title": "Appropriations in 2025 Regular Session House Bill 5005",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5005.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5006",
+   "title": "Appropriations in 2025 Regular Session House Bill 5006",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5006.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5008",
+   "title": "Appropriations in 2025 Regular Session House Bill 5008",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5008.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5009",
+   "title": "Appropriations in 2025 Regular Session House Bill 5009",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5009.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5010",
+   "title": "Appropriations in 2025 Regular Session House Bill 5010",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5010.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5011",
+   "title": "Appropriations in 2025 Regular Session House Bill 5011",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5011.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5012",
+   "title": "Appropriations in 2025 Regular Session House Bill 5012",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5012.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5013",
+   "title": "Appropriations in 2025 Regular Session House Bill 5013",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5013.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5014",
+   "title": "Appropriations in 2025 Regular Session House Bill 5014",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5014.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5015",
+   "title": "Appropriations in 2025 Regular Session House Bill 5015",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5015.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5016",
+   "title": "Appropriations in 2025 Regular Session House Bill 5016",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5016.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5017",
+   "title": "Appropriations in 2025 Regular Session House Bill 5017",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5017.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5020",
+   "title": "Appropriations in 2025 Regular Session House Bill 5020",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5020.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5024",
+   "title": "Appropriations in 2025 Regular Session House Bill 5024",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5024.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5025",
+   "title": "Appropriations in 2025 Regular Session House Bill 5025",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5025.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5026",
+   "title": "Appropriations in 2025 Regular Session House Bill 5026",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5026.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5027",
+   "title": "Appropriations in 2025 Regular Session House Bill 5027",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5027.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5029",
+   "title": "Appropriations in 2025 Regular Session House Bill 5029",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5029.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5030",
+   "title": "Appropriations in 2025 Regular Session House Bill 5030",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5030.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5031",
+   "title": "Appropriations in 2025 Regular Session House Bill 5031",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5031.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5032",
+   "title": "Appropriations in 2025 Regular Session House Bill 5032",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5032.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5037",
+   "title": "Appropriations in 2025 Regular Session House Bill 5037",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5037.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5038",
+   "title": "Appropriations in 2025 Regular Session House Bill 5038",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5038.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5039",
+   "title": "Appropriations in 2025 Regular Session House Bill 5039",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5039.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5041",
+   "title": "Appropriations in 2025 Regular Session House Bill 5041",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5041.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5047",
+   "title": "Appropriations in 2025 Regular Session House Bill 5047",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5047.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb1000",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 1000",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb1000.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb1001",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 1001",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb1001.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb1013",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 1013",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb1013.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb1050",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 1050",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb1050.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb1079",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 1079",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb1079.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb1165",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 1165",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb1165.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb1167",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 1167",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb1167.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb1183",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 1183",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb1183.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb1207",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 1207",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb1207.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb2",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 2",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb2.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb231",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 231",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb231.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb336",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 336",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb336.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb339",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 339",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb339.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb351",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 351",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb351.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb353",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 353",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb353.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb356",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 356",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb356.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb361",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 361",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb361.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb363",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 363",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb363.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb420",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 420",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb420.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb443",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 443",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb443.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb452",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 452",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb452.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb456",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 456",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb456.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb466",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 466",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb466.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb477",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 477",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb477.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb499",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 499",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb499.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb515",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 515",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb515.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5501",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5501",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5501.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5502",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5502",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5502.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5508",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5508",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5508.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5511",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5511",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5511.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5513",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5513",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5513.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5514",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5514",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5514.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5515",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5515",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5515.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5516",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5516",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5516.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5517",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5517",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5517.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5518",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5518",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5518.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5520",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5520",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5520.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5521",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5521",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5521.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5523",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5523",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5523.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5525",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5525",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5525.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5526",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5526",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5526.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5528",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5528",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5528.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5529",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5529",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5529.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5533",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5533",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5533.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5536",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5536",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5536.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5537",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5537",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5537.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5538",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5538",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5538.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5541",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5541",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5541.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5543",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5543",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5543.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5547",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5547",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5547.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5550",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5550",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5550.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb576",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 576",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb576.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb579",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 579",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb579.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb642",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 642",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb642.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb720",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 720",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb720.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb779",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 779",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb779.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb923",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 923",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb923.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb929",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 929",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb929.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb956",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 956",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb956.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb985",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 985",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb985.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb986",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 986",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb986.md"
   },
   {
    "id": "agency-expenditures",
@@ -10627,6 +11563,786 @@
    "from": "expenditures-999-fy2019",
    "type": "related",
    "to": "agency-expenditures"
+  },
+  {
+   "from": "appropriations-2025r1-hb2018",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2018"
+  },
+  {
+   "from": "appropriations-2025r1-hb2030",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2030"
+  },
+  {
+   "from": "appropriations-2025r1-hb2043",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2043"
+  },
+  {
+   "from": "appropriations-2025r1-hb2165",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2165"
+  },
+  {
+   "from": "appropriations-2025r1-hb2167",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2167"
+  },
+  {
+   "from": "appropriations-2025r1-hb2257",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2257"
+  },
+  {
+   "from": "appropriations-2025r1-hb2401",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2401"
+  },
+  {
+   "from": "appropriations-2025r1-hb2408",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2408"
+  },
+  {
+   "from": "appropriations-2025r1-hb2527",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2527"
+  },
+  {
+   "from": "appropriations-2025r1-hb2531",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2531"
+  },
+  {
+   "from": "appropriations-2025r1-hb2532",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2532"
+  },
+  {
+   "from": "appropriations-2025r1-hb2543",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2543"
+  },
+  {
+   "from": "appropriations-2025r1-hb2546",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2546"
+  },
+  {
+   "from": "appropriations-2025r1-hb2588",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2588"
+  },
+  {
+   "from": "appropriations-2025r1-hb2589",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2589"
+  },
+  {
+   "from": "appropriations-2025r1-hb2675",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2675"
+  },
+  {
+   "from": "appropriations-2025r1-hb2749",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2749"
+  },
+  {
+   "from": "appropriations-2025r1-hb2772",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2772"
+  },
+  {
+   "from": "appropriations-2025r1-hb2839",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2839"
+  },
+  {
+   "from": "appropriations-2025r1-hb2842",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2842"
+  },
+  {
+   "from": "appropriations-2025r1-hb2865",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2865"
+  },
+  {
+   "from": "appropriations-2025r1-hb2976",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2976"
+  },
+  {
+   "from": "appropriations-2025r1-hb2979",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2979"
+  },
+  {
+   "from": "appropriations-2025r1-hb2984",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2984"
+  },
+  {
+   "from": "appropriations-2025r1-hb2991",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2991"
+  },
+  {
+   "from": "appropriations-2025r1-hb3011",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3011"
+  },
+  {
+   "from": "appropriations-2025r1-hb3066",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3066"
+  },
+  {
+   "from": "appropriations-2025r1-hb3070",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3070"
+  },
+  {
+   "from": "appropriations-2025r1-hb3105",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3105"
+  },
+  {
+   "from": "appropriations-2025r1-hb3116",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3116"
+  },
+  {
+   "from": "appropriations-2025r1-hb3131",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3131"
+  },
+  {
+   "from": "appropriations-2025r1-hb3135",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3135"
+  },
+  {
+   "from": "appropriations-2025r1-hb3162",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3162"
+  },
+  {
+   "from": "appropriations-2025r1-hb3180",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3180"
+  },
+  {
+   "from": "appropriations-2025r1-hb3183",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3183"
+  },
+  {
+   "from": "appropriations-2025r1-hb3189",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3189"
+  },
+  {
+   "from": "appropriations-2025r1-hb3191",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3191"
+  },
+  {
+   "from": "appropriations-2025r1-hb3192",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3192"
+  },
+  {
+   "from": "appropriations-2025r1-hb3295",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3295"
+  },
+  {
+   "from": "appropriations-2025r1-hb3314",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3314"
+  },
+  {
+   "from": "appropriations-2025r1-hb3341",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3341"
+  },
+  {
+   "from": "appropriations-2025r1-hb3356",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3356"
+  },
+  {
+   "from": "appropriations-2025r1-hb3361",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3361"
+  },
+  {
+   "from": "appropriations-2025r1-hb3366",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3366"
+  },
+  {
+   "from": "appropriations-2025r1-hb3476",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3476"
+  },
+  {
+   "from": "appropriations-2025r1-hb3504",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3504"
+  },
+  {
+   "from": "appropriations-2025r1-hb3528",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3528"
+  },
+  {
+   "from": "appropriations-2025r1-hb3543",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3543"
+  },
+  {
+   "from": "appropriations-2025r1-hb3567",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3567"
+  },
+  {
+   "from": "appropriations-2025r1-hb3568",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3568"
+  },
+  {
+   "from": "appropriations-2025r1-hb3571",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3571"
+  },
+  {
+   "from": "appropriations-2025r1-hb3573",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3573"
+  },
+  {
+   "from": "appropriations-2025r1-hb3577",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3577"
+  },
+  {
+   "from": "appropriations-2025r1-hb3616",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3616"
+  },
+  {
+   "from": "appropriations-2025r1-hb3617",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3617"
+  },
+  {
+   "from": "appropriations-2025r1-hb3618",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3618"
+  },
+  {
+   "from": "appropriations-2025r1-hb3732",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3732"
+  },
+  {
+   "from": "appropriations-2025r1-hb3733",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3733"
+  },
+  {
+   "from": "appropriations-2025r1-hb3734",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3734"
+  },
+  {
+   "from": "appropriations-2025r1-hb3775",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3775"
+  },
+  {
+   "from": "appropriations-2025r1-hb3786",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3786"
+  },
+  {
+   "from": "appropriations-2025r1-hb3837",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3837"
+  },
+  {
+   "from": "appropriations-2025r1-hb3870",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3870"
+  },
+  {
+   "from": "appropriations-2025r1-hb3911",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3911"
+  },
+  {
+   "from": "appropriations-2025r1-hb3933",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3933"
+  },
+  {
+   "from": "appropriations-2025r1-hb3952",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3952"
+  },
+  {
+   "from": "appropriations-2025r1-hb5002",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5002"
+  },
+  {
+   "from": "appropriations-2025r1-hb5003",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5003"
+  },
+  {
+   "from": "appropriations-2025r1-hb5004",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5004"
+  },
+  {
+   "from": "appropriations-2025r1-hb5005",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5005"
+  },
+  {
+   "from": "appropriations-2025r1-hb5006",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5006"
+  },
+  {
+   "from": "appropriations-2025r1-hb5008",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5008"
+  },
+  {
+   "from": "appropriations-2025r1-hb5009",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5009"
+  },
+  {
+   "from": "appropriations-2025r1-hb5010",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5010"
+  },
+  {
+   "from": "appropriations-2025r1-hb5011",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5011"
+  },
+  {
+   "from": "appropriations-2025r1-hb5012",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5012"
+  },
+  {
+   "from": "appropriations-2025r1-hb5013",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5013"
+  },
+  {
+   "from": "appropriations-2025r1-hb5014",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5014"
+  },
+  {
+   "from": "appropriations-2025r1-hb5015",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5015"
+  },
+  {
+   "from": "appropriations-2025r1-hb5016",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5016"
+  },
+  {
+   "from": "appropriations-2025r1-hb5017",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5017"
+  },
+  {
+   "from": "appropriations-2025r1-hb5020",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5020"
+  },
+  {
+   "from": "appropriations-2025r1-hb5024",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5024"
+  },
+  {
+   "from": "appropriations-2025r1-hb5025",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5025"
+  },
+  {
+   "from": "appropriations-2025r1-hb5026",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5026"
+  },
+  {
+   "from": "appropriations-2025r1-hb5027",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5027"
+  },
+  {
+   "from": "appropriations-2025r1-hb5029",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5029"
+  },
+  {
+   "from": "appropriations-2025r1-hb5030",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5030"
+  },
+  {
+   "from": "appropriations-2025r1-hb5031",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5031"
+  },
+  {
+   "from": "appropriations-2025r1-hb5032",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5032"
+  },
+  {
+   "from": "appropriations-2025r1-hb5037",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5037"
+  },
+  {
+   "from": "appropriations-2025r1-hb5038",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5038"
+  },
+  {
+   "from": "appropriations-2025r1-hb5039",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5039"
+  },
+  {
+   "from": "appropriations-2025r1-hb5041",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5041"
+  },
+  {
+   "from": "appropriations-2025r1-hb5047",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5047"
+  },
+  {
+   "from": "appropriations-2025r1-sb1000",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 1000"
+  },
+  {
+   "from": "appropriations-2025r1-sb1001",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 1001"
+  },
+  {
+   "from": "appropriations-2025r1-sb1013",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 1013"
+  },
+  {
+   "from": "appropriations-2025r1-sb1050",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 1050"
+  },
+  {
+   "from": "appropriations-2025r1-sb1079",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 1079"
+  },
+  {
+   "from": "appropriations-2025r1-sb1165",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 1165"
+  },
+  {
+   "from": "appropriations-2025r1-sb1167",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 1167"
+  },
+  {
+   "from": "appropriations-2025r1-sb1183",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 1183"
+  },
+  {
+   "from": "appropriations-2025r1-sb1207",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 1207"
+  },
+  {
+   "from": "appropriations-2025r1-sb2",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 2"
+  },
+  {
+   "from": "appropriations-2025r1-sb231",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 231"
+  },
+  {
+   "from": "appropriations-2025r1-sb336",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 336"
+  },
+  {
+   "from": "appropriations-2025r1-sb339",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 339"
+  },
+  {
+   "from": "appropriations-2025r1-sb351",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 351"
+  },
+  {
+   "from": "appropriations-2025r1-sb353",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 353"
+  },
+  {
+   "from": "appropriations-2025r1-sb356",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 356"
+  },
+  {
+   "from": "appropriations-2025r1-sb361",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 361"
+  },
+  {
+   "from": "appropriations-2025r1-sb363",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 363"
+  },
+  {
+   "from": "appropriations-2025r1-sb420",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 420"
+  },
+  {
+   "from": "appropriations-2025r1-sb443",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 443"
+  },
+  {
+   "from": "appropriations-2025r1-sb452",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 452"
+  },
+  {
+   "from": "appropriations-2025r1-sb456",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 456"
+  },
+  {
+   "from": "appropriations-2025r1-sb466",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 466"
+  },
+  {
+   "from": "appropriations-2025r1-sb477",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 477"
+  },
+  {
+   "from": "appropriations-2025r1-sb499",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 499"
+  },
+  {
+   "from": "appropriations-2025r1-sb515",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 515"
+  },
+  {
+   "from": "appropriations-2025r1-sb5501",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5501"
+  },
+  {
+   "from": "appropriations-2025r1-sb5502",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5502"
+  },
+  {
+   "from": "appropriations-2025r1-sb5508",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5508"
+  },
+  {
+   "from": "appropriations-2025r1-sb5511",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5511"
+  },
+  {
+   "from": "appropriations-2025r1-sb5513",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5513"
+  },
+  {
+   "from": "appropriations-2025r1-sb5514",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5514"
+  },
+  {
+   "from": "appropriations-2025r1-sb5515",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5515"
+  },
+  {
+   "from": "appropriations-2025r1-sb5516",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5516"
+  },
+  {
+   "from": "appropriations-2025r1-sb5517",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5517"
+  },
+  {
+   "from": "appropriations-2025r1-sb5518",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5518"
+  },
+  {
+   "from": "appropriations-2025r1-sb5520",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5520"
+  },
+  {
+   "from": "appropriations-2025r1-sb5521",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5521"
+  },
+  {
+   "from": "appropriations-2025r1-sb5523",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5523"
+  },
+  {
+   "from": "appropriations-2025r1-sb5525",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5525"
+  },
+  {
+   "from": "appropriations-2025r1-sb5526",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5526"
+  },
+  {
+   "from": "appropriations-2025r1-sb5528",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5528"
+  },
+  {
+   "from": "appropriations-2025r1-sb5529",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5529"
+  },
+  {
+   "from": "appropriations-2025r1-sb5533",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5533"
+  },
+  {
+   "from": "appropriations-2025r1-sb5536",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5536"
+  },
+  {
+   "from": "appropriations-2025r1-sb5537",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5537"
+  },
+  {
+   "from": "appropriations-2025r1-sb5538",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5538"
+  },
+  {
+   "from": "appropriations-2025r1-sb5541",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5541"
+  },
+  {
+   "from": "appropriations-2025r1-sb5543",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5543"
+  },
+  {
+   "from": "appropriations-2025r1-sb5547",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5547"
+  },
+  {
+   "from": "appropriations-2025r1-sb5550",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5550"
+  },
+  {
+   "from": "appropriations-2025r1-sb576",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 576"
+  },
+  {
+   "from": "appropriations-2025r1-sb579",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 579"
+  },
+  {
+   "from": "appropriations-2025r1-sb642",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 642"
+  },
+  {
+   "from": "appropriations-2025r1-sb720",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 720"
+  },
+  {
+   "from": "appropriations-2025r1-sb779",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 779"
+  },
+  {
+   "from": "appropriations-2025r1-sb923",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 923"
+  },
+  {
+   "from": "appropriations-2025r1-sb929",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 929"
+  },
+  {
+   "from": "appropriations-2025r1-sb956",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 956"
+  },
+  {
+   "from": "appropriations-2025r1-sb985",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 985"
+  },
+  {
+   "from": "appropriations-2025r1-sb986",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 986"
   },
   {
    "from": "agency-expenditures",
