@@ -1,8 +1,8 @@
 {
  "corpus": "oregon-budget",
- "n_nodes": 703,
- "n_edges": 1630,
- "n_edges_external": 156,
+ "n_nodes": 717,
+ "n_edges": 1644,
+ "n_edges_external": 170,
  "nodes": [
   {
    "id": "expenditures-100-fy2019",
@@ -3269,6 +3269,102 @@
    "path": "expenditures/expenditures-999-fy2019.md"
   },
   {
+   "id": "appropriations-2024r1-hb4041",
+   "title": "Appropriations in 2024 Regular Session House Bill 4041",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-hb4041.md"
+  },
+  {
+   "id": "appropriations-2024r1-hb4060",
+   "title": "Appropriations in 2024 Regular Session House Bill 4060",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-hb4060.md"
+  },
+  {
+   "id": "appropriations-2024r1-hb4105",
+   "title": "Appropriations in 2024 Regular Session House Bill 4105",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-hb4105.md"
+  },
+  {
+   "id": "appropriations-2024r1-hb4110",
+   "title": "Appropriations in 2024 Regular Session House Bill 4110",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-hb4110.md"
+  },
+  {
+   "id": "appropriations-2024r1-hb4123",
+   "title": "Appropriations in 2024 Regular Session House Bill 4123",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-hb4123.md"
+  },
+  {
+   "id": "appropriations-2024r1-hb4124",
+   "title": "Appropriations in 2024 Regular Session House Bill 4124",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-hb4124.md"
+  },
+  {
+   "id": "appropriations-2024r1-hb4131",
+   "title": "Appropriations in 2024 Regular Session House Bill 4131",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-hb4131.md"
+  },
+  {
+   "id": "appropriations-2024r1-hb4158",
+   "title": "Appropriations in 2024 Regular Session House Bill 4158",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-hb4158.md"
+  },
+  {
+   "id": "appropriations-2024r1-hb5203",
+   "title": "Appropriations in 2024 Regular Session House Bill 5203",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-hb5203.md"
+  },
+  {
+   "id": "appropriations-2024r1-hb5204",
+   "title": "Appropriations in 2024 Regular Session House Bill 5204",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-hb5204.md"
+  },
+  {
+   "id": "appropriations-2024r1-sb1512",
+   "title": "Appropriations in 2024 Regular Session Senate Bill 1512",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-sb1512.md"
+  },
+  {
+   "id": "appropriations-2024r1-sb1530",
+   "title": "Appropriations in 2024 Regular Session Senate Bill 1530",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-sb1530.md"
+  },
+  {
+   "id": "appropriations-2024r1-sb1570",
+   "title": "Appropriations in 2024 Regular Session Senate Bill 1570",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-sb1570.md"
+  },
+  {
+   "id": "appropriations-2024r1-sb1582",
+   "title": "Appropriations in 2024 Regular Session Senate Bill 1582",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-sb1582.md"
+  },
+  {
+   "id": "appropriations-2024r1-sb1592",
+   "title": "Appropriations in 2024 Regular Session Senate Bill 1592",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-sb1592.md"
+  },
+  {
+   "id": "appropriations-2024r1-sb5701",
+   "title": "Appropriations in 2024 Regular Session Senate Bill 5701",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2024r1-sb5701.md"
+  },
+  {
    "id": "appropriations-2025r1-hb2018",
    "title": "Appropriations in 2025 Regular Session House Bill 2018",
    "doc_type": "dataset_doc",
@@ -3435,12 +3531,6 @@
    "title": "Appropriations in 2025 Regular Session House Bill 3070",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2025r1-hb3070.md"
-  },
-  {
-   "id": "appropriations-2025r1-hb3105",
-   "title": "Appropriations in 2025 Regular Session House Bill 3105",
-   "doc_type": "dataset_doc",
-   "path": "bills/appropriations-2025r1-hb3105.md"
   },
   {
    "id": "appropriations-2025r1-hb3116",
@@ -4131,12 +4221,6 @@
    "title": "Appropriations in 2025 Regular Session Senate Bill 5543",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2025r1-sb5543.md"
-  },
-  {
-   "id": "appropriations-2025r1-sb5547",
-   "title": "Appropriations in 2025 Regular Session Senate Bill 5547",
-   "doc_type": "dataset_doc",
-   "path": "bills/appropriations-2025r1-sb5547.md"
   },
   {
    "id": "appropriations-2025r1-sb5550",
@@ -11565,6 +11649,86 @@
    "to": "agency-expenditures"
   },
   {
+   "from": "appropriations-2024r1-hb4041",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4041"
+  },
+  {
+   "from": "appropriations-2024r1-hb4060",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4060"
+  },
+  {
+   "from": "appropriations-2024r1-hb4105",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4105"
+  },
+  {
+   "from": "appropriations-2024r1-hb4110",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4110"
+  },
+  {
+   "from": "appropriations-2024r1-hb4123",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4123"
+  },
+  {
+   "from": "appropriations-2024r1-hb4124",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4124"
+  },
+  {
+   "from": "appropriations-2024r1-hb4131",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4131"
+  },
+  {
+   "from": "appropriations-2024r1-hb4158",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4158"
+  },
+  {
+   "from": "appropriations-2024r1-hb5203",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 5203"
+  },
+  {
+   "from": "appropriations-2024r1-hb5204",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 5204"
+  },
+  {
+   "from": "appropriations-2024r1-sb1512",
+   "type": "references_external",
+   "to": "2024 Regular Session Senate Bill 1512"
+  },
+  {
+   "from": "appropriations-2024r1-sb1530",
+   "type": "references_external",
+   "to": "2024 Regular Session Senate Bill 1530"
+  },
+  {
+   "from": "appropriations-2024r1-sb1570",
+   "type": "references_external",
+   "to": "2024 Regular Session Senate Bill 1570"
+  },
+  {
+   "from": "appropriations-2024r1-sb1582",
+   "type": "references_external",
+   "to": "2024 Regular Session Senate Bill 1582"
+  },
+  {
+   "from": "appropriations-2024r1-sb1592",
+   "type": "references_external",
+   "to": "2024 Regular Session Senate Bill 1592"
+  },
+  {
+   "from": "appropriations-2024r1-sb5701",
+   "type": "references_external",
+   "to": "2024 Regular Session Senate Bill 5701"
+  },
+  {
    "from": "appropriations-2025r1-hb2018",
    "type": "references_external",
    "to": "2025 Regular Session House Bill 2018"
@@ -11703,11 +11867,6 @@
    "from": "appropriations-2025r1-hb3070",
    "type": "references_external",
    "to": "2025 Regular Session House Bill 3070"
-  },
-  {
-   "from": "appropriations-2025r1-hb3105",
-   "type": "references_external",
-   "to": "2025 Regular Session House Bill 3105"
   },
   {
    "from": "appropriations-2025r1-hb3116",
@@ -12283,11 +12442,6 @@
    "from": "appropriations-2025r1-sb5543",
    "type": "references_external",
    "to": "2025 Regular Session Senate Bill 5543"
-  },
-  {
-   "from": "appropriations-2025r1-sb5547",
-   "type": "references_external",
-   "to": "2025 Regular Session Senate Bill 5547"
   },
   {
    "from": "appropriations-2025r1-sb5550",

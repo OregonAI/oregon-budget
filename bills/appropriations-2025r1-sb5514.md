@@ -76,38 +76,32 @@ Line items sum to **$740,352,786** — which matches NO stated appropriation in 
 |---:|---|
 | $652,707 | out of  the General Fund, the amount of $652,707, for deposit into the Tribal Early Learning Fund established by section 3, chapter __, Oregon Laws 2025 (Enrolled House Bill 2815). |
 
-## Section 3 — items-without-stated-total
+## Section 3 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Operations | $7,558,728 | (1) Operations................................. $ 7,558,728 (2) Early learning programs ........... $ 13,442,253 |
-| 2 | Early learning programs | $13,442,253 | (2) Early learning programs ........... $ 13,442,253 SECTION 4. |
+| (1) | Operations | $7,558,728 | (1) Operations................................. $ 7,558,728 (2) Early learning programs ........... $ 13,442,253 |
+| (2) | Early learning programs | $13,442,253 | (2) Early learning programs ........... $ 13,442,253 SECTION 4. |
 
-Line items sum to **$21,000,981** — which matches NO stated appropriation in this section.
+## Section 4 — subsections-not-itemized
 
-## Section 4 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Operations | $57,030,987 | (1) Operations................................. $ 57,030,987 (2) Early learning programs ........... $189,975,785 |
-| 2 | Early learning programs | $189,975,785 | (2) Early learning programs ........... $189,975,785 SECTION 5. Notwithstanding any other law limiting  expenditures, the following amounts |
+| (1) | Operations | $57,030,987 | (1) Operations................................. $ 57,030,987 (2) Early learning programs ........... $189,975,785 |
+| (2) | Early learning programs | $189,975,785 | (2) Early learning programs ........... $189,975,785 SECTION 5. Notwithstanding any other law limiting  expenditures, the following amounts |
 
-Line items sum to **$247,006,772** — which matches NO stated appropriation in this section.
+## Section 5 — subsections-not-itemized
 
-## Section 5 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Operations | $7,250,539 | (1) Operations................................. $ 7,250,539 Enrolled Senate Bill 5514 (SB 5514-A) Page 1 |
-| 2 | Early learning programs | $433,296,509 | (2) Early learning programs ........... $433,296,509 SECTION 6. This 2025 Act being necessary for the immediate preservation of the public |
-
-Line items sum to **$440,547,048** — which matches NO stated appropriation in this section.
+| (1) | Operations | $7,250,539 | (1) Operations................................. $ 7,250,539 Enrolled Senate Bill 5514 (SB 5514-A) Page 1 |
+| (2) | Early learning programs | $433,296,509 | (2) Early learning programs ........... $433,296,509 SECTION 6. This 2025 Act being necessary for the immediate preservation of the public |
 
 ## Curator notes
 

@@ -2,12 +2,12 @@
 schema_version: 1
 corpus: oregon-budget
 jurisdiction: oregon
-id: appropriations-2025r1-sb356
-title: Appropriations in 2025 Regular Session Senate Bill 356
+id: appropriations-2024r1-sb1592
+title: Appropriations in 2024 Regular Session Senate Bill 1592
 doc_type: dataset_doc
-citation: 2025 Regular Session Senate Bill 356
+citation: 2024 Regular Session Senate Bill 1592
 issuing_body: Oregon State Legislature
-source_url: https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB356/Introduced
+source_url: https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1592/Introduced
 source_format: pdf
 snapshot_policy: hash-only
 status: current
@@ -20,54 +20,52 @@ relationships:
   implements: []
   implemented_by: []
   references_external:
-  - 2025 Regular Session Senate Bill 356
+  - 2024 Regular Session Senate Bill 1592
   related: []
   supersedes: []
 tags:
 - oregon-budget
 - appropriations
-- 2025r1
+- 2024r1
 - unreviewed
 sibling_corpus: oregon-legislature
-sibling_document_id: measure-2025r1-sb356
-sibling_snapshot_id: measure-2025r1-sb356-introduced
-sibling_source_sha256: 0cc6223fe191c3ca4bb137de20aa5478db383f8adce0983e9b4fe371b8e76ed7
+sibling_document_id: measure-2024r1-sb1592
+sibling_snapshot_id: measure-2024r1-sb1592-introduced
+sibling_source_sha256: d99932ca6751b5cf3b3b4db9a40d24baec5282be4c0338b26ced09e20412a3c2
 extraction_status: subsections-not-itemized
-appropriated_to: Invasive Species Council
+appropriated_to: Higher Education Coordinating Commission
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium_begins: null
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
 > page was read out of bill prose by a parser and has **not** been checked by
 > a person. It is not the text of any bill and must not be quoted as an
-> appropriation. The authoritative text is `https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB356/Introduced`.
+> appropriation. The authoritative text is `https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1592/Introduced`.
 
-# Appropriations in 2025 Regular Session Senate Bill 356
+# Appropriations in 2024 Regular Session Senate Bill 1592
 
 ## At a glance
 
-SB 356 (2025R1): Appropriates moneys to the Invasive Species Council, out of the General Fund, for certain purposes.
+SB 1592 (2024R1): Appropriates moneys from the General Fund to the Higher Education Coordinating Commission for distribution to certain institutions of higher education to expand the behavioral health workforce in Oregon.
 
-Parsed context: appropriated to **Invasive Species Council**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**.
 
 Extraction status: **subsections-not-itemized**. No itemization to reconcile against.
 
-The full text of this bill lives in the `oregon-legislature` corpus as `measure-2025r1-sb356` and is referenced, not copied.
+The full text of this bill lives in the `oregon-legislature` corpus as `measure-2024r1-sb1592` and is referenced, not copied.
 
 **Stated appropriation**
 
 | Amount | Verbatim source line |
 |---:|---|
-| $480,000 | General Fund, the amount of $480,000, for the following purposes: |
+| $6,000,000 | 2025, out of the General Fund,  the amount of $6,000,000, for distribution to the following in- stitutions in the following  amounts for the purposes described in subsection (2) of this sec- |
 
 **Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
 | Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| (1) | for emergency purposes | $80,000 | (1) $80,000 for emergency purposes. |
-| (2) | for outreach and education | $100,000 | (2) $100,000 for outreach and education. |
-| (3) | for the operation of the council | $300,000 | (3) $300,000 for the operation of the council. |
+| (2) | of this section: (a) Eastern Oregon University: | $1,000,000 | (a) Eastern Oregon University: $1,000,000. |
 
 ## Curator notes
 

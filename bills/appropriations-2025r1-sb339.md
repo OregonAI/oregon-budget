@@ -32,7 +32,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2025r1-sb339
 sibling_snapshot_id: measure-2025r1-sb339-introduced
 sibling_source_sha256: 034220ab224cb3b31fcdddad3c5dd2dc2f18c46770dcd893030371c271205c1e
-extraction_status: MISMATCH
+extraction_status: subsections-not-itemized
 appropriated_to: State Forestry Department
 fund: General Fund
 biennium_begins: July 1, 2025
@@ -51,7 +51,7 @@ SB 339 (2025R1): Appropriates moneys from the General Fund to the State Forestry
 
 Parsed context: appropriated to **State Forestry Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
 
-Extraction status: **MISMATCH**. 1 of 1 section(s) do not reconcile: their sub-items sum to a figure matching no stated total in the same section. The itemization is incomplete or mis-parsed — NOT publishable.
+Extraction status: **subsections-not-itemized**. No itemization to reconcile against.
 
 The full text of this bill lives in the `oregon-legislature` corpus as `measure-2025r1-sb339` and is referenced, not copied.
 
@@ -61,13 +61,11 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 |---:|---|
 | $3,100,000 | General Fund, the  amount of $3,100,000, which shall be placed into the State Forestry De- partment Account and expended for carrying out  an integrated pest management program |
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 2 | The department shall expend | $50,000 | (2) The department shall  expend $50,000 of the moneys appropriated under this section as a block grant to assist the Association of  Oregon Counties with establishing and operating |
-
-Line items sum to **$50,000** — which matches NO stated appropriation in this section.
+| (2) | The department shall expend | $50,000 | (2) The department shall  expend $50,000 of the moneys appropriated under this section as a block grant to assist the Association of  Oregon Counties with establishing and operating |
 
 ## Curator notes
 

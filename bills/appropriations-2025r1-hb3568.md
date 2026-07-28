@@ -71,10 +71,10 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 | # | Purpose (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 |  | $150,000 | (1) $150,000 to provide educational programming  and marketing for seafood in public schools and to provide for the procurement and promotion  of local seafood in public schools. |
-| 2 |  | $30,000 | (2) $30,000 for a  seafood promotional campaign that includes the development of seafood recipes for public schools,  targeted sales and procurement support to build local seafood |
-| 3 |  | $70,000 | (3) $70,000 to improve seafood awareness and  proficiency in public schools, including providing public school nutritional staff with education and training to use local seafood in |
-| 4 |  | $350,000 | (4) $350,000 to offer support for seafood harvesters and processors to develop  products for use in public schools. |
+| 1 | to provide educational programming and marketing for seafood in public schools and to provide for the procurement and promotion of local seafood in public schools | $150,000 | (1) $150,000 to provide educational programming  and marketing for seafood in public schools and to provide for the procurement and promotion  of local seafood in public schools. |
+| 2 | for a seafood promotional campaign that includes the development of seafood recipes for public schools, targeted sales and procurement support to build local seafood sales to public schools, and othe | $30,000 | (2) $30,000 for a  seafood promotional campaign that includes the development of seafood recipes for public schools,  targeted sales and procurement support to build local seafood |
+| 3 | to improve seafood awareness and proficiency in public schools, including providing public school nutritional staff with education and training to use local seafood in public school meals | $70,000 | (3) $70,000 to improve seafood awareness and  proficiency in public schools, including providing public school nutritional staff with education and training to use local seafood in |
+| 4 | to offer support for seafood harvesters and processors to develop products for use in public schools | $350,000 | (4) $350,000 to offer support for seafood harvesters and processors to develop  products for use in public schools. |
 
 Line items sum to **$600,000** — which matches NO stated appropriation in this section.
 

@@ -123,16 +123,14 @@ Line items sum to **$1,880,460,727** — which matches NO stated appropriation i
 |---:|---|
 | $11,090,554 | 2025, out of the General Fund, the  amount of $11,090,554, to award grants to Portland State University and Oregon’s  technical regional universities (Oregon Institute of Technology, |
 
-## Section 8 — items-without-stated-total
+## Section 8 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Higher Education Coordinating Commission programs and related grants | $106,412,317 | related grants ....................... $ 106,412,317 (2) Debt service on outstanding |
-| 2 | Debt service on outstanding lottery bonds and general obligation bonds sold for the benefit of Oregon public universities | $3,803,366 | universities ........................... $ 3,803,366 SECTION 9. |
-
-Line items sum to **$110,215,683** — which matches NO stated appropriation in this section.
+| (1) | Higher Education Coordinating Commission programs and related grants | $106,412,317 | related grants ....................... $ 106,412,317 (2) Debt service on outstanding |
+| (2) | Debt service on outstanding lottery bonds and general obligation bonds sold for the benefit of Oregon public universities | $3,803,366 | universities ........................... $ 3,803,366 SECTION 9. |
 
 ## Section 9 — single-appropriation
 

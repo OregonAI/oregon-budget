@@ -70,31 +70,27 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$33,276,618** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Administration | $455,173 | (1) Administration...................... $ 455,173 (2) 9-1-1 Emergency Program ..... $ 149,545,258 |
-| 2 | 9-1-1 Emergency Program | $149,545,258 | (2) 9-1-1 Emergency Program ..... $ 149,545,258 (3) Preparedness and Response .. $ 7,811,957 |
-| 3 | Preparedness and Response | $7,811,957 | (3) Preparedness and Response .. $ 7,811,957 (4) Statewide Interoperability |
-| 4 | Statewide Interoperability Program | $3,869,857 | Program ................................ $ 3,869,857 (5) Mitigation and Recovery ....... $  24,525,466 |
-| 5 | Mitigation and Recovery | $24,525,466 | (5) Mitigation and Recovery ....... $  24,525,466 SECTION 3. Notwithstanding any other law limiting  expenditures, the following amounts |
+| (1) | Administration | $455,173 | (1) Administration...................... $ 455,173 (2) 9-1-1 Emergency Program ..... $ 149,545,258 |
+| (2) | 9-1-1 Emergency Program | $149,545,258 | (2) 9-1-1 Emergency Program ..... $ 149,545,258 (3) Preparedness and Response .. $ 7,811,957 |
+| (3) | Preparedness and Response | $7,811,957 | (3) Preparedness and Response .. $ 7,811,957 (4) Statewide Interoperability |
+| (4) | Statewide Interoperability Program | $3,869,857 | Program ................................ $ 3,869,857 (5) Mitigation and Recovery ....... $  24,525,466 |
+| (5) | Mitigation and Recovery | $24,525,466 | (5) Mitigation and Recovery ....... $  24,525,466 SECTION 3. Notwithstanding any other law limiting  expenditures, the following amounts |
 
-Line items sum to **$186,207,711** — which matches NO stated appropriation in this section.
+## Section 3 — subsections-not-itemized
 
-## Section 3 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Administration | $669,894 | (1) Administration...................... $ 669,894 (2) Preparedness and Response .. $ 63,025,681 |
-| 2 | Preparedness and Response | $63,025,681 | (2) Preparedness and Response .. $ 63,025,681 (3) Mitigation and Recovery ....... $ 1,034,862,740 |
-| 3 | Mitigation and Recovery | $1,034,862,740 | (3) Mitigation and Recovery ....... $ 1,034,862,740 SECTION 4. This 2025 Act being necessary for the immediate preservation of the public |
-
-Line items sum to **$1,098,558,315** — which matches NO stated appropriation in this section.
+| (1) | Administration | $669,894 | (1) Administration...................... $ 669,894 (2) Preparedness and Response .. $ 63,025,681 |
+| (2) | Preparedness and Response | $63,025,681 | (2) Preparedness and Response .. $ 63,025,681 (3) Mitigation and Recovery ....... $ 1,034,862,740 |
+| (3) | Mitigation and Recovery | $1,034,862,740 | (3) Mitigation and Recovery ....... $ 1,034,862,740 SECTION 4. This 2025 Act being necessary for the immediate preservation of the public |
 
 ## Curator notes
 

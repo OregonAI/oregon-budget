@@ -112,51 +112,43 @@ Line items sum to **$405,291,344** — which matches NO stated appropriation in 
 |---:|---|
 | $8,693,643 | $8,693,643 is  established for the biennium beginning July 1, 2025, as the maximum limit for payment of expenses from lottery moneys allocated from the  Administrative Services Eco- |
 
-## Section 7 — items-without-stated-total
+## Section 7 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Capital bonding | $202,415,961 | (1) Capital bonding..................... $ 202,415,961 (2) Operations............................. $ 59,906,260 |
-| 2 | Operations | $59,906,260 | (2) Operations............................. $ 59,906,260 (3) Oregon School for the Deaf .. $ 7,513,371 |
-| 3 | Oregon School for the Deaf | $7,513,371 | (3) Oregon School for the Deaf .. $ 7,513,371 SECTION 8. Notwithstanding any other law limiting  expenditures, the following amounts |
+| (1) | Capital bonding | $202,415,961 | (1) Capital bonding..................... $ 202,415,961 (2) Operations............................. $ 59,906,260 |
+| (2) | Operations | $59,906,260 | (2) Operations............................. $ 59,906,260 (3) Oregon School for the Deaf .. $ 7,513,371 |
+| (3) | Oregon School for the Deaf | $7,513,371 | (3) Oregon School for the Deaf .. $ 7,513,371 SECTION 8. Notwithstanding any other law limiting  expenditures, the following amounts |
 
-Line items sum to **$269,835,592** — which matches NO stated appropriation in this section.
+## Section 8 — subsections-not-itemized
 
-## Section 8 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Youth development programs | $6,874,100 | programs............................... $ 6,874,100 (2) All other grants .................... $ 244,853,746 |
-| 2 | All other grants | $244,853,746 | (2) All other grants .................... $ 244,853,746 (3) Educator Advancement |
-| 3 | Educator Advancement Council | $45,781,848 | Council.................................. $ 45,781,848 SECTION 9. Notwithstanding any other law limiting  expenditures, the following amounts |
+| (1) | Youth development programs | $6,874,100 | programs............................... $ 6,874,100 (2) All other grants .................... $ 244,853,746 |
+| (2) | All other grants | $244,853,746 | (2) All other grants .................... $ 244,853,746 (3) Educator Advancement |
+| (3) | Educator Advancement Council | $45,781,848 | Council.................................. $ 45,781,848 SECTION 9. Notwithstanding any other law limiting  expenditures, the following amounts |
 
-Line items sum to **$297,509,694** — which matches NO stated appropriation in this section.
+## Section 9 — subsections-not-itemized
 
-## Section 9 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Operations | $82,151,893 | (1) Operations............................. $ 82,151,893 (2) Oregon School for the Deaf .. $ 516,066 |
-| 2 | Oregon School for the Deaf | $516,066 | (2) Oregon School for the Deaf .. $ 516,066 SECTION 10. Notwithstanding any other law limiting expenditures, the following amounts |
+| (1) | Operations | $82,151,893 | (1) Operations............................. $ 82,151,893 (2) Oregon School for the Deaf .. $ 516,066 |
+| (2) | Oregon School for the Deaf | $516,066 | (2) Oregon School for the Deaf .. $ 516,066 SECTION 10. Notwithstanding any other law limiting expenditures, the following amounts |
 
-Line items sum to **$82,667,959** — which matches NO stated appropriation in this section.
+## Section 10 — subsections-not-itemized
 
-## Section 10 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Youth development programs | $1,362,829 | programs............................... $ 1,362,829 (2) All other grants .................... $ 955,358,992 |
-| 2 | All other grants | $955,358,992 | (2) All other grants .................... $ 955,358,992 SECTION 11. Notwithstanding any  other law limiting expenditures, the amount of |
-
-Line items sum to **$956,721,821** — which matches NO stated appropriation in this section.
+| (1) | Youth development programs | $1,362,829 | programs............................... $ 1,362,829 (2) All other grants .................... $ 955,358,992 |
+| (2) | All other grants | $955,358,992 | (2) All other grants .................... $ 955,358,992 SECTION 11. Notwithstanding any  other law limiting expenditures, the amount of |
 
 ## Section 11 — single-appropriation
 
@@ -182,17 +174,15 @@ Line items sum to **$956,721,821** — which matches NO stated appropriation in 
 |---:|---|
 | $427,741,593 | $427,741,593 is established for the biennium beginning July 1, 2025, as the  maximum limit for payment of expenses by the Department of Education for a  transfer of corporate activities |
 
-## Section 14 — items-without-stated-total
+## Section 14 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | High School Graduation and College and Career Readiness Fund | $199,151,203 | Readiness Fund..................... $ 199,151,203 (2) Reengagement program ........ $ 9,059,615 |
-| 2 | Reengagement program | $9,059,615 | (2) Reengagement program ........ $ 9,059,615 (3) All other grants .................... $ 349,727,083 |
-| 3 | All other grants | $349,727,083 | (3) All other grants .................... $ 349,727,083 SECTION 15. |
-
-Line items sum to **$557,937,901** — which matches NO stated appropriation in this section.
+| (1) | High School Graduation and College and Career Readiness Fund | $199,151,203 | Readiness Fund..................... $ 199,151,203 (2) Reengagement program ........ $ 9,059,615 |
+| (2) | Reengagement program | $9,059,615 | (2) Reengagement program ........ $ 9,059,615 (3) All other grants .................... $ 349,727,083 |
+| (3) | All other grants | $349,727,083 | (3) All other grants .................... $ 349,727,083 SECTION 15. |
 
 ## Section 15 — single-appropriation
 

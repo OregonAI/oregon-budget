@@ -72,18 +72,16 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$2,585,169,935** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Operations and health services | $26,197,064 | services ............................. $ 26,197,064 (2) Central administration |
-| 2 | Central administration and administrative services | $20,415,033 | services ............................. $ 20,415,033 (3) Correctional services ........ $ 4,024,996 |
-| 3 | Correctional services | $4,024,996 | (3) Correctional services ........ $ 4,024,996 (4) Community corrections .... $ 1,731,848 |
-| 4 | Community corrections | $1,731,848 | (4) Community corrections .... $ 1,731,848 SECTION 3. |
-
-Line items sum to **$52,368,941** — which matches NO stated appropriation in this section.
+| (1) | Operations and health services | $26,197,064 | services ............................. $ 26,197,064 (2) Central administration |
+| (2) | Central administration and administrative services | $20,415,033 | services ............................. $ 20,415,033 (3) Correctional services ........ $ 4,024,996 |
+| (3) | Correctional services | $4,024,996 | (3) Correctional services ........ $ 4,024,996 (4) Community corrections .... $ 1,731,848 |
+| (4) | Community corrections | $1,731,848 | (4) Community corrections .... $ 1,731,848 SECTION 3. |
 
 ## Section 3 — single-appropriation
 

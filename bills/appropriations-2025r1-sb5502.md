@@ -70,18 +70,16 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$41,200,692** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Administrative and support services | $14,193,611 | services ..................................... $ 14,193,611 (2) Food safety ............................... $ 30,876,527 |
-| 2 | Food safety | $30,876,527 | (2) Food safety ............................... $ 30,876,527 (3) Natural resources ..................... $ 28,555,096 |
-| 3 | Natural resources | $28,555,096 | (3) Natural resources ..................... $ 28,555,096 (4) Market access ........................... $ 25,122,844 |
-| 4 | Market access | $25,122,844 | (4) Market access ........................... $ 25,122,844 SECTION 3. Notwithstanding any  other law limiting expenditures, the amount of |
-
-Line items sum to **$98,748,078** — which matches NO stated appropriation in this section.
+| (1) | Administrative and support services | $14,193,611 | services ..................................... $ 14,193,611 (2) Food safety ............................... $ 30,876,527 |
+| (2) | Food safety | $30,876,527 | (2) Food safety ............................... $ 30,876,527 (3) Natural resources ..................... $ 28,555,096 |
+| (3) | Natural resources | $28,555,096 | (3) Natural resources ..................... $ 28,555,096 (4) Market access ........................... $ 25,122,844 |
+| (4) | Market access | $25,122,844 | (4) Market access ........................... $ 25,122,844 SECTION 3. Notwithstanding any  other law limiting expenditures, the amount of |
 
 ## Section 3 — single-appropriation
 
@@ -91,17 +89,15 @@ Line items sum to **$98,748,078** — which matches NO stated appropriation in t
 |---:|---|
 | $9,925,046 | $9,925,046 is established for the biennium beginning July 1, 2025, as the maximum limit  for payment of expenses from lottery moneys allocated from the  Parks and Natural Resources |
 
-## Section 4 — items-without-stated-total
+## Section 4 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Food safety | $2,506,120 | (1) Food safety ............................... $ 2,506,120 Enrolled Senate Bill 5502 (SB 5502-A) Page 1 |
-| 2 | Natural resources | $9,555,644 | (2) Natural resources ..................... $ 9,555,644 (3) Market access ........................... $ 11,681,964 |
-| 3 | Market access | $11,681,964 | (3) Market access ........................... $ 11,681,964 SECTION 5. This 2025 Act being necessary for the immediate preservation of the public |
-
-Line items sum to **$23,743,728** — which matches NO stated appropriation in this section.
+| (1) | Food safety | $2,506,120 | (1) Food safety ............................... $ 2,506,120 Enrolled Senate Bill 5502 (SB 5502-A) Page 1 |
+| (2) | Natural resources | $9,555,644 | (2) Natural resources ..................... $ 9,555,644 (3) Market access ........................... $ 11,681,964 |
+| (3) | Market access | $11,681,964 | (3) Market access ........................... $ 11,681,964 SECTION 5. This 2025 Act being necessary for the immediate preservation of the public |
 
 ## Curator notes
 

@@ -59,10 +59,10 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 | # | Purpose (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 |  | $3,500,000 | (1) $3,500,000 to the Oregon Community Food System Network for  grants for small-scale farms and ranches. |
-| 2 |  | $2,000,000 | (2) $2,000,000 to the Oregon Community Food System Network to support  food hubs and regional food system infrastructure. ⚠ |
-| 3 |  | $2,000,000 | (2) $2,000,000 to the Oregon Community Food System Network to support  food hubs and regional food system infrastructure. ⚠ |
-| 4 |  | $500,000 | (4) $500,000 to the Oregon Farmers Market Association for grants to farmers markets to cover costs associated with acceptance of Supplemental Nutrition Assistance  Program |
+| 1 | to the Oregon Community Food System Network for grants for small-scale farms and ranches | $3,500,000 | (1) $3,500,000 to the Oregon Community Food System Network for  grants for small-scale farms and ranches. |
+| 2 | to the Oregon Community Food System Network to support food hubs and regional food system infrastructure | $2,000,000 | (2) $2,000,000 to the Oregon Community Food System Network to support  food hubs and regional food system infrastructure. |
+| 3 | to the Oregon Farmers Market Association to support local food system resilience and increase access for communities and agricultural producers | $2,000,000 | (3) $2,000,000 to the  Oregon Farmers Market Association to support local food system resilience and increase access for communities and agricultural producers. |
+| 4 | to the Oregon Farmers Market Association for grants to farmers markets to cover costs associated with acceptance of Supplemental Nutrition Assistance Program benefits | $500,000 | (4) $500,000 to the Oregon Farmers Market Association for grants to farmers markets to cover costs associated with acceptance of Supplemental Nutrition Assistance  Program |
 
 Line items sum to **$8,000,000** — which matches NO stated appropriation in this section.
 

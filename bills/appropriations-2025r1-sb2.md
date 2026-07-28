@@ -65,9 +65,9 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 | # | Purpose (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 |  | $1,894,737 | (1) $1,894,737 for hull repairs; |
-| 2 |  | $631,579 | (2) $631,579 for engine and fire pump upgrades; and (3) $473,684 for emergency  communications upgrades, United States Coast Guard in- |
-| 3 |  | $473,684 | (3) $473,684 for emergency  communications upgrades, United States Coast Guard in- spection and contingency. |
+| 1 | for hull repairs | $1,894,737 | (1) $1,894,737 for hull repairs; |
+| 2 | for engine and fire pump upgrades; and | $631,579 | (2) $631,579 for engine and fire pump upgrades; and (3) $473,684 for emergency  communications upgrades, United States Coast Guard in- |
+| 3 | for emergency communications upgrades, United States Coast Guard inspection and contingency | $473,684 | (3) $473,684 for emergency  communications upgrades, United States Coast Guard in- spection and contingency. |
 
 Line items sum to **$3,000,000** — and that matches the stated appropriation above.
 

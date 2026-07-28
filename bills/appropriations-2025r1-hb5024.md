@@ -133,18 +133,16 @@ Line items sum to **$8,684,687** — which matches NO stated appropriation in th
 
 Line items sum to **$3,157,888** — which matches NO stated appropriation in this section.
 
-## Section 8 — items-without-stated-total
+## Section 8 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Operations | $8,475,102 | (1) Operations................................. $ 8,475,102 (2) Business, innovation |
-| 2 | Business, innovation and trade | $90,372,061 | and trade................................... $ 90,372,061 (3) Infrastructure ........................... $322,563,944 |
-| 3 | Infrastructure | $322,563,944 | (3) Infrastructure ........................... $322,563,944 (4) Arts ........................................... $ 16,416,419 |
-| 4 | Arts | $16,416,419 | (4) Arts ........................................... $ 16,416,419 SECTION 9. Notwithstanding any  other law limiting expenditures, the amount of |
-
-Line items sum to **$437,827,526** — which matches NO stated appropriation in this section.
+| (1) | Operations | $8,475,102 | (1) Operations................................. $ 8,475,102 (2) Business, innovation |
+| (2) | Business, innovation and trade | $90,372,061 | and trade................................... $ 90,372,061 (3) Infrastructure ........................... $322,563,944 |
+| (3) | Infrastructure | $322,563,944 | (3) Infrastructure ........................... $322,563,944 (4) Arts ........................................... $ 16,416,419 |
+| (4) | Arts | $16,416,419 | (4) Arts ........................................... $ 16,416,419 SECTION 9. Notwithstanding any  other law limiting expenditures, the amount of |
 
 ## Section 9 — single-appropriation
 
@@ -154,43 +152,37 @@ Line items sum to **$437,827,526** — which matches NO stated appropriation in 
 |---:|---|
 | $197,247,462 | $197,247,462 is established for the biennium beginning July 1, 2025, as the  maximum limit for payment of expenses by the Oregon Business Development  Department, from American |
 
-## Section 10 — items-without-stated-total
+## Section 10 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Operations | $546,916 | (1) Operations................................. $ 546,916 (2) Infrastructure ........................... $108,002,343 |
-| 2 | Infrastructure | $108,002,343 | (2) Infrastructure ........................... $108,002,343 SECTION 11. Notwithstanding any other law limiting expenditures, the following amounts |
+| (1) | Operations | $546,916 | (1) Operations................................. $ 546,916 (2) Infrastructure ........................... $108,002,343 |
+| (2) | Infrastructure | $108,002,343 | (2) Infrastructure ........................... $108,002,343 SECTION 11. Notwithstanding any other law limiting expenditures, the following amounts |
 
-Line items sum to **$108,549,259** — which matches NO stated appropriation in this section.
+## Section 11 — subsections-not-itemized
 
-## Section 11 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Operations | $19,816,525 | (1) Operations.................................  $ 19,816,525 (2) Business, innovation |
-| 2 | Business, innovation and trade | $78,857,998 | and trade...................................  $ 78,857,998 (3) Infrastructure ...........................  $ 21,039,054 |
-| 3 | Infrastructure | $21,039,054 | (3) Infrastructure ...........................  $ 21,039,054 Enrolled House Bill 5024 (HB 5024-A) Page 2 |
-| 4 | Oregon Film and Video Office | $1,541,600 | (4) Oregon Film and Video Office .. $ 1,541,600 (5) Lottery bond debt service ......... $ 66,293,285 |
-| 5 | Lottery bond debt service | $66,293,285 | (5) Lottery bond debt service ......... $ 66,293,285 SECTION 12. Notwithstanding any other law limiting expenditures, the following amounts |
+| (1) | Operations | $19,816,525 | (1) Operations.................................  $ 19,816,525 (2) Business, innovation |
+| (2) | Business, innovation and trade | $78,857,998 | and trade...................................  $ 78,857,998 (3) Infrastructure ...........................  $ 21,039,054 |
+| (3) | Infrastructure | $21,039,054 | (3) Infrastructure ...........................  $ 21,039,054 Enrolled House Bill 5024 (HB 5024-A) Page 2 |
+| (4) | Oregon Film and Video Office | $1,541,600 | (4) Oregon Film and Video Office .. $ 1,541,600 (5) Lottery bond debt service ......... $ 66,293,285 |
+| (5) | Lottery bond debt service | $66,293,285 | (5) Lottery bond debt service ......... $ 66,293,285 SECTION 12. Notwithstanding any other law limiting expenditures, the following amounts |
 
-Line items sum to **$187,548,462** — which matches NO stated appropriation in this section.
+## Section 12 — subsections-not-itemized
 
-## Section 12 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Operations | $1,461,212 | (1) Operations................................. $ 1,461,212 (2) Business, innovation |
-| 2 | Business, innovation and trade | $59,333,558 | and trade................................... $ 59,333,558 (3) Infrastructure ........................... $219,985,409 |
-| 3 | Infrastructure | $219,985,409 | (3) Infrastructure ........................... $219,985,409 (4) Arts ........................................... $ 2,301,442 |
-| 4 | Arts | $2,301,442 | (4) Arts ........................................... $ 2,301,442 SECTION 13. For the  biennium beginning July 1, 2025, expenditures by the Oregon Busi- |
-
-Line items sum to **$283,081,621** — which matches NO stated appropriation in this section.
+| (1) | Operations | $1,461,212 | (1) Operations................................. $ 1,461,212 (2) Business, innovation |
+| (2) | Business, innovation and trade | $59,333,558 | and trade................................... $ 59,333,558 (3) Infrastructure ........................... $219,985,409 |
+| (3) | Infrastructure | $219,985,409 | (3) Infrastructure ........................... $219,985,409 (4) Arts ........................................... $ 2,301,442 |
+| (4) | Arts | $2,301,442 | (4) Arts ........................................... $ 2,301,442 SECTION 13. For the  biennium beginning July 1, 2025, expenditures by the Oregon Busi- |
 
 ## Curator notes
 

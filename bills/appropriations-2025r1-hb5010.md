@@ -68,16 +68,14 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$10,687,685** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Geologic survey | $12,745,157 | (1) Geologic survey......................... $ 12,745,157 (2) Mined land reclamation ............ $ 7,324,101 |
-| 2 | Mined land reclamation | $7,324,101 | (2) Mined land reclamation ............ $ 7,324,101 SECTION 3. Notwithstanding any other law limiting expenditures,  the amount of |
-
-Line items sum to **$20,069,258** — which matches NO stated appropriation in this section.
+| (1) | Geologic survey | $12,745,157 | (1) Geologic survey......................... $ 12,745,157 (2) Mined land reclamation ............ $ 7,324,101 |
+| (2) | Mined land reclamation | $7,324,101 | (2) Mined land reclamation ............ $ 7,324,101 SECTION 3. Notwithstanding any other law limiting expenditures,  the amount of |
 
 ## Section 3 — single-appropriation
 

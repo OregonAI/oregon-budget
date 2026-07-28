@@ -59,9 +59,9 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 | # | Purpose (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 |  | $1,000,000 | (1) $1,000,000 to provide competitive grants  for ocean acidification and hypoxia research to address risks and vulnerabilities that threaten Oregon’s economy and ecosystems. ⚠ |
-| 2 |  | $1,000,000 | (1) $1,000,000 to provide competitive grants  for ocean acidification and hypoxia research to address risks and vulnerabilities that threaten Oregon’s economy and ecosystems. ⚠ |
-| 3 |  | $1,000,000 | (1) $1,000,000 to provide competitive grants  for ocean acidification and hypoxia research to address risks and vulnerabilities that threaten Oregon’s economy and ecosystems. ⚠ |
+| 1 | to provide competitive grants for ocean acidification and hypoxia research to address risks and vulnerabilities that threaten Oregon’s economy and ecosystems | $1,000,000 | (1) $1,000,000 to provide competitive grants  for ocean acidification and hypoxia research to address risks and vulnerabilities that threaten Oregon’s economy and ecosystems. |
+| 2 | to provide competitive grants for sandy beach and dune ecosystem research to inform management strategies to address coastal erosion | $1,000,000 | (2) $1,000,000 to provide competitive grants for sandy beach and dune ecosystem  research to inform management strategies to address coastal erosion. |
+| 3 | to provide competitive grants for nearshore data collection to understand changing ocean conditions and effects on species and ecosystems | $1,000,000 | (3) $1,000,000 to provide competitive grants for nearshore data  collection to understand changing ocean conditions and effects on species and ecosystems. |
 
 Line items sum to **$3,000,000** — which matches NO stated appropriation in this section.
 

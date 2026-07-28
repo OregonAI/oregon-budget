@@ -69,41 +69,37 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$53,462,854** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Capital improvement | $18,478,963 | (1) Capital improvement............. $ 18,478,963 (2) Maintenance.......................... $ 602,795,383 |
-| 2 | Maintenance | $602,795,383 | (2) Maintenance.......................... $ 602,795,383 (3) Project delivery and |
-| 3 | Project delivery and support | $2,323,682,560 | support..................................  $ 2,323,682,560 (4) Interstate bridge |
-| 4 | Interstate bridge replacement | $425,227,367 | replacement ..........................  $ 425,227,367 (5) Local government program ... $ 414,818,962 |
-| 5 | Local government program | $414,818,962 | (5) Local government program ... $ 414,818,962 (6) Driver and motor vehicle |
-| 6 | Driver and motor vehicle services | $314,924,074 | services ................................. $ 314,924,074 (7) State Board of Towing .......... $ 663,143 |
-| 7 | State Board of Towing | $663,143 | (7) State Board of Towing .......... $ 663,143 (8) Commerce and compliance ... $ 111,202,621 |
-| 8 | Commerce and compliance | $111,202,621 | (8) Commerce and compliance ... $ 111,202,621 (9) Policy, data and analysis ...... $ 191,753,836 |
-| 9 | Policy, data and analysis | $191,753,836 | (9) Policy, data and analysis ...... $ 191,753,836 (10) Public transportation............ $ 361,060,723 |
-| 10 | Public transportation | $361,060,723 | (10) Public transportation............ $ 361,060,723 (11) Department of Transportation |
-| 11 | Department of Transportation administrative services | $264,500,977 | administrative services ......... $ 264,500,977 Enrolled Senate Bill 5541 (SB 5541-A) Page 1 |
-| 12 | Finance and budget | $88,279,582 | (12) Finance and budget............... $ 88,279,582 (13) Debt service .......................... $ 473,430,820 |
-| 13 | Debt service | $473,430,820 | (13) Debt service .......................... $ 473,430,820 (14) Oregon Transportation |
-| 14 | Oregon Transportation Infrastructure Fund, wildlife corridor projects | $5,500,000 | wildlife corridor projects ..... $ 5,500,000 SECTION 3. |
+| (1) | Capital improvement | $18,478,963 | (1) Capital improvement............. $ 18,478,963 (2) Maintenance.......................... $ 602,795,383 |
+| (2) | Maintenance | $602,795,383 | (2) Maintenance.......................... $ 602,795,383 (3) Project delivery and |
+| (3) | Project delivery and support | $2,323,682,560 | support..................................  $ 2,323,682,560 (4) Interstate bridge |
+| (4) | Interstate bridge replacement | $425,227,367 | replacement ..........................  $ 425,227,367 (5) Local government program ... $ 414,818,962 |
+| (5) | Local government program | $414,818,962 | (5) Local government program ... $ 414,818,962 (6) Driver and motor vehicle |
+| (6) | Driver and motor vehicle services | $314,924,074 | services ................................. $ 314,924,074 (7) State Board of Towing .......... $ 663,143 |
+| (7) | State Board of Towing | $663,143 | (7) State Board of Towing .......... $ 663,143 (8) Commerce and compliance ... $ 111,202,621 |
+| (8) | Commerce and compliance | $111,202,621 | (8) Commerce and compliance ... $ 111,202,621 (9) Policy, data and analysis ...... $ 191,753,836 |
+| (9) | Policy, data and analysis | $191,753,836 | (9) Policy, data and analysis ...... $ 191,753,836 (10) Public transportation............ $ 361,060,723 |
+| (10) | Public transportation | $361,060,723 | (10) Public transportation............ $ 361,060,723 (11) Department of Transportation |
+| (11) | Department of Transportation administrative services | $264,500,977 | administrative services ......... $ 264,500,977 Enrolled Senate Bill 5541 (SB 5541-A) Page 1 |
+| (12) | Finance and budget | $88,279,582 | (12) Finance and budget............... $ 88,279,582 (13) Debt service .......................... $ 473,430,820 |
+| (13) | Debt service | $473,430,820 | (13) Debt service .......................... $ 473,430,820 (14) Oregon Transportation |
+| (14) | Oregon Transportation Infrastructure Fund, wildlife corridor projects | $5,500,000 | wildlife corridor projects ..... $ 5,500,000 SECTION 3. |
 
-Line items sum to **$5,596,319,011** — which matches NO stated appropriation in this section.
+## Section 3 — subsections-not-itemized
 
-## Section 3 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Driver and motor vehicle services | $32,710,971 | vehicle services ..................... $ 32,710,971 (2) Commerce and compliance ... $ 17,342,776 |
-| 2 | Commerce and compliance | $17,342,776 | (2) Commerce and compliance ... $ 17,342,776 (3) Policy, data and analysis ...... $ 5,912,961 |
-| 3 | Policy, data and analysis | $5,912,961 | (3) Policy, data and analysis ...... $ 5,912,961 (4) Public transportation............ $ 151,641,163 |
-| 4 | Public transportation | $151,641,163 | (4) Public transportation............ $ 151,641,163 SECTION 4. Notwithstanding any  other law limiting expenditures, the amount of |
-
-Line items sum to **$207,607,871** — which matches NO stated appropriation in this section.
+| (1) | Driver and motor vehicle services | $32,710,971 | vehicle services ..................... $ 32,710,971 (2) Commerce and compliance ... $ 17,342,776 |
+| (2) | Commerce and compliance | $17,342,776 | (2) Commerce and compliance ... $ 17,342,776 (3) Policy, data and analysis ...... $ 5,912,961 |
+| (3) | Policy, data and analysis | $5,912,961 | (3) Policy, data and analysis ...... $ 5,912,961 (4) Public transportation............ $ 151,641,163 |
+| (4) | Public transportation | $151,641,163 | (4) Public transportation............ $ 151,641,163 SECTION 4. Notwithstanding any  other law limiting expenditures, the amount of |
 
 ## Section 4 — single-appropriation
 

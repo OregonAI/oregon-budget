@@ -72,24 +72,22 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$198,065,487** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Office of the Attorney General and Administration | $63,106,199 | General and Administration ..... $ 63,106,199 (2) Appellate Division ..................... $ 35,101,104 |
-| 2 | Appellate Division | $35,101,104 | (2) Appellate Division ..................... $ 35,101,104 (3) Civil Enforcement Division ....... $ 79,814,934 |
-| 3 | Civil Enforcement Division | $79,814,934 | (3) Civil Enforcement Division ....... $ 79,814,934 (4) Child Advocacy Division............ $ 96,062,875 |
-| 4 | Child Advocacy Division | $96,062,875 | (4) Child Advocacy Division............ $ 96,062,875 (5) Criminal Justice Division.......... $ 9,185,540 |
-| 5 | Criminal Justice Division | $9,185,540 | (5) Criminal Justice Division.......... $ 9,185,540 (6) Crime Victim and Survivor |
-| 6 | Crime Victim and Survivor Services Division | $48,288,642 | Services Division....................... $ 48,288,642 (7) General Counsel Division .......... $101,946,559 |
-| 7 | General Counsel Division | $101,946,559 | (7) General Counsel Division .......... $101,946,559 (8) Trial Division ............................ $ 79,080,639 |
-| 8 | Trial Division | $79,080,639 | (8) Trial Division ............................ $ 79,080,639 (9) Division of Child Support.......... $ 26,241,654 |
-| 9 | Division of Child Support | $26,241,654 | (9) Division of Child Support.......... $ 26,241,654 (10) Debt Service and Related |
-| 10 | Debt Service and Related Costs | $7,380,272 | Costs........................................ $ 7,380,272 Enrolled House Bill 5014 (HB 5014-A) Page 1 |
-
-Line items sum to **$546,208,418** — which matches NO stated appropriation in this section.
+| (1) | Office of the Attorney General and Administration | $63,106,199 | General and Administration ..... $ 63,106,199 (2) Appellate Division ..................... $ 35,101,104 |
+| (2) | Appellate Division | $35,101,104 | (2) Appellate Division ..................... $ 35,101,104 (3) Civil Enforcement Division ....... $ 79,814,934 |
+| (3) | Civil Enforcement Division | $79,814,934 | (3) Civil Enforcement Division ....... $ 79,814,934 (4) Child Advocacy Division............ $ 96,062,875 |
+| (4) | Child Advocacy Division | $96,062,875 | (4) Child Advocacy Division............ $ 96,062,875 (5) Criminal Justice Division.......... $ 9,185,540 |
+| (5) | Criminal Justice Division | $9,185,540 | (5) Criminal Justice Division.......... $ 9,185,540 (6) Crime Victim and Survivor |
+| (6) | Crime Victim and Survivor Services Division | $48,288,642 | Services Division....................... $ 48,288,642 (7) General Counsel Division .......... $101,946,559 |
+| (7) | General Counsel Division | $101,946,559 | (7) General Counsel Division .......... $101,946,559 (8) Trial Division ............................ $ 79,080,639 |
+| (8) | Trial Division | $79,080,639 | (8) Trial Division ............................ $ 79,080,639 (9) Division of Child Support.......... $ 26,241,654 |
+| (9) | Division of Child Support | $26,241,654 | (9) Division of Child Support.......... $ 26,241,654 (10) Debt Service and Related |
+| (10) | Debt Service and Related Costs | $7,380,272 | Costs........................................ $ 7,380,272 Enrolled House Bill 5014 (HB 5014-A) Page 1 |
 
 ## Section 3 — items-without-stated-total
 

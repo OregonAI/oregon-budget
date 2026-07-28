@@ -73,19 +73,17 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$840,142,672** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Operations | $18,864,753 | (1) Operations................................. $ 18,864,753 (2) Mandated payments .................. $ 797,955 |
-| 2 | Mandated payments | $797,955 | (2) Mandated payments .................. $ 797,955 (3) State Court Facilities and |
-| 3 | State Court Facilities and Security Account | $6,755,282 | Security Account ...................... $ 6,755,282 (4) State Court Technology Fund ... $ 13,370,595 |
-| 4 | State Court Technology Fund | $13,370,595 | (4) State Court Technology Fund ... $ 13,370,595 (5) Oregon Courthouse Capital |
-| 5 | Oregon Courthouse Capital Construction and Improvement Fund | $119,940,466 | Fund.......................................... $119,940,466 SECTION 3. |
-
-Line items sum to **$159,729,051** — which matches NO stated appropriation in this section.
+| (1) | Operations | $18,864,753 | (1) Operations................................. $ 18,864,753 (2) Mandated payments .................. $ 797,955 |
+| (2) | Mandated payments | $797,955 | (2) Mandated payments .................. $ 797,955 (3) State Court Facilities and |
+| (3) | State Court Facilities and Security Account | $6,755,282 | Security Account ...................... $ 6,755,282 (4) State Court Technology Fund ... $ 13,370,595 |
+| (4) | State Court Technology Fund | $13,370,595 | (4) State Court Technology Fund ... $ 13,370,595 (5) Oregon Courthouse Capital |
+| (5) | Oregon Courthouse Capital Construction and Improvement Fund | $119,940,466 | Fund.......................................... $119,940,466 SECTION 3. |
 
 ## Section 3 — single-appropriation
 
@@ -135,17 +133,15 @@ Line items sum to **$159,729,051** — which matches NO stated appropriation in 
 |---:|---|
 | $14,902,860 | eral Fund, the amount of $14,902,860 for  the purpose of funding the Legal Services Program described in ORS 9.572. |
 
-## Section 9 — items-without-stated-total
+## Section 9 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Harney County Courthouse annex renovation | $3,000,000 | annex renovation ...................... $ 3,000,000 (2) Umatilla County Courthouse |
-| 2 | Umatilla County Courthouse replacement planning | $100,000 | replacement planning................ $ 100,000 (3) Hood River Courthouse |
-| 3 | Hood River Courthouse replacement planning | $42,549 | replacement planning................ $ 42,549 SECTION 10. Notwithstanding any other law limiting  expenditures, the limitation on ex- |
-
-Line items sum to **$3,142,549** — which matches NO stated appropriation in this section.
+| (1) | Harney County Courthouse annex renovation | $3,000,000 | annex renovation ...................... $ 3,000,000 (2) Umatilla County Courthouse |
+| (2) | Umatilla County Courthouse replacement planning | $100,000 | replacement planning................ $ 100,000 (3) Hood River Courthouse |
+| (3) | Hood River Courthouse replacement planning | $42,549 | replacement planning................ $ 42,549 SECTION 10. Notwithstanding any other law limiting  expenditures, the limitation on ex- |
 
 ## Section 11 — single-appropriation
 
@@ -155,15 +151,13 @@ Line items sum to **$3,142,549** — which matches NO stated appropriation in th
 |---:|---|
 | $792,500 | State Court Facilities and Security Account, is decreased by $792,500, for a budget realign- ment. ⚠ this amount appears more than once in the bill |
 
-## Section 13 — items-without-stated-total
+## Section 13 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 4 | chapter 380, Oregon Laws 2023, for the biennium ending June 30, 2025, for state court technology systems, is increased by | $2,927,500 | State Court Technology Fund, is decreased by $2,927,500, for a budget realignment. ⚠ |
-
-Line items sum to **$2,927,500** — which matches NO stated appropriation in this section.
+| (4) | chapter 380, Oregon Laws 2023, for the biennium ending June 30, 2025, for state court technology systems, is increased by | $2,927,500 | State Court Technology Fund, is decreased by $2,927,500, for a budget realignment. |
 
 ## Curator notes
 

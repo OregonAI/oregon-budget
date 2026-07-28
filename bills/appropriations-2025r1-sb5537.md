@@ -68,19 +68,17 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$26,879,532** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Administrative Services Division | $36,662,910 | Division..................................... $ 36,662,910 (2) Elections Division ..................... $ 1,443,423 |
-| 2 | Elections Division | $1,443,423 | (2) Elections Division ..................... $ 1,443,423 (3) Audits Division.......................... $ 32,965,791 |
-| 3 | Audits Division | $32,965,791 | (3) Audits Division.......................... $ 32,965,791 (4) Archives Division ...................... $ 12,912,387 |
-| 4 | Archives Division | $12,912,387 | (4) Archives Division ...................... $ 12,912,387 (5) Corporation Division................. $ 18,538,978 |
-| 5 | Corporation Division | $18,538,978 | (5) Corporation Division................. $ 18,538,978 SECTION 3. Notwithstanding any other law limiting expenditures,  the amount of |
-
-Line items sum to **$102,523,489** — which matches NO stated appropriation in this section.
+| (1) | Administrative Services Division | $36,662,910 | Division..................................... $ 36,662,910 (2) Elections Division ..................... $ 1,443,423 |
+| (2) | Elections Division | $1,443,423 | (2) Elections Division ..................... $ 1,443,423 (3) Audits Division.......................... $ 32,965,791 |
+| (3) | Audits Division | $32,965,791 | (3) Audits Division.......................... $ 32,965,791 (4) Archives Division ...................... $ 12,912,387 |
+| (4) | Archives Division | $12,912,387 | (4) Archives Division ...................... $ 12,912,387 (5) Corporation Division................. $ 18,538,978 |
+| (5) | Corporation Division | $18,538,978 | (5) Corporation Division................. $ 18,538,978 SECTION 3. Notwithstanding any other law limiting expenditures,  the amount of |
 
 ## Section 3 — single-appropriation
 

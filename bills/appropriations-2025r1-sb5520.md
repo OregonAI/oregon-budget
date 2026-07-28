@@ -71,18 +71,16 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$85,307,531** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Air quality | $128,108,307 | (1) Air quality................................. $128,108,307 (2) Water quality ............................ $ 40,413,657 |
-| 2 | Water quality | $40,413,657 | (2) Water quality ............................ $ 40,413,657 (3) Land quality.............................. $124,002,267 |
-| 3 | Land quality | $124,002,267 | (3) Land quality.............................. $124,002,267 (4) Agency management ................. $ 54,370,073 |
-| 4 | Agency management | $54,370,073 | (4) Agency management ................. $ 54,370,073 SECTION 3. Notwithstanding any  other law limiting expenditures, the amount of |
-
-Line items sum to **$346,894,304** — which matches NO stated appropriation in this section.
+| (1) | Air quality | $128,108,307 | (1) Air quality................................. $128,108,307 (2) Water quality ............................ $ 40,413,657 |
+| (2) | Water quality | $40,413,657 | (2) Water quality ............................ $ 40,413,657 (3) Land quality.............................. $124,002,267 |
+| (3) | Land quality | $124,002,267 | (3) Land quality.............................. $124,002,267 (4) Agency management ................. $ 54,370,073 |
+| (4) | Agency management | $54,370,073 | (4) Agency management ................. $ 54,370,073 SECTION 3. Notwithstanding any  other law limiting expenditures, the amount of |
 
 ## Section 3 — single-appropriation
 
@@ -92,17 +90,15 @@ Line items sum to **$346,894,304** — which matches NO stated appropriation in 
 |---:|---|
 | $7,038,076 | $7,038,076 is established for the biennium beginning July 1, 2025, as the maximum limit  for payment of expenses from lottery moneys allocated from the  Parks and Natural Resources |
 
-## Section 5 — items-without-stated-total
+## Section 5 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Air quality | $135,622,777 | (1) Air quality................................. $135,622,777 (2) Water quality ............................ $ 19,083,392 |
-| 2 | Water quality | $19,083,392 | (2) Water quality ............................ $ 19,083,392 (3) Land quality.............................. $ 9,828,891 |
-| 3 | Land quality | $9,828,891 | (3) Land quality.............................. $ 9,828,891 SECTION 6. This 2025 Act being necessary for the immediate preservation of the public |
-
-Line items sum to **$164,535,060** — which matches NO stated appropriation in this section.
+| (1) | Air quality | $135,622,777 | (1) Air quality................................. $135,622,777 (2) Water quality ............................ $ 19,083,392 |
+| (2) | Water quality | $19,083,392 | (2) Water quality ............................ $ 19,083,392 (3) Land quality.............................. $ 9,828,891 |
+| (3) | Land quality | $9,828,891 | (3) Land quality.............................. $ 9,828,891 SECTION 6. This 2025 Act being necessary for the immediate preservation of the public |
 
 ## Curator notes
 

@@ -68,16 +68,14 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$44,426,500** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Planning program | $2,720,817 | (1) Planning program ..................... $ 2,720,817 (2) Grant programs ........................ $ 10,171,127 |
-| 2 | Grant programs | $10,171,127 | (2) Grant programs ........................ $ 10,171,127 SECTION 3. Notwithstanding any  other law limiting expenditures, the amount of |
-
-Line items sum to **$12,891,944** — which matches NO stated appropriation in this section.
+| (1) | Planning program | $2,720,817 | (1) Planning program ..................... $ 2,720,817 (2) Grant programs ........................ $ 10,171,127 |
+| (2) | Grant programs | $10,171,127 | (2) Grant programs ........................ $ 10,171,127 SECTION 3. Notwithstanding any  other law limiting expenditures, the amount of |
 
 ## Section 3 — single-appropriation
 

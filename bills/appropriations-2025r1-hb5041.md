@@ -73,28 +73,24 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$464,733,871** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Facility programs | $5,322,803 | (1) Facility programs...................... $ 5,322,803 (2) Community programs ............... $ 2,947,699 |
-| 2 | Community programs | $2,947,699 | (2) Community programs ............... $ 2,947,699 (3) Program support ....................... $ 90,001 |
-| 3 | Program support | $90,001 | (3) Program support ....................... $ 90,001 SECTION 3. Notwithstanding any other law limiting  expenditures, the following amounts |
+| (1) | Facility programs | $5,322,803 | (1) Facility programs...................... $ 5,322,803 (2) Community programs ............... $ 2,947,699 |
+| (2) | Community programs | $2,947,699 | (2) Community programs ............... $ 2,947,699 (3) Program support ....................... $ 90,001 |
+| (3) | Program support | $90,001 | (3) Program support ....................... $ 90,001 SECTION 3. Notwithstanding any other law limiting  expenditures, the following amounts |
 
-Line items sum to **$8,360,503** — which matches NO stated appropriation in this section.
+## Section 3 — subsections-not-itemized
 
-## Section 3 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Community programs | $43,341,357 | (1) Community programs ............... $ 43,341,357 (2) Program support ....................... $ 2,376,526 |
-| 2 | Program support | $2,376,526 | (2) Program support ....................... $ 2,376,526 SECTION 4. This 2025 Act being necessary for the immediate preservation of the public |
-
-Line items sum to **$45,717,883** — which matches NO stated appropriation in this section.
+| (1) | Community programs | $43,341,357 | (1) Community programs ............... $ 43,341,357 (2) Program support ....................... $ 2,376,526 |
+| (2) | Program support | $2,376,526 | (2) Program support ....................... $ 2,376,526 SECTION 4. This 2025 Act being necessary for the immediate preservation of the public |
 
 ## Curator notes
 

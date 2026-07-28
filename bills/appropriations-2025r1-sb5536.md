@@ -74,24 +74,22 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$272,868,226** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Administration | $16,213,660 | (1) Administration.......................... $ 16,213,660 (2) Property Tax Division ............... $ 39,399,725 |
-| 2 | Property Tax Division | $39,399,725 | (2) Property Tax Division ............... $ 39,399,725 (3) Personal Tax and |
-| 3 | Personal Tax and Compliance Division | $1,903,144 | Compliance Division.................. $ 1,903,144 (4) Business Division ...................... $ 17,880,861 |
-| 4 | Business Division | $17,880,861 | (4) Business Division ...................... $ 17,880,861 (5) Collections Division................... $ 23,311,861 |
-| 5 | Collections Division | $23,311,861 | (5) Collections Division................... $ 23,311,861 (6) Corporate Division .................... $ 18,730,073 |
-| 6 | Corporate Division | $18,730,073 | (6) Corporate Division .................... $ 18,730,073 (7) Information Technology |
-| 7 | Information Technology Services Division | $15,583,793 | Services Division....................... $ 15,583,793 (8) Marijuana program ................... $ 4,474,970 |
-| 8 | Marijuana program | $4,474,970 | (8) Marijuana program ................... $ 4,474,970 Enrolled Senate Bill 5536 (SB 5536-A) Page 1 |
-| 9 | Senior Property Tax Deferral program | $26,123,197 | Deferral program ...................... $ 26,123,197 (10) Information System |
-| 10 | Information System projects | $6,353,430 | projects ..................................... $ 6,353,430 SECTION 3. This 2025 Act being necessary for the immediate preservation of the public |
-
-Line items sum to **$169,974,714** — which matches NO stated appropriation in this section.
+| (1) | Administration | $16,213,660 | (1) Administration.......................... $ 16,213,660 (2) Property Tax Division ............... $ 39,399,725 |
+| (2) | Property Tax Division | $39,399,725 | (2) Property Tax Division ............... $ 39,399,725 (3) Personal Tax and |
+| (3) | Personal Tax and Compliance Division | $1,903,144 | Compliance Division.................. $ 1,903,144 (4) Business Division ...................... $ 17,880,861 |
+| (4) | Business Division | $17,880,861 | (4) Business Division ...................... $ 17,880,861 (5) Collections Division................... $ 23,311,861 |
+| (5) | Collections Division | $23,311,861 | (5) Collections Division................... $ 23,311,861 (6) Corporate Division .................... $ 18,730,073 |
+| (6) | Corporate Division | $18,730,073 | (6) Corporate Division .................... $ 18,730,073 (7) Information Technology |
+| (7) | Information Technology Services Division | $15,583,793 | Services Division....................... $ 15,583,793 (8) Marijuana program ................... $ 4,474,970 |
+| (8) | Marijuana program | $4,474,970 | (8) Marijuana program ................... $ 4,474,970 Enrolled Senate Bill 5536 (SB 5536-A) Page 1 |
+| (9) | Senior Property Tax Deferral program | $26,123,197 | Deferral program ...................... $ 26,123,197 (10) Information System |
+| (10) | Information System projects | $6,353,430 | projects ..................................... $ 6,353,430 SECTION 3. This 2025 Act being necessary for the immediate preservation of the public |
 
 ## Curator notes
 

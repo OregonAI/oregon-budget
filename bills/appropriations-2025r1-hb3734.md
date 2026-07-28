@@ -59,10 +59,15 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 | # | Purpose (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 |  | $36,000,000 | (1) $36,000,000 to provide rental assistance and homelessness prevention services through distribution of the following amounts: |
-| 2 |  | $9,500,000 | (2) $9,500,000 to provide rehousing and housing  placement services through distribution of the following amounts: |
+| 2 | to provide rehousing and housing placement services through distribution of the following amounts: (a) $5,000,000 to The Urban League of Portland, Inc | $9,500,000 | (2) $9,500,000 to provide rehousing and housing  placement services through distribution of the following amounts: |
 
-Line items sum to **$45,500,000** — which matches NO stated appropriation in this section.
+Line items sum to **$9,500,000** — which matches NO stated appropriation in this section.
+
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
+
+| Subsection | Text (parsed) | Amount | Verbatim source line |
+|---|---|---:|---|
+| (1) | to provide rental assistance and homelessness prevention services through distribution of the following amounts: (a) $18,000,000 to Oregon Worker Relief | $36,000,000 | (1) $36,000,000 to provide rental assistance and homelessness prevention services through distribution of the following amounts: |
 
 ## Curator notes
 

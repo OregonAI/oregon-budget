@@ -77,18 +77,16 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$650,841,991** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Juvenile Trial Division | $7,393,486 | (1) Juvenile Trial Division.............. $ 7,393,486 (2) Preauthorized Expenses............ $ 1,037,357 |
-| 2 | Preauthorized Expenses | $1,037,357 | (2) Preauthorized Expenses............ $ 1,037,357 (3) Court Mandated Expenses ........ $ 6,547,938 |
-| 3 | Court Mandated Expenses | $6,547,938 | (3) Court Mandated Expenses ........ $ 6,547,938 (4) Parent Child Representation |
-| 4 | Parent Child Representation Program | $11,684,477 | Program .................................... $ 11,684,477 SECTION 3. This 2025 Act being necessary for the immediate preservation of the public |
-
-Line items sum to **$26,663,258** — which matches NO stated appropriation in this section.
+| (1) | Juvenile Trial Division | $7,393,486 | (1) Juvenile Trial Division.............. $ 7,393,486 (2) Preauthorized Expenses............ $ 1,037,357 |
+| (2) | Preauthorized Expenses | $1,037,357 | (2) Preauthorized Expenses............ $ 1,037,357 (3) Court Mandated Expenses ........ $ 6,547,938 |
+| (3) | Court Mandated Expenses | $6,547,938 | (3) Court Mandated Expenses ........ $ 6,547,938 (4) Parent Child Representation |
+| (4) | Parent Child Representation Program | $11,684,477 | Program .................................... $ 11,684,477 SECTION 3. This 2025 Act being necessary for the immediate preservation of the public |
 
 ## Curator notes
 

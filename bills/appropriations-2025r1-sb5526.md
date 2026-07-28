@@ -75,40 +75,36 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$7,438,581,210** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Central services | $16,551,178 | (1) Central services .................... $ 16,551,178 (2) State assessments and |
-| 2 | State assessments and enterprise-wide costs | $62,692,588 | enterprise-wide costs ............ $ 62,692,588 (3) Self-sufficiency programs ...... $ 487,414,104 |
-| 3 | Self-sufficiency programs | $487,414,104 | (3) Self-sufficiency programs ...... $ 487,414,104 (4) Vocational rehabilitation |
-| 4 | Vocational rehabilitation Enrolled Senate Bill 5526 (SB 5526-A) Page 1 services | $3,207,470 | services ................................. $ 3,207,470 (5) Child welfare programs......... $ 44,914,816 |
-| 5 | Child welfare programs | $44,914,816 | (5) Child welfare programs......... $ 44,914,816 (6) Aging and people with |
-| 6 | Aging and people with disabilities programs | $407,671,744 | disabilities programs............. $ 407,671,744 (7) Intellectual/developmental |
-| 7 | Intellectual/developmental disabilities programs | $34,277,316 | disabilities programs............. $ 34,277,316 (8) Shared services ..................... $ 234,099,669 |
-| 8 | Shared services | $234,099,669 | (8) Shared services ..................... $ 234,099,669 (9) Oregon Eligibility |
-| 9 | Oregon Eligibility Partnership | $12,302,457 | Partnership........................... $ 12,302,457 (10) Aging and people with |
+| (1) | Central services | $16,551,178 | (1) Central services .................... $ 16,551,178 (2) State assessments and |
+| (2) | State assessments and enterprise-wide costs | $62,692,588 | enterprise-wide costs ............ $ 62,692,588 (3) Self-sufficiency programs ...... $ 487,414,104 |
+| (3) | Self-sufficiency programs | $487,414,104 | (3) Self-sufficiency programs ...... $ 487,414,104 (4) Vocational rehabilitation |
+| (4) | Vocational rehabilitation Enrolled Senate Bill 5526 (SB 5526-A) Page 1 services | $3,207,470 | services ................................. $ 3,207,470 (5) Child welfare programs......... $ 44,914,816 |
+| (5) | Child welfare programs | $44,914,816 | (5) Child welfare programs......... $ 44,914,816 (6) Aging and people with |
+| (6) | Aging and people with disabilities programs | $407,671,744 | disabilities programs............. $ 407,671,744 (7) Intellectual/developmental |
+| (7) | Intellectual/developmental disabilities programs | $34,277,316 | disabilities programs............. $ 34,277,316 (8) Shared services ..................... $ 234,099,669 |
+| (8) | Shared services | $234,099,669 | (8) Shared services ..................... $ 234,099,669 (9) Oregon Eligibility |
+| (9) | Oregon Eligibility Partnership | $12,302,457 | Partnership........................... $ 12,302,457 (10) Aging and people with |
 
-Line items sum to **$1,303,131,342** — which matches NO stated appropriation in this section.
+## Section 3 — subsections-not-itemized
 
-## Section 3 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Central services | $62,336,860 | (1) Central services .................... $ 62,336,860 (2) State assessments and |
-| 2 | State assessments and enterprise-wide costs | $307,033,111 | enterprise-wide costs ............ $ 307,033,111 (3) Self-sufficiency programs ...... $ 668,504,367 |
-| 3 | Self-sufficiency programs | $668,504,367 | (3) Self-sufficiency programs ...... $ 668,504,367 (4) Vocational rehabilitation |
-| 4 | Vocational rehabilitation services | $104,590,608 | services ................................. $ 104,590,608 (5) Child welfare programs......... $ 634,959,911 |
-| 5 | Child welfare programs | $634,959,911 | (5) Child welfare programs......... $ 634,959,911 (6) Aging and people with |
-| 6 | Aging and people with disabilities programs | $4,170,072,538 | disabilities programs.............  $ 4,170,072,538 (7) Intellectual/developmental |
-| 7 | Intellectual/developmental disabilities programs | $4,378,753,565 | disabilities programs.............  $ 4,378,753,565 (8) Oregon Eligibility |
-| 8 | Oregon Eligibility Partnership | $524,534,304 | Partnership...........................  $ 524,534,304 SECTION 4. For the  biennium beginning July 1, 2025, expenditures by the Department |
-
-Line items sum to **$10,850,785,264** — which matches NO stated appropriation in this section.
+| (1) | Central services | $62,336,860 | (1) Central services .................... $ 62,336,860 (2) State assessments and |
+| (2) | State assessments and enterprise-wide costs | $307,033,111 | enterprise-wide costs ............ $ 307,033,111 (3) Self-sufficiency programs ...... $ 668,504,367 |
+| (3) | Self-sufficiency programs | $668,504,367 | (3) Self-sufficiency programs ...... $ 668,504,367 (4) Vocational rehabilitation |
+| (4) | Vocational rehabilitation services | $104,590,608 | services ................................. $ 104,590,608 (5) Child welfare programs......... $ 634,959,911 |
+| (5) | Child welfare programs | $634,959,911 | (5) Child welfare programs......... $ 634,959,911 (6) Aging and people with |
+| (6) | Aging and people with disabilities programs | $4,170,072,538 | disabilities programs.............  $ 4,170,072,538 (7) Intellectual/developmental |
+| (7) | Intellectual/developmental disabilities programs | $4,378,753,565 | disabilities programs.............  $ 4,378,753,565 (8) Oregon Eligibility |
+| (8) | Oregon Eligibility Partnership | $524,534,304 | Partnership...........................  $ 524,534,304 SECTION 4. For the  biennium beginning July 1, 2025, expenditures by the Department |
 
 ## Curator notes
 

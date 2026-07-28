@@ -59,12 +59,12 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 | # | Purpose (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 |  | $315,000 | (1) $315,000 for fish survey expenses. |
-| 2 |  | $485,000 | (2) $485,000 for United States Geological Survey monitoring expenses. |
-| 3 |  | $950,000 | (3) $950,000 for engineering and permitting expenses. |
-| 4 |  | $40,000 | (4) $40,000 for Oregon State University project management expenses. |
-| 5 |  | $30,000 | (5) $30,000 for Human Access Project project management expenses. |
-| 6 |  | $197,000 | (6) $197,000 for contingency expenses. |
+| 1 | for fish survey expenses | $315,000 | (1) $315,000 for fish survey expenses. |
+| 2 | for United States Geological Survey monitoring expenses | $485,000 | (2) $485,000 for United States Geological Survey monitoring expenses. |
+| 3 | for engineering and permitting expenses | $950,000 | (3) $950,000 for engineering and permitting expenses. |
+| 4 | for Oregon State University project management expenses | $40,000 | (4) $40,000 for Oregon State University project management expenses. |
+| 5 | for Human Access Project project management expenses | $30,000 | (5) $30,000 for Human Access Project project management expenses. |
+| 6 | for contingency expenses | $197,000 | (6) $197,000 for contingency expenses. |
 
 Line items sum to **$2,017,000** — which matches NO stated appropriation in this section.
 

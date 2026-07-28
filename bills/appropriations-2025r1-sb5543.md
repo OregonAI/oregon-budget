@@ -79,47 +79,41 @@ Line items sum to **$91,142,469** — which matches NO stated appropriation in t
 |---:|---|
 | $24,352,512 | $24,352,512 is established for the biennium beginning July 1, 2025, as the maximum limit  for payment of expenses from lottery moneys allocated from the  Administrative Services Eco- |
 
-## Section 3 — items-without-stated-total
+## Section 3 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Administrative services | $2,126,877 | (1) Administrative services ............ $ 2,126,877 (2) Field services ............................ $ 3,242,266 |
-| 2 | Field services | $3,242,266 | (2) Field services ............................ $ 3,242,266 (3) Water rights and |
-| 3 | Water rights and adjudications | $3,672,380 | adjudications............................. $ 3,672,380 (4) Technical services ..................... $ 4,186,909 |
-| 4 | Technical services | $4,186,909 | (4) Technical services ..................... $ 4,186,909 (5) Director’s office ........................ $110,768,593 |
-| 5 | Director’s office | $110,768,593 | (5) Director’s office ........................ $110,768,593 Enrolled Senate Bill 5543 (SB 5543-A) Page 1 |
+| (1) | Administrative services | $2,126,877 | (1) Administrative services ............ $ 2,126,877 (2) Field services ............................ $ 3,242,266 |
+| (2) | Field services | $3,242,266 | (2) Field services ............................ $ 3,242,266 (3) Water rights and |
+| (3) | Water rights and adjudications | $3,672,380 | adjudications............................. $ 3,672,380 (4) Technical services ..................... $ 4,186,909 |
+| (4) | Technical services | $4,186,909 | (4) Technical services ..................... $ 4,186,909 (5) Director’s office ........................ $110,768,593 |
+| (5) | Director’s office | $110,768,593 | (5) Director’s office ........................ $110,768,593 Enrolled Senate Bill 5543 (SB 5543-A) Page 1 |
 
-Line items sum to **$123,997,025** — which matches NO stated appropriation in this section.
+## Section 4 — subsections-not-itemized
 
-## Section 4 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Administrative services | $25,000 | (1) Administrative services ............ $ 25,000 (2) Field services ............................ $ 75,000 ⚠ |
-| 2 | Field services | $75,000 | (2) Field services ............................ $ 75,000 (3) Water rights and |
-| 3 | Water rights and adjudications | $25,000 | (1) Administrative services ............ $ 25,000 (2) Field services ............................ $ 75,000 ⚠ |
-| 4 | Technical services | $2,040,179 | (4) Technical services ..................... $ 2,040,179 (5) Director’s office ........................ $ 25,000 |
-| 5 | Director’s office | $25,000 | (1) Administrative services ............ $ 25,000 (2) Field services ............................ $ 75,000 ⚠ |
+| (1) | Administrative services | $25,000 | (1) Administrative services ............ $ 25,000 (2) Field services ............................ $ 75,000 |
+| (2) | Field services | $75,000 | (2) Field services ............................ $ 75,000 (3) Water rights and |
+| (3) | Water rights and adjudications | $25,000 | (1) Administrative services ............ $ 25,000 (2) Field services ............................ $ 75,000 |
+| (4) | Technical services | $2,040,179 | (4) Technical services ..................... $ 2,040,179 (5) Director’s office ........................ $ 25,000 |
+| (5) | Director’s office | $25,000 | (5) Director’s office ........................ $ 25,000 SECTION 5. Notwithstanding any other law limiting  expenditures, the following amounts |
 
-Line items sum to **$2,190,179** — which matches NO stated appropriation in this section.
+## Section 5 — subsections-not-itemized
 
-## Section 5 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Grant to Umatilla County for the Ordnance Regional Water Infrastructure Project | $600,000 | Water Infrastructure Project ... $ 600,000 (2) Place-based planning |
-| 2 | Place-based planning activities | $350,000 | activities ................................... $ 350,000 (3) Support for the water |
-| 3 | Support for the water measurement cost-share program | $800,000 | program .................................... $ 800,000 (4) Provision of contracted |
-| 4 | Provision of contracted services to perform flood methodology and inundation assessments for dams and engineering analyses on dams | $1,200,000 | engineering analyses on dams .. $ 1,200,000 (5) Purchase and deployment of |
-| 5 | Purchase and deployment of surface and ground water data collection equipment | $250,000 | data collection equipment ......... $ 250,000 SECTION 6. |
-
-Line items sum to **$3,200,000** — which matches NO stated appropriation in this section.
+| (1) | Grant to Umatilla County for the Ordnance Regional Water Infrastructure Project | $600,000 | Water Infrastructure Project ... $ 600,000 (2) Place-based planning |
+| (2) | Place-based planning activities | $350,000 | activities ................................... $ 350,000 (3) Support for the water |
+| (3) | Support for the water measurement cost-share program | $800,000 | program .................................... $ 800,000 (4) Provision of contracted |
+| (4) | Provision of contracted services to perform flood methodology and inundation assessments for dams and engineering analyses on dams | $1,200,000 | engineering analyses on dams .. $ 1,200,000 (5) Purchase and deployment of |
+| (5) | Purchase and deployment of surface and ground water data collection equipment | $250,000 | data collection equipment ......... $ 250,000 SECTION 6. |
 
 ## Section 6 — single-appropriation
 

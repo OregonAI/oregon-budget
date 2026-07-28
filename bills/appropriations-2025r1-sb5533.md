@@ -70,29 +70,25 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$46,761,708** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Administration | $4,031,798 | (1) Administration.......................... $ 4,031,798 (2) Operations................................. $ 8,102,057 |
-| 2 | Operations | $8,102,057 | (2) Operations................................. $ 8,102,057 (3) Community support .................. $ 12,175,330 |
-| 3 | Community support | $12,175,330 | (3) Community support .................. $ 12,175,330 SECTION 3. Notwithstanding any other law limiting  expenditures, the following amounts |
+| (1) | Administration | $4,031,798 | (1) Administration.......................... $ 4,031,798 (2) Operations................................. $ 8,102,057 |
+| (2) | Operations | $8,102,057 | (2) Operations................................. $ 8,102,057 (3) Community support .................. $ 12,175,330 |
+| (3) | Community support | $12,175,330 | (3) Community support .................. $ 12,175,330 SECTION 3. Notwithstanding any other law limiting  expenditures, the following amounts |
 
-Line items sum to **$24,309,185** — which matches NO stated appropriation in this section.
+## Section 3 — subsections-not-itemized
 
-## Section 3 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Operations | $146,237,880 | (1) Operations................................. $146,237,880 (2) Community support .................. $ 23,462,611 |
-| 2 | Community support | $23,462,611 | (2) Community support .................. $ 23,462,611 (3) Capital improvement................. $ 5,813,288 |
-| 3 | Capital improvement | $5,813,288 | (3) Capital improvement................. $ 5,813,288 SECTION 4. This 2025 Act being necessary for the immediate preservation of the public |
-
-Line items sum to **$175,513,779** — which matches NO stated appropriation in this section.
+| (1) | Operations | $146,237,880 | (1) Operations................................. $146,237,880 (2) Community support .................. $ 23,462,611 |
+| (2) | Community support | $23,462,611 | (2) Community support .................. $ 23,462,611 (3) Capital improvement................. $ 5,813,288 |
+| (3) | Capital improvement | $5,813,288 | (3) Capital improvement................. $ 5,813,288 SECTION 4. This 2025 Act being necessary for the immediate preservation of the public |
 
 ## Curator notes
 

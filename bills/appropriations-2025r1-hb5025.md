@@ -70,72 +70,64 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 | 5 | Oregon State Hospital | $980,046,486 | (5) Oregon State Hospital ........... $ 980,046,486 (6) Central services .................... $ 106,539,104 |
 | 6 | Central services | $106,539,104 | (6) Central services .................... $ 106,539,104 (7) State assessments and |
 | 7 | State assessments and enterprise-wide costs | $247,388,457 | enterprise-wide costs ............ $ 247,388,457 (8) Capital improvement............. $ 852,816 |
-| 8 | Capital improvement | $852,816 | (8) Capital improvement............. $ 852,816 (9) Debt service .......................... $ 63,134,651 ⚠ |
+| 8 | Capital improvement | $852,816 | (8) Capital improvement............. $ 852,816 (9) Debt service .......................... $ 63,134,651 |
 | 9 | Debt service | $63,134,651 | (9) Debt service .......................... $ 63,134,651 SECTION 2. Notwithstanding any other law limiting  expenditures, the following amounts |
 
 Line items sum to **$6,196,787,826** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Medicaid | $5,411,501,971 | (1) Medicaid................................  $ 5,411,501,971 (2) Behavioral health..................  $ 315,229,998 |
-| 2 | Behavioral health | $315,229,998 | (2) Behavioral health..................  $ 315,229,998 (3) Health policy and |
-| 3 | Health policy and analytics | $134,184,623 | analytics................................ $ 134,184,623 (4) Behavioral health - ARPA: |
-| 4 | Behavioral health - ARPA: (a) Behavioral health workforce - ARPA | $10,667,722 | workforce - ARPA ................. $ 10,667,722 (b) Behavioral health |
-| 5 | Public health | $350,656,937 | (5) Public health......................... $ 350,656,937 Enrolled House Bill 5025 (HB 5025-A) Page 1 |
-| 6 | Drug treatment and recovery services | $209,030,671 | recovery services .................. $ 209,030,671 (7) Oregon State Hospital ........... $ 15,914,608 |
-| 7 | Oregon State Hospital | $15,914,608 | (7) Oregon State Hospital ........... $ 15,914,608 (8) Central services .................... $ 6,746,488 |
-| 8 | Central services | $6,746,488 | (8) Central services .................... $ 6,746,488 (9) State assessments and |
-| 9 | State assessments and enterprise-wide costs | $34,520,367 | enterprise-wide costs ............ $ 34,520,367 (10) Shared administrative |
-| 10 | Shared administrative services | $295,026,552 | services ................................. $ 295,026,552 (11) Capital improvement............. $ 852,816 |
-| 11 | Capital improvement | $852,816 | (8) Capital improvement............. $ 852,816 (9) Debt service .......................... $ 63,134,651 ⚠ |
+| (1) | Medicaid | $5,411,501,971 | (1) Medicaid................................  $ 5,411,501,971 (2) Behavioral health..................  $ 315,229,998 |
+| (2) | Behavioral health | $315,229,998 | (2) Behavioral health..................  $ 315,229,998 (3) Health policy and |
+| (3) | Health policy and analytics | $134,184,623 | analytics................................ $ 134,184,623 (4) Behavioral health - ARPA: |
+| (4) | Behavioral health - ARPA: (a) Behavioral health workforce - ARPA | $10,667,722 | workforce - ARPA ................. $ 10,667,722 (b) Behavioral health |
+| (5) | Public health | $350,656,937 | (5) Public health......................... $ 350,656,937 Enrolled House Bill 5025 (HB 5025-A) Page 1 |
+| (6) | Drug treatment and recovery services | $209,030,671 | recovery services .................. $ 209,030,671 (7) Oregon State Hospital ........... $ 15,914,608 |
+| (7) | Oregon State Hospital | $15,914,608 | (7) Oregon State Hospital ........... $ 15,914,608 (8) Central services .................... $ 6,746,488 |
+| (8) | Central services | $6,746,488 | (8) Central services .................... $ 6,746,488 (9) State assessments and |
+| (9) | State assessments and enterprise-wide costs | $34,520,367 | enterprise-wide costs ............ $ 34,520,367 (10) Shared administrative |
+| (10) | Shared administrative services | $295,026,552 | services ................................. $ 295,026,552 (11) Capital improvement............. $ 852,816 |
+| (11) | Capital improvement | $852,816 | (11) Capital improvement............. $ 852,816 SECTION 3. Notwithstanding any other law limiting  expenditures, the following amounts |
 
-Line items sum to **$6,784,332,753** — which matches NO stated appropriation in this section.
+## Section 3 — subsections-not-itemized
 
-## Section 3 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Medicaid | $3,519,334 | (1) Medicaid................................ $ 3,519,334 (2) Behavioral health.................. $ 14,500,159 ⚠ |
-| 2 | Behavioral health | $14,500,159 | (2) Behavioral health.................. $ 14,500,159 (3) Health policy and |
-| 3 | Health policy and analytics | $28,211 | analytics................................ $ 28,211 (4) Central services .................... $ 250,004 |
-| 4 | Central services | $250,004 | (4) Central services .................... $ 250,004 (5) State assessments and |
-| 5 | State assessments and enterprise-wide costs | $555,218 | enterprise-wide costs ............ $ 555,218 (6) Debt service .......................... $ 16,513,581 |
-| 6 | Debt service | $16,513,581 | (6) Debt service .......................... $ 16,513,581 SECTION 4. Notwithstanding any other law limiting  expenditures, the following amounts |
+| (1) | Medicaid | $3,519,334 | (1) Medicaid................................ $ 3,519,334 (2) Behavioral health.................. $ 14,500,159 |
+| (2) | Behavioral health | $14,500,159 | (2) Behavioral health.................. $ 14,500,159 (3) Health policy and |
+| (3) | Health policy and analytics | $28,211 | analytics................................ $ 28,211 (4) Central services .................... $ 250,004 |
+| (4) | Central services | $250,004 | (4) Central services .................... $ 250,004 (5) State assessments and |
+| (5) | State assessments and enterprise-wide costs | $555,218 | enterprise-wide costs ............ $ 555,218 (6) Debt service .......................... $ 16,513,581 |
+| (6) | Debt service | $16,513,581 | (6) Debt service .......................... $ 16,513,581 SECTION 4. Notwithstanding any other law limiting  expenditures, the following amounts |
 
-Line items sum to **$35,366,507** — which matches NO stated appropriation in this section.
+## Section 4 — subsections-not-itemized
 
-## Section 4 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Veterans behavioral health | $2,879,455 | health.................................... $ 2,879,455 (2) Veterans dental |
-| 2 | Veterans dental services | $3,519,334 | (1) Medicaid................................ $ 3,519,334 (2) Behavioral health.................. $ 14,500,159 ⚠ |
+| (1) | Veterans behavioral health | $2,879,455 | health.................................... $ 2,879,455 (2) Veterans dental |
+| (2) | Veterans dental services | $3,519,334 | (1) Medicaid................................ $ 3,519,334 (2) Behavioral health.................. $ 14,500,159 |
 
-Line items sum to **$6,398,789** — which matches NO stated appropriation in this section.
+## Section 5 — subsections-not-itemized
 
-## Section 5 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Medicaid | $22,372,719,148 | (1) Medicaid................................ $22,372,719,148 (2) Behavioral health.................. $ 300,008,798 |
-| 2 | Behavioral health | $300,008,798 | (2) Behavioral health.................. $ 300,008,798 (3) Health policy and |
-| 3 | Health policy and analytics | $57,584,877 | analytics................................ $ 57,584,877 (4) Public health......................... $ 457,232,818 |
-| 4 | Public health | $457,232,818 | (4) Public health......................... $ 457,232,818 (5) Oregon State Hospital ........... $ 32,441,418 |
-| 5 | Oregon State Hospital | $32,441,418 | (5) Oregon State Hospital ........... $ 32,441,418 (6) Central services .................... $ 37,529,740 |
-| 6 | Central services | $37,529,740 | (6) Central services .................... $ 37,529,740 (7) State assessments and |
-| 7 | State assessments and enterprise-wide costs | $75,328,430 | enterprise-wide costs ............ $ 75,328,430 SECTION 6. For the biennium beginning July 1, 2025, the following  expenditures by the |
-
-Line items sum to **$23,332,845,229** — which matches NO stated appropriation in this section.
+| (1) | Medicaid | $22,372,719,148 | (1) Medicaid................................ $22,372,719,148 (2) Behavioral health.................. $ 300,008,798 |
+| (2) | Behavioral health | $300,008,798 | (2) Behavioral health.................. $ 300,008,798 (3) Health policy and |
+| (3) | Health policy and analytics | $57,584,877 | analytics................................ $ 57,584,877 (4) Public health......................... $ 457,232,818 |
+| (4) | Public health | $457,232,818 | (4) Public health......................... $ 457,232,818 (5) Oregon State Hospital ........... $ 32,441,418 |
+| (5) | Oregon State Hospital | $32,441,418 | (5) Oregon State Hospital ........... $ 32,441,418 (6) Central services .................... $ 37,529,740 |
+| (6) | Central services | $37,529,740 | (6) Central services .................... $ 37,529,740 (7) State assessments and |
+| (7) | State assessments and enterprise-wide costs | $75,328,430 | enterprise-wide costs ............ $ 75,328,430 SECTION 6. For the biennium beginning July 1, 2025, the following  expenditures by the |
 
 ## Section 7 — single-appropriation
 

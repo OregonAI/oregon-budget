@@ -32,7 +32,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2025r1-sb5511
 sibling_snapshot_id: measure-2025r1-sb5511-enrolled
 sibling_source_sha256: 9a894d8f5aaed3b618048638b36db0271dc9b409ae2b1516770494d49ad87d99
-extraction_status: items-without-stated-total
+extraction_status: single-appropriation
 appropriated_to: Department of Consumer and Business Services
 fund: General Fund
 biennium_begins: July 1, 2025
@@ -51,39 +51,35 @@ SB 5511 (2025R1): Appropriates moneys from the General Fund to the Department of
 
 Parsed context: appropriated to **Department of Consumer and Business Services**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
 
-Extraction status: **items-without-stated-total**. No itemization to reconcile against.
+Extraction status: **single-appropriation**. No itemization to reconcile against.
 
 This bill appropriates in **3 separate sections**. Each is reconciled on its own: item numbering restarts per section, so amounts must never be pooled across them.
 
 The full text of this bill lives in the `oregon-legislature` corpus as `measure-2025r1-sb5511` and is referenced, not copied.
 
-## Section 1 — items-without-stated-total
+## Section 1 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Workers’ Compensation Board | $34,007,588 | Board ........................................ $ 34,007,588 (2) Workers’ Compensation |
-| 2 | Workers’ Compensation Division | $79,319,071 | Division..................................... $ 79,319,071 (3) Oregon OSHA ............................ $ 69,597,261 |
-| 3 | Oregon OSHA | $69,597,261 | (3) Oregon OSHA ............................ $ 69,597,261 (4) Central Services Division .......... $ 69,697,629 |
-| 4 | Central Services Division | $69,697,629 | (4) Central Services Division .......... $ 69,697,629 (5) Division of Financial |
-| 5 | Division of Financial Regulation | $201,050,211 | Regulation................................. $201,050,211 (6) Building Codes Division ............ $ 55,071,839 |
-| 6 | Building Codes Division | $55,071,839 | (6) Building Codes Division ............ $ 55,071,839 SECTION 2. Notwithstanding any other law limiting  expenditures, the following amounts |
+| (1) | Workers’ Compensation Board | $34,007,588 | Board ........................................ $ 34,007,588 (2) Workers’ Compensation |
+| (2) | Workers’ Compensation Division | $79,319,071 | Division..................................... $ 79,319,071 (3) Oregon OSHA ............................ $ 69,597,261 |
+| (3) | Oregon OSHA | $69,597,261 | (3) Oregon OSHA ............................ $ 69,597,261 (4) Central Services Division .......... $ 69,697,629 |
+| (4) | Central Services Division | $69,697,629 | (4) Central Services Division .......... $ 69,697,629 (5) Division of Financial |
+| (5) | Division of Financial Regulation | $201,050,211 | Regulation................................. $201,050,211 (6) Building Codes Division ............ $ 55,071,839 |
+| (6) | Building Codes Division | $55,071,839 | (6) Building Codes Division ............ $ 55,071,839 SECTION 2. Notwithstanding any other law limiting  expenditures, the following amounts |
 
-Line items sum to **$508,743,599** — which matches NO stated appropriation in this section.
+## Section 2 — subsections-not-itemized
 
-## Section 2 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Oregon OSHA | $10,428,558 | (1) Oregon OSHA ............................ $ 10,428,558 (2) Central Services Division .......... $ 380,973 |
-| 2 | Central Services Division | $380,973 | (2) Central Services Division .......... $ 380,973 (3) Building Codes Division ............ $ 231,554 |
-| 3 | Building Codes Division | $231,554 | (3) Building Codes Division ............ $ 231,554 (4) Division of Financial |
-| 4 | Division of Financial Regulation | $120,075,414 | Regulation................................. $120,075,414 SECTION 3. There is appropriated to the Department of Consumer and Business Ser- |
-
-Line items sum to **$131,116,499** — which matches NO stated appropriation in this section.
+| (1) | Oregon OSHA | $10,428,558 | (1) Oregon OSHA ............................ $ 10,428,558 (2) Central Services Division .......... $ 380,973 |
+| (2) | Central Services Division | $380,973 | (2) Central Services Division .......... $ 380,973 (3) Building Codes Division ............ $ 231,554 |
+| (3) | Building Codes Division | $231,554 | (3) Building Codes Division ............ $ 231,554 (4) Division of Financial |
+| (4) | Division of Financial Regulation | $120,075,414 | Regulation................................. $120,075,414 SECTION 3. There is appropriated to the Department of Consumer and Business Ser- |
 
 ## Section 3 — single-appropriation
 

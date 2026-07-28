@@ -32,7 +32,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2025r1-hb3135
 sibling_snapshot_id: measure-2025r1-hb3135-introduced
 sibling_source_sha256: 624644352780ba2774d26fbaf610154ffe44041facb41c7cc00bdfbc3dd222a3
-extraction_status: items-without-stated-total
+extraction_status: single-appropriation
 appropriated_to: Oregon Department of Administrative Services
 fund: General Fund
 biennium_begins: July 1, 2025
@@ -51,21 +51,19 @@ HB 3135 (2025R1): Appropriates moneys to the Oregon Department of Administrative
 
 Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
 
-Extraction status: **items-without-stated-total**. No itemization to reconcile against.
+Extraction status: **single-appropriation**. No itemization to reconcile against.
 
 This bill appropriates in **2 separate sections**. Each is reconciled on its own: item numbering restarts per section, so amounts must never be pooled across them.
 
 The full text of this bill lives in the `oregon-legislature` corpus as `measure-2025r1-hb3135` and is referenced, not copied.
 
-## Section 1 — items-without-stated-total
+## Section 1 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | of this section, unless the grant is for | $750,000 | $750,000 or more. |
-
-Line items sum to **$750,000** — which matches NO stated appropriation in this section.
+| (1) | of this section, unless the grant is for | $750,000 | $750,000 or more. |
 
 ## Section 3 — single-appropriation
 

@@ -59,10 +59,10 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 | # | Purpose (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 |  | $14,000,000 | (1) $14,000,000 to the City of  Coos Bay for infrastructure, including access road, culvert replacement, pump station and force main and downstream sanitary system. |
-| 2 |  | $953,100 | (2) $953,100 to the City of North  Bend for essential infrastructure, including water, road construction, utility connections, storm drainage and sanitary sewer systems. |
-| 3 |  | $5,520,000 | (3) $5,520,000 to the City of Florence for infrastructure, including street development and systems for water, wastewater, stormwater and electrical. |
-| 4 |  | $11,858,300 | (4) $11,858,300  to the City of Reedsport for infrastructure, including street crossing, sanitary sewer system, water main and storm main. |
+| 1 | to the City of Coos Bay for infrastructure, including access road, culvert replacement, pump station and force main and downstream sanitary system | $14,000,000 | (1) $14,000,000 to the City of  Coos Bay for infrastructure, including access road, culvert replacement, pump station and force main and downstream sanitary system. |
+| 2 | to the City of North Bend for essential infrastructure, including water, road construction, utility connections, storm drainage and sanitary sewer systems | $953,100 | (2) $953,100 to the City of North  Bend for essential infrastructure, including water, road construction, utility connections, storm drainage and sanitary sewer systems. |
+| 3 | to the City of Florence for infrastructure, including street development and systems for water, wastewater, stormwater and electrical | $5,520,000 | (3) $5,520,000 to the City of Florence for infrastructure, including street development and systems for water, wastewater, stormwater and electrical. |
+| 4 | to the City of Reedsport for infrastructure, including street crossing, sanitary sewer system, water main and storm main | $11,858,300 | (4) $11,858,300  to the City of Reedsport for infrastructure, including street crossing, sanitary sewer system, water main and storm main. |
 
 Line items sum to **$32,331,400** — which matches NO stated appropriation in this section.
 
