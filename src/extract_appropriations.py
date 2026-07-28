@@ -359,13 +359,84 @@ def load_measures(sibling: Path, session: str) -> list[dict]:
     return out
 
 
+QUOTE_CELL = re.compile(r"^\|.*?\|\s*\$[\d,]+\s*\|(.+)\|\s*$|^\|\s*\$[\d,]+\s*\|(.+)\|\s*$")
+
+
+def check(sibling: Path) -> int:
+    """Does every quoted line still appear, verbatim, in the sibling's snapshot?
+
+    The bill text is REFERENCED, not copied, so this corpus holds no bytes it can check
+    itself against — the quotations here are only as good as their link to the sibling.
+    Without this, an extracted figure and its "verbatim source line" are just two strings
+    in a file, and a snapshot re-fetched from a revised PDF upstream would leave the
+    quotation silently describing text that no longer exists.
+
+    A MISSING SIBLING IS A LOUD SKIP, NOT A PASS. Reporting "0 failures" when nothing was
+    compared is the failure mode this platform keeps finding in its own CI.
+    """
+    docs = sorted(OUT.glob("*.md"))
+    if not docs:
+        print(f"no documents in {OUT.relative_to(ROOT)}/", file=sys.stderr)
+        return 1
+    if not (sibling / "_meta" / "snapshots").is_dir():
+        print(f"SKIPPED: no sibling checkout at {sibling}. {len(docs)} document(s) were "
+              f"NOT verified — this is not a pass. Pass --sibling <path to "
+              f"oregon-legislature>.", file=sys.stderr)
+        return 2
+
+    checked = quotes = bad = drifted = 0
+    for p in docs:
+        raw = p.read_text()
+        fm = yaml.safe_load(raw.split("---\n", 2)[1])
+        snap = sibling / "_meta" / "snapshots" / f"{fm['sibling_snapshot_id']}.txt"
+        if not snap.is_file():
+            print(f"  FAIL {p.name}: sibling snapshot {fm['sibling_snapshot_id']}.txt is gone")
+            bad += 1
+            continue
+        checked += 1
+        if hashlib.sha256(snap.read_bytes()).hexdigest() != fm.get("sibling_source_sha256"):
+            print(f"  DRIFT {p.name}: the sibling's snapshot has changed since extraction — "
+                  f"re-run the extractor; the quotations below may describe text that no "
+                  f"longer exists")
+            drifted += 1
+        # Compare on collapsed whitespace: the quote is verbatim, but markdown table cells
+        # join wrapped lines with a space, and PDF text carries runs of spaces.
+        hay = re.sub(r"\s+", " ", snap.read_text(errors="replace"))
+        for line in raw.splitlines():
+            m = QUOTE_CELL.match(line)
+            if not m:
+                continue
+            cell = (m.group(1) or m.group(2) or "").strip()
+            cell = cell.replace("\\|", "|").split(" ⚠")[0].strip()
+            if not cell:
+                continue
+            quotes += 1
+            if re.sub(r"\s+", " ", cell) not in hay:
+                print(f"  FAIL {p.name}: quoted line not found in the snapshot:\n"
+                      f"        {cell[:110]}")
+                bad += 1
+
+    print(f"\n{checked} document(s), {quotes} quoted line(s) verified against "
+          f"{sibling.name}")
+    if drifted:
+        print(f"  {drifted} document(s) reference a snapshot that has since changed")
+    print("every quotation traces to the sibling's committed bytes" if not bad
+          else f"  {bad} problem(s)")
+    return 1 if (bad or drifted) else 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--sibling", default="../oregon-legislature")
     ap.add_argument("--session", default="2025R1")
     ap.add_argument("--limit", type=int, default=0, help="stop after N bills (for a dry run)")
+    ap.add_argument("--check", action="store_true",
+                    help="re-verify every quoted line against the sibling; write nothing")
     args = ap.parse_args()
+
+    if args.check:
+        return check(Path(args.sibling).resolve())
 
     sibling = Path(args.sibling).resolve()
     if not (sibling / "measures").is_dir():
