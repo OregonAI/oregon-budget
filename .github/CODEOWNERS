@@ -1,16 +1,28 @@
 # Every PR needs a review from an owner listed here.
 #
-# IMPORTANT: replace @OregonAI/OWNER-PLACEHOLDER before the first PR. GitHub
-# SILENTLY IGNORES an owner it cannot resolve — an unknown user or a team that
-# does not exist produces no error, no warning, and no review requirement. The
-# file then looks like a review gate while enforcing nothing at all, which is
-# strictly worse than having no CODEOWNERS: you believe you are protected.
+# IMPORTANT: GitHub SILENTLY IGNORES an owner it cannot resolve — an unknown user or a
+# team that does not exist produces no error, no warning, and no review requirement. The
+# file then looks like a review gate while enforcing nothing at all, which is strictly
+# worse than having no CODEOWNERS: you believe you are protected. Use a real handle, or a
+# team that actually exists (check with: gh api orgs/OregonAI/teams).
 #
-# Use a real GitHub handle (@someone) or a team that actually exists in the org
-# (@OregonAI/team-name — check with: gh api orgs/OregonAI/teams).
-* @OregonAI/OWNER-PLACEHOLDER
+# EVERY PATH BELOW MUST EXIST. A rule pointing at a directory that is not there matches
+# nothing and falls through to `*` while appearing to be covered — the sibling corpus
+# shipped `/agencies/das/` against a tree that had no such directory, leaving nine
+# agencies unowned while the file looked complete. `codeowners-validate.yml` checks these
+# paths; keep it in step whenever a content root is added.
+* @dzinck
 
-# Narrow ownership per area as the corpus grows, e.g.
-# /_meta/    @OregonAI/OWNER-PLACEHOLDER
-# /src/      @OregonAI/OWNER-PLACEHOLDER
-# /.github/  @OregonAI/OWNER-PLACEHOLDER
+# Content roots declared in _meta/corpus.yml. `bills/` and `joins/` arrive in stages 3
+# and 4 and are deliberately NOT listed yet — a rule for a directory that does not exist
+# is the exact failure described above. Add each one with its directory.
+/expenditures/ @dzinck
+/datasets/     @dzinck
+
+# The mirrored source data. Changes here move dollar figures and deserve at least the
+# scrutiny of the documents derived from them.
+/data/         @dzinck
+
+/_meta/        @dzinck
+/src/          @dzinck
+/.github/      @dzinck

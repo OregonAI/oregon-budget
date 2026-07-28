@@ -1,0 +1,125 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-109-fy2019
+title: Aviation, Dept of — FY2019 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 109, FY2019
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 3900810723066d4651c7227ef0c74a8b9c41ff76c2e4bcebbbb6f2268e443d34
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-109-fy2020
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2019
+- agency-109
+- aviation-dept-of
+agency_code: '109'
+agency_name: AVIATION, DEPT OF
+fiscal_year: 2019
+total_expense: '6177956.37'
+transaction_count: 371
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Aviation, Dept of — FY2019 expenditures
+
+## At a glance
+
+Aviation, Dept of (agency code 109, recorded upstream as `AVIATION, DEPT OF`) spent **$6,177,956.37** in fiscal year 2019, across 371 transaction records. FY2018 is outside the range this dataset covers. The agency accounts for 0.03% of the $20,745,841,274.19 in statewide agency spending recorded for FY2019, ranking **38 of 78** agencies reporting that year.
+
+The largest budget category was **Professional Services** at $3,135,579.46 (50.8% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 4300 | Professional Services | $3,135,579.46 | 50.8% | 15 |
+| 4575 | Agency Program Related Svcs & Supp | $702,057.27 | 11.4% | 66 |
+| 6015 | Distribution To Cities | $700,668.87 | 11.3% | 14 |
+| 6020 | Distribution To Counties | $266,326.31 | 4.3% | 6 |
+| 6025 | Distribution To Other Govts | $249,686.79 | 4.0% | 6 |
+| 4600 | Intra-Inter Agency Charges | $196,913.00 | 3.2% | 1 |
+| 6030 | Distribution To Non-Governments | $123,482.83 | 2.0% | 1 |
+| 4650 | Other Services And Supplies | $96,789.18 | 1.6% | 42 |
+| 4475 | Facilities Maintenance | $87,365.61 | 1.4% | 28 |
+| 4450 | Fuels And Utilities | $75,697.47 | 1.2% | 19 |
+| 5350 | Industrial & Heavy Equipment | $69,522.50 | 1.1% | 1 |
+| 4225 | State Government Service Charges | $68,720.00 | 1.1% | 8 |
+| 4100 | Instate Travel | $52,226.00 | 0.8% | 45 |
+| 4200 | Telecomm/Tech Svc And Supplies | $48,930.30 | 0.8% | 20 |
+| 4250 | Data Processing | $47,983.83 | 0.8% | 3 |
+| 4325 | Attorney General Legal Fees | $44,107.04 | 0.7% | 1 |
+| 4175 | Office Expenses | $39,784.33 | 0.6% | 10 |
+| 4425 | Facilities Rent & Taxes | $35,307.33 | 0.6% | 8 |
+| 4315 | It Professional Services | $28,187.10 | 0.5% | 2 |
+| 4715 | It Expendable Property | $23,372.95 | 0.4% | 12 |
+| 4150 | Employee Training | $21,693.95 | 0.4% | 13 |
+| 4400 | Dues And Subscriptions | $21,090.34 | 0.3% | 8 |
+| 4125 | Out-Of-State Travel | $15,673.83 | 0.3% | 20 |
+| 5400 | Automotive & Aircraft | $12,591.40 | 0.2% | 2 |
+| 4275 | Publicity & Publications | $6,074.35 | 0.1% | 7 |
+| 4700 | Expendable Property $250-$5000 | $5,023.00 | 0.1% | 2 |
+| 6085 | Other Special Payments | $1,822.52 | 0.0% | 1 |
+| 4375 | Employee Recruitment And Development | $980.19 | 0.0% | 8 |
+| 3240 | Unemployment Assessment | $283.62 | 0.0% | 1 |
+| 3220 | Public Employes' Retirement System | $15.00 | 0.0% | 1 |
+
+## Largest expenditure classes
+
+The 12 largest of 72 expenditure classes used by this agency in FY2019.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 4500 | Professional Services Non-It | $3,135,579.46 | 50.8% |
+| 6400 | Distribution To Cities | $700,668.87 | 11.3% |
+| 4975 | Agency Program Related Services | $444,240.13 | 7.2% |
+| 6300 | Distribution To Counties | $266,326.31 | 4.3% |
+| 4976 | Agency Program Related Supplies | $255,970.02 | 4.1% |
+| 6700 | Distribution To Other Governments | $249,686.79 | 4.0% |
+| 4650 | Intra-Inter Agency Charges | $196,913.00 | 3.2% |
+| 6725 | Distribution To Non-Governments | $123,482.83 | 2.0% |
+| 4701 | Other Services | $86,603.69 | 1.4% |
+| 4850 | Facilities Maintenance | $86,397.25 | 1.4% |
+| 4825 | Fuels And Utilities | $75,697.47 | 1.2% |
+| 5450 | Industrial & Heavy Equipment>=$5K | $69,522.50 | 1.1% |
+
+## Curator notes
+
+Figures are aggregated from 371 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='109' AND fiscal_year='2019'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2019.parquet`, the file these figures were computed from.
+

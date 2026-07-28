@@ -13,15 +13,52 @@
 # Everything else below is for humans and for this repo's own ingester; the
 # toolkit ignores it. That is fine — record what your reviewers need.
 #
-# sources:
-#   - id: ""                # -> _meta/snapshots/<id>.<format>
-#     url: ""               # REQUIRED
-#     format: pdf           # html | pdf | json | xlsx | ... declare it explicitly
-#     citation: ""
-#     title: ""
-#     doc_type: ""
-#     recheck: monthly | quarterly | annual | biennial
-#     sha256: ""            # filled at first fetch
-#     why_relevant: ""
-#     references_out: []
-sources: []
+# WHY `url` POINTS AT METADATA, NOT ROWS: each entry watches the dataset's Socrata
+# metadata document (/api/views/<id>.json), not its data. Drift detection over
+# 668,906 rows would report a change on every run and tell you nothing. The
+# metadata is what actually needs watching — a column added, removed, renamed, or
+# retyped upstream is what silently breaks an ingest. Row-level staleness is caught
+# separately by `src/ingest_expenditures.py --check`, which reconciles the committed
+# mirror against a live count(*) and sum(expense).
+
+sources:
+  - id: agency-expenditures
+    url: "https://data.oregon.gov/api/views/y9g9-xsxs.json"
+    format: json
+    citation: "Oregon Open Data dataset y9g9-xsxs — Agency Expenditures, Multi-Year Report"
+    title: "Agency Expenditures – Multi-Year Report"
+    doc_type: entity_doc
+    recheck: quarterly
+    why_relevant: >
+      The spending half of the appropriation-versus-actuals question, and the only
+      dataset mirrored in full: 668,906 vendor-level rows, FY2019-FY2025, totalling
+      $199,601,500,470.97. Generates the 544 agency-year documents.
+    mirrored_to: "data/expenditures/*.parquet"
+    references_out: []
+
+  - id: budgeted-revenue
+    url: "https://data.oregon.gov/api/views/mwsa-rpk9.json"
+    format: json
+    citation: "Oregon Open Data dataset mwsa-rpk9 — Budgeted Revenue"
+    title: "Budgeted Revenue (2025-27 biennium)"
+    doc_type: entity_doc
+    recheck: quarterly
+    why_relevant: >
+      The budget side, by department and fund type, for the 2025-27 biennium.
+      Queried live at 80 rows rather than mirrored. Carries this corpus's most
+      dangerous quirk: an embedded "Totals" row that doubles any naive aggregate.
+    references_out: []
+
+  - id: lottery-expenditures
+    url: "https://data.oregon.gov/api/views/anxj-teqh.json"
+    format: json
+    citation: "Oregon Open Data dataset anxj-teqh — Lottery Expenditures, Multi-Year Report"
+    title: "Lottery Expenditures – Multi-Year Report"
+    doc_type: entity_doc
+    recheck: quarterly
+    why_relevant: >
+      Oregon State Lottery spending, FY2019-FY2025, $849,423,778.83. Kept separate
+      because the Lottery runs its own ERP: agency code 177 does not appear in the
+      agency expenditure dataset at all, so this spending is genuinely additional to
+      the statewide total rather than a duplicate of it.
+    references_out: []

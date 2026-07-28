@@ -1,0 +1,163 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-248-fy2023
+title: Military, Dept of — FY2023 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 248, FY2023
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 6400163010ab2f341831c864272a89c5e9f2a261fad3fd9572b230042f26e3d5
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-248-fy2022
+  - expenditures-248-fy2024
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2023
+- agency-248
+- military-dept-of
+agency_code: '248'
+agency_name: MILITARY, DEPT OF
+fiscal_year: 2023
+total_expense: '140507974.13'
+transaction_count: 1998
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Military, Dept of — FY2023 expenditures
+
+## At a glance
+
+Military, Dept of (agency code 248, recorded upstream as `MILITARY, DEPT OF`) spent **$140,507,974.13** in fiscal year 2023, across 1,998 transaction records. That is down 52.3% from $294,650,839.38 in FY2022. The agency accounts for 0.46% of the $30,726,070,119.27 in statewide agency spending recorded for FY2023, ranking **19 of 77** agencies reporting that year.
+
+The largest budget category was **Distribution To Non-Governments** at $31,481,895.84 (22.4% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 6030 | Distribution To Non-Governments | $31,481,895.84 | 22.4% | 35 |
+| 5900 | Other Capital Outlay | $27,460,516.84 | 19.5% | 45 |
+| 6015 | Distribution To Cities | $14,464,268.98 | 10.3% | 60 |
+| 4475 | Facilities Maintenance | $10,670,484.17 | 7.6% | 474 |
+| 6020 | Distribution To Counties | $7,934,858.90 | 5.6% | 51 |
+| 4650 | Other Services And Supplies | $7,598,455.42 | 5.4% | 257 |
+| 5700 | Buildings And Structures | $7,273,198.27 | 5.2% | 12 |
+| 4450 | Fuels And Utilities | $6,803,825.97 | 4.8% | 113 |
+| 7100 | Principal - Bonds | $3,533,165.00 | 2.5% | 1 |
+| 4225 | State Government Service Charges | $3,425,624.32 | 2.4% | 6 |
+| 6100 | Distribution To Dept Of Human Services | $2,986,712.68 | 2.1% | 1 |
+| 6443 | Dist To Oregon Health Authority | $1,982,694.96 | 1.4% | 1 |
+| 7150 | Interest - Bonds | $1,815,040.58 | 1.3% | 1 |
+| 4300 | Professional Services | $1,612,974.38 | 1.1% | 26 |
+| 6040 | Distribution To Local School Dist | $1,360,615.96 | 1.0% | 8 |
+| 4575 | Agency Program Related Svcs & Supp | $1,184,278.86 | 0.8% | 16 |
+| 4700 | Expendable Property $250-$5000 | $863,019.02 | 0.6% | 19 |
+| 4315 | It Professional Services | $638,895.44 | 0.5% | 5 |
+| 4200 | Telecomm/Tech Svc And Supplies | $563,923.18 | 0.4% | 28 |
+| 6415 | Dist To Oregon Youth Authority | $534,061.33 | 0.4% | 1 |
+| 6025 | Distribution To Other Govts | $508,026.26 | 0.4% | 15 |
+| 4425 | Lease Payments & Taxes | $413,348.21 | 0.3% | 35 |
+| 4500 | Food And Kitchen Supplies | $400,572.36 | 0.3% | 6 |
+| 4715 | It Expendable Property | $343,610.22 | 0.2% | 27 |
+| 6248 | Dist To Military Dept | $319,416.29 | 0.2% | 1 |
+| 6590 | Dist To Ohsu | $313,458.93 | 0.2% | 1 |
+| 6085 | Other Special Payments | $303,390.57 | 0.2% | 15 |
+| 5400 | Automotive & Aircraft | $275,234.69 | 0.2% | 2 |
+| 5650 | Land Improvements | $263,638.99 | 0.2% | 7 |
+| 4100 | Instate Travel | $257,274.77 | 0.2% | 341 |
+| 6048 | Special Payment To Public Universities | $241,227.59 | 0.2% | 1 |
+| 4150 | Employee Training | $200,596.42 | 0.1% | 206 |
+| 6660 | Dist To Lcdc | $198,586.50 | 0.1% | 1 |
+| 4175 | Office Expenses | $193,551.27 | 0.1% | 54 |
+| 6730 | Dist To Dept Of Transportation | $187,946.87 | 0.1% | 1 |
+| 6137 | Dist To Justice | $182,432.05 | 0.1% | 2 |
+| 3220 | Public Employes' Retirement System | $173,660.52 | 0.1% | 3 |
+| 6629 | Dist To Forestry | $173,222.36 | 0.1% | 1 |
+| 6045 | Distribution To Comm Coll Districts | $172,039.44 | 0.1% | 1 |
+| 6259 | Dist To Dept Of Public Safety Stds & Tra | $162,389.89 | 0.1% | 1 |
+| 6634 | Dist To Parks And Recreation | $133,087.50 | 0.1% | 2 |
+| 7300 | Principal - Loans | $107,176.05 | 0.1% | 1 |
+| 4525 | Medical Supplies And Services | $102,498.18 | 0.1% | 16 |
+| 4600 | Intra-Inter Agency Charges | $98,570.17 | 0.1% | 2 |
+| 5100 | Office Furniture And Fixtures | $97,864.89 | 0.1% | 1 |
+| 4325 | Attorney General Legal Fees | $82,514.36 | 0.1% | 2 |
+| 4250 | Data Processing | $81,065.27 | 0.1% | 7 |
+| 6257 | Dist To State Police | $65,946.00 | 0.0% | 1 |
+| 3240 | Unemployment Assessment | $47,151.38 | 0.0% | 1 |
+| 6340 | Dist To Deq | $38,992.34 | 0.0% | 1 |
+| 3110 | Class/Unclass Salary & Per Diem | $38,709.25 | 0.0% | 3 |
+| 4125 | Out-Of-State Travel | $30,505.61 | 0.0% | 44 |
+| 5550 | Data Processing Software | $18,572.80 | 0.0% | 2 |
+| 7350 | Interest - Loans | $16,014.97 | 0.0% | 1 |
+| 4275 | Publicity & Publications | $13,364.55 | 0.0% | 10 |
+| 3270 | Flexible Benefits | $13,260.81 | 0.0% | 1 |
+| 4400 | Dues And Subscriptions | $12,345.88 | 0.0% | 11 |
+| 6291 | Dist To Corrections | $10,753.78 | 0.0% | 1 |
+| 6632 | Dist To Geology | $9,517.98 | 0.0% | 1 |
+| 3230 | Social Security Tax | $6,176.88 | 0.0% | 1 |
+| 3190 | All Other Differential | $5,109.32 | 0.0% | 2 |
+| 3221 | Pension Bond Contribution | $4,562.91 | 0.0% | 1 |
+| 4375 | Employee Recruitment And Development | $1,460.00 | 0.0% | 1 |
+| 3260 | Mass Transit | $457.05 | 0.0% | 1 |
+| 3170 | Overtime Payments | $110.48 | 0.0% | 1 |
+| 3210 | Erb Assessment | $29.78 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | $21.64 | 0.0% | 1 |
+
+## Largest expenditure classes
+
+The 12 largest of 140 expenditure classes used by this agency in FY2023.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 6725 | Distribution To Non-Governments | $31,343,783.79 | 22.3% |
+| 5755 | Leasehold Improvements>=$5K | $26,675,321.03 | 19.0% |
+| 6400 | Distribution To Cities | $14,464,268.98 | 10.3% |
+| 4850 | Facilities Maintenance | $8,662,475.13 | 6.2% |
+| 6300 | Distribution To Counties | $7,934,858.90 | 5.6% |
+| 5805 | Buildings & Improvements>=$5K | $7,273,198.27 | 5.2% |
+| 4701 | Other Services | $7,250,969.62 | 5.2% |
+| 4825 | Fuels And Utilities | $6,803,825.97 | 4.8% |
+| 7100 | Principal-Bonds | $3,533,165.00 | 2.5% |
+| 4600 | State Government Service Charges | $3,425,624.32 | 2.4% |
+| 6082 | Distribution To Dhs Agy 100 | $2,986,712.68 | 2.1% |
+| 4851 | Facilities Supplies | $2,008,009.04 | 1.4% |
+
+## Curator notes
+
+Figures are aggregated from 1,998 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='248' AND fiscal_year='2023'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2023.parquet`, the file these figures were computed from.
+

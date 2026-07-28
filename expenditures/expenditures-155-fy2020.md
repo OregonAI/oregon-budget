@@ -1,0 +1,114 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-155-fy2020
+title: Legislative Assembly — FY2020 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 155, FY2020
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: b73d59a16a10ad7f6ae4f4b415cba8d78894a3ead0e3928fe994cc49b9b11284
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-155-fy2019
+  - expenditures-155-fy2021
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2020
+- agency-155
+- legislative-assembly
+agency_code: '155'
+agency_name: LEGISLATIVE ASSEMBLY
+fiscal_year: 2020
+total_expense: '2600571.33'
+transaction_count: 474
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Legislative Assembly — FY2020 expenditures
+
+## At a glance
+
+Legislative Assembly (agency code 155, recorded upstream as `LEGISLATIVE ASSEMBLY`) spent **$2,600,571.33** in fiscal year 2020, across 474 transaction records. That is down 14.1% from $3,026,960.45 in FY2019. The agency accounts for 0.01% of the $23,315,251,234.06 in statewide agency spending recorded for FY2020, ranking **45 of 77** agencies reporting that year.
+
+The largest budget category was **Other Services And Supplies** at $810,031.68 (31.1% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 4650 | Other Services And Supplies | $810,031.68 | 31.1% | 42 |
+| 4225 | State Government Service Charges | $669,234.30 | 25.7% | 4 |
+| 4275 | Publicity & Publications | $317,308.88 | 12.2% | 10 |
+| 4175 | Office Expenses | $309,535.81 | 11.9% | 48 |
+| 4300 | Professional Services | $102,406.94 | 3.9% | 4 |
+| 3240 | Unemployment Assessment | $97,036.10 | 3.7% | 1 |
+| 4125 | Out-Of-State Travel | $60,514.87 | 2.3% | 134 |
+| 4715 | It Expendable Property | $44,872.70 | 1.7% | 15 |
+| 4325 | Attorney General Legal Fees | $37,446.30 | 1.4% | 2 |
+| 4500 | Food And Kitchen Supplies | $32,351.68 | 1.2% | 7 |
+| 4425 | Facilities Rent & Taxes | $30,810.00 | 1.2% | 15 |
+| 4150 | Employee Training | $29,586.91 | 1.1% | 35 |
+| 4100 | Instate Travel | $21,545.91 | 0.8% | 87 |
+| 4200 | Telecomm/Tech Svc And Supplies | $13,708.41 | 0.5% | 17 |
+| 4400 | Dues And Subscriptions | $9,625.40 | 0.4% | 41 |
+| 4700 | Expendable Property $250-$5000 | $7,252.16 | 0.3% | 7 |
+| 4250 | Data Processing | $6,356.28 | 0.2% | 2 |
+| 4475 | Facilities Maintenance | $947.00 | 0.0% | 3 |
+
+## Largest expenditure classes
+
+The 12 largest of 41 expenditure classes used by this agency in FY2020.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 4701 | Other Services | $810,031.68 | 31.1% |
+| 4600 | State Government Service Charges | $669,234.30 | 25.7% |
+| 4253 | Advertise, Publicity, Publish/Print Srvs | $317,308.88 | 12.2% |
+| 4200 | Office Supplies | $181,818.59 | 7.0% |
+| 4201 | Office Services | $121,176.73 | 4.7% |
+| 4500 | Professional Services Non-It | $102,406.94 | 3.9% |
+| 3231 | Unemployment Compensation & Assessment | $97,036.10 | 3.7% |
+| 4365 | Computer Technology Pc Equipment<$5K | $40,309.18 | 1.6% |
+| 4550 | Attorney General Legal Fees | $37,446.30 | 1.4% |
+| 4150 | Out-Of-State Lodging | $35,288.46 | 1.4% |
+| 4875 | Food And Kitchen Supplies | $32,351.68 | 1.2% |
+| 4800 | Facilities Rent | $30,810.00 | 1.2% |
+
+## Curator notes
+
+Figures are aggregated from 474 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='155' AND fiscal_year='2020'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2020.parquet`, the file these figures were computed from.
+

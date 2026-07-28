@@ -1,0 +1,114 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: expenditures-628-fy2025
+title: Forest Resources Inst, OR — FY2025 expenditures
+doc_type: dataset_doc
+citation: Oregon Agency Expenditures, agency 628, FY2025
+issuing_body: Oregon Department of Administrative Services
+source_url: https://data.oregon.gov/d/y9g9-xsxs
+source_format: soda
+retrieved: '2026-07-28'
+source_sha256: 5e9f0c30287913ac0bfff8d74a1225d0c2816ca6a307f2141ebb35602c5a91ed
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
+  Abbreviations are not expanded. Figures are aggregated, not extracted text.
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related:
+  - expenditures-628-fy2024
+  - agency-expenditures
+  supersedes: []
+tags:
+- oregon-budget
+- expenditures
+- fy2025
+- agency-628
+- forest-resources-inst-or
+agency_code: '628'
+agency_name: FOREST RESOURCES INST, OR
+fiscal_year: 2025
+total_expense: '2458561.03'
+transaction_count: 221
+---
+
+> **NON-AUTHORITATIVE — AI-friendly reference only.** These are aggregates derived
+> from a state dataset, not the official text of any budget or audit. Figures
+> are as mirrored on 2026-07-28; the live dataset may have been revised since.
+> Verify against the official source: `https://data.oregon.gov/d/y9g9-xsxs`
+
+# Forest Resources Inst, OR — FY2025 expenditures
+
+## At a glance
+
+Forest Resources Inst, OR (agency code 628, recorded upstream as `FOREST RESOURCES INST, OR`) spent **$2,458,561.03** in fiscal year 2025, across 221 transaction records. That is down 0.9% from $2,480,760.35 in FY2024. The agency accounts for 0.01% of the $35,121,392,355.76 in statewide agency spending recorded for FY2025, ranking **52 of 80** agencies reporting that year.
+
+The largest budget category was **Professional Services** at $961,979.03 (39.1% of the agency's total).
+
+## Spending by budget class
+
+| Code | Budget class | Amount | Share | Records |
+|---|---|---:|---:|---:|
+| 4300 | Professional Services | $961,979.03 | 39.1% | 20 |
+| 4275 | Publicity & Publications | $802,281.35 | 32.6% | 15 |
+| 4575 | Agency Program Related Svcs & Supp | $358,794.55 | 14.6% | 82 |
+| 4425 | Lease Payments & Taxes | $136,273.44 | 5.5% | 5 |
+| 4315 | It Professional Services | $51,450.50 | 2.1% | 3 |
+| 4100 | Instate Travel | $37,688.43 | 1.5% | 47 |
+| 4175 | Office Expenses | $28,935.31 | 1.2% | 11 |
+| 4715 | It Expendable Property | $26,777.72 | 1.1% | 6 |
+| 4200 | Telecomm/Tech Svc And Supplies | $12,953.35 | 0.5% | 2 |
+| 4125 | Out-Of-State Travel | $11,025.78 | 0.4% | 17 |
+| 4325 | Attorney General Legal Fees | $9,814.20 | 0.4% | 1 |
+| 4400 | Dues And Subscriptions | $8,909.19 | 0.4% | 2 |
+| 4225 | State Government Service Charges | $6,145.46 | 0.2% | 3 |
+| 3110 | Class/Unclass Salary & Per Diem | $2,185.75 | 0.1% | 1 |
+| 3220 | Public Employes' Retirement System | $1,360.29 | 0.1% | 1 |
+| 4650 | Other Services And Supplies | $1,212.63 | 0.0% | 1 |
+| 4500 | Food And Kitchen Supplies | $486.57 | 0.0% | 1 |
+| 4150 | Employee Training | $182.48 | 0.0% | 2 |
+| 4375 | Employee Recruitment And Development | $105.00 | 0.0% | 1 |
+
+## Largest expenditure classes
+
+The 12 largest of 41 expenditure classes used by this agency in FY2025.
+
+| Code | Expenditure class | Amount | Share |
+|---|---|---:|---:|
+| 4505 | Professional Services Non-It>$75K | $886,821.48 | 36.1% |
+| 4253 | Advertise, Publicity, Publish/Print Srvs | $802,281.35 | 32.6% |
+| 4975 | Agency Program Related Services | $301,922.83 | 12.3% |
+| 4800 | Interagency Lease Payments | $136,273.44 | 5.5% |
+| 4500 | Professional Services Non-It | $75,157.55 | 3.1% |
+| 4516 | Professional Services Servers | $51,450.50 | 2.1% |
+| 4206 | Catering Services | $45,947.98 | 1.9% |
+| 4366 | Computer Technology Pc Software<$5K | $14,541.34 | 0.6% |
+| 4976 | Agency Program Related Supplies | $10,923.74 | 0.4% |
+| 4201 | Office Services | $9,967.24 | 0.4% |
+| 4106 | Instate Lodging | $9,944.13 | 0.4% |
+| 4550 | Attorney General Legal Fees | $9,814.20 | 0.4% |
+
+## Curator notes
+
+Figures are aggregated from 221 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+
+Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
+
+## Verification
+
+Every figure above is reproducible from the live API. The agency total:
+
+```
+https://data.oregon.gov/resource/y9g9-xsxs.json?$select=sum(expense)&$where=agency='628' AND fiscal_year='2025'
+```
+
+`src/build_documents.py --check` re-derives every number in this document from the committed Parquet mirror, and `src/ingest_expenditures.py --check` reconciles that mirror against the live API. Both run in CI. The recorded `source_sha256` is the hash of `expenditures-2025.parquet`, the file these figures were computed from.
+
