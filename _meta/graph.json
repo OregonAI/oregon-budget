@@ -1,8 +1,8 @@
 {
  "corpus": "oregon-budget",
- "n_nodes": 1513,
- "n_edges": 3479,
- "n_edges_external": 966,
+ "n_nodes": 1705,
+ "n_edges": 3804,
+ "n_edges_external": 1158,
  "nodes": [
   {
    "id": "expenditures-100-fy2019",
@@ -3269,10 +3269,22 @@
    "path": "expenditures/expenditures-999-fy2019.md"
   },
   {
+   "id": "appropriations-2017r1-hb2026",
+   "title": "Appropriations in 2017 Regular Session House Bill 2026",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb2026.md"
+  },
+  {
    "id": "appropriations-2017r1-hb2043",
    "title": "Appropriations in 2017 Regular Session House Bill 2043",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2017r1-hb2043.md"
+  },
+  {
+   "id": "appropriations-2017r1-hb2185",
+   "title": "Appropriations in 2017 Regular Session House Bill 2185",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb2185.md"
   },
   {
    "id": "appropriations-2017r1-hb2408",
@@ -3287,6 +3299,12 @@
    "path": "bills/appropriations-2017r1-hb2496.md"
   },
   {
+   "id": "appropriations-2017r1-hb2528",
+   "title": "Appropriations in 2017 Regular Session House Bill 2528",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb2528.md"
+  },
+  {
    "id": "appropriations-2017r1-hb2531",
    "title": "Appropriations in 2017 Regular Session House Bill 2531",
    "doc_type": "dataset_doc",
@@ -3297,6 +3315,24 @@
    "title": "Appropriations in 2017 Regular Session House Bill 2547",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2017r1-hb2547.md"
+  },
+  {
+   "id": "appropriations-2017r1-hb2655",
+   "title": "Appropriations in 2017 Regular Session House Bill 2655",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb2655.md"
+  },
+  {
+   "id": "appropriations-2017r1-hb2707",
+   "title": "Appropriations in 2017 Regular Session House Bill 2707",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb2707.md"
+  },
+  {
+   "id": "appropriations-2017r1-hb2725",
+   "title": "Appropriations in 2017 Regular Session House Bill 2725",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb2725.md"
   },
   {
    "id": "appropriations-2017r1-hb2741",
@@ -3329,6 +3365,12 @@
    "path": "bills/appropriations-2017r1-hb2954.md"
   },
   {
+   "id": "appropriations-2017r1-hb2959",
+   "title": "Appropriations in 2017 Regular Session House Bill 2959",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb2959.md"
+  },
+  {
    "id": "appropriations-2017r1-hb2984",
    "title": "Appropriations in 2017 Regular Session House Bill 2984",
    "doc_type": "dataset_doc",
@@ -3347,16 +3389,34 @@
    "path": "bills/appropriations-2017r1-hb3151.md"
   },
   {
+   "id": "appropriations-2017r1-hb3182",
+   "title": "Appropriations in 2017 Regular Session House Bill 3182",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb3182.md"
+  },
+  {
    "id": "appropriations-2017r1-hb3230",
    "title": "Appropriations in 2017 Regular Session House Bill 3230",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2017r1-hb3230.md"
   },
   {
+   "id": "appropriations-2017r1-hb3235",
+   "title": "Appropriations in 2017 Regular Session House Bill 3235",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb3235.md"
+  },
+  {
    "id": "appropriations-2017r1-hb3249",
    "title": "Appropriations in 2017 Regular Session House Bill 3249",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2017r1-hb3249.md"
+  },
+  {
+   "id": "appropriations-2017r1-hb3373",
+   "title": "Appropriations in 2017 Regular Session House Bill 3373",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb3373.md"
   },
   {
    "id": "appropriations-2017r1-hb3433",
@@ -3521,6 +3581,54 @@
    "path": "bills/appropriations-2017r1-hb5044.md"
   },
   {
+   "id": "appropriations-2017r1-hb5046",
+   "title": "Appropriations in 2017 Regular Session House Bill 5046",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb5046.md"
+  },
+  {
+   "id": "appropriations-2017r1-hb5047",
+   "title": "Appropriations in 2017 Regular Session House Bill 5047",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb5047.md"
+  },
+  {
+   "id": "appropriations-2017r1-hb5048",
+   "title": "Appropriations in 2017 Regular Session House Bill 5048",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb5048.md"
+  },
+  {
+   "id": "appropriations-2017r1-hb5049",
+   "title": "Appropriations in 2017 Regular Session House Bill 5049",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb5049.md"
+  },
+  {
+   "id": "appropriations-2017r1-hb5050",
+   "title": "Appropriations in 2017 Regular Session House Bill 5050",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb5050.md"
+  },
+  {
+   "id": "appropriations-2017r1-hb5051",
+   "title": "Appropriations in 2017 Regular Session House Bill 5051",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb5051.md"
+  },
+  {
+   "id": "appropriations-2017r1-hb5052",
+   "title": "Appropriations in 2017 Regular Session House Bill 5052",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-hb5052.md"
+  },
+  {
+   "id": "appropriations-2017r1-sb1029",
+   "title": "Appropriations in 2017 Regular Session Senate Bill 1029",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-sb1029.md"
+  },
+  {
    "id": "appropriations-2017r1-sb1064",
    "title": "Appropriations in 2017 Regular Session Senate Bill 1064",
    "doc_type": "dataset_doc",
@@ -3537,6 +3645,18 @@
    "title": "Appropriations in 2017 Regular Session Senate Bill 141",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2017r1-sb141.md"
+  },
+  {
+   "id": "appropriations-2017r1-sb242",
+   "title": "Appropriations in 2017 Regular Session Senate Bill 242",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-sb242.md"
+  },
+  {
+   "id": "appropriations-2017r1-sb280",
+   "title": "Appropriations in 2017 Regular Session Senate Bill 280",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-sb280.md"
   },
   {
    "id": "appropriations-2017r1-sb281",
@@ -3701,6 +3821,48 @@
    "path": "bills/appropriations-2017r1-sb5542.md"
   },
   {
+   "id": "appropriations-2017r1-sb5546",
+   "title": "Appropriations in 2017 Regular Session Senate Bill 5546",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-sb5546.md"
+  },
+  {
+   "id": "appropriations-2017r1-sb5547",
+   "title": "Appropriations in 2017 Regular Session Senate Bill 5547",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-sb5547.md"
+  },
+  {
+   "id": "appropriations-2017r1-sb5548",
+   "title": "Appropriations in 2017 Regular Session Senate Bill 5548",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-sb5548.md"
+  },
+  {
+   "id": "appropriations-2017r1-sb5549",
+   "title": "Appropriations in 2017 Regular Session Senate Bill 5549",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-sb5549.md"
+  },
+  {
+   "id": "appropriations-2017r1-sb5550",
+   "title": "Appropriations in 2017 Regular Session Senate Bill 5550",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-sb5550.md"
+  },
+  {
+   "id": "appropriations-2017r1-sb5551",
+   "title": "Appropriations in 2017 Regular Session Senate Bill 5551",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-sb5551.md"
+  },
+  {
+   "id": "appropriations-2017r1-sb5552",
+   "title": "Appropriations in 2017 Regular Session Senate Bill 5552",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-sb5552.md"
+  },
+  {
    "id": "appropriations-2017r1-sb610",
    "title": "Appropriations in 2017 Regular Session Senate Bill 610",
    "doc_type": "dataset_doc",
@@ -3743,6 +3905,18 @@
    "path": "bills/appropriations-2017r1-sb674.md"
   },
   {
+   "id": "appropriations-2017r1-sb692",
+   "title": "Appropriations in 2017 Regular Session Senate Bill 692",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-sb692.md"
+  },
+  {
+   "id": "appropriations-2017r1-sb771",
+   "title": "Appropriations in 2017 Regular Session Senate Bill 771",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2017r1-sb771.md"
+  },
+  {
    "id": "appropriations-2017r1-sb805",
    "title": "Appropriations in 2017 Regular Session Senate Bill 805",
    "doc_type": "dataset_doc",
@@ -3773,16 +3947,46 @@
    "path": "bills/appropriations-2019r1-hb2006.md"
   },
   {
+   "id": "appropriations-2019r1-hb2212",
+   "title": "Appropriations in 2019 Regular Session House Bill 2212",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-hb2212.md"
+  },
+  {
+   "id": "appropriations-2019r1-hb2214",
+   "title": "Appropriations in 2019 Regular Session House Bill 2214",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-hb2214.md"
+  },
+  {
+   "id": "appropriations-2019r1-hb2229",
+   "title": "Appropriations in 2019 Regular Session House Bill 2229",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-hb2229.md"
+  },
+  {
    "id": "appropriations-2019r1-hb2302",
    "title": "Appropriations in 2019 Regular Session House Bill 2302",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2019r1-hb2302.md"
   },
   {
+   "id": "appropriations-2019r1-hb2350",
+   "title": "Appropriations in 2019 Regular Session House Bill 2350",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-hb2350.md"
+  },
+  {
    "id": "appropriations-2019r1-hb2365",
    "title": "Appropriations in 2019 Regular Session House Bill 2365",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2019r1-hb2365.md"
+  },
+  {
+   "id": "appropriations-2019r1-hb2376",
+   "title": "Appropriations in 2019 Regular Session House Bill 2376",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-hb2376.md"
   },
   {
    "id": "appropriations-2019r1-hb2383",
@@ -3887,6 +4091,12 @@
    "path": "bills/appropriations-2019r1-hb2934.md"
   },
   {
+   "id": "appropriations-2019r1-hb2945",
+   "title": "Appropriations in 2019 Regular Session House Bill 2945",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-hb2945.md"
+  },
+  {
    "id": "appropriations-2019r1-hb2963",
    "title": "Appropriations in 2019 Regular Session House Bill 2963",
    "doc_type": "dataset_doc",
@@ -3899,10 +4109,28 @@
    "path": "bills/appropriations-2019r1-hb2979.md"
   },
   {
+   "id": "appropriations-2019r1-hb3016",
+   "title": "Appropriations in 2019 Regular Session House Bill 3016",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-hb3016.md"
+  },
+  {
+   "id": "appropriations-2019r1-hb3082",
+   "title": "Appropriations in 2019 Regular Session House Bill 3082",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-hb3082.md"
+  },
+  {
    "id": "appropriations-2019r1-hb3170",
    "title": "Appropriations in 2019 Regular Session House Bill 3170",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2019r1-hb3170.md"
+  },
+  {
+   "id": "appropriations-2019r1-hb3243",
+   "title": "Appropriations in 2019 Regular Session House Bill 3243",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-hb3243.md"
   },
   {
    "id": "appropriations-2019r1-hb3326",
@@ -4049,10 +4277,52 @@
    "path": "bills/appropriations-2019r1-hb5047.md"
   },
   {
+   "id": "appropriations-2019r1-hb5049",
+   "title": "Appropriations in 2019 Regular Session House Bill 5049",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-hb5049.md"
+  },
+  {
    "id": "appropriations-2019r1-hb5050",
    "title": "Appropriations in 2019 Regular Session House Bill 5050",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2019r1-hb5050.md"
+  },
+  {
+   "id": "appropriations-2019r1-hb5051",
+   "title": "Appropriations in 2019 Regular Session House Bill 5051",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-hb5051.md"
+  },
+  {
+   "id": "appropriations-2019r1-hb5052",
+   "title": "Appropriations in 2019 Regular Session House Bill 5052",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-hb5052.md"
+  },
+  {
+   "id": "appropriations-2019r1-hb5053",
+   "title": "Appropriations in 2019 Regular Session House Bill 5053",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-hb5053.md"
+  },
+  {
+   "id": "appropriations-2019r1-hb5054",
+   "title": "Appropriations in 2019 Regular Session House Bill 5054",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-hb5054.md"
+  },
+  {
+   "id": "appropriations-2019r1-hb5055",
+   "title": "Appropriations in 2019 Regular Session House Bill 5055",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-hb5055.md"
+  },
+  {
+   "id": "appropriations-2019r1-sb1028",
+   "title": "Appropriations in 2019 Regular Session Senate Bill 1028",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-sb1028.md"
   },
   {
    "id": "appropriations-2019r1-sb1031",
@@ -4185,6 +4455,12 @@
    "title": "Appropriations in 2019 Regular Session Senate Bill 5504",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2019r1-sb5504.md"
+  },
+  {
+   "id": "appropriations-2019r1-sb5505",
+   "title": "Appropriations in 2019 Regular Session Senate Bill 5505",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-sb5505.md"
   },
   {
    "id": "appropriations-2019r1-sb5506",
@@ -4331,6 +4607,42 @@
    "path": "bills/appropriations-2019r1-sb5545.md"
   },
   {
+   "id": "appropriations-2019r1-sb5546",
+   "title": "Appropriations in 2019 Regular Session Senate Bill 5546",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-sb5546.md"
+  },
+  {
+   "id": "appropriations-2019r1-sb5547",
+   "title": "Appropriations in 2019 Regular Session Senate Bill 5547",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-sb5547.md"
+  },
+  {
+   "id": "appropriations-2019r1-sb5548",
+   "title": "Appropriations in 2019 Regular Session Senate Bill 5548",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-sb5548.md"
+  },
+  {
+   "id": "appropriations-2019r1-sb5549",
+   "title": "Appropriations in 2019 Regular Session Senate Bill 5549",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-sb5549.md"
+  },
+  {
+   "id": "appropriations-2019r1-sb5550",
+   "title": "Appropriations in 2019 Regular Session Senate Bill 5550",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-sb5550.md"
+  },
+  {
+   "id": "appropriations-2019r1-sb5551",
+   "title": "Appropriations in 2019 Regular Session Senate Bill 5551",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-sb5551.md"
+  },
+  {
    "id": "appropriations-2019r1-sb651",
    "title": "Appropriations in 2019 Regular Session Senate Bill 651",
    "doc_type": "dataset_doc",
@@ -4353,6 +4665,12 @@
    "title": "Appropriations in 2019 Regular Session Senate Bill 710",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2019r1-sb710.md"
+  },
+  {
+   "id": "appropriations-2019r1-sb722",
+   "title": "Appropriations in 2019 Regular Session Senate Bill 722",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2019r1-sb722.md"
   },
   {
    "id": "appropriations-2019r1-sb739",
@@ -4451,6 +4769,12 @@
    "path": "bills/appropriations-2020r1-sb1554.md"
   },
   {
+   "id": "appropriations-2020s1-hb5211",
+   "title": "Appropriations in 2020 1st Special Session House Bill 5211",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2020s1-hb5211.md"
+  },
+  {
    "id": "appropriations-2020s1-sb5711",
    "title": "Appropriations in 2020 1st Special Session Senate Bill 5711",
    "doc_type": "dataset_doc",
@@ -4475,10 +4799,22 @@
    "path": "bills/appropriations-2021r1-hb2004.md"
   },
   {
+   "id": "appropriations-2021r1-hb2230",
+   "title": "Appropriations in 2021 Regular Session House Bill 2230",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-hb2230.md"
+  },
+  {
    "id": "appropriations-2021r1-hb2257",
    "title": "Appropriations in 2021 Regular Session House Bill 2257",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2021r1-hb2257.md"
+  },
+  {
+   "id": "appropriations-2021r1-hb2271",
+   "title": "Appropriations in 2021 Regular Session House Bill 2271",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-hb2271.md"
   },
   {
    "id": "appropriations-2021r1-hb2340",
@@ -4491,6 +4827,12 @@
    "title": "Appropriations in 2021 Regular Session House Bill 2412",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2021r1-hb2412.md"
+  },
+  {
+   "id": "appropriations-2021r1-hb2608",
+   "title": "Appropriations in 2021 Regular Session House Bill 2608",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-hb2608.md"
   },
   {
    "id": "appropriations-2021r1-hb2661",
@@ -4571,6 +4913,12 @@
    "path": "bills/appropriations-2021r1-hb2833.md"
   },
   {
+   "id": "appropriations-2021r1-hb2892",
+   "title": "Appropriations in 2021 Regular Session House Bill 2892",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-hb2892.md"
+  },
+  {
    "id": "appropriations-2021r1-hb2900",
    "title": "Appropriations in 2021 Regular Session House Bill 2900",
    "doc_type": "dataset_doc",
@@ -4581,6 +4929,18 @@
    "title": "Appropriations in 2021 Regular Session House Bill 2907",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2021r1-hb2907.md"
+  },
+  {
+   "id": "appropriations-2021r1-hb2952",
+   "title": "Appropriations in 2021 Regular Session House Bill 2952",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-hb2952.md"
+  },
+  {
+   "id": "appropriations-2021r1-hb2977",
+   "title": "Appropriations in 2021 Regular Session House Bill 2977",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-hb2977.md"
   },
   {
    "id": "appropriations-2021r1-hb3090",
@@ -4611,6 +4971,12 @@
    "title": "Appropriations in 2021 Regular Session House Bill 3276",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2021r1-hb3276.md"
+  },
+  {
+   "id": "appropriations-2021r1-hb3281",
+   "title": "Appropriations in 2021 Regular Session House Bill 3281",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-hb3281.md"
   },
   {
    "id": "appropriations-2021r1-hb3287",
@@ -4799,6 +5165,48 @@
    "path": "bills/appropriations-2021r1-hb5042.md"
   },
   {
+   "id": "appropriations-2021r1-hb5044",
+   "title": "Appropriations in 2021 Regular Session House Bill 5044",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-hb5044.md"
+  },
+  {
+   "id": "appropriations-2021r1-hb5045",
+   "title": "Appropriations in 2021 Regular Session House Bill 5045",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-hb5045.md"
+  },
+  {
+   "id": "appropriations-2021r1-hb5046",
+   "title": "Appropriations in 2021 Regular Session House Bill 5046",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-hb5046.md"
+  },
+  {
+   "id": "appropriations-2021r1-hb5047",
+   "title": "Appropriations in 2021 Regular Session House Bill 5047",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-hb5047.md"
+  },
+  {
+   "id": "appropriations-2021r1-hb5048",
+   "title": "Appropriations in 2021 Regular Session House Bill 5048",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-hb5048.md"
+  },
+  {
+   "id": "appropriations-2021r1-hb5049",
+   "title": "Appropriations in 2021 Regular Session House Bill 5049",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-hb5049.md"
+  },
+  {
+   "id": "appropriations-2021r1-sb207",
+   "title": "Appropriations in 2021 Regular Session Senate Bill 207",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-sb207.md"
+  },
+  {
    "id": "appropriations-2021r1-sb227",
    "title": "Appropriations in 2021 Regular Session Senate Bill 227",
    "doc_type": "dataset_doc",
@@ -4955,6 +5363,54 @@
    "path": "bills/appropriations-2021r1-sb5545.md"
   },
   {
+   "id": "appropriations-2021r1-sb5548",
+   "title": "Appropriations in 2021 Regular Session Senate Bill 5548",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-sb5548.md"
+  },
+  {
+   "id": "appropriations-2021r1-sb5549",
+   "title": "Appropriations in 2021 Regular Session Senate Bill 5549",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-sb5549.md"
+  },
+  {
+   "id": "appropriations-2021r1-sb5550",
+   "title": "Appropriations in 2021 Regular Session Senate Bill 5550",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-sb5550.md"
+  },
+  {
+   "id": "appropriations-2021r1-sb5551",
+   "title": "Appropriations in 2021 Regular Session Senate Bill 5551",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-sb5551.md"
+  },
+  {
+   "id": "appropriations-2021r1-sb5552",
+   "title": "Appropriations in 2021 Regular Session Senate Bill 5552",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-sb5552.md"
+  },
+  {
+   "id": "appropriations-2021r1-sb5553",
+   "title": "Appropriations in 2021 Regular Session Senate Bill 5553",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-sb5553.md"
+  },
+  {
+   "id": "appropriations-2021r1-sb5554",
+   "title": "Appropriations in 2021 Regular Session Senate Bill 5554",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-sb5554.md"
+  },
+  {
+   "id": "appropriations-2021r1-sb5555",
+   "title": "Appropriations in 2021 Regular Session Senate Bill 5555",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2021r1-sb5555.md"
+  },
+  {
    "id": "appropriations-2021r1-sb642",
    "title": "Appropriations in 2021 Regular Session Senate Bill 642",
    "doc_type": "dataset_doc",
@@ -4983,6 +5439,12 @@
    "title": "Appropriations in 2021 2nd Special Session Senate Bill 5561",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2021s2-sb5561.md"
+  },
+  {
+   "id": "appropriations-2022r1-hb4036",
+   "title": "Appropriations in 2022 Regular Session House Bill 4036",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2022r1-hb4036.md"
   },
   {
    "id": "appropriations-2022r1-hb4040",
@@ -5069,6 +5531,12 @@
    "path": "bills/appropriations-2023r1-hb2194.md"
   },
   {
+   "id": "appropriations-2023r1-hb2306",
+   "title": "Appropriations in 2023 Regular Session House Bill 2306",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb2306.md"
+  },
+  {
    "id": "appropriations-2023r1-hb2391",
    "title": "Appropriations in 2023 Regular Session House Bill 2391",
    "doc_type": "dataset_doc",
@@ -5093,6 +5561,12 @@
    "path": "bills/appropriations-2023r1-hb2459.md"
   },
   {
+   "id": "appropriations-2023r1-hb2464",
+   "title": "Appropriations in 2023 Regular Session House Bill 2464",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb2464.md"
+  },
+  {
    "id": "appropriations-2023r1-hb2474",
    "title": "Appropriations in 2023 Regular Session House Bill 2474",
    "doc_type": "dataset_doc",
@@ -5111,10 +5585,22 @@
    "path": "bills/appropriations-2023r1-hb2532.md"
   },
   {
+   "id": "appropriations-2023r1-hb2544",
+   "title": "Appropriations in 2023 Regular Session House Bill 2544",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb2544.md"
+  },
+  {
    "id": "appropriations-2023r1-hb2588",
    "title": "Appropriations in 2023 Regular Session House Bill 2588",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2023r1-hb2588.md"
+  },
+  {
+   "id": "appropriations-2023r1-hb2608",
+   "title": "Appropriations in 2023 Regular Session House Bill 2608",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb2608.md"
   },
   {
    "id": "appropriations-2023r1-hb2613",
@@ -5145,6 +5631,24 @@
    "title": "Appropriations in 2023 Regular Session House Bill 2732",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2023r1-hb2732.md"
+  },
+  {
+   "id": "appropriations-2023r1-hb2743",
+   "title": "Appropriations in 2023 Regular Session House Bill 2743",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb2743.md"
+  },
+  {
+   "id": "appropriations-2023r1-hb2799",
+   "title": "Appropriations in 2023 Regular Session House Bill 2799",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb2799.md"
+  },
+  {
+   "id": "appropriations-2023r1-hb2858",
+   "title": "Appropriations in 2023 Regular Session House Bill 2858",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb2858.md"
   },
   {
    "id": "appropriations-2023r1-hb2891",
@@ -5213,10 +5717,28 @@
    "path": "bills/appropriations-2023r1-hb3000.md"
   },
   {
+   "id": "appropriations-2023r1-hb3034",
+   "title": "Appropriations in 2023 Regular Session House Bill 3034",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb3034.md"
+  },
+  {
    "id": "appropriations-2023r1-hb3045",
    "title": "Appropriations in 2023 Regular Session House Bill 3045",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2023r1-hb3045.md"
+  },
+  {
+   "id": "appropriations-2023r1-hb3113",
+   "title": "Appropriations in 2023 Regular Session House Bill 3113",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb3113.md"
+  },
+  {
+   "id": "appropriations-2023r1-hb3130",
+   "title": "Appropriations in 2023 Regular Session House Bill 3130",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb3130.md"
   },
   {
    "id": "appropriations-2023r1-hb3138",
@@ -5237,10 +5759,22 @@
    "path": "bills/appropriations-2023r1-hb3185.md"
   },
   {
+   "id": "appropriations-2023r1-hb3189",
+   "title": "Appropriations in 2023 Regular Session House Bill 3189",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb3189.md"
+  },
+  {
    "id": "appropriations-2023r1-hb3222",
    "title": "Appropriations in 2023 Regular Session House Bill 3222",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2023r1-hb3222.md"
+  },
+  {
+   "id": "appropriations-2023r1-hb3247",
+   "title": "Appropriations in 2023 Regular Session House Bill 3247",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb3247.md"
   },
   {
    "id": "appropriations-2023r1-hb3255",
@@ -5307,6 +5841,12 @@
    "title": "Appropriations in 2023 Regular Session House Bill 3516",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2023r1-hb3516.md"
+  },
+  {
+   "id": "appropriations-2023r1-hb3547",
+   "title": "Appropriations in 2023 Regular Session House Bill 3547",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb3547.md"
   },
   {
    "id": "appropriations-2023r1-hb3613",
@@ -5483,6 +6023,36 @@
    "path": "bills/appropriations-2023r1-hb5049.md"
   },
   {
+   "id": "appropriations-2023r1-hb5050",
+   "title": "Appropriations in 2023 Regular Session House Bill 5050",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb5050.md"
+  },
+  {
+   "id": "appropriations-2023r1-hb5051",
+   "title": "Appropriations in 2023 Regular Session House Bill 5051",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb5051.md"
+  },
+  {
+   "id": "appropriations-2023r1-hb5052",
+   "title": "Appropriations in 2023 Regular Session House Bill 5052",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb5052.md"
+  },
+  {
+   "id": "appropriations-2023r1-hb5053",
+   "title": "Appropriations in 2023 Regular Session House Bill 5053",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-hb5053.md"
+  },
+  {
+   "id": "appropriations-2023r1-sb1003",
+   "title": "Appropriations in 2023 Regular Session Senate Bill 1003",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-sb1003.md"
+  },
+  {
    "id": "appropriations-2023r1-sb1006",
    "title": "Appropriations in 2023 Regular Session Senate Bill 1006",
    "doc_type": "dataset_doc",
@@ -5493,6 +6063,12 @@
    "title": "Appropriations in 2023 Regular Session Senate Bill 200",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2023r1-sb200.md"
+  },
+  {
+   "id": "appropriations-2023r1-sb281",
+   "title": "Appropriations in 2023 Regular Session Senate Bill 281",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-sb281.md"
   },
   {
    "id": "appropriations-2023r1-sb419",
@@ -5687,10 +6263,46 @@
    "path": "bills/appropriations-2023r1-sb5541.md"
   },
   {
+   "id": "appropriations-2023r1-sb5547",
+   "title": "Appropriations in 2023 Regular Session Senate Bill 5547",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-sb5547.md"
+  },
+  {
+   "id": "appropriations-2023r1-sb5548",
+   "title": "Appropriations in 2023 Regular Session Senate Bill 5548",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-sb5548.md"
+  },
+  {
+   "id": "appropriations-2023r1-sb5549",
+   "title": "Appropriations in 2023 Regular Session Senate Bill 5549",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-sb5549.md"
+  },
+  {
+   "id": "appropriations-2023r1-sb5550",
+   "title": "Appropriations in 2023 Regular Session Senate Bill 5550",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-sb5550.md"
+  },
+  {
+   "id": "appropriations-2023r1-sb5551",
+   "title": "Appropriations in 2023 Regular Session Senate Bill 5551",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-sb5551.md"
+  },
+  {
    "id": "appropriations-2023r1-sb564",
    "title": "Appropriations in 2023 Regular Session Senate Bill 564",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2023r1-sb564.md"
+  },
+  {
+   "id": "appropriations-2023r1-sb590",
+   "title": "Appropriations in 2023 Regular Session Senate Bill 590",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-sb590.md"
   },
   {
    "id": "appropriations-2023r1-sb600",
@@ -5703,6 +6315,12 @@
    "title": "Appropriations in 2023 Regular Session Senate Bill 612",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2023r1-sb612.md"
+  },
+  {
+   "id": "appropriations-2023r1-sb621",
+   "title": "Appropriations in 2023 Regular Session Senate Bill 621",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-sb621.md"
   },
   {
    "id": "appropriations-2023r1-sb627",
@@ -5727,6 +6345,12 @@
    "title": "Appropriations in 2023 Regular Session Senate Bill 680",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2023r1-sb680.md"
+  },
+  {
+   "id": "appropriations-2023r1-sb696",
+   "title": "Appropriations in 2023 Regular Session Senate Bill 696",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-sb696.md"
   },
   {
    "id": "appropriations-2023r1-sb753",
@@ -5783,6 +6407,12 @@
    "path": "bills/appropriations-2023r1-sb899.md"
   },
   {
+   "id": "appropriations-2023r1-sb924",
+   "title": "Appropriations in 2023 Regular Session Senate Bill 924",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-sb924.md"
+  },
+  {
    "id": "appropriations-2023r1-sb948",
    "title": "Appropriations in 2023 Regular Session Senate Bill 948",
    "doc_type": "dataset_doc",
@@ -5793,6 +6423,12 @@
    "title": "Appropriations in 2023 Regular Session Senate Bill 955",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2023r1-sb955.md"
+  },
+  {
+   "id": "appropriations-2023r1-sb982",
+   "title": "Appropriations in 2023 Regular Session Senate Bill 982",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2023r1-sb982.md"
   },
   {
    "id": "appropriations-2023r1-sb983",
@@ -5921,6 +6557,12 @@
    "path": "bills/appropriations-2025r1-hb2043.md"
   },
   {
+   "id": "appropriations-2025r1-hb2164",
+   "title": "Appropriations in 2025 Regular Session House Bill 2164",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2164.md"
+  },
+  {
    "id": "appropriations-2025r1-hb2165",
    "title": "Appropriations in 2025 Regular Session House Bill 2165",
    "doc_type": "dataset_doc",
@@ -5943,6 +6585,12 @@
    "title": "Appropriations in 2025 Regular Session House Bill 2401",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2025r1-hb2401.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2405",
+   "title": "Appropriations in 2025 Regular Session House Bill 2405",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2405.md"
   },
   {
    "id": "appropriations-2025r1-hb2408",
@@ -5993,16 +6641,34 @@
    "path": "bills/appropriations-2025r1-hb2589.md"
   },
   {
+   "id": "appropriations-2025r1-hb2673",
+   "title": "Appropriations in 2025 Regular Session House Bill 2673",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2673.md"
+  },
+  {
    "id": "appropriations-2025r1-hb2675",
    "title": "Appropriations in 2025 Regular Session House Bill 2675",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2025r1-hb2675.md"
   },
   {
+   "id": "appropriations-2025r1-hb2681",
+   "title": "Appropriations in 2025 Regular Session House Bill 2681",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2681.md"
+  },
+  {
    "id": "appropriations-2025r1-hb2749",
    "title": "Appropriations in 2025 Regular Session House Bill 2749",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2025r1-hb2749.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb2767",
+   "title": "Appropriations in 2025 Regular Session House Bill 2767",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2767.md"
   },
   {
    "id": "appropriations-2025r1-hb2772",
@@ -6029,6 +6695,12 @@
    "path": "bills/appropriations-2025r1-hb2865.md"
   },
   {
+   "id": "appropriations-2025r1-hb2954",
+   "title": "Appropriations in 2025 Regular Session House Bill 2954",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb2954.md"
+  },
+  {
    "id": "appropriations-2025r1-hb2976",
    "title": "Appropriations in 2025 Regular Session House Bill 2976",
    "doc_type": "dataset_doc",
@@ -6053,6 +6725,24 @@
    "path": "bills/appropriations-2025r1-hb2991.md"
   },
   {
+   "id": "appropriations-2025r1-hb3001",
+   "title": "Appropriations in 2025 Regular Session House Bill 3001",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3001.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3006",
+   "title": "Appropriations in 2025 Regular Session House Bill 3006",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3006.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3008",
+   "title": "Appropriations in 2025 Regular Session House Bill 3008",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3008.md"
+  },
+  {
    "id": "appropriations-2025r1-hb3011",
    "title": "Appropriations in 2025 Regular Session House Bill 3011",
    "doc_type": "dataset_doc",
@@ -6069,6 +6759,12 @@
    "title": "Appropriations in 2025 Regular Session House Bill 3070",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2025r1-hb3070.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3109",
+   "title": "Appropriations in 2025 Regular Session House Bill 3109",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3109.md"
   },
   {
    "id": "appropriations-2025r1-hb3116",
@@ -6125,6 +6821,30 @@
    "path": "bills/appropriations-2025r1-hb3192.md"
   },
   {
+   "id": "appropriations-2025r1-hb3196",
+   "title": "Appropriations in 2025 Regular Session House Bill 3196",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3196.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3219",
+   "title": "Appropriations in 2025 Regular Session House Bill 3219",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3219.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3239",
+   "title": "Appropriations in 2025 Regular Session House Bill 3239",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3239.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3273",
+   "title": "Appropriations in 2025 Regular Session House Bill 3273",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3273.md"
+  },
+  {
    "id": "appropriations-2025r1-hb3295",
    "title": "Appropriations in 2025 Regular Session House Bill 3295",
    "doc_type": "dataset_doc",
@@ -6141,6 +6861,12 @@
    "title": "Appropriations in 2025 Regular Session House Bill 3341",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2025r1-hb3341.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3350",
+   "title": "Appropriations in 2025 Regular Session House Bill 3350",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3350.md"
   },
   {
    "id": "appropriations-2025r1-hb3356",
@@ -6197,6 +6923,12 @@
    "path": "bills/appropriations-2025r1-hb3568.md"
   },
   {
+   "id": "appropriations-2025r1-hb3570",
+   "title": "Appropriations in 2025 Regular Session House Bill 3570",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3570.md"
+  },
+  {
    "id": "appropriations-2025r1-hb3571",
    "title": "Appropriations in 2025 Regular Session House Bill 3571",
    "doc_type": "dataset_doc",
@@ -6233,6 +6965,18 @@
    "path": "bills/appropriations-2025r1-hb3618.md"
   },
   {
+   "id": "appropriations-2025r1-hb3714",
+   "title": "Appropriations in 2025 Regular Session House Bill 3714",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3714.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3717",
+   "title": "Appropriations in 2025 Regular Session House Bill 3717",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3717.md"
+  },
+  {
    "id": "appropriations-2025r1-hb3732",
    "title": "Appropriations in 2025 Regular Session House Bill 3732",
    "doc_type": "dataset_doc",
@@ -6267,6 +7011,12 @@
    "title": "Appropriations in 2025 Regular Session House Bill 3837",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2025r1-hb3837.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb3842",
+   "title": "Appropriations in 2025 Regular Session House Bill 3842",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb3842.md"
   },
   {
    "id": "appropriations-2025r1-hb3870",
@@ -6461,10 +7211,34 @@
    "path": "bills/appropriations-2025r1-hb5041.md"
   },
   {
+   "id": "appropriations-2025r1-hb5044",
+   "title": "Appropriations in 2025 Regular Session House Bill 5044",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5044.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5045",
+   "title": "Appropriations in 2025 Regular Session House Bill 5045",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5045.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5046",
+   "title": "Appropriations in 2025 Regular Session House Bill 5046",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5046.md"
+  },
+  {
    "id": "appropriations-2025r1-hb5047",
    "title": "Appropriations in 2025 Regular Session House Bill 5047",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2025r1-hb5047.md"
+  },
+  {
+   "id": "appropriations-2025r1-hb5048",
+   "title": "Appropriations in 2025 Regular Session House Bill 5048",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-hb5048.md"
   },
   {
    "id": "appropriations-2025r1-sb1000",
@@ -6515,6 +7289,12 @@
    "path": "bills/appropriations-2025r1-sb1183.md"
   },
   {
+   "id": "appropriations-2025r1-sb1184",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 1184",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb1184.md"
+  },
+  {
    "id": "appropriations-2025r1-sb1207",
    "title": "Appropriations in 2025 Regular Session Senate Bill 1207",
    "doc_type": "dataset_doc",
@@ -6531,6 +7311,12 @@
    "title": "Appropriations in 2025 Regular Session Senate Bill 231",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2025r1-sb231.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb297",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 297",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb297.md"
   },
   {
    "id": "appropriations-2025r1-sb336",
@@ -6581,6 +7367,12 @@
    "path": "bills/appropriations-2025r1-sb420.md"
   },
   {
+   "id": "appropriations-2025r1-sb424",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 424",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb424.md"
+  },
+  {
    "id": "appropriations-2025r1-sb443",
    "title": "Appropriations in 2025 Regular Session Senate Bill 443",
    "doc_type": "dataset_doc",
@@ -6621,6 +7413,24 @@
    "title": "Appropriations in 2025 Regular Session Senate Bill 515",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2025r1-sb515.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb516",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 516",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb516.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb520",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 520",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb520.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb528",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 528",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb528.md"
   },
   {
    "id": "appropriations-2025r1-sb5501",
@@ -6761,10 +7571,40 @@
    "path": "bills/appropriations-2025r1-sb5543.md"
   },
   {
+   "id": "appropriations-2025r1-sb5548",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5548",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5548.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5549",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5549",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5549.md"
+  },
+  {
    "id": "appropriations-2025r1-sb5550",
    "title": "Appropriations in 2025 Regular Session Senate Bill 5550",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2025r1-sb5550.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5551",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5551",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5551.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5552",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5552",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5552.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb5553",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 5553",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb5553.md"
   },
   {
    "id": "appropriations-2025r1-sb576",
@@ -6795,6 +7635,12 @@
    "title": "Appropriations in 2025 Regular Session Senate Bill 779",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2025r1-sb779.md"
+  },
+  {
+   "id": "appropriations-2025r1-sb850",
+   "title": "Appropriations in 2025 Regular Session Senate Bill 850",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2025r1-sb850.md"
   },
   {
    "id": "appropriations-2025r1-sb923",
@@ -6845,6 +7691,18 @@
    "path": "bills/appropriations-2026r1-hb4117.md"
   },
   {
+   "id": "appropriations-2026r1-hb5201",
+   "title": "Appropriations in 2026 Regular Session House Bill 5201",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2026r1-hb5201.md"
+  },
+  {
+   "id": "appropriations-2026r1-hb5202",
+   "title": "Appropriations in 2026 Regular Session House Bill 5202",
+   "doc_type": "dataset_doc",
+   "path": "bills/appropriations-2026r1-hb5202.md"
+  },
+  {
    "id": "appropriations-2026r1-hb5204",
    "title": "Appropriations in 2026 Regular Session House Bill 5204",
    "doc_type": "dataset_doc",
@@ -6869,10 +7727,22 @@
    "path": "datasets/lottery-expenditures.md"
   },
   {
+   "id": "join-2017r1-hb2026-agency-137",
+   "title": "2017 Regular Session House Bill 2026 → agency 137 spending, FY2019–FY2019",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2017r1-hb2026-agency-137.md"
+  },
+  {
    "id": "join-2017r1-hb2043-agency-603",
    "title": "2017 Regular Session House Bill 2043 → agency 603 spending, FY2019–FY2019",
    "doc_type": "dataset_doc",
    "path": "joins/join-2017r1-hb2043-agency-603.md"
+  },
+  {
+   "id": "join-2017r1-hb2185-agency-525",
+   "title": "2017 Regular Session House Bill 2185 → agency 525 spending, FY2019–FY2019",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2017r1-hb2185-agency-525.md"
   },
   {
    "id": "join-2017r1-hb2408-agency-443",
@@ -6887,10 +7757,34 @@
    "path": "joins/join-2017r1-hb2496-agency-107.md"
   },
   {
+   "id": "join-2017r1-hb2528-agency-581",
+   "title": "2017 Regular Session House Bill 2528 → agency 581 spending, FY2019–FY2019",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2017r1-hb2528-agency-581.md"
+  },
+  {
    "id": "join-2017r1-hb2547-agency-100",
    "title": "2017 Regular Session House Bill 2547 → agency 100 spending, FY2019–FY2019",
    "doc_type": "dataset_doc",
    "path": "joins/join-2017r1-hb2547-agency-100.md"
+  },
+  {
+   "id": "join-2017r1-hb2655-agency-100",
+   "title": "2017 Regular Session House Bill 2655 → agency 100 spending, FY2019–FY2019",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2017r1-hb2655-agency-100.md"
+  },
+  {
+   "id": "join-2017r1-hb2707-agency-690",
+   "title": "2017 Regular Session House Bill 2707 → agency 690 spending, FY2019–FY2019",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2017r1-hb2707-agency-690.md"
+  },
+  {
+   "id": "join-2017r1-hb2725-agency-340",
+   "title": "2017 Regular Session House Bill 2725 → agency 340 spending, FY2019–FY2019",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2017r1-hb2725-agency-340.md"
   },
   {
    "id": "join-2017r1-hb2741-agency-914",
@@ -6923,10 +7817,22 @@
    "path": "joins/join-2017r1-hb2954-agency-107.md"
   },
   {
+   "id": "join-2017r1-hb2959-agency-100",
+   "title": "2017 Regular Session House Bill 2959 → agency 100 spending, FY2019–FY2019",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2017r1-hb2959-agency-100.md"
+  },
+  {
    "id": "join-2017r1-hb2984-agency-691",
    "title": "2017 Regular Session House Bill 2984 → agency 691 spending, FY2019–FY2019",
    "doc_type": "dataset_doc",
    "path": "joins/join-2017r1-hb2984-agency-691.md"
+  },
+  {
+   "id": "join-2017r1-hb3182-agency-730",
+   "title": "2017 Regular Session House Bill 3182 → agency 730 spending, FY2019–FY2019",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2017r1-hb3182-agency-730.md"
   },
   {
    "id": "join-2017r1-hb3230-agency-730",
@@ -6935,10 +7841,22 @@
    "path": "joins/join-2017r1-hb3230-agency-730.md"
   },
   {
+   "id": "join-2017r1-hb3235-agency-603",
+   "title": "2017 Regular Session House Bill 3235 → agency 603 spending, FY2019–FY2019",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2017r1-hb3235-agency-603.md"
+  },
+  {
    "id": "join-2017r1-hb3249-agency-691",
    "title": "2017 Regular Session House Bill 3249 → agency 691 spending, FY2019–FY2019",
    "doc_type": "dataset_doc",
    "path": "joins/join-2017r1-hb3249-agency-691.md"
+  },
+  {
+   "id": "join-2017r1-hb3373-agency-914",
+   "title": "2017 Regular Session House Bill 3373 → agency 914 spending, FY2019–FY2019",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2017r1-hb3373-agency-914.md"
   },
   {
    "id": "join-2017r1-hb3433-agency-107",
@@ -7073,6 +7991,12 @@
    "path": "joins/join-2017r1-hb5042-agency-415.md"
   },
   {
+   "id": "join-2017r1-sb1029-agency-443",
+   "title": "2017 Regular Session Senate Bill 1029 → agency 443 spending, FY2019–FY2019",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2017r1-sb1029-agency-443.md"
+  },
+  {
    "id": "join-2017r1-sb1064-agency-107",
    "title": "2017 Regular Session Senate Bill 1064 → agency 107 spending, FY2019–FY2019",
    "doc_type": "dataset_doc",
@@ -7089,6 +8013,18 @@
    "title": "2017 Regular Session Senate Bill 141 → agency 581 spending, FY2019–FY2019",
    "doc_type": "dataset_doc",
    "path": "joins/join-2017r1-sb141-agency-581.md"
+  },
+  {
+   "id": "join-2017r1-sb242-agency-107",
+   "title": "2017 Regular Session Senate Bill 242 → agency 107 spending, FY2019–FY2019",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2017r1-sb242-agency-107.md"
+  },
+  {
+   "id": "join-2017r1-sb280-agency-581",
+   "title": "2017 Regular Session Senate Bill 280 → agency 581 spending, FY2019–FY2019",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2017r1-sb280-agency-581.md"
   },
   {
    "id": "join-2017r1-sb283-agency-107",
@@ -7247,6 +8183,12 @@
    "path": "joins/join-2017r1-sb674-agency-525.md"
   },
   {
+   "id": "join-2017r1-sb771-agency-690",
+   "title": "2017 Regular Session Senate Bill 771 → agency 690 spending, FY2019–FY2019",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2017r1-sb771-agency-690.md"
+  },
+  {
    "id": "join-2017r1-sb805-agency-525",
    "title": "2017 Regular Session Senate Bill 805 → agency 525 spending, FY2019–FY2019",
    "doc_type": "dataset_doc",
@@ -7277,10 +8219,40 @@
    "path": "joins/join-2019r1-hb2006-agency-914.md"
   },
   {
+   "id": "join-2019r1-hb2212-agency-107",
+   "title": "2019 Regular Session House Bill 2212 → agency 107 spending, FY2020–FY2021",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2019r1-hb2212-agency-107.md"
+  },
+  {
+   "id": "join-2019r1-hb2214-agency-525",
+   "title": "2019 Regular Session House Bill 2214 → agency 525 spending, FY2020–FY2021",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2019r1-hb2214-agency-525.md"
+  },
+  {
+   "id": "join-2019r1-hb2229-agency-581",
+   "title": "2019 Regular Session House Bill 2229 → agency 581 spending, FY2020–FY2021",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2019r1-hb2229-agency-581.md"
+  },
+  {
    "id": "join-2019r1-hb2302-agency-100",
    "title": "2019 Regular Session House Bill 2302 → agency 100 spending, FY2020–FY2021",
    "doc_type": "dataset_doc",
    "path": "joins/join-2019r1-hb2302-agency-100.md"
+  },
+  {
+   "id": "join-2019r1-hb2350-agency-914",
+   "title": "2019 Regular Session House Bill 2350 → agency 914 spending, FY2020–FY2021",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2019r1-hb2350-agency-914.md"
+  },
+  {
+   "id": "join-2019r1-hb2376-agency-634",
+   "title": "2019 Regular Session House Bill 2376 → agency 634 spending, FY2020–FY2021",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2019r1-hb2376-agency-634.md"
   },
   {
    "id": "join-2019r1-hb2383-agency-150",
@@ -7385,6 +8357,12 @@
    "path": "joins/join-2019r1-hb2934-agency-123.md"
   },
   {
+   "id": "join-2019r1-hb2945-agency-443",
+   "title": "2019 Regular Session House Bill 2945 → agency 443 spending, FY2020–FY2021",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2019r1-hb2945-agency-443.md"
+  },
+  {
    "id": "join-2019r1-hb2963-agency-100",
    "title": "2019 Regular Session House Bill 2963 → agency 100 spending, FY2020–FY2021",
    "doc_type": "dataset_doc",
@@ -7397,10 +8375,28 @@
    "path": "joins/join-2019r1-hb2979-agency-107.md"
   },
   {
+   "id": "join-2019r1-hb3016-agency-635",
+   "title": "2019 Regular Session House Bill 3016 → agency 635 spending, FY2020–FY2021",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2019r1-hb3016-agency-635.md"
+  },
+  {
+   "id": "join-2019r1-hb3082-agency-603",
+   "title": "2019 Regular Session House Bill 3082 → agency 603 spending, FY2020–FY2021",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2019r1-hb3082-agency-603.md"
+  },
+  {
    "id": "join-2019r1-hb3170-agency-443",
    "title": "2019 Regular Session House Bill 3170 → agency 443 spending, FY2020–FY2021",
    "doc_type": "dataset_doc",
    "path": "joins/join-2019r1-hb3170-agency-443.md"
+  },
+  {
+   "id": "join-2019r1-hb3243-agency-634",
+   "title": "2019 Regular Session House Bill 3243 → agency 634 spending, FY2020–FY2021",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2019r1-hb3243-agency-634.md"
   },
   {
    "id": "join-2019r1-hb3326-agency-340",
@@ -7515,6 +8511,12 @@
    "title": "2019 Regular Session House Bill 5047 → agency 581 spending, FY2020–FY2021",
    "doc_type": "dataset_doc",
    "path": "joins/join-2019r1-hb5047-agency-581.md"
+  },
+  {
+   "id": "join-2019r1-sb1028-agency-257",
+   "title": "2019 Regular Session Senate Bill 1028 → agency 257 spending, FY2020–FY2021",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2019r1-sb1028-agency-257.md"
   },
   {
    "id": "join-2019r1-sb1031-agency-340",
@@ -7877,10 +8879,22 @@
    "path": "joins/join-2021r1-hb2004-agency-107.md"
   },
   {
+   "id": "join-2021r1-hb2230-agency-114",
+   "title": "2021 Regular Session House Bill 2230 → agency 114 spending, FY2022–FY2023",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2021r1-hb2230-agency-114.md"
+  },
+  {
    "id": "join-2021r1-hb2257-agency-690",
    "title": "2021 Regular Session House Bill 2257 → agency 690 spending, FY2022–FY2023",
    "doc_type": "dataset_doc",
    "path": "joins/join-2021r1-hb2257-agency-690.md"
+  },
+  {
+   "id": "join-2021r1-hb2271-agency-137",
+   "title": "2021 Regular Session House Bill 2271 → agency 137 spending, FY2022–FY2023",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2021r1-hb2271-agency-137.md"
   },
   {
    "id": "join-2021r1-hb2340-agency-100",
@@ -7893,6 +8907,12 @@
    "title": "2021 Regular Session House Bill 2412 → agency 525 spending, FY2022–FY2023",
    "doc_type": "dataset_doc",
    "path": "joins/join-2021r1-hb2412-agency-525.md"
+  },
+  {
+   "id": "join-2021r1-hb2608-agency-581",
+   "title": "2021 Regular Session House Bill 2608 → agency 581 spending, FY2022–FY2023",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2021r1-hb2608-agency-581.md"
   },
   {
    "id": "join-2021r1-hb2661-agency-635",
@@ -7949,6 +8969,12 @@
    "path": "joins/join-2021r1-hb2833-agency-100.md"
   },
   {
+   "id": "join-2021r1-hb2892-agency-257",
+   "title": "2021 Regular Session House Bill 2892 → agency 257 spending, FY2022–FY2023",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2021r1-hb2892-agency-257.md"
+  },
+  {
    "id": "join-2021r1-hb2900-agency-839",
    "title": "2021 Regular Session House Bill 2900 → agency 839 spending, FY2022–FY2023",
    "doc_type": "dataset_doc",
@@ -7959,6 +8985,18 @@
    "title": "2021 Regular Session House Bill 2907 → agency 525 spending, FY2022–FY2023",
    "doc_type": "dataset_doc",
    "path": "joins/join-2021r1-hb2907-agency-525.md"
+  },
+  {
+   "id": "join-2021r1-hb2952-agency-100",
+   "title": "2021 Regular Session House Bill 2952 → agency 100 spending, FY2022–FY2023",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2021r1-hb2952-agency-100.md"
+  },
+  {
+   "id": "join-2021r1-hb2977-agency-443",
+   "title": "2021 Regular Session House Bill 2977 → agency 443 spending, FY2022–FY2023",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2021r1-hb2977-agency-443.md"
   },
   {
    "id": "join-2021r1-hb3090-agency-340",
@@ -8369,6 +9407,12 @@
    "path": "joins/join-2023r1-hb2194-agency-603.md"
   },
   {
+   "id": "join-2023r1-hb2306-agency-257",
+   "title": "2023 Regular Session House Bill 2306 → agency 257 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-hb2306-agency-257.md"
+  },
+  {
    "id": "join-2023r1-hb2391-agency-107",
    "title": "2023 Regular Session House Bill 2391 → agency 107 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
@@ -8393,6 +9437,12 @@
    "path": "joins/join-2023r1-hb2459-agency-123.md"
   },
   {
+   "id": "join-2023r1-hb2464-agency-443",
+   "title": "2023 Regular Session House Bill 2464 → agency 443 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-hb2464-agency-443.md"
+  },
+  {
    "id": "join-2023r1-hb2485-agency-525",
    "title": "2023 Regular Session House Bill 2485 → agency 525 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
@@ -8403,6 +9453,18 @@
    "title": "2023 Regular Session House Bill 2532 → agency 635 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
    "path": "joins/join-2023r1-hb2532-agency-635.md"
+  },
+  {
+   "id": "join-2023r1-hb2544-agency-443",
+   "title": "2023 Regular Session House Bill 2544 → agency 443 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-hb2544-agency-443.md"
+  },
+  {
+   "id": "join-2023r1-hb2608-agency-443",
+   "title": "2023 Regular Session House Bill 2608 → agency 443 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-hb2608-agency-443.md"
   },
   {
    "id": "join-2023r1-hb2613-agency-340",
@@ -8427,6 +9489,18 @@
    "title": "2023 Regular Session House Bill 2732 → agency 137 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
    "path": "joins/join-2023r1-hb2732-agency-137.md"
+  },
+  {
+   "id": "join-2023r1-hb2743-agency-443",
+   "title": "2023 Regular Session House Bill 2743 → agency 443 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-hb2743-agency-443.md"
+  },
+  {
+   "id": "join-2023r1-hb2799-agency-730",
+   "title": "2023 Regular Session House Bill 2799 → agency 730 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-hb2799-agency-730.md"
   },
   {
    "id": "join-2023r1-hb2907-agency-603",
@@ -8483,10 +9557,28 @@
    "path": "joins/join-2023r1-hb3000-agency-730.md"
   },
   {
+   "id": "join-2023r1-hb3034-agency-730",
+   "title": "2023 Regular Session House Bill 3034 → agency 730 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-hb3034-agency-730.md"
+  },
+  {
    "id": "join-2023r1-hb3045-agency-107",
    "title": "2023 Regular Session House Bill 3045 → agency 107 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
    "path": "joins/join-2023r1-hb3045-agency-107.md"
+  },
+  {
+   "id": "join-2023r1-hb3113-agency-730",
+   "title": "2023 Regular Session House Bill 3113 → agency 730 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-hb3113-agency-730.md"
+  },
+  {
+   "id": "join-2023r1-hb3130-agency-690",
+   "title": "2023 Regular Session House Bill 3130 → agency 690 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-hb3130-agency-690.md"
   },
   {
    "id": "join-2023r1-hb3138-agency-107",
@@ -8507,10 +9599,22 @@
    "path": "joins/join-2023r1-hb3185-agency-107.md"
   },
   {
+   "id": "join-2023r1-hb3189-agency-603",
+   "title": "2023 Regular Session House Bill 3189 → agency 603 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-hb3189-agency-603.md"
+  },
+  {
    "id": "join-2023r1-hb3222-agency-107",
    "title": "2023 Regular Session House Bill 3222 → agency 107 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
    "path": "joins/join-2023r1-hb3222-agency-107.md"
+  },
+  {
+   "id": "join-2023r1-hb3247-agency-525",
+   "title": "2023 Regular Session House Bill 3247 → agency 525 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-hb3247-agency-525.md"
   },
   {
    "id": "join-2023r1-hb3255-agency-525",
@@ -8571,6 +9675,12 @@
    "title": "2023 Regular Session House Bill 3516 → agency 730 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
    "path": "joins/join-2023r1-hb3516-agency-730.md"
+  },
+  {
+   "id": "join-2023r1-hb3547-agency-100",
+   "title": "2023 Regular Session House Bill 3547 → agency 100 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-hb3547-agency-100.md"
   },
   {
    "id": "join-2023r1-hb3613-agency-730",
@@ -8699,6 +9809,12 @@
    "path": "joins/join-2023r1-hb5049-agency-471.md"
   },
   {
+   "id": "join-2023r1-sb1003-agency-107",
+   "title": "2023 Regular Session Senate Bill 1003 → agency 107 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-sb1003-agency-107.md"
+  },
+  {
    "id": "join-2023r1-sb1006-agency-107",
    "title": "2023 Regular Session Senate Bill 1006 → agency 107 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
@@ -8709,6 +9825,12 @@
    "title": "2023 Regular Session Senate Bill 200 → agency 107 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
    "path": "joins/join-2023r1-sb200-agency-107.md"
+  },
+  {
+   "id": "join-2023r1-sb281-agency-581",
+   "title": "2023 Regular Session Senate Bill 281 → agency 581 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-sb281-agency-581.md"
   },
   {
    "id": "join-2023r1-sb419-agency-100",
@@ -8885,6 +10007,12 @@
    "path": "joins/join-2023r1-sb564-agency-443.md"
   },
   {
+   "id": "join-2023r1-sb590-agency-137",
+   "title": "2023 Regular Session Senate Bill 590 → agency 137 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-sb590-agency-137.md"
+  },
+  {
    "id": "join-2023r1-sb600-agency-525",
    "title": "2023 Regular Session Senate Bill 600 → agency 525 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
@@ -8895,6 +10023,12 @@
    "title": "2023 Regular Session Senate Bill 612 → agency 107 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
    "path": "joins/join-2023r1-sb612-agency-107.md"
+  },
+  {
+   "id": "join-2023r1-sb621-agency-443",
+   "title": "2023 Regular Session Senate Bill 621 → agency 443 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-sb621-agency-443.md"
   },
   {
    "id": "join-2023r1-sb627-agency-107",
@@ -8913,6 +10047,12 @@
    "title": "2023 Regular Session Senate Bill 680 → agency 107 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
    "path": "joins/join-2023r1-sb680-agency-107.md"
+  },
+  {
+   "id": "join-2023r1-sb696-agency-137",
+   "title": "2023 Regular Session Senate Bill 696 → agency 137 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-sb696-agency-137.md"
   },
   {
    "id": "join-2023r1-sb815-agency-107",
@@ -8967,6 +10107,12 @@
    "title": "2023 Regular Session Senate Bill 955 → agency 525 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
    "path": "joins/join-2023r1-sb955-agency-525.md"
+  },
+  {
+   "id": "join-2023r1-sb982-agency-443",
+   "title": "2023 Regular Session Senate Bill 982 → agency 443 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-sb982-agency-443.md"
   },
   {
    "id": "join-2023r1-sb983-agency-581",
@@ -9063,6 +10209,12 @@
    "title": "2025 Regular Session House Bill 2018 → agency 123 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
    "path": "joins/join-2025r1-hb2018-agency-123.md"
+  },
+  {
+   "id": "join-2025r1-hb3570-agency-123",
+   "title": "2025 Regular Session House Bill 3570 → agency 123 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2025r1-hb3570-agency-123.md"
   },
   {
    "id": "join-2025r1-hb3837-agency-123",
@@ -16425,9 +17577,19 @@
    "to": "agency-expenditures"
   },
   {
+   "from": "appropriations-2017r1-hb2026",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 2026"
+  },
+  {
    "from": "appropriations-2017r1-hb2043",
    "type": "references_external",
    "to": "2017 Regular Session House Bill 2043"
+  },
+  {
+   "from": "appropriations-2017r1-hb2185",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 2185"
   },
   {
    "from": "appropriations-2017r1-hb2408",
@@ -16440,6 +17602,11 @@
    "to": "2017 Regular Session House Bill 2496"
   },
   {
+   "from": "appropriations-2017r1-hb2528",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 2528"
+  },
+  {
    "from": "appropriations-2017r1-hb2531",
    "type": "references_external",
    "to": "2017 Regular Session House Bill 2531"
@@ -16448,6 +17615,21 @@
    "from": "appropriations-2017r1-hb2547",
    "type": "references_external",
    "to": "2017 Regular Session House Bill 2547"
+  },
+  {
+   "from": "appropriations-2017r1-hb2655",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 2655"
+  },
+  {
+   "from": "appropriations-2017r1-hb2707",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 2707"
+  },
+  {
+   "from": "appropriations-2017r1-hb2725",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 2725"
   },
   {
    "from": "appropriations-2017r1-hb2741",
@@ -16475,6 +17657,11 @@
    "to": "2017 Regular Session House Bill 2954"
   },
   {
+   "from": "appropriations-2017r1-hb2959",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 2959"
+  },
+  {
    "from": "appropriations-2017r1-hb2984",
    "type": "references_external",
    "to": "2017 Regular Session House Bill 2984"
@@ -16490,14 +17677,29 @@
    "to": "2017 Regular Session House Bill 3151"
   },
   {
+   "from": "appropriations-2017r1-hb3182",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 3182"
+  },
+  {
    "from": "appropriations-2017r1-hb3230",
    "type": "references_external",
    "to": "2017 Regular Session House Bill 3230"
   },
   {
+   "from": "appropriations-2017r1-hb3235",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 3235"
+  },
+  {
    "from": "appropriations-2017r1-hb3249",
    "type": "references_external",
    "to": "2017 Regular Session House Bill 3249"
+  },
+  {
+   "from": "appropriations-2017r1-hb3373",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 3373"
   },
   {
    "from": "appropriations-2017r1-hb3433",
@@ -16635,6 +17837,46 @@
    "to": "2017 Regular Session House Bill 5044"
   },
   {
+   "from": "appropriations-2017r1-hb5046",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 5046"
+  },
+  {
+   "from": "appropriations-2017r1-hb5047",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 5047"
+  },
+  {
+   "from": "appropriations-2017r1-hb5048",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 5048"
+  },
+  {
+   "from": "appropriations-2017r1-hb5049",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 5049"
+  },
+  {
+   "from": "appropriations-2017r1-hb5050",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 5050"
+  },
+  {
+   "from": "appropriations-2017r1-hb5051",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 5051"
+  },
+  {
+   "from": "appropriations-2017r1-hb5052",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 5052"
+  },
+  {
+   "from": "appropriations-2017r1-sb1029",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 1029"
+  },
+  {
    "from": "appropriations-2017r1-sb1064",
    "type": "references_external",
    "to": "2017 Regular Session Senate Bill 1064"
@@ -16648,6 +17890,16 @@
    "from": "appropriations-2017r1-sb141",
    "type": "references_external",
    "to": "2017 Regular Session Senate Bill 141"
+  },
+  {
+   "from": "appropriations-2017r1-sb242",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 242"
+  },
+  {
+   "from": "appropriations-2017r1-sb280",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 280"
   },
   {
    "from": "appropriations-2017r1-sb281",
@@ -16785,6 +18037,41 @@
    "to": "2017 Regular Session Senate Bill 5542"
   },
   {
+   "from": "appropriations-2017r1-sb5546",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 5546"
+  },
+  {
+   "from": "appropriations-2017r1-sb5547",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 5547"
+  },
+  {
+   "from": "appropriations-2017r1-sb5548",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 5548"
+  },
+  {
+   "from": "appropriations-2017r1-sb5549",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 5549"
+  },
+  {
+   "from": "appropriations-2017r1-sb5550",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 5550"
+  },
+  {
+   "from": "appropriations-2017r1-sb5551",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 5551"
+  },
+  {
+   "from": "appropriations-2017r1-sb5552",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 5552"
+  },
+  {
    "from": "appropriations-2017r1-sb610",
    "type": "references_external",
    "to": "2017 Regular Session Senate Bill 610"
@@ -16820,6 +18107,16 @@
    "to": "2017 Regular Session Senate Bill 674"
   },
   {
+   "from": "appropriations-2017r1-sb692",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 692"
+  },
+  {
+   "from": "appropriations-2017r1-sb771",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 771"
+  },
+  {
    "from": "appropriations-2017r1-sb805",
    "type": "references_external",
    "to": "2017 Regular Session Senate Bill 805"
@@ -16845,14 +18142,39 @@
    "to": "2019 Regular Session House Bill 2006"
   },
   {
+   "from": "appropriations-2019r1-hb2212",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 2212"
+  },
+  {
+   "from": "appropriations-2019r1-hb2214",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 2214"
+  },
+  {
+   "from": "appropriations-2019r1-hb2229",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 2229"
+  },
+  {
    "from": "appropriations-2019r1-hb2302",
    "type": "references_external",
    "to": "2019 Regular Session House Bill 2302"
   },
   {
+   "from": "appropriations-2019r1-hb2350",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 2350"
+  },
+  {
    "from": "appropriations-2019r1-hb2365",
    "type": "references_external",
    "to": "2019 Regular Session House Bill 2365"
+  },
+  {
+   "from": "appropriations-2019r1-hb2376",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 2376"
   },
   {
    "from": "appropriations-2019r1-hb2383",
@@ -16940,6 +18262,11 @@
    "to": "2019 Regular Session House Bill 2934"
   },
   {
+   "from": "appropriations-2019r1-hb2945",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 2945"
+  },
+  {
    "from": "appropriations-2019r1-hb2963",
    "type": "references_external",
    "to": "2019 Regular Session House Bill 2963"
@@ -16950,9 +18277,24 @@
    "to": "2019 Regular Session House Bill 2979"
   },
   {
+   "from": "appropriations-2019r1-hb3016",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 3016"
+  },
+  {
+   "from": "appropriations-2019r1-hb3082",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 3082"
+  },
+  {
    "from": "appropriations-2019r1-hb3170",
    "type": "references_external",
    "to": "2019 Regular Session House Bill 3170"
+  },
+  {
+   "from": "appropriations-2019r1-hb3243",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 3243"
   },
   {
    "from": "appropriations-2019r1-hb3326",
@@ -17075,9 +18417,44 @@
    "to": "2019 Regular Session House Bill 5047"
   },
   {
+   "from": "appropriations-2019r1-hb5049",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 5049"
+  },
+  {
    "from": "appropriations-2019r1-hb5050",
    "type": "references_external",
    "to": "2019 Regular Session House Bill 5050"
+  },
+  {
+   "from": "appropriations-2019r1-hb5051",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 5051"
+  },
+  {
+   "from": "appropriations-2019r1-hb5052",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 5052"
+  },
+  {
+   "from": "appropriations-2019r1-hb5053",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 5053"
+  },
+  {
+   "from": "appropriations-2019r1-hb5054",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 5054"
+  },
+  {
+   "from": "appropriations-2019r1-hb5055",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 5055"
+  },
+  {
+   "from": "appropriations-2019r1-sb1028",
+   "type": "references_external",
+   "to": "2019 Regular Session Senate Bill 1028"
   },
   {
    "from": "appropriations-2019r1-sb1031",
@@ -17188,6 +18565,11 @@
    "from": "appropriations-2019r1-sb5504",
    "type": "references_external",
    "to": "2019 Regular Session Senate Bill 5504"
+  },
+  {
+   "from": "appropriations-2019r1-sb5505",
+   "type": "references_external",
+   "to": "2019 Regular Session Senate Bill 5505"
   },
   {
    "from": "appropriations-2019r1-sb5506",
@@ -17310,6 +18692,36 @@
    "to": "2019 Regular Session Senate Bill 5545"
   },
   {
+   "from": "appropriations-2019r1-sb5546",
+   "type": "references_external",
+   "to": "2019 Regular Session Senate Bill 5546"
+  },
+  {
+   "from": "appropriations-2019r1-sb5547",
+   "type": "references_external",
+   "to": "2019 Regular Session Senate Bill 5547"
+  },
+  {
+   "from": "appropriations-2019r1-sb5548",
+   "type": "references_external",
+   "to": "2019 Regular Session Senate Bill 5548"
+  },
+  {
+   "from": "appropriations-2019r1-sb5549",
+   "type": "references_external",
+   "to": "2019 Regular Session Senate Bill 5549"
+  },
+  {
+   "from": "appropriations-2019r1-sb5550",
+   "type": "references_external",
+   "to": "2019 Regular Session Senate Bill 5550"
+  },
+  {
+   "from": "appropriations-2019r1-sb5551",
+   "type": "references_external",
+   "to": "2019 Regular Session Senate Bill 5551"
+  },
+  {
    "from": "appropriations-2019r1-sb651",
    "type": "references_external",
    "to": "2019 Regular Session Senate Bill 651"
@@ -17328,6 +18740,11 @@
    "from": "appropriations-2019r1-sb710",
    "type": "references_external",
    "to": "2019 Regular Session Senate Bill 710"
+  },
+  {
+   "from": "appropriations-2019r1-sb722",
+   "type": "references_external",
+   "to": "2019 Regular Session Senate Bill 722"
   },
   {
    "from": "appropriations-2019r1-sb739",
@@ -17410,6 +18827,11 @@
    "to": "2020 Regular Session Senate Bill 1554"
   },
   {
+   "from": "appropriations-2020s1-hb5211",
+   "type": "references_external",
+   "to": "2020 1st Special Session House Bill 5211"
+  },
+  {
    "from": "appropriations-2020s1-sb5711",
    "type": "references_external",
    "to": "2020 1st Special Session Senate Bill 5711"
@@ -17430,9 +18852,19 @@
    "to": "2021 Regular Session House Bill 2004"
   },
   {
+   "from": "appropriations-2021r1-hb2230",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 2230"
+  },
+  {
    "from": "appropriations-2021r1-hb2257",
    "type": "references_external",
    "to": "2021 Regular Session House Bill 2257"
+  },
+  {
+   "from": "appropriations-2021r1-hb2271",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 2271"
   },
   {
    "from": "appropriations-2021r1-hb2340",
@@ -17443,6 +18875,11 @@
    "from": "appropriations-2021r1-hb2412",
    "type": "references_external",
    "to": "2021 Regular Session House Bill 2412"
+  },
+  {
+   "from": "appropriations-2021r1-hb2608",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 2608"
   },
   {
    "from": "appropriations-2021r1-hb2661",
@@ -17510,6 +18947,11 @@
    "to": "2021 Regular Session House Bill 2833"
   },
   {
+   "from": "appropriations-2021r1-hb2892",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 2892"
+  },
+  {
    "from": "appropriations-2021r1-hb2900",
    "type": "references_external",
    "to": "2021 Regular Session House Bill 2900"
@@ -17518,6 +18960,16 @@
    "from": "appropriations-2021r1-hb2907",
    "type": "references_external",
    "to": "2021 Regular Session House Bill 2907"
+  },
+  {
+   "from": "appropriations-2021r1-hb2952",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 2952"
+  },
+  {
+   "from": "appropriations-2021r1-hb2977",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 2977"
   },
   {
    "from": "appropriations-2021r1-hb3090",
@@ -17543,6 +18995,11 @@
    "from": "appropriations-2021r1-hb3276",
    "type": "references_external",
    "to": "2021 Regular Session House Bill 3276"
+  },
+  {
+   "from": "appropriations-2021r1-hb3281",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 3281"
   },
   {
    "from": "appropriations-2021r1-hb3287",
@@ -17700,6 +19157,41 @@
    "to": "2021 Regular Session House Bill 5042"
   },
   {
+   "from": "appropriations-2021r1-hb5044",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 5044"
+  },
+  {
+   "from": "appropriations-2021r1-hb5045",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 5045"
+  },
+  {
+   "from": "appropriations-2021r1-hb5046",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 5046"
+  },
+  {
+   "from": "appropriations-2021r1-hb5047",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 5047"
+  },
+  {
+   "from": "appropriations-2021r1-hb5048",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 5048"
+  },
+  {
+   "from": "appropriations-2021r1-hb5049",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 5049"
+  },
+  {
+   "from": "appropriations-2021r1-sb207",
+   "type": "references_external",
+   "to": "2021 Regular Session Senate Bill 207"
+  },
+  {
    "from": "appropriations-2021r1-sb227",
    "type": "references_external",
    "to": "2021 Regular Session Senate Bill 227"
@@ -17830,6 +19322,46 @@
    "to": "2021 Regular Session Senate Bill 5545"
   },
   {
+   "from": "appropriations-2021r1-sb5548",
+   "type": "references_external",
+   "to": "2021 Regular Session Senate Bill 5548"
+  },
+  {
+   "from": "appropriations-2021r1-sb5549",
+   "type": "references_external",
+   "to": "2021 Regular Session Senate Bill 5549"
+  },
+  {
+   "from": "appropriations-2021r1-sb5550",
+   "type": "references_external",
+   "to": "2021 Regular Session Senate Bill 5550"
+  },
+  {
+   "from": "appropriations-2021r1-sb5551",
+   "type": "references_external",
+   "to": "2021 Regular Session Senate Bill 5551"
+  },
+  {
+   "from": "appropriations-2021r1-sb5552",
+   "type": "references_external",
+   "to": "2021 Regular Session Senate Bill 5552"
+  },
+  {
+   "from": "appropriations-2021r1-sb5553",
+   "type": "references_external",
+   "to": "2021 Regular Session Senate Bill 5553"
+  },
+  {
+   "from": "appropriations-2021r1-sb5554",
+   "type": "references_external",
+   "to": "2021 Regular Session Senate Bill 5554"
+  },
+  {
+   "from": "appropriations-2021r1-sb5555",
+   "type": "references_external",
+   "to": "2021 Regular Session Senate Bill 5555"
+  },
+  {
    "from": "appropriations-2021r1-sb642",
    "type": "references_external",
    "to": "2021 Regular Session Senate Bill 642"
@@ -17853,6 +19385,11 @@
    "from": "appropriations-2021s2-sb5561",
    "type": "references_external",
    "to": "2021 2nd Special Session Senate Bill 5561"
+  },
+  {
+   "from": "appropriations-2022r1-hb4036",
+   "type": "references_external",
+   "to": "2022 Regular Session House Bill 4036"
   },
   {
    "from": "appropriations-2022r1-hb4040",
@@ -17925,6 +19462,11 @@
    "to": "2023 Regular Session House Bill 2194"
   },
   {
+   "from": "appropriations-2023r1-hb2306",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 2306"
+  },
+  {
    "from": "appropriations-2023r1-hb2391",
    "type": "references_external",
    "to": "2023 Regular Session House Bill 2391"
@@ -17945,6 +19487,11 @@
    "to": "2023 Regular Session House Bill 2459"
   },
   {
+   "from": "appropriations-2023r1-hb2464",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 2464"
+  },
+  {
    "from": "appropriations-2023r1-hb2474",
    "type": "references_external",
    "to": "2023 Regular Session House Bill 2474"
@@ -17960,9 +19507,19 @@
    "to": "2023 Regular Session House Bill 2532"
   },
   {
+   "from": "appropriations-2023r1-hb2544",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 2544"
+  },
+  {
    "from": "appropriations-2023r1-hb2588",
    "type": "references_external",
    "to": "2023 Regular Session House Bill 2588"
+  },
+  {
+   "from": "appropriations-2023r1-hb2608",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 2608"
   },
   {
    "from": "appropriations-2023r1-hb2613",
@@ -17988,6 +19545,21 @@
    "from": "appropriations-2023r1-hb2732",
    "type": "references_external",
    "to": "2023 Regular Session House Bill 2732"
+  },
+  {
+   "from": "appropriations-2023r1-hb2743",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 2743"
+  },
+  {
+   "from": "appropriations-2023r1-hb2799",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 2799"
+  },
+  {
+   "from": "appropriations-2023r1-hb2858",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 2858"
   },
   {
    "from": "appropriations-2023r1-hb2891",
@@ -18045,9 +19617,24 @@
    "to": "2023 Regular Session House Bill 3000"
   },
   {
+   "from": "appropriations-2023r1-hb3034",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 3034"
+  },
+  {
    "from": "appropriations-2023r1-hb3045",
    "type": "references_external",
    "to": "2023 Regular Session House Bill 3045"
+  },
+  {
+   "from": "appropriations-2023r1-hb3113",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 3113"
+  },
+  {
+   "from": "appropriations-2023r1-hb3130",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 3130"
   },
   {
    "from": "appropriations-2023r1-hb3138",
@@ -18065,9 +19652,19 @@
    "to": "2023 Regular Session House Bill 3185"
   },
   {
+   "from": "appropriations-2023r1-hb3189",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 3189"
+  },
+  {
    "from": "appropriations-2023r1-hb3222",
    "type": "references_external",
    "to": "2023 Regular Session House Bill 3222"
+  },
+  {
+   "from": "appropriations-2023r1-hb3247",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 3247"
   },
   {
    "from": "appropriations-2023r1-hb3255",
@@ -18123,6 +19720,11 @@
    "from": "appropriations-2023r1-hb3516",
    "type": "references_external",
    "to": "2023 Regular Session House Bill 3516"
+  },
+  {
+   "from": "appropriations-2023r1-hb3547",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 3547"
   },
   {
    "from": "appropriations-2023r1-hb3613",
@@ -18270,6 +19872,31 @@
    "to": "2023 Regular Session House Bill 5049"
   },
   {
+   "from": "appropriations-2023r1-hb5050",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 5050"
+  },
+  {
+   "from": "appropriations-2023r1-hb5051",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 5051"
+  },
+  {
+   "from": "appropriations-2023r1-hb5052",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 5052"
+  },
+  {
+   "from": "appropriations-2023r1-hb5053",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 5053"
+  },
+  {
+   "from": "appropriations-2023r1-sb1003",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 1003"
+  },
+  {
    "from": "appropriations-2023r1-sb1006",
    "type": "references_external",
    "to": "2023 Regular Session Senate Bill 1006"
@@ -18278,6 +19905,11 @@
    "from": "appropriations-2023r1-sb200",
    "type": "references_external",
    "to": "2023 Regular Session Senate Bill 200"
+  },
+  {
+   "from": "appropriations-2023r1-sb281",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 281"
   },
   {
    "from": "appropriations-2023r1-sb419",
@@ -18440,9 +20072,39 @@
    "to": "2023 Regular Session Senate Bill 5541"
   },
   {
+   "from": "appropriations-2023r1-sb5547",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 5547"
+  },
+  {
+   "from": "appropriations-2023r1-sb5548",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 5548"
+  },
+  {
+   "from": "appropriations-2023r1-sb5549",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 5549"
+  },
+  {
+   "from": "appropriations-2023r1-sb5550",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 5550"
+  },
+  {
+   "from": "appropriations-2023r1-sb5551",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 5551"
+  },
+  {
    "from": "appropriations-2023r1-sb564",
    "type": "references_external",
    "to": "2023 Regular Session Senate Bill 564"
+  },
+  {
+   "from": "appropriations-2023r1-sb590",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 590"
   },
   {
    "from": "appropriations-2023r1-sb600",
@@ -18453,6 +20115,11 @@
    "from": "appropriations-2023r1-sb612",
    "type": "references_external",
    "to": "2023 Regular Session Senate Bill 612"
+  },
+  {
+   "from": "appropriations-2023r1-sb621",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 621"
   },
   {
    "from": "appropriations-2023r1-sb627",
@@ -18473,6 +20140,11 @@
    "from": "appropriations-2023r1-sb680",
    "type": "references_external",
    "to": "2023 Regular Session Senate Bill 680"
+  },
+  {
+   "from": "appropriations-2023r1-sb696",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 696"
   },
   {
    "from": "appropriations-2023r1-sb753",
@@ -18520,6 +20192,11 @@
    "to": "2023 Regular Session Senate Bill 899"
   },
   {
+   "from": "appropriations-2023r1-sb924",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 924"
+  },
+  {
    "from": "appropriations-2023r1-sb948",
    "type": "references_external",
    "to": "2023 Regular Session Senate Bill 948"
@@ -18528,6 +20205,11 @@
    "from": "appropriations-2023r1-sb955",
    "type": "references_external",
    "to": "2023 Regular Session Senate Bill 955"
+  },
+  {
+   "from": "appropriations-2023r1-sb982",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 982"
   },
   {
    "from": "appropriations-2023r1-sb983",
@@ -18635,6 +20317,11 @@
    "to": "2025 Regular Session House Bill 2043"
   },
   {
+   "from": "appropriations-2025r1-hb2164",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2164"
+  },
+  {
    "from": "appropriations-2025r1-hb2165",
    "type": "references_external",
    "to": "2025 Regular Session House Bill 2165"
@@ -18653,6 +20340,11 @@
    "from": "appropriations-2025r1-hb2401",
    "type": "references_external",
    "to": "2025 Regular Session House Bill 2401"
+  },
+  {
+   "from": "appropriations-2025r1-hb2405",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2405"
   },
   {
    "from": "appropriations-2025r1-hb2408",
@@ -18695,14 +20387,29 @@
    "to": "2025 Regular Session House Bill 2589"
   },
   {
+   "from": "appropriations-2025r1-hb2673",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2673"
+  },
+  {
    "from": "appropriations-2025r1-hb2675",
    "type": "references_external",
    "to": "2025 Regular Session House Bill 2675"
   },
   {
+   "from": "appropriations-2025r1-hb2681",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2681"
+  },
+  {
    "from": "appropriations-2025r1-hb2749",
    "type": "references_external",
    "to": "2025 Regular Session House Bill 2749"
+  },
+  {
+   "from": "appropriations-2025r1-hb2767",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2767"
   },
   {
    "from": "appropriations-2025r1-hb2772",
@@ -18725,6 +20432,11 @@
    "to": "2025 Regular Session House Bill 2865"
   },
   {
+   "from": "appropriations-2025r1-hb2954",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2954"
+  },
+  {
    "from": "appropriations-2025r1-hb2976",
    "type": "references_external",
    "to": "2025 Regular Session House Bill 2976"
@@ -18745,6 +20457,21 @@
    "to": "2025 Regular Session House Bill 2991"
   },
   {
+   "from": "appropriations-2025r1-hb3001",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3001"
+  },
+  {
+   "from": "appropriations-2025r1-hb3006",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3006"
+  },
+  {
+   "from": "appropriations-2025r1-hb3008",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3008"
+  },
+  {
    "from": "appropriations-2025r1-hb3011",
    "type": "references_external",
    "to": "2025 Regular Session House Bill 3011"
@@ -18758,6 +20485,11 @@
    "from": "appropriations-2025r1-hb3070",
    "type": "references_external",
    "to": "2025 Regular Session House Bill 3070"
+  },
+  {
+   "from": "appropriations-2025r1-hb3109",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3109"
   },
   {
    "from": "appropriations-2025r1-hb3116",
@@ -18805,6 +20537,26 @@
    "to": "2025 Regular Session House Bill 3192"
   },
   {
+   "from": "appropriations-2025r1-hb3196",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3196"
+  },
+  {
+   "from": "appropriations-2025r1-hb3219",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3219"
+  },
+  {
+   "from": "appropriations-2025r1-hb3239",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3239"
+  },
+  {
+   "from": "appropriations-2025r1-hb3273",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3273"
+  },
+  {
    "from": "appropriations-2025r1-hb3295",
    "type": "references_external",
    "to": "2025 Regular Session House Bill 3295"
@@ -18818,6 +20570,11 @@
    "from": "appropriations-2025r1-hb3341",
    "type": "references_external",
    "to": "2025 Regular Session House Bill 3341"
+  },
+  {
+   "from": "appropriations-2025r1-hb3350",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3350"
   },
   {
    "from": "appropriations-2025r1-hb3356",
@@ -18865,6 +20622,11 @@
    "to": "2025 Regular Session House Bill 3568"
   },
   {
+   "from": "appropriations-2025r1-hb3570",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3570"
+  },
+  {
    "from": "appropriations-2025r1-hb3571",
    "type": "references_external",
    "to": "2025 Regular Session House Bill 3571"
@@ -18895,6 +20657,16 @@
    "to": "2025 Regular Session House Bill 3618"
   },
   {
+   "from": "appropriations-2025r1-hb3714",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3714"
+  },
+  {
+   "from": "appropriations-2025r1-hb3717",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3717"
+  },
+  {
    "from": "appropriations-2025r1-hb3732",
    "type": "references_external",
    "to": "2025 Regular Session House Bill 3732"
@@ -18923,6 +20695,11 @@
    "from": "appropriations-2025r1-hb3837",
    "type": "references_external",
    "to": "2025 Regular Session House Bill 3837"
+  },
+  {
+   "from": "appropriations-2025r1-hb3842",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3842"
   },
   {
    "from": "appropriations-2025r1-hb3870",
@@ -19085,9 +20862,29 @@
    "to": "2025 Regular Session House Bill 5041"
   },
   {
+   "from": "appropriations-2025r1-hb5044",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5044"
+  },
+  {
+   "from": "appropriations-2025r1-hb5045",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5045"
+  },
+  {
+   "from": "appropriations-2025r1-hb5046",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5046"
+  },
+  {
    "from": "appropriations-2025r1-hb5047",
    "type": "references_external",
    "to": "2025 Regular Session House Bill 5047"
+  },
+  {
+   "from": "appropriations-2025r1-hb5048",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5048"
   },
   {
    "from": "appropriations-2025r1-sb1000",
@@ -19130,6 +20927,11 @@
    "to": "2025 Regular Session Senate Bill 1183"
   },
   {
+   "from": "appropriations-2025r1-sb1184",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 1184"
+  },
+  {
    "from": "appropriations-2025r1-sb1207",
    "type": "references_external",
    "to": "2025 Regular Session Senate Bill 1207"
@@ -19143,6 +20945,11 @@
    "from": "appropriations-2025r1-sb231",
    "type": "references_external",
    "to": "2025 Regular Session Senate Bill 231"
+  },
+  {
+   "from": "appropriations-2025r1-sb297",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 297"
   },
   {
    "from": "appropriations-2025r1-sb336",
@@ -19185,6 +20992,11 @@
    "to": "2025 Regular Session Senate Bill 420"
   },
   {
+   "from": "appropriations-2025r1-sb424",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 424"
+  },
+  {
    "from": "appropriations-2025r1-sb443",
    "type": "references_external",
    "to": "2025 Regular Session Senate Bill 443"
@@ -19218,6 +21030,21 @@
    "from": "appropriations-2025r1-sb515",
    "type": "references_external",
    "to": "2025 Regular Session Senate Bill 515"
+  },
+  {
+   "from": "appropriations-2025r1-sb516",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 516"
+  },
+  {
+   "from": "appropriations-2025r1-sb520",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 520"
+  },
+  {
+   "from": "appropriations-2025r1-sb528",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 528"
   },
   {
    "from": "appropriations-2025r1-sb5501",
@@ -19335,9 +21162,34 @@
    "to": "2025 Regular Session Senate Bill 5543"
   },
   {
+   "from": "appropriations-2025r1-sb5548",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5548"
+  },
+  {
+   "from": "appropriations-2025r1-sb5549",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5549"
+  },
+  {
    "from": "appropriations-2025r1-sb5550",
    "type": "references_external",
    "to": "2025 Regular Session Senate Bill 5550"
+  },
+  {
+   "from": "appropriations-2025r1-sb5551",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5551"
+  },
+  {
+   "from": "appropriations-2025r1-sb5552",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5552"
+  },
+  {
+   "from": "appropriations-2025r1-sb5553",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5553"
   },
   {
    "from": "appropriations-2025r1-sb576",
@@ -19363,6 +21215,11 @@
    "from": "appropriations-2025r1-sb779",
    "type": "references_external",
    "to": "2025 Regular Session Senate Bill 779"
+  },
+  {
+   "from": "appropriations-2025r1-sb850",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 850"
   },
   {
    "from": "appropriations-2025r1-sb923",
@@ -19405,6 +21262,16 @@
    "to": "2026 Regular Session House Bill 4117"
   },
   {
+   "from": "appropriations-2026r1-hb5201",
+   "type": "references_external",
+   "to": "2026 Regular Session House Bill 5201"
+  },
+  {
+   "from": "appropriations-2026r1-hb5202",
+   "type": "references_external",
+   "to": "2026 Regular Session House Bill 5202"
+  },
+  {
    "from": "appropriations-2026r1-hb5204",
    "type": "references_external",
    "to": "2026 Regular Session House Bill 5204"
@@ -19440,6 +21307,21 @@
    "to": "budgeted-revenue"
   },
   {
+   "from": "join-2017r1-hb2026-agency-137",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 2026"
+  },
+  {
+   "from": "join-2017r1-hb2026-agency-137",
+   "type": "related",
+   "to": "appropriations-2017r1-hb2026"
+  },
+  {
+   "from": "join-2017r1-hb2026-agency-137",
+   "type": "related",
+   "to": "expenditures-137-fy2019"
+  },
+  {
    "from": "join-2017r1-hb2043-agency-603",
    "type": "references_external",
    "to": "2017 Regular Session House Bill 2043"
@@ -19453,6 +21335,21 @@
    "from": "join-2017r1-hb2043-agency-603",
    "type": "related",
    "to": "expenditures-603-fy2019"
+  },
+  {
+   "from": "join-2017r1-hb2185-agency-525",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 2185"
+  },
+  {
+   "from": "join-2017r1-hb2185-agency-525",
+   "type": "related",
+   "to": "appropriations-2017r1-hb2185"
+  },
+  {
+   "from": "join-2017r1-hb2185-agency-525",
+   "type": "related",
+   "to": "expenditures-525-fy2019"
   },
   {
    "from": "join-2017r1-hb2408-agency-443",
@@ -19485,6 +21382,21 @@
    "to": "expenditures-107-fy2019"
   },
   {
+   "from": "join-2017r1-hb2528-agency-581",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 2528"
+  },
+  {
+   "from": "join-2017r1-hb2528-agency-581",
+   "type": "related",
+   "to": "appropriations-2017r1-hb2528"
+  },
+  {
+   "from": "join-2017r1-hb2528-agency-581",
+   "type": "related",
+   "to": "expenditures-581-fy2019"
+  },
+  {
    "from": "join-2017r1-hb2547-agency-100",
    "type": "references_external",
    "to": "2017 Regular Session House Bill 2547"
@@ -19498,6 +21410,51 @@
    "from": "join-2017r1-hb2547-agency-100",
    "type": "related",
    "to": "expenditures-100-fy2019"
+  },
+  {
+   "from": "join-2017r1-hb2655-agency-100",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 2655"
+  },
+  {
+   "from": "join-2017r1-hb2655-agency-100",
+   "type": "related",
+   "to": "appropriations-2017r1-hb2655"
+  },
+  {
+   "from": "join-2017r1-hb2655-agency-100",
+   "type": "related",
+   "to": "expenditures-100-fy2019"
+  },
+  {
+   "from": "join-2017r1-hb2707-agency-690",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 2707"
+  },
+  {
+   "from": "join-2017r1-hb2707-agency-690",
+   "type": "related",
+   "to": "appropriations-2017r1-hb2707"
+  },
+  {
+   "from": "join-2017r1-hb2707-agency-690",
+   "type": "related",
+   "to": "expenditures-690-fy2019"
+  },
+  {
+   "from": "join-2017r1-hb2725-agency-340",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 2725"
+  },
+  {
+   "from": "join-2017r1-hb2725-agency-340",
+   "type": "related",
+   "to": "appropriations-2017r1-hb2725"
+  },
+  {
+   "from": "join-2017r1-hb2725-agency-340",
+   "type": "related",
+   "to": "expenditures-340-fy2019"
   },
   {
    "from": "join-2017r1-hb2741-agency-914",
@@ -19575,6 +21532,21 @@
    "to": "expenditures-107-fy2019"
   },
   {
+   "from": "join-2017r1-hb2959-agency-100",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 2959"
+  },
+  {
+   "from": "join-2017r1-hb2959-agency-100",
+   "type": "related",
+   "to": "appropriations-2017r1-hb2959"
+  },
+  {
+   "from": "join-2017r1-hb2959-agency-100",
+   "type": "related",
+   "to": "expenditures-100-fy2019"
+  },
+  {
    "from": "join-2017r1-hb2984-agency-691",
    "type": "references_external",
    "to": "2017 Regular Session House Bill 2984"
@@ -19588,6 +21560,21 @@
    "from": "join-2017r1-hb2984-agency-691",
    "type": "related",
    "to": "expenditures-691-fy2019"
+  },
+  {
+   "from": "join-2017r1-hb3182-agency-730",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 3182"
+  },
+  {
+   "from": "join-2017r1-hb3182-agency-730",
+   "type": "related",
+   "to": "appropriations-2017r1-hb3182"
+  },
+  {
+   "from": "join-2017r1-hb3182-agency-730",
+   "type": "related",
+   "to": "expenditures-730-fy2019"
   },
   {
    "from": "join-2017r1-hb3230-agency-730",
@@ -19605,6 +21592,21 @@
    "to": "expenditures-730-fy2019"
   },
   {
+   "from": "join-2017r1-hb3235-agency-603",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 3235"
+  },
+  {
+   "from": "join-2017r1-hb3235-agency-603",
+   "type": "related",
+   "to": "appropriations-2017r1-hb3235"
+  },
+  {
+   "from": "join-2017r1-hb3235-agency-603",
+   "type": "related",
+   "to": "expenditures-603-fy2019"
+  },
+  {
    "from": "join-2017r1-hb3249-agency-691",
    "type": "references_external",
    "to": "2017 Regular Session House Bill 3249"
@@ -19618,6 +21620,21 @@
    "from": "join-2017r1-hb3249-agency-691",
    "type": "related",
    "to": "expenditures-691-fy2019"
+  },
+  {
+   "from": "join-2017r1-hb3373-agency-914",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 3373"
+  },
+  {
+   "from": "join-2017r1-hb3373-agency-914",
+   "type": "related",
+   "to": "appropriations-2017r1-hb3373"
+  },
+  {
+   "from": "join-2017r1-hb3373-agency-914",
+   "type": "related",
+   "to": "expenditures-914-fy2019"
   },
   {
    "from": "join-2017r1-hb3433-agency-107",
@@ -19950,6 +21967,21 @@
    "to": "expenditures-415-fy2019"
   },
   {
+   "from": "join-2017r1-sb1029-agency-443",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 1029"
+  },
+  {
+   "from": "join-2017r1-sb1029-agency-443",
+   "type": "related",
+   "to": "appropriations-2017r1-sb1029"
+  },
+  {
+   "from": "join-2017r1-sb1029-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2019"
+  },
+  {
    "from": "join-2017r1-sb1064-agency-107",
    "type": "references_external",
    "to": "2017 Regular Session Senate Bill 1064"
@@ -19991,6 +22023,36 @@
   },
   {
    "from": "join-2017r1-sb141-agency-581",
+   "type": "related",
+   "to": "expenditures-581-fy2019"
+  },
+  {
+   "from": "join-2017r1-sb242-agency-107",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 242"
+  },
+  {
+   "from": "join-2017r1-sb242-agency-107",
+   "type": "related",
+   "to": "appropriations-2017r1-sb242"
+  },
+  {
+   "from": "join-2017r1-sb242-agency-107",
+   "type": "related",
+   "to": "expenditures-107-fy2019"
+  },
+  {
+   "from": "join-2017r1-sb280-agency-581",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 280"
+  },
+  {
+   "from": "join-2017r1-sb280-agency-581",
+   "type": "related",
+   "to": "appropriations-2017r1-sb280"
+  },
+  {
+   "from": "join-2017r1-sb280-agency-581",
    "type": "related",
    "to": "expenditures-581-fy2019"
   },
@@ -20385,6 +22447,21 @@
    "to": "expenditures-525-fy2019"
   },
   {
+   "from": "join-2017r1-sb771-agency-690",
+   "type": "references_external",
+   "to": "2017 Regular Session Senate Bill 771"
+  },
+  {
+   "from": "join-2017r1-sb771-agency-690",
+   "type": "related",
+   "to": "appropriations-2017r1-sb771"
+  },
+  {
+   "from": "join-2017r1-sb771-agency-690",
+   "type": "related",
+   "to": "expenditures-690-fy2019"
+  },
+  {
    "from": "join-2017r1-sb805-agency-525",
    "type": "references_external",
    "to": "2017 Regular Session Senate Bill 805"
@@ -20465,6 +22542,66 @@
    "to": "expenditures-914-fy2021"
   },
   {
+   "from": "join-2019r1-hb2212-agency-107",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 2212"
+  },
+  {
+   "from": "join-2019r1-hb2212-agency-107",
+   "type": "related",
+   "to": "appropriations-2019r1-hb2212"
+  },
+  {
+   "from": "join-2019r1-hb2212-agency-107",
+   "type": "related",
+   "to": "expenditures-107-fy2020"
+  },
+  {
+   "from": "join-2019r1-hb2212-agency-107",
+   "type": "related",
+   "to": "expenditures-107-fy2021"
+  },
+  {
+   "from": "join-2019r1-hb2214-agency-525",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 2214"
+  },
+  {
+   "from": "join-2019r1-hb2214-agency-525",
+   "type": "related",
+   "to": "appropriations-2019r1-hb2214"
+  },
+  {
+   "from": "join-2019r1-hb2214-agency-525",
+   "type": "related",
+   "to": "expenditures-525-fy2020"
+  },
+  {
+   "from": "join-2019r1-hb2214-agency-525",
+   "type": "related",
+   "to": "expenditures-525-fy2021"
+  },
+  {
+   "from": "join-2019r1-hb2229-agency-581",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 2229"
+  },
+  {
+   "from": "join-2019r1-hb2229-agency-581",
+   "type": "related",
+   "to": "appropriations-2019r1-hb2229"
+  },
+  {
+   "from": "join-2019r1-hb2229-agency-581",
+   "type": "related",
+   "to": "expenditures-581-fy2020"
+  },
+  {
+   "from": "join-2019r1-hb2229-agency-581",
+   "type": "related",
+   "to": "expenditures-581-fy2021"
+  },
+  {
    "from": "join-2019r1-hb2302-agency-100",
    "type": "references_external",
    "to": "2019 Regular Session House Bill 2302"
@@ -20483,6 +22620,46 @@
    "from": "join-2019r1-hb2302-agency-100",
    "type": "related",
    "to": "expenditures-100-fy2021"
+  },
+  {
+   "from": "join-2019r1-hb2350-agency-914",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 2350"
+  },
+  {
+   "from": "join-2019r1-hb2350-agency-914",
+   "type": "related",
+   "to": "appropriations-2019r1-hb2350"
+  },
+  {
+   "from": "join-2019r1-hb2350-agency-914",
+   "type": "related",
+   "to": "expenditures-914-fy2020"
+  },
+  {
+   "from": "join-2019r1-hb2350-agency-914",
+   "type": "related",
+   "to": "expenditures-914-fy2021"
+  },
+  {
+   "from": "join-2019r1-hb2376-agency-634",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 2376"
+  },
+  {
+   "from": "join-2019r1-hb2376-agency-634",
+   "type": "related",
+   "to": "appropriations-2019r1-hb2376"
+  },
+  {
+   "from": "join-2019r1-hb2376-agency-634",
+   "type": "related",
+   "to": "expenditures-634-fy2020"
+  },
+  {
+   "from": "join-2019r1-hb2376-agency-634",
+   "type": "related",
+   "to": "expenditures-634-fy2021"
   },
   {
    "from": "join-2019r1-hb2383-agency-150",
@@ -20825,6 +23002,26 @@
    "to": "expenditures-123-fy2021"
   },
   {
+   "from": "join-2019r1-hb2945-agency-443",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 2945"
+  },
+  {
+   "from": "join-2019r1-hb2945-agency-443",
+   "type": "related",
+   "to": "appropriations-2019r1-hb2945"
+  },
+  {
+   "from": "join-2019r1-hb2945-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2020"
+  },
+  {
+   "from": "join-2019r1-hb2945-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2021"
+  },
+  {
    "from": "join-2019r1-hb2963-agency-100",
    "type": "references_external",
    "to": "2019 Regular Session House Bill 2963"
@@ -20865,6 +23062,46 @@
    "to": "expenditures-107-fy2021"
   },
   {
+   "from": "join-2019r1-hb3016-agency-635",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 3016"
+  },
+  {
+   "from": "join-2019r1-hb3016-agency-635",
+   "type": "related",
+   "to": "appropriations-2019r1-hb3016"
+  },
+  {
+   "from": "join-2019r1-hb3016-agency-635",
+   "type": "related",
+   "to": "expenditures-635-fy2020"
+  },
+  {
+   "from": "join-2019r1-hb3016-agency-635",
+   "type": "related",
+   "to": "expenditures-635-fy2021"
+  },
+  {
+   "from": "join-2019r1-hb3082-agency-603",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 3082"
+  },
+  {
+   "from": "join-2019r1-hb3082-agency-603",
+   "type": "related",
+   "to": "appropriations-2019r1-hb3082"
+  },
+  {
+   "from": "join-2019r1-hb3082-agency-603",
+   "type": "related",
+   "to": "expenditures-603-fy2020"
+  },
+  {
+   "from": "join-2019r1-hb3082-agency-603",
+   "type": "related",
+   "to": "expenditures-603-fy2021"
+  },
+  {
    "from": "join-2019r1-hb3170-agency-443",
    "type": "references_external",
    "to": "2019 Regular Session House Bill 3170"
@@ -20883,6 +23120,26 @@
    "from": "join-2019r1-hb3170-agency-443",
    "type": "related",
    "to": "expenditures-443-fy2021"
+  },
+  {
+   "from": "join-2019r1-hb3243-agency-634",
+   "type": "references_external",
+   "to": "2019 Regular Session House Bill 3243"
+  },
+  {
+   "from": "join-2019r1-hb3243-agency-634",
+   "type": "related",
+   "to": "appropriations-2019r1-hb3243"
+  },
+  {
+   "from": "join-2019r1-hb3243-agency-634",
+   "type": "related",
+   "to": "expenditures-634-fy2020"
+  },
+  {
+   "from": "join-2019r1-hb3243-agency-634",
+   "type": "related",
+   "to": "expenditures-634-fy2021"
   },
   {
    "from": "join-2019r1-hb3326-agency-340",
@@ -21258,6 +23515,26 @@
    "from": "join-2019r1-hb5047-agency-581",
    "type": "related",
    "to": "expenditures-581-fy2021"
+  },
+  {
+   "from": "join-2019r1-sb1028-agency-257",
+   "type": "references_external",
+   "to": "2019 Regular Session Senate Bill 1028"
+  },
+  {
+   "from": "join-2019r1-sb1028-agency-257",
+   "type": "related",
+   "to": "appropriations-2019r1-sb1028"
+  },
+  {
+   "from": "join-2019r1-sb1028-agency-257",
+   "type": "related",
+   "to": "expenditures-257-fy2020"
+  },
+  {
+   "from": "join-2019r1-sb1028-agency-257",
+   "type": "related",
+   "to": "expenditures-257-fy2021"
   },
   {
    "from": "join-2019r1-sb1031-agency-340",
@@ -22460,6 +24737,26 @@
    "to": "expenditures-107-fy2021"
   },
   {
+   "from": "join-2021r1-hb2230-agency-114",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 2230"
+  },
+  {
+   "from": "join-2021r1-hb2230-agency-114",
+   "type": "related",
+   "to": "appropriations-2021r1-hb2230"
+  },
+  {
+   "from": "join-2021r1-hb2230-agency-114",
+   "type": "related",
+   "to": "expenditures-114-fy2022"
+  },
+  {
+   "from": "join-2021r1-hb2230-agency-114",
+   "type": "related",
+   "to": "expenditures-114-fy2023"
+  },
+  {
    "from": "join-2021r1-hb2257-agency-690",
    "type": "references_external",
    "to": "2021 Regular Session House Bill 2257"
@@ -22478,6 +24775,26 @@
    "from": "join-2021r1-hb2257-agency-690",
    "type": "related",
    "to": "expenditures-690-fy2023"
+  },
+  {
+   "from": "join-2021r1-hb2271-agency-137",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 2271"
+  },
+  {
+   "from": "join-2021r1-hb2271-agency-137",
+   "type": "related",
+   "to": "appropriations-2021r1-hb2271"
+  },
+  {
+   "from": "join-2021r1-hb2271-agency-137",
+   "type": "related",
+   "to": "expenditures-137-fy2022"
+  },
+  {
+   "from": "join-2021r1-hb2271-agency-137",
+   "type": "related",
+   "to": "expenditures-137-fy2023"
   },
   {
    "from": "join-2021r1-hb2340-agency-100",
@@ -22518,6 +24835,26 @@
    "from": "join-2021r1-hb2412-agency-525",
    "type": "related",
    "to": "expenditures-525-fy2023"
+  },
+  {
+   "from": "join-2021r1-hb2608-agency-581",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 2608"
+  },
+  {
+   "from": "join-2021r1-hb2608-agency-581",
+   "type": "related",
+   "to": "appropriations-2021r1-hb2608"
+  },
+  {
+   "from": "join-2021r1-hb2608-agency-581",
+   "type": "related",
+   "to": "expenditures-581-fy2022"
+  },
+  {
+   "from": "join-2021r1-hb2608-agency-581",
+   "type": "related",
+   "to": "expenditures-581-fy2023"
   },
   {
    "from": "join-2021r1-hb2661-agency-635",
@@ -22700,6 +25037,26 @@
    "to": "expenditures-100-fy2023"
   },
   {
+   "from": "join-2021r1-hb2892-agency-257",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 2892"
+  },
+  {
+   "from": "join-2021r1-hb2892-agency-257",
+   "type": "related",
+   "to": "appropriations-2021r1-hb2892"
+  },
+  {
+   "from": "join-2021r1-hb2892-agency-257",
+   "type": "related",
+   "to": "expenditures-257-fy2022"
+  },
+  {
+   "from": "join-2021r1-hb2892-agency-257",
+   "type": "related",
+   "to": "expenditures-257-fy2023"
+  },
+  {
    "from": "join-2021r1-hb2900-agency-839",
    "type": "references_external",
    "to": "2021 Regular Session House Bill 2900"
@@ -22738,6 +25095,46 @@
    "from": "join-2021r1-hb2907-agency-525",
    "type": "related",
    "to": "expenditures-525-fy2023"
+  },
+  {
+   "from": "join-2021r1-hb2952-agency-100",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 2952"
+  },
+  {
+   "from": "join-2021r1-hb2952-agency-100",
+   "type": "related",
+   "to": "appropriations-2021r1-hb2952"
+  },
+  {
+   "from": "join-2021r1-hb2952-agency-100",
+   "type": "related",
+   "to": "expenditures-100-fy2022"
+  },
+  {
+   "from": "join-2021r1-hb2952-agency-100",
+   "type": "related",
+   "to": "expenditures-100-fy2023"
+  },
+  {
+   "from": "join-2021r1-hb2977-agency-443",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 2977"
+  },
+  {
+   "from": "join-2021r1-hb2977-agency-443",
+   "type": "related",
+   "to": "appropriations-2021r1-hb2977"
+  },
+  {
+   "from": "join-2021r1-hb2977-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2022"
+  },
+  {
+   "from": "join-2021r1-hb2977-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2023"
   },
   {
    "from": "join-2021r1-hb3090-agency-340",
@@ -24100,6 +26497,26 @@
    "to": "expenditures-603-fy2025"
   },
   {
+   "from": "join-2023r1-hb2306-agency-257",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 2306"
+  },
+  {
+   "from": "join-2023r1-hb2306-agency-257",
+   "type": "related",
+   "to": "appropriations-2023r1-hb2306"
+  },
+  {
+   "from": "join-2023r1-hb2306-agency-257",
+   "type": "related",
+   "to": "expenditures-257-fy2024"
+  },
+  {
+   "from": "join-2023r1-hb2306-agency-257",
+   "type": "related",
+   "to": "expenditures-257-fy2025"
+  },
+  {
    "from": "join-2023r1-hb2391-agency-107",
    "type": "references_external",
    "to": "2023 Regular Session House Bill 2391"
@@ -24180,6 +26597,26 @@
    "to": "expenditures-123-fy2025"
   },
   {
+   "from": "join-2023r1-hb2464-agency-443",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 2464"
+  },
+  {
+   "from": "join-2023r1-hb2464-agency-443",
+   "type": "related",
+   "to": "appropriations-2023r1-hb2464"
+  },
+  {
+   "from": "join-2023r1-hb2464-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2024"
+  },
+  {
+   "from": "join-2023r1-hb2464-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2025"
+  },
+  {
    "from": "join-2023r1-hb2485-agency-525",
    "type": "references_external",
    "to": "2023 Regular Session House Bill 2485"
@@ -24218,6 +26655,46 @@
    "from": "join-2023r1-hb2532-agency-635",
    "type": "related",
    "to": "expenditures-635-fy2025"
+  },
+  {
+   "from": "join-2023r1-hb2544-agency-443",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 2544"
+  },
+  {
+   "from": "join-2023r1-hb2544-agency-443",
+   "type": "related",
+   "to": "appropriations-2023r1-hb2544"
+  },
+  {
+   "from": "join-2023r1-hb2544-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2024"
+  },
+  {
+   "from": "join-2023r1-hb2544-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2025"
+  },
+  {
+   "from": "join-2023r1-hb2608-agency-443",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 2608"
+  },
+  {
+   "from": "join-2023r1-hb2608-agency-443",
+   "type": "related",
+   "to": "appropriations-2023r1-hb2608"
+  },
+  {
+   "from": "join-2023r1-hb2608-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2024"
+  },
+  {
+   "from": "join-2023r1-hb2608-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2025"
   },
   {
    "from": "join-2023r1-hb2613-agency-340",
@@ -24298,6 +26775,46 @@
    "from": "join-2023r1-hb2732-agency-137",
    "type": "related",
    "to": "expenditures-137-fy2025"
+  },
+  {
+   "from": "join-2023r1-hb2743-agency-443",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 2743"
+  },
+  {
+   "from": "join-2023r1-hb2743-agency-443",
+   "type": "related",
+   "to": "appropriations-2023r1-hb2743"
+  },
+  {
+   "from": "join-2023r1-hb2743-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2024"
+  },
+  {
+   "from": "join-2023r1-hb2743-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2025"
+  },
+  {
+   "from": "join-2023r1-hb2799-agency-730",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 2799"
+  },
+  {
+   "from": "join-2023r1-hb2799-agency-730",
+   "type": "related",
+   "to": "appropriations-2023r1-hb2799"
+  },
+  {
+   "from": "join-2023r1-hb2799-agency-730",
+   "type": "related",
+   "to": "expenditures-730-fy2024"
+  },
+  {
+   "from": "join-2023r1-hb2799-agency-730",
+   "type": "related",
+   "to": "expenditures-730-fy2025"
   },
   {
    "from": "join-2023r1-hb2907-agency-603",
@@ -24480,6 +26997,26 @@
    "to": "expenditures-730-fy2025"
   },
   {
+   "from": "join-2023r1-hb3034-agency-730",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 3034"
+  },
+  {
+   "from": "join-2023r1-hb3034-agency-730",
+   "type": "related",
+   "to": "appropriations-2023r1-hb3034"
+  },
+  {
+   "from": "join-2023r1-hb3034-agency-730",
+   "type": "related",
+   "to": "expenditures-730-fy2024"
+  },
+  {
+   "from": "join-2023r1-hb3034-agency-730",
+   "type": "related",
+   "to": "expenditures-730-fy2025"
+  },
+  {
    "from": "join-2023r1-hb3045-agency-107",
    "type": "references_external",
    "to": "2023 Regular Session House Bill 3045"
@@ -24498,6 +27035,46 @@
    "from": "join-2023r1-hb3045-agency-107",
    "type": "related",
    "to": "expenditures-107-fy2025"
+  },
+  {
+   "from": "join-2023r1-hb3113-agency-730",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 3113"
+  },
+  {
+   "from": "join-2023r1-hb3113-agency-730",
+   "type": "related",
+   "to": "appropriations-2023r1-hb3113"
+  },
+  {
+   "from": "join-2023r1-hb3113-agency-730",
+   "type": "related",
+   "to": "expenditures-730-fy2024"
+  },
+  {
+   "from": "join-2023r1-hb3113-agency-730",
+   "type": "related",
+   "to": "expenditures-730-fy2025"
+  },
+  {
+   "from": "join-2023r1-hb3130-agency-690",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 3130"
+  },
+  {
+   "from": "join-2023r1-hb3130-agency-690",
+   "type": "related",
+   "to": "appropriations-2023r1-hb3130"
+  },
+  {
+   "from": "join-2023r1-hb3130-agency-690",
+   "type": "related",
+   "to": "expenditures-690-fy2024"
+  },
+  {
+   "from": "join-2023r1-hb3130-agency-690",
+   "type": "related",
+   "to": "expenditures-690-fy2025"
   },
   {
    "from": "join-2023r1-hb3138-agency-107",
@@ -24560,6 +27137,26 @@
    "to": "expenditures-107-fy2025"
   },
   {
+   "from": "join-2023r1-hb3189-agency-603",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 3189"
+  },
+  {
+   "from": "join-2023r1-hb3189-agency-603",
+   "type": "related",
+   "to": "appropriations-2023r1-hb3189"
+  },
+  {
+   "from": "join-2023r1-hb3189-agency-603",
+   "type": "related",
+   "to": "expenditures-603-fy2024"
+  },
+  {
+   "from": "join-2023r1-hb3189-agency-603",
+   "type": "related",
+   "to": "expenditures-603-fy2025"
+  },
+  {
    "from": "join-2023r1-hb3222-agency-107",
    "type": "references_external",
    "to": "2023 Regular Session House Bill 3222"
@@ -24578,6 +27175,26 @@
    "from": "join-2023r1-hb3222-agency-107",
    "type": "related",
    "to": "expenditures-107-fy2025"
+  },
+  {
+   "from": "join-2023r1-hb3247-agency-525",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 3247"
+  },
+  {
+   "from": "join-2023r1-hb3247-agency-525",
+   "type": "related",
+   "to": "appropriations-2023r1-hb3247"
+  },
+  {
+   "from": "join-2023r1-hb3247-agency-525",
+   "type": "related",
+   "to": "expenditures-525-fy2024"
+  },
+  {
+   "from": "join-2023r1-hb3247-agency-525",
+   "type": "related",
+   "to": "expenditures-525-fy2025"
   },
   {
    "from": "join-2023r1-hb3255-agency-525",
@@ -24778,6 +27395,26 @@
    "from": "join-2023r1-hb3516-agency-730",
    "type": "related",
    "to": "expenditures-730-fy2025"
+  },
+  {
+   "from": "join-2023r1-hb3547-agency-100",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 3547"
+  },
+  {
+   "from": "join-2023r1-hb3547-agency-100",
+   "type": "related",
+   "to": "appropriations-2023r1-hb3547"
+  },
+  {
+   "from": "join-2023r1-hb3547-agency-100",
+   "type": "related",
+   "to": "expenditures-100-fy2024"
+  },
+  {
+   "from": "join-2023r1-hb3547-agency-100",
+   "type": "related",
+   "to": "expenditures-100-fy2025"
   },
   {
    "from": "join-2023r1-hb3613-agency-730",
@@ -25200,6 +27837,26 @@
    "to": "expenditures-471-fy2025"
   },
   {
+   "from": "join-2023r1-sb1003-agency-107",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 1003"
+  },
+  {
+   "from": "join-2023r1-sb1003-agency-107",
+   "type": "related",
+   "to": "appropriations-2023r1-sb1003"
+  },
+  {
+   "from": "join-2023r1-sb1003-agency-107",
+   "type": "related",
+   "to": "expenditures-107-fy2024"
+  },
+  {
+   "from": "join-2023r1-sb1003-agency-107",
+   "type": "related",
+   "to": "expenditures-107-fy2025"
+  },
+  {
    "from": "join-2023r1-sb1006-agency-107",
    "type": "references_external",
    "to": "2023 Regular Session Senate Bill 1006"
@@ -25238,6 +27895,26 @@
    "from": "join-2023r1-sb200-agency-107",
    "type": "related",
    "to": "expenditures-107-fy2025"
+  },
+  {
+   "from": "join-2023r1-sb281-agency-581",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 281"
+  },
+  {
+   "from": "join-2023r1-sb281-agency-581",
+   "type": "related",
+   "to": "appropriations-2023r1-sb281"
+  },
+  {
+   "from": "join-2023r1-sb281-agency-581",
+   "type": "related",
+   "to": "expenditures-581-fy2024"
+  },
+  {
+   "from": "join-2023r1-sb281-agency-581",
+   "type": "related",
+   "to": "expenditures-581-fy2025"
   },
   {
    "from": "join-2023r1-sb419-agency-100",
@@ -25820,6 +28497,26 @@
    "to": "expenditures-443-fy2025"
   },
   {
+   "from": "join-2023r1-sb590-agency-137",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 590"
+  },
+  {
+   "from": "join-2023r1-sb590-agency-137",
+   "type": "related",
+   "to": "appropriations-2023r1-sb590"
+  },
+  {
+   "from": "join-2023r1-sb590-agency-137",
+   "type": "related",
+   "to": "expenditures-137-fy2024"
+  },
+  {
+   "from": "join-2023r1-sb590-agency-137",
+   "type": "related",
+   "to": "expenditures-137-fy2025"
+  },
+  {
    "from": "join-2023r1-sb600-agency-525",
    "type": "references_external",
    "to": "2023 Regular Session Senate Bill 600"
@@ -25858,6 +28555,26 @@
    "from": "join-2023r1-sb612-agency-107",
    "type": "related",
    "to": "expenditures-107-fy2025"
+  },
+  {
+   "from": "join-2023r1-sb621-agency-443",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 621"
+  },
+  {
+   "from": "join-2023r1-sb621-agency-443",
+   "type": "related",
+   "to": "appropriations-2023r1-sb621"
+  },
+  {
+   "from": "join-2023r1-sb621-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2024"
+  },
+  {
+   "from": "join-2023r1-sb621-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2025"
   },
   {
    "from": "join-2023r1-sb627-agency-107",
@@ -25918,6 +28635,26 @@
    "from": "join-2023r1-sb680-agency-107",
    "type": "related",
    "to": "expenditures-107-fy2025"
+  },
+  {
+   "from": "join-2023r1-sb696-agency-137",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 696"
+  },
+  {
+   "from": "join-2023r1-sb696-agency-137",
+   "type": "related",
+   "to": "appropriations-2023r1-sb696"
+  },
+  {
+   "from": "join-2023r1-sb696-agency-137",
+   "type": "related",
+   "to": "expenditures-137-fy2024"
+  },
+  {
+   "from": "join-2023r1-sb696-agency-137",
+   "type": "related",
+   "to": "expenditures-137-fy2025"
   },
   {
    "from": "join-2023r1-sb815-agency-107",
@@ -26098,6 +28835,26 @@
    "from": "join-2023r1-sb955-agency-525",
    "type": "related",
    "to": "expenditures-525-fy2025"
+  },
+  {
+   "from": "join-2023r1-sb982-agency-443",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 982"
+  },
+  {
+   "from": "join-2023r1-sb982-agency-443",
+   "type": "related",
+   "to": "appropriations-2023r1-sb982"
+  },
+  {
+   "from": "join-2023r1-sb982-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2024"
+  },
+  {
+   "from": "join-2023r1-sb982-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2025"
   },
   {
    "from": "join-2023r1-sb983-agency-581",
@@ -26416,6 +29173,26 @@
   },
   {
    "from": "join-2025r1-hb2018-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2025"
+  },
+  {
+   "from": "join-2025r1-hb3570-agency-123",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3570"
+  },
+  {
+   "from": "join-2025r1-hb3570-agency-123",
+   "type": "related",
+   "to": "appropriations-2025r1-hb3570"
+  },
+  {
+   "from": "join-2025r1-hb3570-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2024"
+  },
+  {
+   "from": "join-2025r1-hb3570-agency-123",
    "type": "related",
    "to": "expenditures-123-fy2025"
   },

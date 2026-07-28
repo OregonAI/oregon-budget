@@ -280,7 +280,10 @@ def reconcile(parsed: dict) -> dict:
     r = {"sections": per_section}
     statuses = {e["status"] for e in per_section}
     if not per_section:
-        r["status"] = "no-amounts"
+        # Distinguish "the bill states no amounts" from "the bill states amounts that are
+        # BLANK". The second is an appropriation of an unspecified sum, and calling it
+        # no-amounts would report unspecified as nothing.
+        r["status"] = "amounts-left-blank" if parsed.get("blank_amounts") else "no-amounts"
     elif "MISMATCH" in statuses:
         bad = [e for e in per_section if e["status"] == "MISMATCH"]
         r["status"] = "MISMATCH"
@@ -572,9 +575,15 @@ def main() -> int:
         raw_lines = strip_margin(snap.read_text(errors="replace"))
         parsed = parse_bill(reflow(raw_lines), raw_lines)
         if not parsed["stated_totals"] and not parsed["line_items"]:
-            skipped.append((meas["id"], "no dollar amounts found"))
-            stats["no-amounts"] = stats.get("no-amounts", 0) + 1
-            continue
+            # A bill whose ONLY amounts are blank still appropriates money — the sums are
+            # simply not filled in yet. Skipping it as "no dollar amounts found" would make
+            # the corpus silent about an appropriation bill that exists, and would report
+            # UNSPECIFIED as NOTHING. 2019R1 HB2020 is the case: two blank amounts, zero
+            # figures, and it vanished entirely from the first pass.
+            if not parsed.get("blank_amounts"):
+                skipped.append((meas["id"], "no dollar amounts found"))
+                stats["no-amounts"] = stats.get("no-amounts", 0) + 1
+                continue
         rec = reconcile(parsed)
         stats[rec["status"]] = stats.get(rec["status"], 0) + 1
         sha = hashlib.sha256(snap.read_bytes()).hexdigest()
