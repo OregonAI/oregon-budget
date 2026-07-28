@@ -85,7 +85,19 @@ def erf_agencies(registry: Path) -> dict:
     if not registry.is_file():
         return {}
     orgs = yaml.safe_load(registry.read_text())["organizations"]
-    return {o["name"].lower(): o for o in orgs if o.get("budget_agency_code")}
+    out = {}
+    for o in orgs:
+        if not o.get("budget_agency_code"):
+            continue
+        out[o["name"].lower()] = o
+        # ALIASES are the sibling's curated assertion that these names denote the same
+        # body — reviewed once there rather than fuzzy-matched here. This is the seam that
+        # lets "State Forestry Department" resolve without loosening the matcher, and it
+        # absorbs renames: a former name stays an alias, so historical bills keep
+        # resolving after a body is renamed.
+        for alias in o.get("aliases") or []:
+            out[alias.lower()] = o
+    return out
 
 
 def _norm(s: str) -> str:
@@ -107,6 +119,9 @@ def resolve_agency(name: str, by_name: dict):
     Each variant below was measured against the corpus before being added, and each
     resolves to EXACTLY ONE registry entry — verified, not assumed:
 
+      registry ALIASES        the sibling's curated identity assertions, consulted first
+                              via erf_agencies(); this is where a name variant SHOULD be
+                              recorded rather than encoded as a rule here
       "oregon X" / "X"        the registry is inconsistent about the prefix
       leading "State "        bills write "State Department of Agriculture" where the
                               registry writes "Department of Agriculture"; 38 appropriations
@@ -351,7 +366,7 @@ def unresolved_report(registry: Path) -> int:
             continue
         groups[name].append(fm)
 
-    missing, variant, absent = [], [], []
+    missing, variant, nocode, absent = [], [], [], []
     for name, docs in groups.items():
         if not name or len(toks(name)) == 0:
             missing.append((name, docs, None, 0.0))
@@ -359,6 +374,11 @@ def unresolved_report(registry: Path) -> int:
         best, score = suggest(name)
         if best and best.get("budget_agency_code") and score >= 0.6:
             variant.append((name, docs, best, score))
+        elif best and score >= 0.6:
+            # The body IS in the registry — it simply carries no budget_agency_code,
+            # because it has no separately-recorded spending line. Reporting it as "no
+            # registry counterpart" would send someone to create an entry that exists.
+            nocode.append((name, docs, best, score))
         else:
             absent.append((name, docs, best, score))
 
@@ -398,7 +418,17 @@ def unresolved_report(registry: Path) -> int:
         L.append(f"| {name} | {len(docs)} | `{best['slug']}` | {best['budget_agency_code']} "
                  f"| {score:.2f} |")
 
-    L += ["", "## 3. No registry counterpart — correctly unresolved", "",
+    L += ["", "## 3. In the registry, but no budget code — cannot join", "",
+          f"**{sum(len(d) for _, d, _, _ in nocode)} appropriations.** The body has a "
+          f"registry entry, so this is NOT a missing agency. It carries no "
+          f"`budget_agency_code` because the expenditure data records no separate "
+          f"spending line for it — typically a sub-unit funded through its parent. "
+          f"Nothing to join to; adding a code would mean inventing one.", "",
+          "| bill says | appropriations | registry entry (no budget code) |", "|---|---:|---|"]
+    for name, docs, best, score in sorted(nocode, key=lambda x: -len(x[1])):
+        L.append(f"| {name} | {len(docs)} | `{best['slug']}` |")
+
+    L += ["", "## 4. No registry counterpart — correctly unresolved", "",
           f"**{sum(len(d) for _, d, _, _ in absent)} appropriations.** These bodies issue "
           f"no administrative rules, so they hold no OAR chapter and do not appear in a "
           f"registry keyed on chapter assignment. The Emergency Board is a contingency "
@@ -422,6 +452,7 @@ def unresolved_report(registry: Path) -> int:
     print(f"wrote {out.relative_to(ROOT)}")
     print(f"  {sum(len(d) for _,d,_,_ in missing):>4} extraction failed (parser work)")
     print(f"  {sum(len(d) for _,d,_,_ in variant):>4} probable name variant (human confirms)")
+    print(f"  {sum(len(d) for _,d,_,_ in nocode):>4} in registry, no budget code (cannot join)")
     print(f"  {sum(len(d) for _,d,_,_ in absent):>4} no registry counterpart (correct)")
     return 0
 
