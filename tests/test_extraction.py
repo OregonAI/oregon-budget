@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 
 from extract_appropriations import (  # noqa: E402
-    AMOUNT, AMOUNT_OF, BLANK_AMOUNT, SUBITEM, biennium_fiscal_years, money,
+    AMOUNT, AMOUNT_OF, APPROPRIATED_TO, BLANK_AMOUNT, BLANK_RECIPIENT, SUBITEM, biennium_fiscal_years, money,
     parse_bill, reconcile, reflow, strip_margin, verbatim_for,
 )
 
@@ -149,3 +149,39 @@ def test_statutory_subsections_are_not_treated_as_an_itemization():
     parsed = parse_bill(text, text.splitlines())
     assert parsed["line_items"] == [], "a statutory subsection was read as a line item"
     assert reconcile(parsed)["status"] != "MISMATCH"
+
+
+# ------------------------------------------------- recipient capture (APPROPRIATED_TO)
+
+@pytest.mark.parametrize("text,expected", [
+    # "for" inside the agency's own NAME. A bare `\s+for\s` terminator truncated this to
+    # "Commission" in five separate biennia, and "Commission" resolves to nothing.
+    ("There is appropriated to the Commission for the Blind, for the biennium beginning "
+     "July 1, 2017, out of the General Fund", "Commission for the Blind"),
+    # "for" starting a PURPOSE clause — the department is the recipient, the rest is what
+    # the money is for. Widening `for` generally broke this.
+    ("appropriated to the Department of Education for the Educator Advancement Council, "
+     "for the biennium", "Department of Education"),
+    # over-capture into the verb: "...Department to carry out section 2 of this 2024 Act"
+    ("continuously appropriated to the Oregon Business Development Department to carry out "
+     "section 2", "Oregon Business Development Department"),
+    # the article is optional
+    ("is appropriated to Oregon Health Authority, for the biennium", "Oregon Health Authority"),
+    ("appropriated to the Department of Geology and Mineral Industries, for the biennium",
+     "Department of Geology and Mineral Industries"),
+])
+def test_recipient_capture(text, expected):
+    m = APPROPRIATED_TO.search(text)
+    assert m and m.group(1) == expected
+
+
+def test_a_blank_recipient_is_detected_not_mistaken_for_a_parser_failure():
+    """The HB 5000-series budget templates read "appropriated to ______" — the bill names
+    nobody yet. 62 of the 68 documents with no captured agency are this. Reporting them as
+    extraction failures sent me chasing a regex bug that did not exist."""
+    t = ("is appropriated to ______, for the biennium beginning July 1, 2017, out of the "
+         "General Fund, the amount of $ ")
+    assert APPROPRIATED_TO.search(t) is None
+    assert BLANK_RECIPIENT.search(t) is not None
+    parsed = parse_bill(t, t.splitlines())
+    assert parsed["blank_recipient"] is True

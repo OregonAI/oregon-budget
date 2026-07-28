@@ -60,8 +60,39 @@ DISCLAIMER = "NON-AUTHORITATIVE"
 
 MARGIN_NUMBER = re.compile(r"\s*\d{1,2}\s*")
 AMOUNT = re.compile(r"\$\s?(\d[\d,]*(?:\.\d{2})?)")
+# The recipient of an appropriation.
+#
+# The article is OPTIONAL: bills write both "appropriated to the Department of Energy" and
+# "appropriated to Oregon Health Authority".
+#
+# TERMINATORS, each one earned by a bill that the previous version got wrong:
+#   ,                       the usual case
+#   for                    stops the purpose clause: "appropriated to the Department of
+#                           Education for the Educator Advancement Council" names the
+#                           DEPARTMENT; the rest is what the money is for.
+#                           EXCEPT for the three agency names that genuinely contain
+#                           "for" — a bare terminator truncated "Commission for the Blind"
+#                           to "Commission" in five separate biennia. The exception list is
+#                           closed and derived from the registry (3 of 187 names), not
+#                           guessed; widening `for` generally over-captured 3 bills.
+#   out of                  "appropriated to X out of the General Fund"
+#   to <lowercase>          "...Department to carry out section 2" over-ran into the verb.
+#                           Requiring lowercase after `to` keeps "to the Commission" safe,
+#                           since a name continues with a capital.
 APPROPRIATED_TO = re.compile(
-    r"appropriat(?:ed|ion)\s+to\s+the\s+([A-Z][A-Za-z’'\- ]{3,70}?)(?=,|\s+for\s|\s+out\s)", re.I)
+    r"appropriat(?:ed|ion)\s+to\s+(?:the\s+)?"
+    r"([A-Z][A-Za-z’'&/.\- ]{3,70}?)"
+    r"(?=,"
+    r"|\s+for\s(?!the\s+Blind\b|Engineering\s+and\s+Land|Speech-Language)"
+    r"|\s+out\s+of"
+    r"|\s+to\s+[a-z])", re.I)
+
+# A bill can leave the RECIPIENT blank too, not just the amount: the HB 5000-series budget
+# templates read "is appropriated to ______, for the biennium beginning July 1, 2017, out
+# of the General Fund, the amount of $___". 62 of the 68 documents with no captured agency
+# are this, NOT a regex failure — the bill genuinely names nobody yet. Detected so the
+# document can say so instead of looking like an extraction bug.
+BLANK_RECIPIENT = re.compile(r"appropriat(?:ed|ion)\s+to\s+_{2,}", re.I)
 AMOUNT_OF = re.compile(r"the\s+amount\s+of\s+\$\s?(\d[\d,]*(?:\.\d{2})?)")
 SUBITEM = re.compile(r"\((\d+)\)\s*([^$]{0,160}?)\$\s?(\d[\d,]*(?:\.\d{2})?)")
 FUND = re.compile(r"out\s+of\s+the\s+([A-Z][A-Za-z ]{2,40}?\s+Fund)", re.I)
@@ -247,6 +278,7 @@ def parse_bill(flowed: str, raw_lines: list[str]) -> dict:
         "subsections": [x for s in sections for x in s["subsections"]],
         "distinct_amounts_in_text": len(AMOUNT.findall(flowed)),
         "blank_amounts": len(BLANK_AMOUNT.findall(flowed)),
+        "blank_recipient": bool(BLANK_RECIPIENT.search(flowed)),
     }
 
 
@@ -383,6 +415,7 @@ def build_doc(measure: dict, parsed: dict, rec: dict, sibling_sha: str, today: s
         "biennium": parsed["biennium"],
         "biennium_fiscal_years": parsed["biennium_fiscal_years"],
         "blank_amounts": parsed.get("blank_amounts", 0),
+        "blank_recipient": parsed.get("blank_recipient", False),
     }
 
     L = []
@@ -435,6 +468,12 @@ def build_doc(measure: dict, parsed: dict, rec: dict, sibling_sha: str, today: s
 
     L.append("## Curator notes")
     L.append("")
+    if parsed.get("blank_recipient"):
+        L.append("**This bill leaves the RECIPIENT blank** — the text reads \"appropriated "
+                 "to ______\". It is a budget-bill template whose agency has not been "
+                 "filled in yet. No agency could be extracted because the bill names none; "
+                 "this is not an extraction failure.")
+        L.append("")
     if parsed.get("blank_amounts"):
         L.append(f"**This bill contains {parsed['blank_amounts']} appropriation(s) with the "
                  f"dollar figure LEFT BLANK** — the text reads \"the amount of $\" with no "

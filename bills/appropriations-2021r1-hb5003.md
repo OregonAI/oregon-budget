@@ -33,13 +33,14 @@ sibling_document_id: measure-2021r1-hb5003
 sibling_snapshot_id: measure-2021r1-hb5003-enrolled
 sibling_source_sha256: 6b07c72f4c7f044c29be67aae2b13bd6051481c426be7cfd2d8df1898b1f5ab1
 extraction_status: single-appropriation
-appropriated_to: Commission
+appropriated_to: Commission for the Blind
 fund: General Fund
 biennium: beginning 2021
 biennium_fiscal_years:
 - 2022
 - 2023
 blank_amounts: 0
+blank_recipient: false
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -53,7 +54,7 @@ blank_amounts: 0
 
 HB 5003 (2021R1): Appropriates moneys from General Fund to Commission for the Blind for biennial expenses.
 
-Parsed context: appropriated to **Commission**, out of the **General Fund**, for the biennium **beginning 2021** (fiscal years 2022–2023).
+Parsed context: appropriated to **Commission for the Blind**, out of the **General Fund**, for the biennium **beginning 2021** (fiscal years 2022–2023).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

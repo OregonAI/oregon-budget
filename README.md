@@ -64,8 +64,8 @@ and this dataset has no such column.
 | of those, sums left blank in the bill | 142 — appropriated, amount unspecified |
 | biennium outside the FY2019–FY2025 mirror | 196 — the money is not spent yet |
 | overlapping the mirror | 544 |
-| agency resolves exactly → joined | **468** |
-| agency does not resolve → recorded unresolved, never guessed | 76 |
+| agency resolves exactly → joined | **473** |
+| agency does not resolve → recorded unresolved, never guessed | 71 — of which 51 are bills that name no agency at all |
 
 Joins now span **all seven mirrored fiscal years** (FY2019–FY2025) across 36 agencies,
 rather than the FY2024–25 sliver the first pass could reach.
