@@ -117,9 +117,36 @@ The 12 largest of 66 expenditure classes used by this agency in FY2025.
 | 4550 | Attorney General Legal Fees | $457,458.11 | 2.9% |
 | 7250 | Interest-Bonds | $320,694.52 | 2.0% |
 
+## Largest vendors
+
+The 20 largest of 191 payees this agency recorded payments to in FY2025, accounting for 85.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $6,338,749.22 | 40.3% | 14 |
+| ARAMARK SERVICES INC | $1,081,970.30 | 6.9% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $979,835.14 | 6.2% | 32 |
+| DESCHUTES COUNTY | $745,710.77 | 4.7% | 1 |
+| DEPT OF STATE POLICE | $648,880.75 | 4.1% | 4 |
+| SHI INTERNATIONAL CORP | $416,495.04 | 2.6% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $404,733.11 | 2.6% | 2 |
+| PORTLAND GENERAL ELECTRIC COMPANY | $378,758.06 | 2.4% | 1 |
+| DOOLEY ENTERPRISES INC | $377,436.83 | 2.4% | 1 |
+| CITY OF PORTLAND | $273,707.66 | 1.7% | 1 |
+| CLACKAMAS COUNTY | $261,948.11 | 1.7% | 1 |
+| BOARD OF PUBLIC SAFETY STANDARDS & TRAINING | $210,822.36 | 1.3% | 13 |
+| DOUGLAS INTERAGENCY NARCOTICS TEAM | $201,711.02 | 1.3% | 1 |
+| ACTION TARGET | $201,450.00 | 1.3% | 3 |
+| WASHINGTON COUNTY SHERIFF | $180,379.72 | 1.1% | 1 |
+| EMPLOYMENT DEPARTMENT | $158,247.71 | 1.0% | 3 |
+| MULTNOMAH COUNTY SHERIFF | $152,312.67 | 1.0% | 1 |
+| CITY OF PENDLETON POLICE DEPARTMENT | $147,139.58 | 0.9% | 1 |
+| CDW GOVERNMENT INC | $146,242.15 | 0.9% | 4 |
+| MEDFORD POLICE DEPT | $137,279.96 | 0.9% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 296 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 296 vendor-level transaction records covering 191 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

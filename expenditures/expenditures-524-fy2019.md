@@ -101,9 +101,36 @@ The 12 largest of 50 expenditure classes used by this agency in FY2019.
 | 4550 | Attorney General Legal Fees | $25,771.20 | 1.4% |
 | 3210 | Public Employees Retirement Contribution | $15,148.37 | 0.8% |
 
+## Largest vendors
+
+The 20 largest of 36 payees this agency recorded payments to in FY2019, accounting for 99.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| P&M HOLDING GROUP LLP | $542,844.96 | 28.5% | 3 |
+| EKS & H LLLP | $528,008.00 | 27.8% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $438,021.79 | 23.0% | 9 |
+| DEPARTMENT OF CONSUMER AND BUSINESS SERVICES | $157,240.26 | 8.3% | 11 |
+| OFFICE OF THE GOVERNOR | $75,580.13 | 4.0% | 11 |
+| CSG GOVERNMENT SOLUTIONS INC | $52,312.00 | 2.7% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $25,771.20 | 1.4% | 1 |
+| STATE OF OREGON DEPARTMENT OF EDUCATION | $17,603.37 | 0.9% | 5 |
+| STATE OF OREGON SECRETARY OF STATE | $8,532.19 | 0.4% | 1 |
+| GALT FOUNDATION | $8,501.84 | 0.4% | 1 |
+| RICOH USA INC | $8,432.73 | 0.4% | 1 |
+| LEGISLATIVE COUNSEL COMMITTEE | $7,406.00 | 0.4% | 1 |
+| PORTLAND STATE UNIVERSITY | $6,000.00 | 0.3% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $5,000.05 | 0.3% | 3 |
+| TRANSFORMATION SYSTEMS INTERNATIONAL LLC | $4,048.00 | 0.2% | 1 |
+| EMPLOYMENT DEPARTMENT | $3,060.00 | 0.2% | 1 |
+| HEALTHY BUSINESS SYSTEMS & ASSOCIATES LLC | $2,900.00 | 0.2% | 1 |
+| HILDA ROSSELLI | $2,743.60 | 0.1% | 17 |
+| IBM CORPORATION | $2,105.49 | 0.1% | 1 |
+| LINDSEY CAPPS | $1,823.32 | 0.1% | 14 |
+
 ## Curator notes
 
-Figures are aggregated from 116 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 116 vendor-level transaction records covering 36 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -91,9 +91,36 @@ The 12 largest of 34 expenditure classes used by this agency in FY2024.
 | 4440 | Prof Dev Out-Of-State Air Transportation | $3,609.20 | 0.5% |
 | 4432 | Prof Dev Out-Of-State Meal W/Overnite | $3,359.35 | 0.4% |
 
+## Largest vendors
+
+The 20 largest of 59 payees this agency recorded payments to in FY2024, accounting for 98.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| LINGUAVA INTERPRETERS | $305,932.44 | 40.5% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $195,616.75 | 25.9% | 5 |
+| PURPLE COMMUNICATIONS INC | $138,187.30 | 18.3% | 2 |
+| CDW GOVERNMENT INC | $32,079.65 | 4.3% | 3 |
+| STATE OF OREGON SECRETARY OF STATE | $18,611.02 | 2.5% | 2 |
+| EMPLOYMENT DEPARTMENT | $12,719.19 | 1.7% | 1 |
+| PORTLAND STATE UNIVERSITY | $7,700.00 | 1.0% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $5,364.47 | 0.7% | 3 |
+| QUALTRICS LLC | $3,390.19 | 0.4% | 1 |
+| SHI INTERNATIONAL CORP | $2,789.48 | 0.4% | 1 |
+| MISTY FREEMAN | $2,596.25 | 0.3% | 5 |
+| LISA RYBLOOM | $2,088.80 | 0.3% | 10 |
+| LNS COURT REPORTING & LEGAL VIDEO | $2,030.00 | 0.3% | 1 |
+| BEVERLY SCHOONOVER | $1,579.67 | 0.2% | 8 |
+| COUNCIL OF STATE GOVERNMENTS | $1,575.00 | 0.2% | 1 |
+| AMIE FENDER-SOSA | $1,564.95 | 0.2% | 8 |
+| BETH REILEY | $1,531.30 | 0.2% | 8 |
+| LESLIE PORTER | $1,470.34 | 0.2% | 5 |
+| PROFESSIONAL INTERPRETERS | $1,200.00 | 0.2% | 1 |
+| NATIONAL CONFERENCE OF STATE LEGISLATURES | $1,180.00 | 0.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 161 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 161 vendor-level transaction records covering 59 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

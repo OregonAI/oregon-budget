@@ -81,9 +81,25 @@ The 8 largest of 8 expenditure classes used by this agency in FY2023.
 | 4201 | Office Services | $43.11 | 0.0% |
 | 3210 | Public Employees Retirement Contribution | $28.00 | 0.0% |
 
+## Largest vendors
+
+The 9 largest of 9 payees this agency recorded payments to in FY2023, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $329,523.22 | 77.9% | 4 |
+| FREE STATE REPORTING INC | $33,122.40 | 7.8% | 1 |
+| CVE TECHNOLOGIES GROUP INC | $20,790.00 | 4.9% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $18,846.50 | 4.5% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $8,185.00 | 1.9% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $4,693.52 | 1.1% | 1 |
+| SHI INTERNATIONAL CORP | $4,051.50 | 1.0% | 1 |
+| ESCRIBERS LLC | $3,857.90 | 0.9% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $28.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 12 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 12 vendor-level transaction records covering 9 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

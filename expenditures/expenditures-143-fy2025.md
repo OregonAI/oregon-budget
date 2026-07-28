@@ -89,9 +89,36 @@ The 12 largest of 36 expenditure classes used by this agency in FY2025.
 | 4441 | Prof Dev Out-Of-State Ground Transprtatn | $3,995.35 | 0.3% |
 | 4434 | Prof Dev Out-Of-State Lodging | $3,644.36 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 76 payees this agency recorded payments to in FY2025, accounting for 97.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| ANNE TUMLINSON INNOVATIONS | $359,884.50 | 28.9% | 1 |
+| AMERICAN INSTITUTES RESEARCH | $300,000.00 | 24.1% | 2 |
+| PURPLE COMMUNICATIONS INC | $203,602.49 | 16.4% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $201,004.16 | 16.2% | 6 |
+| ATKINSREALIS USA INC | $39,500.00 | 3.2% | 1 |
+| EMPLOYMENT DEPARTMENT | $27,663.05 | 2.2% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $17,929.02 | 1.4% | 2 |
+| CDW GOVERNMENT INC | $17,665.74 | 1.4% | 3 |
+| PROFESSIONAL INTERPRETERS | $11,643.50 | 0.9% | 1 |
+| SHI INTERNATIONAL CORP | $5,318.91 | 0.4% | 2 |
+| PACIFIC OFFICE AUTOMATION INC | $4,257.95 | 0.3% | 5 |
+| PORTLAND STATE UNIVERSITY | $3,910.00 | 0.3% | 1 |
+| LESLIE PORTER | $3,623.28 | 0.3% | 7 |
+| DEPARTMENT OF JUSTICE | $3,492.50 | 0.3% | 1 |
+| ERIN C PISCHKE | $2,618.34 | 0.2% | 12 |
+| LANDMARK AWARDS & ENGRAVING | $2,205.50 | 0.2% | 1 |
+| OREGON CERTIFIED INTERPRETERS NETWORK INC | $1,926.35 | 0.2% | 1 |
+| OLIVER DROPPERS | $1,882.46 | 0.2% | 6 |
+| ELLEN ANNE O'BRIEN | $1,881.11 | 0.2% | 5 |
+| DESI ROOT | $1,721.41 | 0.1% | 5 |
+
 ## Curator notes
 
-Figures are aggregated from 217 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 217 vendor-level transaction records covering 76 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

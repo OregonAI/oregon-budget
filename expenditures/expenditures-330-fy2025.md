@@ -120,9 +120,36 @@ The 12 largest of 94 expenditure classes used by this agency in FY2025.
 | 4550 | Attorney General Legal Fees | $617,029.74 | 1.5% |
 | 4800 | Interagency Lease Payments | $600,249.04 | 1.5% |
 
+## Largest vendors
+
+The 20 largest of 322 payees this agency recorded payments to in FY2025, accounting for 72.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON STATE TREASURY | $12,548,296.95 | 31.1% | 5 |
+| TOTAL COMFORT WEATHERIZATION LTD | $2,444,966.65 | 6.1% | 1 |
+| EARTH ADVANTAGE INC | $2,243,562.80 | 5.6% | 3 |
+| RESILIENT RETROFITS LLC | $1,418,954.82 | 3.5% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,165,600.33 | 2.9% | 16 |
+| ILLINOIS VALLEY COMMUNITY DEVELOPMENT ORG | $991,514.00 | 2.5% | 1 |
+| HOME ENERGY SCIENCES INC | $903,920.20 | 2.2% | 1 |
+| MT HOOD DUCTLESS INCORPORATED | $887,250.80 | 2.2% | 1 |
+| ALPINE HEATING LLC | $816,085.80 | 2.0% | 1 |
+| CLEAN ENERGY TRANSITION INSTITUTE | $671,040.44 | 1.7% | 1 |
+| CITY OF ASHLAND | $658,000.00 | 1.6% | 1 |
+| DEPARTMENT OF JUSTICE | $617,029.74 | 1.5% | 1 |
+| HALEY & ALDRICH | $593,184.87 | 1.5% | 1 |
+| REGIONAL RURAL REVITALIZATION CONSORTIUM | $551,085.50 | 1.4% | 1 |
+| CITY OF THE DALLES | $530,636.00 | 1.3% | 1 |
+| GILLS INDOOR AIR QUALITY INC | $488,820.00 | 1.2% | 1 |
+| MONTGOMERY HEATING & AIR CONDITIONING INC | $475,395.00 | 1.2% | 1 |
+| KLAMATH COMMUNITY COLLEGE | $420,682.36 | 1.0% | 1 |
+| OREGON STATE UNIVERSITY | $411,730.26 | 1.0% | 3 |
+| CHEMEKETA COMMUNITY COLLEGE | $411,089.14 | 1.0% | 4 |
+
 ## Curator notes
 
-Figures are aggregated from 550 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 550 vendor-level transaction records covering 322 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

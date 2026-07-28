@@ -101,9 +101,9 @@ The largest budget category was **Distribution To Other Govts** at $33,682,511.1
 | 4375 | Employee Recruitment And Development | $22,168.18 | 0.0% | 5 |
 | 3220 | Public Employes' Retirement System | $12,820.76 | 0.0% | 8 |
 | 3270 | Flexible Benefits | $12,704.18 | 0.0% | 5 |
+| 6170 | Dist To Treasury Dept | $12,108.78 | 0.0% | 1 |
 | 6340 | Dist To Deq | $12,108.78 | 0.0% | 1 |
 | 6581 | Dist To Dept Of Education | $12,108.78 | 0.0% | 1 |
-| 6170 | Dist To Treasury Dept | $12,108.78 | 0.0% | 1 |
 | 6040 | Distribution To Local School Dist | $12,000.00 | 0.0% | 3 |
 | 5100 | Office Furniture And Fixtures | $8,525.63 | 0.0% | 1 |
 | 3230 | Social Security Tax | $5,648.78 | 0.0% | 4 |
@@ -136,9 +136,36 @@ The 12 largest of 133 expenditure classes used by this agency in FY2023.
 | 4600 | State Government Service Charges | $4,533,447.66 | 2.6% |
 | 5805 | Buildings & Improvements>=$5K | $4,327,283.73 | 2.4% |
 
+## Largest vendors
+
+The 20 largest of 2,460 payees this agency recorded payments to in FY2023, accounting for 40.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| ROSENBAUER SOUTH DAKOTA LLC | $14,526,427.50 | 8.2% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $11,371,418.50 | 6.4% | 18 |
+| HIGHWAY DIVISION | $4,771,839.27 | 2.7% | 2 |
+| CARSON OIL COMPANY INC | $3,906,714.34 | 2.2% | 1 |
+| JE DUNN CONSTRUCTION CO | $3,769,399.00 | 2.1% | 1 |
+| WITHNELL MOTOR COMPANY | $3,498,129.89 | 2.0% | 3 |
+| SIDDONS MARTIN EMERGENCY GROUP LLC | $3,234,310.50 | 1.8% | 1 |
+| OSP PROPERTY (DE) LLC | $3,024,600.78 | 1.7% | 2 |
+| CDW GOVERNMENT INC | $2,876,360.46 | 1.6% | 12 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $2,779,732.17 | 1.6% | 62 |
+| OREGON DEPARTMENT OF FORESTRY | $2,425,448.97 | 1.4% | 8 |
+| OREGON DEPARTMENT OF TRANSPORTATION | $2,355,406.35 | 1.3% | 7 |
+| GRAINGER | $2,139,296.59 | 1.2% | 9 |
+| MID-COLUMBIA FIRE AND RESCUE | $2,036,100.00 | 1.2% | 2 |
+| ROBERSON MOTORS INC | $1,691,386.89 | 1.0% | 3 |
+| STATE OF WASHINGTON MILITARY DEPARTMENT | $1,589,823.45 | 0.9% | 1 |
+| SHI INTERNATIONAL CORP | $1,557,562.99 | 0.9% | 3 |
+| KLAMATH COUNTY FIRE DISTRICT #1 | $1,544,300.00 | 0.9% | 2 |
+| CALIFORNIA OFFICE OF EMERGENCY SERVICES | $1,369,587.63 | 0.8% | 1 |
+| CLACKAMAS FIRE DISTRICT 1 | $1,349,432.72 | 0.8% | 5 |
+
 ## Curator notes
 
-Figures are aggregated from 5,208 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 5,208 vendor-level transaction records covering 2,460 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

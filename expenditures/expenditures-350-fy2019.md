@@ -87,9 +87,26 @@ The 12 largest of 16 expenditure classes used by this agency in FY2019.
 | 4255 | Prizes And Awards | $129.19 | 0.0% |
 | 4253 | Advertise, Publicity, Publish/Print Srvs | $113.06 | 0.0% |
 
+## Largest vendors
+
+The 10 largest of 10 payees this agency recorded payments to in FY2019, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| COLUMBIA RIVER GORGE COMMISSION | $499,757.87 | 98.5% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $2,565.17 | 0.5% | 5 |
+| ANTONE MINTHORN | $1,778.69 | 0.4% | 8 |
+| RODGER NICHOLS | $918.70 | 0.2% | 6 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $634.00 | 0.1% | 1 |
+| BOWEN BLAIR | $519.44 | 0.1% | 4 |
+| DANIEL W ERICKSEN | $399.06 | 0.1% | 3 |
+| ROBERT LIBERY | $329.01 | 0.1% | 3 |
+| PRINT IT INC | $137.79 | 0.0% | 2 |
+| OREGON STATE TREASURY | $120.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 35 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 35 vendor-level transaction records covering 10 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

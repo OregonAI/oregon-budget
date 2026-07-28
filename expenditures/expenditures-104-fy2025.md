@@ -82,9 +82,23 @@ The 10 largest of 10 expenditure classes used by this agency in FY2025.
 | 4305 | Telecom/Network Services | $89.64 | 0.2% |
 | 4366 | Computer Technology Pc Software<$5K | $76.95 | 0.2% |
 
+## Largest vendors
+
+The 7 largest of 7 payees this agency recorded payments to in FY2025, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $47,935.63 | 96.7% | 7 |
+| US BANK NATIONAL ASSOCIATION ND | $728.00 | 1.5% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $354.00 | 0.7% | 1 |
+| CDW GOVERNMENT INC | $184.23 | 0.4% | 1 |
+| CASCADE CENTERS INC | $169.92 | 0.3% | 1 |
+| OREGON STATE TREASURY | $132.00 | 0.3% | 1 |
+| SHI INTERNATIONAL CORP | $76.95 | 0.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 13 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 13 vendor-level transaction records covering 7 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

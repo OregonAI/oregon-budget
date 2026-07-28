@@ -91,9 +91,36 @@ The 12 largest of 21 expenditure classes used by this agency in FY2021.
 | 4301 | Telecom/Voice Usage | $6,439.78 | 0.8% |
 | 4307 | Telecom/Network Support | $3,600.00 | 0.5% |
 
+## Largest vendors
+
+The 20 largest of 24 payees this agency recorded payments to in FY2021, accounting for 99.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $276,419.50 | 35.3% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $158,517.51 | 20.2% | 8 |
+| WESTPAC INVESTMENT COMPANY | $119,090.58 | 15.2% | 2 |
+| EMPLOYMENT DEPARTMENT | $100,297.47 | 12.8% | 1 |
+| OREGON STATE POLICE | $67,590.00 | 8.6% | 1 |
+| US BANK NATIONAL ASSOCIATION | $19,028.64 | 2.4% | 2 |
+| CDW GOVERNMENT INC | $8,995.03 | 1.1% | 2 |
+| RESONANCE COUNSELING AND CONSULTATION LLC | $7,500.00 | 1.0% | 2 |
+| ROBERT L DENNEY PSY D LLC | $6,475.00 | 0.8% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $5,719.92 | 0.7% | 1 |
+| CONFUZER INC | $5,400.00 | 0.7% | 2 |
+| IBM CORPORATION | $3,545.86 | 0.5% | 1 |
+| DEPARTMENT OF REVENUE | $1,362.65 | 0.2% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $994.18 | 0.1% | 1 |
+| ASSN OF MARITAL & FAMILY THERAPY REGULATORY BOARDS | $500.00 | 0.1% | 1 |
+| DEPENDABLE PRINTER SUPPORT INC | $436.00 | 0.1% | 1 |
+| CAROLYN ALEXANDER | $361.98 | 0.0% | 2 |
+| OREGON DEPARTMENT OF REVENUE | $352.49 | 0.0% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $307.70 | 0.0% | 1 |
+| OREGON STATE TREASURY | $276.85 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 37 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 37 vendor-level transaction records covering 24 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

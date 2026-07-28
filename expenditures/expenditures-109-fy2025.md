@@ -102,9 +102,36 @@ The 12 largest of 60 expenditure classes used by this agency in FY2025.
 | 4825 | Fuels And Utilities | $101,840.99 | 1.0% |
 | 4362 | Computer Technology Server Support | $83,984.87 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 184 payees this agency recorded payments to in FY2025, accounting for 84.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| KNIFE RIVER MATERIALS | $3,166,215.55 | 32.3% | 1 |
+| CENTURY WEST ENGINEERING CORP | $1,465,787.80 | 15.0% | 1 |
+| CR CONTRACTING LLC | $603,812.87 | 6.2% | 1 |
+| MADRAS CITY OF | $354,080.46 | 3.6% | 2 |
+| AEGIS ASPHALT CONSTRUCTION | $337,497.34 | 3.4% | 2 |
+| THE DALLES CITY OF | $291,073.24 | 3.0% | 1 |
+| CITY OF REDMOND | $221,617.80 | 2.3% | 1 |
+| EUGENE CITY OF | $203,493.48 | 2.1% | 2 |
+| KNL INDUSTRIES INC | $186,487.80 | 1.9% | 1 |
+| OREGON DEPT OF ADMINISTRATIVE SERVICES | $180,966.73 | 1.8% | 6 |
+| SISTERS AIRPORT PROPERTY LLC | $150,000.00 | 1.5% | 1 |
+| ELK MOUNTAIN TIMBER | $144,536.39 | 1.5% | 1 |
+| CITY OF ASHLAND | $141,930.83 | 1.4% | 1 |
+| BEND CITY OF | $138,147.70 | 1.4% | 1 |
+| GRI | $127,321.09 | 1.3% | 1 |
+| PORT OF COLUMBIA COUNTY | $121,695.64 | 1.2% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $120,820.30 | 1.2% | 27 |
+| JACKSON COUNTY | $118,052.60 | 1.2% | 2 |
+| ROSEBURG CITY OF | $117,336.97 | 1.2% | 1 |
+| OREGON DEPARTMENT OF TRANSPORTATION | $112,917.00 | 1.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 278 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 278 vendor-level transaction records covering 184 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

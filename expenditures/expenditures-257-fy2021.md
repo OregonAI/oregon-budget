@@ -97,8 +97,8 @@ The largest budget category was **Distribution To Non-Governments** at $24,166,4
 | 5150 | Telecommunications | $30,714.20 | 0.0% | 2 |
 | 5600 | Data Processing Hardware | $25,971.42 | 0.0% | 1 |
 | 6213 | Dist To Criminal Justice Cmsn | $22,896.35 | 0.0% | 1 |
-| 6340 | Dist To Deq | $9,954.94 | 0.0% | 1 |
 | 6581 | Dist To Dept Of Education | $9,954.94 | 0.0% | 1 |
+| 6340 | Dist To Deq | $9,954.94 | 0.0% | 1 |
 | 6170 | Dist To Treasury Dept | $6,476.80 | 0.0% | 1 |
 | 7150 | Interest - Bonds | $6,001.04 | 0.0% | 1 |
 | 5700 | Buildings And Structures | $5,385.00 | 0.0% | 2 |
@@ -128,9 +128,36 @@ The 12 largest of 113 expenditure classes used by this agency in FY2021.
 | 4701 | Other Services | $1,920,318.22 | 2.2% |
 | 4976 | Agency Program Related Supplies | $1,808,644.16 | 2.0% |
 
+## Largest vendors
+
+The 20 largest of 1,912 payees this agency recorded payments to in FY2021, accounting for 50.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $9,899,852.52 | 11.1% | 18 |
+| HIGHWAY DIVISION | $6,743,921.60 | 7.6% | 2 |
+| OSP PROPERTY (DE) LLC | $2,841,635.93 | 3.2% | 1 |
+| STATE OF UTAH | $2,390,213.43 | 2.7% | 1 |
+| OREGON DEPARTMENT OF FORESTRY | $2,307,042.03 | 2.6% | 19 |
+| CARSON OIL COMPANY INC | $2,242,026.44 | 2.5% | 2 |
+| CLACKAMAS FIRE DISTRICT 1 | $2,076,760.19 | 2.3% | 2 |
+| DHS US CITIZENSHP & IMMIGRATION SERVICES | $1,850,787.00 | 2.1% | 1 |
+| CITY OF PORTLAND | $1,847,194.90 | 2.1% | 8 |
+| COBAN TECHNOLOGIES INC | $1,833,284.85 | 2.1% | 3 |
+| WITHNELL MOTOR COMPANY | $1,816,088.85 | 2.0% | 3 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $1,354,041.17 | 1.5% | 48 |
+| CDW GOVERNMENT INC | $1,036,722.35 | 1.2% | 11 |
+| SHI INTERNATIONAL CORP | $987,648.34 | 1.1% | 6 |
+| TUALATIN VALLEY FIRE & RESCUE | $984,111.27 | 1.1% | 4 |
+| CITY OF EUGENE | $961,447.70 | 1.1% | 4 |
+| WESTERN IDENTIFICATION NETWORK INC | $940,172.17 | 1.1% | 2 |
+| DOOLEY ENTERPRISES INC | $897,253.24 | 1.0% | 1 |
+| INQUIRIES ACQUISITION LLC | $872,781.00 | 1.0% | 2 |
+| CITY OF MEDFORD | $848,180.29 | 1.0% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 3,098 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 3,098 vendor-level transaction records covering 1,912 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

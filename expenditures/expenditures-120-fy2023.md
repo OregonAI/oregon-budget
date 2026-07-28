@@ -102,9 +102,36 @@ The 12 largest of 42 expenditure classes used by this agency in FY2023.
 | 3263 | Medical,Dental,Life Insurance | $7,109.45 | 1.6% |
 | 3210 | Public Employees Retirement Contribution | $6,537.44 | 1.4% |
 
+## Largest vendors
+
+The 20 largest of 26 payees this agency recorded payments to in FY2023, accounting for 99.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $142,045.67 | 31.1% | 8 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $125,582.08 | 27.5% | 1 |
+| PARK 5 CENTER | $60,118.85 | 13.2% | 1 |
+| OREGON HEALTH AUTHORITY | $30,477.82 | 6.7% | 10 |
+| DEPARTMENT OF HUMAN SERVICES | $26,558.61 | 5.8% | 11 |
+| US BANK NATIONAL ASSOCIATION | $22,261.61 | 4.9% | 2 |
+| CDW GOVERNMENT INC | $14,834.13 | 3.2% | 3 |
+| QWEST | $6,695.00 | 1.5% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $6,231.00 | 1.4% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $5,941.46 | 1.3% | 4 |
+| MARTIN PITTIONI | $4,914.21 | 1.1% | 10 |
+| KYNDRYL INC | $2,756.55 | 0.6% | 1 |
+| OSBEELS | $2,510.58 | 0.5% | 1 |
+| OREGON DEPARTMENT OF REVENUE | $1,261.53 | 0.3% | 1 |
+| JASON ROBINSON | $1,032.49 | 0.2% | 4 |
+| OREGON CORRECTIONS ENTERPRISES | $906.93 | 0.2% | 1 |
+| SHI INTERNATIONAL CORP | $734.96 | 0.2% | 2 |
+| OREGON STATE TREASURY | $589.70 | 0.1% | 1 |
+| OFFICE DEPOT BUSINESS SOLUTIONS LLC | $543.40 | 0.1% | 1 |
+| DAMASCUS COMMUNICATIONS INC | $280.00 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 73 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 73 vendor-level transaction records covering 26 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

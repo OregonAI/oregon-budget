@@ -96,9 +96,36 @@ The 12 largest of 56 expenditure classes used by this agency in FY2025.
 | 4108 | Instate Ground Transportation | $62,761.52 | 1.8% |
 | 4976 | Agency Program Related Supplies | $36,671.00 | 1.1% |
 
+## Largest vendors
+
+The 20 largest of 86 payees this agency recorded payments to in FY2025, accounting for 94.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,167,503.25 | 33.6% | 12 |
+| QUANTUM SPATIAL INC | $899,125.80 | 25.9% | 1 |
+| STANTEC CONSULTING SERVICES INC | $220,439.80 | 6.3% | 1 |
+| CARL ZEISS INC | $191,663.52 | 5.5% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $137,279.30 | 4.0% | 1 |
+| CDW GOVERNMENT INC | $106,465.48 | 3.1% | 4 |
+| BONSCI CONSULTING LLC | $105,787.50 | 3.0% | 1 |
+| EMPLOYMENT DEPARTMENT | $74,993.00 | 2.2% | 1 |
+| SHI INTERNATIONAL CORP | $69,908.41 | 2.0% | 2 |
+| VA INSTITUTE OF MARINE SCIENCE | $62,469.65 | 1.8% | 1 |
+| MOSS ADAMS LLP | $57,000.00 | 1.6% | 1 |
+| RUSSELL W TRIPP | $35,226.00 | 1.0% | 2 |
+| GNEISS EDITING LLC | $30,355.00 | 0.9% | 2 |
+| ENNIS-FLINT INC | $27,286.60 | 0.8% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $26,672.80 | 0.8% | 3 |
+| PLANET LABS INC | $17,478.75 | 0.5% | 1 |
+| RUARRI DAY-STIRRAT | $16,727.35 | 0.5% | 16 |
+| TARGETED FILM CORPORATION | $15,375.00 | 0.4% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $11,989.52 | 0.3% | 1 |
+| DEPT OF LAND CONSERVATION & DEVELOPMENT | $11,505.00 | 0.3% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 248 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 248 vendor-level transaction records covering 86 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

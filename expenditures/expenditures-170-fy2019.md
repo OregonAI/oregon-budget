@@ -100,9 +100,36 @@ The 12 largest of 77 expenditure classes used by this agency in FY2019.
 | 4515 | Professional Services Application Maint | $190,066.90 | 0.8% |
 | 4550 | Attorney General Legal Fees | $149,406.10 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 298 payees this agency recorded payments to in FY2019, accounting for 87.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| PJS LAND DEVELOPMENT LLC | $9,000,000.00 | 39.4% | 1 |
+| PFM ASSET MANAGEMENT LLC | $1,546,848.70 | 6.8% | 1 |
+| CONKLING FISKUM MCCORMICK | $1,390,153.58 | 6.1% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,385,127.79 | 6.1% | 12 |
+| US BANK NATIONAL ASSOCIATION | $1,138,614.21 | 5.0% | 1 |
+| SHI INTERNATIONAL CORP | $929,695.16 | 4.1% | 9 |
+| PACIFIC REALTY ASSOCIATES LP | $708,281.15 | 3.1% | 2 |
+| TGF PRODUCTIONS INC | $669,657.62 | 2.9% | 1 |
+| EROI INC | $398,390.31 | 1.7% | 1 |
+| DELOITTE COUNSULTING LLP | $383,234.00 | 1.7% | 1 |
+| TEKSYSTEMS GLOBAL SERVICES LLC | $367,713.40 | 1.6% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $314,829.26 | 1.4% | 1 |
+| SEGAL ADVISORS INC | $291,666.67 | 1.3% | 1 |
+| CDW GOVERNMENT INC | $282,081.12 | 1.2% | 8 |
+| DELOITTE & TOUCHE LLP | $212,406.94 | 0.9% | 2 |
+| SELLWOOD CONSULTING LLC | $211,375.00 | 0.9% | 1 |
+| HMI-OREGON DEALERSHIP | $190,100.87 | 0.8% | 1 |
+| ROCK CREEK PUBLISHING GROUP INC | $186,404.87 | 0.8% | 1 |
+| STATE STREET BANK & TRUST CO | $150,000.00 | 0.7% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $149,383.30 | 0.7% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 794 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 794 vendor-level transaction records covering 298 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

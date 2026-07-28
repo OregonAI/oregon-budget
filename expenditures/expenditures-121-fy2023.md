@@ -105,9 +105,36 @@ The 12 largest of 71 expenditure classes used by this agency in FY2023.
 | 4372 | Computer Technology Peripheral Equip<$5K | $86,538.43 | 2.3% |
 | 4365 | Computer Technology Pc Equipment<$5K | $84,097.25 | 2.2% |
 
+## Largest vendors
+
+The 20 largest of 130 payees this agency recorded payments to in FY2023, accounting for 91.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,709,561.86 | 44.5% | 16 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $308,059.53 | 8.0% | 3 |
+| OREGON DEPARTMENT OF FORESTRY | $244,376.13 | 6.4% | 13 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $161,498.02 | 4.2% | 14 |
+| OREGON YOUTH AUTHORITY | $158,472.53 | 4.1% | 8 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $112,584.00 | 2.9% | 2 |
+| CDW GOVERNMENT INC | $109,183.75 | 2.8% | 4 |
+| NATIONAL GOVERNORS' ASSOCIATION | $106,600.00 | 2.8% | 1 |
+| ROSS & ASSOCIATES ENVIRONMENTAL CONSULTING LTD | $100,000.00 | 2.6% | 1 |
+| EMPLOYMENT DEPARTMENT | $90,009.97 | 2.3% | 1 |
+| DEPT OF STATE POLICE | $58,566.56 | 1.5% | 10 |
+| UNIVERSITY OF OREGON | $54,886.30 | 1.4% | 1 |
+| DEQ NW REGION | $50,291.92 | 1.3% | 9 |
+| ARIANE N LE CHEVALLIER | $48,112.50 | 1.3% | 1 |
+| LEGISLATIVE ADMIN COMMITTEE | $46,026.60 | 1.2% | 3 |
+| WESTERN GOVERNOR'S ASSOCIATION | $39,600.00 | 1.0% | 1 |
+| OR BUSINESS DEVELOPMENT DEPARTMENT | $38,500.00 | 1.0% | 1 |
+| SHI INTERNATIONAL CORP | $34,561.94 | 0.9% | 1 |
+| MULTNOMAH COUNTY SHERIFF | $24,545.66 | 0.6% | 5 |
+| OFFICE OF THE GOVERNOR | $23,106.95 | 0.6% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 434 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 434 vendor-level transaction records covering 130 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

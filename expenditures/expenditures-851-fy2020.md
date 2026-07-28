@@ -100,9 +100,36 @@ The 12 largest of 55 expenditure classes used by this agency in FY2020.
 | 4366 | Computer Technology Pc Software<$5K | $45,780.33 | 1.2% |
 | 4514 | Professional Services Application Mod | $40,113.75 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 112 payees this agency recorded payments to in FY2020, accounting for 93.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF JUSTICE | $673,515.73 | 17.1% | 1 |
+| RELIANT BEHAVIORAL HEALTH LLC | $542,002.00 | 13.8% | 1 |
+| DEPT OF STATE POLICE | $534,190.00 | 13.6% | 1 |
+| HEADMASTER LLP | $477,021.00 | 12.1% | 1 |
+| OREGON CENTER FOR NURSING | $354,443.00 | 9.0% | 2 |
+| BOONES FERRY BUSINESS PARK LLC | $234,768.11 | 6.0% | 1 |
+| EMPLOYMENT DEPARTMENT | $117,944.83 | 3.0% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $112,209.00 | 2.9% | 1 |
+| OREGON STATE TREASURY | $110,873.44 | 2.8% | 3 |
+| US BANK NATIONAL ASSOCIATION ND | $99,880.51 | 2.5% | 22 |
+| CDW GOVERNMENT INC | $81,685.65 | 2.1% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $80,171.44 | 2.0% | 7 |
+| RESOURCE DATA INC | $54,826.25 | 1.4% | 2 |
+| STANLEY CONVERGENT SECURITY SOLUTIONS INC | $37,705.21 | 1.0% | 1 |
+| IBM CORPORATION | $35,613.47 | 0.9% | 1 |
+| SHI INTERNATIONAL CORP | $31,069.97 | 0.8% | 1 |
+| G&S INTERNATIONAL LLC | $31,021.64 | 0.8% | 2 |
+| COMPUNET INC | $28,801.50 | 0.7% | 2 |
+| SECRETARY OF STATE | $26,909.44 | 0.7% | 1 |
+| HMI-OREGON DEALERSHIP | $23,670.40 | 0.6% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 235 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 235 vendor-level transaction records covering 112 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

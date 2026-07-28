@@ -97,9 +97,36 @@ The 12 largest of 43 expenditure classes used by this agency in FY2024.
 | 4200 | Office Supplies | $8,464.99 | 0.3% |
 | 4600 | State Government Service Charges | $8,131.54 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 131 payees this agency recorded payments to in FY2024, accounting for 91.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| GARD EDWARDS-ALDRIDGE INC | $909,358.54 | 36.7% | 2 |
+| OREGON STATE UNIVERSITY | $501,085.62 | 20.2% | 4 |
+| CAWOOD | $219,265.58 | 8.8% | 2 |
+| OREGON WOMEN IN TIMBER | $113,192.00 | 4.6% | 1 |
+| PETERKORT CENTRE II LLC | $97,837.35 | 3.9% | 1 |
+| PARALLEL PUBLIC WORKS INC | $85,577.75 | 3.4% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $79,799.64 | 3.2% | 29 |
+| CAFFERATA CONSULTING LLC | $45,049.99 | 1.8% | 2 |
+| DHM LLC | $41,500.00 | 1.7% | 1 |
+| CORAGGIO GROUP LLC | $29,911.50 | 1.2% | 1 |
+| OREGON SMALL WOODLANDS ASSOCIATION | $25,540.00 | 1.0% | 1 |
+| FORESTS FOREVER INC | $23,000.00 | 0.9% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $19,658.75 | 0.8% | 5 |
+| FORESTS TODAY & FOREVER | $19,124.31 | 0.8% | 1 |
+| SELECT IMPRESSIONS | $15,880.00 | 0.6% | 1 |
+| SHI INTERNATIONAL CORP | $13,737.06 | 0.6% | 3 |
+| JACKSON CO SCH DIST 6 | $10,945.27 | 0.4% | 1 |
+| SERVER LOGIC CORPORATION | $10,013.75 | 0.4% | 1 |
+| PORTLAND PUBLIC SCHOOLS | $9,179.36 | 0.4% | 1 |
+| SOCIETY OF AMERICAN FORESTERS | $9,100.00 | 0.4% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 211 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 211 vendor-level transaction records covering 131 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -87,6 +87,14 @@ DATASETS = {
             ("No negative amounts",
              "`expense` ranges from $0.01 to $5,325,594,372.67 with no reversals or credits, "
              "unlike the Lottery dataset. Refunds are evidently netted upstream."),
+            ("`vendor` is free text and is not de-duplicated",
+             "98,933 distinct strings, but not 98,933 distinct organisations: a payee is "
+             "whatever was entered in the statewide financial system, so one organisation "
+             "appears under several spellings — `OREGON STATE TREASURY` and `OFFICE OF THE "
+             "STATE TREASURER` are both present, as are `DEPARTMENT OF ADMINISTRATIVE "
+             "SERVICES` and `STATE OF OREGON DEPARTMENT OF EDUCATION`. Counting distinct "
+             "vendor strings undercounts the large payees, and no de-duplication is "
+             "applied anywhere in this repo."),
         ],
     },
     "budgeted-revenue": {
@@ -165,10 +173,10 @@ DATASETS = {
              "`177-OREGON STATE LOTTERY`, not separate code and name columns as in the other "
              "two datasets. Splitting on the first hyphen is safe here only because there is "
              "exactly one department."),
-            ("Vendor names are individuals in some rows",
-             "As with the agency dataset, `vendor_name` includes people. This corpus does "
-             "not republish vendor-level detail as indexed text; see the note in any "
-             "`expenditures/*.md` document."),
+            ("`vendor_name` is free text and is not de-duplicated",
+             "As with the agency dataset, a payee string is whatever was entered in the "
+             "source system, so one organisation can appear under several spellings. "
+             "Counting distinct strings undercounts the large payees."),
         ],
     },
 }

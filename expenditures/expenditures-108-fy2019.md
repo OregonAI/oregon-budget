@@ -94,9 +94,36 @@ The 12 largest of 34 expenditure classes used by this agency in FY2019.
 | 4730 | Merchant Fees | $11,955.01 | 1.7% |
 | 4201 | Office Services | $10,981.79 | 1.5% |
 
+## Largest vendors
+
+The 20 largest of 51 payees this agency recorded payments to in FY2019, accounting for 98.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $202,494.15 | 28.0% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $173,645.92 | 24.0% | 9 |
+| EMPLOYMENT DEPARTMENT | $133,158.10 | 18.4% | 2 |
+| WESTPAC INVESTMENT COMPANY | $86,016.30 | 11.9% | 1 |
+| DEPT OF STATE POLICE | $34,523.75 | 4.8% | 1 |
+| THENTIA GLOBAL SYSTEMS USA INC | $15,000.00 | 2.1% | 1 |
+| CONFUZER INC | $14,850.00 | 2.1% | 2 |
+| US BANK NATIONAL ASSOCIATION | $13,365.76 | 1.8% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $12,675.21 | 1.8% | 1 |
+| EASYSTREET ONLINE SERVICES | $6,062.40 | 0.8% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $2,862.07 | 0.4% | 3 |
+| STATE OF OREGON - SECRETARY OF STATE | $2,838.05 | 0.4% | 1 |
+| IBM CORPORATION | $2,581.91 | 0.4% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $2,294.81 | 0.3% | 1 |
+| EASYSTREET ONLINE SERVICES INC | $2,220.92 | 0.3% | 1 |
+| DEPARTMENT OF REVENUE | $2,034.39 | 0.3% | 1 |
+| PETER GROVER | $1,790.08 | 0.2% | 6 |
+| LINDA NISHI-STRATTNER | $1,754.62 | 0.2% | 6 |
+| CHARLES J HARMAN | $1,614.16 | 0.2% | 3 |
+| RESONANCE COUNSELING AND CONSULTATION LLC | $1,559.00 | 0.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 95 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 95 vendor-level transaction records covering 51 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

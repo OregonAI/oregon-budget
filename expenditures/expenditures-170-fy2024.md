@@ -112,9 +112,36 @@ The 12 largest of 92 expenditure classes used by this agency in FY2024.
 | 5302 | Information Tech Server Software>=$5K | $503,879.98 | 2.5% |
 | 4701 | Other Services | $425,946.74 | 2.1% |
 
+## Largest vendors
+
+The 20 largest of 315 payees this agency recorded payments to in FY2024, accounting for 82.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| PJS LAND DEVELOPMENT LLC | $3,592,068.09 | 17.7% | 3 |
+| US BANCORP ASSET MANAGEMENT INC | $1,742,421.84 | 8.6% | 1 |
+| EROI INC | $1,617,500.06 | 8.0% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,176,689.09 | 5.8% | 9 |
+| KEY BANK | $996,960.40 | 4.9% | 1 |
+| PACIFIC REALTY ASSOCIATES LP | $922,629.73 | 4.5% | 3 |
+| KROLL GOVERNMENT SOLUTIONS | $907,926.32 | 4.5% | 1 |
+| SHI INTERNATIONAL CORP | $872,421.87 | 4.3% | 6 |
+| STATE OF OREGON SECRETARY OF STATE | $754,012.00 | 3.7% | 1 |
+| KELMAR ASSOCIATES LLC | $659,024.39 | 3.2% | 3 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $607,058.79 | 3.0% | 5 |
+| RICHARD THOMAS URLIE ESTATE | $562,231.69 | 2.8% | 1 |
+| US BANK NATIONAL ASSOCIATION | $466,260.17 | 2.3% | 2 |
+| GARTNER GROUP INC | $452,116.67 | 2.2% | 2 |
+| CDW GOVERNMENT INC | $313,932.86 | 1.5% | 8 |
+| SELLWOOD CONSULTING LLC | $307,423.86 | 1.5% | 1 |
+| TEKSYSTEMS GLOBAL SERVICES LLC | $254,974.50 | 1.3% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $245,312.90 | 1.2% | 1 |
+| MANAGEMENT CONTROL SYSTEMS LIMITED | $167,901.32 | 0.8% | 1 |
+| ESTATE OF THOMAS EDWARD GUDGE | $166,181.25 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 721 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 721 vendor-level transaction records covering 315 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

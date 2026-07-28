@@ -92,9 +92,36 @@ The 12 largest of 27 expenditure classes used by this agency in FY2023.
 | 4108 | Instate Ground Transportation | $4,681.72 | 1.2% |
 | 4101 | Instate Meals With Overnight Stay | $4,381.42 | 1.1% |
 
+## Largest vendors
+
+The 20 largest of 24 payees this agency recorded payments to in FY2023, accounting for 99.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $210,633.83 | 54.3% | 12 |
+| NICUSA INC | $65,000.00 | 16.8% | 1 |
+| STATE INVESTMENTS LLC | $44,864.52 | 11.6% | 1 |
+| SHI INTERNATIONAL CORP | $14,455.32 | 3.7% | 2 |
+| CDW GOVERNMENT INC | $10,614.59 | 2.7% | 1 |
+| ACCURATE CORPORATE SERVICES INC | $7,509.70 | 1.9% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $7,256.77 | 1.9% | 2 |
+| KYNDRYL INC | $5,661.82 | 1.5% | 2 |
+| IES COMMERCIAL INC | $4,911.49 | 1.3% | 1 |
+| JANET F GILLMAN | $3,485.65 | 0.9% | 5 |
+| SUDDATH RELOCATION SYSTEMS | $2,006.12 | 0.5% | 1 |
+| JGCM INC | $1,899.73 | 0.5% | 1 |
+| STEVE IRVIN | $1,776.92 | 0.5% | 6 |
+| SUDDATH RELOCATION SYSTEMS OF OREGON LLC | $1,517.73 | 0.4% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $1,491.18 | 0.4% | 2 |
+| VERIZON WIRELESS | $1,389.42 | 0.4% | 1 |
+| PHILIP ALAN JOHNSON II | $835.98 | 0.2% | 2 |
+| OREGON CORRECTIONS ENTERPRISES | $640.48 | 0.2% | 1 |
+| ASSOC OF LABOR RELATIONS AGENCIES | $500.00 | 0.1% | 1 |
+| LEXISNEXIS | $445.00 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 49 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 49 vendor-level transaction records covering 24 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

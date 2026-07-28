@@ -78,12 +78,26 @@ The 9 largest of 9 expenditure classes used by this agency in FY2023.
 | 4106 | Instate Lodging | $369.38 | 0.1% |
 | 4206 | Catering Services | $331.97 | 0.0% |
 | 4800 | Interagency Lease Payments | $175.00 | 0.0% |
-| 4108 | Instate Ground Transportation | $6.00 | 0.0% |
 | 4104 | Instate Travel Miscellaneous Expenses | $6.00 | 0.0% |
+| 4108 | Instate Ground Transportation | $6.00 | 0.0% |
+
+## Largest vendors
+
+The 7 largest of 7 payees this agency recorded payments to in FY2023, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| COLUMBIA RIVER GORGE COMMISSION | $691,130.10 | 99.7% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $1,538.55 | 0.2% | 4 |
+| CARINA MILLER | $438.34 | 0.1% | 2 |
+| ROBERT LIBERTY | $126.53 | 0.0% | 2 |
+| JAMES MORGAN | $94.87 | 0.0% | 1 |
+| RODGER NICHOLS | $84.46 | 0.0% | 1 |
+| MICHAEL MILLS | $51.09 | 0.0% | 1 |
 
 ## Curator notes
 
-Figures are aggregated from 13 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 13 vendor-level transaction records covering 7 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

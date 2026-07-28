@@ -120,9 +120,36 @@ The 12 largest of 97 expenditure classes used by this agency in FY2022.
 | 5705 | Land Improvements>=$5K | $1,915,019.04 | 4.1% |
 | 4976 | Agency Program Related Supplies | $1,615,480.66 | 3.5% |
 
+## Largest vendors
+
+The 20 largest of 1,811 payees this agency recorded payments to in FY2022, accounting for 48.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $8,238,448.34 | 17.8% | 17 |
+| US BANK NATIONAL ASSOCIATION ND | $3,911,907.84 | 8.5% | 56 |
+| USDA FOREST SERVICE | $1,399,283.70 | 3.0% | 3 |
+| OREGON STATE TREASURY | $769,530.75 | 1.7% | 5 |
+| UNITED STATES DEPT OF AGRICULTURE - FOREST SERVICE | $726,147.37 | 1.6% | 2 |
+| TUALATIN HILLS PARK & RECREATION | $650,000.00 | 1.4% | 1 |
+| CASCADE CIVIL CORP | $646,045.45 | 1.4% | 1 |
+| PACIFIC NETTING PRODUCTS INC | $615,921.00 | 1.3% | 1 |
+| MORROW COUNTY PUBLIC WORKS & ROAD DEPT | $581,685.35 | 1.3% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $575,286.43 | 1.2% | 18 |
+| PACIFIC POWER | $557,790.78 | 1.2% | 2 |
+| JESSE RODRIGUEZ CONSTRUCTION | $545,331.31 | 1.2% | 2 |
+| BAYVIEW TRANSIT MIX INC | $501,501.45 | 1.1% | 2 |
+| COUNTY OF DOUGLAS | $500,515.00 | 1.1% | 1 |
+| CITY OF OREGON CITY | $485,920.51 | 1.1% | 1 |
+| DOUGLAS COUNTY PARK DEPARTMENT | $404,653.84 | 0.9% | 1 |
+| CDW GOVERNMENT INC | $327,492.88 | 0.7% | 1 |
+| BUREAU OF LAND MANAGEMENT | $316,049.78 | 0.7% | 1 |
+| DW RETAIL SERVICES LLC | $313,580.84 | 0.7% | 6 |
+| CENTRAL LINCOLN PUD | $309,562.23 | 0.7% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 2,882 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,882 vendor-level transaction records covering 1,811 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

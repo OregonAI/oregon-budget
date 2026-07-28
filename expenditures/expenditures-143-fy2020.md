@@ -102,9 +102,36 @@ The 12 largest of 43 expenditure classes used by this agency in FY2020.
 | 3194 | O/Class, Leadwork, Sp Qual | $5,560.00 | 2.0% |
 | 4401 | Training, Education Or Instruction Srvc | $5,264.00 | 1.9% |
 
+## Largest vendors
+
+The 20 largest of 48 payees this agency recorded payments to in FY2020, accounting for 97.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| LEGISLATIVE ADMINISTRATION COMMITTEE | $84,688.73 | 30.2% | 9 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $67,513.94 | 24.1% | 4 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $36,433.26 | 13.0% | 17 |
+| THE CORAGGIO GROUP INC | $29,950.00 | 10.7% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $8,753.52 | 3.1% | 1 |
+| CDW GOVERNMENT INC | $7,924.94 | 2.8% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $6,794.63 | 2.4% | 2 |
+| EMPLOYMENT DEPARTMENT | $6,415.45 | 2.3% | 1 |
+| KEY CODE MEDIA INC | $4,897.50 | 1.7% | 1 |
+| SHI INTERNATIONAL CORP | $4,534.18 | 1.6% | 2 |
+| LEGISLATIVE ADMIN COMMITTEE | $4,459.81 | 1.6% | 1 |
+| AT&T TELECONFERENCE SERVICES | $2,822.10 | 1.0% | 1 |
+| DANIELLE ROSS | $1,652.00 | 0.6% | 1 |
+| SIERRA SPRINGS | $1,595.77 | 0.6% | 1 |
+| GILLIAN FISCHER | $1,359.27 | 0.5% | 2 |
+| CANSTAFF EMPLOYMENT SERVICES LLC | $1,232.00 | 0.4% | 1 |
+| AMIE FENDER-SOSA | $994.72 | 0.4% | 5 |
+| TYLER J LARSON | $864.90 | 0.3% | 5 |
+| CHANNA NEWELL | $703.02 | 0.3% | 3 |
+| AMIE FENDER | $629.90 | 0.2% | 4 |
+
 ## Curator notes
 
-Figures are aggregated from 112 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 112 vendor-level transaction records covering 48 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

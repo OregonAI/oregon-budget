@@ -99,9 +99,36 @@ The 12 largest of 41 expenditure classes used by this agency in FY2020.
 | 4202 | Equipment Rental | $11,849.38 | 0.7% |
 | 4200 | Office Supplies | $11,390.12 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 72 payees this agency recorded payments to in FY2020, accounting for 91.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $442,337.35 | 25.3% | 1 |
+| 1351 TANDEM AVE LLC | $210,396.05 | 12.0% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $166,475.91 | 9.5% | 8 |
+| COUNTY OF MULTNOMAH | $138,698.08 | 7.9% | 4 |
+| NORTHWEST FORENSIC INSTITUTE | $119,828.00 | 6.9% | 1 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $88,377.91 | 5.1% | 13 |
+| DEPARTMENT OF JUSTICE | $70,116.30 | 4.0% | 1 |
+| DEPAUL INDUSTRIES | $51,746.12 | 3.0% | 1 |
+| DAVID J SCHUESSLER | $46,563.30 | 2.7% | 3 |
+| STATE OF OREGON SECRETARY OF STATE | $42,484.69 | 2.4% | 1 |
+| DESCHUTES COUNTY ADULT COMMUNITY JUSTICE | $40,933.49 | 2.3% | 1 |
+| COUNTY OF WASHINGTON | $39,580.10 | 2.3% | 1 |
+| ALLEGIANT BUSINESS FINANCE LLC | $31,036.92 | 1.8% | 1 |
+| QWEST | $20,266.98 | 1.2% | 1 |
+| WILLAMETTE VALLEY REHAB CENTER | $18,314.76 | 1.0% | 2 |
+| INTEGRATED CLINICAL & CORRECTIONAL SERVICES | $17,972.95 | 1.0% | 4 |
+| COUNTY OF LANE | $14,811.90 | 0.8% | 1 |
+| COUNTY OF MALHEUR | $14,598.56 | 0.8% | 1 |
+| IBM CORPORATION | $13,898.39 | 0.8% | 1 |
+| COUNTY OF JEFFERSON | $13,828.87 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 158 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 158 vendor-level transaction records covering 72 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

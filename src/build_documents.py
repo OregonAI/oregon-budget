@@ -5,17 +5,14 @@
 spending at all (agencies appear and disappear across FY2019-2025), and emitting a document
 for those would fabricate a year that never existed.
 
-WHY THESE DOCUMENTS CONTAIN NO VENDOR NAMES
--------------------------------------------
-The source has 98,933 distinct vendors and roughly 5,150 of them (5%) are individual
-people — "LAST, FIRST" with a dollar amount attached. That is public record on
-data.oregon.gov, and mirroring it into Parquet keeps this corpus a faithful copy of a
-public dataset. Baking those names into markdown that gets embedded, indexed, and
-semantically searched by AI agents is a different act with a different reach, and the
-grain the budget question is actually asked at ("what did DAS spend on personnel in 2024")
-does not need them. So these documents aggregate to budget class and expenditure class,
-and stop there. An agent that genuinely needs vendor detail can query live SODA, which
-returns what the state itself publishes, attributed and dated.
+VENDOR DETAIL IS INCLUDED, DELIBERATELY
+---------------------------------------
+The source names 98,933 distinct vendors, and these documents report the largest of them
+per agency-year. This is public record published by the State of Oregon under
+USGOV_WORKS, and who the state pays is the substance of the transparency question, not an
+incidental detail of it. Withholding or masking it would make the corpus a less faithful
+copy of the public data than the state's own portal, which is the opposite of this
+platform's purpose.
 
 WHY THIS SCRIPT HAS ITS OWN --check
 -----------------------------------
@@ -58,6 +55,7 @@ ISSUING_BODY = "Oregon Department of Administrative Services"
 
 DISCLAIMER = "NON-AUTHORITATIVE"
 TOP_EXPEND_CLASSES = 12
+TOP_VENDORS = 20
 
 
 # Lowercased only when not the first word. Deliberately EXCLUDES "or" — see KEEP_UPPER.
@@ -123,6 +121,11 @@ def gather(con) -> dict:
                    sum(expense), count(*)
             from '{GLOB}' group by 1, 2, 3 order by 5 desc"""):
         d["by_expend"].setdefault((a, y), []).append((code, name, amt, n))
+    d["by_vendor"] = {}
+    for a, y, vendor, amt, n in q(con, f"""
+            select agency, fiscal_year, vendor, sum(expense), count(*)
+            from '{GLOB}' group by 1, 2, 3 order by 4 desc"""):
+        d["by_vendor"].setdefault((a, y), []).append((vendor, amt, n))
     # Rank within each year, by total spend.
     d["rank"] = {}
     for y in d["years"]:
@@ -232,14 +235,30 @@ def build_one(agency, year, name, total, txns, d, retrieved, sha) -> tuple[str, 
         L.append(f"| {code} | {ename.title()} | {money(amt)} | {amt / total * 100:.1f}% |")
     L.append("")
 
+    vendors = d["by_vendor"].get((agency, year), [])
+    L.append("## Largest vendors")
+    L.append("")
+    vshown = vendors[:TOP_VENDORS]
+    vtop = sum(v[1] for v in vshown)
+    L.append(f"The {len(vshown)} largest of {len(vendors):,} payees this agency recorded "
+             f"payments to in FY{year}, accounting for {vtop / total * 100:.1f}% of its "
+             f"spending. Names are reproduced exactly as the state records them.")
+    L.append("")
+    L.append("| Vendor | Amount | Share | Records |")
+    L.append("|---|---:|---:|---:|")
+    for vname, amt, n in vshown:
+        L.append(f"| {vname} | {money(amt)} | {amt / total * 100:.1f}% | {n:,} |")
+    L.append("")
+
     L.append("## Curator notes")
     L.append("")
-    L.append(f"Figures are aggregated from {txns:,} vendor-level transaction records. This "
-             f"document deliberately reports no vendor-level detail: roughly 5% of the "
-             f"98,933 vendors in the source are individual people, and this corpus does not "
-             f"republish named individuals' payments as indexed, agent-searchable text. "
-             f"Vendor detail remains available from the live source, which is where the "
-             f"state publishes it.")
+    L.append(f"Figures are aggregated from {txns:,} vendor-level transaction records "
+             f"covering {len(vendors):,} distinct payees. The vendor table above is the "
+             f"state's own published data, reproduced rather than summarised: a payee "
+             f"string is whatever was entered in the statewide financial system, so the "
+             f"same organisation can appear under several spellings and is not "
+             f"de-duplicated here. Treating each row as a distinct organisation will "
+             f"undercount the large ones.")
     L.append("")
     L.append("Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The "
              "two do not line up, and no mapping between them is applied here. Comparing "

@@ -88,9 +88,36 @@ The 12 largest of 20 expenditure classes used by this agency in FY2023.
 | 4201 | Office Services | $840.16 | 1.3% |
 | 4200 | Office Supplies | $640.85 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 21 payees this agency recorded payments to in FY2023, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $18,180.51 | 28.0% | 1 |
+| SAS INSTITUTE INC | $11,420.00 | 17.6% | 1 |
+| REGIONAL ECONOMIC MODELS INC | $10,500.00 | 16.2% | 1 |
+| CCH INCORPORATED | $4,334.02 | 6.7% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $3,921.75 | 6.0% | 8 |
+| PACIFIC OFFICE AUTOMATION INC | $2,875.40 | 4.4% | 2 |
+| GAMS DEVELOPMENT CORPORATION | $2,800.00 | 4.3% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $2,648.27 | 4.1% | 2 |
+| MAZEN MALIK | $2,070.96 | 3.2% | 4 |
+| CDW GOVERNMENT INC | $2,046.45 | 3.2% | 2 |
+| IMPLAN GROUP LLC | $2,000.00 | 3.1% | 1 |
+| SIERRA SPRINGS | $1,135.51 | 1.7% | 2 |
+| CORINNE GAVETTE | $225.27 | 0.3% | 3 |
+| LEGISLATIVE ADMIN COMMITTEE | $181.83 | 0.3% | 1 |
+| OSACA | $175.00 | 0.3% | 1 |
+| OFFICE DEPOT BUSINESS SOLUTIONS LLC | $167.14 | 0.3% | 1 |
+| UNIVERSITY OF ILLINOIS | $80.00 | 0.1% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $72.50 | 0.1% | 1 |
+| SHI INTERNATIONAL CORP | $57.39 | 0.1% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $27.50 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 37 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 37 vendor-level transaction records covering 21 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

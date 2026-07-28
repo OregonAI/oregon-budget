@@ -104,9 +104,36 @@ The 12 largest of 54 expenditure classes used by this agency in FY2020.
 | 4701 | Other Services | $123,553.57 | 1.1% |
 | 4253 | Advertise, Publicity, Publish/Print Srvs | $119,826.66 | 1.1% |
 
+## Largest vendors
+
+The 20 largest of 263 payees this agency recorded payments to in FY2020, accounting for 65.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPT OF STATE POLICE | $1,046,487.41 | 9.4% | 3 |
+| COUNTY OF MULTNOMAH | $955,456.50 | 8.5% | 1 |
+| COUNTY OF LANE | $527,034.49 | 4.7% | 1 |
+| COUNTY OF CLACKAMAS | $474,354.87 | 4.2% | 2 |
+| DEPARTMENT OF FISH & WILDLIFE | $443,709.35 | 4.0% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $371,061.67 | 3.3% | 11 |
+| COUNTY OF JACKSON | $335,145.92 | 3.0% | 2 |
+| COUNTY OF JOSEPHINE | $329,628.99 | 2.9% | 1 |
+| COUNTY OF LINCOLN | $309,592.11 | 2.8% | 1 |
+| STATE PARKS AND RECREATION DEPARTMENT | $307,779.87 | 2.8% | 1 |
+| COUNTY OF COOS | $280,089.75 | 2.5% | 1 |
+| JOHN SIMPSON M A DECKER DAVID K FIELDS LOUISE FIEL | $248,727.84 | 2.2% | 1 |
+| OREGON INTERNATIONAL PORT OF COOS BAY | $234,401.08 | 2.1% | 1 |
+| COUNTY OF KLAMATH | $227,007.64 | 2.0% | 1 |
+| COUNTY OF TILLAMOOK | $226,598.85 | 2.0% | 1 |
+| CR FABRICATION LTD | $224,052.37 | 2.0% | 1 |
+| COUNTY OF COLUMBIA | $222,936.28 | 2.0% | 2 |
+| COUNTY OF CLATSOP | $197,617.40 | 1.8% | 2 |
+| COUNTY OF DOUGLAS | $197,608.00 | 1.8% | 1 |
+| COUNTY OF LINN | $188,553.16 | 1.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 377 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 377 vendor-level transaction records covering 263 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

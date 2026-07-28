@@ -93,9 +93,36 @@ The 12 largest of 31 expenditure classes used by this agency in FY2022.
 | 4510 | Professional Services/Network | $2,573.13 | 0.7% |
 | 4301 | Telecom/Voice Usage | $2,498.55 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 37 payees this agency recorded payments to in FY2022, accounting for 98.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $133,288.49 | 35.3% | 6 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $98,807.63 | 26.2% | 1 |
+| THE EQUITABLE CENTER LLC | $56,725.21 | 15.0% | 1 |
+| DEPT OF STATE POLICE | $23,644.75 | 6.3% | 1 |
+| US BANK NATIONAL ASSOCIATION | $19,567.87 | 5.2% | 2 |
+| EDULOKA LTD | $6,996.50 | 1.9% | 1 |
+| SECRETARY OF STATE | $5,901.52 | 1.6% | 1 |
+| APPLIED LOGIC CORPORATION | $5,796.00 | 1.5% | 2 |
+| FINCH CONSULTING LLC | $4,840.07 | 1.3% | 1 |
+| AZIMUTH COMMUNICATIONS INC | $2,573.13 | 0.7% | 1 |
+| FEDERATION OF CHIROPRACTIC LICENSING BOARDS | $1,800.00 | 0.5% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $1,798.95 | 0.5% | 4 |
+| EMPLOYMENT DEPARTMENT | $1,407.25 | 0.4% | 1 |
+| SELECT IMPRESSIONS | $1,251.00 | 0.3% | 1 |
+| UNITED TELEPHONE COMPANY OF THE NORTHWEST | $1,220.45 | 0.3% | 1 |
+| KYNDRYL INC | $1,201.03 | 0.3% | 1 |
+| FRANCHESCA VERMILLION | $1,170.09 | 0.3% | 5 |
+| CASSANDRA SKINNER | $1,021.55 | 0.3% | 3 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $967.92 | 0.3% | 2 |
+| MACKENZIE PURNELL | $932.74 | 0.2% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 75 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 75 vendor-level transaction records covering 37 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

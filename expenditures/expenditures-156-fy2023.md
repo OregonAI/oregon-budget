@@ -107,9 +107,36 @@ The 12 largest of 61 expenditure classes used by this agency in FY2023.
 | 4600 | State Government Service Charges | $314,367.29 | 0.3% |
 | 4850 | Facilities Maintenance | $265,565.66 | 0.2% |
 
+## Largest vendors
+
+The 20 largest of 226 payees this agency recorded payments to in FY2023, accounting for 97.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| HOFFMAN CONSTRUCTION COMPANY OF OREGON | $66,626,102.96 | 60.2% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $14,388,833.85 | 13.0% | 13 |
+| WILLIS TOWERS WATSON INSURANCE SERVICES WEST INC | $8,548,739.50 | 7.7% | 1 |
+| SRG PARTNERSHIP INC | $7,041,995.04 | 6.4% | 1 |
+| DEPT OF STATE POLICE | $2,142,879.00 | 1.9% | 1 |
+| CITY OF SALEM | $2,109,826.22 | 1.9% | 3 |
+| DEPAUL INDUSTRIES | $1,472,569.06 | 1.3% | 3 |
+| TALLAN INC | $1,004,626.74 | 0.9% | 2 |
+| XCENTIAL CORPORATION | $954,720.00 | 0.9% | 1 |
+| CDW GOVERNMENT INC | $788,842.64 | 0.7% | 14 |
+| SHI INTERNATIONAL CORP | $565,301.94 | 0.5% | 3 |
+| ERNST & YOUNG US LLP | $412,529.58 | 0.4% | 1 |
+| FIRST RESPONSE INC | $328,540.00 | 0.3% | 1 |
+| COFFMAN EXCAVATION INC | $297,690.00 | 0.3% | 1 |
+| PORTLAND GENERAL ELECTRIC COMPANY | $276,463.75 | 0.2% | 1 |
+| ONE DIVERSIFIED LLC | $220,704.94 | 0.2% | 5 |
+| FIRST PRESBYTERIAN CHURCH | $203,225.92 | 0.2% | 1 |
+| ACCURATE CORPORATE SERVICES INC | $198,398.79 | 0.2% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $190,961.31 | 0.2% | 23 |
+| ACS TESTING INC | $177,785.55 | 0.2% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 413 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 413 vendor-level transaction records covering 226 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

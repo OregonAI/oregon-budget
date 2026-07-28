@@ -114,9 +114,36 @@ The 12 largest of 67 expenditure classes used by this agency in FY2021.
 | 6300 | Distribution To Counties | $683,284.63 | 4.5% |
 | 4517 | Professional Services It Security | $616,320.00 | 4.0% |
 
+## Largest vendors
+
+The 20 largest of 178 payees this agency recorded payments to in FY2021, accounting for 80.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $3,436,328.37 | 22.5% | 18 |
+| OREGON STATE TREASURY | $1,061,673.19 | 6.9% | 5 |
+| PERSPECTA STATE & LOCAL INC | $968,985.33 | 6.3% | 2 |
+| SIGNATURE GRAPHICS | $880,013.71 | 5.8% | 1 |
+| COUNTY OF MULTNOMAH | $639,442.59 | 4.2% | 2 |
+| SPACESAVER SPECIALISTS INC | $561,735.00 | 3.7% | 1 |
+| MACIAS GINI & OCONNELL LLP | $526,068.68 | 3.4% | 1 |
+| GARTNER GROUP INC | $478,000.00 | 3.1% | 1 |
+| UNITED STATES POSTAL SERVICES | $468,793.00 | 3.1% | 1 |
+| SHI INTERNATIONAL CORP | $457,986.85 | 3.0% | 7 |
+| CDW GOVERNMENT INC | $437,072.39 | 2.9% | 9 |
+| MYTHICS INC | $353,254.03 | 2.3% | 1 |
+| CHAVES CONSULTING INC | $349,820.67 | 2.3% | 2 |
+| UNITED STATES POSTAL SERVICE | $328,020.08 | 2.1% | 1 |
+| ARGO INVESTMENT CORP | $254,133.60 | 1.7% | 1 |
+| PITNEY BOWES | $240,388.25 | 1.6% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $239,137.40 | 1.6% | 1 |
+| COUNTY OF LANE | $234,070.04 | 1.5% | 2 |
+| COUNTY OF CLACKAMAS | $203,933.36 | 1.3% | 2 |
+| JESSE A BUSS | $172,406.62 | 1.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 302 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 302 vendor-level transaction records covering 178 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

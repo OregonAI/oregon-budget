@@ -110,9 +110,36 @@ The 12 largest of 82 expenditure classes used by this agency in FY2022.
 | 4301 | Telecom/Voice Usage | $889,134.86 | 2.6% |
 | 5303 | Information Tech Pc Software>=$5K | $574,544.85 | 1.7% |
 
+## Largest vendors
+
+The 20 largest of 383 payees this agency recorded payments to in FY2022, accounting for 87.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $15,567,703.64 | 45.3% | 17 |
+| FAST ENTERPRISES LLC | $3,606,559.80 | 10.5% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $2,838,108.25 | 8.3% | 2 |
+| PITNEY BOWES | $1,725,000.00 | 5.0% | 1 |
+| IBM CORPORATION | $922,976.27 | 2.7% | 3 |
+| STATE OF OREGON SECRETARY OF STATE | $756,966.52 | 2.2% | 2 |
+| OREGON STATE TREASURY | $709,319.90 | 2.1% | 2 |
+| SHI INTERNATIONAL CORP | $460,847.87 | 1.3% | 1 |
+| RICOH USA INC | $435,650.71 | 1.3% | 4 |
+| CDW GOVERNMENT INC | $400,769.23 | 1.2% | 6 |
+| KYNDRYL INC | $352,767.54 | 1.0% | 3 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $304,589.95 | 0.9% | 31 |
+| VERIZON WIRELESS | $292,595.25 | 0.9% | 1 |
+| DEPT OF STATE POLICE | $265,716.75 | 0.8% | 2 |
+| AMERICAN PROPERTY MANAGEMENT | $218,258.18 | 0.6% | 2 |
+| CRB INVESTMENTS LLC | $216,086.25 | 0.6% | 2 |
+| SERA ARCHITECTS INC | $214,437.76 | 0.6% | 1 |
+| GARTNER INC | $207,349.00 | 0.6% | 1 |
+| MULTISTATE TAX COMMISSION | $201,915.00 | 0.6% | 1 |
+| MEYERCORD REVENUE INC | $190,531.67 | 0.6% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 630 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 630 vendor-level transaction records covering 383 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

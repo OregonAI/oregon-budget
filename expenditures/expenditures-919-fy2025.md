@@ -96,9 +96,36 @@ The 12 largest of 44 expenditure classes used by this agency in FY2025.
 | 4366 | Computer Technology Pc Software<$5K | $16,223.63 | 1.2% |
 | 4406 | Prof Dev Instate Tuition/Registration | $12,557.00 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 35 payees this agency recorded payments to in FY2025, accounting for 99.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| PSI SERVICES LLC | $369,450.00 | 27.4% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $225,318.37 | 16.7% | 7 |
+| TYLER TECHNOLOGIES INC | $218,579.00 | 16.2% | 2 |
+| THE EQUITABLE CENTER LLC | $126,879.43 | 9.4% | 3 |
+| US BANK NATIONAL ASSOCIATION ND | $106,325.22 | 7.9% | 23 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $91,369.06 | 6.8% | 1 |
+| US BANK NATIONAL ASSOCIATION | $77,919.67 | 5.8% | 2 |
+| EMPLOYMENT DEPARTMENT | $29,869.70 | 2.2% | 1 |
+| CDW GOVERNMENT INC | $19,641.64 | 1.5% | 2 |
+| STATE OF OREGON - SECRETARY OF STATE | $17,369.04 | 1.3% | 1 |
+| HMI-OREGON DEALERSHIP | $14,055.50 | 1.0% | 2 |
+| SHI INTERNATIONAL CORP | $13,259.30 | 1.0% | 3 |
+| KYNDRYL INC | $10,795.58 | 0.8% | 1 |
+| OREGON STATE TREASURY | $6,846.69 | 0.5% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $6,600.00 | 0.5% | 1 |
+| STEVE STRODE | $2,982.13 | 0.2% | 6 |
+| CASCADE CENTERS INC | $1,700.00 | 0.1% | 1 |
+| AMANDA MOSER | $853.15 | 0.1% | 4 |
+| ANNA HIGLEY | $721.21 | 0.1% | 3 |
+| MESHEAL TRACY | $663.73 | 0.0% | 7 |
+
 ## Curator notes
 
-Figures are aggregated from 107 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 107 vendor-level transaction records covering 35 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

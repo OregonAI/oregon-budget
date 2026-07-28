@@ -96,9 +96,36 @@ The 12 largest of 38 expenditure classes used by this agency in FY2024.
 | 4434 | Prof Dev Out-Of-State Lodging | $7,477.73 | 1.0% |
 | 4406 | Prof Dev Instate Tuition/Registration | $6,585.00 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 31 payees this agency recorded payments to in FY2024, accounting for 99.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| SHERIDAN BOOKS INC | $334,589.30 | 43.6% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $210,114.85 | 27.4% | 5 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $140,304.53 | 18.3% | 19 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $30,226.17 | 3.9% | 1 |
+| US BANK NATIONAL ASSOCIATION | $17,434.50 | 2.3% | 1 |
+| CAROL M TODD | $7,459.16 | 1.0% | 6 |
+| PACIFIC OFFICE AUTOMATION INC | $6,655.12 | 0.9% | 4 |
+| SHI INTERNATIONAL CORP | $4,617.24 | 0.6% | 1 |
+| OPENMFG LLC | $3,139.50 | 0.4% | 1 |
+| MULTIPORT SYSTEMS INC | $2,730.00 | 0.4% | 1 |
+| OFFICE DEPOT BUSINESS SOLUTIONS LLC | $1,421.13 | 0.2% | 2 |
+| DEPARTMENT OF JUSTICE | $1,402.50 | 0.2% | 1 |
+| QUADIENT LEASING USA INC | $1,203.44 | 0.2% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $998.50 | 0.1% | 1 |
+| AURORA GODDARD | $788.91 | 0.1% | 6 |
+| ROBERT MAUGER | $602.64 | 0.1% | 3 |
+| JENNIFER WIDELL | $462.18 | 0.1% | 4 |
+| JESSICA SANTIAGO | $416.34 | 0.1% | 1 |
+| KEVIN FUQUAY | $391.59 | 0.1% | 4 |
+| WELLS O'BYRNE | $371.99 | 0.0% | 5 |
+
 ## Curator notes
 
-Figures are aggregated from 84 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 84 vendor-level transaction records covering 31 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

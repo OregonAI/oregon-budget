@@ -92,9 +92,36 @@ The 12 largest of 25 expenditure classes used by this agency in FY2023.
 | 4800 | Interagency Lease Payments | $1,143.30 | 1.0% |
 | 3111 | Regular Employees | $894.85 | 0.8% |
 
+## Largest vendors
+
+The 20 largest of 29 payees this agency recorded payments to in FY2023, accounting for 99.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $56,250.66 | 49.1% | 6 |
+| US BANK NATIONAL ASSOCIATION ND | $17,606.36 | 15.4% | 1 |
+| CDW GOVERNMENT INC | $15,753.84 | 13.8% | 3 |
+| DEPAUL INDUSTRIES | $6,249.05 | 5.5% | 1 |
+| ALBERT LEE | $4,408.91 | 3.9% | 10 |
+| SHI INTERNATIONAL CORP | $3,120.80 | 2.7% | 1 |
+| AVA-MARIA STEVENS | $2,291.42 | 2.0% | 4 |
+| OREGON CERTIFIED INTERPRETERS NETWORK INC | $2,281.20 | 2.0% | 1 |
+| OREGON DEPARTMENT OF JUSTICE | $1,548.80 | 1.4% | 1 |
+| OREGON ADVOCACY COMMISSIONS OFFICE | $1,112.73 | 1.0% | 2 |
+| CENTER FOR INTERCULTURAL ORGANIZING | $1,000.00 | 0.9% | 1 |
+| KYL MYERS | $689.96 | 0.6% | 3 |
+| ACCION POLITICA PCUNISTA | $500.00 | 0.4% | 1 |
+| ASIAN & PACIFIC ISLANDER COMMUNITY COALITION OF OR | $500.00 | 0.4% | 1 |
+| SECRETARY OF STATE | $326.00 | 0.3% | 1 |
+| JESSICA PRICE | $183.63 | 0.2% | 1 |
+| CASCADE CENTERS INC | $102.48 | 0.1% | 1 |
+| OREGON STATE LIBRARY | $82.50 | 0.1% | 1 |
+| JOHN IGLESIAS | $81.25 | 0.1% | 1 |
+| EMPLOYMENT DEPARTMENT | $79.74 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 52 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 52 vendor-level transaction records covering 29 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

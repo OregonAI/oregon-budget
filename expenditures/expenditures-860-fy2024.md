@@ -100,9 +100,36 @@ The 12 largest of 64 expenditure classes used by this agency in FY2024.
 | 4301 | Telecom/Voice Usage | $122,912.01 | 0.3% |
 | 4519 | Professional Serv/Managed Serv Provider | $105,505.50 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 206 payees this agency recorded payments to in FY2024, accounting for 84.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| QWEST | $8,445,914.03 | 22.6% | 4 |
+| NORTHWEST FIBER LLC | $5,697,280.80 | 15.2% | 2 |
+| CENTURYTEL OF OREGON INC | $2,654,368.33 | 7.1% | 2 |
+| DEPARTMENT OF JUSTICE | $2,382,434.21 | 6.4% | 1 |
+| UNITED TELEPHONE COMPANY OF THE NORTHWEST | $2,103,809.51 | 5.6% | 2 |
+| WARM SPRINGS TELECOMMUNICATIONS COMPANY | $1,351,162.02 | 3.6% | 2 |
+| PIONEER TELEPHONE COOPERATIVE | $1,238,218.40 | 3.3% | 2 |
+| BEARDSLEY BUILDING LLC | $1,094,082.31 | 2.9% | 4 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $832,247.02 | 2.2% | 14 |
+| CASCADE UTILITIES INC | $750,334.82 | 2.0% | 2 |
+| TELTEX INC | $741,940.85 | 2.0% | 1 |
+| CANBY TELEPHONE ASSOCIATION | $700,987.84 | 1.9% | 2 |
+| PINE TELEPHONE SYSTEM INC | $667,463.11 | 1.8% | 2 |
+| I-WIRELESS | $521,350.00 | 1.4% | 1 |
+| DOUGLAS SERVICES INC | $512,553.70 | 1.4% | 2 |
+| STAYTON COOPERATIVE TELEPHONE COMPANY | $492,670.36 | 1.3% | 2 |
+| MOLALLA COMMUNICATIONS | $458,801.19 | 1.2% | 2 |
+| SHI INTERNATIONAL CORP | $411,877.15 | 1.1% | 7 |
+| NEHALEM TELECOMMUNICATIONS INC | $315,503.02 | 0.8% | 2 |
+| TOBII DYNAVOX | $294,157.14 | 0.8% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 434 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 434 vendor-level transaction records covering 206 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

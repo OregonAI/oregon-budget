@@ -113,9 +113,36 @@ The 12 largest of 77 expenditure classes used by this agency in FY2024.
 | 6500 | Distribution To Comm College Districts | $4,519,233.00 | 1.0% |
 | 6456 | Distribution To Oregon Inst Of Tech | $3,479,060.40 | 0.8% |
 
+## Largest vendors
+
+The 20 largest of 1,220 payees this agency recorded payments to in FY2024, accounting for 49.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| INTEL CORPORATION | $90,000,000.00 | 19.8% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $49,712,310.46 | 10.9% | 17 |
+| CITY OF SALEM | $11,830,375.88 | 2.6% | 2 |
+| COUNTY OF COLUMBIA | $6,222,222.00 | 1.4% | 2 |
+| CITY OF PENDLETON | $5,599,117.00 | 1.2% | 4 |
+| ZIONS BANCORPORATION NATIONAL ASSOCIATION | $5,424,899.90 | 1.2% | 3 |
+| OREGON INTERNATIONAL PORT OF COOS BAY | $5,000,000.00 | 1.1% | 1 |
+| CITY OF PHOENIX | $4,980,127.00 | 1.1% | 2 |
+| MICROCHIP TECHNOLOGY INCORPORATED | $4,750,000.00 | 1.0% | 1 |
+| LANE COMMUNITY COLLEGE | $4,445,084.00 | 1.0% | 1 |
+| HEWLETT PACKARD COMPANY | $4,250,000.00 | 0.9% | 1 |
+| HECETA WATER PUD | $4,246,753.00 | 0.9% | 1 |
+| CITY OF REEDSPORT | $4,172,182.00 | 0.9% | 1 |
+| CITY OF GRANTS PASS | $3,932,361.00 | 0.9% | 3 |
+| CITY OF SANDY | $3,702,942.00 | 0.8% | 2 |
+| PORT OF PORTLAND | $3,645,902.33 | 0.8% | 2 |
+| CITY OF THE DALLES | $3,645,540.00 | 0.8% | 2 |
+| ELIANIMAL LLC | $3,545,762.42 | 0.8% | 1 |
+| OREGON INSTITUTE OF TECHNOLOGY/OREGON TECH | $3,479,060.40 | 0.8% | 1 |
+| CITY OF ASHLAND | $3,263,778.00 | 0.7% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 1,527 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,527 vendor-level transaction records covering 1,220 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

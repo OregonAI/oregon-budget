@@ -111,9 +111,36 @@ The 12 largest of 83 expenditure classes used by this agency in FY2019.
 | 6725 | Distribution To Non-Governments | $88,944.21 | 0.3% |
 | 4301 | Telecom/Voice Usage | $88,747.13 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 203 payees this agency recorded payments to in FY2019, accounting for 98.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON STATE TREASURY | $23,156,453.12 | 85.9% | 5 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,652,195.14 | 6.1% | 15 |
+| DEPARTMENT OF JUSTICE | $455,616.04 | 1.7% | 2 |
+| SHI INTERNATIONAL CORP | $192,078.15 | 0.7% | 5 |
+| ROGUE VALLEY SEWER SERVICES | $159,419.00 | 0.6% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $114,122.39 | 0.4% | 28 |
+| OREGON STATE UNIVERSITY | $102,478.33 | 0.4% | 1 |
+| ENERGY TRUST OF OREGON INC | $88,944.21 | 0.3% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $78,683.81 | 0.3% | 1 |
+| TAYLOR FARMS INC | $69,981.00 | 0.3% | 1 |
+| CDW GOVERNMENT INC | $51,990.41 | 0.2% | 2 |
+| U WORK COM INC | $43,522.65 | 0.2% | 1 |
+| DEPARTMENT OF FISH & WILDLIFE | $41,358.50 | 0.2% | 1 |
+| GOLDER ASSOCIATES INC | $39,152.78 | 0.1% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $34,408.08 | 0.1% | 1 |
+| GOVDELIVERY LLC | $33,965.78 | 0.1% | 1 |
+| DEPT OF STATE POLICE | $33,961.50 | 0.1% | 2 |
+| IBM CORPORATION | $28,995.74 | 0.1% | 1 |
+| DEPARTMENT OF HUMAN SERVICES | $28,826.84 | 0.1% | 1 |
+| PUBLIC UTILITY COMMISSION | $25,980.63 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 466 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 466 vendor-level transaction records covering 203 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

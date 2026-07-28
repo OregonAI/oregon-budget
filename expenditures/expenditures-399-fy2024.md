@@ -91,9 +91,36 @@ The 12 largest of 16 expenditure classes used by this agency in FY2024.
 | 4850 | Facilities Maintenance | $1,945.00 | 0.4% |
 | 4999 | Expendable Property Non-It<$5K | $1,000.00 | 0.2% |
 
+## Largest vendors
+
+The 20 largest of 24 payees this agency recorded payments to in FY2024, accounting for 99.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CHAVES CONSULTING INC | $147,937.20 | 32.1% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $119,162.99 | 25.9% | 6 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $104,996.10 | 22.8% | 1 |
+| RALPH SCHLESINGER COMPANY LLC | $19,053.03 | 4.1% | 1 |
+| CRUISE 224 LLC | $12,900.00 | 2.8% | 1 |
+| AZIMUTH COMMUNICATIONS INC | $12,045.07 | 2.6% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $11,466.52 | 2.5% | 1 |
+| SUDDATH RELOCATION SYSTEMS | $9,807.42 | 2.1% | 2 |
+| CDW GOVERNMENT INC | $7,225.07 | 1.6% | 1 |
+| CODELATHE TECHNOLOGIES INC | $3,900.00 | 0.8% | 1 |
+| COURTSCRIPTS LLC | $2,992.00 | 0.6% | 1 |
+| KYNDRYL INC | $2,106.51 | 0.5% | 1 |
+| PRIDE COMMERCIAL INTERIORS LLC | $1,945.00 | 0.4% | 1 |
+| ZAYO GROUP LLC | $1,218.95 | 0.3% | 1 |
+| NW OFFICE INTERIORS | $1,000.00 | 0.2% | 1 |
+| INTEGRATED CLINICAL & CORRECTIONAL SERVICES | $687.50 | 0.1% | 1 |
+| DATASAFE INC | $443.58 | 0.1% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $387.50 | 0.1% | 1 |
+| AMANDA M STANDIFORD | $318.14 | 0.1% | 2 |
+| CASCADE CENTERS INC | $295.20 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 33 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 33 vendor-level transaction records covering 24 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -120,9 +120,36 @@ The 12 largest of 79 expenditure classes used by this agency in FY2022.
 | 6456 | Distribution To Oregon Inst Of Tech | $5,879,039.00 | 2.4% |
 | 6500 | Distribution To Comm College Districts | $4,348,433.50 | 1.8% |
 
+## Largest vendors
+
+The 20 largest of 985 payees this agency recorded payments to in FY2022, accounting for 48.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $35,102,337.19 | 14.4% | 18 |
+| OREGON TOURISM COMMISSION | $10,000,000.00 | 4.1% | 1 |
+| OREGON21 LLC | $10,000,000.00 | 4.1% | 1 |
+| OREGON INTERNATIONAL PORT OF COOS BAY | $8,250,000.00 | 3.4% | 1 |
+| CRYSTAL SPRINGS WATER DISTRICT | $7,352,551.26 | 3.0% | 1 |
+| CENTRAL OREGON IRRIGATION DISTRICT | $5,901,078.00 | 2.4% | 1 |
+| OREGON INSTITUTE OF TECHNOLOGY/OREGON TECH | $5,879,039.00 | 2.4% | 1 |
+| ZIONS BANCORPORATION NATIONAL ASSOCIATION | $5,228,167.46 | 2.1% | 3 |
+| LANE COMMUNITY COLLEGE | $3,312,430.50 | 1.4% | 1 |
+| PALLADIN PRODUCTIONS LLC | $2,997,873.65 | 1.2% | 1 |
+| CITY OF SUTHERLIN | $2,592,675.00 | 1.1% | 1 |
+| CITY OF BANKS | $2,561,411.00 | 1.0% | 1 |
+| DAYTON SCHOOL DIST 8 | $2,499,570.00 | 1.0% | 1 |
+| JACKSON CO SCH DIST 5 | $2,497,447.00 | 1.0% | 1 |
+| LINN CO SCH DIST 8 | $2,358,175.00 | 1.0% | 1 |
+| UMATILLA CO SCH DIST 2 | $2,280,598.00 | 0.9% | 1 |
+| CITY OF PENDLETON | $2,278,705.00 | 0.9% | 2 |
+| BEAVERTON SCHOOL DISTRICT #48 | $2,239,841.00 | 0.9% | 1 |
+| LANE EDUCATION SERVICE DISTRICT | $2,213,939.00 | 0.9% | 1 |
+| GRANT CO SCH DIST 8 | $2,172,438.00 | 0.9% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,193 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,193 vendor-level transaction records covering 985 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

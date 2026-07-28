@@ -108,9 +108,36 @@ The 12 largest of 79 expenditure classes used by this agency in FY2022.
 | 4519 | Professional Serv/Managed Serv Provider | $551,560.43 | 3.5% |
 | 4361 | Computer Technology Server Software<$5K | $524,731.16 | 3.3% |
 
+## Largest vendors
+
+The 20 largest of 213 payees this agency recorded payments to in FY2022, accounting for 88.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $3,331,172.98 | 21.0% | 15 |
+| KNOW INK LLC | $1,668,000.00 | 10.5% | 2 |
+| PERSPECTA STATE & LOCAL INC | $1,390,466.70 | 8.8% | 2 |
+| OREGON STATE TREASURY | $1,151,828.66 | 7.3% | 4 |
+| CDW GOVERNMENT INC | $1,137,234.04 | 7.2% | 11 |
+| UNITED STATES POSTAL SERVICES | $1,000,265.00 | 6.3% | 1 |
+| SHI INTERNATIONAL CORP | $848,846.17 | 5.3% | 10 |
+| MACIAS GINI & OCONNELL LLP | $535,711.48 | 3.4% | 1 |
+| SIGNATURE GRAPHICS | $522,223.19 | 3.3% | 1 |
+| MYTHICS INC | $497,283.86 | 3.1% | 2 |
+| UNITED STATES POSTAL SERVICE | $271,357.96 | 1.7% | 1 |
+| ARGO INVESTMENT CORP | $236,250.80 | 1.5% | 1 |
+| PITNEY BOWES | $230,919.55 | 1.5% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $230,890.68 | 1.5% | 2 |
+| GARTNER GROUP INC | $224,000.00 | 1.4% | 1 |
+| NICUSA INC | $192,510.05 | 1.2% | 3 |
+| CARAHSOFT TECHNOLOGY CORPORATION | $148,793.72 | 0.9% | 3 |
+| HAPPYLUCKY INC | $139,100.00 | 0.9% | 1 |
+| DEPT OF STATE POLICE | $130,186.00 | 0.8% | 1 |
+| FIVE CEDARS GROUP INC | $118,237.50 | 0.7% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 405 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 405 vendor-level transaction records covering 213 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

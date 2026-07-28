@@ -88,9 +88,29 @@ The 12 largest of 16 expenditure classes used by this agency in FY2023.
 | 4201 | Office Services | $302.71 | 1.5% |
 | 4162 | Out-Of-State Mileage Reimbrsmt-Full Rate | $212.94 | 1.0% |
 
+## Largest vendors
+
+The 13 largest of 13 payees this agency recorded payments to in FY2023, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $7,050.70 | 34.0% | 1 |
+| PATRICK A FLANAGAN | $4,744.17 | 22.9% | 5 |
+| ELISSA BULLION | $4,736.61 | 22.8% | 9 |
+| MICROSOFT CORPORATION | $1,422.01 | 6.9% | 2 |
+| VERIZON WIRELESS | $1,234.62 | 6.0% | 1 |
+| CDW GOVERNMENT INC | $665.78 | 3.2% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $390.78 | 1.9% | 1 |
+| SASSY ONION INC | $371.50 | 1.8% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $56.97 | 0.3% | 1 |
+| FEDERAL EXPRESS CORPORATION | $33.36 | 0.2% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $30.00 | 0.1% | 1 |
+| OREGON STATE TREASURY | $1.00 | 0.0% | 1 |
+| LEGISLATIVE ADMIN COMMITTEE | $0.75 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 26 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 26 vendor-level transaction records covering 13 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

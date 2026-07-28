@@ -92,9 +92,36 @@ The 12 largest of 23 expenditure classes used by this agency in FY2021.
 | 4305 | Telecom/Network Services | $8,269.28 | 1.9% |
 | 4109 | Instate Mileage Reimbursement-Full Rate | $5,921.33 | 1.4% |
 
+## Largest vendors
+
+The 20 largest of 40 payees this agency recorded payments to in FY2021, accounting for 98.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $170,804.85 | 39.7% | 9 |
+| SALEM FOUNDATION | $105,252.05 | 24.4% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $56,117.66 | 13.0% | 1 |
+| TELTEX INC | $29,400.00 | 6.8% | 1 |
+| SENIOR CITIZENS COUNCIL OF CLACKAMAS CTY INC | $15,515.00 | 3.6% | 1 |
+| SILVERMAN STUDIOS LLC | $7,000.00 | 1.6% | 1 |
+| UNITED TELEPHONE COMPANY OF THE NORTHWEST | $6,543.80 | 1.5% | 1 |
+| SEM APPLICATIONS INC | $6,362.00 | 1.5% | 1 |
+| RICOH USA INC | $4,825.74 | 1.1% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $4,739.68 | 1.1% | 1 |
+| IBM CORPORATION | $3,053.04 | 0.7% | 1 |
+| CINDY JOHNSON | $1,995.38 | 0.5% | 5 |
+| SARAH R BOSMA | $1,856.80 | 0.4% | 3 |
+| NICO SERRA LLC | $1,725.00 | 0.4% | 1 |
+| HOMECAREIS LLC | $1,669.80 | 0.4% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $1,637.68 | 0.4% | 1 |
+| EAN HOLDING LLC | $1,598.75 | 0.4% | 1 |
+| JGCM INC | $1,323.11 | 0.3% | 1 |
+| CHARLENE LICHTMANN | $1,125.70 | 0.3% | 1 |
+| NATALIE OCONNOR | $1,088.29 | 0.3% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 69 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 69 vendor-level transaction records covering 40 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

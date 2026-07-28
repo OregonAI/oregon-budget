@@ -107,9 +107,36 @@ The 12 largest of 53 expenditure classes used by this agency in FY2020.
 | 4301 | Telecom/Voice Usage | $51,017.74 | 1.9% |
 | 4108 | Instate Ground Transportation | $48,222.99 | 1.8% |
 
+## Largest vendors
+
+The 20 largest of 86 payees this agency recorded payments to in FY2020, accounting for 94.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,114,477.30 | 40.8% | 11 |
+| QUANTUM SPATIAL INC | $523,822.00 | 19.2% | 1 |
+| DEPARTMENT OF ENVIRONMENTAL QUALITY | $124,596.23 | 4.6% | 17 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $108,813.36 | 4.0% | 1 |
+| VA INSTITUTE OF MARINE SCIENCE | $100,000.00 | 3.7% | 1 |
+| DEPARTMENT OF HUMAN SERVICES | $89,056.69 | 3.3% | 11 |
+| SHI INTERNATIONAL CORP | $84,232.09 | 3.1% | 3 |
+| CARDNO INC | $70,053.03 | 2.6% | 1 |
+| UNIVERSITY OF OREGON | $51,921.59 | 1.9% | 1 |
+| INTEGRAL CONSULTING INC | $46,800.00 | 1.7% | 1 |
+| DEPARTMENT OF TRANSPORTATION | $41,434.71 | 1.5% | 2 |
+| RUSSELL W TRIPP | $34,200.00 | 1.3% | 1 |
+| QWEST | $32,452.14 | 1.2% | 3 |
+| WASHINGTON ST DEPT OF NATURAL RESOURCES | $31,845.92 | 1.2% | 1 |
+| DEPT OF LAND CONSERVATION & DEVELOPMENT | $28,953.26 | 1.1% | 14 |
+| WASHINGTON STATE UNIVERSITY | $23,260.00 | 0.9% | 1 |
+| VERIZON WIRELESS | $22,688.11 | 0.8% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $21,761.24 | 0.8% | 1 |
+| EMPLOYMENT DEPARTMENT | $18,460.84 | 0.7% | 1 |
+| NICUSA INC | $15,000.00 | 0.5% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 196 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 196 vendor-level transaction records covering 86 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

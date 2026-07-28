@@ -120,9 +120,36 @@ The 12 largest of 85 expenditure classes used by this agency in FY2019.
 | 6820 | Payments To Counties | $500,058.58 | 2.9% |
 | 4851 | Facilities Supplies | $428,097.01 | 2.5% |
 
+## Largest vendors
+
+The 20 largest of 375 payees this agency recorded payments to in FY2019, accounting for 74.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $5,891,756.61 | 34.2% | 14 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $1,112,299.04 | 6.5% | 4 |
+| ARAMARK SERVICES INC | $958,715.86 | 5.6% | 3 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $846,463.33 | 4.9% | 37 |
+| PRO-SAFE FIRE TRAINING SYSTEMS INC | $556,442.81 | 3.2% | 4 |
+| DEPT OF STATE POLICE | $409,317.63 | 2.4% | 3 |
+| DESCHUTES COUNTY | $390,504.38 | 2.3% | 1 |
+| SAN DIEGO POLICE EQUIPMENT CO | $364,016.23 | 2.1% | 2 |
+| CONVERGEONE INC | $353,626.20 | 2.1% | 10 |
+| PORTLAND GENERAL ELECTRIC COMPANY | $279,889.14 | 1.6% | 1 |
+| OREGON FIRE CHIEFS ASSOCIATION | $205,483.63 | 1.2% | 3 |
+| MEDFORD POLICE DEPT | $179,347.51 | 1.0% | 2 |
+| OREGON ASSN CHIEFS OF POLICE | $176,150.00 | 1.0% | 3 |
+| CITY OF PENDLETON POLICE DEPARTMENT | $170,641.40 | 1.0% | 1 |
+| SHAW INDUSTRIES INC | $166,417.41 | 1.0% | 1 |
+| CLACKAMAS COMMUNITY COLLEGE | $162,000.00 | 0.9% | 2 |
+| CDW GOVERNMENT INC | $159,565.85 | 0.9% | 6 |
+| BOARD OF PUBLIC SAFETY STANDARDS & TRAINING | $158,349.11 | 0.9% | 6 |
+| CITY OF PORTLAND | $156,159.40 | 0.9% | 3 |
+| DESCHUTES COUNTY SHERIFF OFFICE | $140,380.45 | 0.8% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 575 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 575 vendor-level transaction records covering 375 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

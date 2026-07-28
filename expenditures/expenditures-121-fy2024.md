@@ -105,9 +105,36 @@ The 12 largest of 64 expenditure classes used by this agency in FY2024.
 | 3231 | Unemployment Compensation & Assessment | $76,882.29 | 2.0% |
 | 3271 | Other Payroll Expenses | $54,878.90 | 1.4% |
 
+## Largest vendors
+
+The 20 largest of 119 payees this agency recorded payments to in FY2024, accounting for 94.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $2,185,189.83 | 56.7% | 13 |
+| OREGON DEPARTMENT OF FORESTRY | $257,299.88 | 6.7% | 12 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $243,978.44 | 6.3% | 3 |
+| OREGON DEPARTMENT OF STATE FIRE MARSHAL | $130,133.47 | 3.4% | 7 |
+| OREGON HEALTH AUTHORITY | $107,822.50 | 2.8% | 1 |
+| NATIONAL GOVERNORS' ASSOCIATION | $106,600.00 | 2.8% | 1 |
+| OREGON DEPARTMENT OF ENERGY | $103,278.14 | 2.7% | 6 |
+| DEPT OF STATE POLICE | $80,494.03 | 2.1% | 10 |
+| EMPLOYMENT DEPARTMENT | $76,882.29 | 2.0% | 1 |
+| DEPARTMENT OF FISH & WILDLIFE | $52,322.20 | 1.4% | 1 |
+| OR BUSINESS DEVELOPMENT DEPARTMENT | $49,000.00 | 1.3% | 1 |
+| UNITED STATES MARSHALS SVC JPATS | $40,950.00 | 1.1% | 1 |
+| WESTERN GOVERNOR'S ASSOCIATION | $39,600.00 | 1.0% | 1 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $28,057.12 | 0.7% | 12 |
+| ROSS & ASSOCIATES ENVIRONMENTAL CONSULTING LTD | $28,049.75 | 0.7% | 1 |
+| CDW GOVERNMENT INC | $23,620.74 | 0.6% | 1 |
+| OFFICE OF THE GOVERNOR | $20,737.32 | 0.5% | 3 |
+| KYNDRYL INC | $19,583.48 | 0.5% | 1 |
+| MULTNOMAH COUNTY SHERIFF | $17,008.33 | 0.4% | 6 |
+| SECRETARY OF STATE | $16,636.25 | 0.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 406 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 406 vendor-level transaction records covering 119 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

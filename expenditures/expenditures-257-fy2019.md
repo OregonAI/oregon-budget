@@ -115,9 +115,36 @@ The 12 largest of 108 expenditure classes used by this agency in FY2019.
 | 4500 | Professional Services Non-It | $1,249,530.64 | 1.9% |
 | 4703 | Uniforms | $1,237,812.66 | 1.9% |
 
+## Largest vendors
+
+The 20 largest of 2,215 payees this agency recorded payments to in FY2019, accounting for 51.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $8,774,558.62 | 13.4% | 22 |
+| HIGHWAY DIVISION | $3,130,034.06 | 4.8% | 8 |
+| WELLS FARGO BANK NORTHWEST NATIONAL ASSO | $2,674,145.05 | 4.1% | 1 |
+| CDW GOVERNMENT INC | $1,982,420.88 | 3.0% | 11 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $1,977,284.42 | 3.0% | 57 |
+| WITHNELL MOTOR COMPANY | $1,572,137.09 | 2.4% | 3 |
+| CARSON OIL COMPANY INC | $1,403,037.59 | 2.1% | 1 |
+| MARC NELSON OIL PRODUCTS INC | $1,367,124.26 | 2.1% | 2 |
+| OREGON DEPARTMENT OF FORESTRY | $1,181,093.20 | 1.8% | 6 |
+| TUALATIN VALLEY FIRE & RESCUE | $1,156,487.49 | 1.8% | 6 |
+| ONLINE ENTERPRISES INC | $1,087,775.90 | 1.7% | 5 |
+| VERIZON NORTHWEST INC | $1,014,228.17 | 1.5% | 3 |
+| CITY OF PORTLAND | $838,788.41 | 1.3% | 7 |
+| LIFE TECHNOLOGIES | $780,819.60 | 1.2% | 3 |
+| AB SCIEX LLC | $771,987.95 | 1.2% | 4 |
+| CLACKAMAS FIRE DISTRICT 1 | $770,846.57 | 1.2% | 2 |
+| DIVERSE COMPUTING INC | $758,153.97 | 1.2% | 1 |
+| COBAN TECHNOLOGIES INC | $736,069.10 | 1.1% | 2 |
+| SHI INTERNATIONAL CORP | $735,190.69 | 1.1% | 6 |
+| 5 POINT SOLUTIONS LLC | $721,713.28 | 1.1% | 5 |
+
 ## Curator notes
 
-Figures are aggregated from 4,430 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 4,430 vendor-level transaction records covering 2,215 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

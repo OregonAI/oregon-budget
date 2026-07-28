@@ -111,9 +111,36 @@ The 12 largest of 88 expenditure classes used by this agency in FY2023.
 | 5805 | Buildings & Improvements>=$5K | $368,994.87 | 1.8% |
 | 5300 | Information Tech Network Software>=$5K | $316,661.61 | 1.5% |
 
+## Largest vendors
+
+The 20 largest of 288 payees this agency recorded payments to in FY2023, accounting for 88.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| BALLARD MARINE CONSTRUCTION LLC | $4,798,282.04 | 23.2% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $2,034,882.51 | 9.8% | 2 |
+| OREGON STATE UNIVERSITY | $1,799,561.43 | 8.7% | 3 |
+| VISIONARY INTEGRATION PROFESSIONALS LLC | $1,211,661.61 | 5.8% | 2 |
+| SWAN ISLAND RD TRUST | $1,200,000.00 | 5.8% | 1 |
+| ICF JONES & STOKES INC | $1,054,995.50 | 5.1% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $834,940.37 | 4.0% | 12 |
+| GLOBAL DIVING & SALVAGE INC | $806,848.11 | 3.9% | 1 |
+| PORT OF PORTLAND | $675,000.00 | 3.3% | 1 |
+| THE NORTH HIGHLAND HOLDING COMPANY LLC | $669,648.00 | 3.2% | 1 |
+| BERGERSON CONSTRUCTION INC | $618,889.46 | 3.0% | 1 |
+| OREGON STATE TREASURY | $602,675.59 | 2.9% | 2 |
+| TITAN-KELLY LLC | $469,575.92 | 2.3% | 1 |
+| US ENVIRONMENTAL PROTECTION AGENCY | $296,527.24 | 1.4% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $268,668.68 | 1.3% | 37 |
+| EMPLOYMENT DEPARTMENT | $221,419.03 | 1.1% | 1 |
+| NORTH DOUGLAS BETTERMENT | $214,000.00 | 1.0% | 1 |
+| SOLUTIONS CONSULTING GROUP LLC | $172,739.00 | 0.8% | 2 |
+| DSL BUILDERS LLC | $168,928.53 | 0.8% | 1 |
+| TVW INC | $142,195.21 | 0.7% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 581 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 581 vendor-level transaction records covering 288 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

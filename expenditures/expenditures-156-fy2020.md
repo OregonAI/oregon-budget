@@ -103,9 +103,36 @@ The 12 largest of 62 expenditure classes used by this agency in FY2020.
 | 4061 | Merchandise For Resale | $138,725.76 | 0.6% |
 | 4307 | Telecom/Network Support | $127,751.75 | 0.5% |
 
+## Largest vendors
+
+The 20 largest of 248 payees this agency recorded payments to in FY2020, accounting for 95.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $8,353,784.24 | 33.2% | 15 |
+| HOFFMAN CONSTRUCTION COMPANY OF OREGON | $8,334,678.85 | 33.2% | 1 |
+| SRG PARTNERSHIP INC | $2,738,625.89 | 10.9% | 1 |
+| DEPT OF STATE POLICE | $2,156,485.85 | 8.6% | 1 |
+| FIRST RESPONSE INC | $322,385.98 | 1.3% | 1 |
+| PORTLAND GENERAL ELECTRIC COMPANY | $267,291.65 | 1.1% | 1 |
+| SHI INTERNATIONAL CORP | $244,264.85 | 1.0% | 4 |
+| JACKSON LEWIS PC | $198,207.37 | 0.8% | 1 |
+| STICKY CO | $176,253.47 | 0.7% | 1 |
+| KEY CODE MEDIA INC | $155,084.00 | 0.6% | 3 |
+| THE SEGAL COMPANY SEGAL SIBSON SEGAL WATERS CONSUL | $154,000.00 | 0.6% | 1 |
+| STOEL RIVES LLP | $132,000.58 | 0.5% | 1 |
+| GRANICUS INC | $127,585.69 | 0.5% | 1 |
+| CDW GOVERNMENT INC | $112,034.17 | 0.4% | 8 |
+| MICROSOFT CORPORATION | $111,792.27 | 0.4% | 3 |
+| PRESIDIO NETWORKED SOLUTIONS GROUP LLC | $102,086.26 | 0.4% | 2 |
+| PRESIDIO NETWORKED SOLUTIONS INC | $87,163.68 | 0.3% | 6 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $84,040.84 | 0.3% | 24 |
+| NW NATURAL | $74,413.64 | 0.3% | 1 |
+| BAKER TILLY VIRCHOW KRAUSE LLP | $73,609.72 | 0.3% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 378 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 378 vendor-level transaction records covering 248 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

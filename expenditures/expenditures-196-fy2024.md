@@ -91,9 +91,26 @@ The 12 largest of 15 expenditure classes used by this agency in FY2024.
 | 3273 | Paid Leave Oregon-Employer Contributions | $682.08 | 0.1% |
 | 3216 | Pers Contribution - Rhipa | $130.93 | 0.0% |
 
+## Largest vendors
+
+The 10 largest of 10 payees this agency recorded payments to in FY2024, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $590,770.26 | 59.8% | 3 |
+| JOHN F CASALINO | $262,515.29 | 26.6% | 10 |
+| COLIN BENSON | $95,595.17 | 9.7% | 8 |
+| FREE STATE REPORTING INC | $21,369.30 | 2.2% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $8,244.00 | 0.8% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $6,960.00 | 0.7% | 1 |
+| ESCRIBERS LLC | $1,434.90 | 0.1% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $825.00 | 0.1% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $630.50 | 0.1% | 1 |
+| OREGON STATE TREASURY | $1.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 28 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 28 vendor-level transaction records covering 10 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

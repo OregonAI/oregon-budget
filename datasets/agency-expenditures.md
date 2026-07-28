@@ -95,6 +95,8 @@ Types are as Socrata *declares* them. Every value is delivered as a JSON string 
 
 **No negative amounts.** `expense` ranges from $0.01 to $5,325,594,372.67 with no reversals or credits, unlike the Lottery dataset. Refunds are evidently netted upstream.
 
+**`vendor` is free text and is not de-duplicated.** 98,933 distinct strings, but not 98,933 distinct organisations: a payee is whatever was entered in the statewide financial system, so one organisation appears under several spellings — `OREGON STATE TREASURY` and `OFFICE OF THE STATE TREASURER` are both present, as are `DEPARTMENT OF ADMINISTRATIVE SERVICES` and `STATE OF OREGON DEPARTMENT OF EDUCATION`. Counting distinct vendor strings undercounts the large payees, and no de-duplication is applied anywhere in this repo.
+
 ### Verification
 
 `live_schema_hash` is `sha256` over this dataset's sorted `fieldName:dataTypeName` pairs joined with `|`. It deliberately excludes column labels, widths, and positions, so a renamed label does not trip drift but an added, removed, renamed, or retyped field does. Current value:

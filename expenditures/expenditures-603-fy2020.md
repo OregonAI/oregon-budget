@@ -119,9 +119,36 @@ The 12 largest of 89 expenditure classes used by this agency in FY2020.
 | 4301 | Telecom/Voice Usage | $420,638.83 | 2.4% |
 | 6735 | Distribution To Non-Profit Org | $380,629.62 | 2.2% |
 
+## Largest vendors
+
+The 20 largest of 860 payees this agency recorded payments to in FY2020, accounting for 72.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $2,826,594.74 | 16.2% | 15 |
+| OREGON STATE UNIVERSITY | $2,455,885.19 | 14.1% | 10 |
+| US BANK NATIONAL ASSOCIATION ND | $1,650,476.01 | 9.4% | 45 |
+| STATE DEPARTMENT OF AGRICULTURE | $1,051,503.48 | 6.0% | 10 |
+| PINE RIDGE INVESTMENT CORP | $810,407.50 | 4.6% | 1 |
+| DEPARTMENT OF ENVIRONMENTAL QUALITY | $694,753.00 | 4.0% | 3 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $528,841.58 | 3.0% | 1 |
+| US BANK NATIONAL ASSOCIATION | $339,556.81 | 1.9% | 3 |
+| USDA APHIS | $264,780.95 | 1.5% | 1 |
+| OREGON STATE TREASURY | $260,663.72 | 1.5% | 1 |
+| US DEPT OF AGRICULTURE | $246,668.85 | 1.4% | 4 |
+| SHI INTERNATIONAL CORP | $221,622.27 | 1.3% | 4 |
+| AGILENT TECHNOLOGIES | $197,276.75 | 1.1% | 5 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $184,661.85 | 1.1% | 1 |
+| RON TONKIN TOYOTA | $160,497.87 | 0.9% | 1 |
+| WASTE MANAGEMENT | $154,628.18 | 0.9% | 1 |
+| DEPT OF STATE POLICE | $144,631.00 | 0.8% | 2 |
+| VERIZON NORTHWEST INC | $139,863.93 | 0.8% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $121,178.27 | 0.7% | 3 |
+| POWER MOTORS INC | $119,083.49 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,768 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,768 vendor-level transaction records covering 860 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

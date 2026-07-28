@@ -96,9 +96,36 @@ The 12 largest of 40 expenditure classes used by this agency in FY2020.
 | 4500 | Professional Services Non-It | $10,983.32 | 2.0% |
 | 4202 | Equipment Rental | $7,312.27 | 1.3% |
 
+## Largest vendors
+
+The 20 largest of 69 payees this agency recorded payments to in FY2020, accounting for 95.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $182,105.25 | 33.0% | 11 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $136,330.28 | 24.7% | 1 |
+| SALEM FOUNDATION | $102,562.07 | 18.6% | 1 |
+| SENIOR CITIZENS COUNCIL OF CLACKAMAS CTY INC | $20,060.00 | 3.6% | 1 |
+| EAN HOLDING LLC | $12,722.94 | 2.3% | 1 |
+| FUNK/LEVIS ASSOCIATES | $10,250.00 | 1.9% | 1 |
+| UNITED TELEPHONE COMPANY OF THE NORTHWEST | $8,108.27 | 1.5% | 1 |
+| RICOH USA INC | $7,312.27 | 1.3% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $6,247.34 | 1.1% | 1 |
+| SEM APPLICATIONS INC | $5,926.00 | 1.1% | 1 |
+| MARGARET M EPPLE | $5,120.05 | 0.9% | 11 |
+| KATHY THOMAS | $4,687.79 | 0.8% | 6 |
+| SARAH R BOSMA | $4,547.45 | 0.8% | 4 |
+| IBM CORPORATION | $3,746.63 | 0.7% | 1 |
+| ZOOM VIDEO COMMUNICATIONS INC | $2,997.00 | 0.5% | 1 |
+| CINDY JOHNSON | $2,808.87 | 0.5% | 7 |
+| STEPHANIE ANN DELAGE | $2,522.98 | 0.5% | 6 |
+| JOAN DAVIES | $2,493.49 | 0.5% | 5 |
+| DAVID BERGER | $2,286.76 | 0.4% | 4 |
+| HEART OF LIVING HOME CARE LLC | $2,205.31 | 0.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 162 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 162 vendor-level transaction records covering 69 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

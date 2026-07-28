@@ -98,9 +98,36 @@ The 12 largest of 48 expenditure classes used by this agency in FY2019.
 | 4367 | Computer Technology Pc Support | $17,850.00 | 0.9% |
 | 4101 | Instate Meals With Overnight Stay | $17,832.75 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 97 payees this agency recorded payments to in FY2019, accounting for 93.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON HORSEMENS BENEVOLENT & PROTECTIVE ASSN INC | $275,500.00 | 14.6% | 1 |
+| CROOKED RIVER ROUND UP | $264,425.27 | 14.0% | 2 |
+| SOUTHERN OREGON HORSE RACING ASSOCIATION | $228,018.00 | 12.0% | 2 |
+| MEC OREGON RACING INC | $217,500.00 | 11.5% | 1 |
+| OREGON THOROUGHBRED OWNERS & BREEDERS ASSN INC | $134,725.00 | 7.1% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $121,914.13 | 6.4% | 8 |
+| OREGON QUARTER HORSE RACING ASSN | $108,750.00 | 5.7% | 1 |
+| TILLAMOOK COUNTY FAIR AND CONVENTION CENTER | $89,960.00 | 4.8% | 2 |
+| HARNEY COUNTY FAIR | $67,564.50 | 3.6% | 3 |
+| EASTERN OREGON LIVESTOCK SHOW | $63,372.75 | 3.3% | 1 |
+| TRUESDAIL LABORATORIES INC | $57,912.00 | 3.1% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $33,133.80 | 1.8% | 1 |
+| LEGISLATIVE COUNSEL COMMITTEE | $22,872.20 | 1.2% | 2 |
+| TRIDENT NETWORK SERVICES INC | $22,200.00 | 1.2% | 1 |
+| CONFUZER INC | $15,750.00 | 0.8% | 1 |
+| GRANTS INVESTMENTS | $13,373.80 | 0.7% | 1 |
+| RACE TRACK PHOTO SERVICE INC | $11,100.00 | 0.6% | 1 |
+| UNIVERSITY OF CALIFORNIA REGENTS | $11,000.00 | 0.6% | 1 |
+| EAN HOLDING LLC | $9,732.05 | 0.5% | 2 |
+| ASSOCIATION OF RACING COMMISSIONERS INTERNATIONAL | $7,700.00 | 0.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 184 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 184 vendor-level transaction records covering 97 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -101,9 +101,36 @@ The 12 largest of 41 expenditure classes used by this agency in FY2021.
 | 6082 | Distribution To Dhs Agy 100 | $59,845.33 | 1.8% |
 | 3231 | Unemployment Compensation & Assessment | $55,407.81 | 1.6% |
 
+## Largest vendors
+
+The 20 largest of 114 payees this agency recorded payments to in FY2021, accounting for 85.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $492,883.19 | 14.6% | 6 |
+| EMPLOYMENT DEPARTMENT | $480,185.85 | 14.2% | 4 |
+| COOPER ZIETZ ENGINEERS INC | $409,884.34 | 12.1% | 1 |
+| DEPARTMENT OF ADMINISTRATION SERVICES | $390,860.40 | 11.6% | 1 |
+| CDW GOVERNMENT INC | $186,026.06 | 5.5% | 3 |
+| OREGON TRADESWOMEN INC | $151,132.97 | 4.5% | 2 |
+| PORTLAND YOUTHBUILDERS | $101,287.22 | 3.0% | 1 |
+| OREGON DEPARTMENT OF JUSTICE | $79,488.04 | 2.4% | 1 |
+| VOYAGER SYSTEMS INC | $75,646.72 | 2.2% | 1 |
+| EVERGREEN EXECUTIVE BUILDING LLC | $73,431.03 | 2.2% | 3 |
+| OREGON DEPT OF HUMAN SERVICES | $59,845.33 | 1.8% | 1 |
+| SALEM FOUNDATION | $53,000.31 | 1.6% | 1 |
+| UNITED STATES POSTAL SERVICE | $51,446.91 | 1.5% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $48,858.92 | 1.4% | 1 |
+| IBM CORPORATION | $45,942.37 | 1.4% | 1 |
+| SENDIT DIRECT MAIL & FULFILLMENT INC | $45,055.72 | 1.3% | 2 |
+| PORTLAND STATE UNIVERSITY | $43,000.75 | 1.3% | 1 |
+| RICOH USA INC | $38,024.26 | 1.1% | 5 |
+| THE UNIVERSITY OF IOWA | $35,877.47 | 1.1% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $33,824.98 | 1.0% | 14 |
+
 ## Curator notes
 
-Figures are aggregated from 158 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 158 vendor-level transaction records covering 114 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

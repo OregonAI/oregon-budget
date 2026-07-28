@@ -100,9 +100,36 @@ The 12 largest of 54 expenditure classes used by this agency in FY2020.
 | 4704 | Other Supplies | $81,479.13 | 0.4% |
 | 4200 | Office Supplies | $72,349.93 | 0.4% |
 
+## Largest vendors
+
+The 20 largest of 311 payees this agency recorded payments to in FY2020, accounting for 93.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| PORT OF MORROW | $10,450,000.00 | 52.6% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,831,856.35 | 9.2% | 15 |
+| DEE IRRIGATION DISTRICT | $1,440,000.00 | 7.3% | 1 |
+| TUMALO IRRIGATION DISTRICT | $1,167,787.80 | 5.9% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $889,364.39 | 4.5% | 1 |
+| THE FRESHWATER TRUST | $545,709.00 | 2.7% | 1 |
+| FARMERS IRRIGATION DISTRICT | $443,791.76 | 2.2% | 1 |
+| US GEOLOGICAL SURVEY | $407,623.24 | 2.1% | 4 |
+| CITY OF CARLTON | $252,470.81 | 1.3% | 1 |
+| WASCO CO SWCD | $218,412.28 | 1.1% | 1 |
+| DESCHUTES VALLEY WATER DISTRICT | $202,245.00 | 1.0% | 1 |
+| YELLOW JACKET DRILLING SERVICES LLC | $119,460.00 | 0.6% | 1 |
+| POWDER VALLEY WATER CONTROL DISTRICT | $100,236.35 | 0.5% | 1 |
+| US ARMY CORPS OF ENGINEERS PORTLAND DISTRICT | $100,000.00 | 0.5% | 1 |
+| MALHEUR WATERSHED COUNCIL | $90,133.00 | 0.5% | 2 |
+| EMPLOYMENT DEPARTMENT | $88,149.55 | 0.4% | 1 |
+| SONTEK YSI INC | $87,541.42 | 0.4% | 5 |
+| OTT HYDROMET CORP | $74,607.28 | 0.4% | 4 |
+| STATE OF OREGON SECRETARY OF STATE | $62,536.06 | 0.3% | 2 |
+| CITY OF LA GRANDE | $60,000.00 | 0.3% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 569 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 569 vendor-level transaction records covering 311 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -123,9 +123,36 @@ The 12 largest of 140 expenditure classes used by this agency in FY2023.
 | 4950 | Other Care Of Residents/Patients-Service | $9,136,859.04 | 2.1% |
 | 5255 | Installation/Technical Equipment>=$5K | $8,626,431.42 | 2.0% |
 
+## Largest vendors
+
+The 20 largest of 2,406 payees this agency recorded payments to in FY2023, accounting for 62.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $69,118,127.97 | 15.7% | 22 |
+| CORRECTIONAL HEALTH PARTNERS LLC | $33,561,976.80 | 7.6% | 1 |
+| COUNTY OF MULTNOMAH | $27,172,285.59 | 6.2% | 1 |
+| CARDINAL HEALTH | $15,122,190.05 | 3.4% | 1 |
+| COUNTY OF MARION TREASURY DEPARTMENT | $14,912,655.49 | 3.4% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $13,904,907.97 | 3.2% | 75 |
+| COUNTY OF LANE | $13,867,981.73 | 3.1% | 1 |
+| WASHINGTON COUNTY COMMUNITY CORRECTIONS | $13,577,024.80 | 3.1% | 1 |
+| JACKSON COUNTY COMMUNITY JUSTICE | $11,139,825.15 | 2.5% | 3 |
+| COUNTY OF CLACKAMAS | $8,584,089.12 | 1.9% | 2 |
+| CDW GOVERNMENT INC | $6,418,415.28 | 1.5% | 27 |
+| DESCHUTES COUNTY ADULT COMMUNITY JUSTICE | $6,238,202.57 | 1.4% | 1 |
+| JOSEPHINE COUNTY CCA | $5,852,165.50 | 1.3% | 1 |
+| MAXIM HEALTHCARE SERVICES HOLDINGS INC | $5,739,981.24 | 1.3% | 1 |
+| HARRIS CORPORATION | $5,695,405.64 | 1.3% | 5 |
+| OREGON CORRECTIONS ENTERPRISES | $5,164,876.86 | 1.2% | 15 |
+| CORRECTIONS TRUST ACCT | $5,005,287.79 | 1.1% | 5 |
+| COUNTY OF KLAMATH | $4,833,688.68 | 1.1% | 2 |
+| HIGHER EDUCATION COORDINATING COMMISSION | $4,824,693.67 | 1.1% | 2 |
+| COUNTY OF UMATILLA | $3,909,163.14 | 0.9% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 4,978 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 4,978 vendor-level transaction records covering 2,406 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

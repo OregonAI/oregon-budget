@@ -94,9 +94,36 @@ The 12 largest of 30 expenditure classes used by this agency in FY2023.
 | 4101 | Instate Meals With Overnight Stay | $4,668.50 | 1.4% |
 | 4375 | Computer Technology Computer Processing | $4,364.53 | 1.3% |
 
+## Largest vendors
+
+The 20 largest of 47 payees this agency recorded payments to in FY2023, accounting for 96.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $104,725.16 | 30.4% | 7 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $78,819.96 | 22.9% | 1 |
+| VICKIE-O PROPERTIES LLC | $31,843.94 | 9.2% | 2 |
+| EDULOKA LTD | $24,487.75 | 7.1% | 1 |
+| DEPT OF STATE POLICE | $23,256.00 | 6.7% | 1 |
+| THE EQUITABLE CENTER LLC | $17,509.97 | 5.1% | 1 |
+| US BANK NATIONAL ASSOCIATION | $16,868.49 | 4.9% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $6,674.23 | 1.9% | 2 |
+| FINCH CONSULTING LLC | $5,782.50 | 1.7% | 1 |
+| CASSANDRA SKINNER | $3,085.78 | 0.9% | 12 |
+| APPLIED LOGIC CORPORATION | $2,669.00 | 0.8% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $2,598.39 | 0.8% | 1 |
+| MACKENZIE PURNELL | $2,291.17 | 0.7% | 3 |
+| CRAIG KAWAOKA | $1,987.51 | 0.6% | 8 |
+| FEDERATION OF CHIROPRACTIC LICENSING BOARDS | $1,872.00 | 0.5% | 1 |
+| KYNDRYL INC | $1,814.21 | 0.5% | 1 |
+| LORI SCHMIDT | $1,696.85 | 0.5% | 3 |
+| OREGON MEDICAL BOARD | $1,648.12 | 0.5% | 1 |
+| KAREN BARANICK | $1,515.55 | 0.4% | 6 |
+| GINA SULLIVAN | $1,390.41 | 0.4% | 4 |
+
 ## Curator notes
 
-Figures are aggregated from 104 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 104 vendor-level transaction records covering 47 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

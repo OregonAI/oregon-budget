@@ -91,9 +91,36 @@ The 12 largest of 23 expenditure classes used by this agency in FY2024.
 | 4101 | Instate Meals With Overnight Stay | $2,274.25 | 1.5% |
 | 3231 | Unemployment Compensation & Assessment | $1,980.00 | 1.3% |
 
+## Largest vendors
+
+The 20 largest of 38 payees this agency recorded payments to in FY2024, accounting for 97.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $64,608.13 | 42.1% | 5 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $17,162.30 | 11.2% | 1 |
+| MICHAEL VERNON TOM | $11,935.00 | 7.8% | 1 |
+| DEPAUL INDUSTRIES | $10,604.45 | 6.9% | 1 |
+| OREGON COMMUNITY HEALTH WORKERS ASSOCIATION | $10,000.00 | 6.5% | 1 |
+| ALBERT LEE | $6,539.17 | 4.3% | 6 |
+| CDW GOVERNMENT INC | $5,758.21 | 3.7% | 2 |
+| SHI INTERNATIONAL CORP | $3,882.97 | 2.5% | 1 |
+| JILL GOLDSMITH ATTY AT LAW | $3,769.50 | 2.5% | 1 |
+| SABA SALEEM | $2,252.35 | 1.5% | 4 |
+| AVA-MARIA STEVENS | $2,183.87 | 1.4% | 5 |
+| EMPLOYMENT DEPARTMENT | $1,980.00 | 1.3% | 1 |
+| GUSTAVO GUERRERO | $1,828.52 | 1.2% | 2 |
+| LANICIA DUKE | $1,234.96 | 0.8% | 3 |
+| KYL MYERS | $1,125.60 | 0.7% | 3 |
+| OREGON SECRETARY OF STATE | $1,051.00 | 0.7% | 1 |
+| OREGON CERTIFIED INTERPRETERS NETWORK INC | $1,015.10 | 0.7% | 1 |
+| SECRETARY OF STATE | $773.52 | 0.5% | 1 |
+| JESSICA PRICE | $727.24 | 0.5% | 2 |
+| SILKY BOOKER | $723.64 | 0.5% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 75 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 75 vendor-level transaction records covering 38 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

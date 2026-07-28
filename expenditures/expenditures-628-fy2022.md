@@ -94,9 +94,36 @@ The 12 largest of 30 expenditure classes used by this agency in FY2022.
 | 4600 | State Government Service Charges | $8,970.05 | 0.3% |
 | 4301 | Telecom/Voice Usage | $8,744.57 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 91 payees this agency recorded payments to in FY2022, accounting for 94.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| GARD EDWARDS-ALDRIDGE INC | $1,269,846.21 | 48.4% | 2 |
+| OREGON STATE UNIVERSITY | $339,257.08 | 12.9% | 3 |
+| KEEP OREGON GREEN ASSOCIATION INC | $162,187.00 | 6.2% | 1 |
+| CAWOOD | $112,404.03 | 4.3% | 1 |
+| OREGON WOMEN IN TIMBER | $90,420.15 | 3.4% | 1 |
+| PETERKORT CENTRE II LLC | $89,726.47 | 3.4% | 1 |
+| MASON BRUCE & GIRARD INC | $80,000.00 | 3.0% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $52,144.99 | 2.0% | 20 |
+| PARALLEL PUBLIC WORKS INC | $44,553.00 | 1.7% | 2 |
+| CAFFERATA CONSULTING LLC | $39,354.79 | 1.5% | 1 |
+| OREGON SMALL WOODLANDS ASSOCIATION | $38,050.00 | 1.4% | 2 |
+| DHM LLC | $32,475.00 | 1.2% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $25,355.20 | 1.0% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $22,530.36 | 0.9% | 5 |
+| OREGON GARDEN FOUNDATION | $21,000.00 | 0.8% | 1 |
+| FORESTS FOREVER INC | $20,000.00 | 0.8% | 1 |
+| CBIZ BENEFITS & INSURANCE SERVICES INC | $15,333.33 | 0.6% | 1 |
+| LOWELLS PRINT-INN INC | $13,569.50 | 0.5% | 1 |
+| DAVIS HIBBITTS & MIDGHALL INC | $10,800.00 | 0.4% | 1 |
+| NORTH AMERICAN FOREST PARTNERSHIP INC | $10,000.00 | 0.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 146 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 146 vendor-level transaction records covering 91 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

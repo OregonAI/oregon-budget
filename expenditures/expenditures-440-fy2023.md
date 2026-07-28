@@ -87,8 +87,8 @@ The largest budget category was **Distribution To Non-Governments** at $156,760,
 | 4375 | Employee Recruitment And Development | $20,545.77 | 0.0% | 2 |
 | 3220 | Public Employes' Retirement System | $8,384.94 | 0.0% | 4 |
 | 3270 | Flexible Benefits | $6,614.58 | 0.0% | 1 |
-| 6070 | Loans Made To State Agencies | $5,841.83 | 0.0% | 1 |
 | 7300 | Principal - Loans | $5,841.83 | 0.0% | 1 |
+| 6070 | Loans Made To State Agencies | $5,841.83 | 0.0% | 1 |
 | 3230 | Social Security Tax | $2,981.52 | 0.0% | 1 |
 | 3221 | Pension Bond Contribution | $2,197.90 | 0.0% | 1 |
 | 3190 | All Other Differential | $1,795.26 | 0.0% | 1 |
@@ -116,9 +116,36 @@ The 12 largest of 97 expenditure classes used by this agency in FY2023.
 | 4301 | Telecom/Voice Usage | $1,051,063.50 | 0.5% |
 | 4701 | Other Services | $997,642.58 | 0.5% |
 
+## Largest vendors
+
+The 20 largest of 1,067 payees this agency recorded payments to in FY2023, accounting for 84.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| SAIF CORP | $38,810,543.18 | 18.0% | 2 |
+| PROVIDENCE HEALTH PLAN | $37,295,377.93 | 17.3% | 1 |
+| MODA HEALTH PLAN INC | $30,036,814.15 | 13.9% | 1 |
+| PACIFIC HOSPITAL ASSOCIATION | $14,912,812.46 | 6.9% | 1 |
+| KAISER FOUNDATION HEALTH PLAN OF THE NORTHWEST | $13,873,220.28 | 6.4% | 1 |
+| REGENCE BLUECROSS BLUESHIELD OF OREGON | $10,915,805.33 | 5.1% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $9,716,840.72 | 4.5% | 15 |
+| SEDGWICK | $6,782,445.60 | 3.1% | 1 |
+| LIBERTY NORTHWEST INSURANCE CORP | $4,403,456.09 | 2.0% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $2,483,461.91 | 1.2% | 49 |
+| DEPARTMENT OF JUSTICE | $2,171,087.81 | 1.0% | 1 |
+| COUNTY OF JACKSON | $1,311,867.50 | 0.6% | 4 |
+| SHI INTERNATIONAL CORP | $1,299,980.57 | 0.6% | 3 |
+| DEPARTMENT OF CONSUMER AND BUSINESS SERVICES | $1,145,062.24 | 0.5% | 7 |
+| ACCELA INC | $1,131,429.42 | 0.5% | 4 |
+| OIGA | $1,114,294.61 | 0.5% | 1 |
+| PROVIDENCE HEALTH & SERVICES-OR | $1,078,194.91 | 0.5% | 1 |
+| EMPLOYERS INS OF WAUSAU | $909,682.07 | 0.4% | 1 |
+| KALBERER COMPANY | $868,055.83 | 0.4% | 1 |
+| LM INSURANCE CORPORATION | $851,464.02 | 0.4% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 1,969 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,969 vendor-level transaction records covering 1,067 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

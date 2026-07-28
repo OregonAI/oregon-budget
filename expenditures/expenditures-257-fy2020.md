@@ -98,8 +98,8 @@ The largest budget category was **Other Services And Supplies** at $9,623,494.39
 | 6030 | Distribution To Non-Governments | $9,991.00 | 0.0% | 1 |
 | 6213 | Dist To Criminal Justice Cmsn | $8,466.95 | 0.0% | 1 |
 | 3220 | Public Employes' Retirement System | $6,908.35 | 0.0% | 5 |
-| 6581 | Dist To Dept Of Education | $3,681.29 | 0.0% | 1 |
 | 6340 | Dist To Deq | $3,681.29 | 0.0% | 1 |
+| 6581 | Dist To Dept Of Education | $3,681.29 | 0.0% | 1 |
 | 3230 | Social Security Tax | $3,022.65 | 0.0% | 2 |
 | 6170 | Dist To Treasury Dept | $2,682.66 | 0.0% | 1 |
 | 3221 | Pension Bond Contribution | $2,524.90 | 0.0% | 2 |
@@ -128,9 +128,36 @@ The 12 largest of 116 expenditure classes used by this agency in FY2020.
 | 4703 | Uniforms | $2,150,852.61 | 3.1% |
 | 4500 | Professional Services Non-It | $2,034,364.18 | 2.9% |
 
+## Largest vendors
+
+The 20 largest of 2,120 payees this agency recorded payments to in FY2020, accounting for 68.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $10,858,954.04 | 15.6% | 30 |
+| HIGHWAY DIVISION | $3,702,798.39 | 5.3% | 4 |
+| PIERCE MANUFACTURING INC | $3,622,885.96 | 5.2% | 1 |
+| WITHNELL MOTOR COMPANY | $3,106,005.05 | 4.5% | 3 |
+| GRAINGER | $2,961,669.52 | 4.3% | 7 |
+| DHS US CITIZENSHP & IMMIGRATION SERVICES | $2,828,688.00 | 4.1% | 1 |
+| COBAN TECHNOLOGIES INC | $2,697,452.48 | 3.9% | 8 |
+| CDW GOVERNMENT INC | $2,671,175.67 | 3.8% | 15 |
+| OSP PROPERTY (DE) LLC | $2,537,224.45 | 3.7% | 2 |
+| CARSON OIL COMPANY INC | $2,081,978.92 | 3.0% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $1,727,519.05 | 2.5% | 56 |
+| DIVERSE COMPUTING INC | $1,701,731.07 | 2.5% | 1 |
+| VERIZON NORTHWEST INC | $1,084,889.41 | 1.6% | 4 |
+| SHI INTERNATIONAL CORP | $1,017,453.56 | 1.5% | 5 |
+| ONLINE ENTERPRISES INC | $984,527.00 | 1.4% | 1 |
+| HUBBARD CHEVROLET GMAC | $940,418.03 | 1.4% | 1 |
+| WESTERN IDENTIFICATION NETWORK INC | $834,263.16 | 1.2% | 1 |
+| LIFE TECHNOLOGIES | $785,178.25 | 1.1% | 2 |
+| DESCHUTES COUNTY | $698,002.93 | 1.0% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $655,037.16 | 0.9% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 4,531 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 4,531 vendor-level transaction records covering 2,120 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

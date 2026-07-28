@@ -99,9 +99,36 @@ The 12 largest of 37 expenditure classes used by this agency in FY2022.
 | 5170 | Motor Vehicles>=$5K | $33,900.00 | 1.2% |
 | 4108 | Instate Ground Transportation | $33,169.35 | 1.2% |
 
+## Largest vendors
+
+The 20 largest of 68 payees this agency recorded payments to in FY2022, accounting for 97.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| QUANTUM SPATIAL INC | $1,118,125.65 | 40.2% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $970,943.15 | 34.9% | 12 |
+| VA INSTITUTE OF MARINE SCIENCE | $109,703.77 | 3.9% | 1 |
+| CARDNO INC | $106,000.11 | 3.8% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $56,353.68 | 2.0% | 1 |
+| RESOURCE DATA INC | $56,317.50 | 2.0% | 1 |
+| SHI INTERNATIONAL CORP | $47,545.57 | 1.7% | 2 |
+| BRUKER HANDHELD LLC | $46,235.00 | 1.7% | 3 |
+| PIVOTAL RESOURCES INC | $35,650.00 | 1.3% | 1 |
+| RUSSELL W TRIPP | $34,200.00 | 1.2% | 1 |
+| GIG HARBOR W/S LLC | $33,900.00 | 1.2% | 1 |
+| VERIZON WIRELESS | $20,863.57 | 0.8% | 3 |
+| OREGON DEPT OF TRANSPORTATION | $20,050.55 | 0.7% | 2 |
+| GNEISS EDITING LLC | $13,712.34 | 0.5% | 1 |
+| UNIVERSITY OF OREGON | $10,650.22 | 0.4% | 1 |
+| INTEGRAL CONSULTING INC | $9,322.00 | 0.3% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $8,072.70 | 0.3% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $7,849.00 | 0.3% | 1 |
+| ENNIS-FLINT INC | $6,354.30 | 0.2% | 1 |
+| GARTEN SERVICES INC | $5,704.05 | 0.2% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 109 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 109 vendor-level transaction records covering 68 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

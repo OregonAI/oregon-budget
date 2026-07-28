@@ -93,9 +93,36 @@ The 12 largest of 34 expenditure classes used by this agency in FY2022.
 | 4301 | Telecom/Voice Usage | $27,187.30 | 1.3% |
 | 4701 | Other Services | $14,344.03 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 62 payees this agency recorded payments to in FY2022, accounting for 97.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $535,024.30 | 25.7% | 1 |
+| INTEGRATED BEHAVIORAL HEALTH INC | $362,861.00 | 17.4% | 1 |
+| OREGON STATE TREASURY | $250,614.80 | 12.0% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $249,711.76 | 12.0% | 9 |
+| URBAN OFFICE & PARKING FACILITIES | $194,477.36 | 9.3% | 3 |
+| DEPT OF STATE POLICE | $126,863.25 | 6.1% | 1 |
+| FOUNDATION FOR MEDICAL EXCELLENCE | $79,914.00 | 3.8% | 1 |
+| GALLANT POLICY ADVISORS INC | $42,000.00 | 2.0% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $32,125.52 | 1.5% | 1 |
+| LYNX GROUP INC | $29,112.71 | 1.4% | 1 |
+| RELIANT BEHAVIORAL HEALTH LLC | $27,884.00 | 1.3% | 1 |
+| BAE SYSTEMS APPLIED INTELLIGENCE US CORP | $20,701.78 | 1.0% | 2 |
+| NAEGELI REPORTING CORPORATION | $18,049.49 | 0.9% | 1 |
+| KYNDRYL INC | $15,437.40 | 0.7% | 2 |
+| EMPLOYMENT DEPARTMENT | $15,138.84 | 0.7% | 1 |
+| NEURILINK LLC | $9,191.69 | 0.4% | 1 |
+| UNITED STATES POSTAL SERVICE | $8,000.00 | 0.4% | 1 |
+| JEFFREY M DEMBNER MD INC | $6,487.50 | 0.3% | 1 |
+| RICOH USA INC | $6,363.97 | 0.3% | 1 |
+| IBM CORPORATION | $5,483.90 | 0.3% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 85 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 85 vendor-level transaction records covering 62 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

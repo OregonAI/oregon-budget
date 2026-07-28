@@ -92,9 +92,36 @@ The 12 largest of 22 expenditure classes used by this agency in FY2020.
 | 4201 | Office Services | $3,813.65 | 1.4% |
 | 4305 | Telecom/Network Services | $3,595.36 | 1.4% |
 
+## Largest vendors
+
+The 20 largest of 33 payees this agency recorded payments to in FY2020, accounting for 99.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $80,060.95 | 30.3% | 7 |
+| WESTPAC INVESTMENT COMPANY | $48,565.44 | 18.4% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $35,118.36 | 13.3% | 1 |
+| DEPT OF STATE POLICE | $29,918.25 | 11.3% | 1 |
+| THENTIA GLOBAL SYSTEMS USA INC | $25,000.00 | 9.4% | 1 |
+| GALT FOUNDATION | $13,645.49 | 5.2% | 1 |
+| US BANK NATIONAL ASSOCIATION | $12,973.98 | 4.9% | 2 |
+| CONFUZER INC | $5,500.00 | 2.1% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $3,153.14 | 1.2% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $1,656.61 | 0.6% | 2 |
+| IBM CORPORATION | $1,629.52 | 0.6% | 1 |
+| STATE BOARD OF TAX PRACTITIONERS | $1,246.68 | 0.5% | 1 |
+| FINCH CONSULTING LLC | $1,091.25 | 0.4% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $1,003.76 | 0.4% | 1 |
+| OREGON BOARD OF OPTOMETRY | $553.73 | 0.2% | 1 |
+| STEPHANIE MANRIQUEZ | $464.70 | 0.2% | 1 |
+| RACHEL A JENSEN | $367.24 | 0.1% | 2 |
+| JOHNNIE L FANT | $313.08 | 0.1% | 2 |
+| KIM COLEMAN | $239.11 | 0.1% | 3 |
+| TROY CLINTON | $230.36 | 0.1% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 52 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 52 vendor-level transaction records covering 33 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

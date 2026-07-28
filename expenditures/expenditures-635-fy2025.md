@@ -129,9 +129,36 @@ The 12 largest of 129 expenditure classes used by this agency in FY2025.
 | 4825 | Fuels And Utilities | $1,736,140.93 | 1.6% |
 | 5965 | Utility Systems>=$5K | $1,685,721.25 | 1.6% |
 
+## Largest vendors
+
+The 20 largest of 2,087 payees this agency recorded payments to in FY2025, accounting for 62.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPT OF STATE POLICE | $16,959,814.98 | 15.9% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $14,662,467.03 | 13.8% | 16 |
+| US BANK NATIONAL ASSOCIATION ND | $7,262,819.06 | 6.8% | 64 |
+| OREGON STATE UNIVERSITY | $4,009,982.69 | 3.8% | 11 |
+| MOORE-CLARK USA INC | $3,918,606.86 | 3.7% | 1 |
+| GRIFFIN CONSTRUCTION LLC | $2,831,335.59 | 2.7% | 1 |
+| CASCADE CIVIL CORP | $1,850,001.90 | 1.7% | 1 |
+| OREGON DEPARTMENT OF FORESTRY | $1,651,609.30 | 1.6% | 16 |
+| NORTHWEST MARINE TECHNOLOGY INC | $1,451,496.00 | 1.4% | 4 |
+| CDW GOVERNMENT INC | $1,431,596.12 | 1.3% | 13 |
+| ELKHORN AVIATION INC | $1,279,386.20 | 1.2% | 2 |
+| PARTNERSHIP FOR THE UMPQUA RIVERS | $1,232,832.46 | 1.2% | 2 |
+| FIRST AMERICAN TITLE CO OF OREGON | $1,151,630.73 | 1.1% | 1 |
+| BIG RIVER CONSTRUCTION INC | $1,145,494.92 | 1.1% | 3 |
+| COQUILLE WATERSHED ASSOCIATION | $1,138,227.67 | 1.1% | 1 |
+| TERRA TECHNOLOGY GROUP LLC | $1,115,096.52 | 1.0% | 1 |
+| DEPARTMENT OF JUSTICE | $1,044,402.85 | 1.0% | 1 |
+| DEPARTMENT OF FISH & WILDLIFE | $1,014,322.68 | 1.0% | 3 |
+| COOS WATERSHED ASSOCIATION | $915,958.14 | 0.9% | 2 |
+| OREGON WILDLIFE HERITAGE FOUNDATION | $880,596.68 | 0.8% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 3,727 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 3,727 vendor-level transaction records covering 2,087 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

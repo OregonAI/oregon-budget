@@ -91,9 +91,32 @@ The 12 largest of 24 expenditure classes used by this agency in FY2025.
 | 4108 | Instate Ground Transportation | $2,438.50 | 0.8% |
 | 4105 | Instate Meals-No Overnight Stay | $2,310.04 | 0.8% |
 
+## Largest vendors
+
+The 16 largest of 16 payees this agency recorded payments to in FY2025, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $215,523.53 | 70.1% | 11 |
+| NICUSA INC | $63,750.00 | 20.7% | 1 |
+| JANET F GILLMAN | $10,242.40 | 3.3% | 8 |
+| STATE OF OREGON - SECRETARY OF STATE | $7,867.75 | 2.6% | 2 |
+| PHILIP ALAN JOHNSON II | $2,336.74 | 0.8% | 3 |
+| STEVE IRVIN | $2,281.38 | 0.7% | 5 |
+| ADAM RHYNARD | $1,481.07 | 0.5% | 3 |
+| SHI INTERNATIONAL CORP | $1,093.71 | 0.4% | 1 |
+| MARTIN KEHOE | $999.00 | 0.3% | 1 |
+| KYNDRYL INC | $775.76 | 0.3% | 1 |
+| CASCADE CENTERS INC | $511.68 | 0.2% | 1 |
+| CDW GOVERNMENT INC | $359.14 | 0.1% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $227.50 | 0.1% | 1 |
+| OREGON STATE TREASURY | $147.45 | 0.0% | 1 |
+| SABRINA DUNSWORTH | $68.00 | 0.0% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $5.13 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 42 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 42 vendor-level transaction records covering 16 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

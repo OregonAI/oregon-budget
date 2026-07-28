@@ -94,9 +94,36 @@ The 12 largest of 32 expenditure classes used by this agency in FY2019.
 | 4372 | Computer Technology Peripheral Equip<$5K | $4,373.84 | 1.3% |
 | 4411 | Prof Dev Out-Of-State Tuition/Regist | $3,375.00 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 23 payees this agency recorded payments to in FY2019, accounting for 99.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $117,128.05 | 33.9% | 8 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $88,369.09 | 25.6% | 21 |
+| SHERIDAN BOOKS INC | $43,818.79 | 12.7% | 1 |
+| LSC COMMUNICATIONS US LLC | $28,806.54 | 8.3% | 1 |
+| CDW GOVERNMENT INC | $17,799.91 | 5.2% | 2 |
+| LEGISLATIVE ADMIN COMMITTEE | $15,337.24 | 4.4% | 2 |
+| COMMERCIAL BUSINESS FURNITURE | $12,250.26 | 3.5% | 2 |
+| US BANK NATIONAL ASSOCIATION | $5,788.30 | 1.7% | 1 |
+| MULTIPORT SYSTEMS INC | $3,371.25 | 1.0% | 1 |
+| MICROSOFT CORPORATION | $2,975.62 | 0.9% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $1,995.00 | 0.6% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $1,995.00 | 0.6% | 1 |
+| PRESIDIO NETWORKED SOLUTIONS GROUP LLC | $1,056.01 | 0.3% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $711.85 | 0.2% | 1 |
+| CASCADE CENTERS INC | $673.50 | 0.2% | 1 |
+| QWEST | $572.64 | 0.2% | 1 |
+| OREGON STATE TREASURY | $540.40 | 0.2% | 2 |
+| OREGON CORRECTIONS ENTERPRISES | $450.00 | 0.1% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $443.54 | 0.1% | 1 |
+| PACIFIC PACKAGING & SHIPPING SUPPLY | $367.00 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 55 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 55 vendor-level transaction records covering 23 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -128,9 +128,36 @@ The 12 largest of 116 expenditure classes used by this agency in FY2023.
 | 4825 | Fuels And Utilities | $1,750,503.99 | 2.0% |
 | 4850 | Facilities Maintenance | $1,544,608.37 | 1.8% |
 
+## Largest vendors
+
+The 20 largest of 870 payees this agency recorded payments to in FY2023, accounting for 65.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $14,336,052.46 | 16.3% | 20 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $7,193,724.76 | 8.2% | 66 |
+| J BAR J YOUTH SERVICES | $5,063,820.95 | 5.8% | 4 |
+| AUSLAND GROUP | $3,679,859.06 | 4.2% | 1 |
+| COUNTY OF MULTNOMAH | $3,632,047.44 | 4.1% | 2 |
+| JANUS YOUTH PROGRAMS | $3,244,369.27 | 3.7% | 5 |
+| ST MARY'S HOME FOR BOYS | $3,189,776.82 | 3.6% | 3 |
+| CORP INC | $2,045,556.56 | 2.3% | 2 |
+| PARROTT CREEK CHILD & FAMILY SERVICE INC | $1,919,549.50 | 2.2% | 4 |
+| US FOODS INC | $1,829,676.95 | 2.1% | 3 |
+| HOMESTEAD YOUTH & FAMILY SERVICES INC | $1,588,406.59 | 1.8% | 4 |
+| OH PLANNING + DESIGN ARCHITECTURE PC | $1,317,122.75 | 1.5% | 3 |
+| FIRST CASCADE CORP | $1,125,548.98 | 1.3% | 1 |
+| BOB BELLONI RANCH INC | $1,119,651.28 | 1.3% | 4 |
+| COUNTY OF MARION | $1,118,039.09 | 1.3% | 2 |
+| COUNTY OF CLACKAMAS | $1,114,492.94 | 1.3% | 1 |
+| COUNTY OF WASHINGTON | $1,093,958.98 | 1.2% | 1 |
+| NORTHWEST YOUTH DISCOVERY | $1,092,615.70 | 1.2% | 4 |
+| MORRISON CHILD AND FAMILY SERVICES | $1,016,748.00 | 1.2% | 5 |
+| DIAMOND DRUGS INC | $972,426.17 | 1.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,512 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,512 vendor-level transaction records covering 870 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

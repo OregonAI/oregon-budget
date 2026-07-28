@@ -110,9 +110,36 @@ The 12 largest of 57 expenditure classes used by this agency in FY2022.
 | 4301 | Telecom/Voice Usage | $72,454.98 | 0.3% |
 | 6157 | Dist To Oregon Health Authority | $62,635.64 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 152 payees this agency recorded payments to in FY2022, accounting for 91.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON STATE TREASURY | $16,753,680.02 | 73.6% | 5 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,037,229.42 | 4.6% | 15 |
+| DEPARTMENT OF JUSTICE | $577,896.66 | 2.5% | 1 |
+| EMPLOYMENT DEPARTMENT | $301,130.95 | 1.3% | 1 |
+| GCB SOLAR INC | $258,464.00 | 1.1% | 1 |
+| NATIONAL SOLAR INC | $202,306.00 | 0.9% | 1 |
+| OREGON STATE UNIVERSITY | $188,396.93 | 0.8% | 2 |
+| HALEY & ALDRICH | $181,952.19 | 0.8% | 1 |
+| ENERGY SOLUTIONS LLC | $173,621.00 | 0.8% | 1 |
+| EARTHLIGHT TECHNOLOGIES | $156,177.00 | 0.7% | 1 |
+| TRUE SOUTH SOLAR | $136,881.00 | 0.6% | 1 |
+| BLUE RAVEN SOLAR HOLDINGS LLC | $118,760.00 | 0.5% | 1 |
+| C&B RENEWABLE ENERGY LLC | $112,046.00 | 0.5% | 1 |
+| ASHLAND FOOD COOPERATIVE | $108,885.00 | 0.5% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $107,638.05 | 0.5% | 1 |
+| A AND R SOLAR SPC | $106,673.00 | 0.5% | 1 |
+| CLEAN POWER RESEARCH LLC | $101,897.50 | 0.4% | 1 |
+| TML INTERNATIONAL LLC | $97,553.00 | 0.4% | 1 |
+| EARTH ADVANTAGE INC | $82,971.48 | 0.4% | 1 |
+| SUNLIGHT SOLAR ENERGY INC | $81,690.00 | 0.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 209 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 209 vendor-level transaction records covering 152 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -143,9 +143,36 @@ The 12 largest of 113 expenditure classes used by this agency in FY2025.
 | 4305 | Telecom/Network Services | $2,671,082.07 | 0.3% |
 | 6600 | Distribution To Local School Districts | $1,957,740.42 | 0.2% |
 
+## Largest vendors
+
+The 20 largest of 558 payees this agency recorded payments to in FY2025, accounting for 88.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON HEALTH AUTHORITY | $481,185,544.99 | 47.1% | 1 |
+| ASANTE HEALTH SYSTEMS | $129,723,837.92 | 12.7% | 1 |
+| OREGON DEPT OF TRANSPORTATION | $103,628,621.58 | 10.1% | 10 |
+| PEACEHEALTH | $41,235,652.40 | 4.0% | 1 |
+| PORTLAND ADVENTIST MEDICAL CENTER | $17,140,777.81 | 1.7% | 1 |
+| DEPARTMENT OF HUMAN SERVICES | $15,769,382.51 | 1.5% | 1 |
+| CITY OF PORTLAND | $15,716,703.45 | 1.5% | 4 |
+| SALEM HOSPITAL | $13,017,718.32 | 1.3% | 1 |
+| KAISER FOUNDATION HEALTH PLAN OF THE NORTHWEST | $12,553,997.55 | 1.2% | 2 |
+| UNITED TELEPHONE COMPANY OF THE NORTHWEST | $11,001,370.17 | 1.1% | 9 |
+| TUALITY HEALTHCARE | $9,252,540.24 | 0.9% | 1 |
+| CONSUMERS POWER INC | $9,086,032.61 | 0.9% | 1 |
+| KAISER FOUNDATION HOSPITALS | $7,895,956.70 | 0.8% | 1 |
+| DEPT OF STATE POLICE | $7,299,708.00 | 0.7% | 1 |
+| COUNTY OF CLACKAMAS | $6,787,064.53 | 0.7% | 3 |
+| WASHINGTON COUNTY CONSOLIDATED COMM AGENCY | $5,718,503.45 | 0.6% | 3 |
+| LEGACY EMANUEL HOSPITAL | $5,262,941.18 | 0.5% | 1 |
+| COLUMBIA MEMORIAL HOSPITAL | $5,033,586.55 | 0.5% | 1 |
+| CITY OF SALEM | $4,329,467.46 | 0.4% | 3 |
+| CITY OF EUGENE | $3,902,475.79 | 0.4% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 971 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 971 vendor-level transaction records covering 558 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

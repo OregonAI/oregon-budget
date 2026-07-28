@@ -86,9 +86,22 @@ The 11 largest of 11 expenditure classes used by this agency in FY2021.
 | 4201 | Office Services | $24.72 | 0.0% |
 | 4108 | Instate Ground Transportation | $20.00 | 0.0% |
 
+## Largest vendors
+
+The 6 largest of 6 payees this agency recorded payments to in FY2021, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| COLUMBIA RIVER GORGE COMMISSION | $607,705.07 | 99.6% | 3 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $991.74 | 0.2% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $681.00 | 0.1% | 1 |
+| PRINT IT INC | $268.20 | 0.0% | 3 |
+| BRIDGET BAILEY | $137.51 | 0.0% | 3 |
+| OREGON STATE TREASURY | $120.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 13 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 13 vendor-level transaction records covering 6 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -118,9 +118,36 @@ The 12 largest of 67 expenditure classes used by this agency in FY2021.
 | 4800 | Interagency Lease Payments | $943,546.31 | 0.2% |
 | 4550 | Attorney General Legal Fees | $894,222.40 | 0.2% |
 
+## Largest vendors
+
+The 20 largest of 366 payees this agency recorded payments to in FY2021, accounting for 67.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| HOME FORWARD | $55,528,691.00 | 10.6% | 1 |
+| COUNTY OF MULTNOMAH | $32,838,516.63 | 6.2% | 2 |
+| MID WILLAMETTE VALLEY COMMUNITY ACTION AGENCY INC | $27,653,551.14 | 5.3% | 2 |
+| COMMUNITY ACTION ORGANIZATION | $25,274,681.59 | 4.8% | 1 |
+| WASHINGTON COUNTY | $25,173,368.00 | 4.8% | 2 |
+| COUNTY OF LANE | $22,799,289.38 | 4.3% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $16,962,634.18 | 3.2% | 13 |
+| NEIGHBORIMPACT | $16,040,674.26 | 3.1% | 1 |
+| COMMUNITY SERVICES CONSORTIUM | $15,703,471.64 | 3.0% | 1 |
+| UNITED COMMUNITY ACTION NETWORK | $13,864,533.27 | 2.6% | 1 |
+| HOUSING AUTHORITY OF CLACKAMAS COUNTY | $13,560,435.00 | 2.6% | 1 |
+| ACCESS INC | $13,507,429.09 | 2.6% | 1 |
+| COUNTY OF CLACKAMAS | $13,113,188.52 | 2.5% | 3 |
+| HOUSING AUTHORITY & COMMUNITY SERVICES AGENCY | $12,375,323.43 | 2.4% | 4 |
+| OREGON HUMAN DEVELOPMENT CORPORATION II | $11,793,190.27 | 2.2% | 1 |
+| YAMHILL COMMUNITY ACTION PARTNERSHIP INC | $8,364,804.85 | 1.6% | 1 |
+| HOUSING AUTHORITY OF SALEM | $8,317,807.00 | 1.6% | 2 |
+| FIDELITY NATIONAL TITLE COMPANY OF OREGON | $7,771,083.00 | 1.5% | 3 |
+| OREGON STATE TREASURY | $7,666,121.86 | 1.5% | 6 |
+| COMMUNITY ACTION TEAM INC | $7,325,837.25 | 1.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 525 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 525 vendor-level transaction records covering 366 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

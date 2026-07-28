@@ -114,9 +114,36 @@ The 12 largest of 104 expenditure classes used by this agency in FY2019.
 | 4851 | Facilities Supplies | $2,309,606.43 | 4.2% |
 | 4976 | Agency Program Related Supplies | $1,801,926.63 | 3.3% |
 
+## Largest vendors
+
+The 20 largest of 2,354 payees this agency recorded payments to in FY2019, accounting for 43.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $5,519,262.83 | 10.0% | 14 |
+| US BANK NATIONAL ASSOCIATION ND | $3,676,523.49 | 6.7% | 68 |
+| AMERITITLE | $1,586,729.11 | 2.9% | 4 |
+| TAPANI INC | $1,566,189.54 | 2.8% | 1 |
+| US DEPARTMENT OF AGRICULTURE - FOREST SERVICE | $1,347,008.56 | 2.4% | 1 |
+| SOPRIS HOLDINGS LLC | $1,295,551.26 | 2.3% | 3 |
+| FARLINE BRIDGE INC | $1,140,161.04 | 2.1% | 1 |
+| SANTIAM ESCROW | $1,082,003.00 | 2.0% | 2 |
+| GUIDO CONSTRUCTION INC | $884,840.70 | 1.6% | 1 |
+| LTM INC | $742,525.15 | 1.3% | 1 |
+| BANZER CONSTRUCTION INC | $704,608.53 | 1.3% | 4 |
+| PACIFIC POWER | $663,809.14 | 1.2% | 4 |
+| OREGON CORRECTIONS ENTERPRISES | $657,994.16 | 1.2% | 15 |
+| OREGON DEPARTMENT OF FORESTRY | $636,295.60 | 1.2% | 3 |
+| OREGON STATE TREASURY | $596,712.00 | 1.1% | 4 |
+| CITY OF TIGARD | $452,125.00 | 0.8% | 1 |
+| CITY OF KEIZER | $434,265.00 | 0.8% | 2 |
+| CITY OF DETROIT | $429,284.00 | 0.8% | 1 |
+| EMPLOYMENT DEPARTMENT | $409,415.56 | 0.7% | 1 |
+| CITY OF SCAPPOOSE | $398,411.14 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 4,087 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 4,087 vendor-level transaction records covering 2,354 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

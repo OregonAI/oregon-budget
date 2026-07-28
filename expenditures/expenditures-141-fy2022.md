@@ -116,9 +116,36 @@ The 12 largest of 83 expenditure classes used by this agency in FY2022.
 | 4518 | Professional Serv/It Quality Assurance | $188,447.00 | 1.3% |
 | 4825 | Fuels And Utilities | $150,127.93 | 1.1% |
 
+## Largest vendors
+
+The 20 largest of 287 payees this agency recorded payments to in FY2022, accounting for 84.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $3,084,117.33 | 21.8% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,959,545.61 | 13.9% | 12 |
+| BAR SEVEN A COMPANIES | $1,348,554.93 | 9.5% | 1 |
+| SWAN ISLAND RD TRUST | $1,200,000.00 | 8.5% | 1 |
+| STATE OF OREGON DIVISION OF STATE LANDS | $1,080,655.26 | 7.6% | 2 |
+| OREGON STATE TREASURY | $640,944.49 | 4.5% | 2 |
+| THE NORTH HIGHLAND HOLDING COMPANY LLC | $446,050.00 | 3.2% | 1 |
+| TITAN-KELLY LLC | $427,283.82 | 3.0% | 2 |
+| OREGON STATE UNIVERSITY | $300,047.91 | 2.1% | 2 |
+| ICF JONES & STOKES INC | $218,751.38 | 1.5% | 2 |
+| SOLUTIONS CONSULTING GROUP LLC | $182,828.00 | 1.3% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $177,501.14 | 1.3% | 33 |
+| TVW INC | $142,777.48 | 1.0% | 2 |
+| PORTLAND STATE UNIVERSITY | $137,575.32 | 1.0% | 3 |
+| MASON BRUCE & GIRARD INC | $131,934.75 | 0.9% | 2 |
+| KELMAR ASSOCIATES LLC | $108,760.81 | 0.8% | 3 |
+| ESTATE OF RICHARD ERNEST STANEK | $106,749.82 | 0.8% | 1 |
+| STATE OF OREGON DEPT OF GEOLOGY AND MINERAL IND | $104,904.98 | 0.7% | 1 |
+| FRATZKE PROPERTY MANAGEMENT SERVICES LLC | $94,809.92 | 0.7% | 4 |
+| FREEMYER AND ASSOCIATES | $92,142.86 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 494 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 494 vendor-level transaction records covering 287 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -126,9 +126,36 @@ The 12 largest of 109 expenditure classes used by this agency in FY2020.
 | 4685 | Liabity Expenditure-Attorney Settlement | $14,459,663.98 | 2.3% |
 | 6400 | Distribution To Cities | $14,262,332.50 | 2.3% |
 
+## Largest vendors
+
+The 20 largest of 1,835 payees this agency recorded payments to in FY2020, accounting for 70.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON STATE TREASURY | $207,774,225.76 | 32.9% | 5 |
+| BLACKSTRAP INDUSTRIES INC | $40,558,636.50 | 6.4% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $31,739,505.59 | 5.0% | 26 |
+| WFG NATIONAL TITLE INSURANCE COMPANY | $24,171,893.41 | 3.8% | 2 |
+| FOCUS INDUSTRIES MED LLC | $15,971,708.20 | 2.5% | 1 |
+| SAIF CORP | $14,390,006.68 | 2.3% | 2 |
+| FORTIS CONSTRUCTION INC | $13,140,431.62 | 2.1% | 1 |
+| SHI INTERNATIONAL CORP | $10,887,595.27 | 1.7% | 7 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $10,049,598.35 | 1.6% | 5 |
+| OREGON COMMUNITY FOUNDATION | $10,000,000.00 | 1.6% | 1 |
+| HALO BRANDED SOLUTIONS | $9,481,195.00 | 1.5% | 1 |
+| WILLIS OF OREGON INC | $8,773,029.93 | 1.4% | 2 |
+| SALEM-KEIZER TRANSIT | $7,193,869.89 | 1.1% | 1 |
+| IBM CORPORATION | $6,572,711.65 | 1.0% | 10 |
+| CDW GOVERNMENT INC | $6,500,617.24 | 1.0% | 13 |
+| UNITED WAY OF THE COLUMBIA-WILLAMETTE | $6,500,000.00 | 1.0% | 1 |
+| MARKOWITZ HERBOLD PC | $5,066,954.54 | 0.8% | 1 |
+| BARTON LAW FIRM | $4,750,000.00 | 0.8% | 1 |
+| MSC INDUSTRIAL SUPPLY CO INC | $4,227,732.02 | 0.7% | 1 |
+| HITACHI VANTARA CORPORATION | $3,868,961.47 | 0.6% | 11 |
+
 ## Curator notes
 
-Figures are aggregated from 2,867 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,867 vendor-level transaction records covering 1,835 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

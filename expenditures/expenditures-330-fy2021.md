@@ -111,9 +111,36 @@ The 12 largest of 52 expenditure classes used by this agency in FY2021.
 | 4301 | Telecom/Voice Usage | $80,993.19 | 0.3% |
 | 6180 | Distribution To Lcdc | $74,943.07 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 142 payees this agency recorded payments to in FY2021, accounting for 95.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON STATE TREASURY | $23,188,084.13 | 79.8% | 4 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,041,983.21 | 3.6% | 14 |
+| DEPARTMENT OF JUSTICE | $565,747.93 | 1.9% | 2 |
+| ENERPARC INC | $525,000.00 | 1.8% | 1 |
+| SOCORE 2013 PROJECTCO5 LLC | $370,000.00 | 1.3% | 1 |
+| SOUTH SUBURBAN SANITARY DISTRICT | $250,000.00 | 0.9% | 1 |
+| GARRETT SOLAR LLC | $250,000.00 | 0.9% | 1 |
+| ENERGY AND ENVIRONMENTAL ECONOMICS INC | $223,480.28 | 0.8% | 2 |
+| SHI INTERNATIONAL CORP | $191,412.06 | 0.7% | 4 |
+| CITY OF THE DALLES | $175,000.00 | 0.6% | 1 |
+| JACKSON CO SCH DIST 4 | $131,058.00 | 0.5% | 1 |
+| EMPLOYMENT DEPARTMENT | $129,447.99 | 0.4% | 2 |
+| MICROSOFT CORPORATION | $99,800.00 | 0.3% | 1 |
+| ENTERPRISE ELECTRIC AND RENTAL INC | $95,000.00 | 0.3% | 1 |
+| E2 SOLAR INC | $91,501.00 | 0.3% | 1 |
+| SUNLIGHT SOLAR ENERGY INC | $90,404.00 | 0.3% | 1 |
+| EPSILON ENGINEERING INC | $88,645.07 | 0.3% | 1 |
+| CONSERVATION BIOLOGY INSTITUTE INC | $87,782.34 | 0.3% | 1 |
+| DEPT OF LAND CONSERVATION & DEVELOPMENT | $74,943.07 | 0.3% | 1 |
+| OREGON STATE UNIVERSITY | $74,795.45 | 0.3% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 182 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 182 vendor-level transaction records covering 142 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

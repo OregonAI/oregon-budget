@@ -93,9 +93,36 @@ The 12 largest of 34 expenditure classes used by this agency in FY2020.
 | 4301 | Telecom/Voice Usage | $2,819.14 | 0.9% |
 | 4111 | Instate Mileage Reimbursmnt-Volunteers | $2,666.93 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 44 payees this agency recorded payments to in FY2020, accounting for 98.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $99,907.55 | 32.1% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $69,615.05 | 22.4% | 7 |
+| THE EQUITABLE CENTER LLC | $55,062.87 | 17.7% | 1 |
+| DEPT OF STATE POLICE | $23,132.75 | 7.4% | 1 |
+| US BANK NATIONAL ASSOCIATION | $15,199.76 | 4.9% | 2 |
+| EMPLOYMENT DEPARTMENT | $12,173.78 | 3.9% | 1 |
+| APPLIED LOGIC CORPORATION | $9,685.70 | 3.1% | 1 |
+| UNITED TELEPHONE COMPANY OF THE NORTHWEST | $4,988.33 | 1.6% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $2,740.77 | 0.9% | 1 |
+| SECRETARY OF STATE | $2,334.91 | 0.8% | 1 |
+| IBM CORPORATION | $1,810.35 | 0.6% | 1 |
+| FEDERATION OF CHIROPRACTIC LICENSING BOARDS | $1,713.00 | 0.6% | 1 |
+| CASSANDRA SKINNER | $1,398.27 | 0.4% | 12 |
+| SELECT IMPRESSIONS | $1,280.00 | 0.4% | 1 |
+| AMBER REED JD | $1,248.56 | 0.4% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $1,173.84 | 0.4% | 2 |
+| FRANCHESCA VERMILLION | $960.71 | 0.3% | 5 |
+| PAUL R ROMANICK | $889.99 | 0.3% | 3 |
+| GLENN TAYLOR | $810.74 | 0.3% | 5 |
+| OREGON STATE BAR | $642.00 | 0.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 87 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 87 vendor-level transaction records covering 44 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

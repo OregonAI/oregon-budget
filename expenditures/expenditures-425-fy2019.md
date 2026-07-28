@@ -84,9 +84,28 @@ The 12 largest of 13 expenditure classes used by this agency in FY2019.
 | 4201 | Office Services | $39.63 | 0.4% |
 | 4315 | Telecom/Teleconference Usage | $9.87 | 0.1% |
 
+## Largest vendors
+
+The 12 largest of 12 payees this agency recorded payments to in FY2019, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $5,888.31 | 52.9% | 2 |
+| DANIEL SANTOS | $1,860.08 | 16.7% | 7 |
+| CDW GOVERNMENT INC | $928.03 | 8.3% | 2 |
+| KAREN QUIGLEY | $815.73 | 7.3% | 4 |
+| LEGISLATIVE ADMIN COMMITTEE | $693.80 | 6.2% | 1 |
+| ADRIENNE FISCHER | $517.76 | 4.7% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $158.52 | 1.4% | 1 |
+| OREGON STATE TREASURY | $121.00 | 1.1% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $59.98 | 0.5% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $39.63 | 0.4% | 1 |
+| AT&T TELECONFERENCE SERVICES | $21.27 | 0.2% | 2 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $18.63 | 0.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 24 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 24 vendor-level transaction records covering 12 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

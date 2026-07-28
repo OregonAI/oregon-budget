@@ -122,9 +122,36 @@ The 12 largest of 78 expenditure classes used by this agency in FY2021.
 | 6456 | Distribution To Oregon Inst Of Tech | $4,241,775.00 | 1.0% |
 | 6500 | Distribution To Comm College Districts | $4,049,353.00 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 937 payees this agency recorded payments to in FY2021, accounting for 41.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $31,013,924.58 | 7.6% | 21 |
+| UNION BANK TRUST DEPARTMENT - FEES | $25,615,376.99 | 6.2% | 2 |
+| ZIONS BANCORPORATION NATIONAL ASSOCIATION | $17,013,033.64 | 4.1% | 4 |
+| REGIONAL ARTS AND CULTURE COUNCIL | $13,419,791.00 | 3.3% | 1 |
+| FOCUS INDUSTRIES MED LLC | $10,845,017.20 | 2.6% | 1 |
+| LINK OREGON | $7,441,734.00 | 1.8% | 1 |
+| MID-VALLEY HEALTHCARE INC | $6,594,487.00 | 1.6% | 1 |
+| OREGON INTERNATIONAL PORT OF COOS BAY | $6,463,005.00 | 1.6% | 2 |
+| CITY OF JEFFERSON | $5,279,859.39 | 1.3% | 2 |
+| OREGON COMMUNITY FOUNDATION | $5,114,935.69 | 1.2% | 1 |
+| CITY OF HINES | $5,104,413.00 | 1.2% | 1 |
+| GOOD SHEPHERD MEDICAL CENTER | $5,050,586.00 | 1.2% | 1 |
+| CITY OF SEASIDE | $5,000,000.00 | 1.2% | 2 |
+| PORT OF CASCADE LOCKS | $4,796,329.00 | 1.2% | 1 |
+| SAMARITAN PACIFIC HEALTH SERVICES | $4,635,959.00 | 1.1% | 1 |
+| ST CHARLES HEALTH SYSTEM INC | $3,985,510.00 | 1.0% | 1 |
+| CITY OF PRINEVILLE | $3,545,527.00 | 0.9% | 2 |
+| MID WILLAMETTE VALLEY COG | $3,502,944.59 | 0.9% | 3 |
+| SANTIAM MEMORIAL HOSPITAL | $3,496,233.00 | 0.9% | 1 |
+| MARION COUNTY SCHOOL DISTRICT 24J | $3,466,187.00 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,139 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,139 vendor-level transaction records covering 937 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

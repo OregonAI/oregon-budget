@@ -97,9 +97,36 @@ The 12 largest of 32 expenditure classes used by this agency in FY2021.
 | 4366 | Computer Technology Pc Software<$5K | $10,675.69 | 0.9% |
 | 4701 | Other Services | $8,161.90 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 24 payees this agency recorded payments to in FY2021, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| PSI SERVICES LLC | $398,025.00 | 32.5% | 1 |
+| TYLER TECHNOLOGIES INC | $186,130.00 | 15.2% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $143,767.00 | 11.8% | 7 |
+| THE EQUITABLE CENTER LLC | $122,780.98 | 10.0% | 4 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $114,670.30 | 9.4% | 1 |
+| US BANK NATIONAL ASSOCIATION | $87,127.39 | 7.1% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $73,891.24 | 6.0% | 17 |
+| STATE OF OREGON - SECRETARY OF STATE | $31,100.25 | 2.5% | 2 |
+| EMPLOYMENT DEPARTMENT | $16,256.60 | 1.3% | 2 |
+| IBM CORPORATION | $12,353.62 | 1.0% | 1 |
+| CDW GOVERNMENT INC | $11,097.58 | 0.9% | 4 |
+| SHI INTERNATIONAL CORP | $7,229.69 | 0.6% | 1 |
+| QWEST | $4,934.80 | 0.4% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $4,900.00 | 0.4% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $4,207.61 | 0.3% | 1 |
+| CARAHSOFT TECHNOLOGY CORPORATION | $2,996.40 | 0.2% | 1 |
+| OREGON STATE TREASURY | $614.90 | 0.1% | 1 |
+| TARGET PLASTICS INC | $491.10 | 0.0% | 1 |
+| CASCADE CENTERS INC | $375.00 | 0.0% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $306.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 56 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 56 vendor-level transaction records covering 24 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

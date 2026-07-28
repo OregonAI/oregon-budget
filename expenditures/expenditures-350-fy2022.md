@@ -74,9 +74,19 @@ The 4 largest of 4 expenditure classes used by this agency in FY2022.
 | 4366 | Computer Technology Pc Software<$5K | $782.60 | 0.1% |
 | 4550 | Attorney General Legal Fees | $137.70 | 0.0% |
 
+## Largest vendors
+
+The 3 largest of 3 payees this agency recorded payments to in FY2022, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| COLUMBIA RIVER GORGE COMMISSION | $624,202.09 | 99.6% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,541.00 | 0.2% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $782.60 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 5 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 5 vendor-level transaction records covering 3 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

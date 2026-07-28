@@ -114,9 +114,36 @@ The 12 largest of 79 expenditure classes used by this agency in FY2021.
 | 4701 | Other Services | $489,137.69 | 2.8% |
 | 4519 | Professional Serv/Managed Serv Provider | $345,797.74 | 2.0% |
 
+## Largest vendors
+
+The 20 largest of 316 payees this agency recorded payments to in FY2021, accounting for 81.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON STATE TREASURY | $2,193,649.25 | 12.8% | 3 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $1,889,657.62 | 11.0% | 2 |
+| SWAN ISLAND RD TRUST | $1,200,000.00 | 7.0% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $972,573.23 | 5.7% | 15 |
+| FIRST AMERICAN TITLE INS CO | $912,710.00 | 5.3% | 2 |
+| BAR SEVEN A COMPANIES | $859,355.75 | 5.0% | 1 |
+| ESTATE OF JOHN H ANTONELLI | $732,437.68 | 4.3% | 1 |
+| PORT OF PORTLAND | $675,000.00 | 3.9% | 1 |
+| ESTATE OF HERMINE MARTENS | $632,606.40 | 3.7% | 1 |
+| KELMAR ASSOCIATES LLC | $570,298.70 | 3.3% | 3 |
+| VERUS ANALYTICS LLC | $521,533.31 | 3.0% | 1 |
+| THE NORTH HIGHLAND HOLDING COMPANY LLC | $516,600.00 | 3.0% | 1 |
+| NORTH DOUGLAS BETTERMENT | $426,000.00 | 2.5% | 1 |
+| TITAN-KELLY LLC | $403,451.22 | 2.3% | 1 |
+| OREGON STATE UNIVERSITY | $380,772.03 | 2.2% | 4 |
+| ESTATE OF WILLIAM R SEAMSTER | $311,850.50 | 1.8% | 1 |
+| ESTATE OF DONALD GOULD II | $235,983.02 | 1.4% | 2 |
+| STATE OF OREGON DIVISION OF STATE LANDS | $231,964.15 | 1.3% | 3 |
+| US BANK NATIONAL ASSOCIATION ND | $201,331.94 | 1.2% | 32 |
+| ICF JONES & STOKES INC | $176,653.93 | 1.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 499 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 499 vendor-level transaction records covering 316 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -117,9 +117,36 @@ The 12 largest of 100 expenditure classes used by this agency in FY2024.
 | 4850 | Facilities Maintenance | $2,992,382.79 | 4.3% |
 | 7250 | Interest-Bonds | $2,262,700.00 | 3.2% |
 
+## Largest vendors
+
+The 20 largest of 1,725 payees this agency recorded payments to in FY2024, accounting for 48.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $12,120,449.44 | 17.2% | 16 |
+| US BANK NATIONAL ASSOCIATION ND | $5,211,514.97 | 7.4% | 53 |
+| LASKEY-CLIFTON CORPORATION | $3,094,842.74 | 4.4% | 1 |
+| TAPANI INC | $1,306,264.96 | 1.9% | 1 |
+| HENNEBERY EDDY ARCHITECTS INC | $1,200,920.16 | 1.7% | 1 |
+| USDA FOREST SERVICE | $1,121,463.35 | 1.6% | 2 |
+| OREGON CORRECTIONS ENTERPRISES | $1,072,432.86 | 1.5% | 14 |
+| DESCHUTES CONSTRUCTION CORPORATION | $922,537.00 | 1.3% | 1 |
+| OREGON STATE TREASURY | $853,503.09 | 1.2% | 3 |
+| PARAMETRIX INC | $850,695.83 | 1.2% | 2 |
+| BIG RIVER CONSTRUCTION INC | $791,426.10 | 1.1% | 5 |
+| TUALATIN HILLS PARK & RECREATION | $765,675.00 | 1.1% | 1 |
+| KPFF INC | $759,947.09 | 1.1% | 2 |
+| PACIFIC POWER | $664,710.40 | 0.9% | 2 |
+| ANTHRO-TECH INC | $658,492.13 | 0.9% | 1 |
+| OREGON DEPARTMENT OF FORESTRY | $633,181.57 | 0.9% | 3 |
+| DOUGLAS COUNTY PARK DEPARTMENT | $625,002.71 | 0.9% | 1 |
+| PHEONIX CONTRACTING LLC | $611,575.00 | 0.9% | 1 |
+| CITY OF BROOKINGS | $555,424.76 | 0.8% | 2 |
+| KAYE-SMITH ENTERPRISES INC | $528,456.48 | 0.8% | 10 |
+
 ## Curator notes
 
-Figures are aggregated from 2,802 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,802 vendor-level transaction records covering 1,725 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

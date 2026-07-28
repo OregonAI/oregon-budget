@@ -101,9 +101,36 @@ The 12 largest of 59 expenditure classes used by this agency in FY2025.
 | 4365 | Computer Technology Pc Equipment<$5K | $288,268.01 | 0.9% |
 | 5250 | Technical Equipment>=$5K | $170,108.07 | 0.5% |
 
+## Largest vendors
+
+The 20 largest of 396 payees this agency recorded payments to in FY2025, accounting for 79.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CITY OF NEWPORT | $4,552,541.55 | 13.9% | 1 |
+| NORTH UNIT IRRIGATION DISTRICT | $4,497,253.98 | 13.8% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $2,715,727.60 | 8.3% | 16 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $2,094,789.76 | 6.4% | 1 |
+| EAST FORK IRRIGATION DISTRICT | $1,974,653.45 | 6.0% | 1 |
+| MARKOWITZ HERBOLD PC | $1,454,783.59 | 4.5% | 1 |
+| LONE PINE IRRIGATION DISTRICT | $1,354,027.50 | 4.1% | 1 |
+| ARNOLD IRRIGATION DISTRICT | $1,116,324.59 | 3.4% | 1 |
+| MALHEUR WATERSHED COUNCIL | $983,114.20 | 3.0% | 1 |
+| DESCHUTES BASIN BOARD OF CONTROL | $861,277.58 | 2.6% | 1 |
+| WEST CONSULTANTS INC | $766,929.80 | 2.3% | 1 |
+| CITY OF ST PAUL | $572,400.00 | 1.8% | 1 |
+| US GEOLOGICAL SURVEY | $557,391.50 | 1.7% | 3 |
+| DESCHUTES RIVER CONSERVANCY | $438,073.40 | 1.3% | 2 |
+| LIGHTHOUSE DOCUMENT TECHNOLOGIES | $426,412.46 | 1.3% | 1 |
+| WALLOWA LAKE IRRIGATION DISTRICT | $400,572.93 | 1.2% | 3 |
+| CITY OF HALSEY | $300,000.00 | 0.9% | 1 |
+| CDW GOVERNMENT INC | $288,575.23 | 0.9% | 2 |
+| MALCOLM DRILLING COMPANY INC | $281,371.00 | 0.9% | 1 |
+| UNION SWCD | $271,601.86 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 622 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 622 vendor-level transaction records covering 396 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

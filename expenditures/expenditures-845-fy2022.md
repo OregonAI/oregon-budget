@@ -110,9 +110,36 @@ The 12 largest of 72 expenditure classes used by this agency in FY2022.
 | 7007 | Lease Pmt For Buildings | $515,666.80 | 0.1% |
 | 4310 | Telecom/Wireless Public Safety Usage | $468,850.00 | 0.1% |
 
+## Largest vendors
+
+The 20 largest of 1,096 payees this agency recorded payments to in FY2022, accounting for 61.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DIAGEO NA INC | $66,366,138.19 | 11.3% | 1 |
+| SAZERAC COMPANY INC | $40,413,627.01 | 6.9% | 1 |
+| JIM BEAM BRANDS CO | $35,123,998.61 | 6.0% | 1 |
+| PERNOD RICARD USA LLC | $28,687,698.23 | 4.9% | 1 |
+| PROXIMO SPIRITS INC | $22,737,629.11 | 3.9% | 1 |
+| BACARDI USA INC | $22,697,897.92 | 3.9% | 1 |
+| HEAVEN HILL SALES CO | $22,616,385.45 | 3.9% | 1 |
+| BROWN FORMAN CORP | $19,598,749.85 | 3.3% | 1 |
+| FIFTH GENERATION INC | $14,002,581.23 | 2.4% | 1 |
+| HOOD RIVER DISTILLERS INC | $13,893,448.84 | 2.4% | 2 |
+| CITY OF PORTLAND | $11,266,884.19 | 1.9% | 5 |
+| CAMPARI AMERICA | $11,243,313.42 | 1.9% | 1 |
+| WILLIAM GRANT AND SONS INC | $8,907,892.90 | 1.5% | 1 |
+| CHICAGO TITLE INS OF OREGON | $8,155,106.00 | 1.4% | 1 |
+| MOET HENNESSEY USA INC | $8,045,075.31 | 1.4% | 1 |
+| E & J GALLO WINERY | $5,238,321.34 | 0.9% | 1 |
+| MUTUAL WHOLESALE LIQUOR INC | $5,050,864.77 | 0.9% | 1 |
+| OREGON LIQUOR & CANNABIS COMMISSION | $5,007,534.31 | 0.9% | 3 |
+| COUNTY OF MULTNOMAH | $4,909,686.28 | 0.8% | 1 |
+| FRANK LIN DISTILLERS PRODUCTS LTD | $4,433,472.66 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,487 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,487 vendor-level transaction records covering 1,096 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

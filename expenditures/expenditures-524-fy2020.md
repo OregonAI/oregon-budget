@@ -76,9 +76,22 @@ The 6 largest of 6 expenditure classes used by this agency in FY2020.
 | 4201 | Office Services | $46.00 | 0.2% |
 | 4600 | State Government Service Charges | $40.10 | 0.2% |
 
+## Largest vendors
+
+The 6 largest of 6 payees this agency recorded payments to in FY2020, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| PORTLAND STATE UNIVERSITY | $24,000.00 | 92.1% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $945.99 | 3.6% | 3 |
+| RICOH USA INC | $646.52 | 2.5% | 1 |
+| IBM CORPORATION | $229.06 | 0.9% | 1 |
+| AT&T MOBILITY | $196.29 | 0.8% | 1 |
+| OREGON STATE TREASURY | $40.10 | 0.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 8 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 8 vendor-level transaction records covering 6 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

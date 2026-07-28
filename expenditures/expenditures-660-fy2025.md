@@ -108,9 +108,36 @@ The 12 largest of 69 expenditure classes used by this agency in FY2025.
 | 5203 | Telecom/Teleconference Equipment>=$5K | $68,902.88 | 0.5% |
 | 4365 | Computer Technology Pc Equipment<$5K | $65,271.10 | 0.5% |
 
+## Largest vendors
+
+The 20 largest of 176 payees this agency recorded payments to in FY2025, accounting for 81.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| WESTERN TITLE & ESCROW CO | $1,886,740.67 | 14.4% | 1 |
+| ECONOMIC CONSULTANTS OREGON | $1,507,039.51 | 11.5% | 1 |
+| CASCADIA PARTNERS LLC | $1,086,857.08 | 8.3% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $949,418.80 | 7.3% | 1 |
+| MIG INC | $886,454.43 | 6.8% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $871,497.55 | 6.7% | 10 |
+| 3J CONSULTING INC | $687,121.08 | 5.3% | 1 |
+| PORTLAND STATE UNIVERSITY | $671,418.73 | 5.1% | 2 |
+| CITY OF EUGENE | $409,375.00 | 3.1% | 1 |
+| WINTEROWD AND BROOKS LLC | $346,500.00 | 2.6% | 1 |
+| KEARNS & WEST INC | $250,434.46 | 1.9% | 3 |
+| A YAP AND ASSOCIATES LLC | $209,368.14 | 1.6% | 1 |
+| STATE OF OREGON DEPT OF GEOLOGY AND MINERAL IND | $190,832.13 | 1.5% | 1 |
+| CDW GOVERNMENT INC | $125,054.92 | 1.0% | 6 |
+| CITY OF SISTERS | $100,000.00 | 0.8% | 1 |
+| COUNTY OF WASCO | $100,000.00 | 0.8% | 1 |
+| STUDIO DAVIS LLC | $93,898.00 | 0.7% | 1 |
+| UNIVERSITY OF OREGON | $92,933.00 | 0.7% | 1 |
+| COUNTY OF MULTNOMAH | $80,000.00 | 0.6% | 1 |
+| CITY OF BEAVERTON | $78,060.00 | 0.6% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 355 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 355 vendor-level transaction records covering 176 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

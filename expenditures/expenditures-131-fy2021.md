@@ -88,9 +88,36 @@ The 12 largest of 14 expenditure classes used by this agency in FY2021.
 | 4108 | Instate Ground Transportation | $78.50 | 0.2% |
 | 4255 | Prizes And Awards | $43.69 | 0.1% |
 
+## Largest vendors
+
+The 20 largest of 23 payees this agency recorded payments to in FY2021, accounting for 99.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $30,659.94 | 85.6% | 3 |
+| CDW GOVERNMENT INC | $2,462.35 | 6.9% | 2 |
+| CHEMEKETA COMMUNITY COLLEGE | $675.00 | 1.9% | 1 |
+| LEGISLATIVE COUNSEL COMMITTEE | $637.00 | 1.8% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $321.00 | 0.9% | 1 |
+| KIMBERLY VOELKER | $250.00 | 0.7% | 1 |
+| OREGON STATE TREASURY | $120.10 | 0.3% | 1 |
+| KASSANDRA KRIFKA | $110.71 | 0.3% | 2 |
+| MARIOTTA GARY-SMITH | $91.09 | 0.3% | 1 |
+| MAURA KELLY | $69.76 | 0.2% | 1 |
+| JESSICA ASAI | $63.42 | 0.2% | 2 |
+| JAMAL T FOX | $56.03 | 0.2% | 1 |
+| NANCY KRAMER | $55.49 | 0.2% | 2 |
+| CASCADE CENTERS INC | $45.30 | 0.1% | 1 |
+| CONNIE KIM-GERVEY | $43.69 | 0.1% | 1 |
+| CHANPONE SINLAPASAI-OKAMURA | $38.27 | 0.1% | 1 |
+| HUSSEIN AL-BAIATY | $35.81 | 0.1% | 1 |
+| GUSTAVO MORALES | $30.16 | 0.1% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $26.50 | 0.1% | 1 |
+| IRMA LINDA CASTILLO | $17.89 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 30 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 30 vendor-level transaction records covering 23 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

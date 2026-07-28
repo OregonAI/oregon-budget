@@ -122,9 +122,36 @@ The 12 largest of 104 expenditure classes used by this agency in FY2024.
 | 6700 | Distribution To Other Governments | $655,830.74 | 2.4% |
 | 4550 | Attorney General Legal Fees | $654,555.34 | 2.4% |
 
+## Largest vendors
+
+The 20 largest of 817 payees this agency recorded payments to in FY2024, accounting for 62.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $5,119,477.48 | 18.5% | 17 |
+| US BANK NATIONAL ASSOCIATION ND | $2,017,514.25 | 7.3% | 55 |
+| OREGON STATE UNIVERSITY | $2,003,396.69 | 7.2% | 9 |
+| STATE DEPARTMENT OF AGRICULTURE | $1,544,663.31 | 5.6% | 8 |
+| DEPARTMENT OF ENVIRONMENTAL QUALITY | $902,519.04 | 3.3% | 4 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $654,555.34 | 2.4% | 1 |
+| POWER AUTO INC | $533,322.67 | 1.9% | 2 |
+| WEX BANK | $456,406.05 | 1.6% | 3 |
+| CENTURY OAK PACKING COMPANY | $351,848.30 | 1.3% | 1 |
+| LAKE COUNTY MEAT PROCESSORS LLC | $348,750.00 | 1.3% | 1 |
+| THE MEATING PLACE LLC | $348,750.00 | 1.3% | 1 |
+| BIG HORN MEAT INC | $348,750.00 | 1.3% | 1 |
+| FOLLETT'S MEAT CO LLC | $348,750.00 | 1.3% | 1 |
+| RUSSELL'S CUSTOM MEATS INC | $348,750.00 | 1.3% | 1 |
+| BUERMANNS RANCH MEATS LLC | $348,750.00 | 1.3% | 1 |
+| HINES MEAT COMPANY LLC | $348,750.00 | 1.3% | 1 |
+| REVEL MEAT CO | $347,953.60 | 1.3% | 1 |
+| MCCLENDONS OLD FASHIONED MEATS LLC | $346,237.14 | 1.2% | 1 |
+| OREGON STATE TREASURY | $345,326.07 | 1.2% | 1 |
+| DIAMOND S MEAT CO | $319,074.17 | 1.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,621 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,621 vendor-level transaction records covering 817 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

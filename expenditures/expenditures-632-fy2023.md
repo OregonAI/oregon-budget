@@ -98,9 +98,36 @@ The 12 largest of 57 expenditure classes used by this agency in FY2023.
 | 7007 | Lease Pmt For Buildings | $29,511.37 | 0.9% |
 | 4976 | Agency Program Related Supplies | $28,985.63 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 70 payees this agency recorded payments to in FY2023, accounting for 95.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,105,368.44 | 35.1% | 11 |
+| QUANTUM SPATIAL INC | $1,076,907.46 | 34.2% | 1 |
+| UNIVERSITY OF OREGON | $200,000.00 | 6.4% | 1 |
+| KUKER RANKEN INC | $96,231.50 | 3.1% | 4 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $74,185.10 | 2.4% | 1 |
+| CDW GOVERNMENT INC | $67,474.06 | 2.1% | 4 |
+| VA INSTITUTE OF MARINE SCIENCE | $47,364.57 | 1.5% | 1 |
+| SCIAPS INC | $42,900.00 | 1.4% | 1 |
+| SHI INTERNATIONAL CORP | $39,287.68 | 1.2% | 2 |
+| RUSSELL W TRIPP | $35,140.50 | 1.1% | 3 |
+| CARDNO INC | $34,900.00 | 1.1% | 1 |
+| TRAFFIC SAFETY SUPPLY CO | $31,192.64 | 1.0% | 3 |
+| UNIVERSITY OF VICTORIA | $29,263.33 | 0.9% | 1 |
+| STANTEC CONSULTING SERVICES INC | $26,775.25 | 0.9% | 1 |
+| GNEISS EDITING LLC | $24,612.75 | 0.8% | 1 |
+| PLANET LABS INC | $17,478.75 | 0.6% | 1 |
+| EZDATAMD | $16,875.00 | 0.5% | 1 |
+| DEPT OF LAND CONSERVATION & DEVELOPMENT | $13,598.91 | 0.4% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $13,089.70 | 0.4% | 18 |
+| SKILLCRAFT BUSINESS GRAPHICS INC | $12,285.00 | 0.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 197 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 197 vendor-level transaction records covering 70 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

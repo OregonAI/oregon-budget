@@ -118,9 +118,36 @@ The 12 largest of 80 expenditure classes used by this agency in FY2020.
 | 4255 | Prizes And Awards | $499,808.28 | 3.2% |
 | 4825 | Fuels And Utilities | $377,031.40 | 2.4% |
 
+## Largest vendors
+
+The 20 largest of 271 payees this agency recorded payments to in FY2020, accounting for 80.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $5,899,299.51 | 37.3% | 12 |
+| ARAMARK SERVICES INC | $918,864.08 | 5.8% | 8 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $871,101.87 | 5.5% | 37 |
+| DEPARTMENT OF JUSTICE | $821,421.18 | 5.2% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $545,633.89 | 3.4% | 4 |
+| DEPT OF STATE POLICE | $432,270.64 | 2.7% | 3 |
+| SAN DIEGO POLICE EQUIPMENT CO | $421,078.07 | 2.7% | 1 |
+| DESCHUTES COUNTY | $413,478.56 | 2.6% | 1 |
+| HUGHES FIRE EQUIPMENT INC | $315,985.00 | 2.0% | 1 |
+| PORTLAND GENERAL ELECTRIC COMPANY | $240,085.86 | 1.5% | 1 |
+| OREGON ASSN CHIEFS OF POLICE | $224,950.00 | 1.4% | 3 |
+| CLACKAMAS COUNTY | $209,217.60 | 1.3% | 1 |
+| CONVERGEONE INC | $195,209.63 | 1.2% | 10 |
+| RESPONDER LIFE | $185,625.00 | 1.2% | 2 |
+| MEDFORD POLICE DEPT | $182,664.62 | 1.2% | 1 |
+| MULTNOMAH COUNTY SHERIFF | $180,698.00 | 1.1% | 2 |
+| CITY OF PORTLAND | $164,772.03 | 1.0% | 1 |
+| CDW GOVERNMENT INC | $153,569.27 | 1.0% | 7 |
+| WASHINGTON COUNTY SHERIFF | $150,869.98 | 1.0% | 1 |
+| BOARD OF PUBLIC SAFETY STANDARDS & TRAINING | $149,363.21 | 0.9% | 4 |
+
 ## Curator notes
 
-Figures are aggregated from 438 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 438 vendor-level transaction records covering 271 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

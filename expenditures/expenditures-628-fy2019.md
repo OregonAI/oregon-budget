@@ -97,9 +97,36 @@ The 12 largest of 47 expenditure classes used by this agency in FY2019.
 | 4250 | Dues/Memberships | $14,166.00 | 0.5% |
 | 4202 | Equipment Rental | $12,725.49 | 0.4% |
 
+## Largest vendors
+
+The 20 largest of 167 payees this agency recorded payments to in FY2019, accounting for 88.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CAPPELLI MILES | $1,114,286.03 | 39.1% | 2 |
+| OREGON STATE UNIVERSITY | $572,899.34 | 20.1% | 5 |
+| OREGON WOMEN IN TIMBER | $228,370.00 | 8.0% | 2 |
+| DAVIS HIBBITTS & MIDGHALL INC | $92,700.00 | 3.3% | 1 |
+| 309 SW 6TH AVE MEZZ LLC | $79,771.06 | 2.8% | 2 |
+| CAWOOD | $69,312.42 | 2.4% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $59,254.24 | 2.1% | 29 |
+| UNIVERSITY OF IDAHO | $59,196.15 | 2.1% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $47,646.83 | 1.7% | 5 |
+| CAFFERATA CONSULTING LLC | $37,794.78 | 1.3% | 1 |
+| GARDEN RESORT LLC | $28,410.33 | 1.0% | 6 |
+| OREGON SMALL WOODLANDS ASSOCIATION | $20,185.00 | 0.7% | 2 |
+| CHOOSE OUTDOORS | $20,000.00 | 0.7% | 1 |
+| SOCIETY OF AMERICAN FORESTERS | $19,168.62 | 0.7% | 5 |
+| LOWELLS PRINT-INN INC | $17,813.00 | 0.6% | 1 |
+| FORESTS FOREVER INC | $15,750.00 | 0.6% | 2 |
+| SELECT IMPRESSIONS | $15,166.51 | 0.5% | 2 |
+| OREGON GARDEN FOUNDATION | $12,000.00 | 0.4% | 1 |
+| DHX ADVERTISING INC | $11,375.00 | 0.4% | 2 |
+| PORT BLAKELY TREE FARMS LP | $10,422.10 | 0.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 294 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 294 vendor-level transaction records covering 167 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

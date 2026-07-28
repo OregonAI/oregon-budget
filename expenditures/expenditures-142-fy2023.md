@@ -96,9 +96,36 @@ The 12 largest of 37 expenditure classes used by this agency in FY2023.
 | 4251 | Subscriptions And Publications | $8,424.16 | 1.5% |
 | 4366 | Computer Technology Pc Software<$5K | $7,192.08 | 1.2% |
 
+## Largest vendors
+
+The 20 largest of 32 payees this agency recorded payments to in FY2023, accounting for 99.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $157,261.86 | 27.1% | 5 |
+| SHERIDAN BOOKS INC | $144,468.83 | 24.9% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $91,921.90 | 15.9% | 18 |
+| CDW GOVERNMENT INC | $82,574.39 | 14.3% | 3 |
+| LYNX GROUP INC | $49,886.70 | 8.6% | 1 |
+| LEGISLATIVE ADMIN COMMITTEE | $13,469.56 | 2.3% | 4 |
+| US BANK NATIONAL ASSOCIATION | $10,020.73 | 1.7% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $5,050.05 | 0.9% | 4 |
+| METRO OVERHEAD DOOR | $3,463.00 | 0.6% | 1 |
+| OPENMFG LLC | $3,139.50 | 0.5% | 1 |
+| CAROL M TODD | $3,082.99 | 0.5% | 4 |
+| SHI INTERNATIONAL CORP | $2,735.53 | 0.5% | 1 |
+| OFFICE DEPOT INC | $1,797.50 | 0.3% | 3 |
+| AURORA GODDARD | $1,452.79 | 0.3% | 3 |
+| JESSICA SANTIAGO | $1,301.65 | 0.2% | 2 |
+| OFFICE DEPOT BUSINESS SOLUTIONS LLC | $1,282.82 | 0.2% | 3 |
+| QUADIENT INC | $1,157.15 | 0.2% | 1 |
+| MULTIPORT SYSTEMS INC | $1,046.25 | 0.2% | 1 |
+| LILE INTERNATIONAL COMPANIES | $955.08 | 0.2% | 1 |
+| QWEST | $676.92 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 74 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 74 vendor-level transaction records covering 32 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -138,9 +138,36 @@ The 12 largest of 106 expenditure classes used by this agency in FY2024.
 | 4519 | Professional Serv/Managed Serv Provider | $7,225,504.61 | 1.2% |
 | 6082 | Distribution To Dhs Agy 100 | $5,211,099.55 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 458 payees this agency recorded payments to in FY2024, accounting for 80.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON HEALTH AUTHORITY | $156,906,259.51 | 26.7% | 1 |
+| OREGON HEALTH & SCIENCE UNIVERSITY | $125,506,461.78 | 21.4% | 2 |
+| OREGON DEPARTMENT OF FORESTRY | $24,116,195.09 | 4.1% | 1 |
+| PROVIDENCE HEALTH & SERVICES | $22,985,007.36 | 3.9% | 1 |
+| SKY LAKES MEDICAL CENTER INC | $18,554,295.95 | 3.2% | 1 |
+| CITY OF PORTLAND | $14,938,416.60 | 2.5% | 3 |
+| LEGACY EMANUEL HOSPITAL | $13,584,941.03 | 2.3% | 1 |
+| TUALITY HEALTHCARE | $12,784,803.79 | 2.2% | 1 |
+| UNITED TELEPHONE COMPANY OF THE NORTHWEST | $11,827,689.13 | 2.0% | 8 |
+| OREGON DEPT OF TRANSPORTATION | $8,352,350.78 | 1.4% | 1 |
+| CITY OF SALEM | $8,317,723.53 | 1.4% | 3 |
+| SALEM HOSPITAL | $7,909,991.46 | 1.3% | 1 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $7,313,418.08 | 1.2% | 1 |
+| COUNTY OF LANE | $6,671,611.27 | 1.1% | 2 |
+| BLUE MOUNTAIN HOSPITAL DISTRICT | $5,507,379.21 | 0.9% | 1 |
+| MULTNOMAH CO SCH DIST 1 | $5,499,007.83 | 0.9% | 1 |
+| COUNTY OF CLACKAMAS | $5,423,744.87 | 0.9% | 3 |
+| DEPARTMENT OF HUMAN SERVICES | $5,148,099.95 | 0.9% | 1 |
+| KAISER FOUNDATION HOSPITALS | $4,779,329.45 | 0.8% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $4,571,953.76 | 0.8% | 22 |
+
 ## Curator notes
 
-Figures are aggregated from 796 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 796 vendor-level transaction records covering 458 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

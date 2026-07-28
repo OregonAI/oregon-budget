@@ -107,9 +107,36 @@ The 12 largest of 68 expenditure classes used by this agency in FY2024.
 | 4800 | Interagency Lease Payments | $334,097.32 | 0.2% |
 | 4362 | Computer Technology Server Support | $267,199.06 | 0.2% |
 
+## Largest vendors
+
+The 20 largest of 190 payees this agency recorded payments to in FY2024, accounting for 98.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| HOFFMAN CONSTRUCTION COMPANY OF OREGON | $126,174,266.19 | 78.8% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $16,180,528.58 | 10.1% | 14 |
+| SRG PARTNERSHIP INC | $3,945,177.95 | 2.5% | 1 |
+| WILLIS TOWERS WATSON INSURANCE SERVICES WEST INC | $2,298,635.05 | 1.4% | 1 |
+| DEPT OF STATE POLICE | $2,288,690.00 | 1.4% | 1 |
+| ERNST & YOUNG US LLP | $1,139,345.52 | 0.7% | 2 |
+| DEPAUL INDUSTRIES | $1,030,752.49 | 0.6% | 2 |
+| XCENTIAL CORPORATION | $913,721.00 | 0.6% | 2 |
+| LEGISLATIVE ADMIN COMMITTEE | $687,890.31 | 0.4% | 5 |
+| CDW GOVERNMENT INC | $585,641.38 | 0.4% | 16 |
+| SHI INTERNATIONAL CORP | $531,073.19 | 0.3% | 4 |
+| SIEMENS INDUSTRY INC | $505,855.00 | 0.3% | 1 |
+| SMITH-EMERY LABORATORIES INC | $475,712.77 | 0.3% | 1 |
+| PORTLAND GENERAL ELECTRIC COMPANY | $332,773.64 | 0.2% | 1 |
+| FIRST RESPONSE INC | $300,928.00 | 0.2% | 1 |
+| FIRST PRESBYTERIAN CHURCH | $207,451.32 | 0.1% | 1 |
+| BACKUP INTERNATIONAL LLC | $166,675.00 | 0.1% | 3 |
+| INTERNATIONAL ROLL-CALL | $162,894.75 | 0.1% | 2 |
+| ACS TESTING INC | $150,374.63 | 0.1% | 1 |
+| ONE DIVERSIFIED LLC | $120,179.11 | 0.1% | 6 |
+
 ## Curator notes
 
-Figures are aggregated from 335 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 335 vendor-level transaction records covering 190 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

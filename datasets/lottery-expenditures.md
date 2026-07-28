@@ -86,7 +86,7 @@ Types are as Socrata *declares* them. Every value is delivered as a JSON string 
 
 **`department` packs a code and a name into one field.** `177-OREGON STATE LOTTERY`, not separate code and name columns as in the other two datasets. Splitting on the first hyphen is safe here only because there is exactly one department.
 
-**Vendor names are individuals in some rows.** As with the agency dataset, `vendor_name` includes people. This corpus does not republish vendor-level detail as indexed text; see the note in any `expenditures/*.md` document.
+**`vendor_name` is free text and is not de-duplicated.** As with the agency dataset, a payee string is whatever was entered in the source system, so one organisation can appear under several spellings. Counting distinct strings undercounts the large payees.
 
 ### Verification
 

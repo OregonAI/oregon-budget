@@ -98,9 +98,36 @@ The 12 largest of 44 expenditure classes used by this agency in FY2021.
 | 4366 | Computer Technology Pc Software<$5K | $23,078.08 | 0.5% |
 | 4108 | Instate Ground Transportation | $16,170.78 | 0.4% |
 
+## Largest vendors
+
+The 20 largest of 136 payees this agency recorded payments to in FY2021, accounting for 73.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $544,727.97 | 12.4% | 9 |
+| ANGELO PLANNING GROUP INC | $336,726.00 | 7.7% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $328,834.46 | 7.5% | 1 |
+| 3J CONSULTING INC | $239,454.00 | 5.5% | 1 |
+| ECONOMIC CONSULTANTS OREGON | $233,005.00 | 5.3% | 1 |
+| MIG INC | $232,896.75 | 5.3% | 1 |
+| PORTLAND STATE UNIVERSITY | $213,440.84 | 4.9% | 2 |
+| STATE OF OREGON DEPT OF GEOLOGY AND MINERAL IND | $179,514.51 | 4.1% | 1 |
+| URBSWORKS | $119,950.00 | 2.7% | 1 |
+| CITY OF COOS BAY | $108,000.00 | 2.5% | 1 |
+| CITY OF ALBANY | $99,955.00 | 2.3% | 1 |
+| CITY OF NEWBERG | $93,875.00 | 2.1% | 1 |
+| COUNTY OF HOOD RIVER | $80,000.00 | 1.8% | 1 |
+| COUNTY OF MULTNOMAH | $70,000.00 | 1.6% | 1 |
+| CITY OF WOODBURN | $66,266.05 | 1.5% | 1 |
+| CITY OF HAPPY VALLEY | $66,082.50 | 1.5% | 1 |
+| WASHINGTON COUNTY | $60,000.00 | 1.4% | 1 |
+| OREGON STATE UNIVERSITY | $53,120.96 | 1.2% | 2 |
+| CITY OF ONTARIO | $50,000.00 | 1.1% | 1 |
+| CASCADIA PARTNERS LLC | $49,910.78 | 1.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 176 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 176 vendor-level transaction records covering 136 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

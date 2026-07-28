@@ -128,9 +128,36 @@ The 12 largest of 112 expenditure classes used by this agency in FY2024.
 | 4515 | Professional Services Application Maint | $25,363,133.28 | 2.8% |
 | 6400 | Distribution To Cities | $25,330,994.79 | 2.8% |
 
+## Largest vendors
+
+The 20 largest of 1,492 payees this agency recorded payments to in FY2024, accounting for 64.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON STATE TREASURY | $245,340,461.36 | 27.1% | 4 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $47,652,956.27 | 5.3% | 24 |
+| SHI INTERNATIONAL CORP | $43,872,195.96 | 4.8% | 11 |
+| RIZZO BOSWORTH ERAUT PC | $34,359,000.00 | 3.8% | 1 |
+| SAIF CORP | $26,104,627.96 | 2.9% | 2 |
+| PENCE CONTRACTORS LLC | $25,493,077.00 | 2.8% | 1 |
+| LEASE CRUTCHER LEWIS LLC | $23,535,267.59 | 2.6% | 1 |
+| DEPARTMENT OF FISH & WILDLIFE | $21,276,348.94 | 2.4% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $14,458,048.78 | 1.6% | 14 |
+| WILLIS TOWERS WATSON INSURANCE SERVICES WEST INC | $13,966,710.97 | 1.5% | 3 |
+| WORKDAY INC | $12,098,955.36 | 1.3% | 3 |
+| MARKOWITZ HERBOLD PC | $12,051,910.05 | 1.3% | 1 |
+| SALEM-KEIZER TRANSIT | $10,068,949.35 | 1.1% | 1 |
+| REGIONAL RURAL REVITALIZATION CONSORTIUM | $10,000,000.00 | 1.1% | 1 |
+| CITY OF PHOENIX | $9,744,143.71 | 1.1% | 1 |
+| OREGON WORKER RELIEF | $8,200,000.00 | 0.9% | 1 |
+| OREGON DEPARTMENT OF FORESTRY | $6,580,477.93 | 0.7% | 2 |
+| CENTER FOR HOPE AND SAFETY | $6,481,030.31 | 0.7% | 1 |
+| DEPARTMENT OF CORRECTIONS | $6,161,677.00 | 0.7% | 1 |
+| FAMILY JUSTICE CENTER OF WASHINGTON COUNTY | $6,099,950.00 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 2,224 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,224 vendor-level transaction records covering 1,492 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

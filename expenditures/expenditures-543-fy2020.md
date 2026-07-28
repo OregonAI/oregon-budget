@@ -105,9 +105,36 @@ The 12 largest of 62 expenditure classes used by this agency in FY2020.
 | 4701 | Other Services | $113,772.78 | 3.0% |
 | 4999 | Expendable Property Non-It<$5K | $76,103.18 | 2.0% |
 
+## Largest vendors
+
+The 20 largest of 248 payees this agency recorded payments to in FY2020, accounting for 75.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,075,702.59 | 28.6% | 12 |
+| CENGAGE LEARNING | $380,000.00 | 10.1% | 1 |
+| EBSCO INFORMATION SERVICE | $200,207.39 | 5.3% | 2 |
+| OREGON LIBRARY ASSOCIATION | $149,050.51 | 4.0% | 2 |
+| MULTNOMAH COUNTY LIBRARY | $140,820.87 | 3.7% | 1 |
+| ORBIS CASCADE ALLIANCE | $113,781.15 | 3.0% | 2 |
+| OVERDRIVE INC | $100,000.00 | 2.7% | 1 |
+| BAKER COUNTY LIBRARY DISTRICT | $69,894.84 | 1.9% | 3 |
+| OREGON HISTORICAL SOCIETY | $64,887.09 | 1.7% | 1 |
+| WASHINGTON COUNTY COOP LIBRARY SERVICES | $63,989.91 | 1.7% | 1 |
+| REIMERS FURNITURE MFG INC | $61,698.24 | 1.6% | 1 |
+| CHEMEKETA COMMUNITY COLLEGE | $57,098.50 | 1.5% | 2 |
+| LEWIS AND CLARK COLLEGE | $56,065.23 | 1.5% | 1 |
+| WILLAMETTE UNIVERSITY | $55,938.00 | 1.5% | 1 |
+| URBAN LIBRARIES COUNCIL | $50,000.00 | 1.3% | 1 |
+| ONLINE COMPUTER LIBRARY CENTER INC | $47,015.67 | 1.3% | 4 |
+| LINN BENTON COMMUNITY COLLEGE | $43,763.54 | 1.2% | 1 |
+| JACKSON COUNTY LIBRARY DISTRICT | $36,618.64 | 1.0% | 2 |
+| TREASURE VALLEY COMMUNITY COLLEGE | $35,000.00 | 0.9% | 1 |
+| DESCHUTES PUBLIC LIBRARY DISTRICT | $34,812.00 | 0.9% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 422 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 422 vendor-level transaction records covering 248 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

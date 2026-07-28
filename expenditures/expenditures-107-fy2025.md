@@ -126,9 +126,36 @@ The 12 largest of 103 expenditure classes used by this agency in FY2025.
 | 4500 | Professional Services Non-It | $25,738,078.13 | 2.8% |
 | 4550 | Attorney General Legal Fees | $16,456,584.70 | 1.8% |
 
+## Largest vendors
+
+The 20 largest of 1,424 payees this agency recorded payments to in FY2025, accounting for 64.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON STATE TREASURY | $255,815,246.60 | 28.1% | 4 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $42,524,223.30 | 4.7% | 24 |
+| SHI INTERNATIONAL CORP | $41,740,965.35 | 4.6% | 11 |
+| SAIF CORP | $38,741,551.33 | 4.2% | 2 |
+| COUNTY OF MULTNOMAH | $25,000,000.00 | 2.7% | 1 |
+| ALBINA VISION TRUST INC | $25,000,000.00 | 2.7% | 1 |
+| PENCE CONTRACTORS LLC | $16,622,768.00 | 1.8% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $16,578,258.52 | 1.8% | 15 |
+| CITY OF HILLSBORO | $15,000,000.00 | 1.6% | 1 |
+| RIZZO BOSWORTH ERAUT PC | $12,693,171.46 | 1.4% | 1 |
+| WILLIS TOWERS WATSON INSURANCE SERVICES WEST INC | $12,156,726.24 | 1.3% | 4 |
+| BRIDGEWAY RECOVERY SERVICES INC | $11,500,000.00 | 1.3% | 1 |
+| MARKOWITZ HERBOLD PC | $10,769,040.81 | 1.2% | 1 |
+| RIGHT SYSTEMS INC | $10,032,035.77 | 1.1% | 4 |
+| SALEM-KEIZER TRANSIT | $9,003,981.00 | 1.0% | 1 |
+| COUNTY OF KLAMATH | $8,907,183.87 | 1.0% | 2 |
+| WASHINGTON COUNTY HEALTH & HUMAN SERVICES | $8,900,000.00 | 1.0% | 1 |
+| COUNTY OF WASCO | $8,000,000.00 | 0.9% | 1 |
+| COUNTY OF BENTON | $7,500,000.00 | 0.8% | 1 |
+| A BETTER CHILDHOOD INC | $7,215,089.21 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 2,109 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,109 vendor-level transaction records covering 1,424 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

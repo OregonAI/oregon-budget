@@ -104,9 +104,36 @@ The 12 largest of 53 expenditure classes used by this agency in FY2019.
 | 4375 | Computer Technology Computer Processing | $20,022.74 | 1.2% |
 | 4362 | Computer Technology Server Support | $16,648.00 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 81 payees this agency recorded payments to in FY2019, accounting for 94.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $498,200.49 | 30.2% | 8 |
+| QUANTUM SPATIAL INC | $308,382.00 | 18.7% | 1 |
+| UNIVERSITY OF OREGON | $171,886.16 | 10.4% | 1 |
+| BARNEY & WORTH INC | $123,732.21 | 7.5% | 1 |
+| DEPARTMENT OF ENVIRONMENTAL QUALITY | $84,511.28 | 5.1% | 16 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $46,394.71 | 2.8% | 1 |
+| VA INSTITUTE OF MARINE SCIENCE | $46,343.07 | 2.8% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $35,227.63 | 2.1% | 1 |
+| RUSSELL W TRIPP | $34,200.00 | 2.1% | 1 |
+| CARDNO INC | $33,755.24 | 2.0% | 1 |
+| INTEGRAL CONSULTING INC | $29,300.00 | 1.8% | 1 |
+| ENNIS-FLINT INC | $28,996.11 | 1.8% | 1 |
+| UNIVERSITY OF WASHINGTON | $19,933.00 | 1.2% | 1 |
+| DEPT OF LAND CONSERVATION & DEVELOPMENT | $19,630.19 | 1.2% | 14 |
+| SHI INTERNATIONAL CORP | $16,648.00 | 1.0% | 1 |
+| WASHINGTON STATE UNIVERSITY | $13,170.00 | 0.8% | 1 |
+| IBM CORPORATION | $10,516.89 | 0.6% | 1 |
+| JEFF JIMERSON DESIGN INC | $10,000.00 | 0.6% | 1 |
+| WASHINGTON ST DEPT OF NATURAL RESOURCES | $9,970.90 | 0.6% | 1 |
+| VERIZON WIRELESS | $8,284.95 | 0.5% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 206 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 206 vendor-level transaction records covering 81 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

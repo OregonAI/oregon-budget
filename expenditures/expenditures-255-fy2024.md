@@ -102,9 +102,36 @@ The 12 largest of 45 expenditure classes used by this agency in FY2024.
 | 4372 | Computer Technology Peripheral Equip<$5K | $19,624.49 | 1.0% |
 | 4305 | Telecom/Network Services | $17,995.10 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 53 payees this agency recorded payments to in FY2024, accounting for 95.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $499,933.50 | 24.6% | 1 |
+| 1351 TANDEM AVE LLC | $253,269.42 | 12.5% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $235,004.22 | 11.6% | 8 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $186,969.42 | 9.2% | 14 |
+| NORTHWEST FORENSIC INSTITUTE | $151,707.00 | 7.5% | 1 |
+| DAVID J SCHUESSLER | $123,580.00 | 6.1% | 1 |
+| CORRECTIONS TRUST ACCT | $87,394.36 | 4.3% | 10 |
+| STATE OF OREGON SECRETARY OF STATE | $77,903.04 | 3.8% | 1 |
+| CONIFER CLINICAL SERVICES | $42,200.00 | 2.1% | 1 |
+| TIFFANY LOONEY MS | $40,720.00 | 2.0% | 1 |
+| COUNTY OF MULTNOMAH | $37,534.82 | 1.8% | 1 |
+| DEPARTMENT OF JUSTICE | $31,071.70 | 1.5% | 1 |
+| INTEGRATED CLINICAL & CORRECTIONAL SERVICES | $26,907.50 | 1.3% | 1 |
+| COUNTY OF MARION COMMUNITY CORRECTIONS | $21,828.47 | 1.1% | 1 |
+| COUNTY OF LANE | $20,064.02 | 1.0% | 1 |
+| COUNTY OF WASHINGTON | $20,023.92 | 1.0% | 1 |
+| CDW GOVERNMENT INC | $19,624.49 | 1.0% | 1 |
+| BRITTANY HILL LAW LLC | $19,427.00 | 1.0% | 1 |
+| CHRISTIAN EICKELBERG ATTORNEY AT LAW LLC | $19,000.00 | 0.9% | 1 |
+| WILLAMETTE VALLEY REHAB CENTER | $17,047.37 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 124 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 124 vendor-level transaction records covering 53 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -98,9 +98,36 @@ The 12 largest of 50 expenditure classes used by this agency in FY2019.
 | 4301 | Telecom/Voice Usage | $83,985.17 | 2.0% |
 | 4108 | Instate Ground Transportation | $66,596.00 | 1.6% |
 
+## Largest vendors
+
+The 20 largest of 319 payees this agency recorded payments to in FY2019, accounting for 70.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $536,111.23 | 12.6% | 15 |
+| PORTLAND PUBLIC SCHOOLS | $515,833.50 | 12.1% | 1 |
+| BOUNDLESS ASSISTIVE TECHNOLOGY LLC | $345,223.51 | 8.1% | 3 |
+| ALLEGIANT BUSINESS FINANCE LLC | $189,067.11 | 4.5% | 4 |
+| GALT FOUNDATION | $188,323.84 | 4.4% | 5 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $161,293.13 | 3.8% | 5 |
+| LINN CO SCH DIST 8 | $151,416.00 | 3.6% | 1 |
+| SMITTYS VENDING INC | $129,178.89 | 3.0% | 2 |
+| LIBERA INC | $105,579.65 | 2.5% | 2 |
+| PORTLAND STATE UNIVERSITY | $101,547.22 | 2.4% | 2 |
+| DEPARTMENT OF JUSTICE | $92,600.93 | 2.2% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $79,593.68 | 1.9% | 2 |
+| CASCADE COMPUTER MAINTENANCE INC | $58,342.03 | 1.4% | 3 |
+| NORTHWEST REGIONAL EDUCATION SERVICE DISTRICT | $57,708.50 | 1.4% | 1 |
+| NORTHWEST REGIONAL EDUCATION SERVICES DISTRICT | $57,708.50 | 1.4% | 1 |
+| AT&T MOBILITY | $47,288.72 | 1.1% | 4 |
+| HOLISTIC COUNSELING AND CONSULTING LLC | $44,015.25 | 1.0% | 1 |
+| TRI-COUNTY METRO TRANSPORTATION DIST OF OREGON | $43,418.56 | 1.0% | 2 |
+| AMERICAN PROPERTY MANAGEMENT | $39,420.00 | 0.9% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES/OBA | $39,222.10 | 0.9% | 4 |
+
 ## Curator notes
 
-Figures are aggregated from 511 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 511 vendor-level transaction records covering 319 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

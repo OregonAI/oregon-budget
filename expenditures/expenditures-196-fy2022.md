@@ -95,9 +95,34 @@ The 12 largest of 19 expenditure classes used by this agency in FY2022.
 | 4701 | Other Services | $6,823.10 | 1.3% |
 | 3221 | Social Security Taxes | $4,892.81 | 0.9% |
 
+## Largest vendors
+
+The 18 largest of 18 payees this agency recorded payments to in FY2022, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $320,513.88 | 59.8% | 4 |
+| MICROSOFT CORPORATION | $31,984.00 | 6.0% | 1 |
+| LORRIN M KING | $28,650.48 | 5.3% | 8 |
+| CODY HEFFNER | $28,143.50 | 5.2% | 9 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $18,846.50 | 3.5% | 1 |
+| MICHELLE UNDERWOOD | $18,805.80 | 3.5% | 8 |
+| FREE STATE REPORTING INC | $17,225.50 | 3.2% | 1 |
+| PUBLIC EMPLOYEES BENEFIT BOARD | $15,683.40 | 2.9% | 1 |
+| SHI INTERNATIONAL CORP | $13,298.48 | 2.5% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $8,440.00 | 1.6% | 1 |
+| BRITTANY DAOUD | $6,546.38 | 1.2% | 5 |
+| CHARLES SORGIE | $5,860.78 | 1.1% | 8 |
+| ESCRIBERS LLC | $5,281.90 | 1.0% | 1 |
+| DISTRICT ATTORNEYS & THEIR DEPUTIES | $5,124.20 | 1.0% | 1 |
+| MELODY DUNCAN | $4,822.73 | 0.9% | 9 |
+| STATE OF OREGON - SECRETARY OF STATE | $4,693.52 | 0.9% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $2,129.60 | 0.4% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $24.50 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 62 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 62 vendor-level transaction records covering 18 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

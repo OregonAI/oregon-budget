@@ -108,9 +108,36 @@ The 12 largest of 85 expenditure classes used by this agency in FY2019.
 | 4362 | Computer Technology Server Support | $431,664.04 | 3.8% |
 | 4366 | Computer Technology Pc Software<$5K | $214,476.92 | 1.9% |
 
+## Largest vendors
+
+The 20 largest of 255 payees this agency recorded payments to in FY2019, accounting for 77.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $2,475,023.94 | 21.7% | 16 |
+| OREGON STATE TREASURY | $813,128.30 | 7.1% | 5 |
+| SIGNATURE GRAPHICS | $737,633.04 | 6.5% | 2 |
+| HEWLETT-PACKARD STATE & LOCAL ENTERPRISES SERVICES | $676,601.00 | 5.9% | 2 |
+| MACIAS GINI & OCONNELL LLP | $516,230.00 | 4.5% | 1 |
+| SHI INTERNATIONAL CORP | $502,293.77 | 4.4% | 10 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $338,354.68 | 3.0% | 35 |
+| UNITED STATES POSTAL SERVICE | $286,417.15 | 2.5% | 2 |
+| CDW GOVERNMENT INC | $278,799.33 | 2.4% | 8 |
+| PRESIDIO NETWORKED SOLUTIONS GROUP LLC | $275,073.07 | 2.4% | 3 |
+| COUNTY OF MARION TREASURY DEPARTMENT | $269,423.26 | 2.4% | 1 |
+| CHAVES CONSULTING INC | $246,115.20 | 2.2% | 6 |
+| PERSPECTA STATE & LOCAL INC | $243,845.00 | 2.1% | 1 |
+| ORACLE AMERICA INC | $239,674.86 | 2.1% | 1 |
+| ARGO INVESTMENT CORP | $226,274.19 | 2.0% | 1 |
+| PITNEY BOWES | $221,809.97 | 1.9% | 1 |
+| COUNTY OF WASHINGTON | $149,266.47 | 1.3% | 1 |
+| COUNTY OF LANE | $143,840.76 | 1.3% | 1 |
+| FIVE CEDARS GROUP INC | $139,487.50 | 1.2% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $118,056.90 | 1.0% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 523 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 523 vendor-level transaction records covering 255 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -113,9 +113,36 @@ The 12 largest of 73 expenditure classes used by this agency in FY2020.
 | 4301 | Telecom/Voice Usage | $91,492.43 | 0.4% |
 | 4519 | Professional Serv/Managed Serv Provider | $64,725.42 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 238 payees this agency recorded payments to in FY2020, accounting for 95.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON STATE TREASURY | $20,616,769.08 | 83.2% | 5 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,117,587.02 | 4.5% | 18 |
+| DEPARTMENT OF JUSTICE | $436,094.56 | 1.8% | 2 |
+| PINE GATE RENEWABLES LLC | $165,000.00 | 0.7% | 1 |
+| MID VALLEY FARMS INC | $157,826.00 | 0.6% | 1 |
+| TRI-CITY WATER AND SANITARY AUTHORITY | $140,650.00 | 0.6% | 1 |
+| THREE SISTERS IRRIGATION DISTRICT | $110,950.00 | 0.4% | 1 |
+| MICROSOFT CORPORATION | $99,142.00 | 0.4% | 1 |
+| OR-COUNTY SOLAR LLC | $90,000.00 | 0.4% | 1 |
+| EUGENE FREEZING & STORAGE CO | $82,313.00 | 0.3% | 1 |
+| BETHLEHEM INN | $69,930.00 | 0.3% | 1 |
+| U WORK COM INC | $60,789.69 | 0.2% | 2 |
+| CLEAN POWER RESEARCH LLC | $59,615.00 | 0.2% | 1 |
+| DEPARTMENT OF HUMAN SERVICES | $57,173.16 | 0.2% | 1 |
+| CDW GOVERNMENT INC | $55,149.60 | 0.2% | 1 |
+| HAWKINS DELAFIELD & WOOD | $54,091.44 | 0.2% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $53,746.50 | 0.2% | 1 |
+| THE CORAGGIO GROUP INC | $51,004.18 | 0.2% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $50,020.13 | 0.2% | 1 |
+| DEPARTMENT OF FISH & WILDLIFE | $47,767.10 | 0.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 443 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 443 vendor-level transaction records covering 238 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

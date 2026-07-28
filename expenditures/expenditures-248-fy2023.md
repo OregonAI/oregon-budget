@@ -145,9 +145,36 @@ The 12 largest of 140 expenditure classes used by this agency in FY2023.
 | 6082 | Distribution To Dhs Agy 100 | $2,986,712.68 | 2.1% |
 | 4851 | Facilities Supplies | $2,008,009.04 | 1.4% |
 
+## Largest vendors
+
+The 20 largest of 1,169 payees this agency recorded payments to in FY2023, accounting for 61.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| FOWLER GENERAL CONSTRUCTION | $17,334,770.60 | 12.3% | 1 |
+| ST CHARLES HEALTH SYSTEM INC | $17,243,021.58 | 12.3% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $8,928,374.87 | 6.4% | 29 |
+| REED COLLEGE | $5,173,604.25 | 3.7% | 1 |
+| FORTIS CONSTRUCTION INC | $5,098,953.61 | 3.6% | 3 |
+| CITY OF PORTLAND | $3,971,942.39 | 2.8% | 4 |
+| CONSUMERS POWER INC | $3,808,374.79 | 2.7% | 3 |
+| AUSLAND GROUP | $3,467,232.16 | 2.5% | 4 |
+| DEPT OF HUMAN SERVICES | $2,986,712.68 | 2.1% | 1 |
+| APOLLO INC | $2,544,088.10 | 1.8% | 2 |
+| RAMS SPECIALIZED SECURITY SERVICE INC | $2,360,176.52 | 1.7% | 1 |
+| OREGON HEALTH AUTHORITY | $1,983,894.96 | 1.4% | 2 |
+| KIRBY NAGELHOUT CONSTRUCTION CO | $1,881,930.31 | 1.3% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $1,516,049.33 | 1.1% | 55 |
+| ABACUS RESOURCE MANAGEMENT CO | $1,452,322.00 | 1.0% | 1 |
+| WASHINGTON CO CONSOLIDATED COMMUNICATIONS AGCY | $1,357,044.71 | 1.0% | 1 |
+| PACIFIC POWER | $1,330,008.07 | 0.9% | 2 |
+| DSL BUILDERS LLC | $1,245,535.03 | 0.9% | 3 |
+| CITY OF SALEM | $1,206,171.20 | 0.9% | 4 |
+| PORTLAND ADVENTIST MEDICAL CENTER | $1,121,546.14 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,998 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,998 vendor-level transaction records covering 1,169 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

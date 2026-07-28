@@ -95,9 +95,36 @@ The 12 largest of 26 expenditure classes used by this agency in FY2021.
 | 4305 | Telecom/Network Services | $13,640.66 | 1.5% |
 | 4375 | Computer Technology Computer Processing | $11,556.93 | 1.3% |
 
+## Largest vendors
+
+The 20 largest of 27 payees this agency recorded payments to in FY2021, accounting for 99.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $214,316.49 | 23.7% | 9 |
+| DEPT OF STATE POLICE | $188,260.00 | 20.8% | 1 |
+| PIKES NORTHWEST LLC | $172,094.36 | 19.0% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $154,850.24 | 17.1% | 1 |
+| US BANK NATIONAL ASSOCIATION | $57,880.72 | 6.4% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $34,910.08 | 3.9% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $19,211.00 | 2.1% | 1 |
+| IBM CORPORATION | $18,810.95 | 2.1% | 1 |
+| EMPLOYMENT DEPARTMENT | $10,157.93 | 1.1% | 1 |
+| COUNCIL FOR ACCREDITATION OF EDUCATOR PREPARATION | $8,750.00 | 1.0% | 1 |
+| QWEST | $7,874.02 | 0.9% | 1 |
+| CDW GOVERNMENT INC | $6,298.46 | 0.7% | 3 |
+| LEGISLATIVE COUNSEL COMMITTEE | $3,312.40 | 0.4% | 1 |
+| OREGON STATE TREASURY | $2,095.30 | 0.2% | 1 |
+| RICOH USA INC | $2,091.51 | 0.2% | 2 |
+| NCS PEARSON INC | $1,724.00 | 0.2% | 1 |
+| PORTLAND PUBLIC SCHOOL DISTRICT #1 | $868.81 | 0.1% | 1 |
+| ANTHONY ROSILEZ | $467.04 | 0.1% | 4 |
+| CASCADE CENTERS INC | $373.32 | 0.0% | 1 |
+| TAILORED SOLUTIONS CORPORATION | $321.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 43 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 43 vendor-level transaction records covering 27 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

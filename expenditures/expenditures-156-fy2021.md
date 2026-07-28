@@ -99,9 +99,36 @@ The 12 largest of 45 expenditure classes used by this agency in FY2021.
 | 4365 | Computer Technology Pc Equipment<$5K | $190,897.05 | 0.7% |
 | 4519 | Professional Serv/Managed Serv Provider | $186,473.43 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 190 payees this agency recorded payments to in FY2021, accounting for 94.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $8,924,573.80 | 33.4% | 11 |
+| HOFFMAN CONSTRUCTION COMPANY OF OREGON | $4,139,709.33 | 15.5% | 1 |
+| ANDERSON ROOFING CO INC | $2,215,804.11 | 8.3% | 1 |
+| DEPT OF STATE POLICE | $2,105,886.48 | 7.9% | 1 |
+| XCENTIAL CORPORATION | $1,940,632.00 | 7.3% | 1 |
+| TALLAN INC | $1,802,421.92 | 6.8% | 2 |
+| SRG PARTNERSHIP INC | $746,237.83 | 2.8% | 1 |
+| CITY OF SALEM | $633,128.98 | 2.4% | 2 |
+| SHI INTERNATIONAL CORP | $534,338.66 | 2.0% | 5 |
+| STICKY CO | $406,505.53 | 1.5% | 1 |
+| LEGISLATIVE ADMIN COMMITTEE | $346,200.70 | 1.3% | 8 |
+| MICROSOFT CORPORATION | $251,452.72 | 0.9% | 3 |
+| FIRST RESPONSE INC | $249,865.76 | 0.9% | 1 |
+| PORTLAND GENERAL ELECTRIC COMPANY | $234,919.46 | 0.9% | 2 |
+| DECISIONS LLC | $177,000.00 | 0.7% | 1 |
+| KEY CODE MEDIA INC | $160,461.97 | 0.6% | 5 |
+| CDW GOVERNMENT INC | $136,849.13 | 0.5% | 10 |
+| NW NATURAL | $94,615.34 | 0.4% | 1 |
+| INTERNATIONAL ROLL-CALL | $85,800.00 | 0.3% | 1 |
+| PRESIDIO NETWORKED SOLUTIONS INC | $85,688.27 | 0.3% | 4 |
+
 ## Curator notes
 
-Figures are aggregated from 289 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 289 vendor-level transaction records covering 190 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

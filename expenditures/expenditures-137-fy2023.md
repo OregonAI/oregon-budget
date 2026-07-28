@@ -122,9 +122,36 @@ The 12 largest of 115 expenditure classes used by this agency in FY2023.
 | 4200 | Office Supplies | $2,303,813.75 | 0.7% |
 | 4519 | Professional Serv/Managed Serv Provider | $2,091,113.39 | 0.6% |
 
+## Largest vendors
+
+The 20 largest of 1,504 payees this agency recorded payments to in FY2023, accounting for 72.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| KELLER ROHRBACK LLP | $67,780,822.70 | 20.4% | 1 |
+| STOLL STOLL BERNE LOKTING & SHLACHTER PC | $63,543,294.93 | 19.1% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $29,466,713.82 | 8.9% | 14 |
+| DEPARTMENT OF JUSTICE | $23,786,422.88 | 7.2% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $12,896,917.98 | 3.9% | 15 |
+| OREGON HEALTH AUTHORITY | $6,002,191.59 | 1.8% | 2 |
+| COUNTY OF MULTNOMAH | $5,605,171.84 | 1.7% | 4 |
+| WASHINGTON COUNTY | $4,270,707.52 | 1.3% | 3 |
+| SHI INTERNATIONAL CORP | $3,475,919.86 | 1.0% | 8 |
+| DELOITTE COUNSULTING LLP | $3,316,895.00 | 1.0% | 2 |
+| PCCP CLIPPER VENTURE 1 | $2,919,219.52 | 0.9% | 2 |
+| OREGON CASA NETWORK | $2,722,500.00 | 0.8% | 1 |
+| STATE OF OREGON DIVISION OF STATE LANDS | $2,666,126.18 | 0.8% | 1 |
+| CENTER FOR HOPE AND SAFETY | $2,349,843.00 | 0.7% | 1 |
+| EASYSTREET ONLINE SERVICES | $2,091,113.39 | 0.6% | 1 |
+| CLACKAMAS WOMEN'S SERVICES | $2,064,962.28 | 0.6% | 1 |
+| OREGON DEPT OF TRANSPORTATION | $1,997,294.91 | 0.6% | 1 |
+| DAS | $1,856,577.04 | 0.6% | 1 |
+| SHELTER DOMESTIC VIOLENCE RES | $1,774,639.90 | 0.5% | 1 |
+| EMPLOYMENT DEPARTMENT | $1,768,659.66 | 0.5% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 2,354 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,354 vendor-level transaction records covering 1,504 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

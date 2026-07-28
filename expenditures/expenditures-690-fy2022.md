@@ -102,9 +102,36 @@ The 12 largest of 47 expenditure classes used by this agency in FY2022.
 | 4999 | Expendable Property Non-It<$5K | $88,783.86 | 0.6% |
 | 4200 | Office Supplies | $86,004.83 | 0.6% |
 
+## Largest vendors
+
+The 20 largest of 247 payees this agency recorded payments to in FY2022, accounting for 90.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CITY OF CARLTON | $6,070,572.03 | 42.4% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $2,171,715.54 | 15.2% | 16 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $1,065,281.33 | 7.4% | 1 |
+| CITY OF THE DALLES | $800,000.00 | 5.6% | 1 |
+| BRIDGE CREEK RANCH LLC | $492,128.85 | 3.4% | 1 |
+| SONTEK YSI INC | $410,678.04 | 2.9% | 3 |
+| WASCO CO SWCD | $292,294.64 | 2.0% | 1 |
+| MIDDLE FORK IRRIGATION DISTRICT | $282,085.95 | 2.0% | 1 |
+| CITY OF BEAVERTON | $183,750.00 | 1.3% | 1 |
+| US GEOLOGICAL SURVEY | $176,416.00 | 1.2% | 2 |
+| JACKSON SWCD | $153,351.00 | 1.1% | 1 |
+| CITY OF STAYTON | $138,600.00 | 1.0% | 1 |
+| SEAL ROCK WATER DISTRICT | $112,196.75 | 0.8% | 1 |
+| CORBETT WATER DIST | $109,698.16 | 0.8% | 1 |
+| FARMERS CONSERVATION ALLIANCE | $94,123.17 | 0.7% | 1 |
+| TUMALO IRRIGATION DISTRICT | $90,269.15 | 0.6% | 1 |
+| VERIZON NORTHWEST INC | $90,068.05 | 0.6% | 2 |
+| UNIVERSITY OF NEVADA | $86,128.58 | 0.6% | 1 |
+| GILLIAM SOIL & WATER CONSERVATION DISTRICT | $78,190.12 | 0.5% | 1 |
+| DEPARTMENT OF FISH & WILDLIFE | $71,373.40 | 0.5% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 422 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 422 vendor-level transaction records covering 247 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

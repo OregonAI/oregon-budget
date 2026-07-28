@@ -76,9 +76,26 @@ The 5 largest of 5 expenditure classes used by this agency in FY2022.
 | 4250 | Dues/Memberships | $3,000.00 | 1.3% |
 | 4600 | State Government Service Charges | $487.50 | 0.2% |
 
+## Largest vendors
+
+The 10 largest of 10 payees this agency recorded payments to in FY2022, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| TONKON TORP LLP | $179,570.74 | 78.0% | 1 |
+| OREGON STATE TREASURY | $30,662.00 | 13.3% | 2 |
+| WESTERN FINANCIAL GROUP | $10,400.00 | 4.5% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $4,428.60 | 1.9% | 2 |
+| NCHFFA | $3,000.00 | 1.3% | 1 |
+| PFM FINANCIAL ADVISORS LLC | $1,200.00 | 0.5% | 1 |
+| HAWKINS DELAFIELD & WOOD | $590.50 | 0.3% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $193.00 | 0.1% | 1 |
+| SECRETARY OF STATE | $112.50 | 0.0% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $37.58 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 12 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 12 vendor-level transaction records covering 10 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

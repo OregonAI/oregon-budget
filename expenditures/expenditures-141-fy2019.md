@@ -107,9 +107,36 @@ The 12 largest of 85 expenditure classes used by this agency in FY2019.
 | 4701 | Other Services | $248,849.66 | 1.4% |
 | 4825 | Fuels And Utilities | $140,920.97 | 0.8% |
 
+## Largest vendors
+
+The 20 largest of 384 payees this agency recorded payments to in FY2019, accounting for 87.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| GLOBAL DIVING & SALVAGE INC | $4,841,544.66 | 26.4% | 1 |
+| OREGON STATE TREASURY | $3,787,722.85 | 20.6% | 3 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $2,083,494.82 | 11.4% | 4 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $806,818.35 | 4.4% | 12 |
+| VERUS ANALYTICS LLC | $767,459.59 | 4.2% | 2 |
+| TITAN-KELLY LLC | $600,270.02 | 3.3% | 1 |
+| CITY OF ST HELENS | $500,000.00 | 2.7% | 1 |
+| ELYON ENTERPRISE STRATEGIES INC | $336,150.00 | 1.8% | 1 |
+| EECS LLC | $313,992.13 | 1.7% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $313,646.43 | 1.7% | 43 |
+| PORTLAND STATE UNIVERSITY | $217,699.68 | 1.2% | 2 |
+| BRUCE THOMPSON PERSONAL REPRESENTATIVE | $216,614.40 | 1.2% | 1 |
+| BRUCE THOMPSON AAL | $208,862.02 | 1.1% | 1 |
+| AMER-X INC ROOFING | $200,850.00 | 1.1% | 1 |
+| CITY OF REDMOND | $160,397.20 | 0.9% | 1 |
+| ICF JONES & STOKES INC | $139,215.84 | 0.8% | 1 |
+| TVW INC | $138,883.35 | 0.8% | 2 |
+| IDENTITY THEFT GUARD SOLUTIONS LLC | $130,169.81 | 0.7% | 1 |
+| UNIVERSITY OF OREGON | $117,485.30 | 0.6% | 6 |
+| BBD PROPERTIES LLC | $110,674.99 | 0.6% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 759 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 759 vendor-level transaction records covering 384 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

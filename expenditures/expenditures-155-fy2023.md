@@ -102,9 +102,36 @@ The 12 largest of 49 expenditure classes used by this agency in FY2023.
 | 5250 | Technical Equipment>=$5K | $47,162.00 | 1.9% |
 | 4159 | Out-Of-State Air Transportation | $46,806.86 | 1.9% |
 
+## Largest vendors
+
+The 20 largest of 253 payees this agency recorded payments to in FY2023, accounting for 85.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $679,023.11 | 27.2% | 6 |
+| INTERNATIONAL ROLL-CALL | $259,910.00 | 10.4% | 2 |
+| NATIONAL CONFERENCE OF STATE LEGISLATURES | $245,853.00 | 9.8% | 6 |
+| CDW GOVERNMENT INC | $179,461.94 | 7.2% | 5 |
+| MOREL INK HOLDINGS | $124,585.12 | 5.0% | 3 |
+| OREGON CORRECTIONS ENTERPRISES | $113,611.35 | 4.5% | 3 |
+| STATE OF OREGON SECRETARY OF STATE | $82,484.00 | 3.3% | 2 |
+| EMPLOYMENT DEPARTMENT | $79,204.83 | 3.2% | 1 |
+| VB CONSULTING INC | $53,671.48 | 2.1% | 2 |
+| OGLETREE DEAKINS NASH SMOAK & STEWART PC | $51,106.00 | 2.0% | 1 |
+| OFFICE DEPOT BUSINESS SOLUTIONS LLC | $44,360.93 | 1.8% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $42,230.06 | 1.7% | 12 |
+| LEGISLATIVE ADMIN COMMITTEE | $32,592.25 | 1.3% | 7 |
+| AUTOMATED SIGNATURE TECHNOLOGY INC | $27,772.00 | 1.1% | 2 |
+| LUCKY DUCK PRINT & PROMOTION | $25,609.00 | 1.0% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $24,755.57 | 1.0% | 5 |
+| EAGLE MAILING SERVICE | $20,756.51 | 0.8% | 2 |
+| GATEWAY COMMUNICATIONS | $17,568.08 | 0.7% | 2 |
+| THE SPELMAN & JOHNSON GROUP INC | $17,138.58 | 0.7% | 1 |
+| CEDAR MILL CONSTRUCTION COMPANY LLC | $13,980.00 | 0.6% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 616 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 616 vendor-level transaction records covering 253 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

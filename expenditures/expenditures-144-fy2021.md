@@ -85,9 +85,32 @@ The 11 largest of 11 expenditure classes used by this agency in FY2021.
 | 4701 | Other Services | $15.00 | 0.0% |
 | 4315 | Telecom/Teleconference Usage | $6.90 | 0.0% |
 
+## Largest vendors
+
+The 16 largest of 16 payees this agency recorded payments to in FY2021, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $24,796.07 | 36.2% | 1 |
+| SAS INSTITUTE INC | $16,772.50 | 24.5% | 1 |
+| CCH INCORPORATED | $9,392.70 | 13.7% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $5,411.82 | 7.9% | 5 |
+| PACIFIC OFFICE AUTOMATION INC | $2,831.46 | 4.1% | 2 |
+| GAMS DEVELOPMENT CORPORATION | $2,560.00 | 3.7% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $2,127.00 | 3.1% | 1 |
+| IMPLAN GROUP LLC | $1,500.00 | 2.2% | 1 |
+| SHI INTERNATIONAL CORP | $976.20 | 1.4% | 1 |
+| CDW GOVERNMENT INC | $702.74 | 1.0% | 1 |
+| SIERRA SPRINGS | $449.01 | 0.7% | 1 |
+| LEGISLATIVE ADMIN COMMITTEE | $420.04 | 0.6% | 2 |
+| MICROSOFT CORPORATION | $351.98 | 0.5% | 1 |
+| UNIVERSITY OF ILLINOIS | $140.00 | 0.2% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $84.50 | 0.1% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $15.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 23 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 23 vendor-level transaction records covering 16 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

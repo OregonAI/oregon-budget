@@ -87,9 +87,35 @@ The 12 largest of 19 expenditure classes used by this agency in FY2025.
 | 4704 | Other Supplies | $834.80 | 0.5% |
 | 4106 | Instate Lodging | $653.73 | 0.4% |
 
+## Largest vendors
+
+The 19 largest of 19 payees this agency recorded payments to in FY2025, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| REGIONAL ECONOMIC MODELS INC | $90,500.00 | 56.8% | 1 |
+| CDW GOVERNMENT INC | $25,347.76 | 15.9% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $22,399.95 | 14.1% | 2 |
+| CCH INCORPORATED | $4,733.40 | 3.0% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $2,949.52 | 1.9% | 2 |
+| GAMS DEVELOPMENT CORPORATION | $2,800.00 | 1.8% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $2,748.42 | 1.7% | 4 |
+| IMPLAN GROUP LLC | $2,420.00 | 1.5% | 1 |
+| DAE BAEK | $1,855.00 | 1.2% | 4 |
+| BEAU OLEN | $1,199.37 | 0.8% | 3 |
+| SHI INTERNATIONAL CORP | $956.08 | 0.6% | 1 |
+| SIERRA SPRINGS | $834.80 | 0.5% | 1 |
+| BUSINESS JOURNAL OF PORTLAND | $170.00 | 0.1% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $122.50 | 0.1% | 1 |
+| STAPLES ADVANTAGE | $88.29 | 0.1% | 1 |
+| LEGISLATIVE ADMIN COMMITTEE | $72.68 | 0.0% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $38.99 | 0.0% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $30.00 | 0.0% | 1 |
+| OFFICE DEPOT BUSINESS SOLUTIONS LLC | $3.85 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 31 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 31 vendor-level transaction records covering 19 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

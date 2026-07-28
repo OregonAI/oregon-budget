@@ -99,9 +99,36 @@ The 12 largest of 45 expenditure classes used by this agency in FY2025.
 | 4550 | Attorney General Legal Fees | $77,381.00 | 0.1% |
 | 4704 | Other Supplies | $60,798.20 | 0.1% |
 
+## Largest vendors
+
+The 20 largest of 258 payees this agency recorded payments to in FY2025, accounting for 53.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| KLAMATH RIVER RENEWAL CORPORATION | $14,879,470.00 | 17.4% | 1 |
+| OREGON WATERSHED ENHANCEMENT BOARD | $3,250,000.00 | 3.8% | 1 |
+| DEPARTMENT OF FISH & WILDLIFE | $3,112,075.32 | 3.6% | 1 |
+| COOS WATERSHED ASSOCIATION | $2,902,247.80 | 3.4% | 1 |
+| EUGENE WATER & ELECTRIC BOARD | $2,638,527.02 | 3.1% | 1 |
+| OREGON DESERT LAND TRUST | $2,467,761.04 | 2.9% | 1 |
+| LAKE COUNTY UMBRELLA WATERSHED COUNCIL | $2,435,240.81 | 2.8% | 1 |
+| WHEELER SWCD | $2,253,422.77 | 2.6% | 1 |
+| COQUILLE WATERSHED ASSOCIATION | $1,940,565.00 | 2.3% | 1 |
+| MIDCOAST WATERSHEDS COUNCIL | $1,098,788.10 | 1.3% | 1 |
+| HIGH DESERT PARTNERSHIP | $998,743.19 | 1.2% | 1 |
+| MALHEUR WATERSHED COUNCIL | $912,951.57 | 1.1% | 1 |
+| LOMAKATSI RESTORATION PROJECT | $895,735.85 | 1.0% | 1 |
+| TROUT UNLIMITED INC | $858,842.49 | 1.0% | 1 |
+| SIUSLAW SOIL & WATER CONSERVATION DIST | $843,289.61 | 1.0% | 1 |
+| ROGUE RIVER WATERSHED COUNCIL | $835,372.36 | 1.0% | 1 |
+| GILLIAM SOIL & WATER CONSERVATION DISTRICT | $814,417.08 | 1.0% | 1 |
+| CLACKAMAS RIVER BASIN COUNCIL | $805,597.04 | 0.9% | 1 |
+| COLUMBIA RIVER ESTUARY STUDY TASK FORCE | $766,686.62 | 0.9% | 1 |
+| OREGON WILDLIFE HERITAGE FOUNDATION | $758,100.18 | 0.9% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 341 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 341 vendor-level transaction records covering 258 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

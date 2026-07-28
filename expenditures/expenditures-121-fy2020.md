@@ -96,9 +96,36 @@ The 12 largest of 60 expenditure classes used by this agency in FY2020.
 | 4550 | Attorney General Legal Fees | $29,681.48 | 1.2% |
 | 4106 | Instate Lodging | $29,464.06 | 1.2% |
 
+## Largest vendors
+
+The 20 largest of 143 payees this agency recorded payments to in FY2020, accounting for 90.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,327,961.17 | 53.6% | 14 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $208,199.09 | 8.4% | 6 |
+| NATIONAL GOVERNORS' ASSOCIATION | $106,600.00 | 4.3% | 1 |
+| LEGISLATIVE ADMIN COMMITTEE | $104,990.90 | 4.2% | 4 |
+| UNITED STATES MARSHALS SVC JPATS | $86,378.00 | 3.5% | 1 |
+| PORTLAND STATE UNIVERSITY | $55,698.63 | 2.2% | 2 |
+| PEOPLESPACE | $44,739.05 | 1.8% | 2 |
+| WESTERN GOVERNOR'S ASSOCIATION | $39,600.00 | 1.6% | 1 |
+| OREGON HEALTH AUTHORITY | $36,000.00 | 1.5% | 1 |
+| STATE SERVICES ORGANIZATION | $34,172.87 | 1.4% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $29,801.28 | 1.2% | 2 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $28,666.08 | 1.2% | 3 |
+| RICOH USA INC | $24,216.67 | 1.0% | 2 |
+| WILLAMETTE VALLEY REHAB CENTER | $23,917.23 | 1.0% | 2 |
+| IBM CORPORATION | $18,029.32 | 0.7% | 1 |
+| RACE FORWARD | $17,000.00 | 0.7% | 2 |
+| STOEL RIVES LLP | $16,327.50 | 0.7% | 1 |
+| EMPLOYMENT DEPARTMENT | $16,224.00 | 0.7% | 1 |
+| MULTNOMAH COUNTY SHERIFF | $15,961.91 | 0.6% | 5 |
+| CDW GOVERNMENT INC | $13,720.04 | 0.6% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 481 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 481 vendor-level transaction records covering 143 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

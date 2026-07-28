@@ -95,9 +95,36 @@ The 12 largest of 33 expenditure classes used by this agency in FY2021.
 | 4513 | Professional Services Application New | $24,746.16 | 1.2% |
 | 4517 | Professional Services It Security | $11,186.92 | 0.5% |
 
+## Largest vendors
+
+The 20 largest of 70 payees this agency recorded payments to in FY2021, accounting for 97.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $448,941.10 | 21.0% | 1 |
+| RELIANT BEHAVIORAL HEALTH LLC | $411,742.00 | 19.2% | 1 |
+| URBAN OFFICE & PARKING FACILITIES | $327,491.92 | 15.3% | 1 |
+| FOUNDATION FOR MEDICAL EXCELLENCE | $250,000.00 | 11.7% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $147,622.78 | 6.9% | 9 |
+| SHI INTERNATIONAL CORP | $108,526.56 | 5.1% | 2 |
+| DEPT OF STATE POLICE | $80,842.75 | 3.8% | 1 |
+| EMPLOYMENT DEPARTMENT | $49,446.25 | 2.3% | 2 |
+| GALLANT POLICY ADVISORS INC | $42,000.00 | 2.0% | 1 |
+| OREGON STATE TREASURY | $34,827.15 | 1.6% | 2 |
+| NAEGELI REPORTING CORPORATION | $29,238.20 | 1.4% | 1 |
+| LYNX GROUP INC | $27,965.72 | 1.3% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $26,862.76 | 1.3% | 1 |
+| SJOBERG EVASHENK CONSULTING INC | $24,656.11 | 1.2% | 1 |
+| IBM CORPORATION | $21,328.68 | 1.0% | 1 |
+| UNITED STATES POSTAL SERVICE | $17,000.00 | 0.8% | 1 |
+| GALT FOUNDATION | $11,383.14 | 0.5% | 1 |
+| BPM LLP | $9,600.00 | 0.4% | 1 |
+| BAE SYSTEMS APPLIED INTELLIGENCE US CORP | $8,815.25 | 0.4% | 2 |
+| RICOH USA INC | $6,265.58 | 0.3% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 92 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 92 vendor-level transaction records covering 70 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

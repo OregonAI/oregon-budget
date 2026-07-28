@@ -108,9 +108,36 @@ The 12 largest of 78 expenditure classes used by this agency in FY2022.
 | 7007 | Lease Pmt For Buildings | $368,767.00 | 2.1% |
 | 4515 | Professional Services Application Maint | $334,744.12 | 1.9% |
 
+## Largest vendors
+
+The 20 largest of 266 payees this agency recorded payments to in FY2022, accounting for 76.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| PFM ASSET MANAGEMENT LLC | $1,617,849.39 | 9.1% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,322,723.32 | 7.4% | 10 |
+| US BANK NATIONAL ASSOCIATION | $1,240,699.68 | 6.9% | 3 |
+| EROI INC | $995,717.38 | 5.6% | 1 |
+| SHI INTERNATIONAL CORP | $962,955.84 | 5.4% | 10 |
+| HMI-OREGON DEALERSHIP | $822,209.90 | 4.6% | 3 |
+| PJS LAND DEVELOPMENT LLC | $778,699.00 | 4.4% | 2 |
+| PACIFIC REALTY ASSOCIATES LP | $770,874.79 | 4.3% | 4 |
+| STATE OF OREGON SECRETARY OF STATE | $716,184.00 | 4.0% | 1 |
+| CDW GOVERNMENT INC | $618,351.83 | 3.5% | 16 |
+| DELOITTE COUNSULTING LLP | $549,993.27 | 3.1% | 2 |
+| RONALD PAUL WEBER ESTATE | $482,258.53 | 2.7% | 1 |
+| KELMAR ASSOCIATES LLC | $428,360.61 | 2.4% | 2 |
+| KROLL GOVERNMENT SOLUTIONS | $419,059.53 | 2.3% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $387,201.49 | 2.2% | 5 |
+| TEKSYSTEMS GLOBAL SERVICES LLC | $324,980.50 | 1.8% | 1 |
+| MANAGEMENT CONTROL SYSTEMS LIMITED | $312,744.12 | 1.8% | 1 |
+| SELLWOOD CONSULTING LLC | $289,776.50 | 1.6% | 1 |
+| KEY BANK | $288,689.87 | 1.6% | 1 |
+| KLOSH GROUP INC | $255,118.78 | 1.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 441 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 441 vendor-level transaction records covering 266 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

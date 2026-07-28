@@ -121,9 +121,36 @@ The 12 largest of 88 expenditure classes used by this agency in FY2019.
 | 6456 | Distribution To Oregon Inst Of Tech | $3,924,514.52 | 1.6% |
 | 6451 | Distribution To Oregon State University | $2,481,626.00 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 1,051 payees this agency recorded payments to in FY2019, accounting for 41.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| UNION BANK TRUST DEPARTMENT - FEES | $22,418,567.37 | 8.9% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $21,262,224.06 | 8.4% | 16 |
+| CITY OF ALBANY | $8,400,000.00 | 3.3% | 1 |
+| CITY OF LEBANON | $6,627,368.00 | 2.6% | 3 |
+| THE BANK OF NEW YORK MELLON TRUST COMPANY NA | $4,243,797.22 | 1.7% | 2 |
+| PORT OF MORROW | $4,143,608.00 | 1.6% | 1 |
+| OREGON INSTITUTE OF TECHNOLOGY/OREGON TECH | $3,474,724.52 | 1.4% | 2 |
+| COLUMBIA CO SCH DIST 13 | $3,016,558.00 | 1.2% | 1 |
+| HORIZON SCRIPTED TELEVISION INC | $2,868,273.01 | 1.1% | 1 |
+| GRANTS PASS SCH DIST 7 | $2,782,640.00 | 1.1% | 1 |
+| CITY OF PENDLETON | $2,763,954.70 | 1.1% | 2 |
+| MARION CO SCH DIST 103 | $2,663,032.00 | 1.1% | 1 |
+| LINCOLN COUNTY SCHOOL DISTRICT | $2,620,303.00 | 1.0% | 1 |
+| CLACKAMAS CO SCH DIST 12 | $2,559,838.00 | 1.0% | 1 |
+| OREGON STATE UNIVERSITY | $2,485,626.00 | 1.0% | 2 |
+| BAKER CO SCH DIST 5J | $2,455,661.00 | 1.0% | 1 |
+| JACKSON CO SCH DIST 549C | $2,454,326.00 | 1.0% | 1 |
+| DOUGLAS CO SCH DIST 32 | $2,364,658.00 | 0.9% | 1 |
+| CITY OF ASHLAND | $2,256,310.00 | 0.9% | 1 |
+| DOUGLAS CO SCH DIST 105 | $2,217,350.00 | 0.9% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,367 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,367 vendor-level transaction records covering 1,051 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -103,9 +103,36 @@ The 12 largest of 43 expenditure classes used by this agency in FY2022.
 | 4701 | Other Services | $153,962.00 | 2.7% |
 | 4976 | Agency Program Related Supplies | $133,075.42 | 2.4% |
 
+## Largest vendors
+
+The 20 largest of 315 payees this agency recorded payments to in FY2022, accounting for 58.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,090,083.87 | 19.4% | 10 |
+| CENGAGE LEARNING | $422,934.39 | 7.5% | 2 |
+| EBSCO INFORMATION SERVICE | $256,443.28 | 4.6% | 2 |
+| OREGON LIBRARY ASSOCIATION | $172,834.16 | 3.1% | 3 |
+| UNIVERSITY OF OREGON | $130,510.89 | 2.3% | 1 |
+| MULTNOMAH COUNTY LIBRARY | $115,010.09 | 2.0% | 1 |
+| ESTACADA PUBLIC LIBRARY | $106,369.83 | 1.9% | 1 |
+| JEFFERSON COUNTY LIBRARY DISTRICT | $102,496.39 | 1.8% | 1 |
+| BAKER COUNTY LIBRARY DISTRICT | $102,155.69 | 1.8% | 1 |
+| ORBIS CASCADE ALLIANCE | $100,667.08 | 1.8% | 2 |
+| TEKSYSTEMS GLOBAL SERVICES LLC | $100,447.50 | 1.8% | 1 |
+| ONLINE COMPUTER LIBRARY CENTER INC | $82,849.20 | 1.5% | 4 |
+| CITY OF WOODBURN | $76,724.80 | 1.4% | 1 |
+| LIBRARIES OF EASTERN OREGON | $70,063.05 | 1.2% | 1 |
+| SAFARI BOOKS ONLINE LLC | $66,836.70 | 1.2% | 1 |
+| OREGON HISTORICAL SOCIETY | $66,667.00 | 1.2% | 1 |
+| COUNTY OF MULTNOMAH | $64,720.30 | 1.2% | 1 |
+| FRIENDS OF COTTAGE GROVE PUBLIC LIBRARY | $64,094.46 | 1.1% | 1 |
+| CHEMEKETA COMMUNITY COLLEGE | $60,729.52 | 1.1% | 2 |
+| WILLAMETTE UNIVERSITY | $57,304.45 | 1.0% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 367 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 367 vendor-level transaction records covering 315 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

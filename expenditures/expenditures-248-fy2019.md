@@ -138,9 +138,36 @@ The 12 largest of 136 expenditure classes used by this agency in FY2019.
 | 6700 | Distribution To Other Governments | $1,397,615.77 | 1.3% |
 | 4500 | Professional Services Non-It | $1,171,480.35 | 1.1% |
 
+## Largest vendors
+
+The 20 largest of 1,361 payees this agency recorded payments to in FY2019, accounting for 59.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $8,441,798.92 | 7.9% | 24 |
+| METALS TREATMENT TECHNOLOGIES LLC | $8,295,465.23 | 7.8% | 1 |
+| CITY OF PORTLAND | $7,145,499.63 | 6.7% | 6 |
+| FORTIS CONSTRUCTION INC | $6,391,173.76 | 6.0% | 3 |
+| UNITED TELEPHONE COMPANY OF THE NORTHWEST | $5,679,714.43 | 5.3% | 9 |
+| WASHINGTON CO CONSOLIDATED COMMUNICATIONS AGCY | $3,087,813.93 | 2.9% | 1 |
+| CITY OF SALEM | $2,836,053.05 | 2.7% | 6 |
+| QWEST COMMUNICATIONS CORPORATION | $2,532,823.92 | 2.4% | 2 |
+| KIRBY NAGELHOUT CONSTRUCTION CO | $2,285,766.30 | 2.1% | 2 |
+| COUNTY OF CLACKAMAS | $2,066,358.75 | 1.9% | 4 |
+| ABACUS RESOURCE MANAGEMENT CO | $1,926,576.00 | 1.8% | 1 |
+| CITY OF EUGENE | $1,922,094.08 | 1.8% | 3 |
+| PACIFIC POWER | $1,732,246.65 | 1.6% | 2 |
+| IBM CORPORATION | $1,676,996.81 | 1.6% | 6 |
+| RAMS SPECIALIZED SECURITY SERVICE INC | $1,411,355.31 | 1.3% | 1 |
+| COUNTY OF TILLAMOOK | $1,220,301.98 | 1.1% | 1 |
+| EMERGENCY COMMUNICATIONS OF SOUTHERN OREGON | $1,205,377.19 | 1.1% | 2 |
+| FRONTIER REGIONAL 911 AGENCY | $1,140,890.86 | 1.1% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $1,115,198.48 | 1.0% | 50 |
+| TORNADO SOFT EXCAVATION LLC | $1,062,962.64 | 1.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 2,346 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,346 vendor-level transaction records covering 1,361 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

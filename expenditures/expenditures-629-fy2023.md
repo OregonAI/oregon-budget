@@ -134,9 +134,36 @@ The 12 largest of 133 expenditure classes used by this agency in FY2023.
 | 4976 | Agency Program Related Supplies | $3,147,212.60 | 1.8% |
 | 5945 | Tunnels And Bridges>=$5K | $1,824,589.26 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 2,131 payees this agency recorded payments to in FY2023, accounting for 56.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| USDA FOREST SERVICE | $29,319,352.74 | 16.7% | 7 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $19,279,314.14 | 11.0% | 22 |
+| AERO AIR LLC | $5,350,431.87 | 3.0% | 1 |
+| HIGH DESERT PARTNERSHIP | $4,734,292.08 | 2.7% | 1 |
+| AMERITITLE | $4,600,000.00 | 2.6% | 1 |
+| DOUGLAS FOREST PROTECTIVE ASSN | $4,370,480.98 | 2.5% | 11 |
+| COOS FOREST PROTECTIVE ASSOCIATION | $4,297,578.59 | 2.4% | 15 |
+| AEROFUND FINANCIAL | $3,906,595.00 | 2.2% | 2 |
+| LOMAKATSI RESTORATION PROJECT | $2,639,251.33 | 1.5% | 1 |
+| TURNSTONE ENVIRONMENTAL CONSULTANTS INC | $2,477,294.22 | 1.4% | 1 |
+| FRANCO REFORESTATION INC | $2,147,993.00 | 1.2% | 2 |
+| LANDMARK FORD INC | $1,948,790.44 | 1.1% | 2 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $1,909,986.85 | 1.1% | 2 |
+| COLUMBIA BASIN HELICOPTERS INC | $1,894,243.40 | 1.1% | 2 |
+| GRAYBACK FORESTRY CONTRACTING INC | $1,855,158.00 | 1.1% | 2 |
+| GRANT SWCD | $1,642,646.61 | 0.9% | 2 |
+| TORRES CONTRACTING INC | $1,625,645.00 | 0.9% | 1 |
+| PACIFIC COAST CONTRACTING INC | $1,615,047.50 | 0.9% | 2 |
+| HENDERSON LOGGING INC | $1,540,241.00 | 0.9% | 2 |
+| DUST BUSTERS PLUS LLC | $1,377,578.45 | 0.8% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 3,768 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 3,768 vendor-level transaction records covering 2,131 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -100,9 +100,36 @@ The 12 largest of 44 expenditure classes used by this agency in FY2022.
 | 4519 | Professional Serv/Managed Serv Provider | $99,195.58 | 2.3% |
 | 4365 | Computer Technology Pc Equipment<$5K | $97,922.29 | 2.3% |
 
+## Largest vendors
+
+The 20 largest of 244 payees this agency recorded payments to in FY2022, accounting for 76.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $630,182.93 | 14.7% | 11 |
+| ALLIANCE ENTERPRISES INC | $454,547.00 | 10.6% | 1 |
+| BOUNDLESS ASSISTIVE TECHNOLOGY LLC | $436,081.67 | 10.2% | 4 |
+| LIBERUM, LLC | $258,681.25 | 6.0% | 1 |
+| PORTLAND PUBLIC SCHOOLS | $215,772.72 | 5.0% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $203,221.01 | 4.7% | 3 |
+| DEPARTMENT OF JUSTICE | $180,206.60 | 4.2% | 1 |
+| CDW GOVERNMENT INC | $98,835.69 | 2.3% | 3 |
+| SMITTYS VENDING INC | $96,982.01 | 2.3% | 2 |
+| GALT FOUNDATION | $96,450.58 | 2.3% | 2 |
+| DD & MH PROVIDER OF OREGON LLC | $91,391.90 | 2.1% | 1 |
+| COMPASS GROUP USA INC | $73,429.59 | 1.7% | 2 |
+| NORTHWEST REGIONAL EDUCATION SERVICE DISTRICT | $73,139.70 | 1.7% | 1 |
+| CASCADE COMPUTER MAINTENANCE INC | $66,850.00 | 1.6% | 3 |
+| DEPAUL INDUSTRIES | $55,390.65 | 1.3% | 1 |
+| SHI INTERNATIONAL CORP | $52,737.34 | 1.2% | 1 |
+| DUNGARVIN OREGON LLC | $47,445.00 | 1.1% | 1 |
+| AT&T MOBILITY | $46,392.30 | 1.1% | 3 |
+| LIBERA INC | $45,195.58 | 1.1% | 1 |
+| BRITTENY ASHER CONSULTING | $43,162.50 | 1.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 345 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 345 vendor-level transaction records covering 244 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

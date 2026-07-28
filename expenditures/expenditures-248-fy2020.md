@@ -141,9 +141,36 @@ The 12 largest of 141 expenditure classes used by this agency in FY2020.
 | 6725 | Distribution To Non-Governments | $4,906,641.36 | 3.2% |
 | 7100 | Principal-Bonds | $3,460,175.00 | 2.2% |
 
+## Largest vendors
+
+The 20 largest of 1,331 payees this agency recorded payments to in FY2020, accounting for 66.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| FORTIS CONSTRUCTION INC | $18,408,312.92 | 11.8% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $16,654,580.68 | 10.7% | 31 |
+| UNITED TELEPHONE COMPANY OF THE NORTHWEST | $10,455,051.20 | 6.7% | 10 |
+| KIRBY NAGELHOUT CONSTRUCTION CO | $8,466,198.16 | 5.4% | 4 |
+| CITY OF PORTLAND | $8,079,029.60 | 5.2% | 5 |
+| DOUGLAS ELECTRIC COOPERATIVE | $6,976,590.45 | 4.5% | 1 |
+| METALS TREATMENT TECHNOLOGIES LLC | $5,240,961.76 | 3.4% | 1 |
+| EMERALD PUD | $3,495,772.64 | 2.2% | 1 |
+| US DEPT OF HOMELAND SECURITY | $3,095,758.70 | 2.0% | 1 |
+| WASHINGTON CO CONSOLIDATED COMMUNICATIONS AGCY | $3,061,662.95 | 2.0% | 1 |
+| GRAINGER | $2,487,329.43 | 1.6% | 8 |
+| CITY OF SALEM | $2,403,167.58 | 1.5% | 5 |
+| QWEST | $2,290,836.98 | 1.5% | 12 |
+| CITY OF EUGENE | $2,082,462.66 | 1.3% | 2 |
+| COUNTY OF CLACKAMAS | $2,068,822.30 | 1.3% | 3 |
+| RAMS SPECIALIZED SECURITY SERVICE INC | $1,932,081.01 | 1.2% | 1 |
+| CITY OF OAKLAND | $1,750,588.66 | 1.1% | 1 |
+| COUNTY OF LANE | $1,474,841.88 | 0.9% | 1 |
+| QWEST COMMUNICATIONS CORPORATION | $1,425,049.47 | 0.9% | 1 |
+| PACIFIC POWER | $1,422,959.65 | 0.9% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 2,210 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,210 vendor-level transaction records covering 1,331 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

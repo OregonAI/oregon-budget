@@ -75,9 +75,23 @@ The 5 largest of 5 expenditure classes used by this agency in FY2022.
 | 4106 | Instate Lodging | $374.78 | 3.8% |
 | 4366 | Computer Technology Pc Software<$5K | $136.96 | 1.4% |
 
+## Largest vendors
+
+The 7 largest of 7 payees this agency recorded payments to in FY2022, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $6,792.79 | 69.7% | 1 |
+| PATRICK A FLANAGAN | $1,754.30 | 18.0% | 3 |
+| STATE OF OREGON SECRETARY OF STATE | $944.26 | 9.7% | 1 |
+| LEGISLATIVE ADMIN COMMITTEE | $136.96 | 1.4% | 1 |
+| ADRIENNE FISCHER | $75.00 | 0.8% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $20.50 | 0.2% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $15.00 | 0.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 9 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 9 vendor-level transaction records covering 7 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

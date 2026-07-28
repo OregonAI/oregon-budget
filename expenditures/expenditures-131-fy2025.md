@@ -96,9 +96,36 @@ The 12 largest of 29 expenditure classes used by this agency in FY2025.
 | 4109 | Instate Mileage Reimbursement-Full Rate | $1,655.08 | 1.1% |
 | 4111 | Instate Mileage Reimbursmnt-Volunteers | $1,633.19 | 1.1% |
 
+## Largest vendors
+
+The 20 largest of 31 payees this agency recorded payments to in FY2025, accounting for 98.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $66,956.84 | 46.3% | 7 |
+| EMPLOYMENT DEPARTMENT | $21,112.00 | 14.6% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $20,405.00 | 14.1% | 1 |
+| OREGON HEALTH AUTHORITY | $7,144.32 | 4.9% | 5 |
+| GALT FOUNDATION | $4,355.73 | 3.0% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $3,337.13 | 2.3% | 2 |
+| SHI INTERNATIONAL CORP | $3,074.92 | 2.1% | 1 |
+| OREGON CERTIFIED INTERPRETERS NETWORK INC | $3,005.79 | 2.1% | 1 |
+| PORTLAND STATE UNIVERSITY | $2,516.40 | 1.7% | 1 |
+| SABA SALEEM | $2,041.80 | 1.4% | 5 |
+| CDW GOVERNMENT INC | $1,716.51 | 1.2% | 2 |
+| LEGISLATIVE COUNSEL COMMITTEE | $1,440.00 | 1.0% | 1 |
+| MICHAEL VERNON TOM | $1,295.00 | 0.9% | 1 |
+| MICKIE DERTING | $992.89 | 0.7% | 3 |
+| US BANK NATIONAL ASSOCIATION | $761.08 | 0.5% | 1 |
+| JOANNE MINA | $688.05 | 0.5% | 3 |
+| KAJ JENSEN | $539.67 | 0.4% | 5 |
+| SECRETARY OF STATE | $531.39 | 0.4% | 1 |
+| KYL MYERS | $516.33 | 0.4% | 3 |
+| HUEHCA OMEYOCAN LLC | $500.00 | 0.3% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 63 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 63 vendor-level transaction records covering 31 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

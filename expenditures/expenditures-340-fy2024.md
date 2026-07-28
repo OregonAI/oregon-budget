@@ -112,9 +112,36 @@ The 12 largest of 102 expenditure classes used by this agency in FY2024.
 | 4550 | Attorney General Legal Fees | $2,216,194.94 | 1.7% |
 | 5305 | Information Tech Software Services>=$5K | $1,618,730.48 | 1.2% |
 
+## Largest vendors
+
+The 20 largest of 943 payees this agency recorded payments to in FY2024, accounting for 72.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CITY OF BEND | $18,184,595.00 | 13.8% | 2 |
+| CITY OF KLAMATH FALLS | $10,285,810.00 | 7.8% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $10,110,160.12 | 7.7% | 17 |
+| CITY OF LAPINE | $9,414,403.00 | 7.2% | 1 |
+| SALISHAN SANITARY DISTRICT | $4,901,451.00 | 3.7% | 2 |
+| CITY OF COOS BAY | $4,469,229.00 | 3.4% | 1 |
+| CITY OF LEBANON | $3,981,544.00 | 3.0% | 1 |
+| OREGON STATE TREASURY | $3,580,912.30 | 2.7% | 7 |
+| CITY OF DAYTON | $3,131,336.00 | 2.4% | 2 |
+| CITY OF SANDY | $2,993,563.00 | 2.3% | 1 |
+| AMERICAN ASSETS TRUST LP | $2,980,679.00 | 2.3% | 7 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $2,849,580.43 | 2.2% | 46 |
+| CITY OF ASHLAND | $2,777,030.00 | 2.1% | 1 |
+| APEX COMPANIES LLC | $2,774,448.45 | 2.1% | 1 |
+| ASM LLC | $2,459,072.08 | 1.9% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $2,216,194.94 | 1.7% | 1 |
+| CITY OF JOSEPH | $2,204,525.00 | 1.7% | 1 |
+| TITAN FREIGHT SYSTEMS INC | $1,979,663.00 | 1.5% | 1 |
+| ENFOTECH & CONSULTING | $1,766,339.48 | 1.3% | 2 |
+| GSI WATER SOLUTIONS INC | $1,599,746.94 | 1.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 2,328 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,328 vendor-level transaction records covering 943 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

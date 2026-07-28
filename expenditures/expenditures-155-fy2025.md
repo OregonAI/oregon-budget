@@ -96,9 +96,36 @@ The 12 largest of 53 expenditure classes used by this agency in FY2025.
 | 4411 | Prof Dev Out-Of-State Tuition/Regist | $28,783.85 | 1.0% |
 | 4440 | Prof Dev Out-Of-State Air Transportation | $22,395.25 | 0.8% |
 
+## Largest vendors
+
+The 20 largest of 233 payees this agency recorded payments to in FY2025, accounting for 86.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,142,221.15 | 41.6% | 4 |
+| CDW GOVERNMENT INC | $184,441.14 | 6.7% | 6 |
+| GALLUP INC | $147,796.00 | 5.4% | 1 |
+| MOREL INK HOLDINGS | $132,047.86 | 4.8% | 3 |
+| STATE OF OREGON SECRETARY OF STATE | $96,868.00 | 3.5% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $93,040.36 | 3.4% | 3 |
+| KAP FRANKED | $79,084.75 | 2.9% | 3 |
+| EMPLOYMENT DEPARTMENT | $72,619.98 | 2.6% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $57,175.07 | 2.1% | 6 |
+| VB CONSULTING INC | $50,064.58 | 1.8% | 3 |
+| DAVID L KRAMER | $45,751.25 | 1.7% | 1 |
+| CURTIS RESTAURANT EQUIPMENT | $44,164.80 | 1.6% | 2 |
+| SL LITHOGRAPH LLC | $41,096.47 | 1.5% | 3 |
+| LEGISLATIVE ADMIN COMMITTEE | $35,277.70 | 1.3% | 7 |
+| JACKSON LEWIS PC | $33,496.25 | 1.2% | 1 |
+| EAGLE MAILING SERVICE | $32,393.25 | 1.2% | 3 |
+| INTISAR STRATEGIES | $30,730.53 | 1.1% | 4 |
+| JAMI CATE | $23,512.78 | 0.9% | 7 |
+| OGLETREE DEAKINS NASH SMOAK & STEWART PC | $23,050.27 | 0.8% | 1 |
+| INTERNATIONAL ROLL-CALL | $19,425.00 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 538 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 538 vendor-level transaction records covering 233 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

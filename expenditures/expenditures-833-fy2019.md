@@ -97,9 +97,36 @@ The 12 largest of 56 expenditure classes used by this agency in FY2019.
 | 4107 | Instate Air Transportation | $21,166.79 | 2.1% |
 | 4106 | Instate Lodging | $19,567.09 | 2.0% |
 
+## Largest vendors
+
+The 20 largest of 210 payees this agency recorded payments to in FY2019, accounting for 74.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $240,944.30 | 24.0% | 52 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $152,845.76 | 15.2% | 6 |
+| US BANK NATIONAL ASSOCIATION ND | $75,152.25 | 7.5% | 63 |
+| DEPT OF STATE POLICE | $40,656.50 | 4.1% | 5 |
+| CROWN MEMORIAL CENTER | $30,539.00 | 3.0% | 1 |
+| EMPLOYMENT DEPARTMENT | $28,749.05 | 2.9% | 11 |
+| US BANK NATIONAL ASSOCIATION | $27,143.09 | 2.7% | 13 |
+| CONFUZER INC | $23,532.00 | 2.3% | 6 |
+| OREGON STATE POLICE | $16,969.75 | 1.7% | 4 |
+| DEPARTMENT OF JUSTICE | $15,705.60 | 1.6% | 3 |
+| ANDREASONS CREMATION AND BURIAL SERVICES | $12,539.00 | 1.3% | 1 |
+| PAMELA J STROEBEL POWERS | $12,213.22 | 1.2% | 6 |
+| DEPARTMENT OF HUMAN SERVICES | $11,416.19 | 1.1% | 6 |
+| OREGON HEALTH AUTHORITY | $9,474.42 | 0.9% | 5 |
+| AMERICAN REGISTRY OF RADIOLOGIC TECHNOLOGISTS | $9,450.00 | 0.9% | 1 |
+| CROWN MEMORIAL CENTER - EASTSIDE | $9,000.00 | 0.9% | 1 |
+| AT&T MOBILITY | $8,686.67 | 0.9% | 4 |
+| OREGON PHYSICAL THERAPIST LICENSING BOARD | $7,859.81 | 0.8% | 11 |
+| THOMAS R KING | $7,240.88 | 0.7% | 8 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $7,172.72 | 0.7% | 13 |
+
 ## Curator notes
 
-Figures are aggregated from 597 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 597 vendor-level transaction records covering 210 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -96,9 +96,36 @@ The 12 largest of 30 expenditure classes used by this agency in FY2021.
 | 4301 | Telecom/Voice Usage | $10,369.31 | 0.4% |
 | 4411 | Prof Dev Out-Of-State Tuition/Regist | $7,700.00 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 62 payees this agency recorded payments to in FY2021, accounting for 98.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON HORSEMENS BENEVOLENT & PROTECTIVE ASSN INC | $902,000.00 | 34.8% | 1 |
+| TMB RACING LLC | $363,750.00 | 14.0% | 1 |
+| OREGON THOROUGHBRED OWNERS & BREEDERS ASSN INC | $356,026.00 | 13.7% | 1 |
+| CROOKED RIVER ROUND UP | $220,814.00 | 8.5% | 1 |
+| OREGON QUARTER HORSE RACING ASSN | $219,000.00 | 8.4% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $197,518.56 | 7.6% | 7 |
+| EASTERN OREGON LIVESTOCK SHOW | $73,300.00 | 2.8% | 1 |
+| TILLAMOOK COUNTY FAIR AND CONVENTION CENTER | $54,000.00 | 2.1% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $45,266.14 | 1.7% | 1 |
+| LEGISLATIVE COUNSEL COMMITTEE | $26,466.20 | 1.0% | 2 |
+| EMPLOYMENT DEPARTMENT | $22,880.37 | 0.9% | 2 |
+| TRUESDAIL LABORATORIES INC | $21,982.00 | 0.8% | 1 |
+| OFFICE DEPOT INC | $11,295.52 | 0.4% | 1 |
+| HARNEY COUNTY FAIR | $9,000.00 | 0.3% | 1 |
+| ASSOCIATION OF RACING COMMISSIONERS INTERNATIONAL | $7,700.00 | 0.3% | 1 |
+| VERIZON WIRELESS | $7,133.10 | 0.3% | 1 |
+| OREGON SECRETARY OF STATE | $5,979.36 | 0.2% | 1 |
+| DEPT OF STATE POLICE | $5,256.50 | 0.2% | 1 |
+| UNIVERSITY OF CALIFORNIA REGENTS | $5,000.00 | 0.2% | 1 |
+| MORGAN LODGING LLC | $4,880.79 | 0.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 89 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 89 vendor-level transaction records covering 62 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

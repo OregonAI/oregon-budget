@@ -88,9 +88,36 @@ The 12 largest of 33 expenditure classes used by this agency in FY2025.
 | 4109 | Instate Mileage Reimbursement-Full Rate | $1,969.10 | 0.9% |
 | 4200 | Office Supplies | $1,844.16 | 0.8% |
 
+## Largest vendors
+
+The 20 largest of 32 payees this agency recorded payments to in FY2025, accounting for 98.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $76,476.69 | 35.1% | 4 |
+| CDW GOVERNMENT INC | $58,987.03 | 27.1% | 3 |
+| GARTNER GROUP INC | $38,062.00 | 17.5% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $10,709.52 | 4.9% | 1 |
+| SEAN MCSPADEN | $4,856.51 | 2.2% | 9 |
+| SHI INTERNATIONAL CORP | $3,063.00 | 1.4% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $2,700.85 | 1.2% | 3 |
+| EDWARD P ARABAS | $2,597.46 | 1.2% | 7 |
+| WENDY S GIBSON | $2,443.08 | 1.1% | 5 |
+| ERGOCENTRIC INC | $2,394.24 | 1.1% | 1 |
+| KATIE BANNIKOV | $2,009.39 | 0.9% | 6 |
+| TWAIS DAVID BROADUS | $1,940.34 | 0.9% | 6 |
+| RICOH USA INC | $1,471.70 | 0.7% | 1 |
+| NATIONAL CONFERENCE OF STATE LEGISLATURES | $1,425.00 | 0.7% | 1 |
+| APRIL MCDONALD | $1,304.28 | 0.6% | 6 |
+| OFFICE DEPOT BUSINESS SOLUTIONS LLC | $1,018.39 | 0.5% | 2 |
+| JOHN TERPENING | $926.71 | 0.4% | 2 |
+| REIMERS FURNITURE MFG INC | $875.60 | 0.4% | 1 |
+| LEGISLATIVE ADMIN COMMITTEE | $834.13 | 0.4% | 1 |
+| AMANDA BEITEL | $808.36 | 0.4% | 7 |
+
 ## Curator notes
 
-Figures are aggregated from 85 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 85 vendor-level transaction records covering 32 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

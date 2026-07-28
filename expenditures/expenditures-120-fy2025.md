@@ -94,9 +94,36 @@ The 12 largest of 41 expenditure classes used by this agency in FY2025.
 | 4305 | Telecom/Network Services | $12,759.22 | 2.5% |
 | 4720 | Collection Fees - Dor | $10,192.36 | 2.0% |
 
+## Largest vendors
+
+The 20 largest of 34 payees this agency recorded payments to in FY2025, accounting for 98.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $138,519.76 | 27.0% | 11 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $127,539.30 | 24.8% | 1 |
+| PARK 5 CENTER | $69,047.92 | 13.4% | 2 |
+| DIRECT IMPACT SOLUTIONS USA INC | $42,693.75 | 8.3% | 1 |
+| US BANK NATIONAL ASSOCIATION | $24,164.07 | 4.7% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $15,918.53 | 3.1% | 1 |
+| NICUSA INC | $13,467.00 | 2.6% | 2 |
+| GALT FOUNDATION | $10,667.35 | 2.1% | 1 |
+| OREGON DEPARTMENT OF REVENUE | $10,192.36 | 2.0% | 1 |
+| QWEST | $8,342.34 | 1.6% | 1 |
+| LEGISLATIVE COUNSEL COMMITTEE | $8,077.50 | 1.6% | 1 |
+| KYNDRYL INC | $7,123.06 | 1.4% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $5,515.20 | 1.1% | 3 |
+| JGCM INC | $4,831.40 | 0.9% | 1 |
+| EMPLOYMENT DEPARTMENT | $4,121.85 | 0.8% | 1 |
+| CDW GOVERNMENT INC | $3,554.87 | 0.7% | 5 |
+| SHI INTERNATIONAL CORP | $3,485.58 | 0.7% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $3,024.00 | 0.6% | 1 |
+| SJF TRAINING LLC | $2,998.75 | 0.6% | 2 |
+| ANDREW BARLOW | $2,133.44 | 0.4% | 5 |
+
 ## Curator notes
 
-Figures are aggregated from 68 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 68 vendor-level transaction records covering 34 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

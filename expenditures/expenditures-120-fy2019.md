@@ -90,9 +90,36 @@ The 12 largest of 29 expenditure classes used by this agency in FY2019.
 | 4301 | Telecom/Voice Usage | $3,856.40 | 1.0% |
 | 4500 | Professional Services Non-It | $3,600.36 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 32 payees this agency recorded payments to in FY2019, accounting for 99.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $162,369.47 | 40.4% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $110,337.18 | 27.5% | 7 |
+| WESTPAC INVESTMENT COMPANY | $60,887.21 | 15.2% | 1 |
+| US BANK NATIONAL ASSOCIATION | $20,177.58 | 5.0% | 2 |
+| CDW GOVERNMENT INC | $12,776.51 | 3.2% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $6,423.38 | 1.6% | 1 |
+| OREGON DEPARTMENT OF REVENUE | $5,147.20 | 1.3% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $3,910.13 | 1.0% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $3,708.41 | 0.9% | 3 |
+| EMPLOYMENT DEPARTMENT | $3,436.68 | 0.9% | 1 |
+| IBM CORPORATION | $2,680.18 | 0.7% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $1,847.71 | 0.5% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $1,404.74 | 0.3% | 2 |
+| KIMBERLY FAST | $1,068.61 | 0.3% | 7 |
+| OREGON STATE TREASURY | $721.15 | 0.2% | 1 |
+| SCOTT WRIGHT | $692.80 | 0.2% | 5 |
+| CANDANCE FRONK | $601.10 | 0.1% | 2 |
+| JOHN LAUSENG | $556.51 | 0.1% | 4 |
+| ACCURATE CORPORATE SERVICES INC | $525.00 | 0.1% | 1 |
+| STUART MORRIS | $432.66 | 0.1% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 66 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 66 vendor-level transaction records covering 32 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

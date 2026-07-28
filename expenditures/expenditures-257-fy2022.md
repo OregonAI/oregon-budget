@@ -125,9 +125,36 @@ The 12 largest of 120 expenditure classes used by this agency in FY2022.
 | 4976 | Agency Program Related Supplies | $2,177,891.07 | 2.1% |
 | 4301 | Telecom/Voice Usage | $1,883,281.32 | 1.8% |
 
+## Largest vendors
+
+The 20 largest of 2,194 payees this agency recorded payments to in FY2022, accounting for 52.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $14,398,867.70 | 13.7% | 24 |
+| OREGON DEPARTMENT OF TRANSPORTATION | $4,644,420.77 | 4.4% | 4 |
+| CALIFORNIA OFFICE OF EMERGENCY SERVICES | $4,379,068.28 | 4.2% | 1 |
+| WITHNELL MOTOR COMPANY | $3,150,231.83 | 3.0% | 3 |
+| CARSON OIL COMPANY INC | $3,051,998.43 | 2.9% | 1 |
+| OSP PROPERTY (DE) LLC | $2,946,140.27 | 2.8% | 3 |
+| OREGON DEPARTMENT OF FORESTRY | $2,724,589.74 | 2.6% | 5 |
+| H NAITO CORPORATION | $2,185,710.47 | 2.1% | 2 |
+| PIERCE MANUFACTURING INC | $2,054,127.75 | 2.0% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $1,828,178.61 | 1.7% | 56 |
+| SUBURBAN CHEVROLET | $1,651,839.99 | 1.6% | 1 |
+| CDW GOVERNMENT INC | $1,533,170.71 | 1.5% | 10 |
+| CLACKAMAS FIRE DISTRICT 1 | $1,407,709.64 | 1.3% | 3 |
+| STATE OF UTAH | $1,384,693.57 | 1.3% | 1 |
+| HIGHWAY DIVISION | $1,374,058.65 | 1.3% | 1 |
+| CITY OF PORTLAND | $1,327,066.63 | 1.3% | 5 |
+| COBAN TECHNOLOGIES INC | $1,260,179.83 | 1.2% | 9 |
+| ESTACADA RURAL FIRE PROTECTION DISTRICT 69 | $1,230,297.32 | 1.2% | 3 |
+| DHS US CITIZENSHP & IMMIGRATION SERVICES | $1,125,395.20 | 1.1% | 1 |
+| TUALATIN VALLEY FIRE & RESCUE | $992,789.57 | 0.9% | 8 |
+
 ## Curator notes
 
-Figures are aggregated from 4,204 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 4,204 vendor-level transaction records covering 2,194 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

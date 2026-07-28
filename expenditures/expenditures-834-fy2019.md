@@ -93,9 +93,36 @@ The 12 largest of 43 expenditure classes used by this agency in FY2019.
 | 4202 | Equipment Rental | $9,672.38 | 1.5% |
 | 4305 | Telecom/Network Services | $7,318.13 | 1.2% |
 
+## Largest vendors
+
+The 20 largest of 56 payees this agency recorded payments to in FY2019, accounting for 94.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $133,468.75 | 21.1% | 1 |
+| URBAN OFFICE & PARKING FACILITIES | $99,926.39 | 15.8% | 3 |
+| RELIANT BEHAVIORAL HEALTH LLC | $64,058.00 | 10.1% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $60,662.95 | 9.6% | 8 |
+| EMPLOYMENT DEPARTMENT | $47,912.90 | 7.6% | 1 |
+| US BANK NATIONAL ASSOCIATION | $27,076.01 | 4.3% | 2 |
+| CONFUZER INC | $26,100.00 | 4.1% | 1 |
+| OREGON MEDICAL BOARD | $23,743.66 | 3.8% | 3 |
+| US BANK NATIONAL ASSOCIATION ND | $21,493.80 | 3.4% | 13 |
+| DEPT OF STATE POLICE | $18,108.25 | 2.9% | 1 |
+| UNITED STATES POSTAL SERVICE | $18,000.00 | 2.8% | 1 |
+| UNITED STATES DEPT OF HEALTH & HUMAN SERVICES | $17,000.00 | 2.7% | 1 |
+| CDW GOVERNMENT INC | $6,018.22 | 1.0% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $5,929.16 | 0.9% | 1 |
+| MAILFINANCE INC | $5,842.26 | 0.9% | 1 |
+| PORTLAND RIVER PLACE LLC | $5,416.99 | 0.9% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $5,283.56 | 0.8% | 3 |
+| GARY UNDERHILL DMD | $4,480.52 | 0.7% | 6 |
+| RICOH USA INC | $3,830.12 | 0.6% | 1 |
+| TRI-MET | $3,531.19 | 0.6% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 134 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 134 vendor-level transaction records covering 56 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

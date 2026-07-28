@@ -103,9 +103,36 @@ The 12 largest of 55 expenditure classes used by this agency in FY2022.
 | 4701 | Other Services | $656,396.84 | 0.1% |
 | 4200 | Office Supplies | $642,199.32 | 0.1% |
 
+## Largest vendors
+
+The 20 largest of 117 payees this agency recorded payments to in FY2022, accounting for 99.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CITISTREET | $742,956,824.93 | 83.7% | 2 |
+| PROVIDENCE HEALTH PLAN | $36,700,653.59 | 4.1% | 1 |
+| KAISER PERMANENTE | $36,155,065.02 | 4.1% | 2 |
+| UNITED HEALTH CARE | $30,769,599.76 | 3.5% | 1 |
+| LANCESOFT INC | $9,340,749.11 | 1.1% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $6,077,485.17 | 0.7% | 18 |
+| ODS HEALTH PLAN INC | $4,925,996.29 | 0.6% | 1 |
+| PACIFICSOURCE COMMUNITY HEALTH PLANS | $3,830,614.88 | 0.4% | 1 |
+| BENEFITHELP SOLUTIONS | $3,228,645.30 | 0.4% | 1 |
+| OREGON DENTAL SERVICE | $2,093,588.67 | 0.2% | 2 |
+| SHI INTERNATIONAL CORP | $1,609,976.65 | 0.2% | 6 |
+| CDW GOVERNMENT INC | $1,316,989.82 | 0.1% | 11 |
+| PERS | $975,926.43 | 0.1% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $637,907.22 | 0.1% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $598,425.13 | 0.1% | 1 |
+| MILLIMAN INC | $533,020.05 | 0.1% | 1 |
+| GARTNER GROUP INC | $452,967.00 | 0.1% | 2 |
+| PITNEY BOWES | $440,000.00 | 0.0% | 1 |
+| VOYA HOLDINGS INC | $430,624.99 | 0.0% | 2 |
+| ACCENTURE LLP | $427,000.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 193 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 193 vendor-level transaction records covering 117 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -107,9 +107,36 @@ The 12 largest of 72 expenditure classes used by this agency in FY2025.
 | 4825 | Fuels And Utilities | $525,287.26 | 0.3% |
 | 4850 | Facilities Maintenance | $364,580.67 | 0.2% |
 
+## Largest vendors
+
+The 20 largest of 227 payees this agency recorded payments to in FY2025, accounting for 98.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| HOFFMAN CONSTRUCTION COMPANY OF OREGON | $132,174,675.81 | 73.9% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $28,686,230.00 | 16.0% | 18 |
+| SRG PARTNERSHIP INC | $2,578,368.37 | 1.4% | 1 |
+| DEPT OF STATE POLICE | $2,288,690.00 | 1.3% | 1 |
+| CITY OF SALEM | $2,000,087.50 | 1.1% | 2 |
+| CDW GOVERNMENT INC | $1,227,027.69 | 0.7% | 15 |
+| ERNST & YOUNG US LLP | $1,046,194.63 | 0.6% | 2 |
+| SMITH-EMERY LABORATORIES INC | $1,002,479.30 | 0.6% | 1 |
+| DEPAUL INDUSTRIES | $967,958.20 | 0.5% | 2 |
+| XCENTIAL CORPORATION | $934,262.00 | 0.5% | 1 |
+| SHI INTERNATIONAL CORP | $618,302.63 | 0.3% | 6 |
+| HMI-OREGON DEALERSHIP | $520,824.72 | 0.3% | 2 |
+| LEGISLATIVE ADMIN COMMITTEE | $435,394.17 | 0.2% | 5 |
+| WILLIS TOWERS WATSON INSURANCE SERVICES WEST INC | $365,909.52 | 0.2% | 1 |
+| FIRST RESPONSE INC | $356,812.00 | 0.2% | 1 |
+| PORTLAND GENERAL ELECTRIC COMPANY | $341,268.49 | 0.2% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $239,854.73 | 0.1% | 1 |
+| FIRST PRESBYTERIAN CHURCH | $216,679.65 | 0.1% | 1 |
+| KEY CODE MEDIA INC | $166,186.79 | 0.1% | 5 |
+| SYSTEMS WEST ENGINEERS INC | $125,473.65 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 390 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 390 vendor-level transaction records covering 227 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -174,9 +174,36 @@ The 12 largest of 135 expenditure classes used by this agency in FY2021.
 | 6136 | Distribution To State Police | $57,789,395.36 | 3.0% |
 | 4704 | Other Supplies | $49,459,247.22 | 2.5% |
 
+## Largest vendors
+
+The 20 largest of 1,847 payees this agency recorded payments to in FY2021, accounting for 72.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON HEALTH AUTHORITY | $216,513,886.60 | 11.1% | 2 |
+| OREGON STATE TREASURY | $216,511,529.06 | 11.1% | 4 |
+| OREGON COMMUNITY FOUNDATION | $160,700,000.00 | 8.3% | 1 |
+| OR BUSINESS DEVELOPMENT DEPARTMENT | $151,975,365.10 | 7.8% | 1 |
+| DEPARTMENT OF HOUSING & COMMUNITY SERVICES | $102,615,538.20 | 5.3% | 1 |
+| STATE OF OREGON DEPARTMENT OF EDUCATION | $75,148,300.19 | 3.9% | 9 |
+| DEPT OF HUMAN SERVICES | $65,030,741.63 | 3.3% | 2 |
+| PORTLAND LEADERSHIP FOUNDATION | $62,000,000.00 | 3.2% | 1 |
+| DEPT OF STATE POLICE | $58,182,159.57 | 3.0% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $56,917,939.79 | 2.9% | 26 |
+| DEPARTMENT OF CONSUMER AND BUSINESS SERVICES | $36,429,507.78 | 1.9% | 9 |
+| COUNTY OF LANE | $28,831,613.27 | 1.5% | 2 |
+| HOUSING AUTHORITY OF JACKSON COUNTY | $25,200,000.00 | 1.3% | 2 |
+| FOCUS INDUSTRIES MED LLC | $24,405,448.15 | 1.3% | 1 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $23,143,427.03 | 1.2% | 16 |
+| COUNTY OF CLACKAMAS | $22,733,908.81 | 1.2% | 3 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $21,733,329.21 | 1.1% | 15 |
+| EMPLOYMENT DEPARTMENT | $18,994,322.45 | 1.0% | 11 |
+| COUNTY OF MARION | $18,507,460.20 | 1.0% | 2 |
+| SAIF CORP | $18,154,411.50 | 0.9% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 2,320 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,320 vendor-level transaction records covering 1,847 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

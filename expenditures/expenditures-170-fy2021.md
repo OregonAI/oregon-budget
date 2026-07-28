@@ -101,9 +101,36 @@ The 12 largest of 47 expenditure classes used by this agency in FY2021.
 | 4365 | Computer Technology Pc Equipment<$5K | $167,113.28 | 1.1% |
 | 4366 | Computer Technology Pc Software<$5K | $142,015.24 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 143 payees this agency recorded payments to in FY2021, accounting for 89.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| PJS LAND DEVELOPMENT LLC | $3,500,000.00 | 22.5% | 1 |
+| US BANK NATIONAL ASSOCIATION | $1,526,493.99 | 9.8% | 1 |
+| CDW GOVERNMENT INC | $1,513,105.61 | 9.7% | 12 |
+| PFM ASSET MANAGEMENT LLC | $1,487,299.49 | 9.6% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,098,739.58 | 7.1% | 11 |
+| EROI INC | $1,034,553.17 | 6.7% | 1 |
+| PACIFIC REALTY ASSOCIATES LP | $756,233.12 | 4.9% | 1 |
+| SHI INTERNATIONAL CORP | $583,156.78 | 3.7% | 6 |
+| STATE OF OREGON SECRETARY OF STATE | $527,704.00 | 3.4% | 1 |
+| SELLWOOD CONSULTING LLC | $282,050.00 | 1.8% | 1 |
+| TEKSYSTEMS GLOBAL SERVICES LLC | $274,983.50 | 1.8% | 1 |
+| LANDMARK PLC CERTIFIED PUBLIC ACCOUNTANTS | $198,742.50 | 1.3% | 1 |
+| ASCENSUS HOLDINGS INC | $194,013.42 | 1.2% | 2 |
+| KLOSH GROUP INC | $161,938.15 | 1.0% | 1 |
+| WSP USA BUILDINGS INC | $152,496.00 | 1.0% | 1 |
+| D&H USA CORPORATION | $148,035.32 | 1.0% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $125,833.40 | 0.8% | 1 |
+| STATE STREET BANK & TRUST CO | $120,000.00 | 0.8% | 1 |
+| CALLAN ASSOCIATES INC | $116,250.00 | 0.7% | 1 |
+| KEY BANK | $102,811.82 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 193 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 193 vendor-level transaction records covering 143 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -112,9 +112,36 @@ The 12 largest of 92 expenditure classes used by this agency in FY2023.
 | 6735 | Distribution To Non-Profit Org | $755,028.30 | 2.6% |
 | 6144 | Distribution To Deq | $720,535.50 | 2.5% |
 
+## Largest vendors
+
+The 20 largest of 851 payees this agency recorded payments to in FY2023, accounting for 63.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $3,051,754.10 | 10.7% | 18 |
+| OREGON STATE UNIVERSITY | $2,538,526.88 | 8.9% | 12 |
+| US BANK NATIONAL ASSOCIATION ND | $2,060,646.60 | 7.2% | 49 |
+| STATE DEPARTMENT OF AGRICULTURE | $1,433,046.58 | 5.0% | 2 |
+| COLUMBIA BANK | $1,105,787.55 | 3.9% | 3 |
+| DULCICH INC | $877,161.83 | 3.1% | 1 |
+| DEPARTMENT OF ENVIRONMENTAL QUALITY | $800,908.98 | 2.8% | 4 |
+| OLD WEST FEDERAL CREDIT UNION | $788,709.60 | 2.8% | 3 |
+| PINE RIDGE INVESTMENT CORP | $693,066.36 | 2.4% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $626,091.66 | 2.2% | 1 |
+| BANK OF EASTERN OREGON | $603,046.09 | 2.1% | 3 |
+| USDA APHIS | $585,895.59 | 2.0% | 2 |
+| MYTHICS INC | $513,577.70 | 1.8% | 2 |
+| WEX BANK | $486,219.84 | 1.7% | 2 |
+| THE MEATING PLACE LLC | $435,210.93 | 1.5% | 1 |
+| BILLY BOBS BUTCHER SHOP LLC | $435,210.93 | 1.5% | 1 |
+| OREGON STATE TREASURY | $329,794.26 | 1.2% | 1 |
+| JT JOHNSTON LLC | $303,590.54 | 1.1% | 1 |
+| SHI INTERNATIONAL CORP | $294,138.59 | 1.0% | 7 |
+| CRYSTAL CREEK MEATS INC. | $287,030.32 | 1.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,683 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,683 vendor-level transaction records covering 851 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

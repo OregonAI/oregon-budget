@@ -104,9 +104,36 @@ The 12 largest of 62 expenditure classes used by this agency in FY2025.
 | 6500 | Distribution To Comm College Districts | $80,073.69 | 1.8% |
 | 6450 | Distribution To University Of Oregon | $65,904.90 | 1.5% |
 
+## Largest vendors
+
+The 20 largest of 270 payees this agency recorded payments to in FY2025, accounting for 65.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,370,788.64 | 30.7% | 13 |
+| CENGAGE LEARNING INC | $380,000.00 | 8.5% | 2 |
+| OREGON LIBRARY ASSOCIATION | $128,270.29 | 2.9% | 2 |
+| MULTNOMAH COUNTY LIBRARY | $114,129.00 | 2.6% | 1 |
+| ORBIS CASCADE ALLIANCE | $103,835.25 | 2.3% | 2 |
+| BAKER COUNTY LIBRARY DISTRICT | $76,705.00 | 1.7% | 1 |
+| SAFARI BOOKS ONLINE LLC | $76,500.00 | 1.7% | 1 |
+| UNIVERSITY OF OREGON | $65,904.90 | 1.5% | 1 |
+| LINCOLN COUNTY LIBRARY DISTRICT | $65,625.00 | 1.5% | 1 |
+| ONLINE COMPUTER LIBRARY CENTER INC | $58,258.78 | 1.3% | 4 |
+| JOSEPHINE COMMUNITY LIBRARY DISTRICT | $53,649.40 | 1.2% | 1 |
+| CHEMEKETA COMMUNITY COLLEGE | $52,489.36 | 1.2% | 2 |
+| LIBRARIES OF EASTERN OREGON | $50,000.00 | 1.1% | 1 |
+| CENGAGE LEARNING | $49,468.00 | 1.1% | 1 |
+| HARNEY COUNTY LIBRARY FOUNDATION | $49,333.28 | 1.1% | 2 |
+| AGE + US | $43,374.30 | 1.0% | 1 |
+| ELSEVIER SCIENCE INC | $42,390.50 | 1.0% | 1 |
+| JEFFERSON COUNTY LIBRARY DISTRICT | $42,317.19 | 0.9% | 2 |
+| JACKSON COUNTY LIBRARY DISTRICT | $41,498.00 | 0.9% | 1 |
+| EBSCO INFORMATION SERVICE | $41,271.00 | 0.9% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 431 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 431 vendor-level transaction records covering 270 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

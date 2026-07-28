@@ -103,9 +103,36 @@ The 12 largest of 50 expenditure classes used by this agency in FY2023.
 | 4365 | Computer Technology Pc Equipment<$5K | $14,415.18 | 1.0% |
 | 3210 | Public Employees Retirement Contribution | $14,227.92 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 47 payees this agency recorded payments to in FY2023, accounting for 97.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $377,307.03 | 27.1% | 1 |
+| 1351 TANDEM AVE LLC | $249,143.87 | 17.9% | 1 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $143,524.41 | 10.3% | 13 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $127,213.04 | 9.1% | 6 |
+| NORTHWEST FORENSIC INSTITUTE | $112,641.00 | 8.1% | 1 |
+| DAVID J SCHUESSLER | $80,070.00 | 5.7% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $75,894.52 | 5.4% | 1 |
+| CDW GOVERNMENT INC | $42,371.50 | 3.0% | 3 |
+| INTEGRATED CLINICAL & CORRECTIONAL SERVICES | $26,222.50 | 1.9% | 1 |
+| TIFFANY LOONEY MS | $25,960.00 | 1.9% | 1 |
+| QWEST | $15,401.80 | 1.1% | 2 |
+| LEWIS AND CLARK COLLEGE | $15,200.00 | 1.1% | 1 |
+| WILLAMETTE VALLEY REHAB CENTER | $14,796.93 | 1.1% | 1 |
+| ELENA BALDUZZI PSY D | $12,010.00 | 0.9% | 1 |
+| CHRISTIAN EICKELBERG ATTORNEY AT LAW LLC | $7,600.00 | 0.5% | 1 |
+| CONIFER CLINICAL SERVICES | $7,100.00 | 0.5% | 1 |
+| COUNTY OF LANE | $6,148.86 | 0.4% | 1 |
+| MASS INGENUITY INC | $6,000.00 | 0.4% | 1 |
+| GRETA LOWRY | $5,632.96 | 0.4% | 12 |
+| D OLCOTT THOMPSON | $5,600.00 | 0.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 115 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 115 vendor-level transaction records covering 47 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

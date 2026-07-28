@@ -100,9 +100,36 @@ The 12 largest of 40 expenditure classes used by this agency in FY2021.
 | 4975 | Agency Program Related Services | $119,438.68 | 2.5% |
 | 4701 | Other Services | $101,812.07 | 2.2% |
 
+## Largest vendors
+
+The 20 largest of 234 payees this agency recorded payments to in FY2021, accounting for 80.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| ALLIANCE ENTERPRISES INC | $636,596.00 | 13.5% | 3 |
+| LIBERUM LLC | $627,973.75 | 13.4% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $601,877.41 | 12.8% | 13 |
+| BOUNDLESS ASSISTIVE TECHNOLOGY LLC | $380,577.55 | 8.1% | 3 |
+| DEPARTMENT OF JUSTICE | $204,140.00 | 4.3% | 1 |
+| PORTLAND PUBLIC SCHOOLS | $199,385.55 | 4.2% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $165,320.95 | 3.5% | 1 |
+| LINN CO SCH DIST 8 | $154,144.00 | 3.3% | 1 |
+| SMITTYS VENDING INC | $136,136.65 | 2.9% | 2 |
+| LIBERA INC | $122,645.56 | 2.6% | 2 |
+| CASCADE COMPUTER MAINTENANCE INC | $80,178.25 | 1.7% | 2 |
+| CURTIS RESTAURANT EQUIPMENT | $73,640.00 | 1.6% | 1 |
+| CDW GOVERNMENT INC | $62,768.51 | 1.3% | 8 |
+| GALT FOUNDATION | $61,126.99 | 1.3% | 2 |
+| STATE PARKS AND RECREATION DEPARTMENT | $54,218.81 | 1.2% | 1 |
+| DD & MH PROVIDER OF OREGON LLC | $50,592.30 | 1.1% | 1 |
+| PORTLAND STATE UNIVERSITY | $47,665.58 | 1.0% | 2 |
+| AMERICAN PROPERTY MANAGEMENT | $42,120.00 | 0.9% | 1 |
+| STARBUCK PROPERTIES LLC | $37,513.55 | 0.8% | 1 |
+| BRITTENY ASHER CONSULTING | $34,025.00 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 298 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 298 vendor-level transaction records covering 234 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

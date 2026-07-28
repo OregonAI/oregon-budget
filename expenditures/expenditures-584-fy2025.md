@@ -94,9 +94,36 @@ The 12 largest of 33 expenditure classes used by this agency in FY2025.
 | 4365 | Computer Technology Pc Equipment<$5K | $23,819.38 | 1.0% |
 | 4375 | Computer Technology Computer Processing | $23,350.79 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 66 payees this agency recorded payments to in FY2025, accounting for 97.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $494,317.16 | 19.7% | 8 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $325,605.85 | 13.0% | 1 |
+| DEPT OF STATE POLICE | $285,685.00 | 11.4% | 1 |
+| THE NORTH HIGHLAND HOLDING COMPANY LLC | $249,000.00 | 9.9% | 1 |
+| PIKES NORTHWEST LLC | $196,531.58 | 7.8% | 2 |
+| MULTNOMAH EDUC SERV DIST | $143,550.00 | 5.7% | 1 |
+| REGION 18 EDUCATIONAL SERVICE DISTRICT | $143,550.00 | 5.7% | 1 |
+| HILLSBORO SCHOOL DISTRICT 1J | $126,690.56 | 5.1% | 1 |
+| SOUTHERN OREGON ESD | $95,700.00 | 3.8% | 1 |
+| US BANK NATIONAL ASSOCIATION | $73,981.51 | 3.0% | 1 |
+| KERNUTT STOKES LLP | $50,172.00 | 2.0% | 2 |
+| MARION CO SCH DIST 103 | $47,850.00 | 1.9% | 1 |
+| EMPLOYMENT DEPARTMENT | $45,335.40 | 1.8% | 2 |
+| EDUCATION NORTHWEST | $38,620.00 | 1.5% | 1 |
+| CDW GOVERNMENT INC | $29,716.51 | 1.2% | 2 |
+| AT&T MOBILITY | $29,313.79 | 1.2% | 1 |
+| OREGON STATE UNIVERSITY | $20,385.00 | 0.8% | 1 |
+| SHI INTERNATIONAL CORP | $18,899.66 | 0.8% | 1 |
+| RESOURCE DATA INC | $17,550.00 | 0.7% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $16,561.14 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 129 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 129 vendor-level transaction records covering 66 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

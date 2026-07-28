@@ -96,9 +96,36 @@ The 12 largest of 41 expenditure classes used by this agency in FY2020.
 | 4875 | Food And Kitchen Supplies | $32,351.68 | 1.2% |
 | 4800 | Facilities Rent | $30,810.00 | 1.2% |
 
+## Largest vendors
+
+The 20 largest of 233 payees this agency recorded payments to in FY2020, accounting for 88.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $635,926.41 | 24.5% | 5 |
+| NATIONAL CONFERENCE OF STATE LEGISLATURES | $387,895.00 | 14.9% | 2 |
+| THE COUNCIL OF STATE GOVERNMENTS | $321,891.00 | 12.4% | 1 |
+| BRIDGETOWN PRINTING CO | $178,721.37 | 6.9% | 2 |
+| MOREL INC | $151,890.50 | 5.8% | 2 |
+| EMPLOYMENT DEPARTMENT | $97,036.10 | 3.7% | 1 |
+| STOEL RIVES LLP | $72,973.08 | 2.8% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $61,303.10 | 2.4% | 2 |
+| SCHULTZ INDEPENDENT CONTRACTING LLC | $55,650.00 | 2.1% | 2 |
+| LEGISLATIVE ADMIN COMMITTEE | $50,306.45 | 1.9% | 5 |
+| PACIFIC NORTHWEST ECONOMIC REGION FOUNDATION | $50,000.00 | 1.9% | 1 |
+| LEGISLATIVE COUNSEL COMMITTEE | $43,556.50 | 1.7% | 2 |
+| DEPARTMENT OF JUSTICE | $36,446.20 | 1.4% | 1 |
+| MICROSOFT CORPORATION | $30,839.72 | 1.2% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $26,832.53 | 1.0% | 12 |
+| WESTERN LEGISLATIVE FORESTRY TASK FORCE | $20,231.00 | 0.8% | 1 |
+| JACKSON LEWIS PC | $20,163.68 | 0.8% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $19,998.11 | 0.8% | 1 |
+| GARRISON MANAGEMENT GROUP LLC | $17,840.00 | 0.7% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $17,265.67 | 0.7% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 474 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 474 vendor-level transaction records covering 233 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

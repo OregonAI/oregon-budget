@@ -105,9 +105,36 @@ The 12 largest of 54 expenditure classes used by this agency in FY2021.
 | 4850 | Facilities Maintenance | $79,693.29 | 1.2% |
 | 5450 | Industrial & Heavy Equipment>=$5K | $69,522.50 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 185 payees this agency recorded payments to in FY2021, accounting for 82.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CENTURY WEST ENGINEERING CORP | $981,313.38 | 14.8% | 1 |
+| ROGER LANGELIERS CONSTRUCTION CO | $766,603.65 | 11.6% | 1 |
+| CR CONTRACTING LLC | $533,499.72 | 8.1% | 2 |
+| KODIAK PACIFIC CONSTRUCTION | $467,259.95 | 7.1% | 1 |
+| KEEN INDEPENDENT RESEARCH LLC | $345,559.00 | 5.2% | 1 |
+| OREGON DEPARTMENT OF TRANSPORTATION | $302,173.65 | 4.6% | 3 |
+| KERRY FULLER ENTERPRISES INC | $255,223.06 | 3.9% | 2 |
+| PORT OF ASTORIA | $215,590.59 | 3.3% | 2 |
+| JONNIC CONSTRUCTION LLC | $212,791.67 | 3.2% | 1 |
+| COOS COUNTY AIRPORT DISTRICT | $169,702.22 | 2.6% | 1 |
+| PENDLETON CITY OF | $164,072.98 | 2.5% | 1 |
+| THE DALLES CITY OF | $150,000.00 | 2.3% | 1 |
+| PORT OF ST HELENS | $142,775.71 | 2.2% | 2 |
+| FIRST AMERICAN TITLE INSURANCE COMPANY | $140,427.67 | 2.1% | 1 |
+| OREGON DEPT OF ADMINISTRATIVE SERVICES | $130,319.72 | 2.0% | 7 |
+| ALBANY CITY OF | $121,603.59 | 1.8% | 1 |
+| REDMOND CITY OF | $109,165.63 | 1.6% | 2 |
+| SALEM CITY OF | $87,897.45 | 1.3% | 2 |
+| ROSEBURG CITY OF | $87,832.25 | 1.3% | 3 |
+| GRANT COUNTY | $84,202.85 | 1.3% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 262 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 262 vendor-level transaction records covering 185 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

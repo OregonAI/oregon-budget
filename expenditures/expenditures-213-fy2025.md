@@ -108,9 +108,36 @@ The 12 largest of 57 expenditure classes used by this agency in FY2025.
 | 4375 | Computer Technology Computer Processing | $308,157.32 | 0.3% |
 | 4800 | Interagency Lease Payments | $197,029.74 | 0.2% |
 
+## Largest vendors
+
+The 20 largest of 152 payees this agency recorded payments to in FY2025, accounting for 71.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| COUNTY OF MULTNOMAH | $10,512,090.22 | 11.3% | 1 |
+| COUNTY OF LANE | $7,612,408.00 | 8.2% | 1 |
+| COUNTY OF JACKSON | $5,975,151.00 | 6.4% | 1 |
+| DESCHUTES COUNTY | $4,800,015.00 | 5.2% | 1 |
+| DOUGLAS COUNTY | $4,378,688.88 | 4.7% | 1 |
+| COUNTY OF CLACKAMAS | $4,273,526.00 | 4.6% | 1 |
+| COUNTY OF MARION TREASURY DEPARTMENT | $4,029,440.00 | 4.3% | 1 |
+| OREGON HEALTH & SCIENCE UNIVERSITY | $3,319,188.22 | 3.6% | 2 |
+| WASHINGTON COUNTY | $2,920,469.00 | 3.2% | 1 |
+| STATE OF OREGON JUDICIAL DEPARTMENT | $2,747,555.74 | 3.0% | 3 |
+| WASHINGTON COUNTY COMMUNITY CORRECTIONS | $2,302,750.00 | 2.5% | 1 |
+| JOSEPHINE COUNTY CCA | $1,860,704.00 | 2.0% | 1 |
+| COUNTY OF LINCOLN | $1,848,607.00 | 2.0% | 1 |
+| COUNTY OF YAMHILL | $1,806,160.03 | 1.9% | 1 |
+| COUNTY OF CLATSOP | $1,780,616.20 | 1.9% | 1 |
+| COUNTY OF JOSEPHINE | $1,431,021.00 | 1.5% | 1 |
+| COUNTY OF KLAMATH | $1,422,376.00 | 1.5% | 1 |
+| COUNTY OF LINN | $1,158,540.00 | 1.3% | 1 |
+| COUNTY OF COOS | $1,023,618.00 | 1.1% | 1 |
+| COUNTY OF TILLAMOOK | $1,011,283.00 | 1.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 232 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 232 vendor-level transaction records covering 152 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

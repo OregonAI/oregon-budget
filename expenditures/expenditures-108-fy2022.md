@@ -93,9 +93,36 @@ The 12 largest of 27 expenditure classes used by this agency in FY2022.
 | 4201 | Office Services | $5,230.14 | 0.7% |
 | 4406 | Prof Dev Instate Tuition/Registration | $3,900.00 | 0.6% |
 
+## Largest vendors
+
+The 20 largest of 27 payees this agency recorded payments to in FY2022, accounting for 99.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $246,135.71 | 35.0% | 9 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $181,189.00 | 25.8% | 1 |
+| WESTPAC INVESTMENT COMPANY | $131,329.81 | 18.7% | 2 |
+| OREGON STATE POLICE | $71,054.00 | 10.1% | 1 |
+| US BANK NATIONAL ASSOCIATION | $38,847.66 | 5.5% | 2 |
+| EMPLOYMENT DEPARTMENT | $9,152.51 | 1.3% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $6,009.82 | 0.9% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $3,895.04 | 0.6% | 1 |
+| KYNDRYL INC | $2,589.04 | 0.4% | 2 |
+| COURTNEY L MAY | $2,040.32 | 0.3% | 4 |
+| DANIEL R VILE | $2,038.22 | 0.3% | 4 |
+| CDW GOVERNMENT INC | $1,998.89 | 0.3% | 2 |
+| AMERICAN ASSOCIATION OF STATE COUNSELING BOARDS | $1,900.00 | 0.3% | 2 |
+| SHI INTERNATIONAL CORP | $1,237.88 | 0.2% | 1 |
+| IBM CORPORATION | $1,098.29 | 0.2% | 1 |
+| ASSN OF MARITAL & FAMILY THERAPY REGULATORY BOARDS | $500.00 | 0.1% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $483.53 | 0.1% | 1 |
+| CASCADE CENTERS INC | $409.92 | 0.1% | 1 |
+| LINDA NISHI-STRATTNER | $400.19 | 0.1% | 4 |
+| STATE COURT ADMINISTRATOR | $391.00 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 49 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 49 vendor-level transaction records covering 27 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -117,9 +117,36 @@ The 12 largest of 103 expenditure classes used by this agency in FY2024.
 | 4253 | Advertise, Publicity, Publish/Print Srvs | $327,180.52 | 1.2% |
 | 5250 | Technical Equipment>=$5K | $264,107.17 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 551 payees this agency recorded payments to in FY2024, accounting for 42.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CALIFORNIA OFFICE OF EMERGENCY SERVICES | $1,722,390.63 | 6.6% | 1 |
+| ROSENBAUER SOUTH DAKOTA LLC | $1,331,597.00 | 5.1% | 1 |
+| OREGON DEPARTMENT OF FORESTRY | $1,156,351.84 | 4.4% | 8 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $844,386.81 | 3.2% | 16 |
+| CLACKAMAS FIRE DISTRICT 1 | $772,814.19 | 3.0% | 4 |
+| SWAMP CAT INVESTMENTS LLC | $630,845.94 | 2.4% | 5 |
+| TUALATIN VALLEY FIRE & RESCUE | $552,354.97 | 2.1% | 5 |
+| CITY OF PORTLAND | $516,346.59 | 2.0% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $475,589.83 | 1.8% | 38 |
+| CITY OF EUGENE | $402,915.57 | 1.5% | 2 |
+| KEIZER RFPD | $355,780.15 | 1.4% | 2 |
+| MARION COUNTY RFPD 1 | $317,970.88 | 1.2% | 1 |
+| CONFEDERATED TRIBES OF GRANDE RONDE | $298,393.86 | 1.1% | 1 |
+| CITY OF SEASIDE | $284,256.32 | 1.1% | 3 |
+| SOUTHWEST POLK COUNTY RFPD | $272,211.06 | 1.0% | 2 |
+| CITY OF CORVALLIS | $243,197.87 | 0.9% | 1 |
+| CITY OF ALBANY | $231,697.18 | 0.9% | 6 |
+| SIDDONS MARTIN EMERGENCY GROUP LLC | $229,025.63 | 0.9% | 1 |
+| CITY OF HILLSBORO | $226,197.35 | 0.9% | 3 |
+| SOUTH LANE FIRE AND RESCUE | $214,344.22 | 0.8% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 1,038 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,038 vendor-level transaction records covering 551 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

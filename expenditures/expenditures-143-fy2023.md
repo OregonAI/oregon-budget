@@ -93,9 +93,36 @@ The 12 largest of 45 expenditure classes used by this agency in FY2023.
 | 4406 | Prof Dev Instate Tuition/Registration | $6,852.80 | 0.8% |
 | 4401 | Training, Education Or Instruction Srvc | $6,131.33 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 55 payees this agency recorded payments to in FY2023, accounting for 98.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| SUSTAINABILITY SOLUTIONS GROUP WORKERS COOPERATIVE | $182,800.00 | 20.5% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $181,370.71 | 20.3% | 5 |
+| MOSAIC INTERPRETING LLC | $134,711.75 | 15.1% | 1 |
+| PURPLE COMMUNICATIONS INC | $127,799.08 | 14.3% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $46,763.86 | 5.2% | 23 |
+| CDW GOVERNMENT INC | $45,119.29 | 5.1% | 3 |
+| LINGUAVA INTERPRETERS | $39,156.33 | 4.4% | 1 |
+| ROCKY MOUNTAIN INSTITUTE | $38,998.75 | 4.4% | 1 |
+| EMPLOYMENT DEPARTMENT | $22,604.97 | 2.5% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $13,215.00 | 1.5% | 1 |
+| VARI SALES CORPORATION | $8,708.18 | 1.0% | 1 |
+| CANSTAFF EMPLOYMENT SERVICES LLC | $6,622.89 | 0.7% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $6,523.42 | 0.7% | 5 |
+| PORTLAND STATE UNIVERSITY | $6,131.33 | 0.7% | 1 |
+| LEGISLATIVE ADMIN COMMITTEE | $4,163.57 | 0.5% | 3 |
+| PROFESSIONAL INTERPRETERS | $3,796.75 | 0.4% | 1 |
+| OFFICE DEPOT BUSINESS SOLUTIONS LLC | $3,227.82 | 0.4% | 1 |
+| MISTY FREEMAN | $2,150.53 | 0.2% | 5 |
+| LANDMARK AWARDS & ENGRAVING | $2,024.25 | 0.2% | 2 |
+| BRIDGES OREGON | $1,755.04 | 0.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 137 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 137 vendor-level transaction records covering 55 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 
