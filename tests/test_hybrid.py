@@ -188,3 +188,23 @@ def test_list_datasets_carries_the_warnings(config):
     by_key = {d["dataset"]: d for d in call(build_server(config), "list_datasets")["datasets"]}
     assert "Totals row" in by_key["budgeted_revenue"]["warning"]
     assert "NOT part of the statewide" in by_key["lottery"]["warning"]
+
+
+# ------------------------------------------------ unreviewed extractions
+
+def test_unreviewed_appropriations_are_flagged_not_served_as_fact(config):
+    """Stage 3 figures are read out of bill prose by a regex. A misparse wearing a real
+    bill citation is the most credible-looking wrong answer this corpus could produce, so
+    every response must carry a block an agent cannot mistake for provenance."""
+    doc = CorpusFramework(config).get_document("appropriations-2025r1-hb2408")
+    r = doc["review_status"]
+    assert r["human_reviewed"] is False
+    assert r["servable_as_fact"] is False
+    assert "UNREVIEWED" in r["warning"]
+    # It must point at text a caller can actually trust instead.
+    assert r["authoritative_text"] == "measure-2025r1-hb2408"
+
+
+def test_mirrored_documents_carry_no_review_block(config):
+    """The flag must mean something. Attaching it to everything would make it noise."""
+    assert "review_status" not in CorpusFramework(config).get_document(DOC)

@@ -75,6 +75,30 @@ jobs:
       - run: pip install pytest "corpus-toolkit[mcp] @ git+https://github.com/OregonAI/corpus-toolkit@v1.6.0"
       - run: python -m pytest tests/ -q
 
+  # Bill text is REFERENCED, not copied, so this corpus holds no bytes to check its own
+  # quotations against. Without the sibling checked out beside it, every "verbatim source
+  # line" under bills/ is just a string in a file. This job clones the sibling and
+  # re-verifies all 1,228 of them.
+  #
+  # `--check` exits 2 when the sibling is absent — a LOUD SKIP, never a pass. Reporting
+  # "0 failures" for a comparison that never ran is the failure this repo keeps finding
+  # in its own CI, so the step must not be allowed to succeed by doing nothing.
+  quotations:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: OregonAI/oregon-legislature
+          path: .sibling
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Every quoted bill line must exist in the sibling's snapshot
+        run: python3 src/extract_appropriations.py --check --sibling .sibling
+
   # WHY THE LIVE-API CHECKS ARE NOT HERE. Reconciling the mirror against data.oregon.gov
   # and re-measuring dataset schemas both need the network. Running them per-PR makes
   # every pull request depend on a third party being up, so the gate goes red for reasons

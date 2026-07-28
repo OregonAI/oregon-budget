@@ -52,6 +52,28 @@ class HybridBackend(FileBackend):
         doc = super().get(doc_id, part=part)
         if "error" in doc:
             return doc
+        # Machine-extracted appropriation figures are not servable as fact until a person
+        # has checked them against the quoted source lines. The document is still
+        # retrievable — hiding it would just make the gap invisible — but every response
+        # carries a block an agent cannot mistake for provenance. A figure read out of
+        # bill prose by a regex, wearing a real citation, is the most credible-looking
+        # wrong answer this corpus could produce.
+        fm = self._mirrored_fields(doc.get("path"), keys=("human_reviewed",
+                                                          "extraction_status",
+                                                          "sibling_document_id"))
+        if fm.get("human_reviewed") is False:
+            doc["review_status"] = {
+                "human_reviewed": False,
+                "servable_as_fact": False,
+                "extraction_status": fm.get("extraction_status"),
+                "warning": (
+                    "UNREVIEWED MACHINE EXTRACTION. Every dollar figure in this document "
+                    "was read out of bill prose by a parser and has not been checked by a "
+                    "person. Do NOT state these as appropriations. Quote the verbatim "
+                    "source line beside each figure, or cite the bill itself."),
+                "authoritative_text": fm.get("sibling_document_id"),
+            }
+
         m = EXPENDITURE_DOC.match(doc_id)
         if not m:
             return doc
@@ -62,12 +84,12 @@ class HybridBackend(FileBackend):
                                              mirrored=doc.get("total_expense"))
         return doc
 
-    def _mirrored_fields(self, rel_path) -> dict:
+    def _mirrored_fields(self, rel_path, keys=None) -> dict:
         if not rel_path:
             return {}
         from corpus_toolkit.repo import parse_frontmatter
         fm, _ = parse_frontmatter(self.config.root / rel_path)
-        return {k: fm[k] for k in self.MIRRORED_FIELDS if k in fm}
+        return {k: fm[k] for k in (keys or self.MIRRORED_FIELDS) if k in fm}
 
     def _live_agency_year(self, agency: str, year: str, mirrored=None) -> dict:
         """Current API figures for one agency-year, beside the mirrored ones."""
