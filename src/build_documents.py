@@ -101,7 +101,14 @@ def q(con, sql, *a):
 
 
 def gather(con) -> dict:
-    """Everything the documents need, in a handful of queries rather than 544 x N."""
+    """Everything the documents need, in a handful of queries rather than 544 x N.
+
+    EVERY ranking query carries a deterministic tiebreaker. Ties are common — agency 603
+    alone has three vendors at exactly $348,750.00 — and without one the engine returns
+    them in arbitrary order, so regenerating churns committed documents with no change in
+    the underlying data. That noise makes "is this stale?" unanswerable from a diff, which
+    is the question the staleness gate exists to answer.
+    """
     d = {}
     d["years"] = [r[0] for r in q(con, f"select distinct fiscal_year from '{GLOB}' order by 1")]
     d["statewide"] = {r[0]: r[1] for r in
@@ -113,18 +120,18 @@ def gather(con) -> dict:
     for a, y, code, name, amt, n in q(con, f"""
             select agency, fiscal_year, budget_class, any_value(budget_class_1),
                    sum(expense), count(*)
-            from '{GLOB}' group by 1, 2, 3 order by 5 desc"""):
+            from '{GLOB}' group by 1, 2, 3 order by 5 desc, 3"""):
         d["by_budget"].setdefault((a, y), []).append((code, name, amt, n))
     d["by_expend"] = {}
     for a, y, code, name, amt, n in q(con, f"""
             select agency, fiscal_year, expend_class, any_value(expend_class_1),
                    sum(expense), count(*)
-            from '{GLOB}' group by 1, 2, 3 order by 5 desc"""):
+            from '{GLOB}' group by 1, 2, 3 order by 5 desc, 3"""):
         d["by_expend"].setdefault((a, y), []).append((code, name, amt, n))
     d["by_vendor"] = {}
     for a, y, vendor, amt, n in q(con, f"""
             select agency, fiscal_year, vendor, sum(expense), count(*)
-            from '{GLOB}' group by 1, 2, 3 order by 4 desc"""):
+            from '{GLOB}' group by 1, 2, 3 order by 4 desc, 3"""):
         d["by_vendor"].setdefault((a, y), []).append((vendor, amt, n))
     # Rank within each year, by total spend.
     d["rank"] = {}

@@ -97,8 +97,8 @@ The largest budget category was **Distribution To Non-Governments** at $24,166,4
 | 5150 | Telecommunications | $30,714.20 | 0.0% | 2 |
 | 5600 | Data Processing Hardware | $25,971.42 | 0.0% | 1 |
 | 6213 | Dist To Criminal Justice Cmsn | $22,896.35 | 0.0% | 1 |
-| 6581 | Dist To Dept Of Education | $9,954.94 | 0.0% | 1 |
 | 6340 | Dist To Deq | $9,954.94 | 0.0% | 1 |
+| 6581 | Dist To Dept Of Education | $9,954.94 | 0.0% | 1 |
 | 6170 | Dist To Treasury Dept | $6,476.80 | 0.0% | 1 |
 | 7150 | Interest - Bonds | $6,001.04 | 0.0% | 1 |
 | 5700 | Buildings And Structures | $5,385.00 | 0.0% | 2 |

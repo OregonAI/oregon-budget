@@ -112,8 +112,8 @@ The 20 largest of 31 payees this agency recorded payments to in FY2021, accounti
 | IBM CORPORATION | $1,552.23 | 0.5% | 1 |
 | FINCH CONSULTING LLC | $1,105.05 | 0.4% | 2 |
 | OREGON STATE BAR | $667.00 | 0.2% | 1 |
-| THOMAS D FREEDLAND DC | $625.00 | 0.2% | 1 |
 | BOBBY MAYBEE DC | $625.00 | 0.2% | 1 |
+| THOMAS D FREEDLAND DC | $625.00 | 0.2% | 1 |
 | SELECT IMPRESSIONS | $612.00 | 0.2% | 1 |
 | PACIFIC CHIROPRACTIC GROUP PC | $500.00 | 0.2% | 1 |
 | STATE OF OREGON SECRETARY OF STATE | $435.52 | 0.1% | 1 |

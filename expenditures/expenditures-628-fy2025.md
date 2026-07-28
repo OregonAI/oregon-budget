@@ -119,8 +119,8 @@ The 20 largest of 134 payees this agency recorded payments to in FY2025, account
 | OREGON TREE FARM SYSTEM | $22,500.00 | 0.9% | 1 |
 | SELECT IMPRESSIONS | $18,436.00 | 0.7% | 1 |
 | PARALLEL PUBLIC WORKS INC | $15,674.00 | 0.6% | 1 |
-| FORESTS FOREVER INC | $15,000.00 | 0.6% | 1 |
 | BETTER SERIES LLC | $15,000.00 | 0.6% | 1 |
+| FORESTS FOREVER INC | $15,000.00 | 0.6% | 1 |
 | LYNX GROUP INC | $14,494.46 | 0.6% | 1 |
 
 ## Curator notes

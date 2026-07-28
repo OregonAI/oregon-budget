@@ -126,8 +126,8 @@ The 20 largest of 116 payees this agency recorded payments to in FY2025, account
 | SLACK 5 LTD | $9,350.00 | 0.6% | 1 |
 | THENTIA GLOBAL SYSTEMS USA INC | $9,000.00 | 0.6% | 5 |
 | ANDREASONS CREMATION AND BURIAL SERVICES | $8,800.00 | 0.6% | 1 |
-| BATEMAN ACQUISITION COMPANY LLC | $7,700.00 | 0.5% | 1 |
 | ALDERWOODS INC | $7,700.00 | 0.5% | 1 |
+| BATEMAN ACQUISITION COMPANY LLC | $7,700.00 | 0.5% | 1 |
 
 ## Curator notes
 

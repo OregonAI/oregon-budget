@@ -87,8 +87,8 @@ The largest budget category was **Distribution To Non-Governments** at $156,760,
 | 4375 | Employee Recruitment And Development | $20,545.77 | 0.0% | 2 |
 | 3220 | Public Employes' Retirement System | $8,384.94 | 0.0% | 4 |
 | 3270 | Flexible Benefits | $6,614.58 | 0.0% | 1 |
-| 7300 | Principal - Loans | $5,841.83 | 0.0% | 1 |
 | 6070 | Loans Made To State Agencies | $5,841.83 | 0.0% | 1 |
+| 7300 | Principal - Loans | $5,841.83 | 0.0% | 1 |
 | 3230 | Social Security Tax | $2,981.52 | 0.0% | 1 |
 | 3221 | Pension Bond Contribution | $2,197.90 | 0.0% | 1 |
 | 3190 | All Other Differential | $1,795.26 | 0.0% | 1 |

@@ -132,10 +132,10 @@ The 20 largest of 188 payees this agency recorded payments to in FY2019, account
 | ECOLOGY AND ENVIRONMENT INC | $66,967.01 | 1.5% | 1 |
 | ANDERSON PERRY & ASSOCIATES | $54,000.00 | 1.2% | 1 |
 | ALLISON R BAILEY | $51,600.00 | 1.2% | 1 |
-| CLACKAMAS COUNTY FINANCE | $50,000.00 | 1.1% | 1 |
 | CITY OF NEWBERG | $50,000.00 | 1.1% | 1 |
-| COUNTY OF WASCO | $45,000.00 | 1.0% | 1 |
+| CLACKAMAS COUNTY FINANCE | $50,000.00 | 1.1% | 1 |
 | CITY OF SHERWOOD | $45,000.00 | 1.0% | 1 |
+| COUNTY OF WASCO | $45,000.00 | 1.0% | 1 |
 
 ## Curator notes
 

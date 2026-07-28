@@ -132,8 +132,8 @@ The 20 largest of 851 payees this agency recorded payments to in FY2023, account
 | USDA APHIS | $585,895.59 | 2.0% | 2 |
 | MYTHICS INC | $513,577.70 | 1.8% | 2 |
 | WEX BANK | $486,219.84 | 1.7% | 2 |
-| THE MEATING PLACE LLC | $435,210.93 | 1.5% | 1 |
 | BILLY BOBS BUTCHER SHOP LLC | $435,210.93 | 1.5% | 1 |
+| THE MEATING PLACE LLC | $435,210.93 | 1.5% | 1 |
 | OREGON STATE TREASURY | $329,794.26 | 1.2% | 1 |
 | JT JOHNSTON LLC | $303,590.54 | 1.1% | 1 |
 | SHI INTERNATIONAL CORP | $294,138.59 | 1.0% | 7 |

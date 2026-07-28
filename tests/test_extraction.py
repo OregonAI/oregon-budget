@@ -185,3 +185,25 @@ def test_a_blank_recipient_is_detected_not_mistaken_for_a_parser_failure():
     assert BLANK_RECIPIENT.search(t) is not None
     parsed = parse_bill(t, t.splitlines())
     assert parsed["blank_recipient"] is True
+
+
+# ------------------------------------------------------------------ reproducibility
+
+def test_ranking_queries_carry_a_deterministic_tiebreaker():
+    """Ties are common — agency 603 alone has three vendors at exactly $348,750.00 — and
+    an ORDER BY without a tiebreaker returns them in arbitrary order. Regenerating then
+    churns committed documents with no change in the underlying data, which makes "is this
+    stale?" unanswerable from a diff. That is the exact question the staleness gate exists
+    to answer, so the noise is not cosmetic.
+
+    Asserted on the SQL rather than by running the build twice: a two-run test would pass
+    whenever the engine happened to be stable, which is most of the time.
+    """
+    import re
+    src = (ROOT / "src" / "build_documents.py").read_text()
+    ranked = re.findall(r"order by (\d+) desc([^\"']*)", src)
+    assert ranked, "no ranking queries found — did the query shape change?"
+    for col, tail in ranked:
+        assert tail.strip().startswith(","), (
+            f"`order by {col} desc` has no tiebreaker; ties will order arbitrarily "
+            f"and every rebuild will churn the committed documents")
