@@ -1,0 +1,10 @@
+# Snapshots are hashed. On a raw-bytes fallback (image-only sources with no
+# usable text layer) the hash is over the exact file, so a CRLF translation on a
+# Windows checkout would change it and fail provenance verification.
+_meta/snapshots/** -text
+*.pdf binary
+
+# The mirrored expenditure data. manifest.json records a sha256 per file and CI reconciles
+# against it, so a CRLF translation on a Windows checkout would corrupt the file and fail
+# the gate — same reasoning as the snapshot rule above.
+*.parquet binary

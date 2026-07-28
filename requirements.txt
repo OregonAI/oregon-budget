@@ -1,0 +1,26 @@
+# Base install: validate the corpus, build the documents, serve MCP.
+#
+# NOTE ON THE SPLIT: the MCP server never reads the Parquet mirror. Actuals are proxied
+# live at ~600 ms with an executed_at envelope, so the deploy host needs none of the
+# analysis stack below. Parquet is the BUILD and ANALYSIS artifact — it generates the
+# agency-year documents and verifies the joins offline and reproducibly.
+
+# corpus_toolkit CLIs (corpus-validate-frontmatter, corpus-verify-provenance, ...) and
+# src/*.py. The [mcp] extra installs the MCP SDK that `corpus-mcp-serve` imports; without
+# it the CLI is on PATH but fails at import, so the container cannot serve.
+corpus-toolkit[mcp] @ git+https://github.com/OregonAI/corpus-toolkit@v1.5.3
+pyyaml
+jsonschema
+
+# --- Mirror + analysis. Needed to REBUILD the corpus, not to serve it. ---
+
+# Writes data/expenditures/*.parquet. decimal128(18,2) is the reason this is a hard
+# dependency of the ingest rather than a convenience: 668,906 dollar amounts summed as
+# float64 do not reliably reproduce the published $199,601,500,470.97 total, and the
+# reconciliation gate compares to the cent.
+pyarrow
+
+# Queries the Parquet in place (no load step) to generate agency-year documents and to
+# check joins. `SELECT ... FROM 'data/expenditures/*.parquet'` — a full-corpus aggregate
+# returns in single-digit milliseconds.
+duckdb
