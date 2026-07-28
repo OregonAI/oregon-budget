@@ -6,10 +6,10 @@ Generated 2026-07-28. Non-authoritative; see DISCLAIMER.md.
 
 | doc_type | count |
 |---|---|
-| dataset_doc | 1510 |
+| dataset_doc | 1702 |
 | entity_doc | 3 |
 
-**Total: 1513**
+**Total: 1705**
 
 ## Source manifest
 
@@ -17,5 +17,5 @@ Generated 2026-07-28. Non-authoritative; see DISCLAIMER.md.
 
 ## Freshness (reverify every 90 days)
 
-0 of 1513 document(s) overdue for re-verification.
+0 of 1705 document(s) overdue for re-verification.
 

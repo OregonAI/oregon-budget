@@ -60,11 +60,12 @@ and this dataset has no such column.
 
 | | |
 |---|---|
-| appropriations extracted | **597** across 18 sessions (2017R1–2026R1) |
-| biennium outside the FY2019–FY2025 mirror | 157 — the money is not spent yet |
-| overlapping the mirror | 440 |
-| agency resolves exactly → joined | **369** |
-| agency does not resolve → recorded unresolved, never guessed | 71 |
+| appropriations extracted | **740** across 18 sessions (2017R1–2026R1) |
+| of those, sums left blank in the bill | 142 — appropriated, amount unspecified |
+| biennium outside the FY2019–FY2025 mirror | 196 — the money is not spent yet |
+| overlapping the mirror | 544 |
+| agency resolves exactly → joined | **418** |
+| agency does not resolve → recorded unresolved, never guessed | 126 |
 
 Joins now span **all seven mirrored fiscal years** (FY2019–FY2025) across 36 agencies,
 rather than the FY2024–25 sliver the first pass could reach.
