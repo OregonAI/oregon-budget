@@ -73,33 +73,29 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$76,935,412** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Fish Division | $98,713,966 | (1) Fish Division ............................. $ 98,713,966 (2) Wildlife Division........................ $ 48,549,815 |
-| 2 | Wildlife Division | $48,549,815 | (2) Wildlife Division........................ $ 48,549,815 (3) Administrative Services |
-| 3 | Administrative Services Division | $61,024,243 | Division..................................... $ 61,024,243 (4) Capital improvement................. $ 7,041,691 |
-| 4 | Capital improvement | $7,041,691 | (4) Capital improvement................. $ 7,041,691 (5) Debt service .............................. $ 1,838,812 |
-| 5 | Debt service | $1,838,812 | (5) Debt service .............................. $ 1,838,812 (6) State Police enforcement .......... $ 33,699,757 |
-| 6 | State Police enforcement | $33,699,757 | (6) State Police enforcement .......... $ 33,699,757 (7) Habitat Division ........................ $ 34,922,410 |
-| 7 | Habitat Division | $34,922,410 | (7) Habitat Division ........................ $ 34,922,410 SECTION 3. |
+| (1) | Fish Division | $98,713,966 | (1) Fish Division ............................. $ 98,713,966 (2) Wildlife Division........................ $ 48,549,815 |
+| (2) | Wildlife Division | $48,549,815 | (2) Wildlife Division........................ $ 48,549,815 (3) Administrative Services |
+| (3) | Administrative Services Division | $61,024,243 | Division..................................... $ 61,024,243 (4) Capital improvement................. $ 7,041,691 |
+| (4) | Capital improvement | $7,041,691 | (4) Capital improvement................. $ 7,041,691 (5) Debt service .............................. $ 1,838,812 |
+| (5) | Debt service | $1,838,812 | (5) Debt service .............................. $ 1,838,812 (6) State Police enforcement .......... $ 33,699,757 |
+| (6) | State Police enforcement | $33,699,757 | (6) State Police enforcement .......... $ 33,699,757 (7) Habitat Division ........................ $ 34,922,410 |
+| (7) | Habitat Division | $34,922,410 | (7) Habitat Division ........................ $ 34,922,410 SECTION 3. |
 
-Line items sum to **$285,790,694** — which matches NO stated appropriation in this section.
+## Section 3 — subsections-not-itemized
 
-## Section 3 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 8 | of the Oregon Constitution, for the following purposes: Enrolled House Bill 5009 (HB 5009-A) Page 1 (1) Fish Division | $5,962,755 | (1) Fish Division............................. $ 5,962,755 (2) Wildlife Division........................ $ 1,598,009 |
-| 2 | Wildlife Division | $1,598,009 | (2) Wildlife Division........................ $ 1,598,009 (3) Habitat Division........................ $ 5,049 |
-| 3 | Habitat Division | $5,049 | (3) Habitat Division........................ $ 5,049 SECTION 4. Notwithstanding any  other law limiting expenditures, the amount of |
-
-Line items sum to **$7,565,813** — which matches NO stated appropriation in this section.
+| (8) | of the Oregon Constitution, for the following purposes: Enrolled House Bill 5009 (HB 5009-A) Page 1 (1) Fish Division | $5,962,755 | (1) Fish Division............................. $ 5,962,755 (2) Wildlife Division........................ $ 1,598,009 |
+| (2) | Wildlife Division | $1,598,009 | (2) Wildlife Division........................ $ 1,598,009 (3) Habitat Division........................ $ 5,049 |
+| (3) | Habitat Division | $5,049 | (3) Habitat Division........................ $ 5,049 SECTION 4. Notwithstanding any  other law limiting expenditures, the amount of |
 
 ## Section 4 — single-appropriation
 
@@ -109,19 +105,17 @@ Line items sum to **$7,565,813** — which matches NO stated appropriation in th
 |---:|---|
 | $2,437,793 | $2,437,793 is established for the biennium beginning July 1, 2025, as the maximum limit  for payment of expenses from  lottery moneys allocated from the Administrative Services Eco- |
 
-## Section 5 — items-without-stated-total
+## Section 5 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Fish Division | $131,189,919 | (1) Fish Division ............................. $131,189,919 (2) Wildlife Division........................ $ 42,618,670 |
-| 2 | Wildlife Division | $42,618,670 | (2) Wildlife Division........................ $ 42,618,670 (3) Administrative Services |
-| 3 | Administrative Services Division | $9,619,982 | Division..................................... $ 9,619,982 (4) Capital improvement................. $ 3,635,758 |
-| 4 | Capital improvement | $3,635,758 | (4) Capital improvement................. $ 3,635,758 (5) Habitat Division ........................ $ 22,423,098 |
-| 5 | Habitat Division | $22,423,098 | (5) Habitat Division ........................ $ 22,423,098 SECTION 6. This 2025 Act being necessary for the immediate preservation of the public |
-
-Line items sum to **$209,487,427** — which matches NO stated appropriation in this section.
+| (1) | Fish Division | $131,189,919 | (1) Fish Division ............................. $131,189,919 (2) Wildlife Division........................ $ 42,618,670 |
+| (2) | Wildlife Division | $42,618,670 | (2) Wildlife Division........................ $ 42,618,670 (3) Administrative Services |
+| (3) | Administrative Services Division | $9,619,982 | Division..................................... $ 9,619,982 (4) Capital improvement................. $ 3,635,758 |
+| (4) | Capital improvement | $3,635,758 | (4) Capital improvement................. $ 3,635,758 (5) Habitat Division ........................ $ 22,423,098 |
+| (5) | Habitat Division | $22,423,098 | (5) Habitat Division ........................ $ 22,423,098 SECTION 6. This 2025 Act being necessary for the immediate preservation of the public |
 
 ## Curator notes
 

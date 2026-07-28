@@ -68,16 +68,14 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$9,923,820** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Operations | $80,728,081 | (1) Operations................................. $ 80,728,081 (2) Public Safety Memorial Fund ... $ 322,411 |
-| 2 | Public Safety Memorial Fund | $322,411 | (2) Public Safety Memorial Fund ... $ 322,411 SECTION 3. |
-
-Line items sum to **$81,050,492** — which matches NO stated appropriation in this section.
+| (1) | Operations | $80,728,081 | (1) Operations................................. $ 80,728,081 (2) Public Safety Memorial Fund ... $ 322,411 |
+| (2) | Public Safety Memorial Fund | $322,411 | (2) Public Safety Memorial Fund ... $ 322,411 SECTION 3. |
 
 ## Section 3 — single-appropriation
 

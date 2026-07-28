@@ -84,27 +84,23 @@ Line items sum to **$2,739,667** — which matches NO stated appropriation in th
 |---:|---|
 | $711,079 | SECTION 7. Notwithstanding any other law limiting expenditures, the amount of  $711,079 is established for the biennium beginning July 1, 2025, as the maximum limit for payment |
 
-## Section 8 — items-without-stated-total
+## Section 8 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Operations | $4,724,462 | (1) Operations................................. $ 4,724,462 (2) Grants ....................................... $ 40,765,582 |
-| 2 | Grants | $40,765,582 | (2) Grants ....................................... $ 40,765,582 SECTION 9. Notwithstanding any other law limiting  expenditures, the following amounts |
+| (1) | Operations | $4,724,462 | (1) Operations................................. $ 4,724,462 (2) Grants ....................................... $ 40,765,582 |
+| (2) | Grants | $40,765,582 | (2) Grants ....................................... $ 40,765,582 SECTION 9. Notwithstanding any other law limiting  expenditures, the following amounts |
 
-Line items sum to **$45,490,044** — which matches NO stated appropriation in this section.
+## Section 9 — subsections-not-itemized
 
-## Section 9 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Operations | $3,621,463 | (1) Operations................................. $ 3,621,463 (2) Grants ....................................... $ 57,970,114 |
-| 2 | Grants | $57,970,114 | (2) Grants ....................................... $ 57,970,114 SECTION 10. (1) The Oregon Watershed Enhancement Board shall establish  by rule a |
-
-Line items sum to **$61,591,577** — which matches NO stated appropriation in this section.
+| (1) | Operations | $3,621,463 | (1) Operations................................. $ 3,621,463 (2) Grants ....................................... $ 57,970,114 |
+| (2) | Grants | $57,970,114 | (2) Grants ....................................... $ 57,970,114 SECTION 10. (1) The Oregon Watershed Enhancement Board shall establish  by rule a |
 
 ## Curator notes
 

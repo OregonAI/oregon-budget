@@ -65,13 +65,13 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 | # | Purpose (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 |  | $800,000 | (1) $800,000 for ground water investigations; |
-| 2 |  | $450,000 | (2) $450,000 for ground water monitoring; |
-| 3 |  | $300,000 | (3) $300,000 for gaging stations; ⚠ |
-| 4 |  | $300,000 | (3) $300,000 for gaging stations; ⚠ |
-| 5 |  | $100,000 | (5) $100,000 for evapotranspiration monitoring and studies; ⚠ |
-| 6 |  | $100,000 | (5) $100,000 for evapotranspiration monitoring and studies; ⚠ |
-| 7 |  | $250,000 | (7) $250,000 for contract funding for facilitation and public engagement  in water-related monitoring, studies,  investigations and efforts related to the development of ground water |
+| 1 | for ground water investigations | $800,000 | (1) $800,000 for ground water investigations; |
+| 2 | for ground water monitoring | $450,000 | (2) $450,000 for ground water monitoring; |
+| 3 | for gaging stations | $300,000 | (3) $300,000 for gaging stations; |
+| 4 | for water use management cost share funds | $300,000 | (4) $300,000 for water use management cost share funds; |
+| 5 | for evapotranspiration monitoring and studies | $100,000 | (5) $100,000 for evapotranspiration monitoring and studies; |
+| 6 | for AgriMet; and | $100,000 | (6) $100,000 for AgriMet; and (7) $250,000 for contract funding for facilitation and public engagement  in water-related |
+| 7 | for contract funding for facilitation and public engagement in water-related monitoring, studies, investigations and efforts related to the development of ground water budgets described in section 1 | $250,000 | (7) $250,000 for contract funding for facilitation and public engagement  in water-related monitoring, studies,  investigations and efforts related to the development of ground water |
 
 Line items sum to **$2,300,000** — and that matches the stated appropriation above.
 

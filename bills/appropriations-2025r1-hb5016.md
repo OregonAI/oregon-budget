@@ -32,7 +32,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2025r1-hb5016
 sibling_snapshot_id: measure-2025r1-hb5016-enrolled
 sibling_source_sha256: ae03b6e053b19fb031d84c855e0d881b49dcace27a20a697a0407e30b437c257
-extraction_status: MISMATCH
+extraction_status: items-without-stated-total
 appropriated_to: Legislative Administration Committee
 fund: General Fund
 biennium_begins: July 1, 2025
@@ -51,7 +51,7 @@ HB 5016 (2025R1): Appropriates moneys from the General Fund to the Legislative A
 
 Parsed context: appropriated to **Legislative Administration Committee**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
 
-Extraction status: **MISMATCH**. 2 of 15 section(s) do not reconcile: their sub-items sum to a figure matching no stated total in the same section. The itemization is incomplete or mis-parsed — NOT publishable.
+Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 
 This bill appropriates in **15 separate sections**. Each is reconciled on its own: item numbering restarts per section, so amounts must never be pooled across them.
 
@@ -100,7 +100,7 @@ Line items sum to **$118,258,605** — which matches NO stated appropriation in 
 |---:|---|
 | $25,090,531 | ning July 1, 2025, out  of the General Fund, the amount of $25,090,531 for payment of the ex- penses of the following offices: |
 
-## Section 7 — MISMATCH
+## Section 7 — subsections-not-itemized
 
 **Stated appropriation**
 
@@ -109,14 +109,12 @@ Line items sum to **$118,258,605** — which matches NO stated appropriation in 
 | $36,066,804 | ginning July 1, 2025, out of the General Fund, the amount of $36,066,804 for payment of the expenses of members of the Eighty-third Legislative Assembly of the State of Oregon. |
 | $19,075,237 | 1, 2025, out of the General Fund, the amount of $19,075,237 for payment of  the expenses of members of the Eighty-fourth Legislative Assembly of the State of Oregon. |
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | There is appropriated to the Legislative Assembly, for the biennium beginning July 1, 2025, out of the General Fund, the amount of | $36,066,804 | ginning July 1, 2025, out of the General Fund, the amount of $36,066,804 for payment of the expenses of members of the Eighty-third Legislative Assembly of the State of Oregon. |
-| 2 | There is appropriated to the Legislative Assembly, for the biennium beginning July 1, 2025, out of the General Fund, the amount of | $19,075,237 | 1, 2025, out of the General Fund, the amount of $19,075,237 for payment of  the expenses of members of the Eighty-fourth Legislative Assembly of the State of Oregon. |
-
-Line items sum to **$55,142,041** — which matches NO stated appropriation in this section.
+| (1) | There is appropriated to the Legislative Assembly, for the biennium beginning July 1, 2025, out of the General Fund, the amount of | $36,066,804 | ginning July 1, 2025, out of the General Fund, the amount of $36,066,804 for payment of the expenses of members of the Eighty-third Legislative Assembly of the State of Oregon. |
+| (2) | There is appropriated to the Legislative Assembly, for the biennium beginning July 1, 2025, out of the General Fund, the amount of | $19,075,237 | 1, 2025, out of the General Fund, the amount of $19,075,237 for payment of  the expenses of members of the Eighty-fourth Legislative Assembly of the State of Oregon. |
 
 ## Section 8 — single-appropriation
 
@@ -150,7 +148,7 @@ Line items sum to **$55,142,041** — which matches NO stated appropriation in t
 |---:|---|
 | $2,680,921 | $2,680,921 is established for the biennium beginning July 1, 2025, as the maximum limit  for payment of  expenses from fees, moneys or other revenues, including Miscellaneous Receipts, |
 
-## Section 14 — MISMATCH
+## Section 14 — subsections-not-itemized
 
 **Stated appropriation**
 
@@ -159,14 +157,12 @@ Line items sum to **$55,142,041** — which matches NO stated appropriation in t
 | $10,418,582 | beginning July 1, 2025, out of the General Fund, the amount of $10,418,582. |
 | $5,783,501 | (2) Notwithstanding any other law  limiting expenditures, the amount of $5,783,501 is es- tablished for the biennium beginning July 1, 2025, as the maximum limit for payment of ex- |
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | There is appropriated to the Legislative Fiscal Officer, for the biennium beginning July 1, 2025, out of the General Fund, the amount of | $10,418,582 | beginning July 1, 2025, out of the General Fund, the amount of $10,418,582. |
-| 2 | Notwithstanding any other law limiting expenditures, the amount of | $5,783,501 | (2) Notwithstanding any other law  limiting expenditures, the amount of $5,783,501 is es- tablished for the biennium beginning July 1, 2025, as the maximum limit for payment of ex- |
-
-Line items sum to **$16,202,083** — which matches NO stated appropriation in this section.
+| (1) | There is appropriated to the Legislative Fiscal Officer, for the biennium beginning July 1, 2025, out of the General Fund, the amount of | $10,418,582 | beginning July 1, 2025, out of the General Fund, the amount of $10,418,582. |
+| (2) | Notwithstanding any other law limiting expenditures, the amount of | $5,783,501 | (2) Notwithstanding any other law  limiting expenditures, the amount of $5,783,501 is es- tablished for the biennium beginning July 1, 2025, as the maximum limit for payment of ex- |
 
 ## Section 15 — single-appropriation
 

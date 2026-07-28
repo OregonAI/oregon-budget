@@ -73,21 +73,19 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$723,564,628** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Housing Stabilization Programs | $226,785,240 | Programs .................................. $226,785,240 (2) Project-Based Rental |
-| 2 | Project-Based Rental Housing Assistance | $8,642,988 | Housing Assistance ................... $ 8,642,988 (3) Multifamily Rental |
-| 3 | Multifamily Rental Housing Programs | $331,256,659 | Housing Programs .................... $331,256,659 (4) Single Family Housing |
-| 4 | Single Family Housing Enrolled House Bill 5011 (HB 5011-A) Page 1 Programs | $26,934,194 | Programs .................................. $ 26,934,194 (5) Disaster Recovery and |
-| 5 | Disaster Recovery and Resilience | $8,000,000 | Resilience.................................. $ 8,000,000 (6) Central Services ........................ $ 46,176,352 |
-| 6 | Central Services | $46,176,352 | (6) Central Services ........................ $ 46,176,352 (7) Bond Activities ......................... $ 6,721,380 |
-| 7 | Bond Activities | $6,721,380 | (7) Bond Activities ......................... $ 6,721,380 SECTION 3. Notwithstanding any  other law limiting expenditures, the amount of |
-
-Line items sum to **$654,516,813** — which matches NO stated appropriation in this section.
+| (1) | Housing Stabilization Programs | $226,785,240 | Programs .................................. $226,785,240 (2) Project-Based Rental |
+| (2) | Project-Based Rental Housing Assistance | $8,642,988 | Housing Assistance ................... $ 8,642,988 (3) Multifamily Rental |
+| (3) | Multifamily Rental Housing Programs | $331,256,659 | Housing Programs .................... $331,256,659 (4) Single Family Housing |
+| (4) | Single Family Housing Enrolled House Bill 5011 (HB 5011-A) Page 1 Programs | $26,934,194 | Programs .................................. $ 26,934,194 (5) Disaster Recovery and |
+| (5) | Disaster Recovery and Resilience | $8,000,000 | Resilience.................................. $ 8,000,000 (6) Central Services ........................ $ 46,176,352 |
+| (6) | Central Services | $46,176,352 | (6) Central Services ........................ $ 46,176,352 (7) Bond Activities ......................... $ 6,721,380 |
+| (7) | Bond Activities | $6,721,380 | (7) Bond Activities ......................... $ 6,721,380 SECTION 3. Notwithstanding any  other law limiting expenditures, the amount of |
 
 ## Section 3 — single-appropriation
 
@@ -97,20 +95,18 @@ Line items sum to **$654,516,813** — which matches NO stated appropriation in 
 |---:|---|
 | $40,500,992 | $40,500,992 is established for the biennium beginning July 1, 2025, as the maximum limit for payment of expenses from  lottery moneys allocated from the Administrative Services Eco- |
 
-## Section 4 — items-without-stated-total
+## Section 4 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Housing Stabilization Programs | $115,993,766 | Programs ..................................  $ 115,993,766 (2) Project-Based Rental |
-| 2 | Project-Based Rental Housing Assistance | $1,026,882 | Housing Assistance ...................  $ 1,026,882 (3) Multifamily Rental |
-| 3 | Multifamily Rental Housing Programs | $46,466,360 | Housing Programs ....................  $ 46,466,360 (4) Single Family Housing |
-| 4 | Single Family Housing Programs | $12,165,154 | Programs .................................. $ 12,165,154 (5) Disaster Recovery and |
-| 5 | Disaster Recovery and Resilience | $167,383,063 | Resilience.................................. $167,383,063 (6) Central Services ........................ $ 6,196,466 |
-| 6 | Central Services | $6,196,466 | (6) Central Services ........................ $ 6,196,466 SECTION 5. For the biennium beginning July 1,  2025, expenditures by the Housing and |
-
-Line items sum to **$349,231,691** — which matches NO stated appropriation in this section.
+| (1) | Housing Stabilization Programs | $115,993,766 | Programs ..................................  $ 115,993,766 (2) Project-Based Rental |
+| (2) | Project-Based Rental Housing Assistance | $1,026,882 | Housing Assistance ...................  $ 1,026,882 (3) Multifamily Rental |
+| (3) | Multifamily Rental Housing Programs | $46,466,360 | Housing Programs ....................  $ 46,466,360 (4) Single Family Housing |
+| (4) | Single Family Housing Programs | $12,165,154 | Programs .................................. $ 12,165,154 (5) Disaster Recovery and |
+| (5) | Disaster Recovery and Resilience | $167,383,063 | Resilience.................................. $167,383,063 (6) Central Services ........................ $ 6,196,466 |
+| (6) | Central Services | $6,196,466 | (6) Central Services ........................ $ 6,196,466 SECTION 5. For the biennium beginning July 1,  2025, expenditures by the Housing and |
 
 ## Section 6 — single-appropriation
 

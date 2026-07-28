@@ -32,7 +32,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2025r1-sb5516
 sibling_snapshot_id: measure-2025r1-sb5516-enrolled
 sibling_source_sha256: 0b7daf82ad7594a55f015a5792c438da21878fcaf339a4ca59d2cf8c04ec098a
-extraction_status: items-without-stated-total
+extraction_status: single-appropriation
 appropriated_to: Department of Education
 fund: General Fund
 biennium_begins: July 1, 2025
@@ -51,7 +51,7 @@ SB 5516 (2025R1): Appropriates moneys from the General Fund to the Department of
 
 Parsed context: appropriated to **Department of Education**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
 
-Extraction status: **items-without-stated-total**. No itemization to reconcile against.
+Extraction status: **single-appropriation**. No itemization to reconcile against.
 
 This bill appropriates in **7 separate sections**. Each is reconciled on its own: item numbering restarts per section, so amounts must never be pooled across them.
 
@@ -89,37 +89,31 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 |---:|---|
 | $839,625,392 | $839,625,392 is established for the biennium beginning July 1, 2025, as the  maximum limit for payment of expenses by the Department of Education from fees,  moneys or other revenues, |
 
-## Section 5 — items-without-stated-total
+## Section 5 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | May spend up to | $968,000 | (1) May spend up to $968,000 from the State School  Fund for the contract described in ORS 329.488. |
-| 2 | May spend up to | $1,600,000 | (2) May spend up to $1,600,000 from the  State School Fund for purposes related to Oregon Digital Learning. |
+| (1) | May spend up to | $968,000 | (1) May spend up to $968,000 from the State School  Fund for the contract described in ORS 329.488. |
+| (2) | May spend up to | $1,600,000 | (2) May spend up to $1,600,000 from the  State School Fund for purposes related to Oregon Digital Learning. |
 
-Line items sum to **$2,568,000** — which matches NO stated appropriation in this section.
+## Section 6 — subsections-not-itemized
 
-## Section 6 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 11 | for the biennium beginning July 1, 2025, the Department of Education shall transfer | $30,807,937 | $30,807,937 from the State  School Fund to the Educator Advancement Fund established under ORS 342.953. |
-| 2 | the purpose of making the transfer under this section: (a) The total amount available for all distributions from the State School Fund shall be reduced by | $6,794,711 | reduced by $6,794,711; |
+| (11) | for the biennium beginning July 1, 2025, the Department of Education shall transfer | $30,807,937 | $30,807,937 from the State  School Fund to the Educator Advancement Fund established under ORS 342.953. |
+| (2) | the purpose of making the transfer under this section: (a) The total amount available for all distributions from the State School Fund shall be reduced by | $6,794,711 | reduced by $6,794,711; |
 
-Line items sum to **$37,602,648** — which matches NO stated appropriation in this section.
+## Section 7 — subsections-not-itemized
 
-## Section 7 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 3 | for the biennium beginning July 1, 2025, the Department of Education shall transfer | $44,827,044 | $44,827,044 from the State School Fund to  the Special Education Account established under ORS 343.247. |
-
-Line items sum to **$44,827,044** — which matches NO stated appropriation in this section.
+| (3) | for the biennium beginning July 1, 2025, the Department of Education shall transfer | $44,827,044 | $44,827,044 from the State School Fund to  the Special Education Account established under ORS 343.247. |
 
 ## Curator notes
 

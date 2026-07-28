@@ -91,7 +91,8 @@ def reflow(lines: list[str]) -> str:
     return re.sub(r"[ \t]{2,}", " ", raw)
 
 
-def verbatim_for(amount_text: str, lines: list[str]) -> tuple[str, bool]:
+def verbatim_for(amount_text: str, lines: list[str], item_no: int | None = None
+                 ) -> tuple[str, bool]:
     """The unreflowed source line(s) containing this amount, and whether it was ambiguous.
 
     Returned untouched. A reviewer must be able to compare the extracted figure against
@@ -102,15 +103,45 @@ def verbatim_for(amount_text: str, lines: list[str]) -> tuple[str, bool]:
     hits = [i for i, l in enumerate(lines) if needle in l.replace(" ", "")]
     if not hits:
         return "", True
+    # Two items in one bill can carry the SAME amount — HB2018 grants $3,000,000 to both
+    # Beaverton and another city. Taking the first occurrence then quotes the wrong item's
+    # line: right figure, wrong evidence, which is worse than no evidence because it reads
+    # as confirmation. Prefer the line that opens with this item's own number.
     i = hits[0]
-    # A wrapped sentence needs its continuation to be legible as evidence.
+    if item_no is not None and len(hits) > 1:
+        numbered = [h for h in hits if lines[h].lstrip().startswith(f"({item_no})")]
+        if numbered:
+            return _with_continuation(numbered[0], lines), False
+    return _with_continuation(i, lines), len(hits) > 1
+
+
+def _with_continuation(i: int, lines: list[str]) -> str:
+    """A wrapped sentence needs its continuation to be legible as evidence."""
     quote = lines[i].strip()
     if i + 1 < len(lines) and (quote.endswith("-") or not quote.endswith((".", ";", ":"))):
         quote += "\n" + lines[i + 1].strip()
-    return quote, len(hits) > 1
+    return quote
 
 
 SECTION_SPLIT = re.compile(r"(?=SECTION\s+\d+\.)")
+
+# A bill only has an ITEMIZATION where it says it does. This is the lead-in that announces
+# one, and sub-items are read only from AFTER it, inside the same section.
+# The window to the colon is 200 chars, measured not guessed: HB2018 reads "the following
+# amounts for distribution to the following entities for the following infrastructure
+# projects to support the development of housing:" — 115 characters, and an 80-char window
+# silently dropped a genuine 20-item list. `[^.]` still terminates at the first sentence
+# end, so this stays tight despite the length.
+ITEMIZATION_LEADIN = re.compile(
+    r"(following amounts|as follows|following programs|following manner|allocated as)"
+    r"[^.]{0,200}:", re.I)
+
+# Phrasing that marks a "(N)" as a STATUTORY SUBSECTION rather than a line item. A
+# subsection is an independent provision — another appropriation, a spending cap, an
+# expenditure limitation — and adding it to a sibling subsection is meaningless.
+SUBSECTION_PROSE = re.compile(
+    r"there is appropriated|the amount of|of the moneys|notwithstanding|shall expend|"
+    r"may withhold|is established|not to exceed", re.I)
 
 
 def split_sections(flowed: str) -> list[str]:
@@ -142,19 +173,38 @@ def parse_bill(flowed: str, raw_lines: list[str]) -> dict:
             quote, ambiguous = verbatim_for(m.group(0)[m.group(0).index("$"):], raw_lines)
             totals.append({"amount": money(m.group(1)), "source_line": quote,
                            "ambiguous_source": ambiguous})
+        # ONLY read sub-items after an explicit itemization lead-in. Without this, "(1)"
+        # and "(2)" statutory subsections were parsed as addends: HB3837's (1) IS the
+        # appropriation and its (2) caps administration at $200,000 out of that same money;
+        # HB5016 section 7's (1) and (2) are two separate appropriations, to the 83rd and
+        # 84th Legislative Assemblies. Summing either pair is meaningless, and it produced
+        # every remaining MISMATCH.
+        lead = ITEMIZATION_LEADIN.search(chunk)
         items = []
+        subsections = []
         for m in SUBITEM.finditer(chunk):
-            quote, ambiguous = verbatim_for("$" + m.group(3), raw_lines)
+            quote, ambiguous = verbatim_for("$" + m.group(3), raw_lines, int(m.group(1)))
             # Dotted leaders are typographic filler in budget tables, not the purpose.
             purpose = re.sub(r"[.\s]{3,}", " ", m.group(2))
             purpose = re.sub(r"\s+", " ", purpose).strip(" ,;").removeprefix("For ").strip()
-            items.append({"item": int(m.group(1)), "purpose": purpose,
-                          "amount": money(m.group(3)), "source_line": quote,
-                          "ambiguous_source": ambiguous})
-        if totals or items:
+            if not purpose:
+                # Amount-first phrasing: the recipient follows the figure, so read to the
+                # end of the sentence instead. Without this the purpose column was blank
+                # for every item in HB2018's 44-entry infrastructure list.
+                tail = chunk[m.end():m.end() + 200].split("\n")[0]
+                tail = re.split(r"(?<=[a-z0-9])\.\s", tail)[0]
+                purpose = re.sub(r"\s+", " ", tail).strip(" .,;")
+            entry = {"item": int(m.group(1)), "purpose": purpose,
+                     "amount": money(m.group(3)), "source_line": quote,
+                     "ambiguous_source": ambiguous}
+            is_item = bool(lead) and m.start() >= lead.end() \
+                and not SUBSECTION_PROSE.search(m.group(2))
+            (items if is_item else subsections).append(entry)
+        if totals or items or subsections:
             label = re.match(r"SECTION\s+(\d+)\.", chunk)
             sections.append({"section": label.group(1) if label else str(n),
-                             "stated_totals": totals, "line_items": items})
+                             "stated_totals": totals, "line_items": items,
+                             "subsections": subsections})
 
     return {
         "appropriated_to": body.group(1).strip() if body else None,
@@ -163,6 +213,7 @@ def parse_bill(flowed: str, raw_lines: list[str]) -> dict:
         "sections": sections,
         "stated_totals": [t for s in sections for t in s["stated_totals"]],
         "line_items": [i for s in sections for i in s["line_items"]],
+        "subsections": [x for s in sections for x in s["subsections"]],
         "distinct_amounts_in_text": len(AMOUNT.findall(flowed)),
     }
 
@@ -186,6 +237,9 @@ def reconcile(parsed: dict) -> dict:
         elif items:
             e["items_sum"] = sum(items)
             e["status"] = "items-without-stated-total"
+        elif s["subsections"]:
+            # Independent provisions, deliberately NOT summed. See SUBSECTION_PROSE.
+            e["status"] = "subsections-not-itemized"
         else:
             e["status"] = ("single-appropriation" if len(totals) == 1
                            else "multiple-totals-no-itemization")
@@ -243,6 +297,18 @@ def _tables(L: list, sec: dict, e: dict) -> None:
                        "which matches NO stated appropriation in this section")
             L.append(f"Line items sum to **${e['items_sum']:,}** — {verdict}.")
             L.append("")
+    if sec.get("subsections"):
+        L.append("**Other amounts in this section** — separate statutory provisions "
+                 "(a further appropriation, a spending cap, an expenditure limitation). "
+                 "They are **not** components of the appropriation above and must never "
+                 "be summed with it or with each other.")
+        L.append("")
+        L.append("| Subsection | Text (parsed) | Amount | Verbatim source line |")
+        L.append("|---|---|---:|---|")
+        for it in sec["subsections"]:
+            q = it["source_line"].replace("\n", " ").replace("|", "\\|")
+            L.append(f"| ({it['item']}) | {it['purpose']} | ${it['amount']:,} | {q} |")
+        L.append("")
 
 
 def build_doc(measure: dict, parsed: dict, rec: dict, sibling_sha: str, today: str) -> str:

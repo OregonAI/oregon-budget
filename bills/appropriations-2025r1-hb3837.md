@@ -32,7 +32,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2025r1-hb3837
 sibling_snapshot_id: measure-2025r1-hb3837-introduced
 sibling_source_sha256: a4827815d1b3718ff5cd02942254497982ce88ae758591940dac23f51c424cf9
-extraction_status: MISMATCH
+extraction_status: subsections-not-itemized
 appropriated_to: Oregon Business Development Department
 fund: General Fund
 biennium_begins: null
@@ -51,7 +51,7 @@ HB 3837 (2025R1): Appropriates moneys to the Oregon Business Development Departm
 
 Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**.
 
-Extraction status: **MISMATCH**. 1 of 1 section(s) do not reconcile: their sub-items sum to a figure matching no stated total in the same section. The itemization is incomplete or mis-parsed — NOT publishable.
+Extraction status: **subsections-not-itemized**. No itemization to reconcile against.
 
 The full text of this bill lives in the `oregon-legislature` corpus as `measure-2025r1-hb3837` and is referenced, not copied.
 
@@ -61,14 +61,12 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 |---:|---|
 | $2,775,000 | for the biennium ending June 30, 2025, out of the General Fund, the amount of $2,775,000. |
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | There is appropriated to the Oregon Business Development Department, for the biennium ending June 30, 2025, out of the General Fund, the amount of | $2,775,000 | for the biennium ending June 30, 2025, out of the General Fund, the amount of $2,775,000. |
-| 2 | Of the moneys appropriated under this section: (a) The Oregon Business Development Department may withhold an amount not to exceed | $200,000 | ceed $200,000 for the actual costs it incurs in administering section 2 of this 2025 Act; and (b) The balance may be used solely for  the purposes set forth in section 2 of this 2025 |
-
-Line items sum to **$2,975,000** — which matches NO stated appropriation in this section.
+| (1) | There is appropriated to the Oregon Business Development Department, for the biennium ending June 30, 2025, out of the General Fund, the amount of | $2,775,000 | for the biennium ending June 30, 2025, out of the General Fund, the amount of $2,775,000. |
+| (2) | Of the moneys appropriated under this section: (a) The Oregon Business Development Department may withhold an amount not to exceed | $200,000 | ceed $200,000 for the actual costs it incurs in administering section 2 of this 2025 Act; and (b) The balance may be used solely for  the purposes set forth in section 2 of this 2025 |
 
 ## Curator notes
 

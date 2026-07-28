@@ -71,31 +71,27 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$547,923,500** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Patrol and Public Safety Services, Criminal Investigation and Gaming Enforcement | $54,230,597 | Enforcement ............................. $ 54,230,597 (2) Fish and Wildlife ....................... $ 35,108,856 |
-| 2 | Fish and Wildlife | $35,108,856 | (2) Fish and Wildlife ....................... $ 35,108,856 (3) Forensic Services and |
-| 3 | Forensic Services and Office of the Chief Medical Examiner | $2,475,562 | Examiner................................... $ 2,475,562 (4) Office of the Superintendent, |
-| 4 | Office of the Superintendent, Support Services and Criminal Enrolled House Bill 5029 (HB 5029-A) Page 1 Justice Info Services | $41,575,877 | Justice Info Services ................. $ 41,575,877 SECTION 3. Notwithstanding any other law limiting  expenditures, the following amounts |
+| (1) | Patrol and Public Safety Services, Criminal Investigation and Gaming Enforcement | $54,230,597 | Enforcement ............................. $ 54,230,597 (2) Fish and Wildlife ....................... $ 35,108,856 |
+| (2) | Fish and Wildlife | $35,108,856 | (2) Fish and Wildlife ....................... $ 35,108,856 (3) Forensic Services and |
+| (3) | Forensic Services and Office of the Chief Medical Examiner | $2,475,562 | Examiner................................... $ 2,475,562 (4) Office of the Superintendent, |
+| (4) | Office of the Superintendent, Support Services and Criminal Enrolled House Bill 5029 (HB 5029-A) Page 1 Justice Info Services | $41,575,877 | Justice Info Services ................. $ 41,575,877 SECTION 3. Notwithstanding any other law limiting  expenditures, the following amounts |
 
-Line items sum to **$133,390,892** — which matches NO stated appropriation in this section.
+## Section 3 — subsections-not-itemized
 
-## Section 3 — items-without-stated-total
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-**Line items**
-
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Patrol and Public Safety Services and Criminal Investigation | $3,329,825 | Investigation ............................. $ 3,329,825 (2) Fish and Wildlife ....................... $ 3,178,801 |
-| 2 | Fish and Wildlife | $3,178,801 | (2) Fish and Wildlife ....................... $ 3,178,801 (3) Forensic Services ...................... $ 4,197,550 |
-| 3 | Forensic Services | $4,197,550 | (3) Forensic Services ...................... $ 4,197,550 (4) Support Services and Criminal |
-| 4 | Support Services and Criminal Justice Info Services | $5,934,396 | Justice Info Services ................. $ 5,934,396 SECTION 4. |
-
-Line items sum to **$16,640,572** — which matches NO stated appropriation in this section.
+| (1) | Patrol and Public Safety Services and Criminal Investigation | $3,329,825 | Investigation ............................. $ 3,329,825 (2) Fish and Wildlife ....................... $ 3,178,801 |
+| (2) | Fish and Wildlife | $3,178,801 | (2) Fish and Wildlife ....................... $ 3,178,801 (3) Forensic Services ...................... $ 4,197,550 |
+| (3) | Forensic Services | $4,197,550 | (3) Forensic Services ...................... $ 4,197,550 (4) Support Services and Criminal |
+| (4) | Support Services and Criminal Justice Info Services | $5,934,396 | Justice Info Services ................. $ 5,934,396 SECTION 4. |
 
 ## Section 4 — single-appropriation
 

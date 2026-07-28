@@ -70,22 +70,20 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$160,654,771** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Agency administration | $71,590,442 | (1) Agency administration .............. $ 71,590,442 (2) Fire protection .......................... $116,323,906 |
-| 2 | Fire protection | $116,323,906 | (2) Fire protection .......................... $116,323,906 (3) State forests ............................. $131,308,926 |
-| 3 | State forests | $131,308,926 | (3) State forests ............................. $131,308,926 (4) Forest resources ....................... $ 36,345,324 |
-| 4 | Forest resources | $36,345,324 | (4) Forest resources ....................... $ 36,345,324 (5) Capital improvement................. $ 10,651,626 |
-| 5 | Capital improvement | $10,651,626 | (5) Capital improvement................. $ 10,651,626 (6) Debt service .............................. $ 3,147,987 |
-| 6 | Debt service | $3,147,987 | (6) Debt service .............................. $ 3,147,987 (7) Equipment pool......................... $ 35,410,736 |
-| 7 | Equipment pool | $35,410,736 | (7) Equipment pool......................... $ 35,410,736 (8) Facilities maintenance |
-| 8 | Facilities maintenance and management | $6,411,934 | and management ....................... $ 6,411,934 SECTION 3. |
-
-Line items sum to **$411,190,881** — which matches NO stated appropriation in this section.
+| (1) | Agency administration | $71,590,442 | (1) Agency administration .............. $ 71,590,442 (2) Fire protection .......................... $116,323,906 |
+| (2) | Fire protection | $116,323,906 | (2) Fire protection .......................... $116,323,906 (3) State forests ............................. $131,308,926 |
+| (3) | State forests | $131,308,926 | (3) State forests ............................. $131,308,926 (4) Forest resources ....................... $ 36,345,324 |
+| (4) | Forest resources | $36,345,324 | (4) Forest resources ....................... $ 36,345,324 (5) Capital improvement................. $ 10,651,626 |
+| (5) | Capital improvement | $10,651,626 | (5) Capital improvement................. $ 10,651,626 (6) Debt service .............................. $ 3,147,987 |
+| (6) | Debt service | $3,147,987 | (6) Debt service .............................. $ 3,147,987 (7) Equipment pool......................... $ 35,410,736 |
+| (7) | Equipment pool | $35,410,736 | (7) Equipment pool......................... $ 35,410,736 (8) Facilities maintenance |
+| (8) | Facilities maintenance and management | $6,411,934 | and management ....................... $ 6,411,934 SECTION 3. |
 
 ## Section 3 — single-appropriation
 
@@ -95,18 +93,16 @@ Line items sum to **$411,190,881** — which matches NO stated appropriation in 
 |---:|---|
 | $2,558,120 | $2,558,120 is established for the biennium beginning July 1, 2025, as the maximum limit  for payment of expenses from  lottery moneys allocated from the Administrative Services Eco- |
 
-## Section 4 — items-without-stated-total
+## Section 4 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Agency administration | $2,865,032 | (1) Agency administration .............. $ 2,865,032 (2) Fire protection .......................... $ 21,267,926 |
-| 2 | Fire protection | $21,267,926 | (2) Fire protection .......................... $ 21,267,926 (3) State forests ............................. $ 1,028,879 |
-| 3 | State forests | $1,028,879 | (3) State forests ............................. $ 1,028,879 (4) Forest resources ....................... $ 59,880,561 |
-| 4 | Forest resources | $59,880,561 | (4) Forest resources ....................... $ 59,880,561 SECTION 5. In addition to and not in lieu of any other appropriation,  there is appropri- |
-
-Line items sum to **$85,042,398** — which matches NO stated appropriation in this section.
+| (1) | Agency administration | $2,865,032 | (1) Agency administration .............. $ 2,865,032 (2) Fire protection .......................... $ 21,267,926 |
+| (2) | Fire protection | $21,267,926 | (2) Fire protection .......................... $ 21,267,926 (3) State forests ............................. $ 1,028,879 |
+| (3) | State forests | $1,028,879 | (3) State forests ............................. $ 1,028,879 (4) Forest resources ....................... $ 59,880,561 |
+| (4) | Forest resources | $59,880,561 | (4) Forest resources ....................... $ 59,880,561 SECTION 5. In addition to and not in lieu of any other appropriation,  there is appropri- |
 
 ## Section 5 — single-appropriation
 

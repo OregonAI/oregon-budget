@@ -71,18 +71,16 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$10,173,865** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Operations | $2,766,920 | (1) Operations................................. $ 2,766,920 (2) Appeals and special advocacy ... $ 2,171,523 |
-| 2 | Appeals and special advocacy | $2,171,523 | (2) Appeals and special advocacy ... $ 2,171,523 (3) Strategic partnership ................ $ 14,595,917 |
-| 3 | Strategic partnership | $14,595,917 | (3) Strategic partnership ................ $ 14,595,917 (4) Aging veteran services ............. $ 3,606,304 |
-| 4 | Aging veteran services | $3,606,304 | (4) Aging veteran services ............. $ 3,606,304 SECTION 3. Notwithstanding any other law limiting expenditures, the amount of  $551,000 |
-
-Line items sum to **$23,140,664** — which matches NO stated appropriation in this section.
+| (1) | Operations | $2,766,920 | (1) Operations................................. $ 2,766,920 (2) Appeals and special advocacy ... $ 2,171,523 |
+| (2) | Appeals and special advocacy | $2,171,523 | (2) Appeals and special advocacy ... $ 2,171,523 (3) Strategic partnership ................ $ 14,595,917 |
+| (3) | Strategic partnership | $14,595,917 | (3) Strategic partnership ................ $ 14,595,917 (4) Aging veteran services ............. $ 3,606,304 |
+| (4) | Aging veteran services | $3,606,304 | (4) Aging veteran services ............. $ 3,606,304 SECTION 3. Notwithstanding any other law limiting expenditures, the amount of  $551,000 |
 
 ## Section 3 — single-appropriation
 

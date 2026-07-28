@@ -59,11 +59,16 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 | # | Purpose (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Port of Brookings Harbor: | $50,000 | (1) Port of Brookings Harbor: $50,000. |
 | 2 | Port of Bandon: | $225,000 | (2) Port of Bandon: $225,000. |
 | 3 | Port of Newport: | $750,000 | (3) Port of Newport: $750,000. |
 
-Line items sum to **$1,025,000** — which matches NO stated appropriation in this section.
+Line items sum to **$975,000** — which matches NO stated appropriation in this section.
+
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
+
+| Subsection | Text (parsed) | Amount | Verbatim source line |
+|---|---|---:|---|
+| (1) | Port of Brookings Harbor: | $50,000 | (1) Port of Brookings Harbor: $50,000. |
 
 ## Curator notes
 

@@ -73,30 +73,28 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$15,763,552** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Chief Operating Office | $14,094,212 | (1) Chief Operating Office .......... $ 14,094,212 Enrolled House Bill 5002 (HB 5002-A) Page 1 |
-| 2 | Chief Financial Office | $33,674,580 | (2) Chief Financial Office ........... $ 33,674,580 (3) Office of the State Chief |
-| 3 | Office of the State Chief Information Officer: (a) Policy | $112,278,023 | (a) Policy .................................... $ 112,278,023 (b) Microsoft 365......................... $ 63,826,322 |
-| 4 | Chief Human Resources Office | $28,965,652 | Office..................................... $ 28,965,652 (5) Office of the State Chief |
-| 5 | Office of the State Chief Information Officer - State Data Center: (a) Operations | $144,833,003 | (a) Operations............................. $ 144,833,003 (b) Pass-through expenditures ... $ 2,488,298 |
-| 6 | Workday Oregon | $42,142,472 | (6) Workday Oregon ................... $ 42,142,472 (7) Enterprise Asset |
-| 7 | Enterprise Asset Management | $122,501,283 | Management.......................... $ 122,501,283 (8) Enterprise Goods |
-| 8 | Enterprise Goods and Services | $161,117,563 | and Services .......................... $ 161,117,563 (9) Business Services .................. $ 31,933,778 |
-| 9 | Business Services | $31,933,778 | (9) Business Services .................. $ 31,933,778 (10) Capital improvements ........... $ 4,935,852 |
-| 10 | Capital improvements | $4,935,852 | (10) Capital improvements ........... $ 4,935,852 (11) Principal and interest |
-| 11 | Principal and interest payments for outstanding Article XI-O bonds | $544,178,474 | Article XI-O bonds ................ $ 544,178,474 (12) Treasury fees ........................ $ 492,742 |
-| 12 | Treasury fees | $492,742 | (12) Treasury fees ........................ $ 492,742 (13) Oregon Department of |
-| 13 | Oregon Department of Administrative Services debt service | $34,267,122 | debt service........................... $ 34,267,122 (14) Oregon Department of |
-| 14 | Oregon Department of Administrative Services information technology | $22,596,577 | information technology ......... $ 22,596,577 (15) Special governmental |
-| 15 | Special governmental payments | $300,000 | payments............................... $ 300,000 (16) Court Appointed Special |
-| 16 | Court Appointed Special Advocates | $199,833 | Advocates.............................. $ 199,833 SECTION 3. |
-
-Line items sum to **$1,298,511,166** — which matches NO stated appropriation in this section.
+| (1) | Chief Operating Office | $14,094,212 | (1) Chief Operating Office .......... $ 14,094,212 Enrolled House Bill 5002 (HB 5002-A) Page 1 |
+| (2) | Chief Financial Office | $33,674,580 | (2) Chief Financial Office ........... $ 33,674,580 (3) Office of the State Chief |
+| (3) | Office of the State Chief Information Officer: (a) Policy | $112,278,023 | (a) Policy .................................... $ 112,278,023 (b) Microsoft 365......................... $ 63,826,322 |
+| (4) | Chief Human Resources Office | $28,965,652 | Office..................................... $ 28,965,652 (5) Office of the State Chief |
+| (5) | Office of the State Chief Information Officer - State Data Center: (a) Operations | $144,833,003 | (a) Operations............................. $ 144,833,003 (b) Pass-through expenditures ... $ 2,488,298 |
+| (6) | Workday Oregon | $42,142,472 | (6) Workday Oregon ................... $ 42,142,472 (7) Enterprise Asset |
+| (7) | Enterprise Asset Management | $122,501,283 | Management.......................... $ 122,501,283 (8) Enterprise Goods |
+| (8) | Enterprise Goods and Services | $161,117,563 | and Services .......................... $ 161,117,563 (9) Business Services .................. $ 31,933,778 |
+| (9) | Business Services | $31,933,778 | (9) Business Services .................. $ 31,933,778 (10) Capital improvements ........... $ 4,935,852 |
+| (10) | Capital improvements | $4,935,852 | (10) Capital improvements ........... $ 4,935,852 (11) Principal and interest |
+| (11) | Principal and interest payments for outstanding Article XI-O bonds | $544,178,474 | Article XI-O bonds ................ $ 544,178,474 (12) Treasury fees ........................ $ 492,742 |
+| (12) | Treasury fees | $492,742 | (12) Treasury fees ........................ $ 492,742 (13) Oregon Department of |
+| (13) | Oregon Department of Administrative Services debt service | $34,267,122 | debt service........................... $ 34,267,122 (14) Oregon Department of |
+| (14) | Oregon Department of Administrative Services information technology | $22,596,577 | information technology ......... $ 22,596,577 (15) Special governmental |
+| (15) | Special governmental payments | $300,000 | payments............................... $ 300,000 (16) Court Appointed Special |
+| (16) | Court Appointed Special Advocates | $199,833 | Advocates.............................. $ 199,833 SECTION 3. |
 
 ## Section 3 — single-appropriation
 

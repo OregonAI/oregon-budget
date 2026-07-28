@@ -71,16 +71,14 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 Line items sum to **$38,837,243** — which matches NO stated appropriation in this section.
 
-## Section 2 — items-without-stated-total
+## Section 2 — subsections-not-itemized
 
-**Line items**
+**Other amounts in this section** — separate statutory provisions (a further appropriation, a spending cap, an expenditure limitation). They are **not** components of the appropriation above and must never be summed with it or with each other.
 
-| # | Purpose (parsed) | Amount | Verbatim source line |
+| Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 1 | Office of the State Fire Marshal, business services, emergency response, fire and life safety services, fire and life safety education | $48,237,491 | and life safety education ........... $ 48,237,491 (2) Regulatory services................... $ 5,403,945 |
-| 2 | Regulatory services | $5,403,945 | (2) Regulatory services................... $ 5,403,945 SECTION 3. |
-
-Line items sum to **$53,641,436** — which matches NO stated appropriation in this section.
+| (1) | Office of the State Fire Marshal, business services, emergency response, fire and life safety services, fire and life safety education | $48,237,491 | and life safety education ........... $ 48,237,491 (2) Regulatory services................... $ 5,403,945 |
+| (2) | Regulatory services | $5,403,945 | (2) Regulatory services................... $ 5,403,945 SECTION 3. |
 
 ## Section 3 — single-appropriation
 
