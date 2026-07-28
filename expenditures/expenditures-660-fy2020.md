@@ -104,9 +104,36 @@ The 12 largest of 59 expenditure classes used by this agency in FY2020.
 | 4108 | Instate Ground Transportation | $39,764.30 | 1.3% |
 | 4101 | Instate Meals With Overnight Stay | $23,659.93 | 0.8% |
 
+## Largest vendors
+
+The 20 largest of 249 payees this agency recorded payments to in FY2020, accounting for 74.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $587,867.01 | 19.8% | 13 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $321,580.23 | 10.9% | 1 |
+| PORTLAND STATE UNIVERSITY | $205,510.24 | 6.9% | 2 |
+| ANGELO PLANNING GROUP INC | $154,953.00 | 5.2% | 1 |
+| STATE OF OREGON DEPT OF GEOLOGY AND MINERAL IND | $121,982.99 | 4.1% | 1 |
+| ECONOMIC CONSULTANTS OREGON | $114,400.00 | 3.9% | 2 |
+| CDW GOVERNMENT INC | $95,482.88 | 3.2% | 5 |
+| US BANK NATIONAL ASSOCIATION ND | $75,448.68 | 2.5% | 26 |
+| COUNTY OF COOS | $73,777.45 | 2.5% | 1 |
+| 3J CONSULTING INC | $60,195.00 | 2.0% | 1 |
+| FINANCIAL CONSULTING SOLUTIONS GROUP INC | $56,775.00 | 1.9% | 1 |
+| CLACKAMAS COUNTY FINANCE | $50,000.00 | 1.7% | 1 |
+| WASCO COUNTY | $45,000.00 | 1.5% | 1 |
+| OTAK INC | $44,595.74 | 1.5% | 1 |
+| CITY OF BROOKINGS | $40,000.00 | 1.3% | 1 |
+| COUNTY OF MULTNOMAH | $35,000.00 | 1.2% | 1 |
+| GRANICUS INC | $32,969.50 | 1.1% | 7 |
+| AIRTOUCH CELLULAR | $32,724.31 | 1.1% | 1 |
+| STATE OF OREGON WATER RESOURCES DEPARTMENT | $31,990.57 | 1.1% | 1 |
+| CITY OF LOWELL | $30,000.00 | 1.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 444 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 444 vendor-level transaction records covering 249 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

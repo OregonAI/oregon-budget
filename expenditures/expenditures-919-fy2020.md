@@ -99,9 +99,36 @@ The 12 largest of 43 expenditure classes used by this agency in FY2020.
 | 4109 | Instate Mileage Reimbursement-Full Rate | $9,876.11 | 1.4% |
 | 4200 | Office Supplies | $9,605.15 | 1.3% |
 
+## Largest vendors
+
+The 20 largest of 49 payees this agency recorded payments to in FY2020, accounting for 97.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| THE EQUITABLE CENTER LLC | $163,332.04 | 22.7% | 9 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $143,782.87 | 20.0% | 8 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $86,572.66 | 12.1% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $74,214.82 | 10.3% | 24 |
+| US BANK NATIONAL ASSOCIATION | $56,539.80 | 7.9% | 2 |
+| EMPLOYMENT DEPARTMENT | $36,939.10 | 5.1% | 1 |
+| MICROPACT GLOBAL INC | $31,551.25 | 4.4% | 2 |
+| STATE OF OREGON - SECRETARY OF STATE | $31,125.00 | 4.3% | 1 |
+| OREGON STATE TREASURY | $24,485.45 | 3.4% | 2 |
+| IBM CORPORATION | $16,698.27 | 2.3% | 2 |
+| DEPARTMENT OF FISH & WILDLIFE | $6,877.50 | 1.0% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $5,605.25 | 0.8% | 1 |
+| QWEST | $4,998.82 | 0.7% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $4,900.00 | 0.7% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $4,618.98 | 0.6% | 1 |
+| CARAHSOFT TECHNOLOGY CORPORATION | $2,996.40 | 0.4% | 1 |
+| SELINA BARNES | $2,327.55 | 0.3% | 6 |
+| KING CONSTRUCTION NW LLC | $1,950.00 | 0.3% | 1 |
+| STEVE STRODE | $1,733.64 | 0.2% | 5 |
+| WILLAMETTE UNIVERSITY | $1,500.00 | 0.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 140 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 140 vendor-level transaction records covering 49 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

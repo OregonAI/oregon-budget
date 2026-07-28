@@ -119,9 +119,36 @@ The 12 largest of 82 expenditure classes used by this agency in FY2021.
 | 4500 | Professional Services Non-It | $363,343.78 | 2.5% |
 | 4704 | Other Supplies | $340,591.13 | 2.3% |
 
+## Largest vendors
+
+The 20 largest of 595 payees this agency recorded payments to in FY2021, accounting for 76.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $2,696,515.69 | 18.3% | 15 |
+| OREGON STATE UNIVERSITY | $1,894,553.29 | 12.9% | 10 |
+| US BANK NATIONAL ASSOCIATION ND | $1,195,037.04 | 8.1% | 41 |
+| STATE DEPARTMENT OF AGRICULTURE | $939,763.36 | 6.4% | 4 |
+| PINE RIDGE INVESTMENT CORP | $897,059.75 | 6.1% | 1 |
+| DEPARTMENT OF ENVIRONMENTAL QUALITY | $725,394.00 | 4.9% | 3 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $691,701.76 | 4.7% | 1 |
+| USDA APHIS | $267,940.39 | 1.8% | 1 |
+| OREGON STATE TREASURY | $253,730.01 | 1.7% | 1 |
+| US BANK NATIONAL ASSOCIATION | $236,993.69 | 1.6% | 3 |
+| US DEPT OF AGRICULTURE | $235,769.34 | 1.6% | 4 |
+| SHI INTERNATIONAL CORP | $152,477.58 | 1.0% | 3 |
+| EMPLOYMENT DEPARTMENT | $149,690.73 | 1.0% | 2 |
+| WILCO FARMERS | $135,400.54 | 0.9% | 1 |
+| WASTE MANAGEMENT | $135,066.86 | 0.9% | 1 |
+| VERIZON NORTHWEST INC | $126,830.63 | 0.9% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $121,136.52 | 0.8% | 3 |
+| BEST BUY IN TOWN INC | $119,347.68 | 0.8% | 1 |
+| OREGON STATE HEALTH DIVISION | $118,125.00 | 0.8% | 1 |
+| 211 INFO | $99,999.72 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 916 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 916 vendor-level transaction records covering 595 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -130,9 +130,36 @@ The 12 largest of 136 expenditure classes used by this agency in FY2022.
 | 5170 | Motor Vehicles>=$5K | $13,818,411.77 | 0.7% |
 | 4701 | Other Services | $11,059,555.50 | 0.6% |
 
+## Largest vendors
+
+The 20 largest of 7,469 payees this agency recorded payments to in FY2022, accounting for 53.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OFFICE OF THE STATE TREASURER | $202,735,815.14 | 10.8% | 7 |
+| PORTLAND CITY OF | $94,998,703.22 | 5.1% | 10 |
+| TRIMET | $73,289,587.25 | 3.9% | 4 |
+| CDR MAGUIRE INC | $64,990,265.52 | 3.5% | 1 |
+| OREGON DEPT OF ADMINISTRATIVE SERVICES | $60,928,671.84 | 3.3% | 38 |
+| SUULUTAAQ INC | $55,700,330.89 | 3.0% | 2 |
+| KERR CONTRACTORS OREGON LLC | $49,902,192.35 | 2.7% | 1 |
+| K & E EXCAVATING INC | $44,441,874.91 | 2.4% | 2 |
+| HDR ENGINEERING INC | $44,275,340.71 | 2.4% | 1 |
+| HAMILTON CONSTRUCTION CO | $44,089,574.92 | 2.4% | 2 |
+| DAVID EVANS & ASSOCIATES INC | $39,686,984.03 | 2.1% | 4 |
+| CERES ENVIRONMENTAL SERVICES INC | $34,696,248.60 | 1.9% | 1 |
+| OREGON MAINLINE PAVING LLC | $31,643,126.96 | 1.7% | 2 |
+| WILDISH STANDARD PAVING | $30,244,814.60 | 1.6% | 3 |
+| LTM INCORPORATED | $25,635,279.00 | 1.4% | 5 |
+| LANE COUNTY PUBLIC WORKS | $21,661,472.38 | 1.2% | 3 |
+| HP CIVIL INC | $20,696,278.47 | 1.1% | 3 |
+| KNIFE RIVER CORP - MOUNTAIN WEST | $19,803,032.86 | 1.1% | 2 |
+| OREGON ZOO | $18,958,158.58 | 1.0% | 5 |
+| HIGH DESERT AGGREGATE & PAVING INC | $16,713,327.30 | 0.9% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 12,284 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 12,284 vendor-level transaction records covering 7,469 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

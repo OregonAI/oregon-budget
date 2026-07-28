@@ -124,9 +124,36 @@ The 12 largest of 119 expenditure classes used by this agency in FY2024.
 | 4200 | Office Supplies | $2,133,389.60 | 1.0% |
 | 6700 | Distribution To Other Governments | $2,062,884.46 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 1,671 payees this agency recorded payments to in FY2024, accounting for 56.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $33,968,855.28 | 16.7% | 12 |
+| DEPARTMENT OF JUSTICE | $29,596,028.23 | 14.6% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $8,832,459.20 | 4.3% | 15 |
+| COUNTY OF MULTNOMAH | $6,177,788.22 | 3.0% | 7 |
+| SHI INTERNATIONAL CORP | $5,531,893.22 | 2.7% | 9 |
+| WASHINGTON COUNTY | $4,009,435.00 | 2.0% | 1 |
+| DELOITTE COUNSULTING LLP | $3,390,218.00 | 1.7% | 1 |
+| PCCP CLIPPER VENTURE 1 | $3,065,835.41 | 1.5% | 4 |
+| EASYSTREET ONLINE SERVICES | $2,262,197.80 | 1.1% | 1 |
+| EMPLOYMENT DEPARTMENT | $2,202,079.79 | 1.1% | 3 |
+| CVE TECHNOLOGIES GROUP INC | $2,012,180.99 | 1.0% | 8 |
+| LANE COUNTY DISTRICT ATTORNEY | $1,805,708.99 | 0.9% | 3 |
+| KAFOURY AND MCDOUGAL ATTORNEY AT LAW | $1,748,156.38 | 0.9% | 1 |
+| MARION COUNTY DISTRICT ATTORNEY'S OFFICE | $1,608,886.22 | 0.8% | 1 |
+| OREGON CRIME VICTIMS LAW CENTER | $1,586,550.36 | 0.8% | 1 |
+| CENTER FOR HOPE AND SAFETY | $1,584,307.00 | 0.8% | 1 |
+| COUNTY OF CLACKAMAS | $1,574,434.60 | 0.8% | 2 |
+| MARION COUNTY DISTRICT ATTORNEY | $1,543,678.00 | 0.8% | 1 |
+| JOHNCO INVESTMENTS I LLC | $1,513,820.31 | 0.7% | 4 |
+| LEGACY EMANUEL HOSPITAL | $1,482,031.28 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 2,870 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,870 vendor-level transaction records covering 1,671 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -116,9 +116,36 @@ The 12 largest of 105 expenditure classes used by this agency in FY2023.
 | 4976 | Agency Program Related Supplies | $2,519,570.16 | 3.8% |
 | 4704 | Other Supplies | $2,259,427.36 | 3.4% |
 
+## Largest vendors
+
+The 20 largest of 1,981 payees this agency recorded payments to in FY2023, accounting for 42.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $7,569,682.20 | 11.4% | 18 |
+| US BANK NATIONAL ASSOCIATION ND | $5,848,330.65 | 8.8% | 55 |
+| AMERITITLE | $1,720,290.42 | 2.6% | 4 |
+| USDA FOREST SERVICE | $1,144,405.77 | 1.7% | 2 |
+| HENNEBERY EDDY ARCHITECTS INC | $1,083,240.61 | 1.6% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $968,183.82 | 1.5% | 13 |
+| UNITED STATES DEPT OF AGRICULTURE - FOREST SERVICE | $943,663.89 | 1.4% | 2 |
+| OREGON DEPARTMENT OF FORESTRY | $923,564.05 | 1.4% | 5 |
+| OREGON STATE TREASURY | $840,362.29 | 1.3% | 3 |
+| THE SAUNDERS COMPANY INC | $829,410.00 | 1.2% | 1 |
+| ROCKY MOUNTAIN CONSTRUCTION LLC | $826,572.53 | 1.2% | 2 |
+| DOUGLAS COUNTY PARK DEPARTMENT | $771,946.21 | 1.2% | 1 |
+| MJ HUGHES CONSTRUCTION INC | $769,121.23 | 1.2% | 1 |
+| NORTH SANTIAM PAVING | $726,353.60 | 1.1% | 1 |
+| 7 PEAKS PAVING LLC | $663,367.40 | 1.0% | 1 |
+| JOHN DEERE COMPANY | $653,434.14 | 1.0% | 13 |
+| PACIFIC POWER | $637,308.76 | 1.0% | 3 |
+| CITY OF SUTHERLIN | $566,255.84 | 0.8% | 1 |
+| DALKE CONSTRUCTION CO INC | $565,132.00 | 0.8% | 1 |
+| PARAMETRIX INC | $551,719.85 | 0.8% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 3,345 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 3,345 vendor-level transaction records covering 1,981 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

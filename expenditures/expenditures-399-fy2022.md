@@ -88,9 +88,36 @@ The 12 largest of 12 expenditure classes used by this agency in FY2022.
 | 4999 | Expendable Property Non-It<$5K | $952.80 | 0.2% |
 | 4201 | Office Services | $173.38 | 0.0% |
 
+## Largest vendors
+
+The 20 largest of 21 payees this agency recorded payments to in FY2022, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $172,128.10 | 40.6% | 5 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $135,750.26 | 32.0% | 1 |
+| RALPH SCHLESINGER COMPANY LLC | $69,466.27 | 16.4% | 2 |
+| SHI INTERNATIONAL CORP | $8,840.87 | 2.1% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $8,531.39 | 2.0% | 1 |
+| ZAYO GROUP LLC | $7,367.10 | 1.7% | 2 |
+| CHAVES CONSULTING INC | $6,822.20 | 1.6% | 1 |
+| INTEGRATED CLINICAL & CORRECTIONAL SERVICES | $4,581.25 | 1.1% | 1 |
+| KYNDRYL INC | $2,177.47 | 0.5% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $2,057.13 | 0.5% | 1 |
+| COURTSCRIPTS LLC | $1,699.00 | 0.4% | 1 |
+| EMPLOYMENT DEPARTMENT | $1,652.16 | 0.4% | 1 |
+| THE HON COMPANY | $952.80 | 0.2% | 1 |
+| PACIFIC BUSINESS SYSTEMS INC | $775.38 | 0.2% | 2 |
+| IBM CORPORATION | $730.77 | 0.2% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $265.93 | 0.1% | 1 |
+| CASCADE CENTERS INC | $217.44 | 0.1% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $139.33 | 0.0% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $114.00 | 0.0% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $16.10 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 28 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 28 vendor-level transaction records covering 21 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

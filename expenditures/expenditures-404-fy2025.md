@@ -108,9 +108,36 @@ The 12 largest of 73 expenditure classes used by this agency in FY2025.
 | 4366 | Computer Technology Pc Software<$5K | $172,384.82 | 0.1% |
 | 4375 | Computer Technology Computer Processing | $151,046.68 | 0.1% |
 
+## Largest vendors
+
+The 20 largest of 1,026 payees this agency recorded payments to in FY2025, accounting for 42.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| METROPOLITAN PUBLIC DEFENDER SERVICES INC-PORTLAND | $26,883,864.30 | 10.1% | 6 |
+| MULTNOMAH DEFENDERS INC | $9,286,003.05 | 3.5% | 6 |
+| PUBLIC DEFENDER SERVICES OF LANE COUNTY INC | $8,662,787.83 | 3.3% | 3 |
+| CLACKAMAS INDIGENT DEFENSE COR | $7,877,630.85 | 3.0% | 1 |
+| MARION COUNTY ASSOCIATION OF DEFENDERS LTD | $5,896,049.68 | 2.2% | 1 |
+| SOUTHERN OREGON PUBLIC DEFENDER INC | $5,491,364.53 | 2.1% | 1 |
+| PUBLIC DEFENDER OF MARION COUNTY INC | $5,412,507.68 | 2.0% | 2 |
+| DESCHUTES DEFENDERS A PUBLIC DEFENSE NONPROFIT | $4,779,378.34 | 1.8% | 1 |
+| YOUTH RIGHTS & JUSTICE | $4,041,905.48 | 1.5% | 6 |
+| PORTLAND DEFENSE CONSORTIUM | $3,919,750.63 | 1.5% | 1 |
+| MARION JUVENILE ADVOCACY CONSORTIUM | $3,606,690.27 | 1.4% | 1 |
+| LINN DEFENDERS INC | $3,584,143.97 | 1.4% | 1 |
+| LANE COUNTY JUVENILE LAWYERS ASSOC | $3,580,520.64 | 1.3% | 1 |
+| LITHIA FORENSICS & CONSULTING LLC | $3,273,857.19 | 1.2% | 5 |
+| 22ND CIRCUIT DEFENDERS LLC | $3,265,444.71 | 1.2% | 1 |
+| OPC INC | $2,848,719.39 | 1.1% | 1 |
+| BEND ATTORNEY GROUP | $2,751,086.82 | 1.0% | 1 |
+| UMPQUA VALLEY DEFENSE SERVICE INC | $2,641,550.50 | 1.0% | 1 |
+| LOS ABOGADOS LLC | $2,585,243.42 | 1.0% | 1 |
+| OREGON DEFENSE ATTORNEY CONSORTIUM INC | $2,474,746.99 | 0.9% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 2,084 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,084 vendor-level transaction records covering 1,026 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

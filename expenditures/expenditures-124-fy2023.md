@@ -91,9 +91,35 @@ The 12 largest of 22 expenditure classes used by this agency in FY2023.
 | 7007 | Lease Pmt For Buildings | $3,867.49 | 1.3% |
 | 4301 | Telecom/Voice Usage | $2,955.93 | 1.0% |
 
+## Largest vendors
+
+The 19 largest of 19 payees this agency recorded payments to in FY2023, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $104,258.59 | 35.7% | 7 |
+| WESTPAC INVESTMENT COMPANY | $62,406.23 | 21.4% | 4 |
+| DEPT OF STATE POLICE | $57,771.00 | 19.8% | 1 |
+| US BANK NATIONAL ASSOCIATION | $17,470.92 | 6.0% | 2 |
+| GALT FOUNDATION | $15,967.29 | 5.5% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $15,439.60 | 5.3% | 1 |
+| THENTIA GLOBAL SYSTEMS USA INC | $7,050.00 | 2.4% | 2 |
+| SHI INTERNATIONAL CORP | $4,734.19 | 1.6% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $2,226.53 | 0.8% | 1 |
+| KYNDRYL INC | $1,552.54 | 0.5% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $782.00 | 0.3% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $759.38 | 0.3% | 1 |
+| VERIZON WIRELESS | $593.63 | 0.2% | 1 |
+| NICUSA INC | $503.00 | 0.2% | 1 |
+| STEPHANIE MANRIQUEZ | $225.26 | 0.1% | 2 |
+| OREGON STATE TREASURY | $135.45 | 0.0% | 1 |
+| CASCADE CENTERS INC | $126.84 | 0.0% | 1 |
+| AMERICAN AED INC | $99.50 | 0.0% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $62.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 32 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 32 vendor-level transaction records covering 19 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

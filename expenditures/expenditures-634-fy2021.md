@@ -121,9 +121,36 @@ The 12 largest of 92 expenditure classes used by this agency in FY2021.
 | 4975 | Agency Program Related Services | $1,697,029.30 | 3.9% |
 | 4976 | Agency Program Related Supplies | $1,349,627.20 | 3.1% |
 
+## Largest vendors
+
+The 20 largest of 1,558 payees this agency recorded payments to in FY2021, accounting for 44.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $5,946,702.16 | 13.6% | 15 |
+| US BANK NATIONAL ASSOCIATION ND | $2,543,458.69 | 5.8% | 51 |
+| GUIDO CONSTRUCTION INC | $1,484,504.66 | 3.4% | 2 |
+| USDA FOREST SERVICE | $1,299,429.27 | 3.0% | 4 |
+| DOUGLAS COUNTY PARK DEPARTMENT | $983,660.24 | 2.3% | 1 |
+| FARLINE BRIDGE INC | $800,032.60 | 1.8% | 1 |
+| OREGON STATE TREASURY | $749,696.15 | 1.7% | 4 |
+| DSL BUILDERS LLC | $713,340.00 | 1.6% | 1 |
+| PACIFIC POWER | $586,746.01 | 1.3% | 3 |
+| OREGON DEPARTMENT OF FORESTRY | $585,492.15 | 1.3% | 2 |
+| EMPLOYMENT DEPARTMENT | $567,270.42 | 1.3% | 2 |
+| OREGON CORRECTIONS ENTERPRISES | $460,739.29 | 1.1% | 10 |
+| CDW GOVERNMENT INC | $427,272.55 | 1.0% | 5 |
+| SOPRIS HOLDINGS LLC | $389,173.48 | 0.9% | 1 |
+| METRO | $382,696.82 | 0.9% | 2 |
+| CITY OF CORVALLIS PARKS & RECREATION | $380,382.87 | 0.9% | 1 |
+| CITY OF ONTARIO | $354,946.44 | 0.8% | 1 |
+| CITY OF SUTHERLIN | $337,886.16 | 0.8% | 1 |
+| MORROW COUNTY PUBLIC WORKS & ROAD DEPT | $313,115.59 | 0.7% | 1 |
+| JOHN DEERE COMPANY | $303,724.87 | 0.7% | 8 |
+
 ## Curator notes
 
-Figures are aggregated from 2,319 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,319 vendor-level transaction records covering 1,558 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

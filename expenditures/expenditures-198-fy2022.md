@@ -110,9 +110,36 @@ The 12 largest of 99 expenditure classes used by this agency in FY2022.
 | 4305 | Telecom/Network Services | $1,846,922.60 | 1.6% |
 | 4201 | Office Services | $1,770,209.53 | 1.6% |
 
+## Largest vendors
+
+The 20 largest of 1,054 payees this agency recorded payments to in FY2022, accounting for 86.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| HOFFMAN CONSTRUCTION COMPANY OF OREGON | $28,609,494.01 | 25.4% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $22,982,538.85 | 20.4% | 18 |
+| OREGON STATE BAR | $13,320,679.75 | 11.8% | 5 |
+| TYLER TECHNOLOGIES INC | $5,524,205.33 | 4.9% | 3 |
+| OREGON DEPARTMENT OF REVENUE | $4,554,076.76 | 4.0% | 1 |
+| SHI INTERNATIONAL CORP | $2,694,355.70 | 2.4% | 12 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $2,603,003.25 | 2.3% | 57 |
+| COUNTY OF MULTNOMAH | $2,335,305.65 | 2.1% | 4 |
+| CDW GOVERNMENT INC | $2,228,065.05 | 2.0% | 24 |
+| THOMSON REUTERS | $2,099,639.10 | 1.9% | 5 |
+| COUNTY OF CLACKAMAS | $1,607,457.36 | 1.4% | 4 |
+| ONE DIVERSIFIED LLC | $1,567,016.14 | 1.4% | 12 |
+| LIGHTSPEED NETWORKS INC | $1,546,739.36 | 1.4% | 2 |
+| WASHINGTON COUNTY | $1,096,903.39 | 1.0% | 4 |
+| LINEBARGER GOGGAN BLAIR & SAMPSON LLP | $981,664.04 | 0.9% | 1 |
+| COUNTY OF LANE | $786,231.51 | 0.7% | 2 |
+| MARION COUNTY | $721,877.23 | 0.6% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $670,529.02 | 0.6% | 2 |
+| HENNEBERY EDDY ARCHITECTS INC | $639,918.79 | 0.6% | 1 |
+| HMI-OREGON DEALERSHIP | $606,075.31 | 0.5% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 2,080 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,080 vendor-level transaction records covering 1,054 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

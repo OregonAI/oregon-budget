@@ -95,9 +95,36 @@ The 12 largest of 27 expenditure classes used by this agency in FY2021.
 | 4202 | Equipment Rental | $5,991.25 | 0.5% |
 | 4366 | Computer Technology Pc Software<$5K | $5,961.67 | 0.5% |
 
+## Largest vendors
+
+The 20 largest of 62 payees this agency recorded payments to in FY2021, accounting for 91.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON STATE UNIVERSITY | $440,346.55 | 37.2% | 3 |
+| OREGON COAST AQUARIUM INC | $100,000.00 | 8.5% | 1 |
+| PETERKORT CENTRE II LLC | $85,959.21 | 7.3% | 2 |
+| OREGON WOMEN IN TIMBER | $71,904.00 | 6.1% | 1 |
+| CAWOOD | $69,086.73 | 5.8% | 1 |
+| CAFFERATA CONSULTING LLC | $42,434.22 | 3.6% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $38,382.65 | 3.2% | 18 |
+| KEEP OREGON GREEN ASSOCIATION INC | $37,813.00 | 3.2% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $34,468.00 | 2.9% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $24,355.74 | 2.1% | 4 |
+| SERVER LOGIC CORPORATION | $23,605.00 | 2.0% | 1 |
+| GARD EDWARDS-ALDRIDGE INC | $21,476.25 | 1.8% | 1 |
+| LOWELLS PRINT-INN INC | $18,428.80 | 1.6% | 1 |
+| PARALLEL PUBLIC WORKS INC | $15,185.85 | 1.3% | 1 |
+| OREGON SMALL WOODLANDS ASSOCIATION | $12,655.00 | 1.1% | 3 |
+| FORESTS FOREVER INC | $12,500.00 | 1.1% | 1 |
+| NORTH AMERICAN FOREST PARTNERSHIP INC | $10,000.00 | 0.8% | 1 |
+| OREGON GARDEN FOUNDATION | $9,672.00 | 0.8% | 1 |
+| NORTHWEST STAFFING RESOURCES | $7,938.90 | 0.7% | 1 |
+| WORD JONES INC | $7,821.25 | 0.7% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 97 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 97 vendor-level transaction records covering 62 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

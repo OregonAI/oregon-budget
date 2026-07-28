@@ -73,9 +73,24 @@ The 4 largest of 4 expenditure classes used by this agency in FY2025.
 | 4253 | Advertise, Publicity, Publish/Print Srvs | $478.88 | 0.2% |
 | 4600 | State Government Service Charges | $187.00 | 0.1% |
 
+## Largest vendors
+
+The 8 largest of 8 payees this agency recorded payments to in FY2025, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| TONKON TORP LLP | $142,137.83 | 67.9% | 1 |
+| OREGON STATE TREASURY | $48,187.00 | 23.0% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $12,430.00 | 5.9% | 1 |
+| NCHFFA | $3,250.00 | 1.6% | 1 |
+| SPERRY CAPITAL INC | $2,000.00 | 1.0% | 1 |
+| FIRST TRYON ADVISORS | $800.00 | 0.4% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $478.88 | 0.2% | 1 |
+| WILLIAM GRANT WADHAMS | $180.00 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 9 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 9 vendor-level transaction records covering 8 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

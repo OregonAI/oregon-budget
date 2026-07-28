@@ -102,9 +102,36 @@ The 12 largest of 59 expenditure classes used by this agency in FY2023.
 | 4685 | Liabity Expenditure-Attorney Settlement | $247,824.33 | 0.8% |
 | 4301 | Telecom/Voice Usage | $162,049.64 | 0.5% |
 
+## Largest vendors
+
+The 20 largest of 363 payees this agency recorded payments to in FY2023, accounting for 88.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DESCHUTES BASIN BOARD OF CONTROL | $7,565,835.29 | 23.0% | 1 |
+| COUNTY OF KLAMATH | $5,019,948.94 | 15.3% | 3 |
+| CITY OF CARLTON | $2,794,451.97 | 8.5% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $2,367,936.21 | 7.2% | 17 |
+| DESCHUTES RIVER CONSERVANCY | $1,715,496.07 | 5.2% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $1,616,997.31 | 4.9% | 1 |
+| US GEOLOGICAL SURVEY | $1,403,046.18 | 4.3% | 4 |
+| TUMALO IRRIGATION DISTRICT | $1,369,035.50 | 4.2% | 1 |
+| TROUT UNLIMITED INC | $968,908.37 | 2.9% | 1 |
+| OTT HYDROMET CORP | $928,285.69 | 2.8% | 3 |
+| CITY OF NEWPORT | $756,035.95 | 2.3% | 1 |
+| COUNTY OF UMATILLA | $500,566.43 | 1.5% | 3 |
+| PORTLAND STATE UNIVERSITY | $370,393.43 | 1.1% | 2 |
+| WEST CONSULTANTS INC | $331,103.03 | 1.0% | 1 |
+| YELLOW SPRINGS INSTRUMENT CO INC | $305,795.00 | 0.9% | 2 |
+| FARMERS IRRIGATION DISTRICT | $300,000.00 | 0.9% | 1 |
+| WALLOWA LAKE IRRIGATION DISTRICT | $264,635.98 | 0.8% | 1 |
+| PORT OF MORROW | $247,464.60 | 0.8% | 1 |
+| SCHROEDER LAW OFFICES PC | $224,520.33 | 0.7% | 1 |
+| UNIVERSITY OF NEVADA | $206,768.85 | 0.6% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 650 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 650 vendor-level transaction records covering 363 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

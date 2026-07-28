@@ -121,9 +121,36 @@ The 12 largest of 98 expenditure classes used by this agency in FY2024.
 | 4975 | Agency Program Related Services | $1,898,348.17 | 0.4% |
 | 4500 | Professional Services Non-It | $1,505,375.49 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 498 payees this agency recorded payments to in FY2024, accounting for 68.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPT OF HUMAN SERVICES | $162,699,353.48 | 35.4% | 1 |
+| OREGON CHILD DEVELOPMENT COALITION | $19,691,608.89 | 4.3% | 2 |
+| ALBINA HEAD START INC | $11,048,861.21 | 2.4% | 1 |
+| NEIGHBORIMPACT | $9,874,567.26 | 2.1% | 1 |
+| SOUTHERN OREGON CHILD & FAMILY COUNCIL INC | $9,766,053.27 | 2.1% | 1 |
+| MT HOOD COMMUNITY COLLEGE | $9,614,126.16 | 2.1% | 1 |
+| CLACKAMAS COUNTY CHILDREN'S COMMISSION | $9,599,900.19 | 2.1% | 1 |
+| COMMUNITY ACTION ORGANIZATION | $9,436,635.14 | 2.1% | 1 |
+| MID WILLAMETTE VALLEY COMMUNITY ACTION AGENCY INC | $8,689,650.92 | 1.9% | 2 |
+| HEAD START OF LANE COUNTY | $8,562,054.11 | 1.9% | 1 |
+| PORTLAND PUBLIC SCHOOL DISTRICT #1 | $6,445,509.74 | 1.4% | 3 |
+| KLAMATH FAMILY HEAD START | $6,342,983.62 | 1.4% | 2 |
+| UMATILLA-MORROW HEAD START INC | $6,324,767.57 | 1.4% | 4 |
+| UNITED COMMUNITY ACTION NETWORK | $6,225,831.44 | 1.4% | 3 |
+| MARION COUNTY SCHOOL DISTRICT 24J | $5,943,710.76 | 1.3% | 2 |
+| OREGON COAST COMMUNITY ACTION | $5,307,055.18 | 1.2% | 2 |
+| PORTLAND STATE UNIVERSITY | $5,239,964.89 | 1.1% | 2 |
+| OREGON STATE TREASURY | $5,002,233.60 | 1.1% | 3 |
+| KIDS & CO OF LINN COUNTY | $4,648,951.10 | 1.0% | 1 |
+| FAMILY BUILDING BLOCKS | $4,581,833.30 | 1.0% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 793 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 793 vendor-level transaction records covering 498 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

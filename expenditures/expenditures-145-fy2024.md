@@ -88,9 +88,36 @@ The 12 largest of 28 expenditure classes used by this agency in FY2024.
 | 4366 | Computer Technology Pc Software<$5K | $2,208.87 | 1.2% |
 | 4452 | Prof Dev Out-Of-St Mile Reimb-Full Rate | $1,948.23 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 38 payees this agency recorded payments to in FY2024, accounting for 95.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $71,514.00 | 38.4% | 1 |
+| GARTNER GROUP INC | $36,215.00 | 19.4% | 1 |
+| EMPLOYMENT DEPARTMENT | $13,180.08 | 7.1% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $11,147.52 | 6.0% | 1 |
+| CDW GOVERNMENT INC | $8,588.46 | 4.6% | 3 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $5,022.00 | 2.7% | 1 |
+| AMANDA BEITEL | $3,753.54 | 2.0% | 9 |
+| PACIFIC OFFICE AUTOMATION INC | $3,495.82 | 1.9% | 1 |
+| GREGORY JOLIVETTE | $3,092.57 | 1.7% | 3 |
+| THOMAS MACDONALD | $2,715.67 | 1.5% | 6 |
+| SEAN MCSPADEN | $2,448.41 | 1.3% | 5 |
+| EMILY COATES | $2,216.39 | 1.2% | 6 |
+| SHI INTERNATIONAL CORP | $2,208.87 | 1.2% | 1 |
+| MARYMICHELLE A SOSNE | $2,082.54 | 1.1% | 6 |
+| EDWARD P ARABAS | $2,045.64 | 1.1% | 7 |
+| RICOH USA INC | $1,784.62 | 1.0% | 1 |
+| JOHN TERPENING | $1,495.47 | 0.8% | 5 |
+| THE SEMINAR GROUP | $1,402.00 | 0.8% | 2 |
+| LEGISLATIVE COUNSEL COMMITTEE | $1,345.00 | 0.7% | 1 |
+| KIM CHI THI TO | $1,184.33 | 0.6% | 4 |
+
 ## Curator notes
 
-Figures are aggregated from 100 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 100 vendor-level transaction records covering 38 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

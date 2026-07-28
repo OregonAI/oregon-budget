@@ -134,9 +134,36 @@ The 12 largest of 123 expenditure classes used by this agency in FY2021.
 | 4550 | Attorney General Legal Fees | $975,227.01 | 0.6% |
 | 5170 | Motor Vehicles>=$5K | $955,029.94 | 0.6% |
 
+## Largest vendors
+
+The 20 largest of 2,072 payees this agency recorded payments to in FY2021, accounting for 45.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $18,023,585.16 | 11.9% | 24 |
+| USDA FOREST SERVICE | $12,144,553.83 | 8.0% | 4 |
+| DOUGLAS FOREST PROTECTIVE ASSN | $11,077,651.65 | 7.3% | 19 |
+| OREGON MILITARY DEPARTMENT | $3,574,866.10 | 2.4% | 5 |
+| COOS FOREST PROTECTIVE ASSOCIATION | $3,333,639.17 | 2.2% | 14 |
+| TURNSTONE ENVIRONMENTAL CONSULTANTS INC | $2,625,051.46 | 1.7% | 1 |
+| GRAYBACK FORESTRY CONTRACTING INC | $2,297,000.66 | 1.5% | 3 |
+| COLUMBIA BASIN HELICOPTERS INC | $1,985,568.44 | 1.3% | 1 |
+| AERO AIR LLC | $1,610,255.83 | 1.1% | 2 |
+| ECONOMIC CONSULTANTS OREGON | $1,347,148.92 | 0.9% | 1 |
+| PONDEROSA REFORESTATION INC | $1,317,490.47 | 0.9% | 2 |
+| AEROFUND FINANCIAL | $1,316,937.95 | 0.9% | 3 |
+| ROSE LOGGING INC | $1,307,672.12 | 0.9% | 1 |
+| MILLER TIMBER SERVICES INC | $1,261,614.02 | 0.8% | 3 |
+| NORTH PACIFIC FORESTRY INC | $1,132,651.40 | 0.7% | 2 |
+| SIEGMUND EXCAVATION & CONSTRUCTION INC | $1,126,721.21 | 0.7% | 3 |
+| PROFESSIONAL REFORESTATION OF OREGON | $1,120,403.75 | 0.7% | 2 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $1,112,530.76 | 0.7% | 2 |
+| MARBLE MOUNTAIN HELICOPTERS LLC | $1,057,738.50 | 0.7% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $975,227.01 | 0.6% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 2,924 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,924 vendor-level transaction records covering 2,072 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

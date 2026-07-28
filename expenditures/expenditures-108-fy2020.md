@@ -95,9 +95,36 @@ The 12 largest of 42 expenditure classes used by this agency in FY2020.
 | 4305 | Telecom/Network Services | $5,427.79 | 0.7% |
 | 4111 | Instate Mileage Reimbursmnt-Volunteers | $4,903.22 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 52 payees this agency recorded payments to in FY2020, accounting for 98.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $257,404.45 | 35.4% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $159,075.20 | 21.9% | 8 |
+| WESTPAC INVESTMENT COMPANY | $88,375.80 | 12.1% | 1 |
+| EMPLOYMENT DEPARTMENT | $84,208.21 | 11.6% | 2 |
+| DEPT OF STATE POLICE | $40,085.00 | 5.5% | 1 |
+| THENTIA GLOBAL SYSTEMS USA INC | $25,000.00 | 3.4% | 1 |
+| US BANK NATIONAL ASSOCIATION | $14,198.21 | 2.0% | 2 |
+| RESONANCE COUNSELING AND CONSULTATION LLC | $6,975.00 | 1.0% | 1 |
+| CONFUZER INC | $5,550.00 | 0.8% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $4,491.94 | 0.6% | 1 |
+| MENTAL HEALTH REGULATORY AGENCY | $4,456.50 | 0.6% | 1 |
+| CDW GOVERNMENT INC | $4,345.21 | 0.6% | 3 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $4,166.97 | 0.6% | 3 |
+| PACIFIC NETWORKS INC | $2,950.00 | 0.4% | 1 |
+| IBM CORPORATION | $2,866.75 | 0.4% | 1 |
+| OREGON STATE POLICE | $2,763.75 | 0.4% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $2,296.04 | 0.3% | 2 |
+| CHARLES J HARMAN | $2,279.48 | 0.3% | 3 |
+| OREGON CORRECTIONS ENTERPRISES | $2,216.31 | 0.3% | 1 |
+| BRYAN HAGEN | $1,894.63 | 0.3% | 6 |
+
 ## Curator notes
 
-Figures are aggregated from 104 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 104 vendor-level transaction records covering 52 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

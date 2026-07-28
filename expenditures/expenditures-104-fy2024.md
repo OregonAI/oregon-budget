@@ -80,9 +80,23 @@ The 9 largest of 9 expenditure classes used by this agency in FY2024.
 | 4101 | Instate Meals With Overnight Stay | $69.00 | 0.1% |
 | 4500 | Professional Services Non-It | $42.00 | 0.1% |
 
+## Largest vendors
+
+The 7 largest of 7 payees this agency recorded payments to in FY2024, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $46,195.47 | 96.9% | 3 |
+| CDW GOVERNMENT INC | $578.37 | 1.2% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $386.00 | 0.8% | 1 |
+| TODD M ALBERT | $199.48 | 0.4% | 2 |
+| SHI INTERNATIONAL CORP | $153.90 | 0.3% | 1 |
+| OREGON STATE TREASURY | $132.00 | 0.3% | 1 |
+| CASCADE CENTERS INC | $42.00 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 11 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 11 vendor-level transaction records covering 7 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

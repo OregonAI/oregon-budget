@@ -106,9 +106,36 @@ The 12 largest of 63 expenditure classes used by this agency in FY2022.
 | 4519 | Professional Serv/Managed Serv Provider | $286,662.41 | 0.3% |
 | 4999 | Expendable Property Non-It<$5K | $244,492.75 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 217 payees this agency recorded payments to in FY2022, accounting for 97.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| HOFFMAN CONSTRUCTION COMPANY OF OREGON | $31,030,360.10 | 34.3% | 2 |
+| LEGISLATIVE ADMIN COMMITTEE | $30,130,258.64 | 33.3% | 8 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $14,587,301.73 | 16.1% | 12 |
+| SRG PARTNERSHIP INC | $3,503,135.19 | 3.9% | 2 |
+| DEPT OF STATE POLICE | $2,250,000.00 | 2.5% | 1 |
+| XCENTIAL CORPORATION | $1,818,364.00 | 2.0% | 3 |
+| TALLAN INC | $1,590,359.39 | 1.8% | 1 |
+| SHI INTERNATIONAL CORP | $699,597.38 | 0.8% | 4 |
+| CDW GOVERNMENT INC | $406,327.31 | 0.4% | 17 |
+| FIRST RESPONSE INC | $372,934.20 | 0.4% | 1 |
+| CITY OF SALEM | $341,301.63 | 0.4% | 3 |
+| DEPAUL INDUSTRIES | $319,650.07 | 0.4% | 1 |
+| PORTLAND GENERAL ELECTRIC COMPANY | $273,314.28 | 0.3% | 1 |
+| HMI-OREGON DEALERSHIP | $222,744.75 | 0.2% | 1 |
+| ONE DIVERSIFIED LLC | $187,064.32 | 0.2% | 3 |
+| ACCURATE CORPORATE SERVICES INC | $131,507.26 | 0.1% | 1 |
+| U WORK COM INC | $129,952.00 | 0.1% | 1 |
+| STOEL RIVES LLP | $123,304.00 | 0.1% | 1 |
+| ANDERSON ROOFING CO INC | $116,190.62 | 0.1% | 2 |
+| NW NATURAL | $99,306.06 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 367 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 367 vendor-level transaction records covering 217 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

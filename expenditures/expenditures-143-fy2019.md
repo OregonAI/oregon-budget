@@ -100,9 +100,36 @@ The 12 largest of 47 expenditure classes used by this agency in FY2019.
 | 4302 | Telecom/Voice Equip Rental | $7,134.00 | 1.3% |
 | 4999 | Expendable Property Non-It<$5K | $6,046.84 | 1.1% |
 
+## Largest vendors
+
+The 20 largest of 49 payees this agency recorded payments to in FY2019, accounting for 98.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| LEGISLATIVE ADMINISTRATION COMMITTEE | $186,402.93 | 33.6% | 11 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $129,987.36 | 23.4% | 4 |
+| INSTITUTE FOR CONFLICT MANAGEMENT INC | $58,877.50 | 10.6% | 1 |
+| CANSTAFF EMPLOYMENT SERVICES LLC | $42,869.75 | 7.7% | 1 |
+| CDW GOVERNMENT INC | $31,223.00 | 5.6% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $28,108.93 | 5.1% | 16 |
+| MICROSOFT CORPORATION | $13,390.30 | 2.4% | 2 |
+| PACIFIC OFFICE AUTOMATION INC | $12,793.49 | 2.3% | 3 |
+| PRESIDIO NETWORKED SOLUTIONS GROUP LLC | $11,712.79 | 2.1% | 2 |
+| LEGISLATIVE ADMIN COMMITTEE | $8,899.29 | 1.6% | 1 |
+| SHI INTERNATIONAL CORP | $4,549.40 | 0.8% | 1 |
+| CHERRY CITY ELECTRIC | $4,231.00 | 0.8% | 1 |
+| AT&T TELECONFERENCE SERVICES | $3,925.40 | 0.7% | 1 |
+| LEGISLATIVE ASSEMBLY OF OREGON | $3,000.00 | 0.5% | 1 |
+| THERESA JENSEN & ASSOCIATES | $2,614.01 | 0.5% | 1 |
+| SIERRA SPRINGS | $2,200.93 | 0.4% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $935.87 | 0.2% | 1 |
+| CHANNA NEWELL | $749.73 | 0.1% | 5 |
+| SAMANTHA KOOPMAN | $681.24 | 0.1% | 2 |
+| CASCADE CENTERS INC | $646.00 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 108 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 108 vendor-level transaction records covering 49 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

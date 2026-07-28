@@ -110,9 +110,36 @@ The 12 largest of 72 expenditure classes used by this agency in FY2020.
 | 7250 | Interest-Bonds | $914,741.72 | 2.6% |
 | 4301 | Telecom/Voice Usage | $839,958.39 | 2.3% |
 
+## Largest vendors
+
+The 20 largest of 559 payees this agency recorded payments to in FY2020, accounting for 88.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $18,175,316.76 | 50.8% | 16 |
+| FAST ENTERPRISES LLC | $4,077,172.16 | 11.4% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $2,454,877.24 | 6.9% | 4 |
+| PITNEY BOWES | $1,825,000.00 | 5.1% | 1 |
+| OREGON STATE TREASURY | $604,754.05 | 1.7% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $547,679.52 | 1.5% | 2 |
+| IBM CORPORATION | $521,625.48 | 1.5% | 1 |
+| SHI INTERNATIONAL CORP | $455,815.19 | 1.3% | 4 |
+| CDW GOVERNMENT INC | $446,859.94 | 1.2% | 8 |
+| MICROSOFT CORPORATION | $295,037.00 | 0.8% | 1 |
+| FAIRFAX IMAGING INC | $270,155.00 | 0.8% | 1 |
+| DEPT OF STATE POLICE | $263,832.75 | 0.7% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $243,052.24 | 0.7% | 4 |
+| VERIZON WIRELESS | $231,681.26 | 0.6% | 2 |
+| COUNTY OF CLACKAMAS | $225,581.00 | 0.6% | 2 |
+| MEYERCORD REVENUE INC | $225,174.10 | 0.6% | 1 |
+| WASHINGTON COUNTY CARTOGRAPHY & RECORDS | $224,412.00 | 0.6% | 2 |
+| MULTISTATE TAX COMMISSION | $193,787.00 | 0.5% | 2 |
+| UNITED STATES POSTAL SERVICE | $192,319.50 | 0.5% | 3 |
+| NICUSA INC | $173,791.41 | 0.5% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 1,037 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,037 vendor-level transaction records covering 559 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

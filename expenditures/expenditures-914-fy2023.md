@@ -121,9 +121,36 @@ The 12 largest of 83 expenditure classes used by this agency in FY2023.
 | 6082 | Distribution To Dhs Agy 100 | $3,000,000.00 | 0.4% |
 | 4600 | State Government Service Charges | $2,824,286.06 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 694 payees this agency recorded payments to in FY2023, accounting for 58.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| PUBLIC PARTNERSHIP LLC | $64,241,958.70 | 7.6% | 3 |
+| COUNTY OF MULTNOMAH | $47,400,641.42 | 5.6% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $45,861,812.45 | 5.4% | 14 |
+| FIRST AMERICAN TITLE INSURANCE CO OF OREGON | $36,571,947.06 | 4.3% | 2 |
+| COUNTY OF LANE | $35,105,534.05 | 4.1% | 1 |
+| WFG NATIONAL TITLE INSURANCE COMPANY | $34,279,820.90 | 4.1% | 2 |
+| ACCESS INC | $33,024,929.19 | 3.9% | 2 |
+| MID WILLAMETTE VALLEY COMMUNITY ACTION AGENCY INC | $27,199,350.55 | 3.2% | 1 |
+| COMMUNITY ACTION ORGANIZATION | $20,757,147.21 | 2.5% | 1 |
+| COMMUNITY SERVICES CONSORTIUM | $19,331,420.37 | 2.3% | 1 |
+| COUNTY OF CLACKAMAS | $16,628,128.48 | 2.0% | 3 |
+| UNITED COMMUNITY ACTION NETWORK | $15,003,275.08 | 1.8% | 1 |
+| NEIGHBORIMPACT | $14,811,427.55 | 1.8% | 1 |
+| OREGON WORKER RELIEF | $14,500,000.00 | 1.7% | 2 |
+| COUNTY OF MARION | $13,837,361.18 | 1.6% | 1 |
+| GATEWAY PHASE 1 LIMITED PARTNERSHIP | $13,481,449.62 | 1.6% | 1 |
+| TRINITY DEVELOPMENT ALLIANCE INC | $11,303,293.37 | 1.3% | 3 |
+| CRAFT3 | $10,000,000.00 | 1.2% | 1 |
+| FIDELITY NATIONAL TITLE COMPANY OF OREGON | $9,698,303.34 | 1.1% | 3 |
+| FIRST AMERICAN TITLE INSURANCE COMPANY | $8,789,703.71 | 1.0% | 4 |
+
 ## Curator notes
 
-Figures are aggregated from 1,188 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,188 vendor-level transaction records covering 694 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

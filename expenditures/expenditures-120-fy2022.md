@@ -89,9 +89,34 @@ The 12 largest of 16 expenditure classes used by this agency in FY2022.
 | 3111 | Regular Employees | $4,006.97 | 1.0% |
 | 4366 | Computer Technology Pc Software<$5K | $3,129.67 | 0.8% |
 
+## Largest vendors
+
+The 18 largest of 18 payees this agency recorded payments to in FY2022, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $177,069.68 | 43.7% | 8 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $99,254.40 | 24.5% | 1 |
+| PARK 5 CENTER | $64,117.90 | 15.8% | 1 |
+| US BANK NATIONAL ASSOCIATION | $26,716.22 | 6.6% | 2 |
+| QWEST | $12,684.50 | 3.1% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $6,283.00 | 1.6% | 1 |
+| OREGON DEPARTMENT OF REVENUE | $4,133.32 | 1.0% | 1 |
+| SHI INTERNATIONAL CORP | $3,129.67 | 0.8% | 1 |
+| IES COMMERCIAL INC | $3,067.04 | 0.8% | 1 |
+| OSBEELS | $2,510.58 | 0.6% | 1 |
+| KYNDRYL INC | $1,861.16 | 0.5% | 2 |
+| OREGON CORRECTIONS ENTERPRISES | $1,561.26 | 0.4% | 1 |
+| IBM CORPORATION | $938.15 | 0.2% | 1 |
+| OREGON STATE TREASURY | $709.80 | 0.2% | 1 |
+| DAMASCUS COMMUNICATIONS INC | $658.50 | 0.2% | 1 |
+| CASCADE CENTERS INC | $126.84 | 0.0% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $78.00 | 0.0% | 1 |
+| PUBLIC EMPLOYEES RETIREMENT SYSTEM | $15.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 27 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 27 vendor-level transaction records covering 18 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

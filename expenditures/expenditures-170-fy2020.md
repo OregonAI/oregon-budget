@@ -102,9 +102,36 @@ The 12 largest of 80 expenditure classes used by this agency in FY2020.
 | 4250 | Dues/Memberships | $93,941.00 | 0.8% |
 | 4201 | Office Services | $86,621.59 | 0.8% |
 
+## Largest vendors
+
+The 20 largest of 271 payees this agency recorded payments to in FY2020, accounting for 80.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| PFM ASSET MANAGEMENT LLC | $1,345,415.54 | 11.7% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,145,747.41 | 9.9% | 12 |
+| US BANK NATIONAL ASSOCIATION | $1,134,022.57 | 9.8% | 1 |
+| PJS LAND DEVELOPMENT LLC | $1,000,000.00 | 8.7% | 1 |
+| PACIFIC REALTY ASSOCIATES LP | $750,001.28 | 6.5% | 2 |
+| SHI INTERNATIONAL CORP | $605,683.07 | 5.3% | 6 |
+| STATE OF OREGON SECRETARY OF STATE | $528,325.31 | 4.6% | 1 |
+| EROI INC | $480,258.50 | 4.2% | 1 |
+| POINT B INC | $433,100.00 | 3.8% | 2 |
+| CAPPELLI MILES | $351,697.04 | 3.1% | 1 |
+| CDW GOVERNMENT INC | $325,894.76 | 2.8% | 13 |
+| TEKSYSTEMS GLOBAL SERVICES LLC | $317,628.00 | 2.8% | 1 |
+| SELLWOOD CONSULTING LLC | $200,244.56 | 1.7% | 1 |
+| STATE STREET BANK & TRUST CO | $120,000.00 | 1.0% | 1 |
+| WELLS FARGO BANK NA | $100,862.47 | 0.9% | 1 |
+| INFO-TECH RESEARCH GROUP INC | $90,800.00 | 0.8% | 1 |
+| KEY BANK | $85,138.41 | 0.7% | 1 |
+| HEIDRICK & STRUGGLES INC | $85,000.00 | 0.7% | 1 |
+| THE BANK OF NEW YORK MELLON CORPORATION | $84,411.40 | 0.7% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $81,850.19 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 736 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 736 vendor-level transaction records covering 271 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -118,9 +118,36 @@ The 12 largest of 102 expenditure classes used by this agency in FY2025.
 | 5805 | Buildings & Improvements>=$5K | $527,732.85 | 2.5% |
 | 4701 | Other Services | $471,719.91 | 2.3% |
 
+## Largest vendors
+
+The 20 largest of 341 payees this agency recorded payments to in FY2025, accounting for 81.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| VISIONARY INTEGRATION PROFESSIONALS LLC | $3,988,661.61 | 19.2% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $1,746,271.95 | 8.4% | 2 |
+| NRC ENVIRONMENTAL SERVICES | $1,431,718.10 | 6.9% | 1 |
+| DIVERSIFIED MARINE INC | $1,319,246.94 | 6.3% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,055,065.96 | 5.1% | 19 |
+| THE NORTH HIGHLAND HOLDING COMPANY LLC | $998,760.00 | 4.8% | 1 |
+| FARM ENVIRONMENTAL SERVICES LLC | $924,862.73 | 4.4% | 2 |
+| ICF JONES & STOKES INC | $743,218.04 | 3.6% | 1 |
+| NORTHWEST WATERSHED RESTORATION LLC | $704,599.00 | 3.4% | 1 |
+| PORT OF PORTLAND | $675,000.00 | 3.2% | 1 |
+| OREGON STATE TREASURY | $651,616.48 | 3.1% | 2 |
+| UNITED STATES DEPT OF INTERIOR | $575,464.16 | 2.8% | 1 |
+| TITAN-KELLY LLC | $514,700.54 | 2.5% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $399,053.00 | 1.9% | 51 |
+| GR SMITH CONSTRUCTION CORPORATION | $260,632.50 | 1.3% | 1 |
+| OREGON STATE UNIVERSITY | $250,414.15 | 1.2% | 3 |
+| STATE OF OREGON DIVISION OF STATE LANDS | $230,206.89 | 1.1% | 2 |
+| CITY OF LAKESIDE | $215,301.60 | 1.0% | 1 |
+| RICHARD'S REMODELING LLC | $186,886.00 | 0.9% | 1 |
+| SOLUTIONS CONSULTING GROUP LLC | $166,200.00 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 780 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 780 vendor-level transaction records covering 341 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

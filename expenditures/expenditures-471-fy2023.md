@@ -117,9 +117,36 @@ The 12 largest of 92 expenditure classes used by this agency in FY2023.
 | 4366 | Computer Technology Pc Software<$5K | $2,700,597.94 | 3.4% |
 | 4500 | Professional Services Non-It | $2,223,685.05 | 2.8% |
 
+## Largest vendors
+
+The 20 largest of 1,084 payees this agency recorded payments to in FY2023, accounting for 78.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $18,419,483.96 | 23.3% | 12 |
+| FAST ENTERPRISES LLC | $12,842,744.00 | 16.2% | 3 |
+| EMPLOYMENT DEPARTMENT | $8,790,830.10 | 11.1% | 4 |
+| PAR-TECH CONSTRUCTION INC | $3,438,626.82 | 4.4% | 1 |
+| PRESIDIO NETWORKED SOLUTIONS INC | $2,154,514.62 | 2.7% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $2,145,442.12 | 2.7% | 1 |
+| MMI PAYTON LANE LLC | $2,113,663.25 | 2.7% | 4 |
+| SHI INTERNATIONAL CORPORATION | $1,524,780.06 | 1.9% | 7 |
+| THE PITNEY BOWES BANK INC | $1,475,000.00 | 1.9% | 1 |
+| SHI INTERNATIONAL CORP | $1,298,400.73 | 1.6% | 5 |
+| NORTH SANTIAM PAVING | $1,258,692.49 | 1.6% | 1 |
+| BRINK COMMUNICATIONS LLC | $1,221,389.60 | 1.5% | 1 |
+| CDW GOVERNMENT INC | $900,878.80 | 1.1% | 10 |
+| AISLING TRUCKING ACADEMY LLC | $896,033.00 | 1.1% | 1 |
+| 9300 HILLSDALE LLC | $739,728.52 | 0.9% | 3 |
+| ROYAL BUYING GROUP | $675,075.69 | 0.9% | 3 |
+| KYNDRYL INC | $615,377.46 | 0.8% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $605,987.00 | 0.8% | 1 |
+| STOTTS CONSTRUCTION COMPANY | $572,511.60 | 0.7% | 1 |
+| MOHAWK ST PROPERTY LLC | $568,894.02 | 0.7% | 7 |
+
 ## Curator notes
 
-Figures are aggregated from 1,731 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,731 vendor-level transaction records covering 1,084 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

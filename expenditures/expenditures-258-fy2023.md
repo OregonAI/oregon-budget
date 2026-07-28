@@ -133,9 +133,36 @@ The 12 largest of 102 expenditure classes used by this agency in FY2023.
 | 6139 | Distribution To Corrections | $6,180,207.49 | 1.4% |
 | 4519 | Professional Serv/Managed Serv Provider | $5,861,503.24 | 1.3% |
 
+## Largest vendors
+
+The 20 largest of 371 payees this agency recorded payments to in FY2023, accounting for 86.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON HEALTH AUTHORITY | $104,310,061.40 | 23.2% | 1 |
+| DEPARTMENT OF HUMAN SERVICES | $92,433,596.28 | 20.6% | 1 |
+| OREGON DEPARTMENT OF FORESTRY | $46,831,312.20 | 10.4% | 1 |
+| OREGON DEPT OF TRANSPORTATION | $27,567,429.79 | 6.1% | 1 |
+| OREGON DEPARTMENT OF EMERGENCY MANAGEMANT | $24,501,803.08 | 5.5% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $16,318,133.96 | 3.6% | 26 |
+| OREGON MILITARY DEPARTMENT - FEDERAL | $12,087,224.45 | 2.7% | 2 |
+| UNITED TELEPHONE COMPANY OF THE NORTHWEST | $8,743,022.39 | 1.9% | 9 |
+| COUNTY OF MULTNOMAH | $8,267,138.14 | 1.8% | 2 |
+| CITY OF PORTLAND | $6,467,363.39 | 1.4% | 3 |
+| ST CHARLES HEALTH SYSTEM INC | $6,339,697.84 | 1.4% | 1 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $5,452,378.95 | 1.2% | 1 |
+| CITY OF SALEM | $4,356,946.67 | 1.0% | 2 |
+| WASHINGTON CO CONSOLIDATED COMMUNICATIONS AGCY | $4,108,170.26 | 0.9% | 1 |
+| SALEM HOSPITAL | $4,067,366.75 | 0.9% | 1 |
+| QWEST | $3,464,394.48 | 0.8% | 6 |
+| CITY OF EUGENE | $3,328,673.32 | 0.7% | 1 |
+| CONSUMERS POWER INC | $2,713,178.01 | 0.6% | 1 |
+| COUNTY OF CLACKAMAS | $2,564,107.08 | 0.6% | 2 |
+| MOTOROLA SOLUTIONS INC | $2,139,898.26 | 0.5% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 653 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 653 vendor-level transaction records covering 371 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -102,9 +102,36 @@ The 12 largest of 41 expenditure classes used by this agency in FY2022.
 | 4375 | Computer Technology Computer Processing | $15,731.91 | 1.2% |
 | 4200 | Office Supplies | $12,290.65 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 132 payees this agency recorded payments to in FY2022, accounting for 84.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $361,131.57 | 28.6% | 38 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $322,011.62 | 25.5% | 6 |
+| OREGON STATE POLICE | $79,172.00 | 6.3% | 5 |
+| STATE BOARD OF CHIROPRACTIC EXAMINERS | $73,261.01 | 5.8% | 9 |
+| US BANK NATIONAL ASSOCIATION | $70,362.86 | 5.6% | 6 |
+| THENTIA GLOBAL SYSTEMS USA INC | $23,400.00 | 1.9% | 6 |
+| CROWN MEMORIAL CENTER | $22,000.00 | 1.7% | 1 |
+| AMERICAN REGISTRY OF RADIOLOGIC TECHNOLOGISTS | $12,430.00 | 1.0% | 1 |
+| AT&T MOBILITY | $11,187.27 | 0.9% | 3 |
+| MUSGROVE FAMILY MORTUARY | $9,500.00 | 0.8% | 1 |
+| NORTHWEST REGIONAL EDUCATION SERVICES DISTRICT | $9,325.71 | 0.7% | 6 |
+| EMPLOYMENT DEPARTMENT | $9,209.58 | 0.7% | 5 |
+| CROWN MEMORIAL CENTER-SALEM | $9,000.00 | 0.7% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $8,855.52 | 0.7% | 6 |
+| VERIZON WIRELESS | $8,538.97 | 0.7% | 3 |
+| OMEGA FUNERAL & CREMATION SERVICE | $8,000.00 | 0.6% | 1 |
+| CROWN MEMORIAL CENTER - EASTSIDE | $8,000.00 | 0.6% | 1 |
+| FPG OREGON LLC | $8,000.00 | 0.6% | 1 |
+| OREGON HEALTH AUTHORITY | $7,794.59 | 0.6% | 6 |
+| CLEARSTONE MEMORIAL PARTNERS | $7,500.00 | 0.6% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 310 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 310 vendor-level transaction records covering 132 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

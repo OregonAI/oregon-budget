@@ -90,9 +90,36 @@ The 12 largest of 20 expenditure classes used by this agency in FY2020.
 | 4206 | Catering Services | $703.93 | 0.9% |
 | 4367 | Computer Technology Pc Support | $579.45 | 0.8% |
 
+## Largest vendors
+
+The 20 largest of 39 payees this agency recorded payments to in FY2020, accounting for 97.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $32,541.36 | 43.7% | 3 |
+| PROVIDENCE HEALTH & SERVICES | $19,415.00 | 26.1% | 1 |
+| CDW GOVERNMENT INC | $5,562.85 | 7.5% | 2 |
+| GALT FOUNDATION | $2,715.44 | 3.6% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $2,204.20 | 3.0% | 1 |
+| LUCILLE BAKER | $1,787.13 | 2.4% | 1 |
+| NANCY KRAMER | $1,769.86 | 2.4% | 3 |
+| LAWANDA JOYCE MANNING | $954.46 | 1.3% | 2 |
+| CONNIE KIM-GERVEY | $825.82 | 1.1% | 4 |
+| CLARIVATE ANALYTICS INC | $744.97 | 1.0% | 1 |
+| BON APPETIT | $697.05 | 0.9% | 1 |
+| GUSTAVO MORALES | $687.49 | 0.9% | 1 |
+| DAVID YUEN TAM | $653.02 | 0.9% | 5 |
+| CHINESE AMERICAN CITIZENS ALLIANCE | $468.49 | 0.6% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $395.94 | 0.5% | 1 |
+| JONATHAN CHAVEZ BAEZ | $364.20 | 0.5% | 2 |
+| ROBIN MORRIS COLLIN | $284.67 | 0.4% | 2 |
+| IRMA LINDA CASTILLO | $240.98 | 0.3% | 1 |
+| KIMBERLY OLSON | $234.34 | 0.3% | 1 |
+| TOC SONEOULAY-GILLESPIE | $205.14 | 0.3% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 56 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 56 vendor-level transaction records covering 39 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

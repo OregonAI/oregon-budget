@@ -94,9 +94,36 @@ The 12 largest of 28 expenditure classes used by this agency in FY2020.
 | 4305 | Telecom/Network Services | $3,994.20 | 1.1% |
 | 4109 | Instate Mileage Reimbursement-Full Rate | $2,956.51 | 0.8% |
 
+## Largest vendors
+
+The 20 largest of 22 payees this agency recorded payments to in FY2020, accounting for 99.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $142,835.54 | 39.1% | 8 |
+| STATE INVESTMENTS LLC | $120,582.12 | 33.0% | 1 |
+| NICUSA INC | $60,000.00 | 16.4% | 1 |
+| CDW GOVERNMENT INC | $8,735.78 | 2.4% | 2 |
+| STATE OF OREGON - SECRETARY OF STATE | $7,594.92 | 2.1% | 2 |
+| JANET F GILLMAN | $5,505.90 | 1.5% | 6 |
+| SHI INTERNATIONAL CORP | $5,131.26 | 1.4% | 1 |
+| IBM CORPORATION | $3,711.77 | 1.0% | 1 |
+| STEVE IRVIN | $2,447.57 | 0.7% | 6 |
+| PHILIP ALAN JOHNSON II | $2,427.92 | 0.7% | 5 |
+| STATE OF OREGON SECRETARY OF STATE | $2,364.00 | 0.6% | 1 |
+| ENCORE GLASS LLC | $969.00 | 0.3% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $577.80 | 0.2% | 1 |
+| MARTIN J KEHOE | $474.32 | 0.1% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $473.79 | 0.1% | 2 |
+| OREGON STATE TREASURY | $257.00 | 0.1% | 1 |
+| CASCADE CENTERS INC | $207.48 | 0.1% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $199.79 | 0.1% | 2 |
+| OREGON LABOR LAW DIGEST | $150.00 | 0.0% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $137.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 49 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 49 vendor-level transaction records covering 22 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

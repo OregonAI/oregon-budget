@@ -113,9 +113,36 @@ The 12 largest of 62 expenditure classes used by this agency in FY2021.
 | 4850 | Facilities Maintenance | $430,252.36 | 0.1% |
 | 4366 | Computer Technology Pc Software<$5K | $414,730.92 | 0.1% |
 
+## Largest vendors
+
+The 20 largest of 1,040 payees this agency recorded payments to in FY2021, accounting for 61.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DIAGEO NA INC | $60,477,526.69 | 11.1% | 1 |
+| JIM BEAM BRANDS CO | $34,239,541.79 | 6.3% | 1 |
+| SAZERAC COMPANY INC | $33,836,054.96 | 6.2% | 1 |
+| PERNOD RICARD USA LLC | $27,858,999.54 | 5.1% | 1 |
+| HEAVEN HILL SALES CO | $22,888,939.79 | 4.2% | 1 |
+| BACARDI USA INC | $21,794,446.95 | 4.0% | 1 |
+| PROXIMO SPIRITS INC | $21,629,939.75 | 4.0% | 2 |
+| BROWN FORMAN CORP | $19,681,941.61 | 3.6% | 1 |
+| CITY OF PORTLAND | $12,859,035.33 | 2.4% | 6 |
+| HOOD RIVER DISTILLERS INC | $12,178,585.76 | 2.2% | 2 |
+| FIFTH GENERATION INC | $11,282,454.67 | 2.1% | 1 |
+| CAMPARI AMERICA | $10,065,478.30 | 1.8% | 1 |
+| MOET HENNESSEY USA INC | $8,901,287.37 | 1.6% | 1 |
+| WILLIAM GRANT AND SONS INC | $8,821,108.18 | 1.6% | 1 |
+| SAZERAC NORTH AMERICA INC | $5,699,002.43 | 1.0% | 1 |
+| COUNTY OF MULTNOMAH | $5,533,650.65 | 1.0% | 1 |
+| FRANK LIN DISTILLERS PRODUCTS LTD | $5,279,073.37 | 1.0% | 1 |
+| MUTUAL WHOLESALE LIQUOR INC | $5,060,378.34 | 0.9% | 1 |
+| E & J GALLO WINERY | $4,839,641.88 | 0.9% | 1 |
+| COUNTY OF WASHINGTON | $4,133,619.97 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,331 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,331 vendor-level transaction records covering 1,040 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

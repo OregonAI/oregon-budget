@@ -85,9 +85,28 @@ The 12 largest of 17 expenditure classes used by this agency in FY2025.
 | 4365 | Computer Technology Pc Equipment<$5K | $318.69 | 1.3% |
 | 4200 | Office Supplies | $162.68 | 0.7% |
 
+## Largest vendors
+
+The 12 largest of 12 payees this agency recorded payments to in FY2025, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $11,923.22 | 50.4% | 2 |
+| ELISSA BULLION | $4,443.04 | 18.8% | 7 |
+| PATRICK A FLANAGAN | $2,561.78 | 10.8% | 7 |
+| VERIZON WIRELESS | $1,859.79 | 7.9% | 1 |
+| CDW GOVERNMENT INC | $964.65 | 4.1% | 1 |
+| ADRIENNE FISCHER | $637.62 | 2.7% | 3 |
+| STATE OF OREGON SECRETARY OF STATE | $608.75 | 2.6% | 1 |
+| SHI INTERNATIONAL CORP | $318.69 | 1.3% | 1 |
+| SISTERS DEPOT LLC | $220.20 | 0.9% | 1 |
+| COQUILLE INDIAN TRIBE | $83.48 | 0.4% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $35.00 | 0.1% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $15.00 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 27 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 27 vendor-level transaction records covering 12 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

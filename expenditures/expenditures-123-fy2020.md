@@ -122,9 +122,36 @@ The 12 largest of 88 expenditure classes used by this agency in FY2020.
 | 6500 | Distribution To Comm College Districts | $8,335,563.50 | 2.9% |
 | 6300 | Distribution To Counties | $4,245,918.23 | 1.5% |
 
+## Largest vendors
+
+The 20 largest of 1,078 payees this agency recorded payments to in FY2020, accounting for 43.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $26,872,330.50 | 9.2% | 21 |
+| UNION BANK TRUST DEPARTMENT - FEES | $22,740,293.80 | 7.8% | 2 |
+| OREGON STATE TREASURY | $16,257,882.97 | 5.6% | 12 |
+| MULTNOMAH CO SCH DIST 1J | $5,766,823.00 | 2.0% | 1 |
+| PORT OF CASCADE LOCKS | $4,558,384.00 | 1.6% | 2 |
+| THE BANK OF NEW YORK MELLON TRUST COMPANY NA | $4,474,872.52 | 1.5% | 2 |
+| CITY OF PENDLETON | $3,984,316.30 | 1.4% | 3 |
+| COUNTY OF UNION | $3,920,589.00 | 1.3% | 2 |
+| OREGON SBDC NETWORK OFFICE | $3,816,066.50 | 1.3% | 1 |
+| CRESCENT SANITARY DISTRICT | $3,687,986.00 | 1.3% | 2 |
+| TILLAMOOK CO SCH DIST 9 | $3,557,495.00 | 1.2% | 1 |
+| JACKSON CO SCH DIST 6 | $3,205,281.00 | 1.1% | 1 |
+| KLAMATH CO SCH DIST | $3,204,124.00 | 1.1% | 1 |
+| LINN BENTON COMMUNITY COLLEGE | $3,000,000.00 | 1.0% | 1 |
+| DOUGLAS CO SCH DIST 4 | $2,902,930.00 | 1.0% | 1 |
+| CITY OF HERMISTON | $2,873,681.00 | 1.0% | 1 |
+| LA GRANDE SCHOOL DIST 1 | $2,760,958.00 | 0.9% | 1 |
+| LINN CO SCH DIST 55 | $2,748,466.00 | 0.9% | 1 |
+| SILVER FALLS SCHOOL DISTRICT 4 | $2,620,816.00 | 0.9% | 1 |
+| PALLADIN PRODUCTIONS LLC | $2,617,180.93 | 0.9% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,397 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,397 vendor-level transaction records covering 1,078 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

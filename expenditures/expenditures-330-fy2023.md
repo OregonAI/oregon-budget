@@ -115,9 +115,36 @@ The 12 largest of 83 expenditure classes used by this agency in FY2023.
 | 4505 | Professional Services Non-It>$75K | $136,843.64 | 0.5% |
 | 4301 | Telecom/Voice Usage | $66,255.88 | 0.2% |
 
+## Largest vendors
+
+The 20 largest of 226 payees this agency recorded payments to in FY2023, accounting for 83.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON STATE TREASURY | $13,816,139.40 | 47.5% | 4 |
+| ENERGY TRUST OF OREGON INC | $2,000,000.00 | 6.9% | 1 |
+| BLUE RAVEN SOLAR HOLDINGS LLC | $1,086,303.00 | 3.7% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,032,787.57 | 3.6% | 21 |
+| TML INTERNATIONAL LLC | $764,678.00 | 2.6% | 1 |
+| GCB SOLAR INC | $712,299.00 | 2.4% | 1 |
+| DEPARTMENT OF JUSTICE | $636,263.15 | 2.2% | 1 |
+| PURE ENERGY GROUP INC | $592,543.00 | 2.0% | 1 |
+| EARTHLIGHT TECHNOLOGIES | $460,525.00 | 1.6% | 1 |
+| NATIONAL SOLAR INC | $450,957.00 | 1.6% | 1 |
+| TRUE SOUTH SOLAR | $402,979.00 | 1.4% | 2 |
+| SUNSHINE SOLAR INC | $318,484.00 | 1.1% | 1 |
+| C&B RENEWABLE ENERGY LLC | $285,391.00 | 1.0% | 1 |
+| ENERGY SOLUTIONS LLC | $278,645.00 | 1.0% | 1 |
+| PRO-STAT SERVICES LLC | $264,943.00 | 0.9% | 1 |
+| POWER NORTHWEST INCORPORATED | $254,220.00 | 0.9% | 1 |
+| CITY OF SALEM UTILITY BILLING | $250,000.00 | 0.9% | 1 |
+| FLEET DEVELOPMENT LLC | $250,000.00 | 0.9% | 1 |
+| HALEY & ALDRICH | $233,045.33 | 0.8% | 2 |
+| E2 SOLAR INC | $230,522.00 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 386 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 386 vendor-level transaction records covering 226 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

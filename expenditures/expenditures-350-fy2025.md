@@ -88,9 +88,24 @@ The 12 largest of 13 expenditure classes used by this agency in FY2025.
 | 4253 | Advertise, Publicity, Publish/Print Srvs | $53.80 | 0.0% |
 | 4160 | Out-Of-State Ground Transportation | $18.00 | 0.0% |
 
+## Largest vendors
+
+The 8 largest of 8 payees this agency recorded payments to in FY2025, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| COLUMBIA RIVER GORGE COMMISSION | $1,089,620.59 | 99.0% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $4,620.00 | 0.4% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $3,418.00 | 0.3% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $2,610.57 | 0.2% | 5 |
+| CARINA MILLER | $149.38 | 0.0% | 2 |
+| PRINT IT INC | $142.04 | 0.0% | 3 |
+| ASHLEY THOMSON | $66.30 | 0.0% | 2 |
+| JAMES MORGAN | $42.18 | 0.0% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 18 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 18 vendor-level transaction records covering 8 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

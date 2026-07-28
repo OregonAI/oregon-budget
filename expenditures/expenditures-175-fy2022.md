@@ -85,9 +85,26 @@ The 12 largest of 12 expenditure classes used by this agency in FY2022.
 | 4315 | Telecom/Teleconference Usage | $116.35 | 0.2% |
 | 4101 | Instate Meals With Overnight Stay | $42.94 | 0.1% |
 
+## Largest vendors
+
+The 10 largest of 10 payees this agency recorded payments to in FY2022, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $38,004.04 | 67.3% | 2 |
+| RACHEL MORTIMER | $7,360.90 | 13.0% | 4 |
+| RICHARDSON WRIGHT LLP | $4,106.21 | 7.3% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $3,458.27 | 6.1% | 7 |
+| NATIONAL CENTER FOR STATE COURTS | $2,700.00 | 4.8% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $412.00 | 0.7% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $213.97 | 0.4% | 2 |
+| CHERYL A ALBRECHT | $186.88 | 0.3% | 2 |
+| ASSOCIATION OF JUDICIAL DISIPLINARY COUNSEL | $50.00 | 0.1% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $15.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 22 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 22 vendor-level transaction records covering 10 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -102,9 +102,36 @@ The 12 largest of 54 expenditure classes used by this agency in FY2019.
 | 4800 | Facilities Rent | $71,729.35 | 0.2% |
 | 4550 | Attorney General Legal Fees | $37,856.00 | 0.1% |
 
+## Largest vendors
+
+The 20 largest of 115 payees this agency recorded payments to in FY2019, accounting for 81.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| COUNTY OF MULTNOMAH | $6,589,985.48 | 18.8% | 1 |
+| COUNTY OF LANE | $2,819,430.37 | 8.1% | 1 |
+| COUNTY OF JACKSON | $2,272,610.41 | 6.5% | 1 |
+| WASHINGTON COUNTY COMMUNITY CORRECTIONS | $2,023,047.13 | 5.8% | 1 |
+| COUNTY OF MARION TREASURY DEPARTMENT | $1,919,960.88 | 5.5% | 1 |
+| COUNTY OF CLACKAMAS | $1,523,774.55 | 4.4% | 1 |
+| JOSEPHINE COUNTY CCA | $1,406,605.06 | 4.0% | 1 |
+| COUNTY OF KLAMATH | $1,115,670.83 | 3.2% | 1 |
+| DESCHUTES COUNTY | $1,104,910.66 | 3.2% | 1 |
+| 5 POINT SOLUTIONS LLC | $1,047,187.38 | 3.0% | 1 |
+| DOUGLAS COUNTY | $945,939.49 | 2.7% | 1 |
+| COUNTY OF LINN | $919,863.24 | 2.6% | 1 |
+| MID WILLAMETTE VALLEY COMMUNITY ACTION AGENCY INC | $851,661.40 | 2.4% | 1 |
+| COUNTY OF LINCOLN | $666,184.06 | 1.9% | 1 |
+| COUNTY OF BENTON | $660,436.45 | 1.9% | 1 |
+| COLUMBIA CO COMMUNITY CORRECTIONS | $619,999.79 | 1.8% | 1 |
+| YAMHILL COUNTY COMMUNITY CORRECTIONS | $618,596.94 | 1.8% | 1 |
+| ADAPT | $525,486.08 | 1.5% | 1 |
+| ASSOCIATION OF OREGON COUNTIES | $522,614.29 | 1.5% | 1 |
+| STATE OF OREGON JUDICIAL DEPARTMENT | $476,720.40 | 1.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 186 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 186 vendor-level transaction records covering 115 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

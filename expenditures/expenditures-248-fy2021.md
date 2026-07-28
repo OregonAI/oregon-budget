@@ -145,9 +145,36 @@ The 12 largest of 133 expenditure classes used by this agency in FY2021.
 | 4500 | Professional Services Non-It | $6,205,148.85 | 1.2% |
 | 4850 | Facilities Maintenance | $6,019,032.94 | 1.2% |
 
+## Largest vendors
+
+The 20 largest of 1,897 payees this agency recorded payments to in FY2021, accounting for 84.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON DEPT OF TRANSPORTATION | $144,790,174.50 | 28.0% | 2 |
+| OREGON HEALTH AUTHORITY | $110,156,168.00 | 21.3% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $77,204,536.41 | 15.0% | 31 |
+| DEPARTMENT OF HUMAN SERVICES | $25,467,700.00 | 4.9% | 1 |
+| FORTIS CONSTRUCTION INC | $15,742,118.88 | 3.0% | 4 |
+| UNITED TELEPHONE COMPANY OF THE NORTHWEST | $9,766,911.06 | 1.9% | 9 |
+| CITY OF PORTLAND | $9,097,087.59 | 1.8% | 4 |
+| AC DISASTER CONSULTING | $5,148,089.01 | 1.0% | 1 |
+| PEACEHEALTH | $5,009,618.39 | 1.0% | 1 |
+| WASHINGTON CO CONSOLIDATED COMMUNICATIONS AGCY | $4,306,686.08 | 0.8% | 1 |
+| EUGENE WATER & ELECTRIC BOARD | $3,978,559.56 | 0.8% | 1 |
+| CITY OF SALEM | $3,213,579.81 | 0.6% | 4 |
+| CITY OF EUGENE | $3,150,749.46 | 0.6% | 4 |
+| PROVIDENCE HEALTH & SERVICES | $2,848,817.53 | 0.6% | 1 |
+| COUNTY OF CLACKAMAS | $2,687,829.70 | 0.5% | 3 |
+| APOLLO INC | $2,639,625.62 | 0.5% | 1 |
+| QWEST | $2,271,583.22 | 0.4% | 10 |
+| RAMS SPECIALIZED SECURITY SERVICE INC | $2,270,035.39 | 0.4% | 1 |
+| SILVER CREEK CONTRACTING LLC | $2,210,215.53 | 0.4% | 1 |
+| CITY OF GRESHAM | $2,080,134.31 | 0.4% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 2,482 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,482 vendor-level transaction records covering 1,897 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

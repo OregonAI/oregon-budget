@@ -87,11 +87,16 @@ Measured, not assumed. The full detail is in `datasets/*.md`.
 
 ## A note on vendors
 
-The source names 98,933 vendors, roughly 5% of them individual people with payment amounts
-attached. That is public record, and the Parquet mirror reproduces the public dataset
-faithfully. The generated documents deliberately stop at budget-class and
-expenditure-class grain and republish no vendor-level detail, because indexing named
-individuals' payments as agent-searchable text is a different act with a different reach.
+The source names 98,933 distinct payees, and the documents report the largest per
+agency-year alongside budget and expenditure classes. This is public record published by
+the State of Oregon under `USGOV_WORKS`, and who the state pays is the substance of the
+transparency question rather than an incidental detail of it. Nothing is masked or
+withheld.
+
+One caveat that is a data-quality point, not a privacy one: a payee string is whatever was
+entered in the statewide financial system, so the same organisation can appear under
+several spellings and is **not** de-duplicated here. Treating each distinct string as a
+distinct organisation will undercount the large ones.
 
 ## License
 Content (curated government material): CC0-1.0. Tooling, structure,

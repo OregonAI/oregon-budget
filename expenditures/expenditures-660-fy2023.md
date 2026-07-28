@@ -101,9 +101,36 @@ The 12 largest of 55 expenditure classes used by this agency in FY2023.
 | 4365 | Computer Technology Pc Equipment<$5K | $39,631.77 | 0.5% |
 | 4108 | Instate Ground Transportation | $33,948.21 | 0.5% |
 
+## Largest vendors
+
+The 20 largest of 191 payees this agency recorded payments to in FY2023, accounting for 66.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $787,191.73 | 10.7% | 11 |
+| PORTLAND STATE UNIVERSITY | $592,723.56 | 8.1% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $420,743.98 | 5.7% | 1 |
+| 3J CONSULTING INC | $359,077.72 | 4.9% | 1 |
+| MIG INC | $348,181.25 | 4.7% | 1 |
+| ECONOMIC CONSULTANTS OREGON | $329,842.00 | 4.5% | 1 |
+| DEPARTMENT OF HOUSING & COMMUNITY SERVICES | $284,665.00 | 3.9% | 1 |
+| CASCADIA PARTNERS LLC | $283,443.16 | 3.9% | 1 |
+| UNIVERSITY OF OREGON | $182,490.62 | 2.5% | 1 |
+| STATE OF OREGON DEPT OF GEOLOGY AND MINERAL IND | $166,809.53 | 2.3% | 1 |
+| MID WILLAMETTE VALLEY COG | $150,100.00 | 2.0% | 2 |
+| OREGON STATE UNIVERSITY | $141,118.22 | 1.9% | 3 |
+| KEARNS & WEST INC | $111,263.51 | 1.5% | 2 |
+| CITY OF NEWBERG | $111,098.80 | 1.5% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $110,069.63 | 1.5% | 19 |
+| CITY OF MILWAUKIE | $109,331.50 | 1.5% | 1 |
+| CITY OF WILSONVILLE | $103,500.00 | 1.4% | 1 |
+| CITY OF COOS BAY | $99,951.36 | 1.4% | 1 |
+| SHEEPSCOT CREATIVE | $90,000.00 | 1.2% | 1 |
+| CITY OF CANBY | $84,770.00 | 1.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 334 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 334 vendor-level transaction records covering 191 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -116,9 +116,36 @@ The 12 largest of 104 expenditure classes used by this agency in FY2025.
 | 4999 | Expendable Property Non-It<$5K | $1,464,845.85 | 1.7% |
 | 4500 | Professional Services Non-It | $1,405,417.08 | 1.6% |
 
+## Largest vendors
+
+The 20 largest of 1,005 payees this agency recorded payments to in FY2025, accounting for 77.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| FORTIS CONSTRUCTION INC | $17,992,627.87 | 20.3% | 5 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $10,976,674.89 | 12.4% | 15 |
+| KIRBY NAGELHOUT CONSTRUCTION CO | $6,571,685.83 | 7.4% | 2 |
+| AUSLAND GROUP | $6,231,109.96 | 7.0% | 1 |
+| P&C CONSTRUCTION COMPANY | $3,750,775.00 | 4.2% | 1 |
+| BREMIK CONSTRUCTION INC | $3,222,707.99 | 3.6% | 1 |
+| RAMS SPECIALIZED SECURITY SERVICE INC | $2,396,163.54 | 2.7% | 1 |
+| PACIFIC POWER | $2,322,674.55 | 2.6% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $2,278,035.08 | 2.6% | 60 |
+| WFG NATIONAL TITLE INSURANCE COMPANY | $1,960,253.00 | 2.2% | 2 |
+| COLOR-AD INC | $1,847,958.73 | 2.1% | 1 |
+| PEAK CONTRACTOR INC | $1,518,363.22 | 1.7% | 1 |
+| FOWLER GENERAL CONSTRUCTION | $1,225,582.31 | 1.4% | 1 |
+| CENTRAL OREGON INTERGOVERNMENT COUNCIL (COIC) | $1,145,750.78 | 1.3% | 1 |
+| KNIFE RIVER CORPORATION WESTERN OREGON DIVISION | $1,097,774.06 | 1.2% | 1 |
+| PORTLAND WATER BUREAU | $1,038,098.64 | 1.2% | 2 |
+| FOX PARKWAY LLC | $962,206.84 | 1.1% | 2 |
+| PORTLAND GENERAL ELECTRIC COMPANY | $936,567.71 | 1.1% | 1 |
+| NW NATURAL | $856,547.44 | 1.0% | 1 |
+| OREGON MILITARY DEPT | $622,631.97 | 0.7% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 1,851 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,851 vendor-level transaction records covering 1,005 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

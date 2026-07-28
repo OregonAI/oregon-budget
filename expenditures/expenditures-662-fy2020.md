@@ -96,9 +96,36 @@ The 12 largest of 24 expenditure classes used by this agency in FY2020.
 | 4365 | Computer Technology Pc Equipment<$5K | $1,892.55 | 1.5% |
 | 4251 | Subscriptions And Publications | $1,869.00 | 1.5% |
 
+## Largest vendors
+
+The 20 largest of 31 payees this agency recorded payments to in FY2020, accounting for 99.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DIVISION OF STATE LANDS | $59,657.92 | 46.3% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $31,228.99 | 24.2% | 5 |
+| STATE OF OREGON SECRETARY OF STATE | $5,183.68 | 4.0% | 1 |
+| LEXISNEXIS | $3,928.00 | 3.0% | 1 |
+| OFFICE DEPOT INC | $3,839.52 | 3.0% | 1 |
+| THOMSON REUTERS | $3,740.00 | 2.9% | 2 |
+| OREGON STATE POLICE | $3,200.00 | 2.5% | 1 |
+| CDW GOVERNMENT INC | $3,174.75 | 2.5% | 3 |
+| OREGON STATE BAR | $2,653.00 | 2.1% | 1 |
+| RICOH USA INC | $1,722.61 | 1.3% | 3 |
+| IBM CORPORATION | $1,612.34 | 1.3% | 1 |
+| P-DINH FINISHING BINDERY INC | $1,589.00 | 1.2% | 1 |
+| LEXISNEXIS RISK DATA MANAGEMENT INC | $1,473.00 | 1.1% | 1 |
+| ACCURATE CORPORATE SERVICES INC | $1,203.78 | 0.9% | 1 |
+| STATE OF OREGON JUDICIAL DEPARTMENT | $769.00 | 0.6% | 1 |
+| LEGISLATIVE COUNSEL COMMITTEE | $760.00 | 0.6% | 1 |
+| REIMERS FURNITURE MFG INC | $663.85 | 0.5% | 1 |
+| SUNRIVER RESORT L P | $472.76 | 0.4% | 1 |
+| DEPENDABLE PRINTER SUPPORT INC | $375.00 | 0.3% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $311.90 | 0.2% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 47 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 47 vendor-level transaction records covering 31 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -96,9 +96,36 @@ The 12 largest of 42 expenditure classes used by this agency in FY2023.
 | 4366 | Computer Technology Pc Software<$5K | $21,340.00 | 1.1% |
 | 4305 | Telecom/Network Services | $19,677.55 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 57 payees this agency recorded payments to in FY2023, accounting for 94.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPT OF STATE POLICE | $358,560.25 | 18.7% | 1 |
+| UNIVERSITY OF OREGON | $351,278.00 | 18.3% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $286,900.14 | 14.9% | 7 |
+| PIKES NORTHWEST LLC | $169,814.82 | 8.8% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $143,624.87 | 7.5% | 1 |
+| US BANK NATIONAL ASSOCIATION | $85,721.38 | 4.5% | 1 |
+| U WORK COM INC | $71,552.00 | 3.7% | 1 |
+| EMPLOYMENT DEPARTMENT | $53,022.56 | 2.8% | 2 |
+| OREGON STATE POLICE | $39,774.25 | 2.1% | 1 |
+| OUS SOUTHERN OREGON UNIVERSITY | $25,000.00 | 1.3% | 1 |
+| WARNER PACIFIC UNIVERSITY | $25,000.00 | 1.3% | 1 |
+| GEORGE FOX UNIVERSITY | $25,000.00 | 1.3% | 1 |
+| WESTERN OREGON UNIVERSITY | $25,000.00 | 1.3% | 1 |
+| EASTERN OREGON UNIVERSITY | $25,000.00 | 1.3% | 1 |
+| LINFIELD UNIVERSITY | $25,000.00 | 1.3% | 1 |
+| UNIVERSITY OF PORTLAND | $25,000.00 | 1.3% | 1 |
+| OREGON STATE UNIVERSITY | $25,000.00 | 1.3% | 1 |
+| CORBAN UNIVERSITY | $25,000.00 | 1.3% | 1 |
+| SHI INTERNATIONAL CORP | $21,340.00 | 1.1% | 1 |
+| PIVOTAL RESOURCES INC | $16,224.75 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 96 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 96 vendor-level transaction records covering 57 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

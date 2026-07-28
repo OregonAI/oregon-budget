@@ -100,9 +100,36 @@ The 12 largest of 50 expenditure classes used by this agency in FY2019.
 | 4301 | Telecom/Voice Usage | $11,459.40 | 0.5% |
 | 4202 | Equipment Rental | $8,942.41 | 0.4% |
 
+## Largest vendors
+
+The 20 largest of 77 payees this agency recorded payments to in FY2019, accounting for 96.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| 1351 TANDEM AVE LLC | $713,616.18 | 31.9% | 1 |
+| DEPARTMENT OF JUSTICE | $372,257.59 | 16.6% | 1 |
+| COUNTY OF MULTNOMAH | $224,620.51 | 10.0% | 2 |
+| PIKES NORTHWEST LLC | $156,940.93 | 7.0% | 2 |
+| PACIFIC STATIONERY & PRINTING CO | $149,205.60 | 6.7% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $111,894.24 | 5.0% | 9 |
+| DAVID J SCHUESSLER | $79,825.46 | 3.6% | 2 |
+| MASS INGENUITY | $73,048.50 | 3.3% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $42,166.43 | 1.9% | 2 |
+| INTEGRATED CLINICAL & CORRECTIONAL SERVICES | $38,398.11 | 1.7% | 1 |
+| CDW GOVERNMENT INC | $34,093.37 | 1.5% | 2 |
+| GARY R MCGUFFIN | $28,386.00 | 1.3% | 1 |
+| PROFESSIONAL FILING SYSTEMS INC | $24,764.84 | 1.1% | 1 |
+| BRADLEY PATRICK DEHLER | $22,537.64 | 1.0% | 1 |
+| MCKENZIE COUNSELING LLC | $20,252.15 | 0.9% | 1 |
+| ALLEGIANT BUSINESS FINANCE LLC | $19,361.88 | 0.9% | 1 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $15,394.61 | 0.7% | 17 |
+| CYNTHIA DANFORTH ATTORNEY AT LAW | $14,779.18 | 0.7% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $12,143.62 | 0.5% | 4 |
+| IBM CORPORATION | $11,017.08 | 0.5% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 145 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 145 vendor-level transaction records covering 77 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -111,9 +111,36 @@ The 12 largest of 80 expenditure classes used by this agency in FY2019.
 | 4159 | Out-Of-State Air Transportation | $104,263.14 | 2.1% |
 | 4375 | Computer Technology Computer Processing | $98,019.22 | 2.0% |
 
+## Largest vendors
+
+The 20 largest of 129 payees this agency recorded payments to in FY2019, accounting for 95.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF HOUSING & COMMUNITY SERVICES | $2,013,450.73 | 41.5% | 28 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $854,987.77 | 17.6% | 12 |
+| OFFICE OF THE GOVERNOR | $496,267.41 | 10.2% | 15 |
+| CDW GOVERNMENT INC | $149,323.36 | 3.1% | 6 |
+| UNITED STATES MARSHALS SVC JPATS | $112,180.00 | 2.3% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $110,237.11 | 2.3% | 3 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $108,468.07 | 2.2% | 1 |
+| NATIONAL GOVERNORS' ASSOCIATION | $106,600.00 | 2.2% | 1 |
+| LEGISLATIVE ADMIN COMMITTEE | $82,772.17 | 1.7% | 3 |
+| HOUSING AUTHORITY & COMMUNITY SERVICES AGENCY | $82,451.22 | 1.7% | 1 |
+| UNIVERSITY OF OREGON | $78,820.00 | 1.6% | 1 |
+| THE SALEM GROUP CONFERENCE CENTER COMPANY LLC | $77,454.34 | 1.6% | 3 |
+| PORTLAND STATE UNIVERSITY | $73,422.09 | 1.5% | 3 |
+| WASHINGTON CO SCH DIST 15 | $55,225.63 | 1.1% | 2 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $50,974.72 | 1.1% | 4 |
+| US BANK NATIONAL ASSOCIATION ND | $45,329.01 | 0.9% | 1 |
+| WESTERN GOVERNOR'S ASSOCIATION | $36,000.00 | 0.7% | 1 |
+| STATE SERVICES ORGANIZATION | $33,090.62 | 0.7% | 2 |
+| MULTNOMAH COUNTY SHERIFF | $24,188.80 | 0.5% | 7 |
+| RICOH USA INC | $21,688.05 | 0.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 497 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 497 vendor-level transaction records covering 129 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

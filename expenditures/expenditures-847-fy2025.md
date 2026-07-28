@@ -93,9 +93,36 @@ The 12 largest of 45 expenditure classes used by this agency in FY2025.
 | 4251 | Subscriptions And Publications | $38,922.44 | 1.8% |
 | 4301 | Telecom/Voice Usage | $25,836.13 | 1.2% |
 
+## Largest vendors
+
+The 20 largest of 65 payees this agency recorded payments to in FY2025, accounting for 97.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $448,014.55 | 20.3% | 1 |
+| INTEGRATED BEHAVIORAL HEALTH INC | $426,359.00 | 19.3% | 1 |
+| URBAN OFFICE & PARKING FACILITIES | $353,569.77 | 16.0% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $268,632.02 | 12.2% | 8 |
+| DEPT OF STATE POLICE | $155,701.25 | 7.0% | 1 |
+| FOUNDATION FOR MEDICAL EXCELLENCE | $125,000.00 | 5.7% | 1 |
+| OREGON STATE TREASURY | $68,097.48 | 3.1% | 2 |
+| DALTON ADVOCACY INC | $65,000.00 | 2.9% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $35,259.52 | 1.6% | 1 |
+| LYNX GROUP INC | $33,224.22 | 1.5% | 1 |
+| SHI INTERNATIONAL CORP | $32,482.98 | 1.5% | 2 |
+| KELLER ROHRBACK LLP | $28,414.56 | 1.3% | 1 |
+| NAEGELI DEPOSITION AND TRIAL | $22,120.45 | 1.0% | 1 |
+| KYNDRYL INC | $20,322.05 | 0.9% | 1 |
+| UNITED STATES POSTAL SERVICE | $19,000.00 | 0.9% | 1 |
+| CARAHSOFT TECHNOLOGY CORPORATION | $13,636.85 | 0.6% | 1 |
+| KELLEY CREATE | $9,254.04 | 0.4% | 1 |
+| EMPLOYMENT DEPARTMENT | $8,771.60 | 0.4% | 2 |
+| US BANK NATIONAL ASSOCIATION | $8,528.98 | 0.4% | 1 |
+| NICOLE KRISHNASWAMI JD | $7,327.83 | 0.3% | 6 |
+
 ## Curator notes
 
-Figures are aggregated from 139 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 139 vendor-level transaction records covering 65 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

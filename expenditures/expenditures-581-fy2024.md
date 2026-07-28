@@ -140,9 +140,36 @@ The 12 largest of 138 expenditure classes used by this agency in FY2024.
 | 6300 | Distribution To Counties | $8,718,576.50 | 0.1% |
 | 6172 | Dist To Teacher Standards & Practices | $6,498,981.75 | 0.1% |
 
+## Largest vendors
+
+The 20 largest of 1,453 payees this agency recorded payments to in FY2024, accounting for 65.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF EDUCATION | $5,036,904,210.45 | 39.8% | 3 |
+| MARION CO SCH DIST 24J | $394,230,669.78 | 3.1% | 1 |
+| WELLS FARGO BANK NORTHWEST NATIONAL ASSO | $318,510,720.18 | 2.5% | 1 |
+| WASHINGTON CO SCH DIST 48J | $310,100,014.38 | 2.4% | 2 |
+| WASHINGTON CO SCH DIST 1J | $202,036,252.12 | 1.6% | 2 |
+| MULTNOMAH CO SCH DIST 1 | $200,412,317.03 | 1.6% | 2 |
+| MULTNOMAH CO SCH DIST 40 | $176,243,423.73 | 1.4% | 2 |
+| CLACKAMAS CO SCH DIST 12 | $170,085,253.73 | 1.3% | 2 |
+| MARION COUNTY SCHOOL DISTRICT 24J | $169,912,215.92 | 1.3% | 4 |
+| LANE CO SCH DIST 4J | $168,855,723.51 | 1.3% | 3 |
+| JACKSON CO SCH DIST 549C | $168,568,835.71 | 1.3% | 1 |
+| MULTNOMAH CO SCH DIST 7 | $155,002,227.99 | 1.2% | 1 |
+| MULTNOMAH CO SCH DIST 1J | $135,058,444.01 | 1.1% | 2 |
+| LANE CO SCH DIST 19 | $124,487,844.95 | 1.0% | 3 |
+| LINN CO SCH DIST 8 | $108,938,098.93 | 0.9% | 1 |
+| MULTNOMAH CO SCH DIST 10 | $106,156,274.11 | 0.8% | 1 |
+| KLAMATH CO SCH DIST | $105,876,371.42 | 0.8% | 1 |
+| BEAVERTON SCHOOL DISTRICT #48 | $104,129,439.07 | 0.8% | 2 |
+| DESCHUTES CO SCH DIST 1 | $99,155,039.50 | 0.8% | 1 |
+| MARION CO SCH DIST 103 | $93,501,409.01 | 0.7% | 4 |
+
 ## Curator notes
 
-Figures are aggregated from 3,271 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 3,271 vendor-level transaction records covering 1,453 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

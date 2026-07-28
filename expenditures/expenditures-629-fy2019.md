@@ -135,9 +135,36 @@ The 12 largest of 144 expenditure classes used by this agency in FY2019.
 | 7150 | Principal-Certificates Of Participation | $849,000.00 | 0.6% |
 | 4311 | Telecom/Wireless Ps Equipment<$5K | $848,661.23 | 0.6% |
 
+## Largest vendors
+
+The 20 largest of 2,616 payees this agency recorded payments to in FY2019, accounting for 47.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON MILITARY DEPARTMENT | $6,636,645.97 | 4.4% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $6,270,059.69 | 4.2% | 25 |
+| COOS FOREST PROTECTIVE ASSOCIATION | $6,072,031.99 | 4.0% | 15 |
+| US BANK NATIONAL ASSOCIATION ND | $4,904,901.57 | 3.3% | 82 |
+| COLUMBIA BASIN HELICOPTERS INC | $4,831,125.45 | 3.2% | 2 |
+| HELICOPTER TRANSPORT SERVICES LLC | $4,688,256.08 | 3.1% | 2 |
+| USDA FOREST SERVICE | $4,628,912.64 | 3.1% | 12 |
+| DOUGLAS FOREST PROTECTIVE ASSN | $4,118,724.52 | 2.7% | 24 |
+| ALLEGIANT BUSINESS FINANCE LLC | $3,867,112.24 | 2.6% | 13 |
+| COLUMBIA HELICOPTERS INC | $3,253,269.85 | 2.2% | 1 |
+| CROMAN CORP | $2,997,763.38 | 2.0% | 1 |
+| CONSTRUCTION HELICOPTERS INC | $2,558,264.07 | 1.7% | 1 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $2,178,724.75 | 1.5% | 4 |
+| WITHROTOR AVIATION INC | $2,124,996.01 | 1.4% | 1 |
+| GRAYBACK FORESTRY CONTRACTING INC | $2,122,154.84 | 1.4% | 3 |
+| FRANCO REFORESTATION INC | $2,109,712.46 | 1.4% | 2 |
+| NORTH PACIFIC FORESTRY INC | $1,959,863.66 | 1.3% | 2 |
+| AERO AIR LLC | $1,887,815.99 | 1.3% | 1 |
+| TIMBERLINE HELICOPTERS INC | $1,875,084.86 | 1.2% | 1 |
+| US DEPT OF AGRICULTURE | $1,613,042.27 | 1.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 4,268 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 4,268 vendor-level transaction records covering 2,616 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

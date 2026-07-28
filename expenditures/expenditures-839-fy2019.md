@@ -97,9 +97,36 @@ The 12 largest of 52 expenditure classes used by this agency in FY2019.
 | 4650 | Intra-Inter Agency Charges | $57,178.76 | 1.6% |
 | 6800 | Distribution To Individuals | $54,990.05 | 1.5% |
 
+## Largest vendors
+
+The 20 largest of 200 payees this agency recorded payments to in FY2019, accounting for 80.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| COOPER ZIETZ ENGINEERS INC | $419,200.24 | 11.5% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $398,783.93 | 10.9% | 8 |
+| DEPARTMENT OF ADMINISTRATION SERVICES | $396,113.90 | 10.8% | 1 |
+| EMPLOYMENT DEPARTMENT | $288,553.98 | 7.9% | 2 |
+| ATER WYNNE LLP | $235,333.44 | 6.4% | 1 |
+| OREGON DEPT OF HUMAN SERVICES | $215,315.28 | 5.9% | 1 |
+| PORTLAND STATE UNIVERSITY | $167,208.49 | 4.6% | 2 |
+| OREGON TRADESWOMEN INC | $97,485.34 | 2.7% | 2 |
+| ARAMARK SERVICES INC | $97,008.27 | 2.7% | 1 |
+| OREGON STATE UNIVERSITY | $81,000.00 | 2.2% | 1 |
+| GALT FOUNDATION | $76,341.46 | 2.1% | 1 |
+| EVERGREEN EXECUTIVE BUILDING LLC | $69,615.22 | 1.9% | 1 |
+| PORTLAND YOUTHBUILDERS | $59,977.32 | 1.6% | 1 |
+| UNITED STATES POSTAL SERVICE | $54,345.04 | 1.5% | 1 |
+| SALEM FOUNDATION | $50,942.32 | 1.4% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $50,163.17 | 1.4% | 18 |
+| NICUSA INC | $48,853.10 | 1.3% | 1 |
+| VOYAGER SYSTEMS INC | $47,360.00 | 1.3% | 1 |
+| IBM CORPORATION | $45,484.49 | 1.2% | 1 |
+| RICOH USA INC | $43,093.34 | 1.2% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 336 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 336 vendor-level transaction records covering 200 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

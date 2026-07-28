@@ -88,9 +88,36 @@ The 12 largest of 17 expenditure classes used by this agency in FY2024.
 | 4200 | Office Supplies | $594.25 | 0.9% |
 | 4432 | Prof Dev Out-Of-State Meal W/Overnite | $533.25 | 0.8% |
 
+## Largest vendors
+
+The 20 largest of 20 payees this agency recorded payments to in FY2024, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| PICKETT DUMMIGAN LLP | $14,696.57 | 21.6% | 1 |
+| MICHAEL MATTERS INC | $14,586.00 | 21.4% | 1 |
+| RACHEL MORTIMER | $10,426.56 | 15.3% | 6 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $7,904.69 | 11.6% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $3,972.14 | 5.8% | 9 |
+| RICHARDSON WANG LLP | $3,370.00 | 5.0% | 1 |
+| FIDUCIARY LITIGATION SERVICES LLC | $2,782.00 | 4.1% | 1 |
+| NATIONAL CENTER FOR STATE COURTS | $2,700.00 | 4.0% | 1 |
+| JOSEPH T HAGEN & ASSOCIATES PC | $1,600.00 | 2.4% | 1 |
+| BULLARD SMITH JERNSTEDT WILSON | $1,500.00 | 2.2% | 1 |
+| GARRETT HEMANN ROBERTSON PC | $1,370.00 | 2.0% | 1 |
+| ZACHARY J STERN | $690.00 | 1.0% | 1 |
+| SHI INTERNATIONAL CORP | $624.12 | 0.9% | 1 |
+| ASSOCIATION OF JUDICIAL DISIPLINARY COUNSEL | $525.00 | 0.8% | 2 |
+| BEST BEST & KRIEGER LLP | $495.00 | 0.7% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $394.00 | 0.6% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $300.27 | 0.4% | 1 |
+| CHERYL A ALBRECHT | $78.00 | 0.1% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $15.00 | 0.0% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $9.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 35 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 35 vendor-level transaction records covering 20 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

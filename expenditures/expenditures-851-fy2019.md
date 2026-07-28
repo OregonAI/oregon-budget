@@ -100,9 +100,36 @@ The 12 largest of 54 expenditure classes used by this agency in FY2019.
 | 4302 | Telecom/Voice Equip Rental | $38,008.79 | 1.1% |
 | 5352 | Computer Tech Peripheral Equip>=$5K | $35,594.75 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 115 payees this agency recorded payments to in FY2019, accounting for 94.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| RELIANT BEHAVIORAL HEALTH LLC | $561,145.00 | 15.9% | 1 |
+| DEPT OF STATE POLICE | $489,507.00 | 13.8% | 1 |
+| HEADMASTER LLP | $456,572.00 | 12.9% | 1 |
+| DEPARTMENT OF JUSTICE | $434,135.07 | 12.3% | 2 |
+| OREGON CENTER FOR NURSING | $348,701.00 | 9.9% | 2 |
+| BOONES FERRY BUSINESS PARK LLC | $234,216.45 | 6.6% | 1 |
+| OREGON STATE TREASURY | $104,866.51 | 3.0% | 2 |
+| EMPLOYMENT DEPARTMENT | $103,006.32 | 2.9% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $97,972.63 | 2.8% | 27 |
+| RESOURCE DATA INC | $92,170.25 | 2.6% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $82,669.00 | 2.3% | 1 |
+| CDW GOVERNMENT INC | $82,232.35 | 2.3% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $72,272.43 | 2.0% | 8 |
+| SHI INTERNATIONAL CORP | $42,906.32 | 1.2% | 2 |
+| COMPUNET INC | $36,727.71 | 1.0% | 1 |
+| IBM CORPORATION | $31,849.89 | 0.9% | 1 |
+| KC HAMMOND LLC | $24,891.61 | 0.7% | 1 |
+| SECRETARY OF STATE | $22,345.72 | 0.6% | 2 |
+| XIOLOGIX LLC | $16,087.86 | 0.5% | 1 |
+| DEPT OF ADMINISTRATIVE SERVICES | $14,871.00 | 0.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 252 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 252 vendor-level transaction records covering 115 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

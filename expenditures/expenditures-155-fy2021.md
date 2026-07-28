@@ -96,9 +96,36 @@ The 12 largest of 35 expenditure classes used by this agency in FY2021.
 | 4251 | Subscriptions And Publications | $24,666.78 | 1.2% |
 | 4800 | Facilities Rent | $19,245.84 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 173 payees this agency recorded payments to in FY2021, accounting for 88.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $616,523.70 | 29.4% | 3 |
+| JACKSON LEWIS PC | $272,257.86 | 13.0% | 1 |
+| STOEL RIVES LLP | $193,721.92 | 9.2% | 1 |
+| DEPARTMENT OF JUSTICE | $106,439.76 | 5.1% | 1 |
+| MARKOWITZ HERBOLD PC | $89,635.22 | 4.3% | 1 |
+| EMPLOYMENT DEPARTMENT | $67,820.08 | 3.2% | 1 |
+| MICROSOFT CORPORATION | $66,785.92 | 3.2% | 2 |
+| LEGISLATIVE ADMIN COMMITTEE | $66,748.51 | 3.2% | 7 |
+| STATE OF OREGON SECRETARY OF STATE | $60,762.50 | 2.9% | 4 |
+| BRIDGETOWN PRINTING CO | $59,183.66 | 2.8% | 2 |
+| CDW GOVERNMENT INC | $46,207.41 | 2.2% | 2 |
+| OREGON CORRECTIONS ENTERPRISES | $37,047.98 | 1.8% | 2 |
+| THE PIVOT GROUP INC | $35,002.88 | 1.7% | 2 |
+| MOREL INC | $31,448.90 | 1.5% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $30,453.51 | 1.5% | 12 |
+| SCHULTZ INDEPENDENT CONTRACTING LLC | $20,000.00 | 1.0% | 2 |
+| NATIONAL CONFERENCE OF STATE LEGISLATURES | $16,614.00 | 0.8% | 4 |
+| EAGLE WEB PRESS | $16,502.46 | 0.8% | 2 |
+| MAJORITY STRATEGIES LLC | $16,124.16 | 0.8% | 1 |
+| INTERNATIONAL ROLL-CALL | $15,475.00 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 260 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 260 vendor-level transaction records covering 173 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

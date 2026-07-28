@@ -110,9 +110,36 @@ The 12 largest of 69 expenditure classes used by this agency in FY2019.
 | 4101 | Instate Meals With Overnight Stay | $46,272.06 | 1.0% |
 | 4437 | Prof Dev Dues/Membership | $40,574.00 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 188 payees this agency recorded payments to in FY2019, accounting for 78.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| ANGELO PLANNING GROUP INC | $602,615.67 | 13.5% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $585,776.74 | 13.2% | 12 |
+| ECONOMIC CONSULTANTS OREGON | $336,040.00 | 7.6% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $335,505.39 | 7.5% | 1 |
+| PORTLAND STATE UNIVERSITY | $320,500.00 | 7.2% | 2 |
+| 3J CONSULTING INC | $208,805.00 | 4.7% | 1 |
+| FINANCIAL CONSULTING SOLUTIONS GROUP INC | $170,655.78 | 3.8% | 1 |
+| JOHNSON REID LLC | $144,010.50 | 3.2% | 1 |
+| CDW GOVERNMENT INC | $85,936.64 | 1.9% | 10 |
+| STATE OF OREGON DEPT OF GEOLOGY AND MINERAL IND | $85,223.73 | 1.9% | 1 |
+| SIEGEL PLANNING SERVICES LLC | $82,677.00 | 1.9% | 1 |
+| COUNTY OF HOOD RIVER | $81,049.39 | 1.8% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $71,958.11 | 1.6% | 20 |
+| ECOLOGY AND ENVIRONMENT INC | $66,967.01 | 1.5% | 1 |
+| ANDERSON PERRY & ASSOCIATES | $54,000.00 | 1.2% | 1 |
+| ALLISON R BAILEY | $51,600.00 | 1.2% | 1 |
+| CLACKAMAS COUNTY FINANCE | $50,000.00 | 1.1% | 1 |
+| CITY OF NEWBERG | $50,000.00 | 1.1% | 1 |
+| COUNTY OF WASCO | $45,000.00 | 1.0% | 1 |
+| CITY OF SHERWOOD | $45,000.00 | 1.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 390 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 390 vendor-level transaction records covering 188 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

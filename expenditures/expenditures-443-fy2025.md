@@ -136,9 +136,36 @@ The 12 largest of 156 expenditure classes used by this agency in FY2025.
 | 6824 | Payments To Other Governments | $44,635,513.77 | 0.9% |
 | 4600 | State Government Service Charges | $42,703,427.21 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 3,555 payees this agency recorded payments to in FY2025, accounting for 77.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| ODS HEALTH PLAN INC | $1,004,125,280.62 | 21.2% | 2 |
+| PROVIDENCE HEALTH PLAN | $825,759,392.12 | 17.5% | 2 |
+| DEPARTMENT OF HEALTH AND HUMAN SERVICES | $629,508,517.26 | 13.3% | 2 |
+| KAISER PERMANENTE | $496,124,485.53 | 10.5% | 4 |
+| OREGON DENTAL SERVICE | $119,289,826.40 | 2.5% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $81,633,142.30 | 1.7% | 23 |
+| FIDELITY NATIONAL INFO SERVICES INC | $70,364,187.97 | 1.5% | 2 |
+| COUNTY OF MULTNOMAH | $67,429,786.63 | 1.4% | 11 |
+| STANDARD INSURANCE COMPANY | $54,762,274.76 | 1.2% | 2 |
+| DELOITTE COUNSULTING LLP | $39,622,533.50 | 0.8% | 2 |
+| COUNTY OF LANE | $35,686,977.28 | 0.8% | 9 |
+| DXC MS LLC | $33,225,056.16 | 0.7% | 1 |
+| COUNTY OF WASHINGTON | $30,108,531.15 | 0.6% | 4 |
+| KUPPLIN WORLDWIDE LLC | $29,241,515.82 | 0.6% | 1 |
+| COMAGINE HEALTH | $27,581,146.88 | 0.6% | 4 |
+| COUNTY OF MARION | $27,027,582.89 | 0.6% | 8 |
+| OREGON HEALTH & SCIENCE UNIVERSITY | $24,438,530.11 | 0.5% | 10 |
+| WILLAMETTE DENTAL INSURANCE INC | $24,251,065.34 | 0.5% | 2 |
+| DEPT CONSUMER AND BUSINESS SERVICES | $19,302,424.00 | 0.4% | 1 |
+| COUNTY OF CLACKAMAS | $18,959,541.38 | 0.4% | 6 |
+
 ## Curator notes
 
-Figures are aggregated from 7,970 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 7,970 vendor-level transaction records covering 3,555 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

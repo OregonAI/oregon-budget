@@ -126,9 +126,36 @@ The 12 largest of 119 expenditure classes used by this agency in FY2019.
 | 4825 | Fuels And Utilities | $1,336,396.09 | 1.7% |
 | 4800 | Facilities Rent | $1,276,819.08 | 1.6% |
 
+## Largest vendors
+
+The 20 largest of 944 payees this agency recorded payments to in FY2019, accounting for 65.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $10,805,098.62 | 13.5% | 22 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $5,963,822.99 | 7.4% | 70 |
+| COUNTY OF MULTNOMAH | $4,609,926.47 | 5.8% | 2 |
+| J BAR J YOUTH SERVICES | $4,189,962.77 | 5.2% | 3 |
+| JANUS YOUTH PROGRAMS | $3,180,201.96 | 4.0% | 4 |
+| LOOKING GLASS COMMUNITY SERVICES | $2,716,312.78 | 3.4% | 3 |
+| ST MARY'S HOME FOR BOYS | $2,421,168.00 | 3.0% | 2 |
+| APOLLO INC | $2,307,980.78 | 2.9% | 2 |
+| BOB BELLONI RANCH INC | $1,699,307.97 | 2.1% | 2 |
+| HOMESTEAD YOUTH & FAMILY SERVICES INC | $1,652,770.02 | 2.1% | 3 |
+| FOOD SERVICES OF AMERICA | $1,627,588.27 | 2.0% | 2 |
+| YOUTH PROGRESS ASSOCIATION | $1,537,366.63 | 1.9% | 2 |
+| BEAMAN ARCHITECTURE LTD | $1,467,690.54 | 1.8% | 4 |
+| COUNTY OF WASHINGTON | $1,465,049.22 | 1.8% | 1 |
+| WILLAMETTE EDUCATION SERVICE DISTRICT | $1,420,345.99 | 1.8% | 4 |
+| HAAG HOME FOR BOYS INC | $1,271,435.13 | 1.6% | 2 |
+| EMERICK CONSTRUCTION CO INC | $1,188,695.00 | 1.5% | 2 |
+| PARROTT CREEK CHILD & FAMILY SERVICE INC | $1,181,794.51 | 1.5% | 2 |
+| MORRISON CHILD AND FAMILY SERVICES | $959,172.73 | 1.2% | 3 |
+| COUNTY OF MARION | $893,897.75 | 1.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,730 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,730 vendor-level transaction records covering 944 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

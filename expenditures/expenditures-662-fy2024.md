@@ -90,9 +90,36 @@ The 12 largest of 22 expenditure classes used by this agency in FY2024.
 | 4450 | Prof Dev Instate Mile Reimb-Full Rate | $450.66 | 0.2% |
 | 4550 | Attorney General Legal Fees | $338.80 | 0.2% |
 
+## Largest vendors
+
+The 20 largest of 21 payees this agency recorded payments to in FY2024, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $108,669.31 | 57.7% | 7 |
+| STATE OF OREGON DIVISION OF STATE LANDS | $60,315.36 | 32.0% | 1 |
+| OLYMPIC PERFORMANCE INC | $5,830.00 | 3.1% | 1 |
+| DEPT OF STATE POLICE | $3,590.00 | 1.9% | 1 |
+| SECRETARY OF STATE | $3,571.79 | 1.9% | 1 |
+| KYNDRYL INC | $2,022.55 | 1.1% | 1 |
+| SHI INTERNATIONAL CORP | $1,052.99 | 0.6% | 1 |
+| RICOH USA INC | $908.92 | 0.5% | 1 |
+| ALYX PETERSON | $455.23 | 0.2% | 5 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $338.80 | 0.2% | 1 |
+| MELISSA M RYAN | $308.22 | 0.2% | 2 |
+| MICHELLE M RUDD | $279.80 | 0.1% | 3 |
+| GALT FOUNDATION | $228.88 | 0.1% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $225.68 | 0.1% | 1 |
+| HILARY M ZAMUDIO | $186.26 | 0.1% | 4 |
+| CASCADE CENTERS INC | $172.20 | 0.1% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $122.50 | 0.1% | 1 |
+| GARTEN SERVICES INC | $95.00 | 0.1% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $30.00 | 0.0% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $15.42 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 37 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 37 vendor-level transaction records covering 21 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

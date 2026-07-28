@@ -89,9 +89,36 @@ The 12 largest of 17 expenditure classes used by this agency in FY2024.
 | 4305 | Telecom/Network Services | $1,083.30 | 0.7% |
 | 4372 | Computer Technology Peripheral Equip<$5K | $991.98 | 0.6% |
 
+## Largest vendors
+
+The 20 largest of 21 payees this agency recorded payments to in FY2024, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $69,750.64 | 44.7% | 7 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $42,093.03 | 27.0% | 2 |
+| BES TECHNOLOGIES INC | $18,000.00 | 11.5% | 1 |
+| US BANK NATIONAL ASSOCIATION | $13,161.44 | 8.4% | 2 |
+| CDW GOVERNMENT INC | $2,966.18 | 1.9% | 2 |
+| NICUSA INC | $2,826.00 | 1.8% | 1 |
+| SUSAN E GALLAGHER-SMITH | $2,550.00 | 1.6% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $2,268.52 | 1.5% | 1 |
+| OREGON DEPARTMENT OF REVENUE | $962.02 | 0.6% | 1 |
+| CORINA DRAKE-MINIOR | $607.16 | 0.4% | 1 |
+| KYNDRYL INC | $185.15 | 0.1% | 1 |
+| JAY WARTHEN | $170.85 | 0.1% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $106.88 | 0.1% | 1 |
+| BRENDA FELDHOUSEN | $70.35 | 0.0% | 1 |
+| CATHERINE WEESNER | $65.93 | 0.0% | 1 |
+| RACHEL BRADLEY | $37.12 | 0.0% | 1 |
+| LAURA KARDOKUS | $35.81 | 0.0% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $35.00 | 0.0% | 1 |
+| SANDRA THARP | $34.17 | 0.0% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $15.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 30 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 30 vendor-level transaction records covering 21 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

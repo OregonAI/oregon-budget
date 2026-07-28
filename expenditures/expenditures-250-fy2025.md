@@ -105,9 +105,36 @@ The 12 largest of 55 expenditure classes used by this agency in FY2025.
 | 4253 | Advertise, Publicity, Publish/Print Srvs | $169,554.71 | 1.4% |
 | 6451 | Distribution To Oregon State University | $153,739.28 | 1.2% |
 
+## Largest vendors
+
+The 20 largest of 187 payees this agency recorded payments to in FY2025, accounting for 66.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPT OF STATE POLICE | $1,104,760.02 | 8.9% | 2 |
+| COUNTY OF MULTNOMAH | $799,733.00 | 6.4% | 1 |
+| DEPARTMENT OF FISH & WILDLIFE | $612,437.77 | 4.9% | 1 |
+| COUNTY OF LANE | $593,232.65 | 4.8% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $482,917.64 | 3.9% | 14 |
+| COUNTY OF CLACKAMAS | $452,421.28 | 3.6% | 1 |
+| CITY OF COQUILLE | $397,918.98 | 3.2% | 1 |
+| BALLARD MARINE CONSTRUCTION LLC | $385,781.00 | 3.1% | 1 |
+| COUNTY OF JACKSON | $370,611.97 | 3.0% | 1 |
+| COUNTY OF DOUGLAS | $354,791.74 | 2.8% | 1 |
+| COUNTY OF LINCOLN | $328,423.67 | 2.6% | 1 |
+| STATE PARKS AND RECREATION DEPARTMENT | $325,920.91 | 2.6% | 1 |
+| NRC ENVIRONMENTAL SERVICES | $297,884.00 | 2.4% | 3 |
+| JOHN SIMPSON M A DECKER DAVID K FIELDS LOUISE FIEL | $275,445.12 | 2.2% | 3 |
+| COUNTY OF COOS | $262,936.00 | 2.1% | 1 |
+| DIVERSIFIED MARINE INC | $256,109.00 | 2.1% | 1 |
+| DESCHUTES COUNTY | $253,219.45 | 2.0% | 1 |
+| BEND METROPOLITAN PARK AND RECREATION DISTRICT | $250,574.82 | 2.0% | 1 |
+| COUNTY OF COLUMBIA | $212,689.07 | 1.7% | 1 |
+| PORT OF BANDON | $209,811.15 | 1.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 279 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 279 vendor-level transaction records covering 187 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

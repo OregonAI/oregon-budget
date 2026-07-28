@@ -106,9 +106,36 @@ The 12 largest of 55 expenditure classes used by this agency in FY2022.
 | 4550 | Attorney General Legal Fees | $86,226.80 | 2.2% |
 | 4850 | Facilities Maintenance | $74,908.12 | 1.9% |
 
+## Largest vendors
+
+The 20 largest of 174 payees this agency recorded payments to in FY2022, accounting for 85.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| TOWN & COUNTRY FENCE CO OF OREGON | $969,675.26 | 24.3% | 1 |
+| CENTURY WEST ENGINEERING CORP | $917,410.46 | 23.0% | 1 |
+| OREGON DEPT OF ADMINISTRATIVE SERVICES | $164,416.74 | 4.1% | 8 |
+| PORT OF ASTORIA | $150,000.00 | 3.8% | 1 |
+| OREGON DEPARTMENT OF TRANSPORTATION | $143,491.59 | 3.6% | 3 |
+| MADRAS CITY OF | $118,210.25 | 3.0% | 1 |
+| TWIN OAKS AIRPARK INC | $117,279.92 | 2.9% | 1 |
+| BEND CITY OF | $104,797.48 | 2.6% | 1 |
+| SOUTHWEST OREGON REGIONAL AIRPORT | $99,762.99 | 2.5% | 2 |
+| OREGON DEPARTMENT OF JUSTICE | $86,226.80 | 2.2% | 1 |
+| ASCENT AVIATION GROUP INC | $67,930.58 | 1.7% | 1 |
+| NORTHSIDE FORD TRUCK SALES INC | $65,235.62 | 1.6% | 1 |
+| GRI | $65,072.71 | 1.6% | 1 |
+| BURNS CITY OF | $55,168.20 | 1.4% | 1 |
+| CITY OF ENTERPRISE | $55,005.90 | 1.4% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $52,236.73 | 1.3% | 24 |
+| PACIFIC TRUCK COLORS INC | $50,199.00 | 1.3% | 1 |
+| QT PETROLEUM ON DEMAND LP | $44,091.77 | 1.1% | 2 |
+| CIVIX INC | $37,512.00 | 0.9% | 1 |
+| PRECISION APPROACH ENGINEERING | $33,224.30 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 244 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 244 vendor-level transaction records covering 174 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

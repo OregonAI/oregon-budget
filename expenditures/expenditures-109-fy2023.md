@@ -108,9 +108,36 @@ The 12 largest of 67 expenditure classes used by this agency in FY2023.
 | 4850 | Facilities Maintenance | $70,503.03 | 1.0% |
 | 4600 | State Government Service Charges | $69,088.99 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 198 payees this agency recorded payments to in FY2023, accounting for 85.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CENTURY WEST ENGINEERING CORP | $1,491,612.86 | 20.8% | 2 |
+| JOSEPHINE COUNTY | $1,001,633.50 | 14.0% | 1 |
+| CITY OF SALEM | $552,715.72 | 7.7% | 2 |
+| CR CONTRACTING LLC | $393,544.64 | 5.5% | 1 |
+| TOWN & COUNTRY FENCE CO OF OREGON | $383,575.87 | 5.3% | 1 |
+| KODIAK PACIFIC CONSTRUCTION | $281,987.04 | 3.9% | 1 |
+| CRESWELL CITY OF | $198,854.05 | 2.8% | 2 |
+| PORT OF TILLAMOOK BAY | $182,140.08 | 2.5% | 1 |
+| QT PETROLEUM ON DEMAND LP | $159,820.99 | 2.2% | 1 |
+| GRI | $158,690.75 | 2.2% | 1 |
+| MADRAS CITY OF | $156,636.70 | 2.2% | 1 |
+| OREGON DEPARTMENT OF TRANSPORTATION | $153,457.46 | 2.1% | 2 |
+| SISTERS AIRPORT PROPERTY LLC | $150,000.00 | 2.1% | 1 |
+| CITY OF ENTERPRISE | $149,563.45 | 2.1% | 2 |
+| OREGON DEPT OF ADMINISTRATIVE SERVICES | $143,315.77 | 2.0% | 8 |
+| AGATE SOFTWARE INC | $138,927.10 | 1.9% | 4 |
+| LAKESIDE CITY OF | $125,957.37 | 1.8% | 1 |
+| PAVEMENT PROTECTORS | $109,268.20 | 1.5% | 1 |
+| OREGON DEPARTMENT OF JUSTICE | $105,025.78 | 1.5% | 1 |
+| PORT OF ASTORIA | $97,568.26 | 1.4% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 298 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 298 vendor-level transaction records covering 198 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

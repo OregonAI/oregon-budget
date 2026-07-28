@@ -97,9 +97,36 @@ The 12 largest of 55 expenditure classes used by this agency in FY2025.
 | 4515 | Professional Services Application Maint | $101,524.00 | 1.0% |
 | 4650 | Intra-Inter Agency Charges | $71,375.16 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 172 payees this agency recorded payments to in FY2025, accounting for 88.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CITY OF CORVALLIS | $1,600,000.00 | 15.6% | 1 |
+| CITY OF COOS BAY | $1,543,308.00 | 15.0% | 1 |
+| UMATILLA COUNTY FIRE DISTRICT #1 | $1,354,116.54 | 13.2% | 1 |
+| DEPARTMENT OF EARLY LEARNING AND CARE | $1,010,328.72 | 9.8% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $740,163.76 | 7.2% | 6 |
+| COOPER ZIETZ ENGINEERS INC | $529,131.46 | 5.1% | 1 |
+| OREGON DEPARTMENT OF JUSTICE | $408,677.20 | 4.0% | 1 |
+| OREGON HEALTH & SCIENCE UNIVERSITY | $392,495.00 | 3.8% | 1 |
+| U WORK COM INC | $242,173.00 | 2.4% | 1 |
+| DEPT CONSUMER AND BUSINESS SERVICES | $195,262.38 | 1.9% | 1 |
+| SHI INTERNATIONAL CORP | $151,556.25 | 1.5% | 3 |
+| CDW GOVERNMENT INC | $143,661.50 | 1.4% | 3 |
+| AT&T MOBILITY | $140,999.74 | 1.4% | 1 |
+| PORTLAND YOUTHBUILDERS | $135,715.76 | 1.3% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $127,344.68 | 1.2% | 22 |
+| VOYAGER SYSTEMS INC | $101,524.00 | 1.0% | 1 |
+| EVERGREEN EXECUTIVE BUILDING LLC | $93,509.04 | 0.9% | 3 |
+| PIVOTAL RESOURCES INC | $76,190.00 | 0.7% | 1 |
+| UNITED STATES POSTAL SERVICE | $73,978.54 | 0.7% | 1 |
+| PORTLAND STATE UNIVERSITY | $71,375.16 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 337 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 337 vendor-level transaction records covering 172 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

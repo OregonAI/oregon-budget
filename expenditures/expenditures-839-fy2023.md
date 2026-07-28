@@ -105,9 +105,36 @@ The 12 largest of 61 expenditure classes used by this agency in FY2023.
 | 5350 | Computer Technology Mainframe Equip>=$5K | $117,239.17 | 0.6% |
 | 5355 | Computer Technology Install Service>=$5K | $106,527.08 | 0.5% |
 
+## Largest vendors
+
+The 20 largest of 193 payees this agency recorded payments to in FY2023, accounting for 68.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| RISE PARTNERSHIP | $1,756,000.00 | 8.4% | 1 |
+| SANTIAM MEMORIAL HOSPITAL | $1,480,480.00 | 7.1% | 1 |
+| OREGON TRADESWOMEN INC | $1,139,852.09 | 5.5% | 2 |
+| CRATER LAKE ELECTRICAL JOINT APPRENTICESHIP & | $972,150.00 | 4.7% | 1 |
+| NEWJEE LLC | $807,015.75 | 3.9% | 3 |
+| LANE EDUCATION SERVICE DISTRICT | $746,856.00 | 3.6% | 1 |
+| ALTERNATIVE YOUTH ACTIVITIES INC | $743,000.00 | 3.6% | 1 |
+| PACIFIC NW IRONWORKERS & EMPLOYERS APPRENTICESHIP | $681,591.23 | 3.3% | 1 |
+| PORTLAND COMMUNITY COLLEGE | $675,712.00 | 3.2% | 1 |
+| GREEN MUSE | $600,000.00 | 2.9% | 1 |
+| CHEMEKETA COMMUNITY COLLEGE | $577,878.40 | 2.8% | 2 |
+| UNITED WE HEAL TRAINING TRUST | $559,800.00 | 2.7% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $516,376.17 | 2.5% | 8 |
+| DEPARTMENT OF ADMINISTRATION SERVICES | $487,798.32 | 2.3% | 1 |
+| LATINOBUILT FOUNDATION | $474,341.20 | 2.3% | 1 |
+| INSTRUCTION CONSTRUCTION | $444,274.00 | 2.1% | 1 |
+| COOPER ZIETZ ENGINEERS INC | $443,785.48 | 2.1% | 1 |
+| SOUTHWESTERN OREGON COMMUNITY COLLEGE | $432,250.00 | 2.1% | 1 |
+| COLUMBIA CO SCH DIST 502 | $416,932.76 | 2.0% | 1 |
+| PORTLAND YOUTHBUILDERS | $403,796.12 | 1.9% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 317 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 317 vendor-level transaction records covering 193 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

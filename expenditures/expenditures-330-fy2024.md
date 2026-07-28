@@ -116,9 +116,36 @@ The 12 largest of 81 expenditure classes used by this agency in FY2024.
 | 6300 | Distribution To Counties | $349,005.44 | 0.9% |
 | 6800 | Distribution To Individuals | $209,000.00 | 0.5% |
 
+## Largest vendors
+
+The 20 largest of 324 payees this agency recorded payments to in FY2024, accounting for 68.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON STATE TREASURY | $14,207,912.33 | 36.5% | 5 |
+| EARTH ADVANTAGE INC | $1,815,839.46 | 4.7% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,296,170.11 | 3.3% | 17 |
+| ALPINE HEATING LLC | $1,160,940.20 | 3.0% | 1 |
+| CITY OF ONTARIO | $900,000.00 | 2.3% | 1 |
+| HOME ENERGY SCIENCES INC | $724,841.80 | 1.9% | 1 |
+| TOTAL COMFORT WEATHERIZATION LTD | $666,325.80 | 1.7% | 1 |
+| DEPARTMENT OF JUSTICE | $659,455.30 | 1.7% | 2 |
+| EARTHLIGHT TECHNOLOGIES | $551,670.50 | 1.4% | 1 |
+| BLUE RAVEN SOLAR HOLDINGS LLC | $548,832.00 | 1.4% | 1 |
+| COMFORT FLOW HEATING | $534,552.60 | 1.4% | 1 |
+| GCB SOLAR INC | $521,450.00 | 1.3% | 1 |
+| GREEN VALLEY CONSTRUCTION LLC | $500,718.00 | 1.3% | 1 |
+| PURE ENERGY GROUP INC | $457,990.00 | 1.2% | 1 |
+| TRUE SOUTH SOLAR | $397,354.00 | 1.0% | 1 |
+| NATIONAL SOLAR INC | $337,066.00 | 0.9% | 1 |
+| TML INTERNATIONAL LLC | $334,442.00 | 0.9% | 1 |
+| DESCHUTES COUNTY | $330,000.00 | 0.8% | 1 |
+| LAKE COUNTY RESOURCES INITIATIVE | $329,880.00 | 0.8% | 2 |
+| HALEY & ALDRICH | $322,241.12 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 519 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 519 vendor-level transaction records covering 324 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

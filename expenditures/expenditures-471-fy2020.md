@@ -118,9 +118,36 @@ The 12 largest of 85 expenditure classes used by this agency in FY2020.
 | 4301 | Telecom/Voice Usage | $788,270.10 | 1.7% |
 | 4305 | Telecom/Network Services | $786,120.75 | 1.7% |
 
+## Largest vendors
+
+The 20 largest of 1,257 payees this agency recorded payments to in FY2020, accounting for 76.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $12,117,369.26 | 26.7% | 17 |
+| EMPLOYMENT DEPARTMENT | $4,339,809.30 | 9.6% | 16 |
+| PITNEY BOWES | $3,325,000.00 | 7.3% | 1 |
+| PRESIDIO NETWORKED SOLUTIONS GROUP LLC | $2,540,239.50 | 5.6% | 3 |
+| CDW GOVERNMENT INC | $2,250,136.59 | 5.0% | 7 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $1,738,610.28 | 3.8% | 1 |
+| SHI INTERNATIONAL CORPORATION | $1,308,356.96 | 2.9% | 6 |
+| PRESIDIO NETWORKED SOLUTIONS INC | $978,131.26 | 2.2% | 3 |
+| HMI-OREGON DEALERSHIP | $880,580.94 | 1.9% | 3 |
+| MOHAWK ST PROPERTY LLC | $815,564.41 | 1.8% | 1 |
+| 9300 HILLSDALE LLC | $742,319.98 | 1.6% | 2 |
+| ROYAL BUYING GROUP | $628,329.62 | 1.4% | 1 |
+| OREGON STATE TREASURY | $497,612.41 | 1.1% | 2 |
+| UNIQUELY MIA INC | $453,025.50 | 1.0% | 2 |
+| CSG GOVERNMENT SOLUTIONS INC | $443,781.80 | 1.0% | 3 |
+| PORTLAND COMMUNITY COLLEGE | $393,454.92 | 0.9% | 3 |
+| MMI PAYTON LANE LLC | $380,570.00 | 0.8% | 1 |
+| GOVERNMENT PROPERTIES INCOME TRUST | $370,161.81 | 0.8% | 1 |
+| DEPARTMENT OF JUSTICE | $366,518.24 | 0.8% | 2 |
+| BBD PROPERTIES LLC | $359,934.55 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 2,182 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,182 vendor-level transaction records covering 1,257 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

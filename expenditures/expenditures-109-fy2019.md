@@ -107,9 +107,36 @@ The 12 largest of 72 expenditure classes used by this agency in FY2019.
 | 4825 | Fuels And Utilities | $75,697.47 | 1.2% |
 | 5450 | Industrial & Heavy Equipment>=$5K | $69,522.50 | 1.1% |
 
+## Largest vendors
+
+The 20 largest of 231 payees this agency recorded payments to in FY2019, accounting for 79.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| ALEX HODGE CONSTRUCTION INC | $753,614.81 | 12.2% | 2 |
+| JAMES KUNERT | $753,292.98 | 12.2% | 1 |
+| CENTURY WEST ENGINEERING CORP | $700,859.96 | 11.3% | 1 |
+| WHPACIFIC INC | $296,141.99 | 4.8% | 2 |
+| JVIATION INC | $269,871.14 | 4.4% | 1 |
+| OREGON DEPARTMENT OF TRANSPORTATION | $261,207.76 | 4.2% | 5 |
+| MARCUM & SONS LLC | $222,241.88 | 3.6% | 1 |
+| EAGLE TECH SYSTEMS | $191,167.74 | 3.1% | 1 |
+| PENDLETON CITY OF | $161,489.09 | 2.6% | 2 |
+| PAVEMENT CONSULTANTS INC | $158,984.00 | 2.6% | 1 |
+| UNION COUNTY | $150,000.00 | 2.4% | 1 |
+| TICOR TITLE COMPANY | $141,363.68 | 2.3% | 1 |
+| PRECISION APPROACH ENGINEERING | $134,597.82 | 2.2% | 1 |
+| ENTERPRISE CITY OF | $127,729.40 | 2.1% | 2 |
+| SALEM CITY OF | $126,512.84 | 2.0% | 2 |
+| GSSL INC | $123,482.83 | 2.0% | 1 |
+| OREGON DEPT OF ADMINISTRATIVE SERVICES | $103,017.33 | 1.7% | 10 |
+| US BANK NATIONAL ASSOCIATION ND | $89,926.33 | 1.5% | 40 |
+| MADRAS CITY OF | $88,018.10 | 1.4% | 1 |
+| REDMOND CITY OF | $82,086.51 | 1.3% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 371 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 371 vendor-level transaction records covering 231 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

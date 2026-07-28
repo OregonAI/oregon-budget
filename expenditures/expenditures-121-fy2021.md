@@ -104,9 +104,36 @@ The 12 largest of 49 expenditure classes used by this agency in FY2021.
 | 3111 | Regular Employees | $22,324.21 | 0.9% |
 | 4305 | Telecom/Network Services | $18,751.41 | 0.8% |
 
+## Largest vendors
+
+The 20 largest of 79 payees this agency recorded payments to in FY2021, accounting for 94.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,295,633.05 | 53.6% | 11 |
+| LEGISLATIVE ADMIN COMMITTEE | $139,368.47 | 5.8% | 3 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $138,898.95 | 5.7% | 2 |
+| NATIONAL GOVERNORS' ASSOCIATION | $106,600.00 | 4.4% | 1 |
+| NICUSA INC | $87,819.34 | 3.6% | 1 |
+| TUSK CONSULTING LLC | $73,274.25 | 3.0% | 1 |
+| STOEL RIVES LLP | $63,604.00 | 2.6% | 2 |
+| KOEHLER ADR LLC | $57,725.00 | 2.4% | 2 |
+| KEARNS & WEST INC | $49,981.25 | 2.1% | 1 |
+| WESTERN GOVERNOR'S ASSOCIATION | $39,600.00 | 1.6% | 1 |
+| OREGON DEPT OF TRANSPORTATION | $36,034.85 | 1.5% | 9 |
+| STATE SERVICES ORGANIZATION | $35,198.79 | 1.5% | 3 |
+| HUBBARD CHEVROLET GMAC | $30,805.46 | 1.3% | 1 |
+| CDW GOVERNMENT INC | $23,773.13 | 1.0% | 4 |
+| UNITED STATES MARSHALS SVC JPATS | $22,761.00 | 0.9% | 1 |
+| EMPLOYMENT DEPARTMENT | $18,597.00 | 0.8% | 1 |
+| IBM CORPORATION | $18,333.89 | 0.8% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $14,747.48 | 0.6% | 1 |
+| RICOH USA INC | $13,453.47 | 0.6% | 2 |
+| BLUE KNIGHT SECURITY LLC | $11,425.00 | 0.5% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 146 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 146 vendor-level transaction records covering 79 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

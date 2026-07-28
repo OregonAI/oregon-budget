@@ -114,9 +114,36 @@ The 12 largest of 90 expenditure classes used by this agency in FY2020.
 | 5351 | Computer Technology Server Equip>=$5K | $436,014.04 | 3.4% |
 | 4361 | Computer Technology Server Software<$5K | $341,993.17 | 2.7% |
 
+## Largest vendors
+
+The 20 largest of 249 payees this agency recorded payments to in FY2020, accounting for 83.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $2,903,396.25 | 22.8% | 18 |
+| UNITED STATES POSTAL SERVICE | $1,432,375.23 | 11.3% | 1 |
+| CDW GOVERNMENT INC | $911,073.64 | 7.2% | 14 |
+| OREGON STATE TREASURY | $909,960.41 | 7.2% | 5 |
+| SHI INTERNATIONAL CORP | $771,241.50 | 6.1% | 12 |
+| PERSPECTA STATE & LOCAL INC | $672,057.81 | 5.3% | 3 |
+| MACIAS GINI & OCONNELL LLP | $519,469.95 | 4.1% | 1 |
+| SIGNATURE GRAPHICS | $400,859.32 | 3.2% | 2 |
+| ORACLE AMERICA INC | $342,844.95 | 2.7% | 2 |
+| KPMG LLC | $237,229.20 | 1.9% | 1 |
+| PITNEY BOWES | $230,449.66 | 1.8% | 1 |
+| ARGO INVESTMENT CORP | $207,977.93 | 1.6% | 1 |
+| MYTHICS INC | $164,842.62 | 1.3% | 1 |
+| SCHWABE WILLIAMSON & WYATT PC | $150,000.00 | 1.2% | 1 |
+| PRESIDIO NETWORKED SOLUTIONS GROUP LLC | $148,987.90 | 1.2% | 3 |
+| CHAVES CONSULTING INC | $124,496.80 | 1.0% | 3 |
+| IBM CORPORATION | $114,675.87 | 0.9% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $113,533.10 | 0.9% | 2 |
+| SYNERGY DATA CENTER & SERVICES | $107,995.00 | 0.8% | 2 |
+| DEPT OF STATE POLICE | $107,539.00 | 0.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 513 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 513 vendor-level transaction records covering 249 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

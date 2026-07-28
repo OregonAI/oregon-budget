@@ -86,9 +86,36 @@ The 12 largest of 12 expenditure classes used by this agency in FY2019.
 | 4105 | Instate Meals-No Overnight Stay | $38.99 | 0.1% |
 | 4730 | Merchant Fees | $0.36 | 0.0% |
 
+## Largest vendors
+
+The 20 largest of 33 payees this agency recorded payments to in FY2019, accounting for 99.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $43,124.19 | 68.4% | 3 |
+| US BANK NATIONAL ASSOCIATION ND | $13,739.17 | 21.8% | 1 |
+| ASIAN PACIFIC AMERICAN NETWORK OF OR | $1,000.00 | 1.6% | 1 |
+| NANCY KRAMER | $857.29 | 1.4% | 2 |
+| LUCILLE BAKER | $700.87 | 1.1% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $618.80 | 1.0% | 1 |
+| URBAN LEAGUE OF PORTLAND | $500.00 | 0.8% | 1 |
+| CHINESE AMERICAN CITIZENS ALLIANCE | $500.00 | 0.8% | 1 |
+| CONNIE KIM-GERVEY | $367.67 | 0.6% | 1 |
+| LAWANDA JOYCE MANNING | $241.98 | 0.4% | 1 |
+| IRMA LINDA CASTILLO | $196.77 | 0.3% | 1 |
+| KIMBERLY OLSON | $191.84 | 0.3% | 1 |
+| JAMES MORRIS | $121.91 | 0.2% | 2 |
+| OREGON STATE TREASURY | $120.00 | 0.2% | 1 |
+| DANIEL LOPEZ-CEVALLOS | $92.65 | 0.1% | 1 |
+| DORIS CANCEL-TIRADO | $91.56 | 0.1% | 1 |
+| HUSSEIN AL-BAIATY | $74.67 | 0.1% | 1 |
+| DAVID YUEN TAM | $70.85 | 0.1% | 1 |
+| ADRIENNE OCHS | $67.29 | 0.1% | 1 |
+| L NICOLE ROWE | $55.59 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 39 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 39 vendor-level transaction records covering 33 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

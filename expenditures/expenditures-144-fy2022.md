@@ -91,9 +91,36 @@ The 12 largest of 24 expenditure classes used by this agency in FY2022.
 | 4406 | Prof Dev Instate Tuition/Registration | $975.00 | 0.9% |
 | 4200 | Office Supplies | $716.43 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 21 payees this agency recorded payments to in FY2022, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $29,245.50 | 27.1% | 1 |
+| REGIONAL ECONOMIC MODELS INC | $21,000.00 | 19.5% | 1 |
+| SAS INSTITUTE INC | $10,670.00 | 9.9% | 1 |
+| CCH INCORPORATED | $9,551.15 | 8.9% | 1 |
+| MICROSOFT CORPORATION | $7,874.70 | 7.3% | 2 |
+| TAX ANALYSTS | $5,000.00 | 4.6% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $3,972.18 | 3.7% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $3,696.47 | 3.4% | 8 |
+| PACIFIC OFFICE AUTOMATION INC | $2,987.49 | 2.8% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $2,668.77 | 2.5% | 2 |
+| LEGISLATIVE COUNSEL COMMITTEE | $2,575.00 | 2.4% | 1 |
+| GAMS DEVELOPMENT CORPORATION | $2,560.00 | 2.4% | 1 |
+| IMPLAN GROUP LLC | $2,000.00 | 1.9% | 2 |
+| MAZEN MALIK | $1,865.57 | 1.7% | 8 |
+| LEGISLATIVE ADMIN COMMITTEE | $1,498.20 | 1.4% | 4 |
+| SIERRA SPRINGS | $370.47 | 0.3% | 1 |
+| BUSINESS JOURNAL OF PORTLAND | $150.00 | 0.1% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $72.50 | 0.1% | 1 |
+| PROFESSIONAL INTERPRETERS | $56.25 | 0.1% | 1 |
+| DOUGLAS KNOYLE | $26.39 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 43 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 43 vendor-level transaction records covering 21 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

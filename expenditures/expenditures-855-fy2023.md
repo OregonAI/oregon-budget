@@ -95,9 +95,36 @@ The 12 largest of 37 expenditure classes used by this agency in FY2023.
 | 4301 | Telecom/Voice Usage | $9,529.23 | 0.8% |
 | 4101 | Instate Meals With Overnight Stay | $8,033.00 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 53 payees this agency recorded payments to in FY2023, accounting for 98.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $390,367.43 | 33.6% | 10 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $251,808.08 | 21.7% | 1 |
+| SYSTEM AUTOMATION CORP | $128,316.00 | 11.0% | 1 |
+| US BANK NATIONAL ASSOCIATION | $99,637.60 | 8.6% | 2 |
+| INTEGRATED BEHAVIORAL HEALTH INC | $61,448.00 | 5.3% | 1 |
+| OREGON STATE POLICE | $52,889.00 | 4.5% | 1 |
+| DEPT OF STATE POLICE | $50,748.00 | 4.4% | 1 |
+| EMPLOYMENT DEPARTMENT | $39,603.70 | 3.4% | 2 |
+| CHAVES CONSULTING INC | $12,450.70 | 1.1% | 1 |
+| PRINTING SOLUTIONS LLC | $8,422.73 | 0.7% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $7,768.00 | 0.7% | 1 |
+| OREGON DEPARTMENT OF REVENUE | $6,783.04 | 0.6% | 1 |
+| SHI INTERNATIONAL CORP | $5,839.60 | 0.5% | 2 |
+| KYNDRYL INC | $5,625.03 | 0.5% | 1 |
+| PIVOTAL RESOURCES INC | $4,550.00 | 0.4% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $4,479.32 | 0.4% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $3,943.21 | 0.3% | 2 |
+| CYNDI VIPPERMAN | $3,387.81 | 0.3% | 2 |
+| PRIYAL PATEL | $3,372.36 | 0.3% | 2 |
+| KATHLEEN CHINN | $2,742.16 | 0.2% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 115 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 115 vendor-level transaction records covering 53 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

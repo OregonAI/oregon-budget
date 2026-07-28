@@ -104,9 +104,36 @@ The 12 largest of 56 expenditure classes used by this agency in FY2024.
 | 6451 | Distribution To Oregon State University | $145,802.41 | 1.0% |
 | 4106 | Instate Lodging | $135,724.72 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 232 payees this agency recorded payments to in FY2024, accounting for 70.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| PORT OF BANDON | $2,193,698.17 | 14.7% | 1 |
+| DEPT OF STATE POLICE | $1,220,353.41 | 8.2% | 2 |
+| COUNTY OF MULTNOMAH | $801,394.25 | 5.4% | 1 |
+| DEPARTMENT OF FISH & WILDLIFE | $598,332.29 | 4.0% | 1 |
+| COUNTY OF LANE | $583,285.67 | 3.9% | 1 |
+| COUNTY OF CLACKAMAS | $559,203.18 | 3.7% | 1 |
+| COUNTY OF DOUGLAS | $540,120.26 | 3.6% | 1 |
+| STATE PARKS AND RECREATION DEPARTMENT | $533,458.74 | 3.6% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $478,076.66 | 3.2% | 11 |
+| COUNTY OF JACKSON | $472,737.92 | 3.2% | 1 |
+| COUNTY OF POLK | $390,391.85 | 2.6% | 1 |
+| COUNTY OF LINCOLN | $323,499.81 | 2.2% | 1 |
+| COUNTY OF COOS | $289,367.13 | 1.9% | 1 |
+| JOHN SIMPSON M A DECKER DAVID K FIELDS LOUISE FIEL | $273,091.32 | 1.8% | 3 |
+| COUNTY OF JEFFERSON | $256,782.06 | 1.7% | 1 |
+| COUNTY OF MALHEUR | $245,552.44 | 1.6% | 1 |
+| COUNTY OF COLUMBIA | $235,478.42 | 1.6% | 1 |
+| COUNTY OF MARION | $230,564.96 | 1.5% | 1 |
+| COUNTY OF CLATSOP | $193,914.97 | 1.3% | 1 |
+| PORT OF COLUMBIA COUNTY | $182,550.00 | 1.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 354 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 354 vendor-level transaction records covering 232 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

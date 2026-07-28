@@ -100,9 +100,36 @@ The 12 largest of 44 expenditure classes used by this agency in FY2023.
 | 4800 | Interagency Lease Payments | $156,009.88 | 0.2% |
 | 6096 | Distribution To Oregon Youth Authority | $119,537.63 | 0.1% |
 
+## Largest vendors
+
+The 20 largest of 96 payees this agency recorded payments to in FY2023, accounting for 85.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| COUNTY OF JACKSON | $10,783,012.89 | 13.2% | 1 |
+| NORTHWEST HEALTH FOUNDATION FUND II | $7,500,000.00 | 9.2% | 1 |
+| COUNTY OF MULTNOMAH | $6,255,994.74 | 7.7% | 1 |
+| WILLAMETTE VALLEY LAW PROJECT | $5,610,000.00 | 6.9% | 1 |
+| COUNTY OF LANE | $5,328,282.70 | 6.5% | 1 |
+| DESCHUTES COUNTY | $4,954,467.14 | 6.1% | 1 |
+| COUNTY OF JOSEPHINE | $4,806,216.72 | 5.9% | 1 |
+| COUNTY OF KLAMATH | $3,566,986.99 | 4.4% | 1 |
+| STATE OF OREGON JUDICIAL DEPARTMENT | $3,184,169.42 | 3.9% | 1 |
+| COUNTY OF MARION TREASURY DEPARTMENT | $2,973,266.87 | 3.6% | 1 |
+| DOUGLAS COUNTY | $2,626,851.48 | 3.2% | 1 |
+| WASHINGTON COUNTY COMMUNITY CORRECTIONS | $1,994,961.85 | 2.4% | 1 |
+| COUNTY OF POLK | $1,788,282.86 | 2.2% | 1 |
+| COUNTY OF CLACKAMAS | $1,699,774.50 | 2.1% | 1 |
+| JOSEPHINE COUNTY CCA | $1,388,864.52 | 1.7% | 1 |
+| COUNTY OF COLUMBIA | $1,191,147.90 | 1.5% | 1 |
+| THE INSIGHTS ALLIANCE | $1,133,735.03 | 1.4% | 1 |
+| COUNTY OF LINN | $1,033,463.45 | 1.3% | 1 |
+| COUNTY OF LINCOLN | $848,724.55 | 1.0% | 1 |
+| COLUMBIA CO COMMUNITY CORRECTIONS | $819,222.94 | 1.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 139 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 139 vendor-level transaction records covering 96 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -97,9 +97,36 @@ The 12 largest of 48 expenditure classes used by this agency in FY2023.
 | 4200 | Office Supplies | $61,160.00 | 2.4% |
 | 4730 | Merchant Fees | $51,612.01 | 2.0% |
 
+## Largest vendors
+
+The 20 largest of 91 payees this agency recorded payments to in FY2023, accounting for 95.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $471,521.64 | 18.4% | 1 |
+| INTEGRATED BEHAVIORAL HEALTH INC | $406,692.00 | 15.9% | 2 |
+| URBAN OFFICE & PARKING FACILITIES | $345,615.29 | 13.5% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $252,723.08 | 9.9% | 9 |
+| CARAHSOFT TECHNOLOGY CORPORATION | $219,312.64 | 8.6% | 1 |
+| FOUNDATION FOR MEDICAL EXCELLENCE | $170,000.00 | 6.6% | 1 |
+| COASTAL CLOUD LLC | $132,500.00 | 5.2% | 1 |
+| DEPT OF STATE POLICE | $129,024.25 | 5.0% | 1 |
+| OREGON STATE TREASURY | $50,506.61 | 2.0% | 2 |
+| DALTON ADVOCACY INC | $40,000.00 | 1.6% | 1 |
+| LYNX GROUP INC | $32,667.03 | 1.3% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $31,755.52 | 1.2% | 1 |
+| EMPLOYMENT DEPARTMENT | $28,158.60 | 1.1% | 1 |
+| BLUESUN INC | $23,452.60 | 0.9% | 1 |
+| MAY TECHNOLOGIES | $21,408.00 | 0.8% | 1 |
+| GALLANT POLICY ADVISORS INC | $21,000.00 | 0.8% | 1 |
+| KYNDRYL INC | $20,502.85 | 0.8% | 1 |
+| INNOVA LEGAL ADVISORS PC | $18,497.00 | 0.7% | 1 |
+| NEURILINK LLC | $16,021.83 | 0.6% | 2 |
+| NAEGELI REPORTING CORPORATION | $15,663.20 | 0.6% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 169 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 169 vendor-level transaction records covering 91 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

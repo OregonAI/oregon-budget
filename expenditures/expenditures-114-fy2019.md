@@ -94,9 +94,36 @@ The 12 largest of 38 expenditure classes used by this agency in FY2019.
 | 4253 | Advertise, Publicity, Publish/Print Srvs | $11,723.91 | 2.0% |
 | 4106 | Instate Lodging | $8,849.50 | 1.5% |
 
+## Largest vendors
+
+The 20 largest of 72 payees this agency recorded payments to in FY2019, accounting for 94.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $172,023.17 | 29.4% | 10 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $143,168.04 | 24.5% | 1 |
+| SALEM FOUNDATION | $99,950.39 | 17.1% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $38,771.52 | 6.6% | 1 |
+| DISABILITY RIGHTS OREGON | $19,952.10 | 3.4% | 1 |
+| SENIOR CITIZENS COUNCIL OF CLACKAMAS CTY INC | $16,795.00 | 2.9% | 1 |
+| EAN HOLDING LLC | $9,253.18 | 1.6% | 1 |
+| RICOH USA INC | $7,267.81 | 1.2% | 2 |
+| SUSAN KERGIL | $5,483.32 | 0.9% | 4 |
+| PHILIP J NEWTON | $4,964.34 | 0.8% | 6 |
+| IBM CORPORATION | $4,205.81 | 0.7% | 1 |
+| SARAH R BOSMA | $4,047.69 | 0.7% | 8 |
+| STATE OF OREGON SECRETARY OF STATE | $3,851.17 | 0.7% | 1 |
+| STEPHANIE ANN DELAGE | $3,740.42 | 0.6% | 8 |
+| CLAUDIA COKE | $3,687.69 | 0.6% | 10 |
+| DWIGHT MOWRY | $3,415.01 | 0.6% | 3 |
+| SEM APPLICATIONS INC | $3,398.00 | 0.6% | 1 |
+| DAVID BERGER | $3,099.91 | 0.5% | 7 |
+| UNITED TELEPHONE COMPANY OF THE NORTHWEST | $3,037.77 | 0.5% | 1 |
+| QWEST | $2,156.99 | 0.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 175 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 175 vendor-level transaction records covering 72 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

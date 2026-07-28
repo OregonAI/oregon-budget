@@ -89,9 +89,36 @@ The 12 largest of 16 expenditure classes used by this agency in FY2021.
 | 4500 | Professional Services Non-It | $1,807.32 | 0.7% |
 | 4202 | Equipment Rental | $1,681.96 | 0.6% |
 
+## Largest vendors
+
+The 20 largest of 28 payees this agency recorded payments to in FY2021, accounting for 99.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $79,170.45 | 29.0% | 5 |
+| RALPH SCHLESINGER COMPANY LLC | $73,382.98 | 26.9% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $63,880.40 | 23.4% | 1 |
+| CDW GOVERNMENT INC | $15,826.15 | 5.8% | 2 |
+| EMPLOYMENT DEPARTMENT | $9,952.00 | 3.6% | 1 |
+| CHAVES CONSULTING INC | $7,442.40 | 2.7% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $7,025.78 | 2.6% | 1 |
+| IBM CORPORATION | $3,205.55 | 1.2% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $3,183.27 | 1.2% | 1 |
+| PITNEY BOWES INC | $3,000.00 | 1.1% | 1 |
+| RICOH USA INC | $1,681.96 | 0.6% | 1 |
+| COURTSCRIPTS LLC | $1,608.00 | 0.6% | 1 |
+| PACIFIC BUSINESS SYSTEMS INC | $1,192.29 | 0.4% | 1 |
+| ZAYO GROUP LLC | $645.06 | 0.2% | 1 |
+| DEPARTMENT OF JUSTICE | $234.75 | 0.1% | 1 |
+| CASCADE CENTERS INC | $199.32 | 0.1% | 1 |
+| TAILORED SOLUTIONS CORPORATION | $195.00 | 0.1% | 1 |
+| SHI INTERNATIONAL CORP | $181.69 | 0.1% | 1 |
+| RELAY RESOURCES | $138.73 | 0.1% | 1 |
+| OREGON STATE TREASURY | $120.10 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 34 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 34 vendor-level transaction records covering 28 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

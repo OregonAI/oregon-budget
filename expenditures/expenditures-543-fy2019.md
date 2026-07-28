@@ -105,9 +105,36 @@ The 12 largest of 71 expenditure classes used by this agency in FY2019.
 | 4976 | Agency Program Related Supplies | $96,785.02 | 2.4% |
 | 6500 | Distribution To Comm College Districts | $66,901.67 | 1.7% |
 
+## Largest vendors
+
+The 20 largest of 250 payees this agency recorded payments to in FY2019, accounting for 70.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $772,163.21 | 19.4% | 17 |
+| CENGAGE LEARNING | $380,000.00 | 9.5% | 1 |
+| EBSCO INFORMATION SERVICE | $298,521.74 | 7.5% | 3 |
+| MULTNOMAH COUNTY LIBRARY | $196,289.26 | 4.9% | 1 |
+| ORBIS CASCADE ALLIANCE | $184,978.00 | 4.6% | 2 |
+| WASHINGTON COUNTY COOP LIBRARY SERVICES | $130,296.32 | 3.3% | 1 |
+| SAFARI BOOKS ONLINE LLC | $123,600.00 | 3.1% | 1 |
+| OREGON LIBRARY ASSOCIATION | $111,603.71 | 2.8% | 3 |
+| NEWSBANK INC | $74,147.00 | 1.9% | 1 |
+| BAKER COUNTY LIBRARY DISTRICT | $69,259.87 | 1.7% | 2 |
+| ONLINE COMPUTER LIBRARY CENTER INC | $63,616.23 | 1.6% | 6 |
+| DEPT OF STATE POLICE | $57,789.50 | 1.4% | 1 |
+| ELSEVIER SCIENCE INC | $57,483.27 | 1.4% | 3 |
+| OVERDRIVE INC | $55,924.85 | 1.4% | 1 |
+| CHEMEKETA COMMUNITY COLLEGE | $54,514.76 | 1.4% | 2 |
+| URBAN LIBRARIES COUNCIL | $50,000.00 | 1.3% | 1 |
+| UNITED WAY OF THE COLUMBIA-WILLAMETTE | $39,564.17 | 1.0% | 1 |
+| UMATILLA COUNTY SPECIAL LIBRARY DISTRICT | $37,964.28 | 1.0% | 1 |
+| JACKSON COUNTY LIBRARY DISTRICT | $34,951.00 | 0.9% | 1 |
+| CDW GOVERNMENT INC | $34,355.41 | 0.9% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 396 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 396 vendor-level transaction records covering 250 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

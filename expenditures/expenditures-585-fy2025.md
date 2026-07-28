@@ -102,9 +102,36 @@ The 12 largest of 61 expenditure classes used by this agency in FY2025.
 | 4251 | Subscriptions And Publications | $98,633.01 | 1.5% |
 | 4365 | Computer Technology Pc Equipment<$5K | $87,111.67 | 1.3% |
 
+## Largest vendors
+
+The 20 largest of 291 payees this agency recorded payments to in FY2025, accounting for 70.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $813,472.78 | 12.1% | 11 |
+| BOUNDLESS ASSISTIVE TECHNOLOGY LLC | $778,603.52 | 11.6% | 2 |
+| PORTLAND PUBLIC SCHOOLS | $430,330.63 | 6.4% | 1 |
+| ALLIANCE ENTERPRISES INC | $414,296.00 | 6.1% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $392,682.76 | 5.8% | 7 |
+| DEPAUL INDUSTRIES | $283,147.68 | 4.2% | 6 |
+| CREATIVE EMPLOYMENT SERVICES LLC | $211,564.75 | 3.1% | 1 |
+| GALT FOUNDATION | $180,929.66 | 2.7% | 2 |
+| JUSTICE DREAM LLC | $177,957.50 | 2.6% | 1 |
+| SMITTYS VENDING INC | $136,395.06 | 2.0% | 1 |
+| PDX CART BUILDERS INC | $126,839.00 | 1.9% | 1 |
+| KENDALL AUTO GROUP | $116,571.75 | 1.7% | 1 |
+| CDW GOVERNMENT INC | $104,626.03 | 1.6% | 4 |
+| TRANSPERFECT TRANSLATIONS INTERNATIONAL INC | $100,494.38 | 1.5% | 2 |
+| DUNGARVIN OREGON LLC | $87,420.00 | 1.3% | 1 |
+| TRI-COUNTY METRO TRANSPORTATION DIST OF OREGON | $83,816.40 | 1.2% | 2 |
+| MICHELLE FLICK | $76,515.00 | 1.1% | 1 |
+| NORTHWEST REGIONAL EDUCATION SERVICE DISTRICT | $72,978.50 | 1.1% | 1 |
+| AT&T MOBILITY | $70,305.37 | 1.0% | 3 |
+| RADIO CAB COMPANY | $61,813.50 | 0.9% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 455 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 455 vendor-level transaction records covering 291 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

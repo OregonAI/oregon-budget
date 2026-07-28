@@ -89,9 +89,36 @@ The 12 largest of 17 expenditure classes used by this agency in FY2025.
 | 4305 | Telecom/Network Services | $653.76 | 0.3% |
 | 4437 | Prof Dev Dues/Membership | $533.00 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 23 payees this agency recorded payments to in FY2025, accounting for 99.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $102,278.12 | 49.4% | 7 |
+| CONSTRUCTION CONTRACTORS BOARD | $58,860.32 | 28.4% | 5 |
+| STATE OF OREGON DIVISION OF STATE LANDS | $20,105.12 | 9.7% | 1 |
+| SUDDATH RELOCATION SYSTEMS | $7,154.79 | 3.5% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $3,957.12 | 1.9% | 1 |
+| DEPT OF STATE POLICE | $3,590.00 | 1.7% | 1 |
+| SECRETARY OF STATE | $3,164.04 | 1.5% | 1 |
+| HMI-OREGON DEALERSHIP | $1,740.04 | 0.8% | 1 |
+| KYNDRYL INC | $1,687.00 | 0.8% | 1 |
+| SHI INTERNATIONAL CORP | $1,273.78 | 0.6% | 1 |
+| JGCM INC | $639.94 | 0.3% | 1 |
+| TOD BASSHAM | $533.00 | 0.3% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $405.39 | 0.2% | 1 |
+| LEGISLATIVE COUNSEL COMMITTEE | $405.00 | 0.2% | 1 |
+| ALYX PETERSON | $259.28 | 0.1% | 2 |
+| SARAH MITCHELL | $215.06 | 0.1% | 2 |
+| CASCADE CENTERS INC | $176.40 | 0.1% | 1 |
+| OFFICE DEPOT INC | $142.78 | 0.1% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $122.50 | 0.1% | 1 |
+| GARTEN SERVICES INC | $95.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 36 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 36 vendor-level transaction records covering 23 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

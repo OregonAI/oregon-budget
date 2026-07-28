@@ -89,9 +89,36 @@ The 12 largest of 15 expenditure classes used by this agency in FY2021.
 | 4720 | Collection Fees - Dor | $1,790.85 | 1.2% |
 | 4253 | Advertise Publicity Publish/Print Srvs | $1,593.14 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 21 payees this agency recorded payments to in FY2021, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $59,176.21 | 38.0% | 6 |
+| WESTPAC INVESTMENT COMPANY | $31,478.88 | 20.2% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $25,282.26 | 16.3% | 1 |
+| BES TECHNOLOGIES INC | $18,000.00 | 11.6% | 1 |
+| US BANK NATIONAL ASSOCIATION | $8,501.01 | 5.5% | 2 |
+| NICUSA INC | $2,221.00 | 1.4% | 1 |
+| XEROX CORPORATION | $1,800.09 | 1.2% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $1,788.03 | 1.1% | 1 |
+| OREGON DEPARTMENT OF REVENUE | $1,551.11 | 1.0% | 1 |
+| PRINTING SOLUTIONS LLC | $1,403.44 | 0.9% | 1 |
+| INTRADO ENTERPRISE COLLABORATION INC | $1,249.92 | 0.8% | 1 |
+| IBM CORPORATION | $1,143.45 | 0.7% | 1 |
+| VERIZON WIRELESS | $718.00 | 0.5% | 1 |
+| EMPLOYMENT DEPARTMENT | $332.69 | 0.2% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $255.13 | 0.2% | 1 |
+| DEPARTMENT OF REVENUE | $239.74 | 0.2% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $189.70 | 0.1% | 1 |
+| OREGON STATE TREASURY | $120.80 | 0.1% | 1 |
+| SUSAN E GALLAGHER-SMITH | $31.66 | 0.0% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $26.50 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 28 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 28 vendor-level transaction records covering 21 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

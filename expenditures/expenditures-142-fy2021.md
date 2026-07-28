@@ -97,9 +97,36 @@ The 12 largest of 32 expenditure classes used by this agency in FY2021.
 | 5203 | Telecom/Teleconference Equipment>=$5K | $5,178.53 | 1.4% |
 | 3210 | Public Employees Retirement Contribution | $4,946.39 | 1.4% |
 
+## Largest vendors
+
+The 20 largest of 35 payees this agency recorded payments to in FY2021, accounting for 99.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $143,950.50 | 39.3% | 6 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $66,638.04 | 18.2% | 15 |
+| SHERIDAN BOOKS INC | $44,348.66 | 12.1% | 1 |
+| CDW GOVERNMENT INC | $34,811.17 | 9.5% | 3 |
+| MICROSOFT CORPORATION | $24,935.45 | 6.8% | 2 |
+| ONE DIVERSIFIED LLC | $8,038.66 | 2.2% | 2 |
+| EMPLOYMENT DEPARTMENT | $7,626.52 | 2.1% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $5,314.01 | 1.5% | 3 |
+| SHI INTERNATIONAL CORP | $5,232.36 | 1.4% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $4,983.49 | 1.4% | 2 |
+| US BANK NATIONAL ASSOCIATION | $4,056.51 | 1.1% | 1 |
+| CAROL M TODD | $2,939.93 | 0.8% | 4 |
+| MULTIPORT SYSTEMS INC | $2,733.75 | 0.7% | 1 |
+| OPENMFG LLC | $2,730.00 | 0.7% | 1 |
+| DAVIS WRIGHT TREMAINE LLP | $1,932.00 | 0.5% | 1 |
+| CASCADE CENTERS INC | $931.65 | 0.3% | 1 |
+| MARISA N JAMES | $780.00 | 0.2% | 1 |
+| QWEST | $738.96 | 0.2% | 1 |
+| PRESIDIO NETWORKED SOLUTIONS GROUP LLC | $558.60 | 0.2% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $536.00 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 68 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 68 vendor-level transaction records covering 35 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

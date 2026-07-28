@@ -133,9 +133,36 @@ The 12 largest of 139 expenditure classes used by this agency in FY2020.
 | 4550 | Attorney General Legal Fees | $1,804,585.34 | 1.8% |
 | 4975 | Agency Program Related Services | $1,488,866.77 | 1.5% |
 
+## Largest vendors
+
+The 20 largest of 2,092 payees this agency recorded payments to in FY2020, accounting for 65.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DOUGLAS FOREST PROTECTIVE ASSN | $18,424,794.27 | 18.1% | 21 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $18,057,356.87 | 17.8% | 25 |
+| USDA FOREST SERVICE | $5,658,724.38 | 5.6% | 4 |
+| WALLOWA TITLE CO | $3,552,879.00 | 3.5% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $2,675,505.17 | 2.6% | 76 |
+| TURNSTONE ENVIRONMENTAL CONSULTANTS INC | $2,353,208.83 | 2.3% | 1 |
+| PROFESSIONAL REFORESTATION OF OREGON | $1,924,550.32 | 1.9% | 2 |
+| COLUMBIA BASIN HELICOPTERS INC | $1,819,910.72 | 1.8% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $1,804,084.53 | 1.8% | 1 |
+| COOS FOREST PROTECTIVE ASSOCIATION | $1,710,721.50 | 1.7% | 18 |
+| AERO AIR LLC | $1,238,868.33 | 1.2% | 1 |
+| ECONOMIC CONSULTANTS OREGON | $1,057,428.11 | 1.0% | 1 |
+| MARBLE MOUNTAIN HELICOPTERS LLC | $879,816.85 | 0.9% | 2 |
+| WASHINGTON ST DEPT OF NATURAL RESOURCES | $838,813.47 | 0.8% | 2 |
+| CROMAN CORP | $797,496.70 | 0.8% | 2 |
+| LEWIS RIVER NURSERY INC | $718,592.06 | 0.7% | 1 |
+| WOODBURY ENERGY COMPANY INC | $704,693.54 | 0.7% | 1 |
+| PERIMETER SOLUTIONS LP | $688,831.26 | 0.7% | 1 |
+| CO FIRE AVIATION INC | $620,422.68 | 0.6% | 1 |
+| EMPLOYMENT DEPARTMENT | $620,368.44 | 0.6% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 3,281 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 3,281 vendor-level transaction records covering 2,092 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

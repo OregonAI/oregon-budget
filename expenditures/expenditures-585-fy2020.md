@@ -98,9 +98,36 @@ The 12 largest of 50 expenditure classes used by this agency in FY2020.
 | 4701 | Other Services | $118,458.16 | 2.2% |
 | 4301 | Telecom/Voice Usage | $94,251.36 | 1.8% |
 
+## Largest vendors
+
+The 20 largest of 326 payees this agency recorded payments to in FY2020, accounting for 71.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $705,480.21 | 13.1% | 12 |
+| SMITTYS VENDING INC | $582,043.95 | 10.8% | 2 |
+| BOUNDLESS ASSISTIVE TECHNOLOGY LLC | $371,962.15 | 6.9% | 6 |
+| PORTLAND PUBLIC SCHOOLS | $242,001.22 | 4.5% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $224,970.46 | 4.2% | 1 |
+| ALLEGIANT BUSINESS FINANCE LLC | $212,116.50 | 3.9% | 5 |
+| GALT FOUNDATION | $183,813.62 | 3.4% | 4 |
+| DEPARTMENT OF JUSTICE | $171,495.66 | 3.2% | 1 |
+| LIBERUM, LLC | $165,000.00 | 3.1% | 3 |
+| PORTLAND STATE UNIVERSITY | $137,940.10 | 2.6% | 3 |
+| LIBERA INC | $127,029.13 | 2.4% | 3 |
+| POWER CHEVROLET | $125,672.00 | 2.3% | 1 |
+| NORTHWEST REGIONAL EDUCATION SERVICES DISTRICT | $86,562.75 | 1.6% | 1 |
+| CDW GOVERNMENT INC | $77,237.80 | 1.4% | 10 |
+| LINN CO SCH DIST 8 | $77,072.00 | 1.4% | 1 |
+| FLEET MAINTENANCE INC | $75,594.00 | 1.4% | 1 |
+| DICKS COUNTRY CHRYSLER JEEP DODGE | $73,603.00 | 1.4% | 1 |
+| AT&T MOBILITY | $70,286.65 | 1.3% | 5 |
+| CASCADE COMPUTER MAINTENANCE INC | $65,617.13 | 1.2% | 2 |
+| ROSES EQUIPMENT & SUPPLY INC | $56,358.39 | 1.0% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 521 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 521 vendor-level transaction records covering 326 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

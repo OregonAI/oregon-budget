@@ -110,9 +110,36 @@ The 12 largest of 101 expenditure classes used by this agency in FY2020.
 | 4800 | Facilities Rent | $2,289,621.42 | 1.8% |
 | 4201 | Office Services | $2,086,629.89 | 1.7% |
 
+## Largest vendors
+
+The 20 largest of 1,367 payees this agency recorded payments to in FY2020, accounting for 88.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| COUNTY OF MULTNOMAH | $43,673,271.01 | 34.9% | 8 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $23,302,619.53 | 18.6% | 15 |
+| OREGON DEPARTMENT OF REVENUE | $7,072,077.49 | 5.6% | 1 |
+| OREGON STATE BAR | $6,753,562.33 | 5.4% | 9 |
+| TYLER TECHNOLOGIES INC | $5,074,257.20 | 4.1% | 3 |
+| FORTIS CONSTRUCTION INC | $3,499,859.74 | 2.8% | 1 |
+| CDW GOVERNMENT INC | $2,749,298.83 | 2.2% | 25 |
+| SHI INTERNATIONAL CORP | $2,701,338.44 | 2.2% | 11 |
+| COUNTY OF LANE | $2,306,420.91 | 1.8% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $2,269,859.37 | 1.8% | 60 |
+| HENNEBERY EDDY ARCHITECTS INC | $1,924,111.69 | 1.5% | 1 |
+| THOMSON REUTERS | $1,726,886.90 | 1.4% | 5 |
+| LIGHTSPEED NETWORKS INC | $1,432,419.51 | 1.1% | 2 |
+| COUNTY OF CLACKAMAS | $1,363,689.16 | 1.1% | 3 |
+| WASHINGTON COUNTY | $1,091,449.51 | 0.9% | 5 |
+| ALLIANCEONE, INC | $997,971.78 | 0.8% | 1 |
+| MARION COUNTY | $693,431.48 | 0.6% | 1 |
+| GILA CORPORATION | $575,444.05 | 0.5% | 1 |
+| ROBERTSON STATE STREET LLC | $528,201.17 | 0.4% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $505,343.80 | 0.4% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 2,955 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,955 vendor-level transaction records covering 1,367 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

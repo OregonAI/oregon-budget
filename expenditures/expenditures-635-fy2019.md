@@ -125,9 +125,36 @@ The 12 largest of 132 expenditure classes used by this agency in FY2019.
 | 6700 | Distribution To Other Governments | $1,067,728.28 | 1.6% |
 | 4650 | Intra-Inter Agency Charges | $975,854.81 | 1.4% |
 
+## Largest vendors
+
+The 20 largest of 2,403 payees this agency recorded payments to in FY2019, accounting for 63.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPT OF STATE POLICE | $14,055,462.12 | 20.4% | 4 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $8,383,824.29 | 12.2% | 18 |
+| US BANK NATIONAL ASSOCIATION ND | $4,929,865.94 | 7.2% | 79 |
+| OREGON STATE UNIVERSITY | $2,343,064.52 | 3.4% | 14 |
+| SOPRIS HOLDINGS LLC | $1,870,233.20 | 2.7% | 1 |
+| MOORE-CLARK USA INC | $1,811,326.33 | 2.6% | 2 |
+| LAMURPH CATTLE COMPANY LLC | $999,395.92 | 1.5% | 1 |
+| OREGON DEPARTMENT OF FORESTRY | $931,287.54 | 1.4% | 5 |
+| DESCHUTES VALLEY WATER DISTRICT | $862,695.00 | 1.3% | 1 |
+| DESCHUTES BASIN BOARD OF CONTROL | $855,989.48 | 1.2% | 1 |
+| NORTHWEST MARINE TECHNOLOGY INC | $788,431.05 | 1.1% | 4 |
+| R&G EXCAVATING INC | $762,281.36 | 1.1% | 1 |
+| CDW GOVERNMENT INC | $729,275.45 | 1.1% | 8 |
+| DEPARTMENT OF JUSTICE | $692,232.00 | 1.0% | 1 |
+| JL AVIATION INC | $666,973.25 | 1.0% | 2 |
+| STATE OF WASHINGTON | $660,829.89 | 1.0% | 2 |
+| NELSON & SONS INC | $591,832.69 | 0.9% | 1 |
+| ALLEGIANT BUSINESS FINANCE LLC | $530,435.40 | 0.8% | 1 |
+| DOI/BLM | $522,623.20 | 0.8% | 1 |
+| COUNTY OF CLATSOP | $496,745.00 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 4,483 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 4,483 vendor-level transaction records covering 2,403 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

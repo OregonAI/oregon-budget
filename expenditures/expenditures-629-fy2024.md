@@ -134,9 +134,36 @@ The 12 largest of 140 expenditure classes used by this agency in FY2024.
 | 4975 | Agency Program Related Services | $1,590,701.15 | 0.8% |
 | 4850 | Facilities Maintenance | $1,277,985.22 | 0.6% |
 
+## Largest vendors
+
+The 20 largest of 2,336 payees this agency recorded payments to in FY2024, accounting for 62.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DOUGLAS FOREST PROTECTIVE ASSN | $32,948,339.38 | 16.7% | 11 |
+| USDA FOREST SERVICE | $22,490,774.96 | 11.4% | 4 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $16,807,938.98 | 8.5% | 20 |
+| COOS FOREST PROTECTIVE ASSOCIATION | $11,390,173.43 | 5.8% | 14 |
+| FIRST AMERICAN TITLE INSURANCE COMPANY | $9,754,000.00 | 5.0% | 1 |
+| AERO AIR LLC | $4,910,406.59 | 2.5% | 1 |
+| TURNSTONE ENVIRONMENTAL CONSULTANTS INC | $2,971,791.00 | 1.5% | 1 |
+| LANDMARK FORD INC | $2,649,028.83 | 1.3% | 3 |
+| ROBERSON MOTORS INC | $2,209,063.36 | 1.1% | 2 |
+| AEROFUND FINANCIAL | $1,978,170.11 | 1.0% | 2 |
+| COLUMBIA BASIN HELICOPTERS INC | $1,941,698.78 | 1.0% | 1 |
+| HIGH DESERT PARTNERSHIP | $1,905,356.62 | 1.0% | 2 |
+| HELI-1 CORPORATION | $1,895,354.50 | 1.0% | 1 |
+| FLETCHER FLYING SERVICE INC | $1,673,285.41 | 0.8% | 2 |
+| PROFESSIONAL REFORESTATION OF OREGON | $1,618,828.56 | 0.8% | 2 |
+| STATE OF OREGON DEPT OF GEOLOGY AND MINERAL IND | $1,507,111.56 | 0.8% | 2 |
+| LOMAKATSI RESTORATION PROJECT | $1,398,413.78 | 0.7% | 1 |
+| CO FIRE AVIATION INC | $1,318,074.27 | 0.7% | 1 |
+| WOODBURY ENERGY COMPANY INC | $1,278,170.23 | 0.6% | 4 |
+| UNITED STATES DEPT OF INTERIOR-BLM | $1,188,137.02 | 0.6% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 4,293 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 4,293 vendor-level transaction records covering 2,336 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

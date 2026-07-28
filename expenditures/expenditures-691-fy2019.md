@@ -101,9 +101,36 @@ The 12 largest of 51 expenditure classes used by this agency in FY2019.
 | 4106 | Instate Lodging | $61,649.74 | 0.1% |
 | 6144 | Distribution To Deq | $55,376.00 | 0.1% |
 
+## Largest vendors
+
+The 20 largest of 316 payees this agency recorded payments to in FY2019, accounting for 48.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF FISH & WILDLIFE | $5,651,677.02 | 13.2% | 1 |
+| CROOKED RIVER WATERSHED COUNCIL | $1,649,597.55 | 3.8% | 1 |
+| CITY OF ASHLAND | $1,319,712.28 | 3.1% | 1 |
+| THE NATURE CONSERVANCY | $1,179,337.13 | 2.7% | 3 |
+| MALHEUR WATERSHED COUNCIL | $884,927.12 | 2.1% | 1 |
+| SIUSLAW WATERSHED COUNCIL | $863,028.44 | 2.0% | 1 |
+| THE FRESHWATER TRUST | $853,271.33 | 2.0% | 1 |
+| NORTH FORK JOHN DAY WATERSHED COUNCIL INC | $782,517.03 | 1.8% | 1 |
+| CASCADE PACIFIC RC & D | $763,562.89 | 1.8% | 1 |
+| GRANT SWCD | $732,090.64 | 1.7% | 1 |
+| UPPER NEHALEM WATERSHED COUNCIL | $676,869.64 | 1.6% | 1 |
+| WHEELER SWCD | $649,193.93 | 1.5% | 1 |
+| OWYHEE WATERSHED COUNCIL | $627,642.96 | 1.5% | 1 |
+| MALHEUR SWCD | $619,326.59 | 1.4% | 1 |
+| COOS WATERSHED ASSOCIATION | $615,638.66 | 1.4% | 1 |
+| HARNEY COUNTY SOIL & WATER CONSERVATION | $600,064.99 | 1.4% | 1 |
+| LONG TOM WATERSHED COUNCIL | $585,224.13 | 1.4% | 2 |
+| PARTNERSHIP FOR THE UMPQUA RIVERS | $579,793.28 | 1.3% | 1 |
+| GRANDE RONDE MODEL WATERSHED FOUNDATION | $574,866.35 | 1.3% | 2 |
+| CURRY CO SOIL & WATER CONSERVATION DIST | $565,894.86 | 1.3% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 463 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 463 vendor-level transaction records covering 316 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

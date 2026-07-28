@@ -127,9 +127,36 @@ The 12 largest of 137 expenditure classes used by this agency in FY2019.
 | 6700 | Distribution To Other Governments | $9,606,520.69 | 0.5% |
 | 4200 | Office Supplies | $9,355,830.33 | 0.5% |
 
+## Largest vendors
+
+The 20 largest of 9,376 payees this agency recorded payments to in FY2019, accounting for 51.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| PUBLIC PARTNERSHIP LLC | $315,939,333.60 | 17.9% | 2 |
+| MENTAL HEALTH & DEVELOPMENTAL DISABILITY SVCS DIV | $77,997,356.19 | 4.4% | 6 |
+| COUNTY OF MULTNOMAH | $75,205,530.66 | 4.3% | 16 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $73,822,286.29 | 4.2% | 36 |
+| DELOITTE COUNSULTING LLP | $64,710,692.43 | 3.7% | 2 |
+| ALBERTINA KERR CENTERS | $30,563,846.94 | 1.7% | 2 |
+| PARTNERSHIPS IN COMMUNITY LIVING INC | $28,491,446.24 | 1.6% | 3 |
+| NORTHWEST SENIOR & DISABILITY SERVICES | $27,735,541.19 | 1.6% | 5 |
+| OREGON DEPARTMENT OF JUSTICE | $26,046,422.86 | 1.5% | 3 |
+| OREGON HOMECARE WORKERS SUPPLEMENTAL TRUST | $24,065,175.35 | 1.4% | 1 |
+| ALTERNATIVE SERVICES-OREGON INC | $21,244,078.73 | 1.2% | 4 |
+| RISE INCORPORATED | $20,170,687.91 | 1.1% | 1 |
+| LANE COUNCIL OF GOVERNMENTS | $20,110,248.90 | 1.1% | 7 |
+| NATIONAL MENTOR SERVICES LLC | $18,472,784.32 | 1.0% | 2 |
+| EMPLOYMENT DEPARTMENT | $17,087,111.76 | 1.0% | 9 |
+| SHANGRI-LA CORPORATION | $15,350,292.41 | 0.9% | 6 |
+| BETHESDA LUTHERAN COMMUNITIES | $15,130,569.62 | 0.9% | 1 |
+| DUNGARVIN OREGON LLC | $12,445,727.16 | 0.7% | 1 |
+| ADULT LEARNING SYSTEMS OF OREGON | $11,765,243.89 | 0.7% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $11,694,100.60 | 0.7% | 72 |
+
 ## Curator notes
 
-Figures are aggregated from 20,019 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 20,019 vendor-level transaction records covering 9,376 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

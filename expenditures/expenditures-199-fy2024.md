@@ -95,9 +95,36 @@ The 12 largest of 24 expenditure classes used by this agency in FY2024.
 | 5100 | Office Furniture And Fixtures>=$5K | $13,500.00 | 1.6% |
 | 4301 | Telecom/Voice Usage | $6,076.41 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 32 payees this agency recorded payments to in FY2024, accounting for 99.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| NICUSA INC | $306,480.00 | 35.7% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $212,185.38 | 24.7% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $152,586.61 | 17.8% | 8 |
+| WESTPAC INVESTMENT COMPANY | $106,013.19 | 12.4% | 3 |
+| CDW GOVERNMENT INC | $28,055.28 | 3.3% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $17,578.50 | 2.0% | 2 |
+| GRANICUS | $9,671.59 | 1.1% | 1 |
+| PUBLIC EMPLOYEES RETIREMENT SYSTEM | $4,841.83 | 0.6% | 1 |
+| KYNDRYL INC | $4,017.21 | 0.5% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $3,939.64 | 0.5% | 1 |
+| SHI INTERNATIONAL CORP | $3,202.98 | 0.4% | 1 |
+| OFFICE MASTER INC | $1,881.04 | 0.2% | 1 |
+| BEERY ELSNER & HAMMOND LLP | $1,714.90 | 0.2% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $1,091.84 | 0.1% | 2 |
+| HERSHNER HUNTER LLP | $931.00 | 0.1% | 1 |
+| QWEST | $649.78 | 0.1% | 1 |
+| VERIZON WIRELESS | $391.48 | 0.0% | 1 |
+| SUSAN MYERS | $345.94 | 0.0% | 2 |
+| SHAWN LINDSAY | $328.60 | 0.0% | 1 |
+| CASCADE CENTERS INC | $324.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 46 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 46 vendor-level transaction records covering 32 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

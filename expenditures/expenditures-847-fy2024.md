@@ -94,9 +94,36 @@ The 12 largest of 46 expenditure classes used by this agency in FY2024.
 | 7401 | Interest-Leased Assets | $61,248.56 | 2.0% |
 | 4800 | Interagency Lease Payments | $38,873.93 | 1.3% |
 
+## Largest vendors
+
+The 20 largest of 74 payees this agency recorded payments to in FY2024, accounting for 96.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $502,797.00 | 16.3% | 1 |
+| URBAN OFFICE & PARKING FACILITIES | $395,713.45 | 12.8% | 3 |
+| INTEGRATED BEHAVIORAL HEALTH INC | $381,591.00 | 12.4% | 1 |
+| OREGON STATE TREASURY | $287,729.03 | 9.3% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $282,520.62 | 9.1% | 7 |
+| COASTAL CLOUD LLC | $257,300.00 | 8.3% | 1 |
+| CARAHSOFT TECHNOLOGY CORPORATION | $219,312.63 | 7.1% | 1 |
+| FOUNDATION FOR MEDICAL EXCELLENCE | $125,000.00 | 4.0% | 1 |
+| DEPT OF STATE POLICE | $121,445.75 | 3.9% | 1 |
+| KELLER ROHRBACK LLP | $85,135.84 | 2.8% | 1 |
+| SHI INTERNATIONAL CORP | $76,833.09 | 2.5% | 1 |
+| DALTON ADVOCACY INC | $55,000.00 | 1.8% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $35,993.52 | 1.2% | 1 |
+| LYNX GROUP INC | $33,714.13 | 1.1% | 1 |
+| EMPLOYMENT DEPARTMENT | $31,126.10 | 1.0% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $24,160.48 | 0.8% | 1 |
+| KYNDRYL INC | $21,034.74 | 0.7% | 1 |
+| BLUESUN INC | $14,396.15 | 0.5% | 1 |
+| UNITED STATES POSTAL SERVICE | $11,954.12 | 0.4% | 1 |
+| NAEGELI DEPOSITION AND TRIAL | $11,329.28 | 0.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 144 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 144 vendor-level transaction records covering 74 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

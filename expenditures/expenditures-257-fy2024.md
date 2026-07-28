@@ -126,9 +126,36 @@ The 12 largest of 123 expenditure classes used by this agency in FY2024.
 | 4701 | Other Services | $3,489,924.29 | 3.1% |
 | 4976 | Agency Program Related Supplies | $2,886,241.78 | 2.6% |
 
+## Largest vendors
+
+The 20 largest of 2,004 payees this agency recorded payments to in FY2024, accounting for 70.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $21,371,802.42 | 19.2% | 20 |
+| JE DUNN CONSTRUCTION CO | $13,397,270.64 | 12.0% | 1 |
+| HIGHWAY DIVISION | $7,143,474.92 | 6.4% | 3 |
+| ROBERSON MOTORS INC | $6,482,205.93 | 5.8% | 2 |
+| CTC ESCROW COMPANY | $3,722,093.50 | 3.3% | 1 |
+| CARSON OIL COMPANY INC | $3,478,324.43 | 3.1% | 2 |
+| OSP PROPERTY (DE) LLC | $3,114,994.18 | 2.8% | 2 |
+| ODOT BUSINESS SERVICES | $2,250,000.00 | 2.0% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $2,065,757.20 | 1.9% | 61 |
+| COBAN TECHNOLOGIES INC | $2,013,260.00 | 1.8% | 7 |
+| SHI INTERNATIONAL CORP | $1,965,193.87 | 1.8% | 2 |
+| DIVERSE COMPUTING INC | $1,619,814.45 | 1.5% | 2 |
+| LANDMARK FORD INC | $1,604,435.71 | 1.4% | 2 |
+| VERIZON WIRELESS | $1,565,630.15 | 1.4% | 2 |
+| ONLINE ENTERPRISES INC | $1,494,639.14 | 1.3% | 4 |
+| CDW GOVERNMENT INC | $1,140,341.37 | 1.0% | 14 |
+| NATIONAL MEDICAL SERVICES | $1,084,811.11 | 1.0% | 2 |
+| GRAINGER | $1,014,089.23 | 0.9% | 9 |
+| HMI-OREGON DEALERSHIP | $952,534.61 | 0.9% | 3 |
+| LIFE TECHNOLOGIES | $881,356.28 | 0.8% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 4,053 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 4,053 vendor-level transaction records covering 2,004 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

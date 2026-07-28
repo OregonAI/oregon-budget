@@ -90,9 +90,36 @@ The 12 largest of 38 expenditure classes used by this agency in FY2023.
 | 4109 | Instate Mileage Reimbursement-Full Rate | $2,575.35 | 1.6% |
 | 4440 | Prof Dev Out-Of-State Air Transportation | $2,560.79 | 1.5% |
 
+## Largest vendors
+
+The 20 largest of 43 payees this agency recorded payments to in FY2023, accounting for 94.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $58,041.60 | 35.1% | 2 |
+| GARTNER GROUP INC | $26,319.06 | 15.9% | 1 |
+| CDW GOVERNMENT INC | $20,866.93 | 12.6% | 5 |
+| STATE OF OREGON SECRETARY OF STATE | $9,007.52 | 5.4% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $6,601.20 | 4.0% | 2 |
+| PACIFIC OFFICE AUTOMATION INC | $4,690.54 | 2.8% | 1 |
+| JULIE NEBURKA | $4,516.90 | 2.7% | 3 |
+| OFFICE DEPOT BUSINESS SOLUTIONS LLC | $3,919.63 | 2.4% | 1 |
+| BENJAMIN RUEF | $2,631.90 | 1.6% | 4 |
+| RICOH USA INC | $2,212.42 | 1.3% | 1 |
+| AMANDA BEITEL | $2,174.90 | 1.3% | 9 |
+| APRIL MCDONALD | $2,155.06 | 1.3% | 6 |
+| NATIONAL CONFERENCE OF STATE LEGISLATURES | $2,096.00 | 1.3% | 1 |
+| EDWARD P ARABAS | $2,069.85 | 1.3% | 5 |
+| US BANK NATIONAL ASSOCIATION ND | $1,862.46 | 1.1% | 6 |
+| HAYLEE MORSE-MILLER | $1,690.15 | 1.0% | 5 |
+| MICHAEL P GRAHAM | $1,498.75 | 0.9% | 2 |
+| EMPLOYMENT DEPARTMENT | $1,219.99 | 0.7% | 1 |
+| TIMOTHY E WALKER | $1,182.92 | 0.7% | 3 |
+| HMI-OREGON DEALERSHIP | $905.61 | 0.5% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 101 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 101 vendor-level transaction records covering 43 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -126,9 +126,36 @@ The 12 largest of 124 expenditure classes used by this agency in FY2023.
 | 5150 | Equipment And Machinery>=$5K | $1,258,977.47 | 1.3% |
 | 4550 | Attorney General Legal Fees | $1,240,761.51 | 1.3% |
 
+## Largest vendors
+
+The 20 largest of 2,216 payees this agency recorded payments to in FY2023, accounting for 60.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPT OF STATE POLICE | $17,253,135.17 | 18.0% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $10,768,657.69 | 11.2% | 16 |
+| US BANK NATIONAL ASSOCIATION ND | $7,371,977.47 | 7.7% | 65 |
+| MOORE-CLARK USA INC | $3,295,264.19 | 3.4% | 1 |
+| OREGON STATE UNIVERSITY | $3,121,899.54 | 3.2% | 8 |
+| US GEOLOGICAL SURVEY | $2,260,161.00 | 2.4% | 1 |
+| CDW GOVERNMENT INC | $1,711,792.73 | 1.8% | 15 |
+| TERRA TECHNOLOGY GROUP LLC | $1,413,438.85 | 1.5% | 3 |
+| OREGON DEPARTMENT OF FORESTRY | $1,284,591.11 | 1.3% | 5 |
+| VECTRONIC AEROSPACE INC | $1,109,812.69 | 1.2% | 5 |
+| DEPARTMENT OF JUSTICE | $1,101,928.45 | 1.1% | 1 |
+| NORTHWEST MARINE TECHNOLOGY INC | $1,031,199.00 | 1.1% | 5 |
+| PARTNERSHIP FOR THE UMPQUA RIVERS | $921,332.91 | 1.0% | 1 |
+| ELKHORN AVIATION INC | $905,582.50 | 0.9% | 2 |
+| WALLOWA LAKE IRRIGATION DISTRICT | $771,088.37 | 0.8% | 1 |
+| OREGON DESERT LAND TRUST | $765,000.00 | 0.8% | 2 |
+| DEPARTMENT OF FISH & WILDLIFE | $760,691.86 | 0.8% | 1 |
+| JL AVIATION INC | $748,030.90 | 0.8% | 2 |
+| COOS WATERSHED ASSOCIATION | $667,190.03 | 0.7% | 1 |
+| USDA APHIS | $611,661.65 | 0.6% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 4,079 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 4,079 vendor-level transaction records covering 2,216 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

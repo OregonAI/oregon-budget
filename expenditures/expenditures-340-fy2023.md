@@ -113,9 +113,36 @@ The 12 largest of 109 expenditure classes used by this agency in FY2023.
 | 5305 | Information Tech Software Services>=$5K | $1,689,460.64 | 1.5% |
 | 4977 | Agency Program Related Reimbursements | $1,455,388.54 | 1.3% |
 
+## Largest vendors
+
+The 20 largest of 923 payees this agency recorded payments to in FY2023, accounting for 70.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CITY OF KLAMATH FALLS | $11,011,931.00 | 9.8% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $10,541,221.13 | 9.3% | 19 |
+| CITY OF BEND | $10,535,922.00 | 9.3% | 1 |
+| CITY OF SANDY | $8,165,170.00 | 7.2% | 1 |
+| CITY OF LAPINE | $4,455,392.00 | 4.0% | 2 |
+| CITY OF CASCADE LOCKS | $3,216,231.00 | 2.9% | 1 |
+| OREGON STATE TREASURY | $3,138,820.95 | 2.8% | 6 |
+| AMERICAN ASSETS TRUST LP | $3,072,406.49 | 2.7% | 1 |
+| COUNTY OF CLACKAMAS | $2,644,810.00 | 2.3% | 2 |
+| CITY OF ASHLAND | $2,479,243.00 | 2.2% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $2,468,993.56 | 2.2% | 1 |
+| HALEY & ALDRICH | $2,430,395.51 | 2.2% | 1 |
+| ENFOTECH & CONSULTING | $2,331,256.41 | 2.1% | 3 |
+| CITY OF REDMOND | $2,272,823.00 | 2.0% | 2 |
+| CRAFT3 | $2,136,119.96 | 1.9% | 2 |
+| CITY OF LEBANON | $1,918,106.00 | 1.7% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $1,770,082.11 | 1.6% | 73 |
+| CITY OF JOSEPH | $1,743,301.00 | 1.5% | 2 |
+| ISLAND CITY AREA SANITATION DISTRICT | $1,699,014.00 | 1.5% | 2 |
+| MAUL FOSTER & ALONGI INC | $1,295,695.81 | 1.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 2,200 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,200 vendor-level transaction records covering 923 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

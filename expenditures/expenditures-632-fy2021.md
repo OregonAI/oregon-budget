@@ -97,9 +97,36 @@ The 12 largest of 38 expenditure classes used by this agency in FY2021.
 | 5351 | Computer Technology Server Equip>=$5K | $32,281.46 | 0.9% |
 | 4108 | Instate Ground Transportation | $29,877.47 | 0.8% |
 
+## Largest vendors
+
+The 20 largest of 53 payees this agency recorded payments to in FY2021, accounting for 98.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| QUANTUM SPATIAL INC | $2,032,476.84 | 57.5% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $697,641.24 | 19.7% | 11 |
+| UNIVERSITY OF OREGON | $187,837.18 | 5.3% | 1 |
+| CDW GOVERNMENT INC | $141,338.79 | 4.0% | 6 |
+| COUNTY OF MULTNOMAH | $67,500.00 | 1.9% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $56,647.94 | 1.6% | 1 |
+| VA INSTITUTE OF MARINE SCIENCE | $48,997.00 | 1.4% | 1 |
+| CARDNO INC | $44,411.25 | 1.3% | 1 |
+| FRONTIER PRECISION INC | $35,560.96 | 1.0% | 3 |
+| RUSSELL W TRIPP | $34,200.00 | 1.0% | 1 |
+| SUSAN M GRAVES CONSULTING LLC | $25,000.00 | 0.7% | 1 |
+| VERIZON WIRELESS | $20,065.49 | 0.6% | 3 |
+| OREGON DEPT OF TRANSPORTATION | $16,474.48 | 0.5% | 2 |
+| ENNIS-FLINT INC | $14,279.31 | 0.4% | 1 |
+| SKILLCRAFT BUSINESS GRAPHICS INC | $14,013.00 | 0.4% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $13,510.24 | 0.4% | 1 |
+| QWEST | $8,317.37 | 0.2% | 3 |
+| IBM CORPORATION | $8,233.34 | 0.2% | 1 |
+| RICOH USA INC | $8,041.03 | 0.2% | 3 |
+| J-2 BLUE PRINT SUPPLY CO | $8,029.61 | 0.2% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 88 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 88 vendor-level transaction records covering 53 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

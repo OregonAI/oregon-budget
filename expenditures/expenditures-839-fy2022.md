@@ -102,9 +102,36 @@ The 12 largest of 54 expenditure classes used by this agency in FY2022.
 | 6082 | Distribution To Dhs Agy 100 | $79,441.94 | 2.0% |
 | 4304 | Telecom/Voice Equipment<$5K | $70,611.60 | 1.8% |
 
+## Largest vendors
+
+The 20 largest of 137 payees this agency recorded payments to in FY2022, accounting for 82.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $617,498.71 | 15.5% | 9 |
+| COOPER ZIETZ ENGINEERS INC | $454,275.57 | 11.4% | 1 |
+| DEPARTMENT OF ADMINISTRATION SERVICES | $447,148.46 | 11.2% | 1 |
+| EMPLOYMENT DEPARTMENT | $226,698.31 | 5.7% | 2 |
+| CARAHSOFT TECHNOLOGY CORPORATION | $183,647.81 | 4.6% | 2 |
+| CDW GOVERNMENT INC | $165,279.22 | 4.1% | 3 |
+| PORTLAND YOUTHBUILDERS | $129,934.66 | 3.3% | 1 |
+| STOEL RIVES LLP | $124,025.58 | 3.1% | 1 |
+| OREGON DEPARTMENT OF JUSTICE | $103,262.48 | 2.6% | 1 |
+| EVERGREEN EXECUTIVE BUILDING LLC | $94,701.00 | 2.4% | 1 |
+| SHI INTERNATIONAL CORP | $94,250.29 | 2.4% | 3 |
+| AT&T MOBILITY | $91,464.08 | 2.3% | 2 |
+| OREGON STATE UNIVERSITY | $80,000.00 | 2.0% | 1 |
+| PACIFIC NW IRONWORKERS & EMPLOYERS APPRENTICESHIP | $79,942.00 | 2.0% | 1 |
+| OREGON DEPT OF HUMAN SERVICES | $79,441.94 | 2.0% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $73,723.88 | 1.8% | 21 |
+| SALEM FOUNDATION | $63,793.17 | 1.6% | 1 |
+| UNITED STATES POSTAL SERVICE | $61,979.54 | 1.6% | 1 |
+| VOYAGER SYSTEMS INC | $54,981.00 | 1.4% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $47,806.04 | 1.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 186 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 186 vendor-level transaction records covering 137 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

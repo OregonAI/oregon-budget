@@ -100,9 +100,36 @@ The 12 largest of 54 expenditure classes used by this agency in FY2024.
 | 4108 | Instate Ground Transportation | $57,160.83 | 1.0% |
 | 5203 | Telecom/Teleconference Equipment>=$5K | $33,859.12 | 0.6% |
 
+## Largest vendors
+
+The 20 largest of 80 payees this agency recorded payments to in FY2024, accounting for 97.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| QUANTUM SPATIAL INC | $3,000,148.74 | 54.4% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,120,708.76 | 20.3% | 12 |
+| STANTEC CONSULTING SERVICES INC | $513,994.82 | 9.3% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $170,564.61 | 3.1% | 1 |
+| CDW GOVERNMENT INC | $112,798.82 | 2.0% | 6 |
+| NICUSA INC | $97,740.00 | 1.8% | 1 |
+| UNIVERSITY OF VICTORIA | $72,612.98 | 1.3% | 1 |
+| VA INSTITUTE OF MARINE SCIENCE | $42,931.36 | 0.8% | 1 |
+| RUSSELL W TRIPP | $35,226.00 | 0.6% | 2 |
+| WS2 INC | $33,859.12 | 0.6% | 1 |
+| BENCHMARK MINERAL INTELLIGENCE LIMITED | $33,785.10 | 0.6% | 1 |
+| SHI INTERNATIONAL CORP | $32,022.03 | 0.6% | 2 |
+| PLANET LABS INC | $17,478.75 | 0.3% | 1 |
+| EMPLOYMENT DEPARTMENT | $16,097.40 | 0.3% | 2 |
+| WASHINGTON STATE UNIVERSITY | $15,765.00 | 0.3% | 1 |
+| KLEINFELDER INC | $15,500.00 | 0.3% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $14,320.94 | 0.3% | 4 |
+| RITE WAY ELECTRIC INC | $13,205.00 | 0.2% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $12,418.52 | 0.2% | 1 |
+| GNEISS EDITING LLC | $11,961.99 | 0.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 182 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 182 vendor-level transaction records covering 80 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

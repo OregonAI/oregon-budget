@@ -102,9 +102,36 @@ The 12 largest of 56 expenditure classes used by this agency in FY2024.
 | 4200 | Office Supplies | $85,095.28 | 0.3% |
 | 4362 | Computer Technology Server Support | $78,291.69 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 345 payees this agency recorded payments to in FY2024, accounting for 83.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| COUNTY OF UMATILLA | $5,400,272.21 | 20.0% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $2,836,034.38 | 10.5% | 16 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $2,047,435.99 | 7.6% | 1 |
+| TUMALO IRRIGATION DISTRICT | $1,942,891.50 | 7.2% | 1 |
+| LONE PINE IRRIGATION DISTRICT | $1,440,000.00 | 5.3% | 2 |
+| CITY OF NEWPORT | $1,359,557.88 | 5.0% | 1 |
+| DESCHUTES BASIN BOARD OF CONTROL | $1,072,887.13 | 4.0% | 1 |
+| WALLOWA LAKE IRRIGATION DISTRICT | $957,145.61 | 3.5% | 2 |
+| APPLEGATE PARTNERSHIP INC | $847,956.26 | 3.1% | 1 |
+| WEST CONSULTANTS INC | $822,806.91 | 3.1% | 1 |
+| HOLT SERVICES INC | $679,612.00 | 2.5% | 1 |
+| US GEOLOGICAL SURVEY | $538,696.34 | 2.0% | 4 |
+| DESCHUTES RIVER CONSERVANCY | $517,589.86 | 1.9% | 2 |
+| PORTLAND STATE UNIVERSITY | $340,125.55 | 1.3% | 1 |
+| DEPARTMENT OF INTERIOR | $287,573.70 | 1.1% | 1 |
+| UNIVERSITY OF NEVADA | $274,482.34 | 1.0% | 1 |
+| CITY OF JOHN DAY | $269,671.80 | 1.0% | 1 |
+| CITY OF KLAMATH FALLS | $263,049.45 | 1.0% | 1 |
+| EMPLOYMENT DEPARTMENT | $261,060.58 | 1.0% | 2 |
+| DOWL LLC | $252,739.85 | 0.9% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 579 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 579 vendor-level transaction records covering 345 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

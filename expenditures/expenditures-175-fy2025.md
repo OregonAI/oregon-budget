@@ -85,9 +85,31 @@ The 12 largest of 16 expenditure classes used by this agency in FY2025.
 | 4109 | Instate Mileage Reimbursement-Full Rate | $457.36 | 0.5% |
 | 4432 | Prof Dev Out-Of-State Meal W/Overnite | $197.50 | 0.2% |
 
+## Largest vendors
+
+The 15 largest of 15 payees this agency recorded payments to in FY2025, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| BEST BEST & KRIEGER LLP | $32,727.39 | 38.9% | 2 |
+| BARRAN LIEBMAN LLP | $17,250.00 | 20.5% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $9,638.79 | 11.5% | 2 |
+| RACHEL MORTIMER | $8,904.56 | 10.6% | 5 |
+| RICHARDSON WANG LLP | $5,377.38 | 6.4% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $3,088.87 | 3.7% | 6 |
+| NATIONAL CENTER FOR STATE COURTS | $2,700.00 | 3.2% | 1 |
+| JA PARKER LAW FIRM LLC | $1,490.00 | 1.8% | 1 |
+| SHI INTERNATIONAL CORP | $630.48 | 0.7% | 1 |
+| SNELL & WILMER LLP | $600.00 | 0.7% | 1 |
+| ASSOCIATION OF JUDICIAL DISIPLINARY COUNSEL | $575.00 | 0.7% | 2 |
+| CDW GOVERNMENT INC | $549.00 | 0.7% | 1 |
+| MELANIE KEBLER | $431.09 | 0.5% | 3 |
+| STATE OF OREGON SECRETARY OF STATE | $150.00 | 0.2% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $9.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 30 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 30 vendor-level transaction records covering 15 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

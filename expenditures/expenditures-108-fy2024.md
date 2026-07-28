@@ -93,9 +93,36 @@ The 12 largest of 31 expenditure classes used by this agency in FY2024.
 | 4519 | Professional Serv/Managed Serv Provider | $6,000.00 | 0.8% |
 | 4375 | Computer Technology Computer Processing | $5,272.23 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 36 payees this agency recorded payments to in FY2024, accounting for 99.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $222,241.06 | 27.9% | 8 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $214,518.10 | 26.9% | 1 |
+| WESTPAC INVESTMENT COMPANY | $126,130.66 | 15.8% | 1 |
+| OREGON STATE POLICE | $96,053.25 | 12.1% | 1 |
+| US BANK NATIONAL ASSOCIATION | $48,338.86 | 6.1% | 2 |
+| FITZGERALD CONSULTING GROUP LLC | $23,827.20 | 3.0% | 1 |
+| CDW GOVERNMENT INC | $22,501.66 | 2.8% | 3 |
+| EMPLOYMENT DEPARTMENT | $8,957.00 | 1.1% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $6,008.04 | 0.8% | 1 |
+| THENTIA GLOBAL SYSTEMS USA INC | $6,000.00 | 0.8% | 1 |
+| KYNDRYL INC | $4,502.90 | 0.6% | 1 |
+| SPEAKWRITE LLC | $3,970.81 | 0.5% | 2 |
+| SHI INTERNATIONAL CORP | $2,827.13 | 0.4% | 1 |
+| RESONANCE COUNSELING AND CONSULTATION LLC | $2,035.00 | 0.3% | 1 |
+| RICOH USA INC | $1,412.94 | 0.2% | 4 |
+| OREGON CORRECTIONS ENTERPRISES | $1,305.35 | 0.2% | 1 |
+| AMERICAN ASSOCIATION OF STATE COUNSELING BOARDS | $1,000.00 | 0.1% | 1 |
+| LEXISNEXIS RISK DATA MANAGMENT INC | $600.00 | 0.1% | 1 |
+| CAPITAL TROPHY LLC | $598.00 | 0.1% | 3 |
+| DANIEL REESER | $526.67 | 0.1% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 63 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 63 vendor-level transaction records covering 36 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

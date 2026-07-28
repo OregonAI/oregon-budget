@@ -83,9 +83,27 @@ The 9 largest of 9 expenditure classes used by this agency in FY2019.
 | 4108 | Instate Ground Transportation | $165.00 | 0.1% |
 | 4201 | Office Services | $41.07 | 0.0% |
 
+## Largest vendors
+
+The 11 largest of 11 payees this agency recorded payments to in FY2019, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| TONKON TORP LLP | $166,810.26 | 72.3% | 1 |
+| OREGON STATE TREASURY | $33,598.00 | 14.6% | 2 |
+| WESTERN FINANCIAL GROUP | $11,200.00 | 4.9% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $9,773.40 | 4.2% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $4,790.92 | 2.1% | 2 |
+| NCHFFA | $3,000.00 | 1.3% | 1 |
+| PFM FINANCIAL ADVISORS LLC | $800.00 | 0.3% | 1 |
+| HAWKINS DELAFIELD & WOOD | $465.00 | 0.2% | 2 |
+| SECRETARY OF STATE | $173.22 | 0.1% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $57.74 | 0.0% | 1 |
+| UNITED PARCEL SERVICE | $41.07 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 14 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 14 vendor-level transaction records covering 11 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

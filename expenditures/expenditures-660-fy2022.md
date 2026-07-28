@@ -100,9 +100,36 @@ The 12 largest of 48 expenditure classes used by this agency in FY2022.
 | 4366 | Computer Technology Pc Software<$5K | $16,144.52 | 0.3% |
 | 4201 | Office Services | $14,717.72 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 212 payees this agency recorded payments to in FY2022, accounting for 74.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $718,842.98 | 14.8% | 10 |
+| 3J CONSULTING INC | $337,780.00 | 7.0% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $326,771.20 | 6.7% | 1 |
+| DEPARTMENT OF HOUSING & COMMUNITY SERVICES | $284,665.00 | 5.9% | 1 |
+| PORTLAND STATE UNIVERSITY | $273,389.61 | 5.6% | 2 |
+| MIG INC | $262,378.50 | 5.4% | 1 |
+| URBSWORKS | $178,379.00 | 3.7% | 1 |
+| CITY OF EUGENE | $145,000.00 | 3.0% | 1 |
+| WASHINGTON COUNTY | $132,774.23 | 2.7% | 1 |
+| CITY OF PORTLAND | $110,422.96 | 2.3% | 1 |
+| CLACKAMAS COUNTY | $107,835.94 | 2.2% | 1 |
+| CITY OF SHERWOOD | $100,000.00 | 2.1% | 1 |
+| CASCADIA PARTNERS LLC | $95,811.38 | 2.0% | 1 |
+| WASCO COUNTY | $95,000.00 | 2.0% | 1 |
+| CITY OF MILWAUKIE | $92,500.00 | 1.9% | 1 |
+| ECONOMIC CONSULTANTS OREGON | $85,133.00 | 1.8% | 1 |
+| OREGON STATE UNIVERSITY | $78,486.24 | 1.6% | 4 |
+| ANGELO PLANNING GROUP INC | $68,609.50 | 1.4% | 1 |
+| CITY OF WILSONVILLE | $60,891.25 | 1.3% | 1 |
+| BARNEY & WORTH INC | $58,622.58 | 1.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 284 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 284 vendor-level transaction records covering 212 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

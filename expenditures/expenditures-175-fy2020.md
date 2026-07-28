@@ -88,9 +88,31 @@ The 12 largest of 18 expenditure classes used by this agency in FY2020.
 | 4206 | Catering Services | $338.36 | 0.7% |
 | 4441 | Prof Dev Out-Of-State Ground Transprtatn | $155.97 | 0.3% |
 
+## Largest vendors
+
+The 15 largest of 15 payees this agency recorded payments to in FY2020, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| SUSAN D ISAACS | $11,338.48 | 23.4% | 7 |
+| BULLARD SMITH JERNSTEDT WILSON | $11,139.39 | 23.0% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $10,757.86 | 22.2% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $5,440.86 | 11.2% | 10 |
+| NMC LAW LLC | $5,060.00 | 10.5% | 1 |
+| RACHEL MORTIMER | $1,812.00 | 3.7% | 2 |
+| RMF CONSULTING LLC | $871.19 | 1.8% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $577.80 | 1.2% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $313.02 | 0.6% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $254.52 | 0.5% | 2 |
+| UNITED TELEPHONE COMPANY OF THE NORTHWEST | $244.80 | 0.5% | 1 |
+| ACCESS INFORMATION HOLDINGS LLC | $220.88 | 0.5% | 1 |
+| MONTE S CAMPBELL | $212.21 | 0.4% | 3 |
+| OREGON STATE TREASURY | $121.00 | 0.3% | 1 |
+| PUBLIC EMPLOYEES RETIREMENT SYSTEM | $15.00 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 35 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 35 vendor-level transaction records covering 15 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

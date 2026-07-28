@@ -110,9 +110,36 @@ The 12 largest of 100 expenditure classes used by this agency in FY2019.
 | 4800 | Facilities Rent | $2,066,731.27 | 0.9% |
 | 4201 | Office Services | $1,961,310.86 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 1,392 payees this agency recorded payments to in FY2019, accounting for 94.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| COUNTY OF MULTNOMAH | $158,010,154.19 | 70.7% | 7 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $15,782,948.25 | 7.1% | 19 |
+| OREGON DEPARTMENT OF REVENUE | $6,815,012.44 | 3.0% | 1 |
+| OREGON STATE BAR | $6,097,610.36 | 2.7% | 7 |
+| TYLER TECHNOLOGIES INC | $5,399,053.68 | 2.4% | 4 |
+| CDW GOVERNMENT INC | $4,414,406.06 | 2.0% | 27 |
+| SHI INTERNATIONAL CORP | $2,375,482.23 | 1.1% | 13 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $2,311,884.63 | 1.0% | 59 |
+| WASHINGTON COUNTY | $1,133,903.77 | 0.5% | 5 |
+| ALLIANCEONE, INC | $1,004,065.64 | 0.4% | 1 |
+| THOMSON REUTERS | $963,319.33 | 0.4% | 5 |
+| COUNTY OF CLACKAMAS | $937,812.45 | 0.4% | 3 |
+| LIGHTSPEED NETWORKS INC | $903,499.51 | 0.4% | 2 |
+| COUNTY OF LANE | $754,601.06 | 0.3% | 2 |
+| MARION COUNTY | $682,681.96 | 0.3% | 1 |
+| HENNEBERY EDDY ARCHITECTS INC | $629,922.16 | 0.3% | 1 |
+| GILA CORPORATION | $563,697.04 | 0.3% | 1 |
+| ELECTRONIC BUSINESS SYSTEMS INC | $559,891.08 | 0.3% | 7 |
+| COUNTY OF JACKSON | $458,264.14 | 0.2% | 2 |
+| OFFICE DEPOT INC | $439,115.49 | 0.2% | 9 |
+
 ## Curator notes
 
-Figures are aggregated from 2,953 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,953 vendor-level transaction records covering 1,392 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

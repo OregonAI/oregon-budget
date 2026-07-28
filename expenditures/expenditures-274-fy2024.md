@@ -111,9 +111,36 @@ The 12 largest of 60 expenditure classes used by this agency in FY2024.
 | 5350 | Computer Technology Mainframe Equip>=$5K | $642,737.59 | 0.4% |
 | 4850 | Facilities Maintenance | $238,168.82 | 0.2% |
 
+## Largest vendors
+
+The 20 largest of 358 payees this agency recorded payments to in FY2024, accounting for 76.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| VETERANS CARE CENTERS OF OREGON | $45,381,520.53 | 30.4% | 8 |
+| AMERITITLE | $7,391,071.61 | 4.9% | 3 |
+| WESTERN TITLE & ESCROW COMPANY | $6,223,801.72 | 4.2% | 2 |
+| WFG NATIONAL TITLE INSURANCE COMPANY | $6,146,716.40 | 4.1% | 2 |
+| FIRST AMERICAN TITLE | $5,919,945.20 | 4.0% | 2 |
+| UMPQUA BANK | $5,701,496.76 | 3.8% | 1 |
+| LPMC LLC | $4,187,552.80 | 2.8% | 2 |
+| TICOR TITLE COMPANY | $3,534,263.20 | 2.4% | 2 |
+| FIDELITY NATIONAL TITLE | $3,435,162.00 | 2.3% | 2 |
+| FIDELITY NATIONAL TITLE COMPANY OF OREGON | $3,189,996.58 | 2.1% | 2 |
+| TICOR TITLE | $2,847,984.00 | 1.9% | 2 |
+| TICOR TITLE COMPANY OF OREGON | $2,642,364.80 | 1.8% | 2 |
+| CASCADE TITLE CO | $2,468,283.92 | 1.7% | 2 |
+| FIRST AMERICAN TITLE INS CO | $2,466,476.00 | 1.7% | 2 |
+| WESTERN TITLE & ESCROW CO | $2,441,511.76 | 1.6% | 2 |
+| FIRST AMERICAN TITLE INSURANCE COMPANY | $2,357,961.58 | 1.6% | 4 |
+| LAWYERS TITLE COMPANY OF OREGON LLC | $2,259,860.56 | 1.5% | 2 |
+| GUILD MORTGAGE COMPANY LLC | $2,127,994.80 | 1.4% | 1 |
+| FIRST AMERICAN TITLE INSURANCE CO OF OREGON | $2,115,315.36 | 1.4% | 2 |
+| DESCHUTES COUNTY TITLE COMPANY INC | $1,919,185.60 | 1.3% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 597 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 597 vendor-level transaction records covering 358 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

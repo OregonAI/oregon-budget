@@ -105,9 +105,36 @@ The 12 largest of 66 expenditure classes used by this agency in FY2020.
 | 4600 | State Government Service Charges | $82,711.77 | 1.4% |
 | 4550 | Attorney General Legal Fees | $68,600.90 | 1.2% |
 
+## Largest vendors
+
+The 20 largest of 224 payees this agency recorded payments to in FY2020, accounting for 76.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CENTURY WEST ENGINEERING CORP | $1,258,586.48 | 21.6% | 1 |
+| KEEN INDEPENDENT RESEARCH LLC | $654,439.00 | 11.3% | 1 |
+| ROGER LANGELIERS CONSTRUCTION CO | $340,547.87 | 5.9% | 1 |
+| KERRY FULLER ENTERPRISES INC | $224,443.54 | 3.9% | 1 |
+| OREGON DEPARTMENT OF TRANSPORTATION | $183,745.59 | 3.2% | 3 |
+| CR CONTRACTING LLC | $175,396.07 | 3.0% | 1 |
+| SUNRIVER RESORT LP | $150,000.00 | 2.6% | 1 |
+| REDMOND CITY OF | $149,665.61 | 2.6% | 1 |
+| PORT OF ST HELENS | $147,283.54 | 2.5% | 1 |
+| OREGON DEPT OF ADMINISTRATIVE SERVICES | $133,182.60 | 2.3% | 10 |
+| BAKER CITY CITY OF | $130,327.15 | 2.2% | 1 |
+| KLAMATH FALLS CITY OF | $130,011.90 | 2.2% | 1 |
+| PAVEMENT CONSULTANTS INC | $129,038.00 | 2.2% | 1 |
+| JOSEPHINE COUNTY | $123,199.59 | 2.1% | 1 |
+| FLORENCE CITY OF | $98,428.03 | 1.7% | 1 |
+| JACKSON COUNTY | $96,387.88 | 1.7% | 1 |
+| JAMES KUNERT | $89,775.82 | 1.5% | 1 |
+| GSSL INC | $83,192.96 | 1.4% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $81,695.51 | 1.4% | 33 |
+| MADRAS CITY OF | $81,631.09 | 1.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 343 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 343 vendor-level transaction records covering 224 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

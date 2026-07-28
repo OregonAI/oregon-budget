@@ -104,9 +104,36 @@ The 12 largest of 65 expenditure classes used by this agency in FY2024.
 | 5356 | It Asset Acquire Under Subscription>=$5K | $140,515.43 | 2.1% |
 | 7007 | Lease Pmt For Buildings | $110,574.80 | 1.7% |
 
+## Largest vendors
+
+The 20 largest of 175 payees this agency recorded payments to in FY2024, accounting for 82.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $817,633.67 | 12.3% | 7 |
+| NEWJEE LLC | $728,911.09 | 11.0% | 11 |
+| COOPER ZIETZ ENGINEERS INC | $461,658.14 | 7.0% | 1 |
+| OREGON DEPARTMENT OF JUSTICE | $327,187.90 | 4.9% | 1 |
+| OREGON COAST COMMUNITY COLLEGE | $299,561.00 | 4.5% | 1 |
+| SOUTHWESTERN OREGON COMMUNITY COLLEGE | $287,500.00 | 4.3% | 1 |
+| DEPARTMENT OF ADMINISTRATION SERVICES | $272,445.41 | 4.1% | 1 |
+| CLACKAMAS CO SCH DIST 3JT | $264,186.00 | 4.0% | 1 |
+| DEPARTMENT OF EARLY LEARNING AND CARE | $258,725.52 | 3.9% | 1 |
+| KLAMATH CO SCH DIST | $228,200.00 | 3.4% | 1 |
+| VOYAGER SYSTEMS INC | $210,148.00 | 3.2% | 1 |
+| SOUTHWESTERN OREGON WORKFORCE INVESTEMENT BOARD | $207,178.00 | 3.1% | 1 |
+| OREGON HEALTH & SCIENCE UNIVERSITY | $200,005.00 | 3.0% | 1 |
+| SHI INTERNATIONAL CORP | $191,567.54 | 2.9% | 2 |
+| CDW GOVERNMENT INC | $177,109.94 | 2.7% | 7 |
+| DEPT CONSUMER AND BUSINESS SERVICES | $171,096.74 | 2.6% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $123,240.14 | 1.9% | 25 |
+| EVERGREEN EXECUTIVE BUILDING LLC | $92,695.98 | 1.4% | 4 |
+| AT&T MOBILITY | $90,882.66 | 1.4% | 1 |
+| US INTERNAL REVENUE SERVICE | $74,067.44 | 1.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 338 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 338 vendor-level transaction records covering 175 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

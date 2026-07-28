@@ -92,9 +92,36 @@ The 12 largest of 18 expenditure classes used by this agency in FY2021.
 | 4202 | Equipment Rental | $2,315.51 | 1.4% |
 | 4999 | Expendable Property Non-It<$5K | $2,197.25 | 1.3% |
 
+## Largest vendors
+
+The 20 largest of 30 payees this agency recorded payments to in FY2021, accounting for 98.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $66,583.55 | 39.4% | 7 |
+| STATE OF OREGON DIVISION OF STATE LANDS | $46,076.60 | 27.2% | 2 |
+| GALT FOUNDATION | $6,887.31 | 4.1% | 1 |
+| LEXISNEXIS | $4,910.00 | 2.9% | 1 |
+| SECRETARY OF STATE | $4,824.53 | 2.9% | 3 |
+| WEST PUBLISHING CORPORATION | $4,515.34 | 2.7% | 1 |
+| VERIZON WIRELESS | $4,016.23 | 2.4% | 1 |
+| CDW GOVERNMENT INC | $3,996.44 | 2.4% | 1 |
+| EMPLOYMENT DEPARTMENT | $3,710.00 | 2.2% | 1 |
+| DEPT OF STATE POLICE | $3,200.00 | 1.9% | 1 |
+| OFFICE DEPOT INC | $2,820.99 | 1.7% | 1 |
+| RICOH USA INC | $2,432.73 | 1.4% | 2 |
+| STAPLES ADVANTAGE | $2,268.18 | 1.3% | 1 |
+| P-DINH FINISHING BINDERY INC | $2,134.00 | 1.3% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $1,898.96 | 1.1% | 1 |
+| REIMERS FURNITURE MFG INC | $1,793.00 | 1.1% | 1 |
+| IBM CORPORATION | $1,631.22 | 1.0% | 1 |
+| RELX | $1,473.00 | 0.9% | 1 |
+| OREGON STATE BAR | $782.00 | 0.5% | 1 |
+| IES COMMERCIAL INC | $766.85 | 0.5% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 42 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 42 vendor-level transaction records covering 30 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

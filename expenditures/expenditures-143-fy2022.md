@@ -91,9 +91,36 @@ The 12 largest of 29 expenditure classes used by this agency in FY2022.
 | 4437 | Prof Dev Dues/Membership | $3,662.00 | 0.9% |
 | 4200 | Office Supplies | $3,454.27 | 0.8% |
 
+## Largest vendors
+
+The 20 largest of 41 payees this agency recorded payments to in FY2022, accounting for 99.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $279,974.51 | 68.1% | 5 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $35,886.26 | 8.7% | 13 |
+| PUBLIC EMPLOYEES BENEFIT BOARD | $15,528.26 | 3.8% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $13,497.25 | 3.3% | 2 |
+| PORTLAND STATE UNIVERSITY | $12,263.67 | 3.0% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $10,737.25 | 2.6% | 3 |
+| CDW GOVERNMENT INC | $9,826.75 | 2.4% | 1 |
+| OREGON STATE UNIVERSITY | $8,700.00 | 2.1% | 1 |
+| MOSAIC INTERPRETING LLC | $8,342.50 | 2.0% | 1 |
+| QUALTRICS LLC | $3,075.00 | 0.7% | 1 |
+| LEGISLATIVE ADMIN COMMITTEE | $2,531.03 | 0.6% | 2 |
+| PROFESSIONAL INTERPRETERS | $1,935.00 | 0.5% | 1 |
+| LINGUAVA INTERPRETERS | $1,328.50 | 0.3% | 1 |
+| LESLIE PORTER | $1,033.60 | 0.3% | 5 |
+| ERICA SCHROEDER | $808.45 | 0.2% | 4 |
+| QWEST | $774.11 | 0.2% | 1 |
+| SHI INTERNATIONAL CORP | $565.95 | 0.1% | 1 |
+| AMIE FENDER-SOSA | $554.38 | 0.1% | 4 |
+| LISA RYBLOOM | $434.54 | 0.1% | 3 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $428.00 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 85 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 85 vendor-level transaction records covering 41 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -116,9 +116,36 @@ The 12 largest of 101 expenditure classes used by this agency in FY2019.
 | 4200 | Office Supplies | $780,721.73 | 0.8% |
 | 4362 | Computer Technology Server Support | $729,801.46 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 1,525 payees this agency recorded payments to in FY2019, accounting for 71.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| SAIF CORP | $39,325,328.78 | 38.3% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $7,067,995.29 | 6.9% | 16 |
+| SEDGWICK | $5,556,244.60 | 5.4% | 1 |
+| OREGON HEALTH SCIENCES UNIVERSITY | $3,961,052.20 | 3.9% | 1 |
+| LIBERTY NORTHWEST INSURANCE CORP | $3,373,690.80 | 3.3% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $2,449,208.44 | 2.4% | 57 |
+| COATES KOKES | $2,027,513.30 | 2.0% | 1 |
+| OIGA | $1,279,310.61 | 1.2% | 1 |
+| DEPARTMENT OF JUSTICE | $1,279,007.36 | 1.2% | 1 |
+| PROVIDENCE HEALTH & SERVICES-OR | $1,038,037.32 | 1.0% | 1 |
+| SHI INTERNATIONAL CORP | $1,021,991.55 | 1.0% | 8 |
+| ARROWOOD INDEMNITY CO | $796,418.95 | 0.8% | 2 |
+| CITY COUNTY INS SERVICES FOR | $748,910.25 | 0.7% | 1 |
+| KALBERER COMPANY | $746,166.35 | 0.7% | 1 |
+| ACCELA INC | $713,086.13 | 0.7% | 3 |
+| WEYERHAEUSER COMPANY | $626,849.15 | 0.6% | 1 |
+| EMPLOYERS INS OF WAUSAU | $611,468.49 | 0.6% | 1 |
+| ARGONAUT INS CO | $490,623.86 | 0.5% | 1 |
+| OREGON DEPARTMENT OF REVENUE | $426,811.47 | 0.4% | 1 |
+| FIRST PREMIER PROPERTIES INC | $419,580.34 | 0.4% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 3,033 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 3,033 vendor-level transaction records covering 1,525 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

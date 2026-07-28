@@ -113,9 +113,36 @@ The 12 largest of 78 expenditure classes used by this agency in FY2021.
 | 4301 | Telecom/Voice Usage | $898,806.65 | 0.5% |
 | 4362 | Computer Technology Server Support | $815,649.21 | 0.4% |
 
+## Largest vendors
+
+The 20 largest of 942 payees this agency recorded payments to in FY2021, accounting for 82.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| SAIF CORP | $39,561,764.41 | 20.9% | 2 |
+| PROVIDENCE HEALTH PLAN | $34,351,121.39 | 18.2% | 2 |
+| MODA HEALTH PLAN INC | $27,479,726.46 | 14.5% | 2 |
+| PACIFIC HOSPITAL ASSOCIATION | $11,644,896.38 | 6.2% | 2 |
+| KAISER FOUNDATION HEALTH PLAN OF THE NORTHWEST | $10,293,728.68 | 5.4% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $7,426,721.32 | 3.9% | 19 |
+| SEDGWICK | $4,560,116.57 | 2.4% | 1 |
+| LIBERTY NORTHWEST INSURANCE CORP | $3,111,093.59 | 1.6% | 2 |
+| OREGON HEALTH SCIENCES UNIVERSITY | $2,732,934.50 | 1.4% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $2,127,201.49 | 1.1% | 42 |
+| REGENCE BLUECROSS BLUESHIELD OF OREGON | $2,104,872.95 | 1.1% | 2 |
+| ACCELA INC | $1,623,018.77 | 0.9% | 3 |
+| PROVIDENCE HEALTH & SERVICES-OR | $1,434,715.51 | 0.8% | 1 |
+| BRIDGESPAN HEALTH COMPANY | $1,308,561.78 | 0.7% | 1 |
+| SHI INTERNATIONAL CORP | $1,227,209.42 | 0.6% | 7 |
+| DEPARTMENT OF JUSTICE | $1,106,720.54 | 0.6% | 2 |
+| DELOITTE COUNSULTING LLP | $1,014,176.00 | 0.5% | 2 |
+| OREGON HEALTH & SCIENCE UNIVERSITY | $963,884.12 | 0.5% | 1 |
+| KAISER FOUNDATION HEALTH PLAN | $878,544.39 | 0.5% | 2 |
+| OIGA | $805,435.48 | 0.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,239 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,239 vendor-level transaction records covering 942 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

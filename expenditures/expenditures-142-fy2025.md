@@ -92,9 +92,36 @@ The 12 largest of 27 expenditure classes used by this agency in FY2025.
 | 4202 | Equipment Rental | $4,806.24 | 0.9% |
 | 4304 | Telecom/Voice Equipment<$5K | $3,820.00 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 26 payees this agency recorded payments to in FY2025, accounting for 99.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $202,558.89 | 39.2% | 6 |
+| SHERIDAN BOOKS INC | $113,138.72 | 21.9% | 1 |
+| CDW GOVERNMENT INC | $85,644.39 | 16.6% | 3 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $81,699.53 | 15.8% | 12 |
+| SHI INTERNATIONAL CORP | $6,341.19 | 1.2% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $5,011.84 | 1.0% | 4 |
+| METRO OVERHEAD DOOR | $3,820.00 | 0.7% | 1 |
+| CAROL M TODD | $3,789.22 | 0.7% | 3 |
+| US BANK NATIONAL ASSOCIATION | $3,254.53 | 0.6% | 1 |
+| OPENMFG LLC | $3,140.00 | 0.6% | 1 |
+| OFFICE DEPOT BUSINESS SOLUTIONS LLC | $2,558.85 | 0.5% | 2 |
+| QUADIENT INC | $1,251.58 | 0.2% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $998.50 | 0.2% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $990.00 | 0.2% | 1 |
+| MULTIPORT SYSTEMS INC | $552.50 | 0.1% | 1 |
+| ROBERT MAUGER | $420.25 | 0.1% | 2 |
+| HANNAH LAI | $390.00 | 0.1% | 1 |
+| AURORA GODDARD | $326.99 | 0.1% | 1 |
+| HANNAH SCOTT | $272.50 | 0.1% | 1 |
+| OREGON STATE TREASURY | $236.40 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 54 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 54 vendor-level transaction records covering 26 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

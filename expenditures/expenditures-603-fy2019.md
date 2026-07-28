@@ -112,9 +112,36 @@ The 12 largest of 88 expenditure classes used by this agency in FY2019.
 | 4975 | Agency Program Related Services | $481,495.31 | 2.8% |
 | 4550 | Attorney General Legal Fees | $464,995.73 | 2.7% |
 
+## Largest vendors
+
+The 20 largest of 970 payees this agency recorded payments to in FY2019, accounting for 69.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $2,558,051.60 | 14.9% | 16 |
+| US BANK NATIONAL ASSOCIATION ND | $1,988,008.72 | 11.6% | 46 |
+| OREGON STATE UNIVERSITY | $1,859,277.27 | 10.9% | 11 |
+| STATE DEPARTMENT OF AGRICULTURE | $895,294.48 | 5.2% | 5 |
+| DEPARTMENT OF ENVIRONMENTAL QUALITY | $652,983.00 | 3.8% | 3 |
+| PINE RIDGE INVESTMENT CORP | $642,470.30 | 3.8% | 1 |
+| AGILENT TECHNOLOGIES | $487,893.48 | 2.8% | 6 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $465,085.73 | 2.7% | 2 |
+| US BANK NATIONAL ASSOCIATION | $369,540.81 | 2.2% | 3 |
+| POWER MOTORS INC | $324,697.92 | 1.9% | 1 |
+| OREGON STATE TREASURY | $247,125.03 | 1.4% | 1 |
+| US DEPT OF AGRICULTURE | $211,628.27 | 1.2% | 2 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $185,459.58 | 1.1% | 1 |
+| USDA APHIS | $184,820.83 | 1.1% | 1 |
+| ACCELERATED TECHNOLOGY LABORATOR | $174,693.00 | 1.0% | 1 |
+| SHI INTERNATIONAL CORP | $166,724.93 | 1.0% | 2 |
+| WASTE MANAGEMENT | $162,688.42 | 0.9% | 1 |
+| FISHER SCIENTIFIC COMPANY LLC | $147,387.99 | 0.9% | 2 |
+| PEAR BUREAU NORTHWEST | $130,000.00 | 0.8% | 1 |
+| OREGON STATE HEALTH DIVISION | $124,771.45 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,976 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,976 vendor-level transaction records covering 970 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

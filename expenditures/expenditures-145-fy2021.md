@@ -92,9 +92,36 @@ The 12 largest of 19 expenditure classes used by this agency in FY2021.
 | 4406 | Prof Dev Instate Tuition/Registration | $645.00 | 0.5% |
 | 4444 | Employee Recruitment Air Transportation | $532.20 | 0.4% |
 
+## Largest vendors
+
+The 20 largest of 26 payees this agency recorded payments to in FY2021, accounting for 99.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $48,845.20 | 39.0% | 1 |
+| GARTNER GROUP INC | $31,939.00 | 25.5% | 1 |
+| CDW GOVERNMENT INC | $12,479.71 | 10.0% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $6,190.77 | 4.9% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $4,545.91 | 3.6% | 1 |
+| MICROSOFT CORPORATION | $4,334.05 | 3.5% | 2 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $3,364.10 | 2.7% | 1 |
+| EMPLOYMENT DEPARTMENT | $2,692.00 | 2.1% | 1 |
+| SHI INTERNATIONAL CORP | $2,635.74 | 2.1% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $1,636.78 | 1.3% | 2 |
+| RICOH USA INC | $1,605.06 | 1.3% | 2 |
+| LEGISLATIVE ADMIN COMMITTEE | $1,131.34 | 0.9% | 2 |
+| COMMERCIAL BUSINESS FURNITURE | $804.83 | 0.6% | 2 |
+| REIMERS FURNITURE MFG INC | $636.35 | 0.5% | 1 |
+| JULIE NEBURKA | $610.00 | 0.5% | 2 |
+| SEAN MCSPADEN | $359.00 | 0.3% | 1 |
+| CASCADE CENTERS INC | $270.00 | 0.2% | 1 |
+| OREGONIAN PUBLISHING CO | $258.00 | 0.2% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $232.00 | 0.2% | 1 |
+| ELIZABETH CHAMBERLIN | $198.64 | 0.2% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 34 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 34 vendor-level transaction records covering 26 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -105,9 +105,36 @@ The 12 largest of 58 expenditure classes used by this agency in FY2024.
 | 6500 | Distribution To Comm College Districts | $73,743.18 | 1.8% |
 | 4999 | Expendable Property Non-It<$5K | $71,978.47 | 1.7% |
 
+## Largest vendors
+
+The 20 largest of 250 payees this agency recorded payments to in FY2024, accounting for 70.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,330,871.17 | 32.0% | 12 |
+| CENGAGE LEARNING INC | $412,302.00 | 9.9% | 2 |
+| MULTNOMAH COUNTY LIBRARY | $117,268.70 | 2.8% | 1 |
+| OREGON LIBRARY ASSOCIATION | $116,584.61 | 2.8% | 2 |
+| BEAVERTON CITY LIBRARY | $108,978.08 | 2.6% | 1 |
+| ORBIS CASCADE ALLIANCE | $103,824.37 | 2.5% | 2 |
+| ONLINE COMPUTER LIBRARY CENTER INC | $79,030.35 | 1.9% | 4 |
+| HMI-OREGON DEALERSHIP | $77,886.89 | 1.9% | 2 |
+| BAKER COUNTY LIBRARY DISTRICT | $76,548.00 | 1.8% | 1 |
+| SAFARI BOOKS ONLINE LLC | $74,990.00 | 1.8% | 1 |
+| OREGON HISTORICAL SOCIETY | $73,972.94 | 1.8% | 1 |
+| JACKSON COUNTY LIBRARY DISTRICT | $60,688.00 | 1.5% | 1 |
+| CHEMEKETA COMMUNITY COLLEGE | $57,102.80 | 1.4% | 2 |
+| NEWSBANK INC | $44,011.00 | 1.1% | 1 |
+| SPRINGFIELD PUBLIC LIBRARY | $43,661.95 | 1.0% | 1 |
+| EBSCO INFORMATION SERVICE | $39,943.45 | 1.0% | 1 |
+| DESCHUTES PUBLIC LIBRARY DISTRICT | $36,543.00 | 0.9% | 1 |
+| LAKE COUNTY LIBRARY DISTRICT | $32,503.46 | 0.8% | 1 |
+| CITY OF SALEM | $32,375.00 | 0.8% | 1 |
+| DEPT OF STATE POLICE | $30,526.50 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 360 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 360 vendor-level transaction records covering 250 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

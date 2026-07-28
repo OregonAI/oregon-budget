@@ -88,9 +88,34 @@ The 12 largest of 15 expenditure classes used by this agency in FY2020.
 | 4701 | Other Services | $175.50 | 0.9% |
 | 4253 | Advertise, Publicity, Publish/Print Srvs | $150.00 | 0.7% |
 
+## Largest vendors
+
+The 18 largest of 18 payees this agency recorded payments to in FY2020, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $6,682.29 | 32.7% | 1 |
+| MITCHEL E SPARKS | $5,045.21 | 24.7% | 6 |
+| MICROSOFT CORPORATION | $2,975.62 | 14.5% | 2 |
+| CHERRY CITY ELECTRIC | $1,472.00 | 7.2% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $869.16 | 4.2% | 2 |
+| BON APPETIT | $850.00 | 4.2% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $805.00 | 3.9% | 1 |
+| REIMERS FURNITURE MANUFACTURING | $636.35 | 3.1% | 1 |
+| ADRIENNE FISCHER | $467.60 | 2.3% | 2 |
+| ALL AROUND PROJECT LLC | $150.00 | 0.7% | 1 |
+| OREGON STATE TREASURY | $124.00 | 0.6% | 1 |
+| SHI INTERNATIONAL CORP | $116.71 | 0.6% | 1 |
+| LEGISLATIVE ADMIN COMMITTEE | $115.30 | 0.6% | 1 |
+| SALVADORE BARRAZA | $70.90 | 0.3% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $45.00 | 0.2% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $21.00 | 0.1% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $15.00 | 0.1% | 1 |
+| AT&T TELECONFERENCE SERVICES | $0.72 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 26 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 26 vendor-level transaction records covering 18 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

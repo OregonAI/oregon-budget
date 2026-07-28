@@ -122,9 +122,36 @@ The 12 largest of 124 expenditure classes used by this agency in FY2019.
 | 4519 | Professional Serv/Managed Serv Provider | $1,690,830.76 | 1.1% |
 | 4375 | Computer Technology Computer Processing | $1,499,476.49 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 1,828 payees this agency recorded payments to in FY2019, accounting for 65.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $19,974,971.45 | 13.3% | 25 |
+| DELOITTE COUNSULTING LLP | $19,593,192.85 | 13.0% | 1 |
+| DEPARTMENT OF JUSTICE | $17,375,835.05 | 11.6% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $13,859,614.68 | 9.2% | 17 |
+| COUNTY OF MULTNOMAH | $5,063,923.96 | 3.4% | 2 |
+| WEALTHCAP PORTLAND PARK SQUARE LP | $2,210,139.88 | 1.5% | 2 |
+| WASHINGTON COUNTY | $1,936,566.54 | 1.3% | 3 |
+| EMPLOYMENT DEPARTMENT | $1,875,230.16 | 1.2% | 4 |
+| LANE COUNTY DISTRICT ATTORNEY | $1,770,457.39 | 1.2% | 3 |
+| EASYSTREET ONLINE SERVICES | $1,690,830.76 | 1.1% | 1 |
+| DAS | $1,656,794.92 | 1.1% | 1 |
+| SHI INTERNATIONAL CORP | $1,574,775.69 | 1.0% | 9 |
+| PITNEY BOWES | $1,403,959.83 | 0.9% | 4 |
+| ROBERTSON STATE STREET LLC | $1,397,478.73 | 0.9% | 1 |
+| COUNTY OF CLACKAMAS | $1,365,819.56 | 0.9% | 3 |
+| JOHNCO INVESTMENTS I LLC | $1,356,855.36 | 0.9% | 1 |
+| CANOPY SOFTWARE INC | $1,191,810.00 | 0.8% | 1 |
+| COUNTY OF MARION TREASURY DEPARTMENT | $1,136,548.83 | 0.8% | 1 |
+| CDW GOVERNMENT INC | $1,135,448.33 | 0.8% | 10 |
+| WASHINGTON COUNTY DISTRICT ATTORNEY'S OFFICE | $1,105,142.82 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 3,315 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 3,315 vendor-level transaction records covering 1,828 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

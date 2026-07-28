@@ -116,9 +116,36 @@ The 12 largest of 83 expenditure classes used by this agency in FY2021.
 | 4550 | Attorney General Legal Fees | $1,680,223.88 | 1.3% |
 | 7250 | Interest-Bonds | $1,230,506.54 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 705 payees this agency recorded payments to in FY2021, accounting for 73.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CITY OF BEND | $15,444,283.00 | 12.4% | 1 |
+| COUNTY OF CLACKAMAS | $11,801,559.00 | 9.5% | 3 |
+| US BANK NATIONAL ASSOCIATION | $11,005,433.65 | 8.8% | 7 |
+| CITY OF KLAMATH FALLS | $8,231,603.60 | 6.6% | 3 |
+| OREGON STATE TREASURY | $7,536,151.79 | 6.0% | 6 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $5,797,860.09 | 4.6% | 17 |
+| CITY OF INDEPENDENCE | $4,314,164.00 | 3.5% | 1 |
+| CITY OF ALBANY | $3,972,886.00 | 3.2% | 1 |
+| AMERICAN ASSETS TRUST LP | $3,128,318.16 | 2.5% | 1 |
+| CRESCENT SANITARY DISTRICT | $2,823,444.00 | 2.3% | 1 |
+| NATIONAL CENTER FOR ELECTRONICS RECYCLING INC | $2,115,352.73 | 1.7% | 1 |
+| CITY OF IRRIGON | $2,113,655.00 | 1.7% | 2 |
+| CITY OF COOS BAY | $1,919,104.00 | 1.5% | 1 |
+| ENFOTECH & CONSULTING | $1,759,094.88 | 1.4% | 1 |
+| CITY OF SUTHERLIN | $1,743,879.00 | 1.4% | 1 |
+| FARMERS IRRIGATION DISTRICT | $1,723,184.00 | 1.4% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $1,680,223.88 | 1.3% | 1 |
+| CITY OF BAKER CITY | $1,656,520.00 | 1.3% | 2 |
+| CITY OF PENDLETON | $1,522,196.41 | 1.2% | 2 |
+| CITY OF CANYONVILLE | $1,480,141.00 | 1.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,005 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,005 vendor-level transaction records covering 705 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

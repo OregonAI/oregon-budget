@@ -100,9 +100,36 @@ The 12 largest of 65 expenditure classes used by this agency in FY2019.
 | 4375 | Computer Technology Computer Processing | $89,853.01 | 1.1% |
 | 4106 | Instate Lodging | $89,416.62 | 1.1% |
 
+## Largest vendors
+
+The 20 largest of 320 payees this agency recorded payments to in FY2019, accounting for 86.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,538,120.67 | 19.1% | 14 |
+| DESCHUTES VALLEY WATER DISTRICT | $1,348,240.00 | 16.7% | 1 |
+| POWDER VALLEY WATER CONTROL DISTRICT | $968,400.00 | 12.0% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $769,692.69 | 9.6% | 1 |
+| WASCO CO SWCD | $557,656.21 | 6.9% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $312,007.61 | 3.9% | 27 |
+| US GEOLOGICAL SURVEY | $290,167.25 | 3.6% | 7 |
+| EMPLOYMENT DEPARTMENT | $183,270.44 | 2.3% | 2 |
+| MALHEUR WATERSHED COUNCIL | $154,430.90 | 1.9% | 1 |
+| TUMALO IRRIGATION DISTRICT | $129,996.80 | 1.6% | 1 |
+| SONTEK YSI INC | $100,230.00 | 1.2% | 2 |
+| CITY OF UMATILLA | $97,745.44 | 1.2% | 2 |
+| OTT HYDROMET CORP | $74,620.45 | 0.9% | 2 |
+| DOWN RIGHT DRILLING & PUMP INC | $73,474.00 | 0.9% | 1 |
+| KLAMATH DRAINAGE DISTRICT | $71,787.41 | 0.9% | 1 |
+| WESTERN STATES WATER COUNCIL | $63,120.00 | 0.8% | 3 |
+| EAST FORK IRRIGATION DISTRICT | $56,630.00 | 0.7% | 1 |
+| COUNTY OF UNION | $53,405.18 | 0.7% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $50,568.42 | 0.6% | 2 |
+| GILLIAM SOIL & WATER CONSERVATION DISTRICT | $50,090.08 | 0.6% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 607 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 607 vendor-level transaction records covering 320 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

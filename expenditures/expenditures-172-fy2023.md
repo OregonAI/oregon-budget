@@ -78,9 +78,25 @@ The 6 largest of 6 expenditure classes used by this agency in FY2023.
 | 4600 | State Government Service Charges | $399.69 | 0.1% |
 | 4253 | Advertise, Publicity, Publish/Print Srvs | $77.00 | 0.0% |
 
+## Largest vendors
+
+The 9 largest of 9 payees this agency recorded payments to in FY2023, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| TONKON TORP LLP | $232,553.03 | 77.7% | 1 |
+| OREGON STATE TREASURY | $55,644.00 | 18.6% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $3,906.40 | 1.3% | 2 |
+| NCHFFA | $3,250.00 | 1.1% | 1 |
+| PFM FINANCIAL ADVISORS LLC | $3,200.00 | 1.1% | 1 |
+| DEPARTMENT OF JUSTICE | $315.40 | 0.1% | 1 |
+| SECRETARY OF STATE | $187.50 | 0.1% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $77.00 | 0.0% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $33.16 | 0.0% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 12 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 12 vendor-level transaction records covering 9 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

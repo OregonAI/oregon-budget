@@ -114,9 +114,36 @@ The 12 largest of 75 expenditure classes used by this agency in FY2025.
 | 4301 | Telecom/Voice Usage | $2,176,997.67 | 3.0% |
 | 3231 | Unemployment Compensation & Assessment | $2,092,417.04 | 2.9% |
 
+## Largest vendors
+
+The 20 largest of 1,018 payees this agency recorded payments to in FY2025, accounting for 80.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $20,371,468.82 | 27.9% | 12 |
+| EMPLOYMENT DEPARTMENT | $12,215,539.41 | 16.7% | 2 |
+| FAST ENTERPRISES LLC | $11,015,409.66 | 15.1% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $2,298,991.08 | 3.1% | 3 |
+| PITNEY BOWES BANK INC | $1,750,000.00 | 2.4% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $1,294,370.48 | 1.8% | 1 |
+| CDW GOVERNMENT INC | $1,151,090.74 | 1.6% | 8 |
+| R&H CONSTRUCTION CO | $954,933.18 | 1.3% | 1 |
+| QWEST | $856,938.78 | 1.2% | 8 |
+| SHI INTERNATIONAL CORPORATION | $830,556.09 | 1.1% | 8 |
+| PRESIDIO NETWORKED SOLUTIONS INC | $796,801.30 | 1.1% | 3 |
+| STATE OF OREGON SECRETARY OF STATE | $792,967.52 | 1.1% | 1 |
+| ROYAL BUYING GROUP | $645,435.40 | 0.9% | 1 |
+| PARANORMAL MEDIA LLC | $565,000.00 | 0.8% | 1 |
+| SHI INTERNATIONAL CORP | $545,687.39 | 0.7% | 5 |
+| AIRTOUCH CELLULAR | $542,437.72 | 0.7% | 2 |
+| CARAHSOFT TECHNOLOGY CORPORATION | $515,529.81 | 0.7% | 3 |
+| ROCKWOOD RISING MANAGEMENT LLC | $503,286.11 | 0.7% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $498,293.49 | 0.7% | 1 |
+| CHEMEKETA COMMUNITY COLLEGE | $435,731.17 | 0.6% | 7 |
+
 ## Curator notes
 
-Figures are aggregated from 1,745 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,745 vendor-level transaction records covering 1,018 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

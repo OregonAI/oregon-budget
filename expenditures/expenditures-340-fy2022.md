@@ -120,9 +120,36 @@ The 12 largest of 96 expenditure classes used by this agency in FY2022.
 | 7250 | Interest-Bonds | $1,127,756.00 | 1.0% |
 | 4730 | Merchant Fees | $1,042,920.43 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 744 payees this agency recorded payments to in FY2022, accounting for 76.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CITY OF BEND | $19,621,740.00 | 18.0% | 1 |
+| CITY OF SANDY | $8,575,627.00 | 7.8% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $8,527,960.90 | 7.8% | 20 |
+| CITY OF LEBANON | $8,100,350.00 | 7.4% | 2 |
+| CITY OF KLAMATH FALLS | $7,913,719.28 | 7.2% | 2 |
+| CITY OF BAKER CITY | $3,500,634.00 | 3.2% | 1 |
+| COUNTY OF CLACKAMAS | $3,457,677.50 | 3.2% | 2 |
+| OREGON STATE TREASURY | $3,152,013.01 | 2.9% | 6 |
+| AMERICAN ASSETS TRUST LP | $2,978,173.81 | 2.7% | 1 |
+| GLENEDEN SANITARY DISTRICT | $2,475,286.00 | 2.3% | 2 |
+| ENFOTECH & CONSULTING | $2,225,620.57 | 2.0% | 2 |
+| CITY OF MADRAS | $1,863,558.00 | 1.7% | 2 |
+| HALEY & ALDRICH | $1,738,580.83 | 1.6% | 1 |
+| NATIONAL CENTER FOR ELECTRONICS RECYCLING INC | $1,720,462.32 | 1.6% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $1,642,553.38 | 1.5% | 36 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $1,422,662.14 | 1.3% | 1 |
+| FIRST STUDENT LES | $1,170,600.60 | 1.1% | 1 |
+| FARMERS IRRIGATION DISTRICT | $1,063,865.00 | 1.0% | 1 |
+| US BANK NATIONAL ASSOCIATION | $1,042,900.81 | 1.0% | 2 |
+| APEX COMPANIES LLC | $1,029,977.41 | 0.9% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,280 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,280 vendor-level transaction records covering 744 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

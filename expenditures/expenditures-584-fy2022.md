@@ -95,9 +95,36 @@ The 12 largest of 34 expenditure classes used by this agency in FY2022.
 | 4701 | Other Services | $16,654.78 | 1.2% |
 | 6800 | Distribution To Individuals | $16,050.00 | 1.2% |
 
+## Largest vendors
+
+The 20 largest of 47 payees this agency recorded payments to in FY2022, accounting for 98.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPT OF STATE POLICE | $449,360.00 | 33.7% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $299,712.77 | 22.5% | 6 |
+| PIKES NORTHWEST LLC | $193,693.32 | 14.5% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $102,893.62 | 7.7% | 1 |
+| US BANK NATIONAL ASSOCIATION | $84,121.51 | 6.3% | 1 |
+| EMPLOYMENT DEPARTMENT | $37,123.26 | 2.8% | 1 |
+| CDW GOVERNMENT INC | $33,319.57 | 2.5% | 3 |
+| SHI INTERNATIONAL CORP | $16,778.16 | 1.3% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $14,195.52 | 1.1% | 1 |
+| PIVOTAL RESOURCES INC | $13,775.00 | 1.0% | 1 |
+| IBM CORPORATION | $11,285.47 | 0.8% | 1 |
+| KYNDRYL INC | $10,765.62 | 0.8% | 1 |
+| RICOH USA INC | $6,538.34 | 0.5% | 1 |
+| COUNCIL FOR ACCREDITATION OF EDUCATOR PREPARATION | $6,520.00 | 0.5% | 1 |
+| ADMINISTRATIVE SCHOOL DISTRICT #1 DESCHUTES COUNTY | $6,300.00 | 0.5% | 1 |
+| NATIONAL ASSN OF STATE DIRECTORS OF TEACHER | $6,000.00 | 0.5% | 1 |
+| UNIVERSITY OF OREGON | $5,965.00 | 0.4% | 1 |
+| OREGON ASSOCIATION OF LATINO EDUCATORS | $5,500.00 | 0.4% | 1 |
+| ADT SECURITY SERVICES | $4,349.80 | 0.3% | 1 |
+| OREGON EDUCATION ASSOCIATION | $4,250.00 | 0.3% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 72 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 72 vendor-level transaction records covering 47 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

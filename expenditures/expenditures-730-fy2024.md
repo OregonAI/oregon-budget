@@ -129,9 +129,36 @@ The 12 largest of 143 expenditure classes used by this agency in FY2024.
 | 4701 | Other Services | $17,061,245.31 | 0.9% |
 | 6400 | Distribution To Cities | $13,253,359.80 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 6,849 payees this agency recorded payments to in FY2024, accounting for 52.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OFFICE OF THE STATE TREASURER | $229,342,229.42 | 12.5% | 7 |
+| KIEWIT INFRASTRUCTURE WEST CO | $144,480,293.25 | 7.9% | 1 |
+| TRI-COUNTY METROPOLITAN TRNSP DIST OF OR | $97,811,070.53 | 5.3% | 5 |
+| OREGON DEPT OF ADMINISTRATIVE SERVICES | $59,221,152.36 | 3.2% | 35 |
+| LTM INCORPORATED | $50,087,612.93 | 2.7% | 5 |
+| KERR CONTRACTORS OREGON LLC | $46,929,934.20 | 2.6% | 1 |
+| HAMILTON CONSTRUCTION CO | $39,676,555.62 | 2.2% | 2 |
+| HP CIVIL INC | $35,540,415.36 | 1.9% | 3 |
+| DAVID EVANS & ASSOCIATES INC | $33,403,802.74 | 1.8% | 2 |
+| HDR ENGINEERING INC | $30,048,222.10 | 1.6% | 1 |
+| WILDISH STANDARD PAVING | $29,743,865.13 | 1.6% | 1 |
+| KNIFE RIVER CORPORATION NORTHWEST | $27,088,110.23 | 1.5% | 3 |
+| MARCUM & SONS LLC | $26,325,268.29 | 1.4% | 1 |
+| WASHINGTON STATE DEPT ENVIRON SRVCS | $23,399,251.11 | 1.3% | 5 |
+| CONSOR | $18,231,849.68 | 1.0% | 1 |
+| HIGH DESERT AGGREGATE & PAVING INC | $17,758,517.49 | 1.0% | 2 |
+| WILDISH CONSTRUCTION CO | $16,060,884.97 | 0.9% | 3 |
+| MARION COUNTY | $15,875,941.48 | 0.9% | 10 |
+| PORTLAND CITY OF | $15,738,380.33 | 0.9% | 9 |
+| WSP-BERGERABAM | $14,990,140.14 | 0.8% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 12,033 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 12,033 vendor-level transaction records covering 6,849 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

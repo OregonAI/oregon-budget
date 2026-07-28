@@ -94,9 +94,36 @@ The 12 largest of 39 expenditure classes used by this agency in FY2019.
 | 4109 | Instate Mileage Reimbursement-Full Rate | $13,034.70 | 2.1% |
 | 4999 | Expendable Property Non-It<$5K | $10,725.27 | 1.7% |
 
+## Largest vendors
+
+The 20 largest of 45 payees this agency recorded payments to in FY2019, accounting for 97.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| THE EQUITABLE CENTER LLC | $108,440.18 | 17.5% | 4 |
+| MICROPACT GLOBAL INC | $108,306.25 | 17.4% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $100,247.89 | 16.2% | 8 |
+| US BANK NATIONAL ASSOCIATION ND | $69,320.02 | 11.2% | 22 |
+| US BANK NATIONAL ASSOCIATION | $58,717.65 | 9.5% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $35,004.14 | 5.6% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $28,832.70 | 4.6% | 1 |
+| DEPARTMENT OF FISH & WILDLIFE | $27,390.41 | 4.4% | 1 |
+| OREGON STATE TREASURY | $17,566.05 | 2.8% | 2 |
+| IBM CORPORATION | $12,752.33 | 2.1% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $9,565.94 | 1.5% | 1 |
+| EMPLOYMENT DEPARTMENT | $4,838.47 | 0.8% | 1 |
+| PACIFIC OFFICE AUTOMATION INC | $4,749.24 | 0.8% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $4,362.00 | 0.7% | 1 |
+| QWEST | $4,024.09 | 0.6% | 1 |
+| SELINA BARNES | $2,591.69 | 0.4% | 7 |
+| STERLIN DEAN OWENS JR | $2,330.76 | 0.4% | 5 |
+| JAMES E FARLEY | $1,992.83 | 0.3% | 2 |
+| MADELINE C ALVARADO | $1,701.67 | 0.3% | 7 |
+| AT&T MOBILITY | $1,620.08 | 0.3% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 135 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 135 vendor-level transaction records covering 45 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -90,9 +90,36 @@ The 12 largest of 28 expenditure classes used by this agency in FY2019.
 | 4406 | Prof Dev Instate Tuition/Registration | $1,508.00 | 1.1% |
 | 4434 | Prof Dev Out-Of-State Lodging | $684.42 | 0.5% |
 
+## Largest vendors
+
+The 20 largest of 39 payees this agency recorded payments to in FY2019, accounting for 97.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| GARTNER GROUP INC | $49,245.00 | 34.4% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $48,123.94 | 33.6% | 3 |
+| MICROSOFT CORPORATION | $12,263.10 | 8.6% | 2 |
+| PACIFIC OFFICE AUTOMATION INC | $5,745.09 | 4.0% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $3,806.64 | 2.7% | 1 |
+| PUBLIC EMPLOYEES RETIREMENT SYSTEM | $3,682.80 | 2.6% | 1 |
+| LEGISLATIVE ADMIN COMMITTEE | $2,658.02 | 1.9% | 1 |
+| RICOH USA INC | $2,504.78 | 1.7% | 1 |
+| SEAN MCSPADEN | $2,445.61 | 1.7% | 7 |
+| OREGON SECRETARY OF STATE | $1,404.88 | 1.0% | 1 |
+| THERESA MCHUGH | $1,342.53 | 0.9% | 5 |
+| TIMOTHY E WALKER | $1,316.78 | 0.9% | 3 |
+| MICHELLE D DEISTER | $833.22 | 0.6% | 4 |
+| KEN ROCCO | $809.08 | 0.6% | 4 |
+| WILLAMETTE UNIVERSITY | $764.00 | 0.5% | 1 |
+| DOUGLAS S WILSON | $738.45 | 0.5% | 5 |
+| CDW GOVERNMENT INC | $716.14 | 0.5% | 2 |
+| KIM CHI THI TO | $687.10 | 0.5% | 5 |
+| US BANK NATIONAL ASSOCIATION ND | $460.31 | 0.3% | 2 |
+| PAUL SIEBERT | $442.15 | 0.3% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 75 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 75 vendor-level transaction records covering 39 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

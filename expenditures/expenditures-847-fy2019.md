@@ -109,9 +109,36 @@ The 12 largest of 77 expenditure classes used by this agency in FY2019.
 | 4361 | Computer Technology Server Software<$5K | $34,491.86 | 1.7% |
 | 5755 | Leasehold Improvements>=$5K | $28,589.47 | 1.4% |
 
+## Largest vendors
+
+The 20 largest of 144 payees this agency recorded payments to in FY2019, accounting for 90.6% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| RELIANT BEHAVIORAL HEALTH LLC | $385,755.00 | 19.4% | 1 |
+| URBAN OFFICE & PARKING FACILITIES | $309,235.35 | 15.6% | 3 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $241,745.85 | 12.2% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $175,919.45 | 8.9% | 9 |
+| FOUNDATION FOR MEDICAL EXCELLENCE | $131,250.00 | 6.6% | 1 |
+| SHI INTERNATIONAL CORP | $113,956.37 | 5.7% | 5 |
+| DEPT OF STATE POLICE | $82,758.50 | 4.2% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $75,035.45 | 3.8% | 24 |
+| GALLANT POLICY ADVISORS INC | $45,500.00 | 2.3% | 1 |
+| OREGON STATE TREASURY | $34,222.41 | 1.7% | 2 |
+| LYNX GROUP INC | $28,085.27 | 1.4% | 1 |
+| TALMADGE FITZPATRICK TRIBE PLLC | $25,000.00 | 1.3% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $24,151.12 | 1.2% | 1 |
+| PACIFIC STATIONERY & PRINTING CO | $24,138.52 | 1.2% | 4 |
+| IBM CORPORATION | $22,671.84 | 1.1% | 2 |
+| MELVIN MARK CONSTRUCTION CO | $18,536.30 | 0.9% | 3 |
+| CHRISTENSON ELECTRIC INC | $18,362.12 | 0.9% | 3 |
+| NAEGELI REPORTING CORPORATION | $17,354.54 | 0.9% | 1 |
+| PUBLIC EMPLOYEES RETIREMENT SYSTEM | $13,594.26 | 0.7% | 10 |
+| EMPLOYMENT DEPARTMENT | $13,044.81 | 0.7% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 341 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 341 vendor-level transaction records covering 144 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

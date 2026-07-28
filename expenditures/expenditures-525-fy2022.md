@@ -117,9 +117,36 @@ The 12 largest of 75 expenditure classes used by this agency in FY2022.
 | 6455 | Distribution To Western Or University | $35,001,543.67 | 2.2% |
 | 6454 | Distribution To Eastern Or University | $32,399,409.56 | 2.0% |
 
+## Largest vendors
+
+The 20 largest of 295 payees this agency recorded payments to in FY2022, accounting for 90.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON STATE UNIVERSITY | $308,159,789.92 | 19.0% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $224,737,416.27 | 13.9% | 25 |
+| PORTLAND COMMUNITY COLLEGE | $171,310,832.14 | 10.6% | 2 |
+| PORTLAND STATE UNIVERSITY | $150,992,867.12 | 9.3% | 3 |
+| UNIVERSITY OF OREGON | $117,209,501.16 | 7.2% | 2 |
+| OREGON INSTITUTE OF TECHNOLOGY/OREGON TECH | $68,844,319.06 | 4.3% | 3 |
+| CHEMEKETA COMMUNITY COLLEGE | $48,603,605.88 | 3.0% | 2 |
+| OREGON HEALTH & SCIENCE UNIVERSITY DECENTRILIZED | $41,239,740.00 | 2.5% | 1 |
+| WESTERN OREGON UNIVERSITY | $39,376,224.67 | 2.4% | 2 |
+| MT HOOD COMMUNITY COLLEGE | $39,185,162.96 | 2.4% | 2 |
+| LANE COMMUNITY COLLEGE | $35,557,433.00 | 2.2% | 2 |
+| EASTERN OREGON UNIVERSITY | $34,559,196.56 | 2.1% | 2 |
+| WELLS FARGO BANK NORTHWEST NATIONAL ASSO | $33,029,129.54 | 2.0% | 1 |
+| LINN BENTON COMMUNITY COLLEGE | $32,613,828.97 | 2.0% | 2 |
+| SOUTHERN OREGON UNIVERSITY | $32,113,860.11 | 2.0% | 2 |
+| CLACKAMAS COMMUNITY COLLEGE | $24,297,441.75 | 1.5% | 3 |
+| ROGUE COMMUNITY COLLEGE | $18,072,653.50 | 1.1% | 2 |
+| UMPQUA COMMUNITY COLLEGE | $18,057,391.62 | 1.1% | 2 |
+| KLAMATH COMMUNITY COLLEGE | $17,304,290.47 | 1.1% | 2 |
+| WORKSYSTEMS INC | $15,293,024.97 | 0.9% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 429 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 429 vendor-level transaction records covering 295 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

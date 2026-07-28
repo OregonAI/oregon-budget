@@ -111,9 +111,36 @@ The 12 largest of 89 expenditure classes used by this agency in FY2024.
 | 4701 | Other Services | $756,300.91 | 2.0% |
 | 4365 | Computer Technology Pc Equipment<$5K | $580,655.78 | 1.6% |
 
+## Largest vendors
+
+The 20 largest of 545 payees this agency recorded payments to in FY2024, accounting for 87.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $14,820,788.96 | 40.0% | 15 |
+| FAST ENTERPRISES LLC | $4,341,545.71 | 11.7% | 1 |
+| RSM US LLP | $2,879,965.00 | 7.8% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $2,466,648.29 | 6.7% | 2 |
+| PITNEY BOWES | $1,200,000.00 | 3.2% | 1 |
+| PITNEY BOWES BANK INC | $1,025,000.00 | 2.8% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $866,133.04 | 2.3% | 1 |
+| OREGON STATE TREASURY | $712,957.75 | 1.9% | 2 |
+| KYNDRYL INC | $595,334.85 | 1.6% | 2 |
+| CDW GOVERNMENT INC | $584,145.04 | 1.6% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $510,230.80 | 1.4% | 36 |
+| SHI INTERNATIONAL CORP | $432,286.73 | 1.2% | 3 |
+| VERIZON WIRELESS | $306,098.10 | 0.8% | 1 |
+| GARTNER GROUP INC | $298,762.00 | 0.8% | 1 |
+| PERS | $281,245.03 | 0.8% | 1 |
+| WASHINGTON COUNTY CARTOGRAPHY & RECORDS | $274,475.00 | 0.7% | 2 |
+| DEPT OF STATE POLICE | $254,179.25 | 0.7% | 3 |
+| MULTISTATE TAX COMMISSION | $204,232.00 | 0.6% | 2 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $167,817.88 | 0.5% | 10 |
+| CRB INVESTMENTS LLC | $164,215.03 | 0.4% | 4 |
+
 ## Curator notes
 
-Figures are aggregated from 1,143 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,143 vendor-level transaction records covering 545 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

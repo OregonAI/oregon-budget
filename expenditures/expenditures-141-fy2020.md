@@ -106,9 +106,36 @@ The 12 largest of 84 expenditure classes used by this agency in FY2020.
 | 4850 | Facilities Maintenance | $400,705.77 | 1.7% |
 | 4513 | Professional Services Application New | $302,050.00 | 1.3% |
 
+## Largest vendors
+
+The 20 largest of 398 payees this agency recorded payments to in FY2020, accounting for 89.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| PORTLAND HARBOR REMEDIAL DESIGN TRUST | $4,500,000.00 | 19.3% | 1 |
+| OREGON STATE TREASURY | $3,132,993.94 | 13.5% | 3 |
+| TICOR TITLE COMPANY | $2,420,864.43 | 10.4% | 3 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $2,037,825.81 | 8.8% | 2 |
+| US ENVIRONMENTAL PROTECTION AGENCY | $1,500,000.00 | 6.4% | 1 |
+| STATE OF OREGON DIVISION OF STATE LANDS | $1,094,806.24 | 4.7% | 4 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $908,806.76 | 3.9% | 13 |
+| OREGON STATE UNIVERSITY | $688,216.31 | 3.0% | 4 |
+| VERUS ANALYTICS LLC | $681,545.21 | 2.9% | 1 |
+| PORT OF PORTLAND | $675,000.00 | 2.9% | 1 |
+| KELMAR ASSOCIATES LLC | $514,063.49 | 2.2% | 4 |
+| TITAN-KELLY LLC | $508,192.11 | 2.2% | 1 |
+| KYOKO KATHERINE WYSE | $481,201.76 | 2.1% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $343,901.30 | 1.5% | 37 |
+| UNITED STATES DEPT OF INTERIOR | $328,655.75 | 1.4% | 1 |
+| THE NORTH HIGHLAND HOLDING COMPANY LLC | $235,850.00 | 1.0% | 1 |
+| FIDELITY NATIONAL TITLE CO OF OREGON | $230,823.48 | 1.0% | 3 |
+| AUDIT SERVICES US LLC | $169,076.04 | 0.7% | 1 |
+| PORTLAND STATE UNIVERSITY | $150,786.06 | 0.6% | 3 |
+| KIVEL & HOWARD LLP | $135,873.31 | 0.6% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 741 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 741 vendor-level transaction records covering 398 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

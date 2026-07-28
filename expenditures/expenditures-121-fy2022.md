@@ -104,9 +104,36 @@ The 12 largest of 64 expenditure classes used by this agency in FY2022.
 | 4375 | Computer Technology Computer Processing | $28,334.99 | 1.1% |
 | 4161 | Foreign Air Transportation | $25,535.15 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 106 payees this agency recorded payments to in FY2022, accounting for 93.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $1,187,973.63 | 46.6% | 10 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $256,649.79 | 10.1% | 3 |
+| LEGISLATIVE ADMIN COMMITTEE | $157,324.04 | 6.2% | 4 |
+| KOEHLER ADR LLC | $106,627.76 | 4.2% | 3 |
+| NATIONAL GOVERNORS' ASSOCIATION | $106,600.00 | 4.2% | 1 |
+| OREGON DEPARTMENT OF FORESTRY | $100,958.60 | 4.0% | 12 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $79,800.28 | 3.1% | 13 |
+| TUSK CONSULTING LLC | $69,464.00 | 2.7% | 1 |
+| NICUSA INC | $43,866.25 | 1.7% | 2 |
+| WESTERN GOVERNOR'S ASSOCIATION | $39,600.00 | 1.6% | 1 |
+| STATE SERVICES ORGANIZATION | $35,438.57 | 1.4% | 2 |
+| DOUG KELSEY | $32,940.43 | 1.3% | 5 |
+| STATE OF OREGON - SECRETARY OF STATE | $25,117.65 | 1.0% | 1 |
+| ARIANE N LE CHEVALLIER | $23,062.50 | 0.9% | 1 |
+| UNITED STATES MARSHALS SVC JPATS | $22,713.00 | 0.9% | 1 |
+| WASHINGTON COUNTY SHERIFF | $19,367.39 | 0.8% | 4 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $18,929.39 | 0.7% | 2 |
+| BLUE KNIGHT SECURITY LLC | $17,875.00 | 0.7% | 1 |
+| SHI INTERNATIONAL CORP | $14,397.49 | 0.6% | 1 |
+| PORTLAND STATE UNIVERSITY | $12,579.00 | 0.5% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 325 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 325 vendor-level transaction records covering 106 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

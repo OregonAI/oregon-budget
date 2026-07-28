@@ -127,9 +127,36 @@ The 12 largest of 117 expenditure classes used by this agency in FY2025.
 | 6950 | Other Spec Payments-Medicial Services | $2,978,472.89 | 1.3% |
 | 6900 | Other Special Payments | $2,701,714.99 | 1.2% |
 
+## Largest vendors
+
+The 20 largest of 1,509 payees this agency recorded payments to in FY2025, accounting for 57.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF JUSTICE | $35,461,510.95 | 15.7% | 5 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $30,628,963.32 | 13.5% | 15 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $13,075,175.30 | 5.8% | 16 |
+| DELOITTE COUNSULTING LLP | $7,552,796.00 | 3.3% | 1 |
+| SHI INTERNATIONAL CORP | $6,783,854.10 | 3.0% | 5 |
+| COUNTY OF MULTNOMAH | $6,680,873.87 | 3.0% | 5 |
+| WASHINGTON COUNTY | $3,888,405.26 | 1.7% | 1 |
+| PCCP CLIPPER VENTURE 1 | $3,082,170.87 | 1.4% | 5 |
+| EMPLOYMENT DEPARTMENT | $2,382,278.73 | 1.1% | 3 |
+| AEON NEXUS CORPORATION | $2,260,800.00 | 1.0% | 1 |
+| EASYSTREET ONLINE SERVICES | $2,112,072.01 | 0.9% | 1 |
+| CDW GOVERNMENT INC | $1,977,901.26 | 0.9% | 12 |
+| CENTER FOR HOPE AND SAFETY | $1,972,213.00 | 0.9% | 1 |
+| CLACKAMAS WOMEN'S SERVICES | $1,928,929.63 | 0.9% | 1 |
+| LANE COUNTY DISTRICT ATTORNEY | $1,864,331.92 | 0.8% | 3 |
+| CLACKAMAS CO DISTRICT ATTORNEY'S OFFICE | $1,738,366.47 | 0.8% | 1 |
+| LEGACY EMANUEL HOSPITAL | $1,675,531.00 | 0.7% | 2 |
+| COUNTY OF CLACKAMAS | $1,672,108.83 | 0.7% | 2 |
+| MARION COUNTY DISTRICT ATTORNEY | $1,587,727.00 | 0.7% | 1 |
+| JOHNCO INVESTMENTS I LLC | $1,552,459.68 | 0.7% | 4 |
+
 ## Curator notes
 
-Figures are aggregated from 2,689 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,689 vendor-level transaction records covering 1,509 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -127,9 +127,36 @@ The 12 largest of 117 expenditure classes used by this agency in FY2019.
 | 4550 | Attorney General Legal Fees | $8,360,867.62 | 2.1% |
 | 4685 | Liabity Expenditure-Attorney Settlement | $7,626,666.30 | 1.9% |
 
+## Largest vendors
+
+The 20 largest of 1,628 payees this agency recorded payments to in FY2019, accounting for 79.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON STATE TREASURY | $199,258,506.59 | 49.9% | 5 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $29,630,308.03 | 7.4% | 33 |
+| SAIF CORP | $15,553,664.18 | 3.9% | 3 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $8,355,535.77 | 2.1% | 15 |
+| WILLIS OF OREGON INC | $7,612,871.52 | 1.9% | 2 |
+| IBM CORPORATION | $6,876,992.81 | 1.7% | 9 |
+| SHI INTERNATIONAL CORP | $6,280,448.61 | 1.6% | 6 |
+| SALEM-KEIZER TRANSIT | $6,250,829.47 | 1.6% | 1 |
+| US BANK NATIONAL ASSOCIATION | $4,645,821.09 | 1.2% | 4 |
+| EUGENE CIVIC ALLIANCE | $4,272,699.77 | 1.1% | 1 |
+| HITACHI VANTARA CORPORATION | $3,852,930.84 | 1.0% | 11 |
+| IBM GF INTERNATIONAL HOLDINGS LLC | $3,297,249.11 | 0.8% | 5 |
+| PORTLAND GENERAL ELECTRIC COMPANY | $3,118,522.91 | 0.8% | 2 |
+| QWEST | $3,114,127.28 | 0.8% | 16 |
+| UNITED STATES POSTAL SERVICE | $3,029,859.74 | 0.8% | 2 |
+| COMPUTER ASSOCIATES INTERNATIONAL INC | $2,996,115.96 | 0.8% | 2 |
+| MARKOWITZ HERBOLD PC | $2,110,411.78 | 0.5% | 1 |
+| BANC OF AMERICA HOLDINGS CORPORATION | $2,023,389.51 | 0.5% | 5 |
+| TRI-MET | $2,009,113.42 | 0.5% | 1 |
+| DSL BUILDERS LLC | $1,890,866.03 | 0.5% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 2,728 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,728 vendor-level transaction records covering 1,628 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

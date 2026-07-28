@@ -92,9 +92,36 @@ The 12 largest of 25 expenditure classes used by this agency in FY2022.
 | 4202 | Equipment Rental | $2,262.29 | 1.0% |
 | 4253 | Advertise, Publicity, Publish/Print Srvs | $1,937.85 | 0.9% |
 
+## Largest vendors
+
+The 20 largest of 31 payees this agency recorded payments to in FY2022, accounting for 99.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $124,844.19 | 56.6% | 8 |
+| STATE OF OREGON DIVISION OF STATE LANDS | $52,887.36 | 24.0% | 1 |
+| SECRETARY OF STATE | $5,874.52 | 2.7% | 1 |
+| WEST PUBLISHING CORPORATION | $4,404.07 | 2.0% | 2 |
+| OFFICE WORLD INC | $4,134.25 | 1.9% | 1 |
+| VERIZON WIRELESS | $3,927.73 | 1.8% | 2 |
+| DEPT OF STATE POLICE | $3,670.00 | 1.7% | 1 |
+| CHEMEKETA COMMUNITY COLLEGE | $3,600.00 | 1.6% | 1 |
+| STAPLES ADVANTAGE | $2,509.24 | 1.1% | 5 |
+| RICOH USA INC | $2,357.01 | 1.1% | 2 |
+| ACCURATE CORPORATE SERVICES INC | $1,747.00 | 0.8% | 1 |
+| EMPLOYMENT DEPARTMENT | $1,722.50 | 0.8% | 1 |
+| KYNDRYL INC | $1,638.09 | 0.7% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $1,298.31 | 0.6% | 1 |
+| LEXISNEXIS | $982.00 | 0.4% | 2 |
+| CDW GOVERNMENT INC | $780.08 | 0.4% | 2 |
+| OFFICE DEPOT INC | $738.02 | 0.3% | 4 |
+| ERGOCENTRIC INC | $674.88 | 0.3% | 1 |
+| MICHELLE M RUDD | $611.00 | 0.3% | 2 |
+| ALYX PETERSON | $436.00 | 0.2% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 53 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 53 vendor-level transaction records covering 31 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

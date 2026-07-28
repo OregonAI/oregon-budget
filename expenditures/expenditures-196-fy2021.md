@@ -72,9 +72,21 @@ The 3 largest of 3 expenditure classes used by this agency in FY2021.
 | 3231 | Unemployment Compensation & Assessment | $5,689.00 | 2.1% |
 | 4701 | Other Services | $1,712.24 | 0.6% |
 
+## Largest vendors
+
+The 5 largest of 5 payees this agency recorded payments to in FY2021, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $249,910.34 | 94.1% | 2 |
+| STATE OF OREGON SECRETARY OF STATE | $6,524.00 | 2.5% | 1 |
+| EMPLOYMENT DEPARTMENT | $5,689.00 | 2.1% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $3,073.52 | 1.2% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $379.50 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 6 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 6 vendor-level transaction records covering 5 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

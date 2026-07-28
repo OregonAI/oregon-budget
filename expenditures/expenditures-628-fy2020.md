@@ -97,9 +97,36 @@ The 12 largest of 42 expenditure classes used by this agency in FY2020.
 | 4108 | Instate Ground Transportation | $14,028.48 | 0.6% |
 | 4999 | Expendable Property Non-It<$5K | $12,556.95 | 0.5% |
 
+## Largest vendors
+
+The 20 largest of 149 payees this agency recorded payments to in FY2020, accounting for 88.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CAPPELLI MILES WILTZ & KELLY | $994,884.00 | 39.2% | 2 |
+| OREGON STATE UNIVERSITY | $395,010.29 | 15.6% | 3 |
+| CAPPELLI MILES | $165,525.00 | 6.5% | 2 |
+| OREGON WOMEN IN TIMBER | $158,142.00 | 6.2% | 1 |
+| CAWOOD | $80,618.41 | 3.2% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $74,174.12 | 2.9% | 23 |
+| PETERKORT CENTRE II LLC | $55,406.90 | 2.2% | 2 |
+| DAVIS HIBBITTS & MIDGHALL INC | $48,000.00 | 1.9% | 1 |
+| CAFFERATA CONSULTING LLC | $45,506.49 | 1.8% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $35,087.48 | 1.4% | 3 |
+| CENTRAL PRINT & REPROGRAPHIC SERVICES | $26,696.88 | 1.1% | 1 |
+| ACCURATE CORPORATE SERVICES INC | $22,817.69 | 0.9% | 2 |
+| OREGON SMALL WOODLANDS ASSOCIATION | $20,655.00 | 0.8% | 3 |
+| LOWELLS PRINT-INN INC | $18,057.50 | 0.7% | 1 |
+| CAPITOL DATA & COMMUNICATIONS INC | $16,307.99 | 0.6% | 1 |
+| EMPLOYMENT DEPARTMENT | $16,224.00 | 0.6% | 1 |
+| FORESTS FOREVER INC | $15,750.00 | 0.6% | 2 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $15,583.20 | 0.6% | 1 |
+| DHX ADVERTISING INC | $14,515.00 | 0.6% | 2 |
+| GARDEN RESORT LLC | $14,500.59 | 0.6% | 6 |
+
 ## Curator notes
 
-Figures are aggregated from 246 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 246 vendor-level transaction records covering 149 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -107,9 +107,36 @@ The 12 largest of 65 expenditure classes used by this agency in FY2024.
 | 4850 | Facilities Maintenance | $99,003.52 | 2.1% |
 | 4825 | Fuels And Utilities | $92,751.02 | 1.9% |
 
+## Largest vendors
+
+The 20 largest of 185 payees this agency recorded payments to in FY2024, accounting for 76.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CENTURY WEST ENGINEERING CORP | $900,146.20 | 18.8% | 1 |
+| SISTERS AIRPORT PROPERTY LLC | $265,661.53 | 5.6% | 2 |
+| OREGON DEPT OF ADMINISTRATIVE SERVICES | $198,038.34 | 4.1% | 6 |
+| OREGON DEPARTMENT OF TRANSPORTATION | $193,066.21 | 4.0% | 2 |
+| PRECISION APPROACH ENGINEERING | $177,775.19 | 3.7% | 1 |
+| EUGENE CITY OF | $176,183.76 | 3.7% | 1 |
+| GRI | $171,269.97 | 3.6% | 1 |
+| SALEM CHAMBER OF COMMERCE | $164,056.51 | 3.4% | 1 |
+| PORT OF HOOD RIVER | $150,000.00 | 3.1% | 1 |
+| SPORTSMAN AIRPARK INC | $150,000.00 | 3.1% | 1 |
+| OREGON DEPARTMENT OF JUSTICE | $149,000.49 | 3.1% | 1 |
+| US BANK NATIONAL ASSOCIATION ND | $122,608.82 | 2.6% | 31 |
+| BURNS CITY OF | $122,606.79 | 2.6% | 1 |
+| NW TREES & LAND LLC | $118,341.55 | 2.5% | 1 |
+| TWIN OAKS AIRPARK INC | $105,423.20 | 2.2% | 1 |
+| VALE CITY OF | $105,120.48 | 2.2% | 1 |
+| GRANT COUNTY | $98,911.69 | 2.1% | 1 |
+| CROOK COUNTY | $94,467.60 | 2.0% | 1 |
+| PENDLETON CITY OF | $93,601.88 | 2.0% | 1 |
+| PAUL EHRHARDT | $85,174.50 | 1.8% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 284 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 284 vendor-level transaction records covering 185 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

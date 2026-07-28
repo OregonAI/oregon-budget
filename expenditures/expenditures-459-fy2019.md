@@ -103,9 +103,36 @@ The 12 largest of 68 expenditure classes used by this agency in FY2019.
 | 4701 | Other Services | $369,921.98 | 0.1% |
 | 4550 | Attorney General Legal Fees | $362,966.50 | 0.1% |
 
+## Largest vendors
+
+The 20 largest of 291 payees this agency recorded payments to in FY2019, accounting for 99.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| CITISTREET | $495,454,825.81 | 78.8% | 2 |
+| PROVIDENCE HEALTH PLAN | $49,051,880.48 | 7.8% | 1 |
+| KAISER PERMANENTE | $36,485,561.90 | 5.8% | 2 |
+| SIERRA HEALTH AND LIFE INSURANCE COMPANY INC | $17,450,759.58 | 2.8% | 1 |
+| ODS HEALTH PLAN INC | $6,961,971.66 | 1.1% | 1 |
+| PACIFICSOURCE COMMUNITY HEALTH PLANS | $4,458,578.24 | 0.7% | 1 |
+| BENEFITHELP SOLUTIONS | $3,354,967.42 | 0.5% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $2,165,168.14 | 0.3% | 17 |
+| PERS | $1,980,976.48 | 0.3% | 4 |
+| LANCESOFT INC | $1,869,738.79 | 0.3% | 1 |
+| SHI INTERNATIONAL CORP | $1,424,382.54 | 0.2% | 9 |
+| OREGON DENTAL SERVICE | $925,723.14 | 0.1% | 1 |
+| VOYA HOLDINGS INC | $776,249.97 | 0.1% | 1 |
+| MILLIMAN INC | $595,554.90 | 0.1% | 1 |
+| CDW GOVERNMENT INC | $533,027.16 | 0.1% | 6 |
+| DELOITTE COUNSULTING LLP | $469,288.00 | 0.1% | 1 |
+| PITNEY BOWES | $416,434.10 | 0.1% | 4 |
+| STATE OF OREGON - SECRETARY OF STATE | $404,785.31 | 0.1% | 2 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $381,501.42 | 0.1% | 2 |
+| DEPARTMENT OF JUSTICE | $361,677.13 | 0.1% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 533 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 533 vendor-level transaction records covering 291 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

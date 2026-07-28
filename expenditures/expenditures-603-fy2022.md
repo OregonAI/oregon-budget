@@ -112,9 +112,36 @@ The 12 largest of 80 expenditure classes used by this agency in FY2022.
 | 4550 | Attorney General Legal Fees | $566,600.66 | 1.6% |
 | 4704 | Other Supplies | $556,194.39 | 1.5% |
 
+## Largest vendors
+
+The 20 largest of 730 payees this agency recorded payments to in FY2022, accounting for 84.1% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| COLUMBIA BANK | $8,067,608.85 | 22.3% | 3 |
+| UMPQUA BANK | $5,185,161.45 | 14.4% | 3 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $3,778,275.27 | 10.5% | 16 |
+| BANK OF EASTERN OREGON | $3,222,397.50 | 8.9% | 3 |
+| OREGON STATE UNIVERSITY | $2,809,711.20 | 7.8% | 10 |
+| US BANK NATIONAL ASSOCIATION ND | $1,616,018.68 | 4.5% | 40 |
+| STATE DEPARTMENT OF AGRICULTURE | $970,294.78 | 2.7% | 2 |
+| DEPARTMENT OF ENVIRONMENTAL QUALITY | $834,154.06 | 2.3% | 4 |
+| OLD WEST FEDERAL CREDIT UNION | $765,547.65 | 2.1% | 3 |
+| PINE RIDGE INVESTMENT CORP | $615,737.60 | 1.7% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $566,600.66 | 1.6% | 1 |
+| WEX BANK | $350,426.32 | 1.0% | 4 |
+| OREGON STATE TREASURY | $310,831.72 | 0.9% | 1 |
+| US DEPT OF AGRICULTURE | $238,249.51 | 0.7% | 3 |
+| NORTHWEST CIDER ASSOCIATION | $205,697.78 | 0.6% | 3 |
+| SHI INTERNATIONAL CORP | $202,422.32 | 0.6% | 3 |
+| VERIZON NORTHWEST INC | $172,896.09 | 0.5% | 3 |
+| EMPLOYMENT DEPARTMENT | $153,329.30 | 0.4% | 2 |
+| OREGON STATE HEALTH DIVISION | $151,987.50 | 0.4% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $148,651.50 | 0.4% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 1,223 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,223 vendor-level transaction records covering 730 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

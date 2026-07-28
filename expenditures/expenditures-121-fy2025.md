@@ -106,9 +106,36 @@ The 12 largest of 66 expenditure classes used by this agency in FY2025.
 | 4550 | Attorney General Legal Fees | $63,782.40 | 1.8% |
 | 4375 | Computer Technology Computer Processing | $63,071.23 | 1.8% |
 
+## Largest vendors
+
+The 20 largest of 137 payees this agency recorded payments to in FY2025, accounting for 93.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $2,323,226.33 | 64.5% | 21 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $188,668.64 | 5.2% | 3 |
+| NATIONAL GOVERNORS' ASSOCIATION | $110,224.00 | 3.1% | 1 |
+| JBH PROPERTY ACQUISITIONS LLC | $86,063.03 | 2.4% | 2 |
+| CDW GOVERNMENT INC | $76,697.83 | 2.1% | 4 |
+| ROSS & ASSOCIATES ENVIRONMENTAL CONSULTING LTD | $71,950.25 | 2.0% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $63,782.40 | 1.8% | 1 |
+| THE SALEM GROUP CONFERENCE CENTER COMPANY LLC | $61,058.70 | 1.7% | 3 |
+| OREGON DEPARTMENT OF FORESTRY | $57,042.03 | 1.6% | 10 |
+| OR BUSINESS DEVELOPMENT DEPARTMENT | $56,000.00 | 1.6% | 1 |
+| WESTERN GOVERNOR'S ASSOCIATION | $39,600.00 | 1.1% | 1 |
+| UNITED STATES MARSHALS SVC JPATS | $38,602.00 | 1.1% | 1 |
+| CARAHSOFT TECHNOLOGY CORPORATION | $36,605.59 | 1.0% | 2 |
+| SECRETARY OF STATE | $27,848.25 | 0.8% | 1 |
+| PUBLIC EMPLOYEES RETIREMENT SYSTEM | $23,145.04 | 0.6% | 1 |
+| MULTNOMAH COUNTY SHERIFF | $20,959.72 | 0.6% | 6 |
+| KYNDRYL INC | $20,192.10 | 0.6% | 1 |
+| DEPT OF STATE POLICE | $17,067.50 | 0.5% | 1 |
+| MOSS ADAMS PARTNERSHIP | $15,562.50 | 0.4% | 1 |
+| ASCENDANT APP INC | $14,731.01 | 0.4% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 413 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 413 vendor-level transaction records covering 137 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

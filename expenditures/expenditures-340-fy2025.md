@@ -124,9 +124,36 @@ The 12 largest of 101 expenditure classes used by this agency in FY2025.
 | 4550 | Attorney General Legal Fees | $1,792,050.51 | 1.1% |
 | 4730 | Merchant Fees | $1,143,722.32 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 961 payees this agency recorded payments to in FY2025, accounting for 71.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| PNC BANK | $20,018,000.00 | 12.5% | 2 |
+| CITY OF BEND | $14,036,813.00 | 8.8% | 2 |
+| CITY OF COOS BAY | $13,836,379.00 | 8.7% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $9,986,018.70 | 6.3% | 16 |
+| CITY OF KLAMATH FALLS | $7,652,458.00 | 4.8% | 1 |
+| CITY OF MOLALLA | $5,949,754.00 | 3.7% | 1 |
+| CITY OF SCAPPOOSE | $5,340,761.00 | 3.3% | 2 |
+| ROGUE VALLEY SEWER SERVICES | $5,337,166.69 | 3.3% | 4 |
+| SALISHAN SANITARY DISTRICT | $3,498,632.00 | 2.2% | 1 |
+| AMERICAN ASSETS TRUST LP | $3,396,315.22 | 2.1% | 5 |
+| GSI WATER SOLUTIONS INC | $3,052,588.02 | 1.9% | 1 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $3,029,540.39 | 1.9% | 31 |
+| OREGON STATE TREASURY | $2,767,897.98 | 1.7% | 6 |
+| ASM LLC | $2,685,077.79 | 1.7% | 1 |
+| CITY OF DAYTON | $2,562,924.41 | 1.6% | 1 |
+| CRAFT3 | $2,204,259.50 | 1.4% | 1 |
+| CITY OF DUFUR | $2,061,384.00 | 1.3% | 1 |
+| CITY OF IONE | $2,000,000.00 | 1.3% | 2 |
+| MTR WESTERN LLC | $1,918,512.91 | 1.2% | 2 |
+| MEDFORD IRRIGATION DISTRICT | $1,868,235.19 | 1.2% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 2,343 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,343 vendor-level transaction records covering 961 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

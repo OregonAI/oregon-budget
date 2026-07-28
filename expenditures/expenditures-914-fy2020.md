@@ -119,9 +119,36 @@ The 12 largest of 77 expenditure classes used by this agency in FY2020.
 | 4550 | Attorney General Legal Fees | $1,036,962.87 | 0.4% |
 | 4800 | Facilities Rent | $808,768.36 | 0.3% |
 
+## Largest vendors
+
+The 20 largest of 409 payees this agency recorded payments to in FY2020, accounting for 63.3% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| COUNTY OF MULTNOMAH | $22,615,972.27 | 9.1% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $10,962,461.64 | 4.4% | 23 |
+| COMMUNITY ACTION ORGANIZATION | $10,742,104.18 | 4.3% | 1 |
+| MID WILLAMETTE VALLEY COMMUNITY ACTION AGENCY INC | $10,368,203.10 | 4.2% | 1 |
+| COUNTY OF CLACKAMAS | $9,161,010.01 | 3.7% | 3 |
+| FIELDS APARTMENT LP | $8,892,000.00 | 3.6% | 1 |
+| COUNTY OF LANE | $8,554,512.24 | 3.4% | 2 |
+| FIDELITY NATIONAL TITLE COMPANY OF OREGON | $7,999,851.00 | 3.2% | 2 |
+| NEIGHBORIMPACT | $7,278,950.40 | 2.9% | 1 |
+| ACCESS INC | $6,969,550.12 | 2.8% | 1 |
+| COMMUNITY SERVICES CONSORTIUM | $6,638,175.69 | 2.7% | 1 |
+| 124TH AND ASH LP | $6,466,537.00 | 2.6% | 1 |
+| UNITED COMMUNITY ACTION NETWORK | $6,212,794.62 | 2.5% | 1 |
+| FIRST AMERICAN TITLE INSURANCE COMPANY | $5,562,732.00 | 2.2% | 2 |
+| WFG NATIONAL TITLE INSURANCE COMPANY | $5,527,069.00 | 2.2% | 3 |
+| LAWYERS TITLE COMPANY OF OREGON LLC | $5,498,800.00 | 2.2% | 2 |
+| CHICAGO TITLE INSURANCE COMPANY OF OREGON | $5,229,483.53 | 2.1% | 2 |
+| GATEWAY HERMISTON AFFORDABLE HOUSING LP | $5,084,837.00 | 2.0% | 1 |
+| WILLOW CREEK CROSSING LP | $4,560,000.00 | 1.8% | 1 |
+| OREGON COAST COMMUNITY ACTION | $3,803,229.65 | 1.5% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 814 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 814 vendor-level transaction records covering 409 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

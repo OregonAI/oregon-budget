@@ -124,9 +124,36 @@ The 12 largest of 117 expenditure classes used by this agency in FY2020.
 | 4976 | Agency Program Related Supplies | $1,268,596.46 | 1.5% |
 | 4800 | Facilities Rent | $1,251,861.07 | 1.5% |
 
+## Largest vendors
+
+The 20 largest of 905 payees this agency recorded payments to in FY2020, accounting for 63.5% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $12,654,005.92 | 15.3% | 25 |
+| J BAR J YOUTH SERVICES | $4,654,035.94 | 5.6% | 3 |
+| COUNTY OF MULTNOMAH | $4,398,907.28 | 5.3% | 3 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $4,171,241.20 | 5.0% | 69 |
+| JANUS YOUTH PROGRAMS | $2,746,904.73 | 3.3% | 4 |
+| ST MARY'S HOME FOR BOYS | $2,588,377.47 | 3.1% | 2 |
+| 2G INC | $2,496,749.71 | 3.0% | 3 |
+| CEDAR MILL CONSTRUCTION COMPANY LLC | $2,352,242.00 | 2.8% | 2 |
+| LOOKING GLASS COMMUNITY SERVICES | $2,298,464.59 | 2.8% | 3 |
+| BOB BELLONI RANCH INC | $1,581,947.82 | 1.9% | 2 |
+| ANDERSON ROOFING CO INC | $1,510,291.49 | 1.8% | 2 |
+| COUNTY OF WASHINGTON | $1,466,040.55 | 1.8% | 1 |
+| HOMESTEAD YOUTH & FAMILY SERVICES INC | $1,461,181.27 | 1.8% | 3 |
+| WILLAMETTE EDUCATION SERVICE DISTRICT | $1,405,832.88 | 1.7% | 2 |
+| HAAG HOME FOR BOYS INC | $1,295,567.97 | 1.6% | 2 |
+| CB CONST INC | $1,204,553.36 | 1.5% | 1 |
+| COUNTY OF CLACKAMAS | $1,177,038.22 | 1.4% | 1 |
+| PARROTT CREEK CHILD & FAMILY SERVICE INC | $1,084,385.88 | 1.3% | 3 |
+| FOOD SERVICES OF AMERICA | $1,083,965.90 | 1.3% | 2 |
+| BEAMAN ARCHITECTURE LTD | $991,793.67 | 1.2% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 1,652 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,652 vendor-level transaction records covering 905 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

@@ -76,9 +76,24 @@ The 5 largest of 5 expenditure classes used by this agency in FY2021.
 | 4250 | Dues/Memberships | $3,000.00 | 1.4% |
 | 4600 | State Government Service Charges | $283.56 | 0.1% |
 
+## Largest vendors
+
+The 8 largest of 8 payees this agency recorded payments to in FY2021, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| TONKON TORP LLP | $146,403.07 | 69.8% | 1 |
+| OREGON STATE TREASURY | $46,146.00 | 22.0% | 2 |
+| WESTERN FINANCIAL GROUP | $4,400.00 | 2.1% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $3,607.60 | 1.7% | 1 |
+| HAWKINS DELAFIELD & WOOD | $3,463.00 | 1.7% | 1 |
+| NCHFFA | $3,000.00 | 1.4% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $2,521.42 | 1.2% | 1 |
+| SECRETARY OF STATE | $115.56 | 0.1% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 9 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 9 vendor-level transaction records covering 8 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

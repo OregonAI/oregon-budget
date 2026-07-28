@@ -102,9 +102,36 @@ The 12 largest of 55 expenditure classes used by this agency in FY2024.
 | 4550 | Attorney General Legal Fees | $112,723.90 | 2.0% |
 | 4108 | Instate Ground Transportation | $97,178.45 | 1.7% |
 
+## Largest vendors
+
+The 20 largest of 277 payees this agency recorded payments to in FY2024, accounting for 68.7% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $766,234.40 | 13.7% | 13 |
+| BOUNDLESS ASSISTIVE TECHNOLOGY LLC | $621,866.44 | 11.1% | 6 |
+| US BANK NATIONAL ASSOCIATION ND | $401,491.46 | 7.2% | 8 |
+| DEPAUL INDUSTRIES | $382,279.08 | 6.8% | 5 |
+| CREATIVE EMPLOYMENT SERVICES LLC | $231,431.75 | 4.1% | 1 |
+| ALLIANCE ENTERPRISES INC | $221,760.00 | 4.0% | 1 |
+| GALT FOUNDATION | $188,939.33 | 3.4% | 3 |
+| SMITTYS VENDING INC | $182,573.63 | 3.3% | 2 |
+| PORTLAND STATE UNIVERSITY | $114,972.53 | 2.0% | 1 |
+| DEPARTMENT OF JUSTICE | $102,466.40 | 1.8% | 1 |
+| DD & MH PROVIDER OF OREGON LLC | $99,946.80 | 1.8% | 1 |
+| CDW GOVERNMENT INC | $68,046.22 | 1.2% | 5 |
+| PORTLAND PUBLIC SCHOOLS | $67,946.22 | 1.2% | 1 |
+| MICHELLE FLICK | $64,427.00 | 1.1% | 1 |
+| POWER AUTO INC | $57,432.25 | 1.0% | 1 |
+| AT&T MOBILITY | $57,145.36 | 1.0% | 2 |
+| TRI-COUNTY METRO TRANSPORTATION DIST OF OREGON | $56,723.72 | 1.0% | 1 |
+| GRESHAM FORD | $56,048.42 | 1.0% | 1 |
+| IRIE AT | $55,798.65 | 1.0% | 1 |
+| BRITTENY ASHER CONSULTING | $55,275.00 | 1.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 447 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 447 vendor-level transaction records covering 277 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

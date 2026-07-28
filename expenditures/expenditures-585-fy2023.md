@@ -99,9 +99,36 @@ The 12 largest of 51 expenditure classes used by this agency in FY2023.
 | 4108 | Instate Ground Transportation | $86,029.55 | 1.5% |
 | 4301 | Telecom/Voice Usage | $72,138.29 | 1.2% |
 
+## Largest vendors
+
+The 20 largest of 263 payees this agency recorded payments to in FY2023, accounting for 79.2% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| SMITTYS VENDING INC | $1,309,260.06 | 22.2% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $674,840.57 | 11.4% | 13 |
+| BOUNDLESS ASSISTIVE TECHNOLOGY LLC | $557,093.93 | 9.4% | 4 |
+| US BANK NATIONAL ASSOCIATION ND | $302,552.40 | 5.1% | 6 |
+| GALT FOUNDATION | $293,375.39 | 5.0% | 3 |
+| ALLIANCE ENTERPRISES INC | $236,318.00 | 4.0% | 1 |
+| DEPAUL INDUSTRIES | $218,833.81 | 3.7% | 3 |
+| DD & MH PROVIDER OF OREGON LLC | $176,886.15 | 3.0% | 1 |
+| PORTLAND PUBLIC SCHOOLS | $147,160.67 | 2.5% | 1 |
+| DEPARTMENT OF JUSTICE | $130,171.43 | 2.2% | 1 |
+| NORTHWEST REGIONAL EDUCATION SERVICE DISTRICT | $91,093.00 | 1.5% | 1 |
+| CREATIVE EMPLOYMENT SERVICES LLC | $72,528.68 | 1.2% | 1 |
+| PORTLAND STATE UNIVERSITY | $71,769.40 | 1.2% | 3 |
+| CDW GOVERNMENT INC | $68,136.65 | 1.2% | 5 |
+| ROBERSON MOTORS INC | $61,366.22 | 1.0% | 1 |
+| AT&T MOBILITY | $59,001.78 | 1.0% | 3 |
+| WITHNELL MOTOR COMPANY | $57,155.00 | 1.0% | 1 |
+| TRI-COUNTY METRO TRANSPORTATION DIST OF OREGON | $54,368.17 | 0.9% | 1 |
+| SHI INTERNATIONAL CORP | $48,827.78 | 0.8% | 1 |
+| HOMEROOM APARTMENTS | $47,263.00 | 0.8% | 2 |
+
 ## Curator notes
 
-Figures are aggregated from 397 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 397 vendor-level transaction records covering 263 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

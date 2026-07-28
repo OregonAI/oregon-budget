@@ -121,9 +121,36 @@ The 12 largest of 82 expenditure classes used by this agency in FY2023.
 | 6500 | Distribution To Comm College Districts | $3,974,582.00 | 1.1% |
 | 6456 | Distribution To Oregon Inst Of Tech | $3,647,966.00 | 1.0% |
 
+## Largest vendors
+
+The 20 largest of 1,214 payees this agency recorded payments to in FY2023, accounting for 39.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $40,317,261.13 | 11.4% | 21 |
+| CITY OF SALEM | $8,937,732.12 | 2.5% | 1 |
+| CITY OF PENDLETON | $8,897,909.00 | 2.5% | 2 |
+| SUNRISE WATER AUTHORITY | $7,360,759.00 | 2.1% | 1 |
+| CITY OF SWEET HOME | $6,162,321.00 | 1.7% | 1 |
+| OREGON COMMUNITY FOUNDATION | $6,000,000.00 | 1.7% | 1 |
+| ZIONS BANCORPORATION NATIONAL ASSOCIATION | $5,432,156.05 | 1.5% | 3 |
+| HYAK TONGUE POINT LLC | $5,311,505.00 | 1.5% | 1 |
+| OREGON INTERNATIONAL PORT OF COOS BAY | $5,050,000.00 | 1.4% | 1 |
+| CITY OF ST HELENS | $4,961,249.00 | 1.4% | 2 |
+| CITY OF SANDY | $4,860,874.00 | 1.4% | 2 |
+| WENDELL AND WILD CO | $4,776,682.60 | 1.4% | 1 |
+| PORT OF PORTLAND | $4,543,389.00 | 1.3% | 1 |
+| CCD BUSINESS DEVELOPMENT CORPORATION | $4,372,420.71 | 1.2% | 4 |
+| JACKSON CO SCH DIST 6 | $4,294,083.00 | 1.2% | 1 |
+| WOODEN BOY PRODUCTIONS LLC | $4,200,719.48 | 1.2% | 1 |
+| KNIFE RIVER CORPORATION | $4,000,000.00 | 1.1% | 1 |
+| LANE COMMUNITY COLLEGE | $3,917,765.00 | 1.1% | 1 |
+| OREGON INSTITUTE OF TECHNOLOGY/OREGON TECH | $3,686,566.00 | 1.0% | 2 |
+| ELEVATE INNOVATION GAP FUND II LLC | $3,500,000.00 | 1.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 1,547 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,547 vendor-level transaction records covering 1,214 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

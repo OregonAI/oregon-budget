@@ -123,9 +123,36 @@ The 12 largest of 106 expenditure classes used by this agency in FY2025.
 | 4975 | Agency Program Related Services | $2,703,485.96 | 2.8% |
 | 7100 | Principal-Bonds | $2,195,000.00 | 2.2% |
 
+## Largest vendors
+
+The 20 largest of 1,716 payees this agency recorded payments to in FY2025, accounting for 49.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $11,847,321.38 | 12.1% | 18 |
+| CONWAY CONSTRUCTION COMPANY | $8,011,386.80 | 8.2% | 4 |
+| BREMIK CONSTRUCTION INC | $5,175,378.79 | 5.3% | 3 |
+| US BANK NATIONAL ASSOCIATION ND | $2,673,572.62 | 2.7% | 49 |
+| LASKEY-CLIFTON CORPORATION | $2,521,823.96 | 2.6% | 1 |
+| USDA FOREST SERVICE | $2,058,602.13 | 2.1% | 3 |
+| GOODFELLOW BROS LLC | $1,758,878.08 | 1.8% | 2 |
+| CITY OF SUTHERLIN | $1,609,413.04 | 1.6% | 1 |
+| JOHNSON ROCK PRODUCTS INC | $1,541,267.68 | 1.6% | 5 |
+| PACIFIC TECH CONSTRUCTION INC | $1,509,940.82 | 1.5% | 1 |
+| BEND METROPOLITAN PARK AND RECREATION DISTRICT | $1,239,759.45 | 1.3% | 1 |
+| CREATIVE CONTRACTING INC | $1,133,542.82 | 1.2% | 1 |
+| CITY OF ST HELENS | $1,088,663.13 | 1.1% | 1 |
+| KPFF INC | $1,056,218.44 | 1.1% | 2 |
+| COUNTY OF TILLAMOOK | $986,288.18 | 1.0% | 1 |
+| TICOR TITLE COMPANY OF OREGON | $963,609.06 | 1.0% | 1 |
+| HENNEBERY EDDY ARCHITECTS INC | $957,552.32 | 1.0% | 1 |
+| DOUGLAS COUNTY PARK DEPARTMENT | $878,985.51 | 0.9% | 1 |
+| OREGON STATE TREASURY | $877,421.79 | 0.9% | 3 |
+| PARAMETRIX INC | $859,687.32 | 0.9% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 2,945 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,945 vendor-level transaction records covering 1,716 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

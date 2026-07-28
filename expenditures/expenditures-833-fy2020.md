@@ -97,9 +97,36 @@ The 12 largest of 53 expenditure classes used by this agency in FY2020.
 | 4201 | Office Services | $18,967.36 | 1.6% |
 | 4519 | Professional Serv/Managed Serv Provider | $15,375.00 | 1.3% |
 
+## Largest vendors
+
+The 20 largest of 189 payees this agency recorded payments to in FY2020, accounting for 78.4% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $305,375.76 | 26.3% | 45 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $204,233.01 | 17.6% | 6 |
+| OREGON PHYSICAL THERAPIST LICENSING BOARD | $49,519.65 | 4.3% | 6 |
+| US BANK NATIONAL ASSOCIATION | $43,205.11 | 3.7% | 6 |
+| US BANK NATIONAL ASSOCIATION ND | $41,298.33 | 3.6% | 46 |
+| PEOPLESPACE | $41,154.49 | 3.5% | 1 |
+| CROWN MEMORIAL CENTER | $39,654.00 | 3.4% | 1 |
+| OREGON STATE POLICE | $39,056.50 | 3.4% | 4 |
+| ACCURATE CORPORATE SERVICES INC | $17,722.02 | 1.5% | 2 |
+| DEPT OF STATE POLICE | $16,338.00 | 1.4% | 4 |
+| CONFUZER INC | $15,597.00 | 1.3% | 6 |
+| THENTIA GLOBAL SYSTEMS USA INC | $15,375.00 | 1.3% | 6 |
+| MUSGROVE FAMILY MORTUARY | $12,500.00 | 1.1% | 1 |
+| ANDREASONS CREMATION AND BURIAL SERVICES | $12,000.00 | 1.0% | 1 |
+| CROWN MEMORIAL CENTER - EASTSIDE | $11,500.00 | 1.0% | 1 |
+| EMPLOYMENT DEPARTMENT | $9,883.81 | 0.9% | 9 |
+| INTERIOR OFFICE SOLUTIONS INC | $8,926.84 | 0.8% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $8,794.30 | 0.8% | 6 |
+| OREGON EMPLOYMENT DEPARTMENT | $8,548.24 | 0.7% | 6 |
+| CARNAHAN FUNERAL SERVICES INC | $8,500.00 | 0.7% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 482 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 482 vendor-level transaction records covering 189 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

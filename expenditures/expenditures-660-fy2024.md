@@ -109,9 +109,36 @@ The 12 largest of 68 expenditure classes used by this agency in FY2024.
 | 4106 | Instate Lodging | $51,718.03 | 0.8% |
 | 4366 | Computer Technology Pc Software<$5K | $48,248.91 | 0.7% |
 
+## Largest vendors
+
+The 20 largest of 254 payees this agency recorded payments to in FY2024, accounting for 72.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $887,073.99 | 13.8% | 12 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $731,564.35 | 11.4% | 1 |
+| PORTLAND STATE UNIVERSITY | $592,769.23 | 9.2% | 2 |
+| ECONOMIC CONSULTANTS OREGON | $467,317.21 | 7.3% | 1 |
+| CASCADIA PARTNERS LLC | $250,909.47 | 3.9% | 1 |
+| STATE OF OREGON DEPT OF GEOLOGY AND MINERAL IND | $235,776.98 | 3.7% | 1 |
+| CDW GOVERNMENT INC | $148,696.43 | 2.3% | 9 |
+| KEARNS & WEST INC | $141,054.53 | 2.2% | 2 |
+| US BANK NATIONAL ASSOCIATION ND | $123,741.96 | 1.9% | 21 |
+| A YAP AND ASSOCIATES LLC | $117,041.66 | 1.8% | 1 |
+| ROGUE VALLEY COUNCIL OF GOVERNMENTS | $116,000.00 | 1.8% | 1 |
+| LANE COUNCIL OF GOVERNMENTS | $111,912.40 | 1.7% | 2 |
+| UNIVERSITY OF OREGON | $111,850.74 | 1.7% | 1 |
+| 3J CONSULTING INC | $103,277.87 | 1.6% | 1 |
+| MIG INC | $101,869.26 | 1.6% | 1 |
+| CITY OF PORTLAND | $100,000.00 | 1.6% | 1 |
+| EASTERN OREGON UNIVERSITY | $86,308.26 | 1.3% | 1 |
+| OREGON STATE UNIVERSITY | $86,022.46 | 1.3% | 2 |
+| CITY OF LAKEVIEW | $85,000.00 | 1.3% | 1 |
+| COUNTY OF GRANT | $84,464.00 | 1.3% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 464 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 464 vendor-level transaction records covering 254 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

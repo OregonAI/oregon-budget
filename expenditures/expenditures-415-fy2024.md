@@ -121,9 +121,36 @@ The 12 largest of 106 expenditure classes used by this agency in FY2024.
 | 4825 | Fuels And Utilities | $1,666,682.22 | 1.6% |
 | 4800 | Interagency Lease Payments | $1,509,833.78 | 1.5% |
 
+## Largest vendors
+
+The 20 largest of 838 payees this agency recorded payments to in FY2024, accounting for 68.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $16,751,954.90 | 16.5% | 17 |
+| J BAR J YOUTH SERVICES | $7,273,407.34 | 7.2% | 4 |
+| ST MARY'S HOME FOR BOYS | $5,528,051.12 | 5.4% | 3 |
+| US BANK CORPORATE PAYMENT SYSTEMS | $5,392,329.29 | 5.3% | 70 |
+| JANUS YOUTH PROGRAMS | $4,739,494.60 | 4.7% | 4 |
+| AUSLAND GROUP | $3,997,950.82 | 3.9% | 1 |
+| CORP INC | $3,671,087.75 | 3.6% | 1 |
+| COUNTY OF MULTNOMAH | $3,164,485.78 | 3.1% | 4 |
+| HOMESTEAD YOUTH & FAMILY SERVICES INC | $2,297,939.85 | 2.3% | 5 |
+| PARROTT CREEK CHILD & FAMILY SERVICE INC | $2,290,584.98 | 2.3% | 4 |
+| COUNTY OF WASHINGTON | $2,173,498.60 | 2.1% | 1 |
+| US FOODS INC | $2,095,624.04 | 2.1% | 2 |
+| 2KG CONTRACTORS INC | $1,866,360.48 | 1.8% | 2 |
+| NORTHWEST YOUTH DISCOVERY | $1,447,024.49 | 1.4% | 3 |
+| MORRISON CHILD AND FAMILY SERVICES | $1,328,643.27 | 1.3% | 5 |
+| DIGITAL MANAGEMENT HOLDINGS LLC | $1,300,597.83 | 1.3% | 2 |
+| COUNTY OF KLAMATH | $1,205,345.87 | 1.2% | 4 |
+| CHRISTIAN COMMUNITY PLACEMENT CENTER | $1,131,553.65 | 1.1% | 4 |
+| CONVERGEONE INC | $1,107,676.62 | 1.1% | 5 |
+| THE NEXT DOOR INC | $1,054,948.48 | 1.0% | 3 |
+
 ## Curator notes
 
-Figures are aggregated from 1,494 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 1,494 vendor-level transaction records covering 838 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

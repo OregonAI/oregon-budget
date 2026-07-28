@@ -90,9 +90,36 @@ The 12 largest of 19 expenditure classes used by this agency in FY2020.
 | 4108 | Instate Ground Transportation | $1,287.43 | 0.3% |
 | 4201 | Office Services | $1,030.93 | 0.2% |
 
+## Largest vendors
+
+The 20 largest of 27 payees this agency recorded payments to in FY2020, accounting for 99.9% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| NICUSA INC | $151,700.00 | 34.7% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $124,273.20 | 28.4% | 1 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $96,908.25 | 22.2% | 7 |
+| WESTPAC INVESTMENT COMPANY | $45,148.20 | 10.3% | 1 |
+| QWEST | $7,981.32 | 1.8% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $3,742.67 | 0.9% | 1 |
+| IBM CORPORATION | $2,456.17 | 0.6% | 1 |
+| CARAHSOFT TECHNOLOGY CORPORATION | $989.75 | 0.2% | 2 |
+| TURNING TECHNOLOGIES LLC | $600.00 | 0.1% | 1 |
+| NATHAN SOSA | $525.57 | 0.1% | 1 |
+| OREGON CORRECTIONS ENTERPRISES | $490.40 | 0.1% | 1 |
+| RICHARD BURKE | $315.02 | 0.1% | 1 |
+| CHARLES L STARR | $312.12 | 0.1% | 1 |
+| ALISON KEAN | $303.98 | 0.1% | 1 |
+| DANIEL C MASON | $289.38 | 0.1% | 1 |
+| CDW GOVERNMENT INC | $246.71 | 0.1% | 1 |
+| KARLY EDWARDS | $236.13 | 0.1% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $192.13 | 0.0% | 1 |
+| SUSAN MYERS | $172.84 | 0.0% | 1 |
+| OREGON STATE TREASURY | $120.30 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 34 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 34 vendor-level transaction records covering 27 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

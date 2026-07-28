@@ -133,9 +133,36 @@ The 12 largest of 113 expenditure classes used by this agency in FY2023.
 | 4306 | Telecom/Network Equipment<$5K | $35,285,453.00 | 2.4% |
 | 4515 | Professional Services Application Maint | $34,103,722.80 | 2.3% |
 
+## Largest vendors
+
+The 20 largest of 1,808 payees this agency recorded payments to in FY2023, accounting for 54.8% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| OREGON STATE TREASURY | $235,509,397.69 | 15.9% | 4 |
+| MULTNOMAH CO SCH DIST 1 | $120,000,000.00 | 8.1% | 1 |
+| OREGON WORKER RELIEF | $75,500,000.00 | 5.1% | 2 |
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $49,355,537.80 | 3.3% | 37 |
+| LEASE CRUTCHER LEWIS LLC | $47,269,309.01 | 3.2% | 1 |
+| SHI INTERNATIONAL CORP | $40,263,856.66 | 2.7% | 7 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $34,318,336.99 | 2.3% | 12 |
+| SAIF CORP | $30,881,497.92 | 2.1% | 2 |
+| STATE OF OREGON DEPARTMENT OF CORRECTIONS | $29,109,438.50 | 2.0% | 3 |
+| MCKENZIE RIVER GATHERING | $22,000,000.00 | 1.5% | 1 |
+| COUNTY OF MULTNOMAH | $20,000,000.00 | 1.4% | 2 |
+| COUNTY OF LANE | $16,500,000.00 | 1.1% | 2 |
+| ST VINCENT DEPAUL SOCIETY OF LANE COUNTY | $15,000,000.00 | 1.0% | 1 |
+| EUGENE FAMILY YMCA | $13,623,605.98 | 0.9% | 1 |
+| LCG PENCE CONST LLC | $12,421,181.00 | 0.8% | 1 |
+| WILLIS TOWERS WATSON INSURANCE SERVICES WEST INC | $11,369,353.14 | 0.8% | 3 |
+| METRO | $10,000,000.00 | 0.7% | 1 |
+| STATE OF OREGON JUDICIAL DEPARTMENT | $9,669,827.00 | 0.7% | 1 |
+| CENTRAL OREGON INTERGOVERNMENT COUNCIL (COIC) | $9,500,000.00 | 0.6% | 1 |
+| IBM CORPORATION | $9,481,266.36 | 0.6% | 6 |
+
 ## Curator notes
 
-Figures are aggregated from 2,535 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 2,535 vendor-level transaction records covering 1,808 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 

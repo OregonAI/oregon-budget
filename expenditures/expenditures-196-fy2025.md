@@ -79,9 +79,30 @@ The 7 largest of 7 expenditure classes used by this agency in FY2025.
 | 4975 | Agency Program Related Services | $131.04 | 0.0% |
 | 3210 | Public Employees Retirement Contribution | $34.56 | 0.0% |
 
+## Largest vendors
+
+The 14 largest of 14 payees this agency recorded payments to in FY2025, accounting for 100.0% of its spending. Names are reproduced exactly as the state records them.
+
+| Vendor | Amount | Share | Records |
+|---|---:|---:|---:|
+| DEPARTMENT OF ADMINISTRATIVE SERVICES | $579,383.21 | 35.3% | 3 |
+| COUNTY OF MULTNOMAH | $397,750.00 | 24.2% | 1 |
+| WASHINGTON COUNTY DISTRICT ATTORNEY | $372,750.00 | 22.7% | 1 |
+| MARION COUNTY DISTRICT ATTORNEY'S OFFICE | $138,700.00 | 8.4% | 1 |
+| CLACKAMAS COUNTY DISTRICT ATTORNEY | $80,900.00 | 4.9% | 1 |
+| FREE STATE REPORTING INC | $36,199.05 | 2.2% | 1 |
+| ESCRIBERS LLC | $10,608.95 | 0.6% | 1 |
+| STATE OF OREGON SECRETARY OF STATE | $8,244.00 | 0.5% | 1 |
+| DESCHUTES COUNTY DISTRICT ATTORNEY | $8,100.00 | 0.5% | 1 |
+| STATE OF OREGON - SECRETARY OF STATE | $6,375.00 | 0.4% | 1 |
+| LINN COUNTY DISTRICT ATTORNEY'S OFFICE | $1,800.00 | 0.1% | 1 |
+| OREGON GOVERNMENT ETHICS COMMISSION | $630.50 | 0.0% | 1 |
+| STATE OF OREGON DEPARTMENT OF JUSTICE | $495.00 | 0.0% | 1 |
+| OREGON PUBLIC EMPLOYEES RETIREMENT SYSTEM | $34.56 | 0.0% | 1 |
+
 ## Curator notes
 
-Figures are aggregated from 16 vendor-level transaction records. This document deliberately reports no vendor-level detail: roughly 5% of the 98,933 vendors in the source are individual people, and this corpus does not republish named individuals' payments as indexed, agent-searchable text. Vendor detail remains available from the live source, which is where the state publishes it.
+Figures are aggregated from 16 vendor-level transaction records covering 14 distinct payees. The vendor table above is the state's own published data, reproduced rather than summarised: a payee string is whatever was entered in the statewide financial system, so the same organisation can appear under several spellings and is not de-duplicated here. Treating each row as a distinct organisation will undercount the large ones.
 
 Oregon budgets by **biennium**; this dataset reports by **fiscal year**. The two do not line up, and no mapping between them is applied here. Comparing these figures to a biennial appropriation requires stating that mapping explicitly — it is the single most likely source of a plausible wrong number.
 
