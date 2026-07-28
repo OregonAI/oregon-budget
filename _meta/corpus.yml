@@ -1,0 +1,122 @@
+# Corpus configuration — the single source of truth the toolkit reads.
+corpus:
+  id: "oregon-budget"                # = repo name, e.g. oregon-records-retention
+  name: "Oregon Budget — Appropriations and Expenditures"            # display name
+  jurisdiction: "oregon"   # e.g. oregon | oregon/marion-county | oregon/salem
+  archetype: "hybrid"         # document | api | hybrid
+  schema_version: 1
+  contract_version: 1
+
+content_roots:                       # where document files live (document/hybrid).
+                                     # jurisdiction-wide root: one doc_type for the
+                                     # whole directory —
+  # Expenditure summaries: one document per agency per fiscal year. The source data is
+  # 668,906 vendor-level rows; that is a database, not a corpus. 82 agencies x 7 fiscal
+  # years is at most 574 documents, which is both a shape the platform can index and the
+  # grain the question is actually asked at ("what did DAS spend in 2024").
+  - path: "expenditures"
+    doc_type: dataset_doc
+  # Appropriation line items extracted from budget bills. The BILLS live in
+  # oregon-legislature and are referenced, never copied (see siblings below); what is
+  # mirrored here is the line items, because those are what join to spending.
+  - path: "bills"
+    doc_type: dataset_doc
+  # The Socrata datasets themselves — shape, keys, quirks, and a schema hash. No rows.
+  - path: "datasets"
+    doc_type: entity_doc
+  # Human-reviewed appropriation -> expenditure mappings. Nothing here is agent-inferred.
+  - path: "joins"
+    doc_type: dataset_doc
+                                     # issuing-body-scoped root: <path>/<slug>/<subdir> —
+  # - path: "agencies"
+  #   scoped: true
+  #   subdirs:
+  #     policies: policy
+  #     procedures: procedure
+
+plugins:
+  # citation_module: "src.citation_schemes"    # calls mcp.framework.register_scheme()
+  # snapshot_slice_module: "src.slicing:slice" # (doc_id, snapshot_id, raw_text) -> str
+  # semantic_search_module: "src.semantic_search"  # module exposing available() -> bool
+  #                                                # and rank(query, want) -> [doc_id]
+  # issuing_body_registry: "_meta/catalog/issuing-bodies.yml"
+  # issuing_body_registry_key: "entries"       # the TOP-LEVEL KEY inside that file.
+  #                                            # Defaults to "entries"; if your registry
+  #                                            # is keyed differently (e.g. "organizations")
+  #                                            # and you omit this, the toolkit reads an
+  #                                            # EMPTY registry and silently enforces no
+  #                                            # slug validation at all.
+  # issuing_body_profiles: "_meta/issuing-body-profiles.yml"    # {profiles: {slug: {...}}}
+  extra_schema_checks: []            # [{path: "...", schema: "..."}, ...]
+
+# Sibling corpora this one resolves citations INTO (toolkit >= 1.1.0). Optional;
+# omit entirely and resolution stays purely local, exactly as before v1.1.0.
+#
+# Use this instead of copying documents across corpora. A citation that resolves
+# next door stays one source of truth; a copied document becomes a second one that
+# drifts. `index_url` should point at an index the sibling PUBLISHES (e.g. from its
+# Pages build) rather than a committed file — a committed index can fall behind its
+# own corpus, and the damage lands here, as a resolution returning a stale title.
+#
+# Mark the matching citation schemes with register_scheme(..., corpus="<sibling id>").
+siblings:
+  # Budget bills are mirrored there in full, with text. Copying them here would create a
+  # second copy to drift; this corpus resolves bill citations into the sibling instead.
+  - id: "oregon-legislature"
+    index_url: "https://oregonai.github.io/oregon-legislature/corpus-index.json"
+    web_base:  "https://github.com/OregonAI/oregon-legislature/blob/main/"
+  # ORS chapters 291/293 are the budget-law spine an appropriation cites.
+  - id: "executive-regulatory-frameworks"
+    index_url: "https://oregonai.github.io/executive-regulatory-frameworks/corpus-index.json"
+    web_base:  "https://github.com/OregonAI/executive-regulatory-frameworks/blob/main/"
+
+disclaimer_marker: "NON-AUTHORITATIVE"
+graph_path: "_meta/graph.json"
+source_manifest_path: "_meta/source-manifest.yml"
+snapshot_dir: "_meta/snapshots"
+
+provenance:
+  coverage_fail_threshold: 0.70
+  coverage_warn_threshold: 0.90
+
+# api: DELETE THIS BLOCK for archetype: document. The loader ignores it, so an
+#      orphaned api: block is silently inert — it misleads a reader into thinking
+#      live endpoints are configured when nothing reads them.
+# api:                               # api/hybrid only
+#   endpoints: []
+#   - name: "example"
+#     base_url: ""
+#     protocol: odata | soda | rest
+#     read_only: true
+#     max_results: 1000
+
+mcp:
+  server_name: "oregon-budget"
+  transports: [stdio, http]
+
+status:
+  reverify_days: 90                  # quarterly re-verification SLA
+
+# Which body sections are searchable, per doc_type. Without this the toolkit indexes only
+# "## Full text" or "## Key provisions", which would leave entity docs unsearchable — their
+# substance lives under "Dataset reference".
+index_headings:
+  dataset_doc: ["At a glance", "Full text"]
+  entity_doc: ["Dataset reference", "At a glance"]
+
+# MEASURED FACTS about the upstream API. Nothing parses this block — the toolkit drops
+# unknown keys into config.raw — so it is documentation for the next author, and the
+# constants that matter live in src/soda.py. Recorded because re-deriving them costs a day.
+api:
+  provider: socrata                  # NOT OData. OData is the Legislature's feed.
+  domain: data.oregon.gov
+  app_token_env: SOCRATA_APP_TOKEN   # optional; raises the anonymous throttle ceiling
+  datasets:
+    expenditures: y9g9-xsxs          # 668,906 rows, FY2019-2025, vendor-level
+    budgeted_revenue: mwsa-rpk9      # 80 rows, department-level
+    lottery_expenditures: anxj-teqh  # 5,702 rows
+  measured:
+    aggregate_query_ms: 600          # ~25x faster than the Legislature's OData (~15s),
+                                     # which is why actuals are PROXIED here, not mirrored
+    default_page_limit: 1000         # and NO continuation token is emitted — see the
+                                     # truncation guard in src/soda.py
