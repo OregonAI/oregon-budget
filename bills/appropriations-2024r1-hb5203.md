@@ -39,6 +39,7 @@ biennium: beginning 2023
 biennium_fiscal_years:
 - 2024
 - 2025
+blank_amounts: 0
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this

@@ -1,0 +1,72 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: appropriations-2020r1-hb4141
+title: Appropriations in 2020 Regular Session House Bill 4141
+doc_type: dataset_doc
+citation: 2020 Regular Session House Bill 4141
+issuing_body: Oregon State Legislature
+source_url: https://olis.oregonlegislature.gov/liz/2020R1/Downloads/MeasureDocument/HB4141/Introduced
+source_format: pdf
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+human_reviewed: false
+relationships:
+  implements: []
+  implemented_by: []
+  references_external:
+  - 2020 Regular Session House Bill 4141
+  related: []
+  supersedes: []
+tags:
+- oregon-budget
+- appropriations
+- 2020r1
+- unreviewed
+sibling_corpus: oregon-legislature
+sibling_document_id: measure-2020r1-hb4141
+sibling_snapshot_id: measure-2020r1-hb4141-introduced
+sibling_source_sha256: 7c576c61bb754a2deb08e3822efe0246a95ef21614efdc65284f20fb5bf0da3c
+extraction_status: single-appropriation
+appropriated_to: Oregon Department of Administrative Services
+fund: General Fund
+biennium: ending 2021
+biennium_fiscal_years:
+- 2020
+- 2021
+blank_amounts: 0
+---
+
+> **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
+> page was read out of bill prose by a parser and has **not** been checked by
+> a person. It is not the text of any bill and must not be quoted as an
+> appropriation. The authoritative text is `https://olis.oregonlegislature.gov/liz/2020R1/Downloads/MeasureDocument/HB4141/Introduced`.
+
+# Appropriations in 2020 Regular Session House Bill 4141
+
+## At a glance
+
+HB 4141 (2020R1): Appropriates money to Oregon Department of Administrative Services for deposit in Court Appointed Special Advocate Fund and distribution to CASA Volunteer Programs.
+
+Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium **ending 2021** (fiscal years 2020–2021).
+
+Extraction status: **single-appropriation**. No itemization to reconcile against.
+
+The full text of this bill lives in the `oregon-legislature` corpus as `measure-2020r1-hb4141` and is referenced, not copied.
+
+**Stated appropriation**
+
+| Amount | Verbatim source line |
+|---:|---|
+| $2,616,255 | 30, 2021, out of the  General Fund, the amount of $2,616,255, for deposit in the Court Ap- pointed Special Advocate Fund established in ORS 184.498. |
+
+## Curator notes
+
+Summing every dollar figure in an appropriation bill **double-counts**: a bill states an appropriation and then itemizes the same money. The stated appropriation and the line items are separate tables above for exactly that reason, and must never be added together.
+
+The 'purpose' column is a parser's reading of the surrounding prose, not the bill's own words. The verbatim source line beside it is the bill's own words, and is the column to trust.
