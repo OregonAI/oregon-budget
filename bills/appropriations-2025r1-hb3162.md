@@ -1,0 +1,68 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: appropriations-2025r1-hb3162
+title: Appropriations in 2025 Regular Session House Bill 3162
+doc_type: dataset_doc
+citation: 2025 Regular Session House Bill 3162
+issuing_body: Oregon State Legislature
+source_url: https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3162/Introduced
+source_format: pdf
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+human_reviewed: false
+relationships:
+  implements: []
+  implemented_by: []
+  references_external:
+  - 2025 Regular Session House Bill 3162
+  related: []
+  supersedes: []
+tags:
+- oregon-budget
+- appropriations
+- 2025r1
+- unreviewed
+sibling_corpus: oregon-legislature
+sibling_document_id: measure-2025r1-hb3162
+sibling_snapshot_id: measure-2025r1-hb3162-introduced
+sibling_source_sha256: 405d1a32159f642569ede97008f8de93d13868fe0219033987f3e4bbb1112f7e
+extraction_status: single-appropriation
+appropriated_to: null
+fund: General Fund
+biennium_begins: July 1, 2025
+---
+
+> **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
+> page was read out of bill prose by a parser and has **not** been checked by
+> a person. It is not the text of any bill and must not be quoted as an
+> appropriation. The authoritative text is `https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3162/Introduced`.
+
+# Appropriations in 2025 Regular Session House Bill 3162
+
+## At a glance
+
+HB 3162 (2025R1): Appropriates moneys from the General Fund to the Department of Education for distribution to schools for the purpose of providing child care before and after school hours.
+
+Parsed context: out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+
+Extraction status: **single-appropriation**. No itemization to reconcile against.
+
+The full text of this bill lives in the `oregon-legislature` corpus as `measure-2025r1-hb3162` and is referenced, not copied.
+
+**Stated appropriation**
+
+| Amount | Verbatim source line |
+|---:|---|
+| $10,000,000 | General Fund, the amount of $10,000,000, to administer  and award grants under section 1 of this 2025 Act. |
+
+## Curator notes
+
+Summing every dollar figure in an appropriation bill **double-counts**: a bill states an appropriation and then itemizes the same money. The stated appropriation and the line items are separate tables above for exactly that reason, and must never be added together.
+
+The 'purpose' column is a parser's reading of the surrounding prose, not the bill's own words. The verbatim source line beside it is the bill's own words, and is the column to trust.

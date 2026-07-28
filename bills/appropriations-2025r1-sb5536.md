@@ -1,0 +1,100 @@
+---
+schema_version: 1
+corpus: oregon-budget
+jurisdiction: oregon
+id: appropriations-2025r1-sb5536
+title: Appropriations in 2025 Regular Session Senate Bill 5536
+doc_type: dataset_doc
+citation: 2025 Regular Session Senate Bill 5536
+issuing_body: Oregon State Legislature
+source_url: https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB5536/Enrolled
+source_format: pdf
+snapshot_policy: hash-only
+status: current
+content_mode: summary
+last_verified: '2026-07-28'
+verified_by: '@dzinck'
+maintainer: '@dzinck'
+human_reviewed: false
+relationships:
+  implements: []
+  implemented_by: []
+  references_external:
+  - 2025 Regular Session Senate Bill 5536
+  related: []
+  supersedes: []
+tags:
+- oregon-budget
+- appropriations
+- 2025r1
+- unreviewed
+sibling_corpus: oregon-legislature
+sibling_document_id: measure-2025r1-sb5536
+sibling_snapshot_id: measure-2025r1-sb5536-enrolled
+sibling_source_sha256: 2ad7b8fbb558a006ffa606c697c20c741c9fa0e028adf283f63a28636c5e8cbd
+extraction_status: items-without-stated-total
+appropriated_to: Department of Revenue
+fund: General Fund
+biennium_begins: July 1, 2025
+---
+
+> **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
+> page was read out of bill prose by a parser and has **not** been checked by
+> a person. It is not the text of any bill and must not be quoted as an
+> appropriation. The authoritative text is `https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB5536/Enrolled`.
+
+# Appropriations in 2025 Regular Session Senate Bill 5536
+
+## At a glance
+
+SB 5536 (2025R1): Appropriates moneys from the General Fund to the Department of Revenue for biennial expenses.
+
+Parsed context: appropriated to **Department of Revenue**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+
+Extraction status: **items-without-stated-total**. No itemization to reconcile against.
+
+This bill appropriates in **2 separate sections**. Each is reconciled on its own: item numbering restarts per section, so amounts must never be pooled across them.
+
+The full text of this bill lives in the `oregon-legislature` corpus as `measure-2025r1-sb5536` and is referenced, not copied.
+
+## Section 1 — items-without-stated-total
+
+**Line items**
+
+| # | Purpose (parsed) | Amount | Verbatim source line |
+|---|---|---:|---|
+| 1 | Administration | $43,149,121 | (1) Administration..........................  $ 43,149,121 (2) Property Tax Division ............... $ 25,675,108 |
+| 2 | Property Tax Division | $25,675,108 | (2) Property Tax Division ............... $ 25,675,108 (3) Personal Tax and |
+| 3 | Personal Tax and Compliance Division | $76,431,274 | Compliance Division.................. $ 76,431,274 (4) Business Division ...................... $ 26,927,493 |
+| 4 | Business Division | $26,927,493 | (4) Business Division ...................... $ 26,927,493 (5) Collections Division................... $ 39,394,176 |
+| 5 | Collections Division | $39,394,176 | (5) Collections Division................... $ 39,394,176 (6) Information Technology |
+| 6 | Information Technology Services Division | $52,265,493 | Services Division....................... $ 52,265,493 (7) Debt service and |
+| 7 | Debt service and related costs | $5,233,018 | related costs ............................. $ 5,233,018 (8) Nonprofit housing program....... $ 3,792,543 |
+| 8 | Nonprofit housing program | $3,792,543 | (8) Nonprofit housing program....... $ 3,792,543 SECTION 2. Notwithstanding any other law limiting  expenditures, the following amounts |
+
+Line items sum to **$272,868,226** — which matches NO stated appropriation in this section.
+
+## Section 2 — items-without-stated-total
+
+**Line items**
+
+| # | Purpose (parsed) | Amount | Verbatim source line |
+|---|---|---:|---|
+| 1 | Administration | $16,213,660 | (1) Administration.......................... $ 16,213,660 (2) Property Tax Division ............... $ 39,399,725 |
+| 2 | Property Tax Division | $39,399,725 | (2) Property Tax Division ............... $ 39,399,725 (3) Personal Tax and |
+| 3 | Personal Tax and Compliance Division | $1,903,144 | Compliance Division.................. $ 1,903,144 (4) Business Division ...................... $ 17,880,861 |
+| 4 | Business Division | $17,880,861 | (4) Business Division ...................... $ 17,880,861 (5) Collections Division................... $ 23,311,861 |
+| 5 | Collections Division | $23,311,861 | (5) Collections Division................... $ 23,311,861 (6) Corporate Division .................... $ 18,730,073 |
+| 6 | Corporate Division | $18,730,073 | (6) Corporate Division .................... $ 18,730,073 (7) Information Technology |
+| 7 | Information Technology Services Division | $15,583,793 | Services Division....................... $ 15,583,793 (8) Marijuana program ................... $ 4,474,970 |
+| 8 | Marijuana program | $4,474,970 | (8) Marijuana program ................... $ 4,474,970 Enrolled Senate Bill 5536 (SB 5536-A) Page 1 |
+| 9 | Senior Property Tax Deferral program | $26,123,197 | Deferral program ...................... $ 26,123,197 (10) Information System |
+| 10 | Information System projects | $6,353,430 | projects ..................................... $ 6,353,430 SECTION 3. This 2025 Act being necessary for the immediate preservation of the public |
+
+Line items sum to **$169,974,714** — which matches NO stated appropriation in this section.
+
+## Curator notes
+
+Summing every dollar figure in an appropriation bill **double-counts**: a bill states an appropriation and then itemizes the same money. The stated appropriation and the line items are separate tables above for exactly that reason, and must never be added together.
+
+The 'purpose' column is a parser's reading of the surrounding prose, not the bill's own words. The verbatim source line beside it is the bill's own words, and is the column to trust.
