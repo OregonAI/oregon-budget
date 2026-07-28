@@ -35,7 +35,10 @@ sibling_source_sha256: 5b2ca7d24e03942911c619826e82e6c9e30c33f7107a42371da381356
 extraction_status: single-appropriation
 appropriated_to: Oregon Criminal Justice Commission
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 477 (2025R1): Appropriates moneys to the Oregon Criminal Justice Commission for the Justice Reinvestment Equity Program.
 
-Parsed context: appropriated to **Oregon Criminal Justice Commission**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Criminal Justice Commission**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

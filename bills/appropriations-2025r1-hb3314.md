@@ -35,7 +35,10 @@ sibling_source_sha256: c6cc3f97e0928dac61262a907536e6485ce02b9e2510bfeb285890187
 extraction_status: items-without-stated-total
 appropriated_to: Higher Education Coordinating Commission
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 3314 (2025R1): Appropriates moneys from the General Fund to the Oregon Department of Administrative Services for distribution to the Human Access Project for harmful algal bloom mitigation.
 
-Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

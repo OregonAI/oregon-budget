@@ -35,7 +35,10 @@ sibling_source_sha256: 6eaf7d6868775d6864e854863162e8de6556ebe687852da556ef0ff83
 extraction_status: single-appropriation
 appropriated_to: Department of Corrections
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 3066 (2025R1): Appropriates moneys from the General Fund to the Department of Corrections for purpose of funding the advanced esthetics program at the Coffee Creek Correctional Facility.
 
-Parsed context: appropriated to **Department of Corrections**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Corrections**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

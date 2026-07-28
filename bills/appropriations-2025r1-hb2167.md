@@ -35,7 +35,10 @@ sibling_source_sha256: 79c074cf1ede8e01fbfa215de8b36224bd558248bc96cbf9f758fc218
 extraction_status: single-appropriation
 appropriated_to: Higher Education Coordinating Commission
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 2167 (2025R1): Appropriates moneys from the General Fund to the Higher Education Coordinating Commission for distribution to Oregon State University for the Oregon Veterinary Diagnostic Laboratory.
 
-Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

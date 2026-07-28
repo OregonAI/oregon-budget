@@ -35,7 +35,10 @@ sibling_source_sha256: 7d3c05f60004d9e805f6bab558968fba3f772c5dba7c7fcc4c2c3b51a
 extraction_status: items-without-stated-total
 appropriated_to: Department of Education
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 3568 (2025R1): Appropriates moneys to the Department of Education for distribution to the Oregon Coast Visitors Association for the purpose of promoting seafood in the public schools of this state.
 
-Parsed context: appropriated to **Department of Education**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Education**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

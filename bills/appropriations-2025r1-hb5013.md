@@ -35,7 +35,10 @@ sibling_source_sha256: 3ada844f36d364a87e9bbee38ef5c5a8191330509abe10b7ed26325fd
 extraction_status: items-without-stated-total
 appropriated_to: Commission on Judicial Fitness and Disability
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 5013 (2025R1): Appropriates moneys from the General Fund to the Commission on Judicial Fitness and Disability for biennial expenses.
 
-Parsed context: appropriated to **Commission on Judicial Fitness and Disability**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Commission on Judicial Fitness and Disability**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

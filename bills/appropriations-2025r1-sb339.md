@@ -35,7 +35,10 @@ sibling_source_sha256: 034220ab224cb3b31fcdddad3c5dd2dc2f18c46770dcd893030371c27
 extraction_status: subsections-not-itemized
 appropriated_to: State Forestry Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 339 (2025R1): Appropriates moneys from the General Fund to the State Forestry Department for purposes related to the plant disease Sudden Oak Death.
 
-Parsed context: appropriated to **State Forestry Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **State Forestry Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **subsections-not-itemized**. No itemization to reconcile against.
 

@@ -35,7 +35,10 @@ sibling_source_sha256: e6023b86857f8900a8acad41abeef6be836d3b7700a7d1a7550a7190f
 extraction_status: items-without-stated-total
 appropriated_to: State Forestry Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 5521 (2025R1): Appropriates moneys from the General Fund to the State Forestry Department for certain biennial expenses.
 
-Parsed context: appropriated to **State Forestry Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **State Forestry Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

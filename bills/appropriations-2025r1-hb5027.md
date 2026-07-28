@@ -35,7 +35,10 @@ sibling_source_sha256: c4f9eb13d61c2cd023c7980e819a901c67568f6db2cedbdb913ad0068
 extraction_status: single-appropriation
 appropriated_to: State Board of Parole and Post-Prison Supervision
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 5027 (2025R1): Appropriates moneys from the General Fund to the State Board of Parole and Post-Prison Supervision for biennial expenses.
 
-Parsed context: appropriated to **State Board of Parole and Post-Prison Supervision**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **State Board of Parole and Post-Prison Supervision**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

@@ -35,7 +35,10 @@ sibling_source_sha256: ea252d23580fdac7a5aa432af1e2a499753e7ec5292da165bddebc9a1
 extraction_status: single-appropriation
 appropriated_to: State Parks and Recreation Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 5026 (2025R1): Appropriates moneys from the General Fund to the State Parks and Recreation Department for certain biennial expenses.
 
-Parsed context: appropriated to **State Parks and Recreation Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **State Parks and Recreation Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

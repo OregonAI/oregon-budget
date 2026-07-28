@@ -35,7 +35,10 @@ sibling_source_sha256: 2cb3efb5c147969c89f5ad52cd8b818379f74c61015c84cf363b03a06
 extraction_status: single-appropriation
 appropriated_to: Oregon Business Development Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 923 (2025R1): Appropriates moneys for the purpose of seeding the capital campaign and expanding fundraising efforts for a multiuse recreational facility to serve the greater Roseburg and Douglas County communities.
 
-Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

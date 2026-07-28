@@ -35,7 +35,10 @@ sibling_source_sha256: d2295af208c6868a10f8f2149da91dafac36272af7a9b1f07e2c02891
 extraction_status: items-without-stated-total
 appropriated_to: Oregon Business Development Department
 fund: General Fund
-biennium_begins: null
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: null
 
 HB 4124 (2024R1): Appropriates moneys to the Oregon Business Development Department to distribute to Oregon cultural organizations in response to the negative impact of the COVID-19 pandemic on organization finances.
 
-Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**.
+Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

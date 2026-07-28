@@ -35,7 +35,10 @@ sibling_source_sha256: 2dc60a2da8679ff363a3512fa8f3f146c1e0d5fce34bca9dc857fdaf4
 extraction_status: single-appropriation
 appropriated_to: Housing and Community Services Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 499 (2025R1): Appropriates moneys to the Housing and Community Services Department to replace manufactured dwellings in specified counties.
 
-Parsed context: appropriated to **Housing and Community Services Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Housing and Community Services Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

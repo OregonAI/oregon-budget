@@ -35,7 +35,10 @@ sibling_source_sha256: 405d1a32159f642569ede97008f8de93d13868fe0219033987f3e4bbb
 extraction_status: single-appropriation
 appropriated_to: null
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 3162 (2025R1): Appropriates moneys from the General Fund to the Department of Education for distribution to schools for the purpose of providing child care before and after school hours.
 
-Parsed context: out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

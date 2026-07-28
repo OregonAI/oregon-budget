@@ -35,7 +35,10 @@ sibling_source_sha256: 66a7f7cfd4231020e4d30d9612ed762674f1f4fbd8b225904276da94a
 extraction_status: single-appropriation
 appropriated_to: Higher Education Coordinating Commission
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 3011 (2025R1): Establishes the Early Childhood Education Workforce Development Fund and appropriates moneys in the fund to the Higher Education Coordinating Commission to provide funding to community colleges and public universities in this state that offer on-the-job training for students enrolled in early care and education or related degree or certificate programs.
 
-Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

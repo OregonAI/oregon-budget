@@ -35,7 +35,10 @@ sibling_source_sha256: 10ae13fb077f1e88407bb86803108bdb38c6a075069982510d72c768b
 extraction_status: single-appropriation
 appropriated_to: Oregon Advocacy Commissions Office
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 5501 (2025R1): Appropriates moneys from the General Fund to the Oregon Advocacy Commissions Office for biennial expenses.
 
-Parsed context: appropriated to **Oregon Advocacy Commissions Office**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Advocacy Commissions Office**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

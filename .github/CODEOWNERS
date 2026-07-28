@@ -13,11 +13,12 @@
 # paths; keep it in step whenever a content root is added.
 * @dzinck
 
-# Content roots declared in _meta/corpus.yml. `joins/` arrives in stage 4 and is
-# deliberately NOT listed yet — a rule for a directory that does not exist is the exact
-# failure described above. Add it with its directory.
+# Content roots declared in _meta/corpus.yml. All four now exist.
 /expenditures/ @dzinck
 /datasets/     @dzinck
+# Joins carry the corpus's central fabrication risk: a wrong link attaches spending to an
+# appropriation it has nothing to do with, and the result reads as a finding.
+/joins/        @dzinck
 # Machine-extracted appropriation figures, every one unreviewed. These need MORE scrutiny
 # than the mirrored documents, not less: a misparsed amount here is a false fiscal claim
 # carrying a real bill citation.

@@ -35,7 +35,10 @@ sibling_source_sha256: a730db90bdcd24080d62961770dfea89528326e557e7684472ce32ae0
 extraction_status: single-appropriation
 appropriated_to: State Department of Agriculture
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 336 (2025R1): Appropriates moneys to the State Department of Agriculture, out of the General Fund, for the purpose of developing a grant program to fund the construction of meat rendering plants.
 
-Parsed context: appropriated to **State Department of Agriculture**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **State Department of Agriculture**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

@@ -39,15 +39,40 @@ The five shared tools, plus `authority_chain`, plus two this corpus registers th
 |---|---|
 | `list_datasets()` | the three live Socrata datasets, their filterable columns, and the known trap in each |
 | `query_dataset(dataset, group_by?, …filters)` | a live aggregate, with the exact SoQL executed and an `executed_at` |
+| `join_lookup(document_id \| dataset_key)` | the appropriation↔spending links for a document or a dataset key |
 
 `query_dataset` builds its own SoQL from named, typed filters and does **not** accept a
 `$where` string — a passthrough would let a caller reshape the query into something its
 own `executed_query` no longer describes. Queries against budgeted revenue always carry
 the `Totals` exclusion, whatever else was asked for.
 
-`join_lookup()` is the contract's third hybrid tool and lands in Stage 4 with the `joins/`
-documents it reads. Registering a stub now would answer "no joins" to every question,
-which reads as "no relationship exists".
+### What the joins do and do not say
+
+A join links an **entity and a period, never dollars to dollars.** An appropriation goes to
+an agency for a stated purpose; the expenditure data records that agency's *total* spending
+from *every* source. The two must not be compared as though one accounts for the other —
+that is the "wrong join silently fabricates fiscal claims" failure this corpus was designed
+against, and the easiest possible mistake to make with this data. Answering "was this
+appropriation spent?" needs an expenditure record carrying the appropriation's identifier,
+and this dataset has no such column.
+
+**Coverage is deliberately small, and the denominator is the point:**
+
+| | |
+|---|---|
+| appropriations extracted | 170 |
+| biennium outside the FY2019–FY2025 mirror | **150** — the money is not spent yet |
+| overlapping the mirror | 20 |
+| agency resolves exactly → joined | **18** |
+| agency does not resolve → recorded unresolved, never guessed | 2 |
+
+Mapping a biennium onto fiscal years is the single most likely source of a plausible wrong
+number, so the assumption travels **on every join document** rather than living in a
+script: Oregon's fiscal year runs 1 July–30 June and is named for the year it ends, so a
+biennium ending 30 June 2025 covers FY2024–FY2025.
+
+`join_lookup` answering `found: false` means *no join is recorded*, never *no relationship
+exists* — 150 appropriations can never be joined at all.
 
 ### Two provenance clocks, never one
 

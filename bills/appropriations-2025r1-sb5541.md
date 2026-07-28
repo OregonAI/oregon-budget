@@ -35,7 +35,10 @@ sibling_source_sha256: bc2c0e02d73eb5a275896306689f01a82e6f86d10ced1af764ecf737d
 extraction_status: items-without-stated-total
 appropriated_to: Department of Transportation
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 5541 (2025R1): Appropriates moneys from the General Fund to the Department of Transportation for certain biennial expenses.
 
-Parsed context: appropriated to **Department of Transportation**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Transportation**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

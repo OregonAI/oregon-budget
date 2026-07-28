@@ -35,7 +35,10 @@ sibling_source_sha256: c3fc616e299060c238f0f7111038b1986228f417082716d28fe7c7c8c
 extraction_status: items-without-stated-total
 appropriated_to: Higher Education Coordinating Commission
 fund: General Fund
-biennium_begins: null
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: null
 
 HB 5204 (2024R1): Establishes biennial appropriations and expenditure limitations for ______ for the biennium ending June 30, 2025.
 
-Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**.
+Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

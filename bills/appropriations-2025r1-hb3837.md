@@ -35,7 +35,10 @@ sibling_source_sha256: a4827815d1b3718ff5cd02942254497982ce88ae758591940dac23f51
 extraction_status: subsections-not-itemized
 appropriated_to: Oregon Business Development Department
 fund: General Fund
-biennium_begins: null
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: null
 
 HB 3837 (2025R1): Appropriates moneys to the Oregon Business Development Department to award grants to cities and Oregon Indian tribes with high poverty rates for the purpose of developing local poverty reduction plans.
 
-Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**.
+Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **subsections-not-itemized**. No itemization to reconcile against.
 

@@ -35,7 +35,10 @@ sibling_source_sha256: e05012bed1d3573338b2bc27728217c06e624377b2c13b109f9b1b9c8
 extraction_status: items-without-stated-total
 appropriated_to: Department of Environmental Quality
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 5520 (2025R1): Appropriates moneys from the General Fund to the Department of Environmental Quality for certain biennial expenses.
 
-Parsed context: appropriated to **Department of Environmental Quality**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Environmental Quality**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

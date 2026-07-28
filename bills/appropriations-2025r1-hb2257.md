@@ -35,7 +35,10 @@ sibling_source_sha256: ec0c3990db15409fca5a247f33c52f897d56fe0094a90c01ddb2e7942
 extraction_status: items-without-stated-total
 appropriated_to: Oregon Business Development Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 2257 (2025R1): Appropriates moneys to the Oregon Business Development Department to provide grants to specified cities to build infrastructure that will contribute to the development of housing under the program established by a 2024 Act.
 
-Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

@@ -35,7 +35,10 @@ sibling_source_sha256: 54e8ead3a15391cb970a0fc0501388dba90cfbb3aa164e18735039168
 extraction_status: single-appropriation
 appropriated_to: Land Use Board of Appeals
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 5529 (2025R1): Appropriates moneys from the General Fund to the Land Use Board of Appeals for biennial expenses.
 
-Parsed context: appropriated to **Land Use Board of Appeals**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Land Use Board of Appeals**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

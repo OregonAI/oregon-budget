@@ -1,8 +1,8 @@
 {
  "corpus": "oregon-budget",
- "n_nodes": 717,
- "n_edges": 1644,
- "n_edges_external": 170,
+ "n_nodes": 735,
+ "n_edges": 1716,
+ "n_edges_external": 188,
  "nodes": [
   {
    "id": "expenditures-100-fy2019",
@@ -4305,6 +4305,114 @@
    "title": "Dataset doc: Lottery Expenditures — Multi-Year Report",
    "doc_type": "entity_doc",
    "path": "datasets/lottery-expenditures.md"
+  },
+  {
+   "id": "join-2024r1-hb4041-agency-123",
+   "title": "2024 Regular Session House Bill 4041 → agency 123 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2024r1-hb4041-agency-123.md"
+  },
+  {
+   "id": "join-2024r1-hb4060-agency-691",
+   "title": "2024 Regular Session House Bill 4060 → agency 691 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2024r1-hb4060-agency-691.md"
+  },
+  {
+   "id": "join-2024r1-hb4105-agency-443",
+   "title": "2024 Regular Session House Bill 4105 → agency 443 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2024r1-hb4105-agency-443.md"
+  },
+  {
+   "id": "join-2024r1-hb4110-agency-107",
+   "title": "2024 Regular Session House Bill 4110 → agency 107 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2024r1-hb4110-agency-107.md"
+  },
+  {
+   "id": "join-2024r1-hb4123-agency-137",
+   "title": "2024 Regular Session House Bill 4123 → agency 137 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2024r1-hb4123-agency-137.md"
+  },
+  {
+   "id": "join-2024r1-hb4124-agency-123",
+   "title": "2024 Regular Session House Bill 4124 → agency 123 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2024r1-hb4124-agency-123.md"
+  },
+  {
+   "id": "join-2024r1-hb4131-agency-914",
+   "title": "2024 Regular Session House Bill 4131 → agency 914 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2024r1-hb4131-agency-914.md"
+  },
+  {
+   "id": "join-2024r1-hb5204-agency-525",
+   "title": "2024 Regular Session House Bill 5204 → agency 525 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2024r1-hb5204-agency-525.md"
+  },
+  {
+   "id": "join-2024r1-sb1512-agency-107",
+   "title": "2024 Regular Session Senate Bill 1512 → agency 107 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2024r1-sb1512-agency-107.md"
+  },
+  {
+   "id": "join-2024r1-sb1530-agency-914",
+   "title": "2024 Regular Session Senate Bill 1530 → agency 914 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2024r1-sb1530-agency-914.md"
+  },
+  {
+   "id": "join-2024r1-sb1570-agency-107",
+   "title": "2024 Regular Session Senate Bill 1570 → agency 107 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2024r1-sb1570-agency-107.md"
+  },
+  {
+   "id": "join-2024r1-sb1582-agency-123",
+   "title": "2024 Regular Session Senate Bill 1582 → agency 123 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2024r1-sb1582-agency-123.md"
+  },
+  {
+   "id": "join-2024r1-sb1592-agency-525",
+   "title": "2024 Regular Session Senate Bill 1592 → agency 525 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2024r1-sb1592-agency-525.md"
+  },
+  {
+   "id": "join-2024r1-sb5701-agency-137",
+   "title": "2024 Regular Session Senate Bill 5701 → agency 137 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2024r1-sb5701-agency-137.md"
+  },
+  {
+   "id": "join-2025r1-hb2018-agency-123",
+   "title": "2025 Regular Session House Bill 2018 → agency 123 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2025r1-hb2018-agency-123.md"
+  },
+  {
+   "id": "join-2025r1-hb3837-agency-123",
+   "title": "2025 Regular Session House Bill 3837 → agency 123 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2025r1-hb3837-agency-123.md"
+  },
+  {
+   "id": "join-2025r1-hb5047-agency-581",
+   "title": "2025 Regular Session House Bill 5047 → agency 581 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2025r1-hb5047-agency-581.md"
+  },
+  {
+   "id": "join-2025r1-sb5550-agency-123",
+   "title": "2025 Regular Session Senate Bill 5550 → agency 123 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2025r1-sb5550-agency-123.md"
   }
  ],
  "edges": [
@@ -12527,6 +12635,366 @@
    "from": "lottery-expenditures",
    "type": "related",
    "to": "budgeted-revenue"
+  },
+  {
+   "from": "join-2024r1-hb4041-agency-123",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4041"
+  },
+  {
+   "from": "join-2024r1-hb4041-agency-123",
+   "type": "related",
+   "to": "appropriations-2024r1-hb4041"
+  },
+  {
+   "from": "join-2024r1-hb4041-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2024"
+  },
+  {
+   "from": "join-2024r1-hb4041-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2025"
+  },
+  {
+   "from": "join-2024r1-hb4060-agency-691",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4060"
+  },
+  {
+   "from": "join-2024r1-hb4060-agency-691",
+   "type": "related",
+   "to": "appropriations-2024r1-hb4060"
+  },
+  {
+   "from": "join-2024r1-hb4060-agency-691",
+   "type": "related",
+   "to": "expenditures-691-fy2024"
+  },
+  {
+   "from": "join-2024r1-hb4060-agency-691",
+   "type": "related",
+   "to": "expenditures-691-fy2025"
+  },
+  {
+   "from": "join-2024r1-hb4105-agency-443",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4105"
+  },
+  {
+   "from": "join-2024r1-hb4105-agency-443",
+   "type": "related",
+   "to": "appropriations-2024r1-hb4105"
+  },
+  {
+   "from": "join-2024r1-hb4105-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2024"
+  },
+  {
+   "from": "join-2024r1-hb4105-agency-443",
+   "type": "related",
+   "to": "expenditures-443-fy2025"
+  },
+  {
+   "from": "join-2024r1-hb4110-agency-107",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4110"
+  },
+  {
+   "from": "join-2024r1-hb4110-agency-107",
+   "type": "related",
+   "to": "appropriations-2024r1-hb4110"
+  },
+  {
+   "from": "join-2024r1-hb4110-agency-107",
+   "type": "related",
+   "to": "expenditures-107-fy2024"
+  },
+  {
+   "from": "join-2024r1-hb4110-agency-107",
+   "type": "related",
+   "to": "expenditures-107-fy2025"
+  },
+  {
+   "from": "join-2024r1-hb4123-agency-137",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4123"
+  },
+  {
+   "from": "join-2024r1-hb4123-agency-137",
+   "type": "related",
+   "to": "appropriations-2024r1-hb4123"
+  },
+  {
+   "from": "join-2024r1-hb4123-agency-137",
+   "type": "related",
+   "to": "expenditures-137-fy2024"
+  },
+  {
+   "from": "join-2024r1-hb4123-agency-137",
+   "type": "related",
+   "to": "expenditures-137-fy2025"
+  },
+  {
+   "from": "join-2024r1-hb4124-agency-123",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4124"
+  },
+  {
+   "from": "join-2024r1-hb4124-agency-123",
+   "type": "related",
+   "to": "appropriations-2024r1-hb4124"
+  },
+  {
+   "from": "join-2024r1-hb4124-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2024"
+  },
+  {
+   "from": "join-2024r1-hb4124-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2025"
+  },
+  {
+   "from": "join-2024r1-hb4131-agency-914",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4131"
+  },
+  {
+   "from": "join-2024r1-hb4131-agency-914",
+   "type": "related",
+   "to": "appropriations-2024r1-hb4131"
+  },
+  {
+   "from": "join-2024r1-hb4131-agency-914",
+   "type": "related",
+   "to": "expenditures-914-fy2024"
+  },
+  {
+   "from": "join-2024r1-hb4131-agency-914",
+   "type": "related",
+   "to": "expenditures-914-fy2025"
+  },
+  {
+   "from": "join-2024r1-hb5204-agency-525",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 5204"
+  },
+  {
+   "from": "join-2024r1-hb5204-agency-525",
+   "type": "related",
+   "to": "appropriations-2024r1-hb5204"
+  },
+  {
+   "from": "join-2024r1-hb5204-agency-525",
+   "type": "related",
+   "to": "expenditures-525-fy2024"
+  },
+  {
+   "from": "join-2024r1-hb5204-agency-525",
+   "type": "related",
+   "to": "expenditures-525-fy2025"
+  },
+  {
+   "from": "join-2024r1-sb1512-agency-107",
+   "type": "references_external",
+   "to": "2024 Regular Session Senate Bill 1512"
+  },
+  {
+   "from": "join-2024r1-sb1512-agency-107",
+   "type": "related",
+   "to": "appropriations-2024r1-sb1512"
+  },
+  {
+   "from": "join-2024r1-sb1512-agency-107",
+   "type": "related",
+   "to": "expenditures-107-fy2024"
+  },
+  {
+   "from": "join-2024r1-sb1512-agency-107",
+   "type": "related",
+   "to": "expenditures-107-fy2025"
+  },
+  {
+   "from": "join-2024r1-sb1530-agency-914",
+   "type": "references_external",
+   "to": "2024 Regular Session Senate Bill 1530"
+  },
+  {
+   "from": "join-2024r1-sb1530-agency-914",
+   "type": "related",
+   "to": "appropriations-2024r1-sb1530"
+  },
+  {
+   "from": "join-2024r1-sb1530-agency-914",
+   "type": "related",
+   "to": "expenditures-914-fy2024"
+  },
+  {
+   "from": "join-2024r1-sb1530-agency-914",
+   "type": "related",
+   "to": "expenditures-914-fy2025"
+  },
+  {
+   "from": "join-2024r1-sb1570-agency-107",
+   "type": "references_external",
+   "to": "2024 Regular Session Senate Bill 1570"
+  },
+  {
+   "from": "join-2024r1-sb1570-agency-107",
+   "type": "related",
+   "to": "appropriations-2024r1-sb1570"
+  },
+  {
+   "from": "join-2024r1-sb1570-agency-107",
+   "type": "related",
+   "to": "expenditures-107-fy2024"
+  },
+  {
+   "from": "join-2024r1-sb1570-agency-107",
+   "type": "related",
+   "to": "expenditures-107-fy2025"
+  },
+  {
+   "from": "join-2024r1-sb1582-agency-123",
+   "type": "references_external",
+   "to": "2024 Regular Session Senate Bill 1582"
+  },
+  {
+   "from": "join-2024r1-sb1582-agency-123",
+   "type": "related",
+   "to": "appropriations-2024r1-sb1582"
+  },
+  {
+   "from": "join-2024r1-sb1582-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2024"
+  },
+  {
+   "from": "join-2024r1-sb1582-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2025"
+  },
+  {
+   "from": "join-2024r1-sb1592-agency-525",
+   "type": "references_external",
+   "to": "2024 Regular Session Senate Bill 1592"
+  },
+  {
+   "from": "join-2024r1-sb1592-agency-525",
+   "type": "related",
+   "to": "appropriations-2024r1-sb1592"
+  },
+  {
+   "from": "join-2024r1-sb1592-agency-525",
+   "type": "related",
+   "to": "expenditures-525-fy2024"
+  },
+  {
+   "from": "join-2024r1-sb1592-agency-525",
+   "type": "related",
+   "to": "expenditures-525-fy2025"
+  },
+  {
+   "from": "join-2024r1-sb5701-agency-137",
+   "type": "references_external",
+   "to": "2024 Regular Session Senate Bill 5701"
+  },
+  {
+   "from": "join-2024r1-sb5701-agency-137",
+   "type": "related",
+   "to": "appropriations-2024r1-sb5701"
+  },
+  {
+   "from": "join-2024r1-sb5701-agency-137",
+   "type": "related",
+   "to": "expenditures-137-fy2024"
+  },
+  {
+   "from": "join-2024r1-sb5701-agency-137",
+   "type": "related",
+   "to": "expenditures-137-fy2025"
+  },
+  {
+   "from": "join-2025r1-hb2018-agency-123",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 2018"
+  },
+  {
+   "from": "join-2025r1-hb2018-agency-123",
+   "type": "related",
+   "to": "appropriations-2025r1-hb2018"
+  },
+  {
+   "from": "join-2025r1-hb2018-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2024"
+  },
+  {
+   "from": "join-2025r1-hb2018-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2025"
+  },
+  {
+   "from": "join-2025r1-hb3837-agency-123",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 3837"
+  },
+  {
+   "from": "join-2025r1-hb3837-agency-123",
+   "type": "related",
+   "to": "appropriations-2025r1-hb3837"
+  },
+  {
+   "from": "join-2025r1-hb3837-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2024"
+  },
+  {
+   "from": "join-2025r1-hb3837-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2025"
+  },
+  {
+   "from": "join-2025r1-hb5047-agency-581",
+   "type": "references_external",
+   "to": "2025 Regular Session House Bill 5047"
+  },
+  {
+   "from": "join-2025r1-hb5047-agency-581",
+   "type": "related",
+   "to": "appropriations-2025r1-hb5047"
+  },
+  {
+   "from": "join-2025r1-hb5047-agency-581",
+   "type": "related",
+   "to": "expenditures-581-fy2024"
+  },
+  {
+   "from": "join-2025r1-hb5047-agency-581",
+   "type": "related",
+   "to": "expenditures-581-fy2025"
+  },
+  {
+   "from": "join-2025r1-sb5550-agency-123",
+   "type": "references_external",
+   "to": "2025 Regular Session Senate Bill 5550"
+  },
+  {
+   "from": "join-2025r1-sb5550-agency-123",
+   "type": "related",
+   "to": "appropriations-2025r1-sb5550"
+  },
+  {
+   "from": "join-2025r1-sb5550-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2024"
+  },
+  {
+   "from": "join-2025r1-sb5550-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2025"
   }
  ]
 }

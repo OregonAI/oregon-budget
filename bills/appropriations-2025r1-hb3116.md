@@ -35,7 +35,10 @@ sibling_source_sha256: becd5332eff0e3ff4832d21f365d4a2df5421772968346f0ab66e1f20
 extraction_status: single-appropriation
 appropriated_to: Water Resources Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 3116 (2025R1): Appropriates moneys from the General Fund to the Water Resources Department for place-based water planning.
 
-Parsed context: appropriated to **Water Resources Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Water Resources Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

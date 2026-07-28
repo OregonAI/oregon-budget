@@ -35,7 +35,10 @@ sibling_source_sha256: e44bdb8c365d585f9700f428dd61b52f853c0d66c68c1fd692b5df810
 extraction_status: single-appropriation
 appropriated_to: Teacher Standards and Practices Commission
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 5037 (2025R1): Appropriates moneys from the General Fund to the Teacher Standards and Practices Commission for biennial expenses.
 
-Parsed context: appropriated to **Teacher Standards and Practices Commission**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Teacher Standards and Practices Commission**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

@@ -65,7 +65,27 @@ APPROPRIATED_TO = re.compile(
 AMOUNT_OF = re.compile(r"the\s+amount\s+of\s+\$\s?([\d,]+(?:\.\d{2})?)")
 SUBITEM = re.compile(r"\((\d+)\)\s*([^$]{0,160}?)\$\s?([\d,]+(?:\.\d{2})?)")
 FUND = re.compile(r"out\s+of\s+the\s+([A-Z][A-Za-z ]{2,40}?\s+Fund)", re.I)
-BIENNIUM = re.compile(r"biennium\s+beginning\s+(\w+\s+\d{1,2},\s*\d{4})", re.I)
+BIENNIUM = re.compile(r"biennium\s+(beginning|ending)\s+\w+\s+\d{1,2},\s*(\d{4})", re.I)
+
+
+def biennium_fiscal_years(word: str, year: str | int) -> list[int]:
+    """The two Oregon fiscal years a biennium covers.
+
+    THE ASSUMPTION, STATED because the plan named it the single most likely source of a
+    plausible wrong number: Oregon's fiscal year runs July 1 to June 30 and is NAMED for
+    the calendar year it ends in, so FY2025 = 1 Jul 2024 - 30 Jun 2025. Therefore
+
+        "biennium beginning July 1, 2025"  -> FY2026, FY2027
+        "biennium ending  June 30, 2025"   -> FY2024, FY2025
+
+    This is a convention, not something the expenditure dataset states about itself. It is
+    recorded on every join that relies on it rather than applied silently, so a reader can
+    reject the mapping without having to reverse-engineer it from the numbers.
+    """
+    year = int(year)   # re.groups() are strings; this silently type-errored on the first run
+    if word.lower() == "beginning":
+        return [year + 1, year + 2]
+    return [year - 1, year]
 
 
 def money(s: str) -> int | float:
@@ -165,6 +185,7 @@ def parse_bill(flowed: str, raw_lines: list[str]) -> dict:
     body = APPROPRIATED_TO.search(flowed)
     fund = FUND.search(flowed)
     bien = BIENNIUM.search(flowed)
+    fys = biennium_fiscal_years(*bien.groups()) if bien else None
 
     sections = []
     for n, chunk in enumerate(split_sections(flowed), 1):
@@ -209,7 +230,8 @@ def parse_bill(flowed: str, raw_lines: list[str]) -> dict:
     return {
         "appropriated_to": body.group(1).strip() if body else None,
         "fund": fund.group(1) if fund else None,
-        "biennium_begins": bien.group(1) if bien else None,
+        "biennium": (f"{bien.group(1).lower()} {bien.group(2)}" if bien else None),
+        "biennium_fiscal_years": fys,
         "sections": sections,
         "stated_totals": [t for s in sections for t in s["stated_totals"]],
         "line_items": [i for s in sections for i in s["line_items"]],
@@ -345,7 +367,8 @@ def build_doc(measure: dict, parsed: dict, rec: dict, sibling_sha: str, today: s
         "extraction_status": rec["status"],
         "appropriated_to": parsed["appropriated_to"],
         "fund": parsed["fund"],
-        "biennium_begins": parsed["biennium_begins"],
+        "biennium": parsed["biennium"],
+        "biennium_fiscal_years": parsed["biennium_fiscal_years"],
     }
 
     L = []
@@ -365,8 +388,10 @@ def build_doc(measure: dict, parsed: dict, rec: dict, sibling_sha: str, today: s
         bits.append(f"appropriated to **{parsed['appropriated_to']}**")
     if parsed["fund"]:
         bits.append(f"out of the **{parsed['fund']}**")
-    if parsed["biennium_begins"]:
-        bits.append(f"for the biennium beginning **{parsed['biennium_begins']}**")
+    if parsed["biennium"]:
+        fy = parsed["biennium_fiscal_years"]
+        bits.append(f"for the biennium **{parsed['biennium']}** (fiscal years "
+                    f"{fy[0]}\u2013{fy[1]})")
     if bits:
         L.append("Parsed context: " + ", ".join(bits) + ".")
         L.append("")

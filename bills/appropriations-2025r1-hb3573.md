@@ -35,7 +35,10 @@ sibling_source_sha256: b8e7a04c099c9bb59eae498fe6a2c66d51cbe27a0c7744e7cb742ab57
 extraction_status: reconciled
 appropriated_to: Water Resources Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 3573 (2025R1): Appropriates moneys from the General Fund to the Water Resources Department for specified purposes relating to water resources data collection and monitoring for the biennium beginning July 1, 2025.
 
-Parsed context: appropriated to **Water Resources Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Water Resources Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **reconciled**. Every itemized section sums to its own stated appropriation.
 

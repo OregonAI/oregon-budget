@@ -35,7 +35,10 @@ sibling_source_sha256: 6cad6939fc969d8b9b253eb16192afb6ad9ec1ff224f2da92c601f4a1
 extraction_status: single-appropriation
 appropriated_to: Teacher Standards and Practices Commission
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 2588 (2025R1): Appropriates moneys from the General Fund to the Department of Education for distribution to the Educator Advancement Council to support the Oregon Registered Teaching Apprenticeship Program.
 
-Parsed context: appropriated to **Teacher Standards and Practices Commission**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Teacher Standards and Practices Commission**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

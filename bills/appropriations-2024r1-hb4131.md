@@ -35,7 +35,10 @@ sibling_source_sha256: 7925e11b3a6e8b8752f1d92d8f4e69c88029bfe727e842638474b50c3
 extraction_status: single-appropriation
 appropriated_to: Housing and Community Services Department
 fund: General Fund
-biennium_begins: null
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: null
 
 HB 4131 (2024R1): Appropriates moneys from the General Fund to the Housing and Community Services Department for the purpose of making matching deposits into individual development accounts.
 
-Parsed context: appropriated to **Housing and Community Services Department**, out of the **General Fund**.
+Parsed context: appropriated to **Housing and Community Services Department**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

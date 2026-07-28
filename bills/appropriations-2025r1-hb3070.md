@@ -35,7 +35,10 @@ sibling_source_sha256: aea5d439d9393c020b161a66ed923db38a1847fc5ccd64f1f09e230fb
 extraction_status: single-appropriation
 appropriated_to: Department of Justice
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 3070 (2025R1): Appropriates moneys to the Department of Justice to fund the management of the Oregon SAE/SANE Certification Commission by the Attorney General's Sexual Assault Task Force.
 
-Parsed context: appropriated to **Department of Justice**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Justice**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

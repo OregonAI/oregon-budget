@@ -35,7 +35,10 @@ sibling_source_sha256: fea77f8b41147e7c086e59842d2f49c5a9a7f979bd09d20f3bf1416b2
 extraction_status: single-appropriation
 appropriated_to: Oregon Health Authority
 fund: General Fund
-biennium_begins: null
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: null
 
 HB 4105 (2024R1): Appropriates moneys to the Oregon Health Authority for the costs of targeted case management services provided in the nurse home visiting services program for families during pregnancy and for two years after the pregnancy.
 
-Parsed context: appropriated to **Oregon Health Authority**, out of the **General Fund**.
+Parsed context: appropriated to **Oregon Health Authority**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

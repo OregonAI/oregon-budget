@@ -35,7 +35,10 @@ sibling_source_sha256: e72cb900d1c5e27f5f724913871e66e6f7c8dc33f6a0fdeafa82bd1ed
 extraction_status: multiple-totals-no-itemization
 appropriated_to: Oregon Department of Administrative Services
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 2543 (2025R1): Appropriates moneys from the General Fund to the Oregon Department of Administrative Services for purposes of deposit in the Universal Representation Fund.
 
-Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **multiple-totals-no-itemization**. No itemization to reconcile against.
 

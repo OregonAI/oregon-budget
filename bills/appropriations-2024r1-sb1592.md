@@ -35,7 +35,10 @@ sibling_source_sha256: d99932ca6751b5cf3b3b4db9a40d24baec5282be4c0338b26ced09e20
 extraction_status: subsections-not-itemized
 appropriated_to: Higher Education Coordinating Commission
 fund: General Fund
-biennium_begins: null
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: null
 
 SB 1592 (2024R1): Appropriates moneys from the General Fund to the Higher Education Coordinating Commission for distribution to certain institutions of higher education to expand the behavioral health workforce in Oregon.
 
-Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**.
+Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **subsections-not-itemized**. No itemization to reconcile against.
 

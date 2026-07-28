@@ -35,7 +35,10 @@ sibling_source_sha256: 537fbeed8cc7b87bc819b5be63152133db159b295535ea7d38e1c9e26
 extraction_status: single-appropriation
 appropriated_to: Oregon Business Development Department
 fund: General Fund
-biennium_begins: null
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: null
 
 HB 4041 (2024R1): Appropriates moneys from the General Fund to the Oregon Business Development Department to be used for the Economic Equity Investment Program.
 
-Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**.
+Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

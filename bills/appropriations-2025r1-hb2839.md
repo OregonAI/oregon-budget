@@ -35,7 +35,10 @@ sibling_source_sha256: c824785440e4ec937fcea6f1f39178dd2d0bf15036ea0bd3b2526738f
 extraction_status: single-appropriation
 appropriated_to: Oregon Military Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 2839 (2025R1): Appropriates moneys from the General Fund to the Oregon Military Department for the Service Member and Family Support Program in the biennium beginning July 1, 2025.
 
-Parsed context: appropriated to **Oregon Military Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Military Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

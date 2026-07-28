@@ -35,7 +35,10 @@ sibling_source_sha256: 7f28bc03156215c131152031ec8704aaab79ca65a4a999d5b664e14cb
 extraction_status: single-appropriation
 appropriated_to: State Library
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 5017 (2025R1): Appropriates moneys from the General Fund to the State Library for biennial expenses.
 
-Parsed context: appropriated to **State Library**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **State Library**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

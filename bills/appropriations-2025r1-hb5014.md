@@ -35,7 +35,10 @@ sibling_source_sha256: 8236e71a6470d034d7168d074c3bb07fa7d5bdfa8795982a91e454c09
 extraction_status: items-without-stated-total
 appropriated_to: Department of Justice
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 5014 (2025R1): Appropriates moneys from the General Fund to the Department of Justice for biennial expenses.
 
-Parsed context: appropriated to **Department of Justice**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Justice**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

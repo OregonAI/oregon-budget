@@ -35,7 +35,10 @@ sibling_source_sha256: feca310c2e80f873b0d4143c69d2ae4b8087582e9a89b5665666c7ba2
 extraction_status: single-appropriation
 appropriated_to: Oregon Watershed Enhancement Board
 fund: General Fund
-biennium_begins: null
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: null
 
 HB 4060 (2024R1): Appropriates moneys to the Oregon Watershed Enhancement Board, out of the General Fund, for deposit in the Oregon Agricultural Heritage Fund.
 
-Parsed context: appropriated to **Oregon Watershed Enhancement Board**, out of the **General Fund**.
+Parsed context: appropriated to **Oregon Watershed Enhancement Board**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

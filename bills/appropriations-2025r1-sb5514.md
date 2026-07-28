@@ -35,7 +35,10 @@ sibling_source_sha256: 039316090934e3bd44d3dcdb0f46377b32d2c7fa85556b68ae5a8eb92
 extraction_status: items-without-stated-total
 appropriated_to: Department of Early Learning and Care
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 5514 (2025R1): Appropriates moneys from the General Fund to the Department of Early Learning and Care for certain biennial expenses.
 
-Parsed context: appropriated to **Department of Early Learning and Care**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Early Learning and Care**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

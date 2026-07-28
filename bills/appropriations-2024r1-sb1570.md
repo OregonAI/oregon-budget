@@ -35,7 +35,10 @@ sibling_source_sha256: 6441140eaad2bbe193b9c09712746843f4b1e3efadb5ba8f836934429
 extraction_status: single-appropriation
 appropriated_to: Oregon Department of Administrative Services
 fund: General Fund
-biennium_begins: null
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: null
 
 SB 1570 (2024R1): Appropriates moneys from the General Fund for distribution to the Family YMCA of Marion and Polk Counties for a social services resource center.
 
-Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**.
+Parsed context: appropriated to **Oregon Department of Administrative Services**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

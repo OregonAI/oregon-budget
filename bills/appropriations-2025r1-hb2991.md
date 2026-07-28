@@ -35,7 +35,10 @@ sibling_source_sha256: 514b5997bca28190d1497ab405626a29af9bdca8e7750ef1653bbde86
 extraction_status: single-appropriation
 appropriated_to: Department of Human Services
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 2991 (2025R1): Appropriates moneys to be used for funding outreach regarding federal earned income tax credits and other tax benefits and to provide tax navigation and preparation to low-income individuals.
 
-Parsed context: appropriated to **Department of Human Services**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Human Services**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

@@ -35,7 +35,10 @@ sibling_source_sha256: ad144ad2cef98c8258ef22dcb39983c15d11a9572e092a009fff1fc4f
 extraction_status: items-without-stated-total
 appropriated_to: Housing and Community Services Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 3734 (2025R1): Appropriates moneys to the Housing and Community Services Department to distribute to specified organizations to continue housing and homelessness program services.
 
-Parsed context: appropriated to **Housing and Community Services Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Housing and Community Services Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

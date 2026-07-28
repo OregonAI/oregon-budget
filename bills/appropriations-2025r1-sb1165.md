@@ -35,7 +35,10 @@ sibling_source_sha256: 99456b5cedb5a50c9d6a2556a8658338af4e0db5b7ddd09b1bb050424
 extraction_status: single-appropriation
 appropriated_to: Oregon Public Defense Commission
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 1165 (2025R1): Appropriates moneys to the Oregon Public Defense Commission to increase the hourly rate for investigators.
 
-Parsed context: appropriated to **Oregon Public Defense Commission**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Oregon Public Defense Commission**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

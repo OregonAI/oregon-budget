@@ -35,7 +35,10 @@ sibling_source_sha256: 8929e59f21b8b4e9134b791bc9e3a8b9f12ed3fd6075d3338e8cb1292
 extraction_status: single-appropriation
 appropriated_to: Department of Justice
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 1013 (2025R1): Appropriates moneys to the Department of Justice out of the General Fund for distribution to the Liberty House to provide children's advocacy center services.
 
-Parsed context: appropriated to **Department of Justice**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Justice**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

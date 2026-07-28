@@ -35,7 +35,10 @@ sibling_source_sha256: d3b92a84bf12bf019838000b47fbac96a96d46fc2bd133694ecc70d0a
 extraction_status: items-without-stated-total
 appropriated_to: Judicial Department
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 HB 5012 (2025R1): Appropriates moneys from the General Fund to the Judicial Department for certain biennial expenses.
 
-Parsed context: appropriated to **Judicial Department**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Judicial Department**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **items-without-stated-total**. No itemization to reconcile against.
 

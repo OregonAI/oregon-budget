@@ -35,7 +35,10 @@ sibling_source_sha256: 29c03e4fc595685c221b83510fdc2fffb5794b4659dae9afa4246082b
 extraction_status: single-appropriation
 appropriated_to: Department of Justice
 fund: General Fund
-biennium_begins: null
+biennium: ending 2025
+biennium_fiscal_years:
+- 2024
+- 2025
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: null
 
 HB 4123 (2024R1): Appropriates moneys to the Department of Justice to fund the management of the Oregon SAE/SANE Certification Commission by the Attorney General's Sexual Assault Task Force.
 
-Parsed context: appropriated to **Department of Justice**, out of the **General Fund**.
+Parsed context: appropriated to **Department of Justice**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

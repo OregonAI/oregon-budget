@@ -35,7 +35,10 @@ sibling_source_sha256: 13b40de5ac4e024864e1f15e8e800e3d04d568a9f260448c8f069d2d2
 extraction_status: single-appropriation
 appropriated_to: Department of Justice
 fund: General Fund
-biennium_begins: July 1, 2025
+biennium: beginning 2025
+biennium_fiscal_years:
+- 2026
+- 2027
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -49,7 +52,7 @@ biennium_begins: July 1, 2025
 
 SB 5513 (2025R1): Appropriates moneys from the General Fund to the Department of Justice for biennial expenses of district attorneys.
 
-Parsed context: appropriated to **Department of Justice**, out of the **General Fund**, for the biennium beginning **July 1, 2025**.
+Parsed context: appropriated to **Department of Justice**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 
