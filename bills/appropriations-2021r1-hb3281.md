@@ -38,6 +38,7 @@ fund: General Fund
 biennium: null
 biennium_fiscal_years: null
 blank_amounts: 1
+blank_recipient: false
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this

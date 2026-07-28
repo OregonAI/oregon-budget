@@ -33,13 +33,14 @@ sibling_document_id: measure-2023r1-sb5503
 sibling_snapshot_id: measure-2023r1-sb5503-enrolled
 sibling_source_sha256: 36d93fba4a7922f9048573b79ff1b95ddd5c2dc2f6016cdefb63b9688c4f240c
 extraction_status: single-appropriation
-appropriated_to: Commission
+appropriated_to: Commission for the Blind
 fund: General Fund
 biennium: beginning 2023
 biennium_fiscal_years:
 - 2024
 - 2025
 blank_amounts: 0
+blank_recipient: false
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -53,7 +54,7 @@ blank_amounts: 0
 
 SB 5503 (2023R1): Appropriates moneys from General Fund to Commission for the Blind for biennial expenses.
 
-Parsed context: appropriated to **Commission**, out of the **General Fund**, for the biennium **beginning 2023** (fiscal years 2024–2025).
+Parsed context: appropriated to **Commission for the Blind**, out of the **General Fund**, for the biennium **beginning 2023** (fiscal years 2024–2025).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

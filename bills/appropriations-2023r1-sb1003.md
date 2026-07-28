@@ -40,6 +40,7 @@ biennium_fiscal_years:
 - 2024
 - 2025
 blank_amounts: 2
+blank_recipient: false
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this

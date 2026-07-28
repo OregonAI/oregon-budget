@@ -40,6 +40,7 @@ biennium_fiscal_years:
 - 2018
 - 2019
 blank_amounts: 5
+blank_recipient: false
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this

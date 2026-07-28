@@ -1,8 +1,8 @@
 {
  "corpus": "oregon-budget",
- "n_nodes": 1755,
- "n_edges": 3993,
- "n_edges_external": 1208,
+ "n_nodes": 1760,
+ "n_edges": 4012,
+ "n_edges_external": 1213,
  "nodes": [
   {
    "id": "expenditures-100-fy2019",
@@ -7883,6 +7883,12 @@
    "path": "joins/join-2017r1-hb5002-agency-107.md"
   },
   {
+   "id": "join-2017r1-hb5003-agency-585",
+   "title": "2017 Regular Session House Bill 5003 → agency 585 spending, FY2019–FY2019",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2017r1-hb5003-agency-585.md"
+  },
+  {
    "id": "join-2017r1-hb5004-agency-291",
    "title": "2017 Regular Session House Bill 5004 → agency 291 spending, FY2019–FY2019",
    "doc_type": "dataset_doc",
@@ -8723,6 +8729,12 @@
    "path": "joins/join-2019r1-sb5502-agency-107.md"
   },
   {
+   "id": "join-2019r1-sb5503-agency-585",
+   "title": "2019 Regular Session Senate Bill 5503 → agency 585 spending, FY2020–FY2021",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2019r1-sb5503-agency-585.md"
+  },
+  {
    "id": "join-2019r1-sb5504-agency-291",
    "title": "2019 Regular Session Senate Bill 5504 → agency 291 spending, FY2020–FY2021",
    "doc_type": "dataset_doc",
@@ -9189,6 +9201,12 @@
    "title": "2021 Regular Session House Bill 5002 → agency 107 spending, FY2022–FY2023",
    "doc_type": "dataset_doc",
    "path": "joins/join-2021r1-hb5002-agency-107.md"
+  },
+  {
+   "id": "join-2021r1-hb5003-agency-585",
+   "title": "2021 Regular Session House Bill 5003 → agency 585 spending, FY2022–FY2023",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2021r1-hb5003-agency-585.md"
   },
   {
    "id": "join-2021r1-hb5004-agency-291",
@@ -10127,6 +10145,12 @@
    "path": "joins/join-2023r1-sb5502-agency-107.md"
   },
   {
+   "id": "join-2023r1-sb5503-agency-585",
+   "title": "2023 Regular Session Senate Bill 5503 → agency 585 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-sb5503-agency-585.md"
+  },
+  {
    "id": "join-2023r1-sb5504-agency-291",
    "title": "2023 Regular Session Senate Bill 5504 → agency 291 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
@@ -10455,6 +10479,12 @@
    "title": "2024 Regular Session House Bill 4131 → agency 914 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
    "path": "joins/join-2024r1-hb4131-agency-914.md"
+  },
+  {
+   "id": "join-2024r1-hb4158-agency-123",
+   "title": "2024 Regular Session House Bill 4158 → agency 123 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2024r1-hb4158-agency-123.md"
   },
   {
    "id": "join-2024r1-hb5204-agency-525",
@@ -21997,6 +22027,21 @@
    "to": "expenditures-107-fy2019"
   },
   {
+   "from": "join-2017r1-hb5003-agency-585",
+   "type": "references_external",
+   "to": "2017 Regular Session House Bill 5003"
+  },
+  {
+   "from": "join-2017r1-hb5003-agency-585",
+   "type": "related",
+   "to": "appropriations-2017r1-hb5003"
+  },
+  {
+   "from": "join-2017r1-hb5003-agency-585",
+   "type": "related",
+   "to": "expenditures-585-fy2019"
+  },
+  {
    "from": "join-2017r1-hb5004-agency-291",
    "type": "references_external",
    "to": "2017 Regular Session House Bill 5004"
@@ -24462,6 +24507,26 @@
    "to": "expenditures-107-fy2021"
   },
   {
+   "from": "join-2019r1-sb5503-agency-585",
+   "type": "references_external",
+   "to": "2019 Regular Session Senate Bill 5503"
+  },
+  {
+   "from": "join-2019r1-sb5503-agency-585",
+   "type": "related",
+   "to": "appropriations-2019r1-sb5503"
+  },
+  {
+   "from": "join-2019r1-sb5503-agency-585",
+   "type": "related",
+   "to": "expenditures-585-fy2020"
+  },
+  {
+   "from": "join-2019r1-sb5503-agency-585",
+   "type": "related",
+   "to": "expenditures-585-fy2021"
+  },
+  {
    "from": "join-2019r1-sb5504-agency-291",
    "type": "references_external",
    "to": "2019 Regular Session Senate Bill 5504"
@@ -26020,6 +26085,26 @@
    "from": "join-2021r1-hb5002-agency-107",
    "type": "related",
    "to": "expenditures-107-fy2023"
+  },
+  {
+   "from": "join-2021r1-hb5003-agency-585",
+   "type": "references_external",
+   "to": "2021 Regular Session House Bill 5003"
+  },
+  {
+   "from": "join-2021r1-hb5003-agency-585",
+   "type": "related",
+   "to": "appropriations-2021r1-hb5003"
+  },
+  {
+   "from": "join-2021r1-hb5003-agency-585",
+   "type": "related",
+   "to": "expenditures-585-fy2022"
+  },
+  {
+   "from": "join-2021r1-hb5003-agency-585",
+   "type": "related",
+   "to": "expenditures-585-fy2023"
   },
   {
    "from": "join-2021r1-hb5004-agency-291",
@@ -29142,6 +29227,26 @@
    "to": "expenditures-107-fy2025"
   },
   {
+   "from": "join-2023r1-sb5503-agency-585",
+   "type": "references_external",
+   "to": "2023 Regular Session Senate Bill 5503"
+  },
+  {
+   "from": "join-2023r1-sb5503-agency-585",
+   "type": "related",
+   "to": "appropriations-2023r1-sb5503"
+  },
+  {
+   "from": "join-2023r1-sb5503-agency-585",
+   "type": "related",
+   "to": "expenditures-585-fy2024"
+  },
+  {
+   "from": "join-2023r1-sb5503-agency-585",
+   "type": "related",
+   "to": "expenditures-585-fy2025"
+  },
+  {
    "from": "join-2023r1-sb5504-agency-291",
    "type": "references_external",
    "to": "2023 Regular Session Senate Bill 5504"
@@ -30240,6 +30345,26 @@
    "from": "join-2024r1-hb4131-agency-914",
    "type": "related",
    "to": "expenditures-914-fy2025"
+  },
+  {
+   "from": "join-2024r1-hb4158-agency-123",
+   "type": "references_external",
+   "to": "2024 Regular Session House Bill 4158"
+  },
+  {
+   "from": "join-2024r1-hb4158-agency-123",
+   "type": "related",
+   "to": "appropriations-2024r1-hb4158"
+  },
+  {
+   "from": "join-2024r1-hb4158-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2024"
+  },
+  {
+   "from": "join-2024r1-hb4158-agency-123",
+   "type": "related",
+   "to": "expenditures-123-fy2025"
   },
   {
    "from": "join-2024r1-hb5204-agency-525",

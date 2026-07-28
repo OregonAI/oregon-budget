@@ -33,13 +33,14 @@ sibling_document_id: measure-2024r1-hb4158
 sibling_snapshot_id: measure-2024r1-hb4158-introduced
 sibling_source_sha256: f75156c56cc8179bdf03bdb9df5b848d14c63e1996ec0dd5993a910b237bd183
 extraction_status: single-appropriation
-appropriated_to: Oregon Business Development Department to carry
+appropriated_to: Oregon Business Development Department
 fund: General Fund
 biennium: ending 2025
 biennium_fiscal_years:
 - 2024
 - 2025
 blank_amounts: 0
+blank_recipient: false
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -53,7 +54,7 @@ blank_amounts: 0
 
 HB 4158 (2024R1): Appropriates moneys from the General Fund to the Oregon Business Development Department for deposit in the Child Care Infrastructure Fund to provide financial assistance to certain child care providers or organizations that support those child care providers.
 
-Parsed context: appropriated to **Oregon Business Development Department to carry**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
+Parsed context: appropriated to **Oregon Business Development Department**, out of the **General Fund**, for the biennium **ending 2025** (fiscal years 2024–2025).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

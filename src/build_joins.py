@@ -366,10 +366,22 @@ def unresolved_report(registry: Path) -> int:
             continue
         groups[name].append(fm)
 
-    missing, variant, nocode, absent = [], [], [], []
+    blank, missing, variant, nocode, absent = [], [], [], [], []
     for name, docs in groups.items():
         if not name or len(toks(name)) == 0:
-            missing.append((name, docs, None, 0.0))
+            # The bill itself leaves the recipient blank ("appropriated to ______") — a
+            # budget-bill template with the agency not filled in. Separated from a real
+            # extraction failure because they need opposite responses: nothing can fix a
+            # name the bill does not contain.
+            # Partition PER DOCUMENT, not per group. The empty-name group mixes both
+            # cases, and an `all()` over the group put every one of them in whichever
+            # bucket the outlier chose.
+            b = [d for d in docs if d.get("blank_recipient")]
+            m = [d for d in docs if not d.get("blank_recipient")]
+            if b:
+                blank.append((name, b, None, 0.0))
+            if m:
+                missing.append((name, m, None, 0.0))
             continue
         best, score = suggest(name)
         if best and best.get("budget_agency_code") and score >= 0.6:
@@ -395,15 +407,26 @@ def unresolved_report(registry: Path) -> int:
          "*Legislative* Revenue Office once got matched to the Department of Revenue. "
          "Everything below stays unjoined until a human confirms it.", ""]
 
-    L += ["## 1. Extraction failed — the parser, not the registry", "",
-          f"**{sum(len(d) for _, d, _, _ in missing)} appropriations.** `appropriated_to` "
-          f"is empty or too truncated to identify. These are NOT missing registry "
-          f"mappings: the bill names an agency and `APPROPRIATED_TO` failed to capture it. "
-          f"Fixing them is parser work in `src/extract_appropriations.py`, and it is the "
-          f"largest single category — curating registry data would not help.", "",
+    L += ["## 1. The BILL leaves the recipient blank — nothing to fix", "",
+          f"**{sum(len(d) for _, d, _, _ in blank)} appropriations.** The text reads "
+          f"`appropriated to ______`. These are HB 5000-series budget templates whose "
+          f"agency has not been filled in yet, so no agency could be extracted because "
+          f"**the bill names none**. Not a parser defect and not a registry gap — there is "
+          f"no fix, only accurate reporting.", "",
           "| captured value | appropriations | example bill |", "|---|---:|---|"]
-    for name, docs, _, _ in sorted(missing, key=lambda x: -len(x[1])):
+    for name, docs, _, _ in sorted(blank, key=lambda x: -len(x[1])):
         L.append(f"| `{name or '(empty)'}` | {len(docs)} | `{docs[0]['id']}` |")
+
+    L += ["", "## 1b. Extraction genuinely failed — the parser", "",
+          f"**{sum(len(d) for _, d, _, _ in missing)} appropriations.** The bill names an "
+          f"agency and `APPROPRIATED_TO` failed to capture it. This is parser work in "
+          f"`src/extract_appropriations.py`.", ""]
+    if missing:
+        L += ["| captured value | appropriations | example bill |", "|---|---:|---|"]
+        for name, docs, _, _ in sorted(missing, key=lambda x: -len(x[1])):
+            L.append(f"| `{name or '(empty)'}` | {len(docs)} | `{docs[0]['id']}` |")
+    else:
+        L.append("_None._")
 
     L += ["", "## 2. Probable name variant — needs a human to confirm", "",
           f"**{sum(len(d) for _, d, _, _ in variant)} appropriations.** A registry entry "
@@ -450,7 +473,8 @@ def unresolved_report(registry: Path) -> int:
     out = ROOT / "_meta" / "unresolved-agencies.md"
     out.write_text("\n".join(L))
     print(f"wrote {out.relative_to(ROOT)}")
-    print(f"  {sum(len(d) for _,d,_,_ in missing):>4} extraction failed (parser work)")
+    print(f"  {sum(len(d) for _,d,_,_ in blank):>4} bill leaves recipient blank (no fix exists)")
+    print(f"  {sum(len(d) for _,d,_,_ in missing):>4} extraction genuinely failed (parser work)")
     print(f"  {sum(len(d) for _,d,_,_ in variant):>4} probable name variant (human confirms)")
     print(f"  {sum(len(d) for _,d,_,_ in nocode):>4} in registry, no budget code (cannot join)")
     print(f"  {sum(len(d) for _,d,_,_ in absent):>4} no registry counterpart (correct)")

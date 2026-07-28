@@ -40,6 +40,7 @@ biennium_fiscal_years:
 - 2020
 - 2021
 blank_amounts: 0
+blank_recipient: false
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
