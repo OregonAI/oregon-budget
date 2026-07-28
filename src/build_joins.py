@@ -295,10 +295,145 @@ def check(con) -> int:
     return 1 if bad else 0
 
 
+
+def unresolved_report(registry: Path) -> int:
+    """Write the unresolved-agency work list.
+
+    GENERATED, not hand-maintained, so it cannot quietly go stale as the extractor improves
+    or the sibling registry gains codes. Regenerate with:
+
+        python3 src/build_joins.py --unresolved-report
+
+    The categories matter more than the count. Most of this list is NOT a missing registry
+    mapping — it is the extractor failing to capture a name — and reporting one as the
+    other would send someone to curate data that is already there.
+    """
+    import collections
+    import re
+    from datetime import datetime, timezone
+
+    by_name = erf_agencies(registry)
+    if not by_name:
+        print(f"SKIPPED: no agency registry at {registry}; refusing to report every "
+              f"appropriation as unresolved.", file=sys.stderr)
+        return 2
+    reg = yaml.safe_load(registry.read_text())["organizations"]
+
+    STOP = {"of", "the", "and", "state", "oregon", "department", "office", "commission",
+            "board", "division"}
+
+    def toks(t):
+        return {w for w in re.sub(r"[^a-z ]", " ", t.lower()).split() if w not in STOP}
+
+    def suggest(name):
+        """Closest registry entry by content-word overlap. A SUGGESTION for a human, never
+        applied — this is exactly the fuzzy matching resolve_agency refuses to do."""
+        t = toks(name)
+        if not t:
+            return None, 0.0
+        best, score = None, 0.0
+        for o in reg:
+            ot = toks(o["name"])
+            if not ot:
+                continue
+            j = len(t & ot) / len(t | ot)
+            if j > score:
+                best, score = o, j
+        return best, score
+
+    groups = collections.defaultdict(list)
+    for p in sorted(BILLS.glob("*.md")):
+        fm = yaml.safe_load(p.read_text().split("---\n", 2)[1])
+        if not (set(fm.get("biennium_fiscal_years") or []) & MIRROR_YEARS):
+            continue
+        name = (fm.get("appropriated_to") or "").strip()
+        if resolve_agency(name, by_name):
+            continue
+        groups[name].append(fm)
+
+    missing, variant, absent = [], [], []
+    for name, docs in groups.items():
+        if not name or len(toks(name)) == 0:
+            missing.append((name, docs, None, 0.0))
+            continue
+        best, score = suggest(name)
+        if best and best.get("budget_agency_code") and score >= 0.6:
+            variant.append((name, docs, best, score))
+        else:
+            absent.append((name, docs, best, score))
+
+    n = sum(len(d) for d in groups.values())
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    L = [f"# Unresolved agencies", "",
+         f"_Generated {today} by `python3 src/build_joins.py --unresolved-report`. "
+         f"Do not edit by hand._", "",
+         f"**{n} appropriations** across **{len(groups)} distinct names** overlap the "
+         f"FY2019–FY2025 expenditure mirror but name an agency that does not resolve "
+         f"against the sibling registry's `budget_agency_code`, so no join was built.", "",
+         "Resolution is deliberately exact-only. A near-match attaches an appropriation to "
+         "the wrong agency and the result reads as a finding — which is how the "
+         "*Legislative* Revenue Office once got matched to the Department of Revenue. "
+         "Everything below stays unjoined until a human confirms it.", ""]
+
+    L += ["## 1. Extraction failed — the parser, not the registry", "",
+          f"**{sum(len(d) for _, d, _, _ in missing)} appropriations.** `appropriated_to` "
+          f"is empty or too truncated to identify. These are NOT missing registry "
+          f"mappings: the bill names an agency and `APPROPRIATED_TO` failed to capture it. "
+          f"Fixing them is parser work in `src/extract_appropriations.py`, and it is the "
+          f"largest single category — curating registry data would not help.", "",
+          "| captured value | appropriations | example bill |", "|---|---:|---|"]
+    for name, docs, _, _ in sorted(missing, key=lambda x: -len(x[1])):
+        L.append(f"| `{name or '(empty)'}` | {len(docs)} | `{docs[0]['id']}` |")
+
+    L += ["", "## 2. Probable name variant — needs a human to confirm", "",
+          f"**{sum(len(d) for _, d, _, _ in variant)} appropriations.** A registry entry "
+          f"with a budget code looks like the same body, usually differing only in word "
+          f"order (\"State Forestry Department\" vs \"Department of Forestry\"). "
+          f"**Suggestions are unverified** and were produced by exactly the fuzzy matching "
+          f"`resolve_agency` refuses to apply. Confirm one by recording it in the "
+          f"sibling's registry, not by loosening the matcher.", "",
+          "| bill says | appropriations | suggested registry entry | code | overlap |",
+          "|---|---:|---|---:|---:|"]
+    for name, docs, best, score in sorted(variant, key=lambda x: -len(x[1])):
+        L.append(f"| {name} | {len(docs)} | `{best['slug']}` | {best['budget_agency_code']} "
+                 f"| {score:.2f} |")
+
+    L += ["", "## 3. No registry counterpart — correctly unresolved", "",
+          f"**{sum(len(d) for _, d, _, _ in absent)} appropriations.** These bodies issue "
+          f"no administrative rules, so they hold no OAR chapter and do not appear in a "
+          f"registry keyed on chapter assignment. The Emergency Board is a contingency "
+          f"fund that disburses through other agencies; the Governor's office and the "
+          f"legislative-branch bodies are outside the executive rulemaking scheme "
+          f"entirely. Absence here is a fact about the registry's scope, not a gap to "
+          f"fill.", "",
+          "| bill says | appropriations | closest registry entry (no code / low overlap) |",
+          "|---|---:|---|"]
+    for name, docs, best, score in sorted(absent, key=lambda x: -len(x[1])):
+        near = f"`{best['slug']}` ({score:.2f})" if best and score >= 0.4 else "—"
+        L.append(f"| {name} | {len(docs)} | {near} |")
+
+    L += ["", "---", "",
+          "Appropriations whose biennium falls OUTSIDE FY2019–FY2025 are not listed here — "
+          "they cannot be joined regardless of agency, because the expenditure mirror does "
+          "not reach those years. See the README's coverage table.", ""]
+
+    out = ROOT / "_meta" / "unresolved-agencies.md"
+    out.write_text("\n".join(L))
+    print(f"wrote {out.relative_to(ROOT)}")
+    print(f"  {sum(len(d) for _,d,_,_ in missing):>4} extraction failed (parser work)")
+    print(f"  {sum(len(d) for _,d,_,_ in variant):>4} probable name variant (human confirms)")
+    print(f"  {sum(len(d) for _,d,_,_ in absent):>4} no registry counterpart (correct)")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--unresolved-report", action="store_true",
+                    help="write _meta/unresolved-agencies.md — the work list of "
+                         "appropriations that overlap the mirror but name an agency the "
+                         "registry does not resolve")
     ap.add_argument("--registry", default=None,
                     help="path to executive-regulatory-frameworks' agencies.yml")
     args = ap.parse_args()
@@ -307,6 +442,8 @@ def main() -> int:
     con = duckdb.connect()
     if args.check:
         return check(con)
+    if args.unresolved_report:
+        return unresolved_report(Path(args.registry) if args.registry else default_registry())
 
     registry = Path(args.registry) if args.registry else default_registry()
     by_name = erf_agencies(registry)
