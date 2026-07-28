@@ -95,8 +95,8 @@ The largest budget category was **Dist To Corrections** at $970,162,672.00 (27.7
 | 5550 | Data Processing Software | $2,532,818.83 | 0.1% | 9 |
 | 6085 | Other Special Payments | $1,914,000.00 | 0.1% | 36 |
 | 6040 | Distribution To Local School Dist | $1,900,000.00 | 0.1% | 1 |
-| 6635 | Dist To Fish And Wildlife | $1,000,000.00 | 0.0% | 1 |
 | 6250 | Dist To Marine Board | $1,000,000.00 | 0.0% | 1 |
+| 6635 | Dist To Fish And Wildlife | $1,000,000.00 | 0.0% | 1 |
 | 4175 | Office Expenses | $806,483.98 | 0.0% | 19 |
 | 4150 | Employee Training | $699,826.22 | 0.0% | 153 |
 | 3110 | Class/Unclass Salary & Per Diem | $610,334.43 | 0.0% | 15 |

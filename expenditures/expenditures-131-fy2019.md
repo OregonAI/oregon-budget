@@ -98,8 +98,8 @@ The 20 largest of 33 payees this agency recorded payments to in FY2019, accounti
 | NANCY KRAMER | $857.29 | 1.4% | 2 |
 | LUCILLE BAKER | $700.87 | 1.1% | 2 |
 | STATE OF OREGON DEPARTMENT OF JUSTICE | $618.80 | 1.0% | 1 |
-| URBAN LEAGUE OF PORTLAND | $500.00 | 0.8% | 1 |
 | CHINESE AMERICAN CITIZENS ALLIANCE | $500.00 | 0.8% | 1 |
+| URBAN LEAGUE OF PORTLAND | $500.00 | 0.8% | 1 |
 | CONNIE KIM-GERVEY | $367.67 | 0.6% | 1 |
 | LAWANDA JOYCE MANNING | $241.98 | 0.4% | 1 |
 | IRMA LINDA CASTILLO | $196.77 | 0.3% | 1 |

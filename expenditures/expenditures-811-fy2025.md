@@ -114,8 +114,8 @@ The 20 largest of 30 payees this agency recorded payments to in FY2025, accounti
 | CASSANDRA SKINNER | $646.49 | 0.1% | 4 |
 | SHI INTERNATIONAL CORP | $643.30 | 0.1% | 1 |
 | CRAIG KAWAOKA | $491.40 | 0.1% | 1 |
-| THOMAS D FREEDLAND DC | $375.00 | 0.1% | 1 |
 | ACTIVE FAMILY CHIROPRACTIC | $375.00 | 0.1% | 1 |
+| THOMAS D FREEDLAND DC | $375.00 | 0.1% | 1 |
 
 ## Curator notes
 

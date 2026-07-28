@@ -108,8 +108,8 @@ The 20 largest of 40 payees this agency recorded payments to in FY2020, accounti
 | ZAYO GROUP LLC | $4,171.46 | 1.6% | 1 |
 | CHAVES CONSULTING INC | $3,721.20 | 1.5% | 1 |
 | INTEGRATED CLINICAL & CORRECTIONAL SERVICES | $3,000.00 | 1.2% | 1 |
-| PITNEY BOWES INC | $3,000.00 | 1.2% | 1 |
 | MENTAL HEALTH ASSOCIATION OF PORTLAND | $3,000.00 | 1.2% | 1 |
+| PITNEY BOWES INC | $3,000.00 | 1.2% | 1 |
 | IBM CORPORATION | $2,847.50 | 1.1% | 1 |
 | RICOH USA INC | $2,408.94 | 0.9% | 2 |
 | STATE OF OREGON - SECRETARY OF STATE | $2,376.20 | 0.9% | 1 |
