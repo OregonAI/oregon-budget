@@ -39,6 +39,7 @@ biennium: beginning 2025
 biennium_fiscal_years:
 - 2026
 - 2027
+blank_amounts: 4
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -65,6 +66,8 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 | $2,000,000 | General Fund, the amount of $2,000,000 for deposit in  the Place-Based Water Planning Fund established under ORS 537.872. |
 
 ## Curator notes
+
+**This bill contains 4 appropriation(s) with the dollar figure LEFT BLANK** — the text reads "the amount of $" with no number. Those are appropriations whose sum is unspecified in this version of the bill, not appropriations of zero, and they are counted here rather than in the tables above because there is no figure to report.
 
 Summing every dollar figure in an appropriation bill **double-counts**: a bill states an appropriation and then itemizes the same money. The stated appropriation and the line items are separate tables above for exactly that reason, and must never be added together.
 

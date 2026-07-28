@@ -60,11 +60,14 @@ and this dataset has no such column.
 
 | | |
 |---|---|
-| appropriations extracted | 170 |
-| biennium outside the FY2019–FY2025 mirror | **150** — the money is not spent yet |
-| overlapping the mirror | 20 |
-| agency resolves exactly → joined | **18** |
-| agency does not resolve → recorded unresolved, never guessed | 2 |
+| appropriations extracted | **597** across 18 sessions (2017R1–2026R1) |
+| biennium outside the FY2019–FY2025 mirror | 157 — the money is not spent yet |
+| overlapping the mirror | 440 |
+| agency resolves exactly → joined | **369** |
+| agency does not resolve → recorded unresolved, never guessed | 71 |
+
+Joins now span **all seven mirrored fiscal years** (FY2019–FY2025) across 36 agencies,
+rather than the FY2024–25 sliver the first pass could reach.
 
 Mapping a biennium onto fiscal years is the single most likely source of a plausible wrong
 number, so the assumption travels **on every join document** rather than living in a

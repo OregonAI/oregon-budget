@@ -59,13 +59,22 @@ MAINTAINER = "@dzinck"
 DISCLAIMER = "NON-AUTHORITATIVE"
 
 MARGIN_NUMBER = re.compile(r"\s*\d{1,2}\s*")
-AMOUNT = re.compile(r"\$\s?([\d,]+(?:\.\d{2})?)")
+AMOUNT = re.compile(r"\$\s?(\d[\d,]*(?:\.\d{2})?)")
 APPROPRIATED_TO = re.compile(
     r"appropriat(?:ed|ion)\s+to\s+the\s+([A-Z][A-Za-z’'\- ]{3,70}?)(?=,|\s+for\s|\s+out\s)", re.I)
-AMOUNT_OF = re.compile(r"the\s+amount\s+of\s+\$\s?([\d,]+(?:\.\d{2})?)")
-SUBITEM = re.compile(r"\((\d+)\)\s*([^$]{0,160}?)\$\s?([\d,]+(?:\.\d{2})?)")
+AMOUNT_OF = re.compile(r"the\s+amount\s+of\s+\$\s?(\d[\d,]*(?:\.\d{2})?)")
+SUBITEM = re.compile(r"\((\d+)\)\s*([^$]{0,160}?)\$\s?(\d[\d,]*(?:\.\d{2})?)")
 FUND = re.compile(r"out\s+of\s+the\s+([A-Z][A-Za-z ]{2,40}?\s+Fund)", re.I)
 BIENNIUM = re.compile(r"biennium\s+(beginning|ending)\s+\w+\s+\d{1,2},\s*(\d{4})", re.I)
+
+# An APPROPRIATION WITH NO FIGURE YET. 2019R1 HB2020 reads, verbatim, "out of the General
+# Fund, the amount of $ , which may be expended for compensation" — an introduced bill with
+# the sum left blank. Every amount pattern above now requires a leading DIGIT, because
+# `[\d,]+` matched the bare comma in "$ ," and money() then crashed on float(""). Declining
+# to match it is necessary but not sufficient: a blank amount is an appropriation whose sum
+# is UNSPECIFIED, which is a fact about the bill, and silently dropping it would let the
+# document imply the bill appropriates nothing. Counted and reported instead.
+BLANK_AMOUNT = re.compile(r"the\s+amount\s+of\s+\$\s*(?![\d])")
 
 
 def biennium_fiscal_years(word: str, year: str | int) -> list[int]:
@@ -237,6 +246,7 @@ def parse_bill(flowed: str, raw_lines: list[str]) -> dict:
         "line_items": [i for s in sections for i in s["line_items"]],
         "subsections": [x for s in sections for x in s["subsections"]],
         "distinct_amounts_in_text": len(AMOUNT.findall(flowed)),
+        "blank_amounts": len(BLANK_AMOUNT.findall(flowed)),
     }
 
 
@@ -369,6 +379,7 @@ def build_doc(measure: dict, parsed: dict, rec: dict, sibling_sha: str, today: s
         "fund": parsed["fund"],
         "biennium": parsed["biennium"],
         "biennium_fiscal_years": parsed["biennium_fiscal_years"],
+        "blank_amounts": parsed.get("blank_amounts", 0),
     }
 
     L = []
@@ -421,6 +432,14 @@ def build_doc(measure: dict, parsed: dict, rec: dict, sibling_sha: str, today: s
 
     L.append("## Curator notes")
     L.append("")
+    if parsed.get("blank_amounts"):
+        L.append(f"**This bill contains {parsed['blank_amounts']} appropriation(s) with the "
+                 f"dollar figure LEFT BLANK** — the text reads \"the amount of $\" with no "
+                 f"number. Those are appropriations whose sum is unspecified in this "
+                 f"version of the bill, not appropriations of zero, and they are counted "
+                 f"here rather than in the tables above because there is no figure to "
+                 f"report.")
+        L.append("")
     L.append("Summing every dollar figure in an appropriation bill **double-counts**: a "
              "bill states an appropriation and then itemizes the same money. The stated "
              "appropriation and the line items are separate tables above for exactly that "
