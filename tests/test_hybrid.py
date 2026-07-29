@@ -16,6 +16,7 @@ Two rules are worth a test each, and both are about what must NOT happen:
      fiscal claim "no spending recorded".
 """
 import asyncio
+import inspect
 import sys
 from pathlib import Path
 
@@ -59,7 +60,22 @@ def canned(monkeypatch):
 
 
 def call(mcp, name, **kw):
-    return asyncio.run(mcp._tool_manager.call_tool(name, kw))
+    """Invoke a registered tool by name.
+
+    `_tool_manager.call_tool` is a FastMCP internal and its signature changed in mcp 2.0:
+    `context` became a REQUIRED positional. corpus-toolkit v1.8.0 supports both SDK majors
+    (`mcp[cli]>=1.28,<3`) precisely so a corpus is not forced to move in lockstep, so a
+    test that hardcodes one call shape breaks on whichever major CI happens to resolve.
+
+    Bind by SIGNATURE, not by version number: the parameter list is the thing that varies,
+    and reading it stays correct if a future major reorders or renames again. A version
+    check would need editing every time the SDK moves.
+    """
+    mgr = mcp._tool_manager
+    extra = {}
+    if "context" in inspect.signature(mgr.call_tool).parameters:
+        extra["context"] = None          # these tools take no Context; none is needed
+    return asyncio.run(mgr.call_tool(name, kw, **extra))
 
 
 # ---------------------------------------------------------------- registration

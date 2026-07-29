@@ -55,4 +55,4 @@ jobs:
       # selects the workflow file, `toolkit-ref` selects the toolkit it installs. Leave
       # this out and you silently run whatever the default happens to be. Bump both
       # together.
-      toolkit-ref: v1.6.0
+      toolkit-ref: v1.8.0
