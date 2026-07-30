@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+# Written by the MCP framework itself at runtime (the FTS index). Copying a host-built one in
+# would ship an index whose cache key does not match this image's HEAD, so it would be
+# discarded and rebuilt on first request anyway.
+_meta/.cache/
+# Generated at deploy time by the pages workflow; never needed at runtime.
+site/
+# 6 MB of Parquet that the SERVER never opens. It is the build-and-analysis artifact:
+# ingest_expenditures.py writes it and build_documents.py reads it to generate the 544
+# agency-year documents, both offline. At serve time actuals are proxied LIVE from Socrata
+# (see src/budget_backend.py), so the mirror is not a fallback the server can reach for --
+# the Dockerfile already says this and now the build context matches.
+data/
+# NOTE: .git is deliberately NOT ignored -- it is a RUNTIME dependency. The FTS cache key is
+# `git rev-parse HEAD` plus a hash of `git status --porcelain`, and corpus_overview() shells
+# out to `git log -1`. Without it, repo_state() collapses to a constant, which means content
+# changes are never picked up for the life of the process and corpus_overview reports an empty
+# commit -- silently, in both cases. Build from a depth-1 clone to keep it small.
