@@ -53,21 +53,29 @@ Legislative Rev Office (agency code 144, recorded upstream as `LEGISLATIVE REV O
 
 The largest budget category was **State Government Service Charges** at $19,452.38 (31.3% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $62,063.69 | 100.0% | 11 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $19,452.38 | 31.3% | 3 |
-| 4300 | Professional Services | $14,396.20 | 23.2% | 2 |
-| 4175 | Office Expenses | $6,555.94 | 10.6% | 7 |
-| 4250 | Data Processing | $6,147.68 | 9.9% | 2 |
-| 4400 | Dues And Subscriptions | $4,371.02 | 7.0% | 4 |
-| 4275 | Publicity & Publications | $3,769.99 | 6.1% | 2 |
-| 4715 | It Expendable Property | $3,699.20 | 6.0% | 4 |
-| 4700 | Expendable Property $250-$5000 | $1,609.23 | 2.6% | 1 |
-| 4150 | Employee Training | $1,154.54 | 1.9% | 6 |
-| 4100 | Instate Travel | $608.75 | 1.0% | 6 |
-| 4200 | Telecomm/Tech Svc And Supplies | $298.76 | 0.5% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $19,452.38 | 31.3% | 3 |
+| 4300 | Professional Services | Services and supplies | $14,396.20 | 23.2% | 2 |
+| 4175 | Office Expenses | Services and supplies | $6,555.94 | 10.6% | 7 |
+| 4250 | Data Processing | Services and supplies | $6,147.68 | 9.9% | 2 |
+| 4400 | Dues And Subscriptions | Services and supplies | $4,371.02 | 7.0% | 4 |
+| 4275 | Publicity & Publications | Services and supplies | $3,769.99 | 6.1% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $3,699.20 | 6.0% | 4 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $1,609.23 | 2.6% | 1 |
+| 4150 | Employee Training | Services and supplies | $1,154.54 | 1.9% | 6 |
+| 4100 | Instate Travel | Services and supplies | $608.75 | 1.0% | 6 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $298.76 | 0.5% | 2 |
 
 ## Largest expenditure classes
 

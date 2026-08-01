@@ -54,24 +54,33 @@ Parole/Post Prison Supv, Brd (agency code 255, recorded upstream as `PAROLE/POST
 
 The largest budget category was **Attorney General Legal Fees** at $381,347.25 (31.1% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $1,207,488.26 | 98.3% | 11 |
+| Personnel services | $20,659.90 | 1.7% | 3 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $381,347.25 | 31.1% | 1 |
-| 4425 | Lease Payments & Taxes | $241,074.70 | 19.6% | 1 |
-| 4225 | State Government Service Charges | $150,842.18 | 12.3% | 4 |
-| 4650 | Other Services And Supplies | $131,107.60 | 10.7% | 4 |
-| 4525 | Medical Supplies And Services | $121,180.00 | 9.9% | 2 |
-| 4300 | Professional Services | $114,378.96 | 9.3% | 9 |
-| 4200 | Telecomm/Tech Svc And Supplies | $39,812.79 | 3.2% | 4 |
-| 3240 | Unemployment Assessment | $19,097.70 | 1.6% | 1 |
-| 4715 | It Expendable Property | $13,816.18 | 1.1% | 4 |
-| 4175 | Office Expenses | $11,428.64 | 0.9% | 7 |
-| 4400 | Dues And Subscriptions | $1,851.00 | 0.2% | 3 |
-| 3220 | Public Employes' Retirement System | $1,277.88 | 0.1% | 1 |
-| 4250 | Data Processing | $648.96 | 0.1% | 1 |
-| 3110 | Class/Unclass Salary & Per Diem | $284.32 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $381,347.25 | 31.1% | 1 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $241,074.70 | 19.6% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $150,842.18 | 12.3% | 4 |
+| 4650 | Other Services And Supplies | Services and supplies | $131,107.60 | 10.7% | 4 |
+| 4525 | Medical Supplies And Services | Services and supplies | $121,180.00 | 9.9% | 2 |
+| 4300 | Professional Services | Services and supplies | $114,378.96 | 9.3% | 9 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $39,812.79 | 3.2% | 4 |
+| 3240 | Unemployment Assessment | Personnel services | $19,097.70 | 1.6% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $13,816.18 | 1.1% | 4 |
+| 4175 | Office Expenses | Services and supplies | $11,428.64 | 0.9% | 7 |
+| 4400 | Dues And Subscriptions | Services and supplies | $1,851.00 | 0.2% | 3 |
+| 3220 | Public Employes' Retirement System | Personnel services | $1,277.88 | 0.1% | 1 |
+| 4250 | Data Processing | Services and supplies | $648.96 | 0.1% | 1 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $284.32 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

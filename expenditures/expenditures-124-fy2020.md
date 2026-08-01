@@ -54,24 +54,32 @@ Licensed Social Workers Brd (agency code 124, recorded upstream as `LICENSED SOC
 
 The largest budget category was **Facilities Rent & Taxes** at $48,565.44 (18.4% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $264,601.18 | 100.0% | 14 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4425 | Facilities Rent & Taxes | $48,565.44 | 18.4% | 1 |
-| 4650 | Other Services And Supplies | $42,957.01 | 16.2% | 4 |
-| 4325 | Attorney General Legal Fees | $35,118.36 | 13.3% | 1 |
-| 4225 | State Government Service Charges | $32,757.01 | 12.4% | 5 |
-| 4315 | It Professional Services | $31,053.73 | 11.7% | 3 |
-| 4575 | Agency Program Related Svcs & Supp | $29,918.25 | 11.3% | 1 |
-| 4300 | Professional Services | $14,848.46 | 5.6% | 3 |
-| 4250 | Data Processing | $14,400.71 | 5.4% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $5,832.20 | 2.2% | 4 |
-| 4175 | Office Expenses | $5,060.33 | 1.9% | 2 |
-| 4100 | Instate Travel | $2,931.88 | 1.1% | 22 |
-| 4275 | Publicity & Publications | $1,003.76 | 0.4% | 1 |
-| 4150 | Employee Training | $129.05 | 0.0% | 2 |
-| 4715 | It Expendable Property | $24.99 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4425 | Facilities Rent & Taxes | Services and supplies | $48,565.44 | 18.4% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $42,957.01 | 16.2% | 4 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $35,118.36 | 13.3% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $32,757.01 | 12.4% | 5 |
+| 4315 | It Professional Services | Services and supplies | $31,053.73 | 11.7% | 3 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $29,918.25 | 11.3% | 1 |
+| 4300 | Professional Services | Services and supplies | $14,848.46 | 5.6% | 3 |
+| 4250 | Data Processing | Services and supplies | $14,400.71 | 5.4% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $5,832.20 | 2.2% | 4 |
+| 4175 | Office Expenses | Services and supplies | $5,060.33 | 1.9% | 2 |
+| 4100 | Instate Travel | Services and supplies | $2,931.88 | 1.1% | 22 |
+| 4275 | Publicity & Publications | Services and supplies | $1,003.76 | 0.4% | 1 |
+| 4150 | Employee Training | Services and supplies | $129.05 | 0.0% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $24.99 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

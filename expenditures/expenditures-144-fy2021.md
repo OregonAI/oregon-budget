@@ -54,18 +54,26 @@ Legislative Rev Office (agency code 144, recorded upstream as `LEGISLATIVE REV O
 
 The largest budget category was **State Government Service Charges** at $27,007.57 (39.4% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $68,531.02 | 100.0% | 8 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $27,007.57 | 39.4% | 3 |
-| 4715 | It Expendable Property | $24,281.83 | 35.4% | 7 |
-| 4400 | Dues And Subscriptions | $10,493.79 | 15.3% | 4 |
-| 4175 | Office Expenses | $4,129.57 | 6.0% | 5 |
-| 4275 | Publicity & Publications | $2,560.00 | 3.7% | 1 |
-| 4150 | Employee Training | $36.36 | 0.1% | 1 |
-| 4650 | Other Services And Supplies | $15.00 | 0.0% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $6.90 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $27,007.57 | 39.4% | 3 |
+| 4715 | It Expendable Property | Services and supplies | $24,281.83 | 35.4% | 7 |
+| 4400 | Dues And Subscriptions | Services and supplies | $10,493.79 | 15.3% | 4 |
+| 4175 | Office Expenses | Services and supplies | $4,129.57 | 6.0% | 5 |
+| 4275 | Publicity & Publications | Services and supplies | $2,560.00 | 3.7% | 1 |
+| 4150 | Employee Training | Services and supplies | $36.36 | 0.1% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $15.00 | 0.0% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $6.90 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

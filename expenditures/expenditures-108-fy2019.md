@@ -53,27 +53,36 @@ Mental Health Regulatory Agy (agency code 108, recorded upstream as `MENTAL HEAL
 
 The largest budget category was **Attorney General Legal Fees** at $202,494.15 (28.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $708,716.66 | 97.9% | 15 |
+| Personnel services | $15,310.60 | 2.1% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $202,494.15 | 28.0% | 1 |
-| 4650 | Other Services And Supplies | $122,142.84 | 16.9% | 5 |
-| 4300 | Professional Services | $119,914.38 | 16.6% | 4 |
-| 4425 | Facilities Rent & Taxes | $86,016.30 | 11.9% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $34,523.75 | 4.8% | 1 |
-| 4225 | State Government Service Charges | $34,166.45 | 4.7% | 5 |
-| 4315 | It Professional Services | $29,347.28 | 4.1% | 5 |
-| 4250 | Data Processing | $28,673.79 | 4.0% | 3 |
-| 4175 | Office Expenses | $23,657.00 | 3.3% | 2 |
-| 3240 | Unemployment Assessment | $14,976.00 | 2.1% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $10,584.43 | 1.5% | 6 |
-| 4100 | Instate Travel | $6,848.81 | 0.9% | 37 |
-| 4150 | Employee Training | $5,876.51 | 0.8% | 12 |
-| 4275 | Publicity & Publications | $2,409.81 | 0.3% | 2 |
-| 4125 | Out-Of-State Travel | $1,561.16 | 0.2% | 8 |
-| 4400 | Dues And Subscriptions | $500.00 | 0.1% | 1 |
-| 3110 | Class/Unclass Salary & Per Diem | $334.60 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $202,494.15 | 28.0% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $122,142.84 | 16.9% | 5 |
+| 4300 | Professional Services | Services and supplies | $119,914.38 | 16.6% | 4 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $86,016.30 | 11.9% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $34,523.75 | 4.8% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $34,166.45 | 4.7% | 5 |
+| 4315 | It Professional Services | Services and supplies | $29,347.28 | 4.1% | 5 |
+| 4250 | Data Processing | Services and supplies | $28,673.79 | 4.0% | 3 |
+| 4175 | Office Expenses | Services and supplies | $23,657.00 | 3.3% | 2 |
+| 3240 | Unemployment Assessment | Personnel services | $14,976.00 | 2.1% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $10,584.43 | 1.5% | 6 |
+| 4100 | Instate Travel | Services and supplies | $6,848.81 | 0.9% | 37 |
+| 4150 | Employee Training | Services and supplies | $5,876.51 | 0.8% | 12 |
+| 4275 | Publicity & Publications | Services and supplies | $2,409.81 | 0.3% | 2 |
+| 4125 | Out-Of-State Travel | Services and supplies | $1,561.16 | 0.2% | 8 |
+| 4400 | Dues And Subscriptions | Services and supplies | $500.00 | 0.1% | 1 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $334.60 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

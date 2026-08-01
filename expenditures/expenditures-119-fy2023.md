@@ -54,22 +54,31 @@ Tax Practitioners, St Brd of (agency code 119, recorded upstream as `TAX PRACTIT
 
 The largest budget category was **Attorney General Legal Fees** at $104,093.31 (31.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $328,269.21 | 100.0% | 11 |
+| Personnel services | $83.18 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $104,093.31 | 31.7% | 1 |
-| 4650 | Other Services And Supplies | $73,149.60 | 22.3% | 5 |
-| 4300 | Professional Services | $57,169.20 | 17.4% | 1 |
-| 4425 | Lease Payments & Taxes | $30,042.09 | 9.1% | 1 |
-| 4315 | It Professional Services | $23,056.00 | 7.0% | 2 |
-| 4225 | State Government Service Charges | $15,070.63 | 4.6% | 4 |
-| 4250 | Data Processing | $10,169.81 | 3.1% | 3 |
-| 4175 | Office Expenses | $5,569.65 | 1.7% | 4 |
-| 4200 | Telecomm/Tech Svc And Supplies | $5,044.71 | 1.5% | 4 |
-| 4100 | Instate Travel | $2,955.28 | 0.9% | 13 |
-| 4715 | It Expendable Property | $1,948.93 | 0.6% | 2 |
-| 3110 | Class/Unclass Salary & Per Diem | $83.18 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $104,093.31 | 31.7% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $73,149.60 | 22.3% | 5 |
+| 4300 | Professional Services | Services and supplies | $57,169.20 | 17.4% | 1 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $30,042.09 | 9.1% | 1 |
+| 4315 | It Professional Services | Services and supplies | $23,056.00 | 7.0% | 2 |
+| 4225 | State Government Service Charges | Services and supplies | $15,070.63 | 4.6% | 4 |
+| 4250 | Data Processing | Services and supplies | $10,169.81 | 3.1% | 3 |
+| 4175 | Office Expenses | Services and supplies | $5,569.65 | 1.7% | 4 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $5,044.71 | 1.5% | 4 |
+| 4100 | Instate Travel | Services and supplies | $2,955.28 | 0.9% | 13 |
+| 4715 | It Expendable Property | Services and supplies | $1,948.93 | 0.6% | 2 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $83.18 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

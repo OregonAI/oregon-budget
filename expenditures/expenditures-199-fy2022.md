@@ -54,22 +54,30 @@ Government Ethics Cmsn (agency code 199, recorded upstream as `GOVERNMENT ETHICS
 
 The largest budget category was **It Professional Services** at $160,700.00 (35.1% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $457,517.49 | 100.0% | 12 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4315 | It Professional Services | $160,700.00 | 35.1% | 1 |
-| 4650 | Other Services And Supplies | $89,124.85 | 19.5% | 2 |
-| 4325 | Attorney General Legal Fees | $68,085.60 | 14.9% | 1 |
-| 4425 | Lease Payments & Taxes | $51,252.64 | 11.2% | 1 |
-| 4225 | State Government Service Charges | $35,584.82 | 7.8% | 3 |
-| 4250 | Data Processing | $25,496.73 | 5.6% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $14,943.55 | 3.3% | 7 |
-| 4715 | It Expendable Property | $8,137.64 | 1.8% | 2 |
-| 4175 | Office Expenses | $3,713.75 | 0.8% | 5 |
-| 4300 | Professional Services | $263.52 | 0.1% | 1 |
-| 4275 | Publicity & Publications | $128.11 | 0.0% | 1 |
-| 4100 | Instate Travel | $86.28 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4315 | It Professional Services | Services and supplies | $160,700.00 | 35.1% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $89,124.85 | 19.5% | 2 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $68,085.60 | 14.9% | 1 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $51,252.64 | 11.2% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $35,584.82 | 7.8% | 3 |
+| 4250 | Data Processing | Services and supplies | $25,496.73 | 5.6% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $14,943.55 | 3.3% | 7 |
+| 4715 | It Expendable Property | Services and supplies | $8,137.64 | 1.8% | 2 |
+| 4175 | Office Expenses | Services and supplies | $3,713.75 | 0.8% | 5 |
+| 4300 | Professional Services | Services and supplies | $263.52 | 0.1% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $128.11 | 0.0% | 1 |
+| 4100 | Instate Travel | Services and supplies | $86.28 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

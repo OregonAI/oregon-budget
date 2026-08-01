@@ -53,29 +53,39 @@ Teacher Standards & Practices (agency code 584, recorded upstream as `TEACHER ST
 
 The largest budget category was **Attorney General Legal Fees** at $238,870.88 (22.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $1,055,742.02 | 99.4% | 17 |
+| Personnel services | $3,722.53 | 0.4% | 1 |
+| Distributions | $2,400.00 | 0.2% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $238,870.88 | 22.5% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $210,311.53 | 19.8% | 4 |
-| 4425 | Facilities Rent & Taxes | $160,065.82 | 15.1% | 2 |
-| 4225 | State Government Service Charges | $143,667.75 | 13.5% | 4 |
-| 4650 | Other Services And Supplies | $135,436.12 | 12.8% | 6 |
-| 4250 | Data Processing | $53,288.12 | 5.0% | 4 |
-| 4200 | Telecomm/Tech Svc And Supplies | $39,643.46 | 3.7% | 4 |
-| 4400 | Dues And Subscriptions | $19,540.00 | 1.8% | 2 |
-| 4300 | Professional Services | $18,041.93 | 1.7% | 8 |
-| 4175 | Office Expenses | $8,579.81 | 0.8% | 7 |
-| 4700 | Expendable Property $250-$5000 | $7,389.85 | 0.7% | 3 |
-| 4125 | Out-Of-State Travel | $7,082.12 | 0.7% | 5 |
-| 4715 | It Expendable Property | $5,693.00 | 0.5% | 4 |
-| 4100 | Instate Travel | $5,282.18 | 0.5% | 15 |
-| 3220 | Public Employes' Retirement System | $3,722.53 | 0.4% | 3 |
-| 6040 | Distribution To Local School Dist | $2,400.00 | 0.2% | 1 |
-| 4150 | Employee Training | $2,070.66 | 0.2% | 10 |
-| 4475 | Facilities Maintenance | $474.15 | 0.0% | 2 |
-| 4275 | Publicity & Publications | $304.64 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $238,870.88 | 22.5% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $210,311.53 | 19.8% | 4 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $160,065.82 | 15.1% | 2 |
+| 4225 | State Government Service Charges | Services and supplies | $143,667.75 | 13.5% | 4 |
+| 4650 | Other Services And Supplies | Services and supplies | $135,436.12 | 12.8% | 6 |
+| 4250 | Data Processing | Services and supplies | $53,288.12 | 5.0% | 4 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $39,643.46 | 3.7% | 4 |
+| 4400 | Dues And Subscriptions | Services and supplies | $19,540.00 | 1.8% | 2 |
+| 4300 | Professional Services | Services and supplies | $18,041.93 | 1.7% | 8 |
+| 4175 | Office Expenses | Services and supplies | $8,579.81 | 0.8% | 7 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $7,389.85 | 0.7% | 3 |
+| 4125 | Out-Of-State Travel | Services and supplies | $7,082.12 | 0.7% | 5 |
+| 4715 | It Expendable Property | Services and supplies | $5,693.00 | 0.5% | 4 |
+| 4100 | Instate Travel | Services and supplies | $5,282.18 | 0.5% | 15 |
+| 3220 | Public Employes' Retirement System | Personnel services | $3,722.53 | 0.4% | 3 |
+| 6040 | Distribution To Local School Dist | Distributions | $2,400.00 | 0.2% | 1 |
+| 4150 | Employee Training | Services and supplies | $2,070.66 | 0.2% | 10 |
+| 4475 | Facilities Maintenance | Services and supplies | $474.15 | 0.0% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $304.64 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

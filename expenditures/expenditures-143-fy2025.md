@@ -53,22 +53,31 @@ Legislative Pol & Research Cmte (agency code 143, recorded upstream as `LEGISLAT
 
 The largest budget category was **Professional Services** at $919,257.91 (73.9% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $1,209,892.20 | 97.2% | 10 |
+| Personnel services | $34,461.15 | 2.8% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $919,257.91 | 73.9% | 11 |
-| 4225 | State Government Service Charges | $202,520.07 | 16.3% | 4 |
-| 4150 | Employee Training | $29,341.47 | 2.4% | 123 |
-| 4715 | It Expendable Property | $29,096.94 | 2.3% | 5 |
-| 3240 | Unemployment Assessment | $27,663.05 | 2.2% | 1 |
-| 4100 | Instate Travel | $14,034.32 | 1.1% | 48 |
-| 4175 | Office Expenses | $6,838.46 | 0.5% | 13 |
-| 3110 | Class/Unclass Salary & Per Diem | $6,798.10 | 0.5% | 1 |
-| 4325 | Attorney General Legal Fees | $3,492.50 | 0.3% | 1 |
-| 4650 | Other Services And Supplies | $3,446.48 | 0.3% | 7 |
-| 4250 | Data Processing | $1,435.05 | 0.1% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $429.00 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $919,257.91 | 73.9% | 11 |
+| 4225 | State Government Service Charges | Services and supplies | $202,520.07 | 16.3% | 4 |
+| 4150 | Employee Training | Services and supplies | $29,341.47 | 2.4% | 123 |
+| 4715 | It Expendable Property | Services and supplies | $29,096.94 | 2.3% | 5 |
+| 3240 | Unemployment Assessment | Personnel services | $27,663.05 | 2.2% | 1 |
+| 4100 | Instate Travel | Services and supplies | $14,034.32 | 1.1% | 48 |
+| 4175 | Office Expenses | Services and supplies | $6,838.46 | 0.5% | 13 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $6,798.10 | 0.5% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $3,492.50 | 0.3% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $3,446.48 | 0.3% | 7 |
+| 4250 | Data Processing | Services and supplies | $1,435.05 | 0.1% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $429.00 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

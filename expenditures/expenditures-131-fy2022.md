@@ -54,23 +54,32 @@ Advocacy Commissions, OR (agency code 131, recorded upstream as `ADVOCACY COMMIS
 
 The largest budget category was **Other Services And Supplies** at $24,557.79 (22.6% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $105,963.25 | 97.7% | 12 |
+| Distributions | $2,500.00 | 2.3% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4650 | Other Services And Supplies | $24,557.79 | 22.6% | 4 |
-| 4300 | Professional Services | $23,800.82 | 21.9% | 3 |
-| 4225 | State Government Service Charges | $20,373.60 | 18.8% | 4 |
-| 4250 | Data Processing | $12,739.67 | 11.7% | 5 |
-| 4175 | Office Expenses | $8,024.71 | 7.4% | 2 |
-| 4425 | Lease Payments & Taxes | $4,773.60 | 4.4% | 1 |
-| 4715 | It Expendable Property | $4,347.12 | 4.0% | 2 |
-| 4150 | Employee Training | $3,900.00 | 3.6% | 1 |
-| 6050 | Distribution To Non-Profit Org | $2,500.00 | 2.3% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $1,700.00 | 1.6% | 3 |
-| 4100 | Instate Travel | $1,645.47 | 1.5% | 6 |
-| 4200 | Telecomm/Tech Svc And Supplies | $76.31 | 0.1% | 2 |
-| 4275 | Publicity & Publications | $24.16 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4650 | Other Services And Supplies | Services and supplies | $24,557.79 | 22.6% | 4 |
+| 4300 | Professional Services | Services and supplies | $23,800.82 | 21.9% | 3 |
+| 4225 | State Government Service Charges | Services and supplies | $20,373.60 | 18.8% | 4 |
+| 4250 | Data Processing | Services and supplies | $12,739.67 | 11.7% | 5 |
+| 4175 | Office Expenses | Services and supplies | $8,024.71 | 7.4% | 2 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $4,773.60 | 4.4% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $4,347.12 | 4.0% | 2 |
+| 4150 | Employee Training | Services and supplies | $3,900.00 | 3.6% | 1 |
+| 6050 | Distribution To Non-Profit Org | Distributions | $2,500.00 | 2.3% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $1,700.00 | 1.6% | 3 |
+| 4100 | Instate Travel | Services and supplies | $1,645.47 | 1.5% | 6 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $76.31 | 0.1% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $24.16 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

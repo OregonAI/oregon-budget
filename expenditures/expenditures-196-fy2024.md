@@ -54,23 +54,32 @@ Dist Attorneys/Deputies (agency code 196, recorded upstream as `DIST ATTORNEYS/D
 
 The largest budget category was **State Government Service Charges** at $594,959.50 (60.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $630,234.96 | 63.8% | 5 |
+| Personnel services | $358,110.46 | 36.2% | 8 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $594,959.50 | 60.2% | 5 |
-| 3110 | Class/Unclass Salary & Per Diem | $249,704.97 | 25.3% | 2 |
-| 3220 | Public Employes' Retirement System | $50,727.66 | 5.1% | 4 |
-| 3270 | Flexible Benefits | $26,480.96 | 2.7% | 2 |
-| 4300 | Professional Services | $22,804.20 | 2.3% | 2 |
-| 3230 | Social Security Tax | $16,878.64 | 1.7% | 2 |
-| 3221 | Pension Bond Contribution | $13,576.43 | 1.4% | 2 |
-| 4575 | Agency Program Related Svcs & Supp | $9,444.09 | 1.0% | 1 |
-| 4650 | Other Services And Supplies | $2,202.17 | 0.2% | 1 |
-| 4325 | Attorney General Legal Fees | $825.00 | 0.1% | 1 |
-| 3241 | Paid Family Medical Leave Insurance | $682.08 | 0.1% | 2 |
-| 3210 | Erb Assessment | $33.96 | 0.0% | 2 |
-| 3250 | Workers' Compensation Assessment | $25.76 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $594,959.50 | 60.2% | 5 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $249,704.97 | 25.3% | 2 |
+| 3220 | Public Employes' Retirement System | Personnel services | $50,727.66 | 5.1% | 4 |
+| 3270 | Flexible Benefits | Personnel services | $26,480.96 | 2.7% | 2 |
+| 4300 | Professional Services | Services and supplies | $22,804.20 | 2.3% | 2 |
+| 3230 | Social Security Tax | Personnel services | $16,878.64 | 1.7% | 2 |
+| 3221 | Pension Bond Contribution | Personnel services | $13,576.43 | 1.4% | 2 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $9,444.09 | 1.0% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $2,202.17 | 0.2% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $825.00 | 0.1% | 1 |
+| 3241 | Paid Family Medical Leave Insurance | Personnel services | $682.08 | 0.1% | 2 |
+| 3210 | Erb Assessment | Personnel services | $33.96 | 0.0% | 2 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $25.76 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

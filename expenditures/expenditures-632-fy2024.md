@@ -54,32 +54,42 @@ Geology & Mineral Ind, Dept of (agency code 632, recorded upstream as `GEOLOGY &
 
 The largest budget category was **Professional Services** at $3,719,186.34 (67.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $5,382,501.49 | 97.6% | 18 |
+| Capital outlay | $110,963.54 | 2.0% | 2 |
+| Personnel services | $20,333.80 | 0.4% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $3,719,186.34 | 67.5% | 18 |
-| 4250 | Data Processing | $320,079.58 | 5.8% | 8 |
-| 4425 | Lease Payments & Taxes | $293,198.60 | 5.3% | 3 |
-| 4225 | State Government Service Charges | $260,587.82 | 4.7% | 4 |
-| 4650 | Other Services And Supplies | $197,625.95 | 3.6% | 3 |
-| 4325 | Attorney General Legal Fees | $170,564.61 | 3.1% | 1 |
-| 4715 | It Expendable Property | $158,854.04 | 2.9% | 4 |
-| 4315 | It Professional Services | $97,740.00 | 1.8% | 1 |
-| 5600 | Data Processing Hardware | $77,104.42 | 1.4% | 2 |
-| 4100 | Instate Travel | $71,536.45 | 1.3% | 62 |
-| 5150 | Telecommunications | $33,859.12 | 0.6% | 1 |
-| 4150 | Employee Training | $26,157.55 | 0.5% | 36 |
-| 4200 | Telecomm/Tech Svc And Supplies | $22,228.95 | 0.4% | 4 |
-| 4475 | Facilities Maintenance | $19,831.37 | 0.4% | 4 |
-| 3240 | Unemployment Assessment | $14,616.00 | 0.3% | 1 |
-| 4125 | Out-Of-State Travel | $9,453.00 | 0.2% | 13 |
-| 4175 | Office Expenses | $8,117.91 | 0.1% | 11 |
-| 3110 | Class/Unclass Salary & Per Diem | $5,717.80 | 0.1% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $5,616.80 | 0.1% | 1 |
-| 4275 | Publicity & Publications | $1,012.52 | 0.0% | 2 |
-| 4700 | Expendable Property $250-$5000 | $635.00 | 0.0% | 1 |
-| 4400 | Dues And Subscriptions | $75.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $3,719,186.34 | 67.5% | 18 |
+| 4250 | Data Processing | Services and supplies | $320,079.58 | 5.8% | 8 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $293,198.60 | 5.3% | 3 |
+| 4225 | State Government Service Charges | Services and supplies | $260,587.82 | 4.7% | 4 |
+| 4650 | Other Services And Supplies | Services and supplies | $197,625.95 | 3.6% | 3 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $170,564.61 | 3.1% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $158,854.04 | 2.9% | 4 |
+| 4315 | It Professional Services | Services and supplies | $97,740.00 | 1.8% | 1 |
+| 5600 | Data Processing Hardware | Capital outlay | $77,104.42 | 1.4% | 2 |
+| 4100 | Instate Travel | Services and supplies | $71,536.45 | 1.3% | 62 |
+| 5150 | Telecommunications | Capital outlay | $33,859.12 | 0.6% | 1 |
+| 4150 | Employee Training | Services and supplies | $26,157.55 | 0.5% | 36 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $22,228.95 | 0.4% | 4 |
+| 4475 | Facilities Maintenance | Services and supplies | $19,831.37 | 0.4% | 4 |
+| 3240 | Unemployment Assessment | Personnel services | $14,616.00 | 0.3% | 1 |
+| 4125 | Out-Of-State Travel | Services and supplies | $9,453.00 | 0.2% | 13 |
+| 4175 | Office Expenses | Services and supplies | $8,117.91 | 0.1% | 11 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $5,717.80 | 0.1% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $5,616.80 | 0.1% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $1,012.52 | 0.0% | 2 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $635.00 | 0.0% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $75.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

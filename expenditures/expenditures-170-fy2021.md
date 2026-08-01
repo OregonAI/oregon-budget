@@ -54,33 +54,43 @@ Treasury, Oregon St (agency code 170, recorded upstream as `TREASURY, OREGON ST`
 
 The largest budget category was **Professional Services** at $4,167,841.15 (26.8% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $11,486,419.17 | 73.8% | 18 |
+| Capital outlay | $4,052,887.22 | 26.1% | 3 |
+| Personnel services | $14,509.07 | 0.1% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $4,167,841.15 | 26.8% | 28 |
-| 5900 | Other Capital Outlay | $3,500,000.00 | 22.5% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $1,990,723.45 | 12.8% | 12 |
-| 4425 | Lease Payments & Taxes | $1,277,228.00 | 8.2% | 4 |
-| 4225 | State Government Service Charges | $1,036,336.06 | 6.7% | 6 |
-| 4715 | It Expendable Property | $758,134.64 | 4.9% | 11 |
-| 4250 | Data Processing | $691,378.57 | 4.4% | 13 |
-| 5150 | Telecommunications | $497,797.40 | 3.2% | 1 |
-| 4315 | It Professional Services | $397,412.83 | 2.6% | 5 |
-| 4200 | Telecomm/Tech Svc And Supplies | $379,718.46 | 2.4% | 14 |
-| 4400 | Dues And Subscriptions | $201,184.28 | 1.3% | 18 |
-| 4650 | Other Services And Supplies | $139,767.71 | 0.9% | 9 |
-| 4325 | Attorney General Legal Fees | $125,833.40 | 0.8% | 1 |
-| 4175 | Office Expenses | $121,550.04 | 0.8% | 21 |
-| 4275 | Publicity & Publications | $65,214.54 | 0.4% | 12 |
-| 4375 | Employee Recruitment And Development | $57,044.30 | 0.4% | 7 |
-| 5550 | Data Processing Software | $55,089.82 | 0.4% | 2 |
-| 4150 | Employee Training | $41,303.50 | 0.3% | 7 |
-| 4100 | Instate Travel | $13,930.69 | 0.1% | 12 |
-| 4475 | Facilities Maintenance | $11,555.92 | 0.1% | 4 |
-| 4700 | Expendable Property $250-$5000 | $10,261.63 | 0.1% | 3 |
-| 3280 | Other Payroll Expenses | $8,120.74 | 0.1% | 1 |
-| 3240 | Unemployment Assessment | $6,388.33 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $4,167,841.15 | 26.8% | 28 |
+| 5900 | Other Capital Outlay | Capital outlay | $3,500,000.00 | 22.5% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $1,990,723.45 | 12.8% | 12 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $1,277,228.00 | 8.2% | 4 |
+| 4225 | State Government Service Charges | Services and supplies | $1,036,336.06 | 6.7% | 6 |
+| 4715 | It Expendable Property | Services and supplies | $758,134.64 | 4.9% | 11 |
+| 4250 | Data Processing | Services and supplies | $691,378.57 | 4.4% | 13 |
+| 5150 | Telecommunications | Capital outlay | $497,797.40 | 3.2% | 1 |
+| 4315 | It Professional Services | Services and supplies | $397,412.83 | 2.6% | 5 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $379,718.46 | 2.4% | 14 |
+| 4400 | Dues And Subscriptions | Services and supplies | $201,184.28 | 1.3% | 18 |
+| 4650 | Other Services And Supplies | Services and supplies | $139,767.71 | 0.9% | 9 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $125,833.40 | 0.8% | 1 |
+| 4175 | Office Expenses | Services and supplies | $121,550.04 | 0.8% | 21 |
+| 4275 | Publicity & Publications | Services and supplies | $65,214.54 | 0.4% | 12 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $57,044.30 | 0.4% | 7 |
+| 5550 | Data Processing Software | Capital outlay | $55,089.82 | 0.4% | 2 |
+| 4150 | Employee Training | Services and supplies | $41,303.50 | 0.3% | 7 |
+| 4100 | Instate Travel | Services and supplies | $13,930.69 | 0.1% | 12 |
+| 4475 | Facilities Maintenance | Services and supplies | $11,555.92 | 0.1% | 4 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $10,261.63 | 0.1% | 3 |
+| 3280 | Other Payroll Expenses | Personnel services | $8,120.74 | 0.1% | 1 |
+| 3240 | Unemployment Assessment | Personnel services | $6,388.33 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

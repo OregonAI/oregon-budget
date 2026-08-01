@@ -54,34 +54,45 @@ Labor & Ind, Bureau of (agency code 839, recorded upstream as `LABOR & IND, BURE
 
 The largest budget category was **Professional Services** at $1,230,920.89 (30.8% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $3,630,075.48 | 90.9% | 18 |
+| Capital outlay | $224,851.68 | 5.6% | 2 |
+| Distributions | $121,700.00 | 3.0% | 2 |
+| Personnel services | $17,235.27 | 0.4% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $1,230,920.89 | 30.8% | 55 |
-| 4425 | Lease Payments & Taxes | $611,783.75 | 15.3% | 4 |
-| 4225 | State Government Service Charges | $588,307.40 | 14.7% | 4 |
-| 4715 | It Expendable Property | $303,322.63 | 7.6% | 12 |
-| 4175 | Office Expenses | $213,179.11 | 5.3% | 30 |
-| 4200 | Telecomm/Tech Svc And Supplies | $208,717.03 | 5.2% | 9 |
-| 5550 | Data Processing Software | $207,633.28 | 5.2% | 3 |
-| 4650 | Other Services And Supplies | $164,980.31 | 4.1% | 13 |
-| 4325 | Attorney General Legal Fees | $103,262.48 | 2.6% | 1 |
-| 6100 | Distribution To Dept Of Human Services | $79,441.94 | 2.0% | 1 |
-| 4315 | It Professional Services | $67,291.21 | 1.7% | 4 |
-| 6035 | Distribution To Individuals | $42,258.06 | 1.1% | 3 |
-| 4600 | Intra-Inter Agency Charges | $36,023.92 | 0.9% | 1 |
-| 4400 | Dues And Subscriptions | $28,513.71 | 0.7% | 6 |
-| 4250 | Data Processing | $22,470.50 | 0.6% | 3 |
-| 4100 | Instate Travel | $21,551.31 | 0.5% | 7 |
-| 5600 | Data Processing Hardware | $17,218.40 | 0.4% | 1 |
-| 3240 | Unemployment Assessment | $17,184.80 | 0.4% | 1 |
-| 4150 | Employee Training | $13,492.57 | 0.3% | 14 |
-| 4700 | Expendable Property $250-$5000 | $7,285.51 | 0.2% | 5 |
-| 4575 | Agency Program Related Svcs & Supp | $4,773.41 | 0.1% | 1 |
-| 4125 | Out-Of-State Travel | $2,699.74 | 0.1% | 6 |
-| 4275 | Publicity & Publications | $1,500.00 | 0.0% | 1 |
-| 3110 | Class/Unclass Salary & Per Diem | $50.47 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $1,230,920.89 | 30.8% | 55 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $611,783.75 | 15.3% | 4 |
+| 4225 | State Government Service Charges | Services and supplies | $588,307.40 | 14.7% | 4 |
+| 4715 | It Expendable Property | Services and supplies | $303,322.63 | 7.6% | 12 |
+| 4175 | Office Expenses | Services and supplies | $213,179.11 | 5.3% | 30 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $208,717.03 | 5.2% | 9 |
+| 5550 | Data Processing Software | Capital outlay | $207,633.28 | 5.2% | 3 |
+| 4650 | Other Services And Supplies | Services and supplies | $164,980.31 | 4.1% | 13 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $103,262.48 | 2.6% | 1 |
+| 6100 | Distribution To Dept Of Human Services | Distributions | $79,441.94 | 2.0% | 1 |
+| 4315 | It Professional Services | Services and supplies | $67,291.21 | 1.7% | 4 |
+| 6035 | Distribution To Individuals | Distributions | $42,258.06 | 1.1% | 3 |
+| 4600 | Intra-Inter Agency Charges | Services and supplies | $36,023.92 | 0.9% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $28,513.71 | 0.7% | 6 |
+| 4250 | Data Processing | Services and supplies | $22,470.50 | 0.6% | 3 |
+| 4100 | Instate Travel | Services and supplies | $21,551.31 | 0.5% | 7 |
+| 5600 | Data Processing Hardware | Capital outlay | $17,218.40 | 0.4% | 1 |
+| 3240 | Unemployment Assessment | Personnel services | $17,184.80 | 0.4% | 1 |
+| 4150 | Employee Training | Services and supplies | $13,492.57 | 0.3% | 14 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $7,285.51 | 0.2% | 5 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $4,773.41 | 0.1% | 1 |
+| 4125 | Out-Of-State Travel | Services and supplies | $2,699.74 | 0.1% | 6 |
+| 4275 | Publicity & Publications | Services and supplies | $1,500.00 | 0.0% | 1 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $50.47 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

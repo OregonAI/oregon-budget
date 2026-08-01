@@ -54,32 +54,43 @@ Water Resources, Dept of (agency code 690, recorded upstream as `WATER RESOURCES
 
 The largest budget category was **Distribution To Non-Governments** at $11,542,991.65 (58.1% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $15,287,261.21 | 77.0% | 2 |
+| Services and supplies | $4,464,868.14 | 22.5% | 18 |
+| Capital outlay | $104,764.00 | 0.5% | 1 |
+| Personnel services | $1,769.62 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6030 | Distribution To Non-Governments | $11,542,991.65 | 58.1% | 8 |
-| 6025 | Distribution To Other Govts | $3,744,269.56 | 18.9% | 18 |
-| 4425 | Facilities Rent & Taxes | $924,574.09 | 4.7% | 17 |
-| 4325 | Attorney General Legal Fees | $889,364.39 | 4.5% | 1 |
-| 4650 | Other Services And Supplies | $798,267.66 | 4.0% | 92 |
-| 4225 | State Government Service Charges | $660,753.67 | 3.3% | 7 |
-| 4575 | Agency Program Related Svcs & Supp | $425,484.00 | 2.1% | 3 |
-| 4700 | Expendable Property $250-$5000 | $162,350.63 | 0.8% | 12 |
-| 4175 | Office Expenses | $121,239.46 | 0.6% | 54 |
-| 4200 | Telecomm/Tech Svc And Supplies | $119,025.13 | 0.6% | 19 |
-| 4100 | Instate Travel | $105,306.60 | 0.5% | 166 |
-| 4250 | Data Processing | $105,231.97 | 0.5% | 4 |
-| 5200 | Technical Equipment | $104,764.00 | 0.5% | 6 |
-| 4150 | Employee Training | $39,251.87 | 0.2% | 71 |
-| 4300 | Professional Services | $34,502.01 | 0.2% | 4 |
-| 4715 | It Expendable Property | $29,075.27 | 0.1% | 6 |
-| 4275 | Publicity & Publications | $26,904.56 | 0.1% | 28 |
-| 4450 | Fuels And Utilities | $11,057.74 | 0.1% | 6 |
-| 4125 | Out-Of-State Travel | $5,664.32 | 0.0% | 24 |
-| 4400 | Dues And Subscriptions | $5,140.95 | 0.0% | 20 |
-| 3110 | Class/Unclass Salary & Per Diem | $1,769.62 | 0.0% | 1 |
-| 4475 | Facilities Maintenance | $1,673.82 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6030 | Distribution To Non-Governments | Distributions | $11,542,991.65 | 58.1% | 8 |
+| 6025 | Distribution To Other Govts | Distributions | $3,744,269.56 | 18.9% | 18 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $924,574.09 | 4.7% | 17 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $889,364.39 | 4.5% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $798,267.66 | 4.0% | 92 |
+| 4225 | State Government Service Charges | Services and supplies | $660,753.67 | 3.3% | 7 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $425,484.00 | 2.1% | 3 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $162,350.63 | 0.8% | 12 |
+| 4175 | Office Expenses | Services and supplies | $121,239.46 | 0.6% | 54 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $119,025.13 | 0.6% | 19 |
+| 4100 | Instate Travel | Services and supplies | $105,306.60 | 0.5% | 166 |
+| 4250 | Data Processing | Services and supplies | $105,231.97 | 0.5% | 4 |
+| 5200 | Technical Equipment | Capital outlay | $104,764.00 | 0.5% | 6 |
+| 4150 | Employee Training | Services and supplies | $39,251.87 | 0.2% | 71 |
+| 4300 | Professional Services | Services and supplies | $34,502.01 | 0.2% | 4 |
+| 4715 | It Expendable Property | Services and supplies | $29,075.27 | 0.1% | 6 |
+| 4275 | Publicity & Publications | Services and supplies | $26,904.56 | 0.1% | 28 |
+| 4450 | Fuels And Utilities | Services and supplies | $11,057.74 | 0.1% | 6 |
+| 4125 | Out-Of-State Travel | Services and supplies | $5,664.32 | 0.0% | 24 |
+| 4400 | Dues And Subscriptions | Services and supplies | $5,140.95 | 0.0% | 20 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $1,769.62 | 0.0% | 1 |
+| 4475 | Facilities Maintenance | Services and supplies | $1,673.82 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

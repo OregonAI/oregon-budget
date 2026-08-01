@@ -54,32 +54,43 @@ Blind, Cmsn for the (agency code 585, recorded upstream as `BLIND, CMSN FOR THE`
 
 The largest budget category was **Professional Services** at $1,188,680.65 (25.3% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $3,203,000.71 | 68.1% | 17 |
+| Distributions | $1,468,115.48 | 31.2% | 2 |
+| Capital outlay | $30,304.12 | 0.6% | 2 |
+| Personnel services | $494.94 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $1,188,680.65 | 25.3% | 6 |
-| 6085 | Other Special Payments | $1,085,731.68 | 23.1% | 117 |
-| 6040 | Distribution To Local School Dist | $382,383.80 | 8.1% | 3 |
-| 4425 | Lease Payments & Taxes | $336,004.23 | 7.1% | 13 |
-| 4575 | Agency Program Related Svcs & Supp | $312,651.70 | 6.6% | 40 |
-| 4650 | Other Services And Supplies | $281,451.82 | 6.0% | 21 |
-| 4315 | It Professional Services | $264,664.44 | 5.6% | 6 |
-| 4225 | State Government Service Charges | $234,909.74 | 5.0% | 4 |
-| 4325 | Attorney General Legal Fees | $204,140.00 | 4.3% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $116,406.82 | 2.5% | 10 |
-| 4715 | It Expendable Property | $79,663.64 | 1.7% | 13 |
-| 4475 | Facilities Maintenance | $45,190.57 | 1.0% | 16 |
-| 4100 | Instate Travel | $41,977.32 | 0.9% | 7 |
-| 4175 | Office Expenses | $36,423.60 | 0.8% | 17 |
-| 4400 | Dues And Subscriptions | $30,500.00 | 0.6% | 1 |
-| 5600 | Data Processing Hardware | $22,708.87 | 0.5% | 2 |
-| 4150 | Employee Training | $21,062.46 | 0.4% | 14 |
-| 5200 | Technical Equipment | $7,595.25 | 0.2% | 1 |
-| 4250 | Data Processing | $6,858.74 | 0.1% | 1 |
-| 4700 | Expendable Property $250-$5000 | $2,369.50 | 0.1% | 2 |
-| 3240 | Unemployment Assessment | $494.94 | 0.0% | 2 |
-| 4275 | Publicity & Publications | $45.48 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $1,188,680.65 | 25.3% | 6 |
+| 6085 | Other Special Payments | Distributions | $1,085,731.68 | 23.1% | 117 |
+| 6040 | Distribution To Local School Dist | Distributions | $382,383.80 | 8.1% | 3 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $336,004.23 | 7.1% | 13 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $312,651.70 | 6.6% | 40 |
+| 4650 | Other Services And Supplies | Services and supplies | $281,451.82 | 6.0% | 21 |
+| 4315 | It Professional Services | Services and supplies | $264,664.44 | 5.6% | 6 |
+| 4225 | State Government Service Charges | Services and supplies | $234,909.74 | 5.0% | 4 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $204,140.00 | 4.3% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $116,406.82 | 2.5% | 10 |
+| 4715 | It Expendable Property | Services and supplies | $79,663.64 | 1.7% | 13 |
+| 4475 | Facilities Maintenance | Services and supplies | $45,190.57 | 1.0% | 16 |
+| 4100 | Instate Travel | Services and supplies | $41,977.32 | 0.9% | 7 |
+| 4175 | Office Expenses | Services and supplies | $36,423.60 | 0.8% | 17 |
+| 4400 | Dues And Subscriptions | Services and supplies | $30,500.00 | 0.6% | 1 |
+| 5600 | Data Processing Hardware | Capital outlay | $22,708.87 | 0.5% | 2 |
+| 4150 | Employee Training | Services and supplies | $21,062.46 | 0.4% | 14 |
+| 5200 | Technical Equipment | Capital outlay | $7,595.25 | 0.2% | 1 |
+| 4250 | Data Processing | Services and supplies | $6,858.74 | 0.1% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $2,369.50 | 0.1% | 2 |
+| 3240 | Unemployment Assessment | Personnel services | $494.94 | 0.0% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $45.48 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

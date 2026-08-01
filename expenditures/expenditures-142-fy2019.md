@@ -53,27 +53,36 @@ Legislative Counsel Office (agency code 142, recorded upstream as `LEGISLATIVE C
 
 The largest budget category was **State Government Service Charges** at $119,700.09 (34.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $342,736.35 | 99.3% | 16 |
+| Personnel services | $2,534.04 | 0.7% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $119,700.09 | 34.7% | 6 |
-| 4275 | Publicity & Publications | $72,699.45 | 21.1% | 4 |
-| 4175 | Office Expenses | $64,458.40 | 18.7% | 10 |
-| 4715 | It Expendable Property | $23,347.03 | 6.8% | 6 |
-| 4400 | Dues And Subscriptions | $18,560.49 | 5.4% | 4 |
-| 4425 | Facilities Rent & Taxes | $14,096.50 | 4.1% | 1 |
-| 4150 | Employee Training | $11,264.37 | 3.3% | 8 |
-| 4650 | Other Services And Supplies | $6,052.29 | 1.8% | 3 |
-| 4250 | Data Processing | $3,995.93 | 1.2% | 3 |
-| 4315 | It Professional Services | $3,371.25 | 1.0% | 1 |
-| 3280 | Other Payroll Expenses | $2,534.04 | 0.7% | 1 |
-| 4700 | Expendable Property $250-$5000 | $1,843.94 | 0.5% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $1,628.65 | 0.5% | 2 |
-| 4300 | Professional Services | $673.50 | 0.2% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $463.20 | 0.1% | 1 |
-| 4325 | Attorney General Legal Fees | $309.40 | 0.1% | 1 |
-| 4100 | Instate Travel | $271.86 | 0.1% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $119,700.09 | 34.7% | 6 |
+| 4275 | Publicity & Publications | Services and supplies | $72,699.45 | 21.1% | 4 |
+| 4175 | Office Expenses | Services and supplies | $64,458.40 | 18.7% | 10 |
+| 4715 | It Expendable Property | Services and supplies | $23,347.03 | 6.8% | 6 |
+| 4400 | Dues And Subscriptions | Services and supplies | $18,560.49 | 5.4% | 4 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $14,096.50 | 4.1% | 1 |
+| 4150 | Employee Training | Services and supplies | $11,264.37 | 3.3% | 8 |
+| 4650 | Other Services And Supplies | Services and supplies | $6,052.29 | 1.8% | 3 |
+| 4250 | Data Processing | Services and supplies | $3,995.93 | 1.2% | 3 |
+| 4315 | It Professional Services | Services and supplies | $3,371.25 | 1.0% | 1 |
+| 3280 | Other Payroll Expenses | Personnel services | $2,534.04 | 0.7% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $1,843.94 | 0.5% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $1,628.65 | 0.5% | 2 |
+| 4300 | Professional Services | Services and supplies | $673.50 | 0.2% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $463.20 | 0.1% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $309.40 | 0.1% | 1 |
+| 4100 | Instate Travel | Services and supplies | $271.86 | 0.1% | 1 |
 
 ## Largest expenditure classes
 

@@ -53,17 +53,27 @@ Dist Attorneys/Deputies (agency code 196, recorded upstream as `DIST ATTORNEYS/D
 
 The largest budget category was **Distribution To Counties** at $1,000,000.00 (60.9% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $1,000,000.00 | 60.9% | 1 |
+| Services and supplies | $641,935.71 | 39.1% | 5 |
+| Personnel services | $34.56 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6020 | Distribution To Counties | $1,000,000.00 | 60.9% | 6 |
-| 4225 | State Government Service Charges | $594,367.50 | 36.2% | 4 |
-| 4300 | Professional Services | $46,808.00 | 2.9% | 2 |
-| 4325 | Attorney General Legal Fees | $495.00 | 0.0% | 1 |
-| 4650 | Other Services And Supplies | $134.17 | 0.0% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $131.04 | 0.0% | 1 |
-| 3220 | Public Employes' Retirement System | $34.56 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6020 | Distribution To Counties | Distributions | $1,000,000.00 | 60.9% | 6 |
+| 4225 | State Government Service Charges | Services and supplies | $594,367.50 | 36.2% | 4 |
+| 4300 | Professional Services | Services and supplies | $46,808.00 | 2.9% | 2 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $495.00 | 0.0% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $134.17 | 0.0% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $131.04 | 0.0% | 1 |
+| 3220 | Public Employes' Retirement System | Personnel services | $34.56 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

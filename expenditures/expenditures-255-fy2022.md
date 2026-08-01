@@ -54,27 +54,37 @@ Parole/Post Prison Supv, Brd (agency code 255, recorded upstream as `PAROLE/POST
 
 The largest budget category was **Attorney General Legal Fees** at $432,443.40 (27.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $1,427,728.88 | 91.5% | 14 |
+| Distributions | $127,522.14 | 8.2% | 1 |
+| Personnel services | $4,931.67 | 0.3% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $432,443.40 | 27.7% | 1 |
-| 4225 | State Government Service Charges | $251,302.32 | 16.1% | 4 |
-| 4425 | Lease Payments & Taxes | $245,079.31 | 15.7% | 1 |
-| 4300 | Professional Services | $168,462.84 | 10.8% | 10 |
-| 4525 | Medical Supplies And Services | $145,139.00 | 9.3% | 1 |
-| 6025 | Distribution To Other Govts | $127,522.14 | 8.2% | 9 |
-| 4650 | Other Services And Supplies | $96,531.48 | 6.2% | 4 |
-| 4715 | It Expendable Property | $44,963.41 | 2.9% | 3 |
-| 4200 | Telecomm/Tech Svc And Supplies | $27,558.42 | 1.8% | 6 |
-| 4175 | Office Expenses | $8,821.38 | 0.6% | 5 |
-| 3240 | Unemployment Assessment | $4,909.27 | 0.3% | 1 |
-| 4150 | Employee Training | $2,984.00 | 0.2% | 8 |
-| 4100 | Instate Travel | $1,614.55 | 0.1% | 8 |
-| 4125 | Out-Of-State Travel | $1,507.67 | 0.1% | 3 |
-| 4400 | Dues And Subscriptions | $1,230.00 | 0.1% | 2 |
-| 4275 | Publicity & Publications | $91.10 | 0.0% | 2 |
-| 3220 | Public Employes' Retirement System | $22.40 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $432,443.40 | 27.7% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $251,302.32 | 16.1% | 4 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $245,079.31 | 15.7% | 1 |
+| 4300 | Professional Services | Services and supplies | $168,462.84 | 10.8% | 10 |
+| 4525 | Medical Supplies And Services | Services and supplies | $145,139.00 | 9.3% | 1 |
+| 6025 | Distribution To Other Govts | Distributions | $127,522.14 | 8.2% | 9 |
+| 4650 | Other Services And Supplies | Services and supplies | $96,531.48 | 6.2% | 4 |
+| 4715 | It Expendable Property | Services and supplies | $44,963.41 | 2.9% | 3 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $27,558.42 | 1.8% | 6 |
+| 4175 | Office Expenses | Services and supplies | $8,821.38 | 0.6% | 5 |
+| 3240 | Unemployment Assessment | Personnel services | $4,909.27 | 0.3% | 1 |
+| 4150 | Employee Training | Services and supplies | $2,984.00 | 0.2% | 8 |
+| 4100 | Instate Travel | Services and supplies | $1,614.55 | 0.1% | 8 |
+| 4125 | Out-Of-State Travel | Services and supplies | $1,507.67 | 0.1% | 3 |
+| 4400 | Dues And Subscriptions | Services and supplies | $1,230.00 | 0.1% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $91.10 | 0.0% | 2 |
+| 3220 | Public Employes' Retirement System | Personnel services | $22.40 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

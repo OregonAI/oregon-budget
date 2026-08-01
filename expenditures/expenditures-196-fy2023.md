@@ -54,17 +54,26 @@ Dist Attorneys/Deputies (agency code 196, recorded upstream as `DIST ATTORNEYS/D
 
 The largest budget category was **State Government Service Charges** at $345,339.12 (81.6% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $423,070.04 | 100.0% | 6 |
+| Personnel services | $28.00 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $345,339.12 | 81.6% | 4 |
-| 4300 | Professional Services | $36,980.30 | 8.7% | 2 |
-| 4715 | It Expendable Property | $24,841.50 | 5.9% | 2 |
-| 4650 | Other Services And Supplies | $8,502.90 | 2.0% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $7,363.11 | 1.7% | 1 |
-| 4175 | Office Expenses | $43.11 | 0.0% | 1 |
-| 3220 | Public Employes' Retirement System | $28.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $345,339.12 | 81.6% | 4 |
+| 4300 | Professional Services | Services and supplies | $36,980.30 | 8.7% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $24,841.50 | 5.9% | 2 |
+| 4650 | Other Services And Supplies | Services and supplies | $8,502.90 | 2.0% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $7,363.11 | 1.7% | 1 |
+| 4175 | Office Expenses | Services and supplies | $43.11 | 0.0% | 1 |
+| 3220 | Public Employes' Retirement System | Personnel services | $28.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

@@ -53,30 +53,40 @@ Labor & Ind, Bureau of (agency code 839, recorded upstream as `LABOR & IND, BURE
 
 The largest budget category was **Professional Services** at $1,417,693.09 (38.8% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $3,365,618.37 | 92.1% | 17 |
+| Distributions | $270,305.33 | 7.4% | 2 |
+| Personnel services | $18,635.07 | 0.5% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $1,417,693.09 | 38.8% | 63 |
-| 4425 | Facilities Rent & Taxes | $516,671.44 | 14.1% | 3 |
-| 4650 | Other Services And Supplies | $354,336.26 | 9.7% | 31 |
-| 4225 | State Government Service Charges | $315,601.99 | 8.6% | 7 |
-| 4175 | Office Expenses | $312,100.68 | 8.5% | 61 |
-| 6100 | Distribution To Dept Of Human Services | $215,315.28 | 5.9% | 1 |
-| 4315 | It Professional Services | $98,161.41 | 2.7% | 3 |
-| 4200 | Telecomm/Tech Svc And Supplies | $70,837.53 | 1.9% | 4 |
-| 4100 | Instate Travel | $63,043.64 | 1.7% | 89 |
-| 4600 | Intra-Inter Agency Charges | $57,178.76 | 1.6% | 1 |
-| 6035 | Distribution To Individuals | $54,990.05 | 1.5% | 3 |
-| 4715 | It Expendable Property | $54,255.63 | 1.5% | 8 |
-| 4250 | Data Processing | $40,221.99 | 1.1% | 4 |
-| 4400 | Dues And Subscriptions | $20,468.10 | 0.6% | 4 |
-| 3240 | Unemployment Assessment | $18,635.07 | 0.5% | 1 |
-| 4150 | Employee Training | $16,018.81 | 0.4% | 16 |
-| 4700 | Expendable Property $250-$5000 | $11,819.67 | 0.3% | 6 |
-| 4125 | Out-Of-State Travel | $11,488.07 | 0.3% | 26 |
-| 4275 | Publicity & Publications | $5,263.10 | 0.1% | 2 |
-| 4375 | Employee Recruitment And Development | $458.20 | 0.0% | 3 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $1,417,693.09 | 38.8% | 63 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $516,671.44 | 14.1% | 3 |
+| 4650 | Other Services And Supplies | Services and supplies | $354,336.26 | 9.7% | 31 |
+| 4225 | State Government Service Charges | Services and supplies | $315,601.99 | 8.6% | 7 |
+| 4175 | Office Expenses | Services and supplies | $312,100.68 | 8.5% | 61 |
+| 6100 | Distribution To Dept Of Human Services | Distributions | $215,315.28 | 5.9% | 1 |
+| 4315 | It Professional Services | Services and supplies | $98,161.41 | 2.7% | 3 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $70,837.53 | 1.9% | 4 |
+| 4100 | Instate Travel | Services and supplies | $63,043.64 | 1.7% | 89 |
+| 4600 | Intra-Inter Agency Charges | Services and supplies | $57,178.76 | 1.6% | 1 |
+| 6035 | Distribution To Individuals | Distributions | $54,990.05 | 1.5% | 3 |
+| 4715 | It Expendable Property | Services and supplies | $54,255.63 | 1.5% | 8 |
+| 4250 | Data Processing | Services and supplies | $40,221.99 | 1.1% | 4 |
+| 4400 | Dues And Subscriptions | Services and supplies | $20,468.10 | 0.6% | 4 |
+| 3240 | Unemployment Assessment | Personnel services | $18,635.07 | 0.5% | 1 |
+| 4150 | Employee Training | Services and supplies | $16,018.81 | 0.4% | 16 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $11,819.67 | 0.3% | 6 |
+| 4125 | Out-Of-State Travel | Services and supplies | $11,488.07 | 0.3% | 26 |
+| 4275 | Publicity & Publications | Services and supplies | $5,263.10 | 0.1% | 2 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $458.20 | 0.0% | 3 |
 
 ## Largest expenditure classes
 

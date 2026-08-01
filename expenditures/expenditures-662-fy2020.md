@@ -54,28 +54,38 @@ Land Use Brd of Appeals (agency code 662, recorded upstream as `LAND USE BRD OF 
 
 The largest budget category was **Facilities Rent & Taxes** at $45,350.40 (35.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $113,568.60 | 88.2% | 14 |
+| Distributions | $14,307.52 | 11.1% | 2 |
+| Personnel services | $952.15 | 0.7% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4425 | Facilities Rent & Taxes | $45,350.40 | 35.2% | 1 |
-| 4225 | State Government Service Charges | $30,196.97 | 23.4% | 5 |
-| 4175 | Office Expenses | $14,051.65 | 10.9% | 12 |
-| 6141 | Dist To State Lands | $13,619.52 | 10.6% | 1 |
-| 4275 | Publicity & Publications | $6,487.05 | 5.0% | 3 |
-| 4300 | Professional Services | $5,401.00 | 4.2% | 2 |
-| 4400 | Dues And Subscriptions | $4,522.00 | 3.5% | 4 |
-| 4200 | Telecomm/Tech Svc And Supplies | $2,440.13 | 1.9% | 2 |
-| 4715 | It Expendable Property | $2,059.23 | 1.6% | 2 |
-| 4700 | Expendable Property $250-$5000 | $1,899.37 | 1.5% | 3 |
-| 3110 | Class/Unclass Salary & Per Diem | $937.15 | 0.7% | 1 |
-| 4150 | Employee Training | $821.66 | 0.6% | 4 |
-| 6025 | Distribution To Other Govts | $688.00 | 0.5% | 1 |
-| 4650 | Other Services And Supplies | $130.00 | 0.1% | 1 |
-| 4100 | Instate Travel | $91.46 | 0.1% | 2 |
-| 4375 | Employee Recruitment And Development | $74.88 | 0.1% | 1 |
-| 4325 | Attorney General Legal Fees | $42.80 | 0.0% | 1 |
-| 3220 | Public Employes' Retirement System | $15.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4425 | Facilities Rent & Taxes | Services and supplies | $45,350.40 | 35.2% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $30,196.97 | 23.4% | 5 |
+| 4175 | Office Expenses | Services and supplies | $14,051.65 | 10.9% | 12 |
+| 6141 | Dist To State Lands | Distributions | $13,619.52 | 10.6% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $6,487.05 | 5.0% | 3 |
+| 4300 | Professional Services | Services and supplies | $5,401.00 | 4.2% | 2 |
+| 4400 | Dues And Subscriptions | Services and supplies | $4,522.00 | 3.5% | 4 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $2,440.13 | 1.9% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $2,059.23 | 1.6% | 2 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $1,899.37 | 1.5% | 3 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $937.15 | 0.7% | 1 |
+| 4150 | Employee Training | Services and supplies | $821.66 | 0.6% | 4 |
+| 6025 | Distribution To Other Govts | Distributions | $688.00 | 0.5% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $130.00 | 0.1% | 1 |
+| 4100 | Instate Travel | Services and supplies | $91.46 | 0.1% | 2 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $74.88 | 0.1% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $42.80 | 0.0% | 1 |
+| 3220 | Public Employes' Retirement System | Personnel services | $15.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

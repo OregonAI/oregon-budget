@@ -54,28 +54,37 @@ Health Related Licensing Brds (agency code 833, recorded upstream as `HEALTH REL
 
 The largest budget category was **Agency Program Related Svcs & Supp** at $426,302.50 (30.3% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $1,408,510.32 | 100.0% | 17 |
+| Personnel services | $74.19 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4575 | Agency Program Related Svcs & Supp | $426,302.50 | 30.3% | 65 |
-| 4650 | Other Services And Supplies | $255,125.61 | 18.1% | 16 |
-| 4325 | Attorney General Legal Fees | $251,329.15 | 17.8% | 7 |
-| 4425 | Lease Payments & Taxes | $189,770.57 | 13.5% | 6 |
-| 4225 | State Government Service Charges | $122,602.92 | 8.7% | 23 |
-| 4315 | It Professional Services | $35,176.50 | 2.5% | 7 |
-| 4200 | Telecomm/Tech Svc And Supplies | $34,477.67 | 2.4% | 33 |
-| 4175 | Office Expenses | $22,832.94 | 1.6% | 22 |
-| 4300 | Professional Services | $22,742.47 | 1.6% | 11 |
-| 4715 | It Expendable Property | $15,116.81 | 1.1% | 7 |
-| 4100 | Instate Travel | $14,848.21 | 1.1% | 77 |
-| 4250 | Data Processing | $11,478.56 | 0.8% | 7 |
-| 4400 | Dues And Subscriptions | $4,100.00 | 0.3% | 1 |
-| 4150 | Employee Training | $1,409.08 | 0.1% | 3 |
-| 4275 | Publicity & Publications | $523.58 | 0.0% | 4 |
-| 4125 | Out-Of-State Travel | $461.25 | 0.0% | 3 |
-| 4475 | Facilities Maintenance | $212.50 | 0.0% | 1 |
-| 3110 | Class/Unclass Salary & Per Diem | $74.19 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $426,302.50 | 30.3% | 65 |
+| 4650 | Other Services And Supplies | Services and supplies | $255,125.61 | 18.1% | 16 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $251,329.15 | 17.8% | 7 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $189,770.57 | 13.5% | 6 |
+| 4225 | State Government Service Charges | Services and supplies | $122,602.92 | 8.7% | 23 |
+| 4315 | It Professional Services | Services and supplies | $35,176.50 | 2.5% | 7 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $34,477.67 | 2.4% | 33 |
+| 4175 | Office Expenses | Services and supplies | $22,832.94 | 1.6% | 22 |
+| 4300 | Professional Services | Services and supplies | $22,742.47 | 1.6% | 11 |
+| 4715 | It Expendable Property | Services and supplies | $15,116.81 | 1.1% | 7 |
+| 4100 | Instate Travel | Services and supplies | $14,848.21 | 1.1% | 77 |
+| 4250 | Data Processing | Services and supplies | $11,478.56 | 0.8% | 7 |
+| 4400 | Dues And Subscriptions | Services and supplies | $4,100.00 | 0.3% | 1 |
+| 4150 | Employee Training | Services and supplies | $1,409.08 | 0.1% | 3 |
+| 4275 | Publicity & Publications | Services and supplies | $523.58 | 0.0% | 4 |
+| 4125 | Out-Of-State Travel | Services and supplies | $461.25 | 0.0% | 3 |
+| 4475 | Facilities Maintenance | Services and supplies | $212.50 | 0.0% | 1 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $74.19 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

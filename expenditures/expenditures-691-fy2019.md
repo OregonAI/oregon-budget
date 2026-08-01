@@ -53,34 +53,43 @@ Watershed Enh Brd (agency code 691, recorded upstream as `WATERSHED ENH BRD`) sp
 
 The largest budget category was **Distribution To Non-Governments** at $23,031,617.08 (53.6% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $42,195,270.87 | 98.2% | 8 |
+| Services and supplies | $771,257.32 | 1.8% | 16 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6030 | Distribution To Non-Governments | $23,031,617.08 | 53.6% | 109 |
-| 6025 | Distribution To Other Govts | $13,161,629.00 | 30.6% | 72 |
-| 6635 | Dist To Fish And Wildlife | $5,651,677.02 | 13.2% | 1 |
-| 6580 | Dist To Higher Education | $179,961.77 | 0.4% | 1 |
-| 4425 | Facilities Rent & Taxes | $172,935.31 | 0.4% | 23 |
-| 4300 | Professional Services | $103,039.33 | 0.2% | 9 |
-| 4225 | State Government Service Charges | $98,854.28 | 0.2% | 6 |
-| 4100 | Instate Travel | $85,314.01 | 0.2% | 107 |
-| 6690 | Dist To Water Resources | $79,335.00 | 0.2% | 1 |
-| 4325 | Attorney General Legal Fees | $69,973.77 | 0.2% | 1 |
-| 6340 | Dist To Deq | $55,376.00 | 0.1% | 1 |
-| 4650 | Other Services And Supplies | $45,930.69 | 0.1% | 27 |
-| 4575 | Agency Program Related Svcs & Supp | $45,279.76 | 0.1% | 3 |
-| 6048 | Special Payment To Public Universities | $35,524.00 | 0.1% | 1 |
-| 4150 | Employee Training | $33,351.37 | 0.1% | 38 |
-| 4175 | Office Expenses | $26,460.74 | 0.1% | 14 |
-| 4715 | It Expendable Property | $20,599.88 | 0.0% | 5 |
-| 4200 | Telecomm/Tech Svc And Supplies | $19,055.45 | 0.0% | 7 |
-| 4250 | Data Processing | $18,798.41 | 0.0% | 3 |
-| 4125 | Out-Of-State Travel | $15,126.21 | 0.0% | 19 |
-| 4700 | Expendable Property $250-$5000 | $8,733.06 | 0.0% | 1 |
-| 4275 | Publicity & Publications | $3,972.05 | 0.0% | 7 |
-| 4400 | Dues And Subscriptions | $3,833.00 | 0.0% | 5 |
-| 6035 | Distribution To Individuals | $151.00 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6030 | Distribution To Non-Governments | Distributions | $23,031,617.08 | 53.6% | 109 |
+| 6025 | Distribution To Other Govts | Distributions | $13,161,629.00 | 30.6% | 72 |
+| 6635 | Dist To Fish And Wildlife | Distributions | $5,651,677.02 | 13.2% | 1 |
+| 6580 | Dist To Higher Education | Distributions | $179,961.77 | 0.4% | 1 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $172,935.31 | 0.4% | 23 |
+| 4300 | Professional Services | Services and supplies | $103,039.33 | 0.2% | 9 |
+| 4225 | State Government Service Charges | Services and supplies | $98,854.28 | 0.2% | 6 |
+| 4100 | Instate Travel | Services and supplies | $85,314.01 | 0.2% | 107 |
+| 6690 | Dist To Water Resources | Distributions | $79,335.00 | 0.2% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $69,973.77 | 0.2% | 1 |
+| 6340 | Dist To Deq | Distributions | $55,376.00 | 0.1% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $45,930.69 | 0.1% | 27 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $45,279.76 | 0.1% | 3 |
+| 6048 | Special Payment To Public Universities | Distributions | $35,524.00 | 0.1% | 1 |
+| 4150 | Employee Training | Services and supplies | $33,351.37 | 0.1% | 38 |
+| 4175 | Office Expenses | Services and supplies | $26,460.74 | 0.1% | 14 |
+| 4715 | It Expendable Property | Services and supplies | $20,599.88 | 0.0% | 5 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $19,055.45 | 0.0% | 7 |
+| 4250 | Data Processing | Services and supplies | $18,798.41 | 0.0% | 3 |
+| 4125 | Out-Of-State Travel | Services and supplies | $15,126.21 | 0.0% | 19 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $8,733.06 | 0.0% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $3,972.05 | 0.0% | 7 |
+| 4400 | Dues And Subscriptions | Services and supplies | $3,833.00 | 0.0% | 5 |
+| 6035 | Distribution To Individuals | Distributions | $151.00 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

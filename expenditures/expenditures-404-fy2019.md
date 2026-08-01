@@ -53,30 +53,41 @@ Public Defense Services (agency code 404, recorded upstream as `PUBLIC DEFENSE S
 
 The largest budget category was **Professional Services** at $124,824,654.15 (94.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $130,425,819.33 | 98.8% | 16 |
+| Distributions | $1,589,033.09 | 1.2% | 1 |
+| Capital outlay | $26,439.47 | 0.0% | 2 |
+| Personnel services | $18,755.66 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $124,824,654.15 | 94.5% | 680 |
-| 4575 | Agency Program Related Svcs & Supp | $3,544,324.44 | 2.7% | 358 |
-| 6198 | Dist To Judicial | $1,589,033.09 | 1.2% | 1 |
-| 4100 | Instate Travel | $991,614.94 | 0.8% | 779 |
-| 4425 | Facilities Rent & Taxes | $341,146.12 | 0.3% | 1 |
-| 4225 | State Government Service Charges | $216,941.09 | 0.2% | 5 |
-| 4315 | It Professional Services | $128,865.68 | 0.1% | 3 |
-| 4150 | Employee Training | $93,191.86 | 0.1% | 69 |
-| 4175 | Office Expenses | $76,217.39 | 0.1% | 23 |
-| 4715 | It Expendable Property | $53,389.62 | 0.0% | 11 |
-| 4650 | Other Services And Supplies | $52,840.91 | 0.0% | 1 |
-| 4250 | Data Processing | $46,551.66 | 0.0% | 6 |
-| 4325 | Attorney General Legal Fees | $21,022.45 | 0.0% | 2 |
-| 3240 | Unemployment Assessment | $18,755.66 | 0.0% | 1 |
-| 4700 | Expendable Property $250-$5000 | $16,458.61 | 0.0% | 3 |
-| 5600 | Data Processing Hardware | $15,506.13 | 0.0% | 1 |
-| 5150 | Telecommunications | $10,933.34 | 0.0% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $9,540.83 | 0.0% | 4 |
-| 4400 | Dues And Subscriptions | $5,601.50 | 0.0% | 2 |
-| 4275 | Publicity & Publications | $3,458.08 | 0.0% | 5 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $124,824,654.15 | 94.5% | 680 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $3,544,324.44 | 2.7% | 358 |
+| 6198 | Dist To Judicial | Distributions | $1,589,033.09 | 1.2% | 1 |
+| 4100 | Instate Travel | Services and supplies | $991,614.94 | 0.8% | 779 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $341,146.12 | 0.3% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $216,941.09 | 0.2% | 5 |
+| 4315 | It Professional Services | Services and supplies | $128,865.68 | 0.1% | 3 |
+| 4150 | Employee Training | Services and supplies | $93,191.86 | 0.1% | 69 |
+| 4175 | Office Expenses | Services and supplies | $76,217.39 | 0.1% | 23 |
+| 4715 | It Expendable Property | Services and supplies | $53,389.62 | 0.0% | 11 |
+| 4650 | Other Services And Supplies | Services and supplies | $52,840.91 | 0.0% | 1 |
+| 4250 | Data Processing | Services and supplies | $46,551.66 | 0.0% | 6 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $21,022.45 | 0.0% | 2 |
+| 3240 | Unemployment Assessment | Personnel services | $18,755.66 | 0.0% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $16,458.61 | 0.0% | 3 |
+| 5600 | Data Processing Hardware | Capital outlay | $15,506.13 | 0.0% | 1 |
+| 5150 | Telecommunications | Capital outlay | $10,933.34 | 0.0% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $9,540.83 | 0.0% | 4 |
+| 4400 | Dues And Subscriptions | Services and supplies | $5,601.50 | 0.0% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $3,458.08 | 0.0% | 5 |
 
 ## Largest expenditure classes
 

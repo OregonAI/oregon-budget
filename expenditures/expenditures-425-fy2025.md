@@ -53,18 +53,26 @@ Indian Services Cmsn (agency code 425, recorded upstream as `INDIAN SERVICES CMS
 
 The largest budget category was **State Government Service Charges** at $11,966.97 (50.6% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $23,671.22 | 100.0% | 8 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $11,966.97 | 50.6% | 3 |
-| 4100 | Instate Travel | $5,057.26 | 21.4% | 10 |
-| 4150 | Employee Training | $2,319.98 | 9.8% | 6 |
-| 4715 | It Expendable Property | $1,883.34 | 8.0% | 3 |
-| 4200 | Telecomm/Tech Svc And Supplies | $1,859.79 | 7.9% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $406.20 | 1.7% | 2 |
-| 4175 | Office Expenses | $162.68 | 0.7% | 1 |
-| 4650 | Other Services And Supplies | $15.00 | 0.1% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $11,966.97 | 50.6% | 3 |
+| 4100 | Instate Travel | Services and supplies | $5,057.26 | 21.4% | 10 |
+| 4150 | Employee Training | Services and supplies | $2,319.98 | 9.8% | 6 |
+| 4715 | It Expendable Property | Services and supplies | $1,883.34 | 8.0% | 3 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $1,859.79 | 7.9% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $406.20 | 1.7% | 2 |
+| 4175 | Office Expenses | Services and supplies | $162.68 | 0.7% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $15.00 | 0.1% | 1 |
 
 ## Largest expenditure classes
 

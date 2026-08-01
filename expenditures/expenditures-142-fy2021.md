@@ -54,29 +54,39 @@ Legislative Counsel Office (agency code 142, recorded upstream as `LEGISLATIVE C
 
 The largest budget category was **State Government Service Charges** at $157,046.11 (42.9% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $348,197.04 | 95.1% | 15 |
+| Personnel services | $12,610.01 | 3.4% | 3 |
+| Capital outlay | $5,178.53 | 1.4% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $157,046.11 | 42.9% | 4 |
-| 4715 | It Expendable Property | $74,474.86 | 20.3% | 12 |
-| 4275 | Publicity & Publications | $45,501.23 | 12.4% | 3 |
-| 4400 | Dues And Subscriptions | $20,378.53 | 5.6% | 3 |
-| 4175 | Office Expenses | $20,021.15 | 5.5% | 19 |
-| 4425 | Lease Payments & Taxes | $10,837.50 | 3.0% | 1 |
-| 3240 | Unemployment Assessment | $7,626.52 | 2.1% | 1 |
-| 4150 | Employee Training | $6,651.50 | 1.8% | 6 |
-| 5150 | Telecommunications | $5,178.53 | 1.4% | 1 |
-| 3220 | Public Employes' Retirement System | $4,946.39 | 1.4% | 1 |
-| 4650 | Other Services And Supplies | $4,106.51 | 1.1% | 3 |
-| 4300 | Professional Services | $2,863.65 | 0.8% | 2 |
-| 4315 | It Professional Services | $2,733.75 | 0.7% | 1 |
-| 4250 | Data Processing | $1,647.41 | 0.5% | 2 |
-| 4700 | Expendable Property $250-$5000 | $892.00 | 0.2% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $774.78 | 0.2% | 4 |
-| 4100 | Instate Travel | $243.06 | 0.1% | 2 |
-| 3280 | Other Payroll Expenses | $37.10 | 0.0% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $25.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $157,046.11 | 42.9% | 4 |
+| 4715 | It Expendable Property | Services and supplies | $74,474.86 | 20.3% | 12 |
+| 4275 | Publicity & Publications | Services and supplies | $45,501.23 | 12.4% | 3 |
+| 4400 | Dues And Subscriptions | Services and supplies | $20,378.53 | 5.6% | 3 |
+| 4175 | Office Expenses | Services and supplies | $20,021.15 | 5.5% | 19 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $10,837.50 | 3.0% | 1 |
+| 3240 | Unemployment Assessment | Personnel services | $7,626.52 | 2.1% | 1 |
+| 4150 | Employee Training | Services and supplies | $6,651.50 | 1.8% | 6 |
+| 5150 | Telecommunications | Capital outlay | $5,178.53 | 1.4% | 1 |
+| 3220 | Public Employes' Retirement System | Personnel services | $4,946.39 | 1.4% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $4,106.51 | 1.1% | 3 |
+| 4300 | Professional Services | Services and supplies | $2,863.65 | 0.8% | 2 |
+| 4315 | It Professional Services | Services and supplies | $2,733.75 | 0.7% | 1 |
+| 4250 | Data Processing | Services and supplies | $1,647.41 | 0.5% | 2 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $892.00 | 0.2% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $774.78 | 0.2% | 4 |
+| 4100 | Instate Travel | Services and supplies | $243.06 | 0.1% | 2 |
+| 3280 | Other Payroll Expenses | Personnel services | $37.10 | 0.0% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $25.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

@@ -54,33 +54,44 @@ Labor & Ind, Bureau of (agency code 839, recorded upstream as `LABOR & IND, BURE
 
 The largest budget category was **Professional Services** at $1,166,985.45 (34.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $3,059,209.56 | 90.5% | 17 |
+| Capital outlay | $167,895.61 | 5.0% | 2 |
+| Distributions | $97,220.30 | 2.9% | 2 |
+| Personnel services | $56,863.00 | 1.7% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $1,166,985.45 | 34.5% | 49 |
-| 4425 | Lease Payments & Taxes | $517,873.31 | 15.3% | 4 |
-| 4225 | State Government Service Charges | $436,764.12 | 12.9% | 5 |
-| 4175 | Office Expenses | $256,134.59 | 7.6% | 35 |
-| 4650 | Other Services And Supplies | $194,053.61 | 5.7% | 10 |
-| 5600 | Data Processing Hardware | $150,430.55 | 4.4% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $128,134.62 | 3.8% | 8 |
-| 4315 | It Professional Services | $94,132.00 | 2.8% | 2 |
-| 4325 | Attorney General Legal Fees | $79,488.04 | 2.4% | 1 |
-| 6100 | Distribution To Dept Of Human Services | $59,845.33 | 1.8% | 1 |
-| 3240 | Unemployment Assessment | $55,407.81 | 1.6% | 1 |
-| 4600 | Intra-Inter Agency Charges | $43,000.75 | 1.3% | 1 |
-| 4715 | It Expendable Property | $37,727.58 | 1.1% | 9 |
-| 6035 | Distribution To Individuals | $37,374.97 | 1.1% | 3 |
-| 4400 | Dues And Subscriptions | $34,112.14 | 1.0% | 8 |
-| 4100 | Instate Travel | $19,813.65 | 0.6% | 4 |
-| 4150 | Employee Training | $18,081.80 | 0.5% | 5 |
-| 4250 | Data Processing | $17,611.14 | 0.5% | 3 |
-| 5550 | Data Processing Software | $17,465.06 | 0.5% | 1 |
-| 4700 | Expendable Property $250-$5000 | $10,845.04 | 0.3% | 3 |
-| 4275 | Publicity & Publications | $3,871.72 | 0.1% | 2 |
-| 3110 | Class/Unclass Salary & Per Diem | $1,455.19 | 0.0% | 1 |
-| 4475 | Facilities Maintenance | $580.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $1,166,985.45 | 34.5% | 49 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $517,873.31 | 15.3% | 4 |
+| 4225 | State Government Service Charges | Services and supplies | $436,764.12 | 12.9% | 5 |
+| 4175 | Office Expenses | Services and supplies | $256,134.59 | 7.6% | 35 |
+| 4650 | Other Services And Supplies | Services and supplies | $194,053.61 | 5.7% | 10 |
+| 5600 | Data Processing Hardware | Capital outlay | $150,430.55 | 4.4% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $128,134.62 | 3.8% | 8 |
+| 4315 | It Professional Services | Services and supplies | $94,132.00 | 2.8% | 2 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $79,488.04 | 2.4% | 1 |
+| 6100 | Distribution To Dept Of Human Services | Distributions | $59,845.33 | 1.8% | 1 |
+| 3240 | Unemployment Assessment | Personnel services | $55,407.81 | 1.6% | 1 |
+| 4600 | Intra-Inter Agency Charges | Services and supplies | $43,000.75 | 1.3% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $37,727.58 | 1.1% | 9 |
+| 6035 | Distribution To Individuals | Distributions | $37,374.97 | 1.1% | 3 |
+| 4400 | Dues And Subscriptions | Services and supplies | $34,112.14 | 1.0% | 8 |
+| 4100 | Instate Travel | Services and supplies | $19,813.65 | 0.6% | 4 |
+| 4150 | Employee Training | Services and supplies | $18,081.80 | 0.5% | 5 |
+| 4250 | Data Processing | Services and supplies | $17,611.14 | 0.5% | 3 |
+| 5550 | Data Processing Software | Capital outlay | $17,465.06 | 0.5% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $10,845.04 | 0.3% | 3 |
+| 4275 | Publicity & Publications | Services and supplies | $3,871.72 | 0.1% | 2 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $1,455.19 | 0.0% | 1 |
+| 4475 | Facilities Maintenance | Services and supplies | $580.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

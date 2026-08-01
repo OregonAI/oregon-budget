@@ -54,22 +54,30 @@ Legislative Fiscal Officer (agency code 145, recorded upstream as `LEGISLATIVE F
 
 The largest budget category was **State Government Service Charges** at $55,432.48 (39.8% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $139,331.19 | 100.0% | 12 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $55,432.48 | 39.8% | 3 |
-| 4150 | Employee Training | $44,496.23 | 31.9% | 12 |
-| 4175 | Office Expenses | $12,899.44 | 9.3% | 8 |
-| 4715 | It Expendable Property | $8,092.35 | 5.8% | 3 |
-| 4100 | Instate Travel | $5,938.26 | 4.3% | 30 |
-| 4650 | Other Services And Supplies | $3,774.20 | 2.7% | 3 |
-| 4125 | Out-Of-State Travel | $3,521.17 | 2.5% | 6 |
-| 4700 | Expendable Property $250-$5000 | $2,975.16 | 2.1% | 2 |
-| 4250 | Data Processing | $1,115.49 | 0.8% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $683.61 | 0.5% | 1 |
-| 4400 | Dues And Subscriptions | $294.80 | 0.2% | 2 |
-| 4300 | Professional Services | $108.00 | 0.1% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $55,432.48 | 39.8% | 3 |
+| 4150 | Employee Training | Services and supplies | $44,496.23 | 31.9% | 12 |
+| 4175 | Office Expenses | Services and supplies | $12,899.44 | 9.3% | 8 |
+| 4715 | It Expendable Property | Services and supplies | $8,092.35 | 5.8% | 3 |
+| 4100 | Instate Travel | Services and supplies | $5,938.26 | 4.3% | 30 |
+| 4650 | Other Services And Supplies | Services and supplies | $3,774.20 | 2.7% | 3 |
+| 4125 | Out-Of-State Travel | Services and supplies | $3,521.17 | 2.5% | 6 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $2,975.16 | 2.1% | 2 |
+| 4250 | Data Processing | Services and supplies | $1,115.49 | 0.8% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $683.61 | 0.5% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $294.80 | 0.2% | 2 |
+| 4300 | Professional Services | Services and supplies | $108.00 | 0.1% | 1 |
 
 ## Largest expenditure classes
 

@@ -54,22 +54,30 @@ Licensed Social Workers Brd (agency code 124, recorded upstream as `LICENSED SOC
 
 The largest budget category was **Other Services And Supplies** at $73,804.74 (24.3% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $303,356.20 | 100.0% | 12 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4650 | Other Services And Supplies | $73,804.74 | 24.3% | 4 |
-| 4225 | State Government Service Charges | $66,158.75 | 21.8% | 4 |
-| 4425 | Lease Payments & Taxes | $50,875.02 | 16.8% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $45,154.25 | 14.9% | 1 |
-| 4250 | Data Processing | $17,101.70 | 5.6% | 2 |
-| 4325 | Attorney General Legal Fees | $16,286.00 | 5.4% | 1 |
-| 4315 | It Professional Services | $14,600.00 | 4.8% | 2 |
-| 4300 | Professional Services | $11,078.42 | 3.7% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $5,945.35 | 2.0% | 4 |
-| 4175 | Office Expenses | $2,069.47 | 0.7% | 2 |
-| 4100 | Instate Travel | $221.25 | 0.1% | 4 |
-| 4715 | It Expendable Property | $61.25 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4650 | Other Services And Supplies | Services and supplies | $73,804.74 | 24.3% | 4 |
+| 4225 | State Government Service Charges | Services and supplies | $66,158.75 | 21.8% | 4 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $50,875.02 | 16.8% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $45,154.25 | 14.9% | 1 |
+| 4250 | Data Processing | Services and supplies | $17,101.70 | 5.6% | 2 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $16,286.00 | 5.4% | 1 |
+| 4315 | It Professional Services | Services and supplies | $14,600.00 | 4.8% | 2 |
+| 4300 | Professional Services | Services and supplies | $11,078.42 | 3.7% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $5,945.35 | 2.0% | 4 |
+| 4175 | Office Expenses | Services and supplies | $2,069.47 | 0.7% | 2 |
+| 4100 | Instate Travel | Services and supplies | $221.25 | 0.1% | 4 |
+| 4715 | It Expendable Property | Services and supplies | $61.25 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

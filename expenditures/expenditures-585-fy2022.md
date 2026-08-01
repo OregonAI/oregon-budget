@@ -54,32 +54,42 @@ Blind, Cmsn for the (agency code 585, recorded upstream as `BLIND, CMSN FOR THE`
 
 The largest budget category was **Other Special Payments** at $1,193,499.20 (27.9% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $2,781,626.23 | 65.0% | 18 |
+| Distributions | $1,482,411.62 | 34.6% | 2 |
+| Capital outlay | $17,261.87 | 0.4% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6085 | Other Special Payments | $1,193,499.20 | 27.9% | 102 |
-| 4300 | Professional Services | $713,363.25 | 16.7% | 3 |
-| 4575 | Agency Program Related Svcs & Supp | $335,896.00 | 7.8% | 66 |
-| 4225 | State Government Service Charges | $323,829.93 | 7.6% | 5 |
-| 4650 | Other Services And Supplies | $317,856.24 | 7.4% | 22 |
-| 6040 | Distribution To Local School Dist | $288,912.42 | 6.7% | 2 |
-| 4425 | Lease Payments & Taxes | $262,492.08 | 6.1% | 12 |
-| 4325 | Attorney General Legal Fees | $180,206.60 | 4.2% | 1 |
-| 4715 | It Expendable Property | $179,360.10 | 4.2% | 10 |
-| 4200 | Telecomm/Tech Svc And Supplies | $138,085.84 | 3.2% | 15 |
-| 4315 | It Professional Services | $104,195.58 | 2.4% | 3 |
-| 4100 | Instate Travel | $70,363.66 | 1.6% | 38 |
-| 4475 | Facilities Maintenance | $48,166.43 | 1.1% | 14 |
-| 4175 | Office Expenses | $32,268.52 | 0.8% | 16 |
-| 4400 | Dues And Subscriptions | $30,500.00 | 0.7% | 1 |
-| 4150 | Employee Training | $19,939.52 | 0.5% | 11 |
-| 4250 | Data Processing | $13,284.20 | 0.3% | 1 |
-| 5100 | Office Furniture And Fixtures | $9,416.87 | 0.2% | 1 |
-| 4125 | Out-Of-State Travel | $9,195.79 | 0.2% | 17 |
-| 5200 | Technical Equipment | $7,845.00 | 0.2% | 1 |
-| 4700 | Expendable Property $250-$5000 | $2,488.49 | 0.1% | 3 |
-| 4275 | Publicity & Publications | $134.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6085 | Other Special Payments | Distributions | $1,193,499.20 | 27.9% | 102 |
+| 4300 | Professional Services | Services and supplies | $713,363.25 | 16.7% | 3 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $335,896.00 | 7.8% | 66 |
+| 4225 | State Government Service Charges | Services and supplies | $323,829.93 | 7.6% | 5 |
+| 4650 | Other Services And Supplies | Services and supplies | $317,856.24 | 7.4% | 22 |
+| 6040 | Distribution To Local School Dist | Distributions | $288,912.42 | 6.7% | 2 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $262,492.08 | 6.1% | 12 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $180,206.60 | 4.2% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $179,360.10 | 4.2% | 10 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $138,085.84 | 3.2% | 15 |
+| 4315 | It Professional Services | Services and supplies | $104,195.58 | 2.4% | 3 |
+| 4100 | Instate Travel | Services and supplies | $70,363.66 | 1.6% | 38 |
+| 4475 | Facilities Maintenance | Services and supplies | $48,166.43 | 1.1% | 14 |
+| 4175 | Office Expenses | Services and supplies | $32,268.52 | 0.8% | 16 |
+| 4400 | Dues And Subscriptions | Services and supplies | $30,500.00 | 0.7% | 1 |
+| 4150 | Employee Training | Services and supplies | $19,939.52 | 0.5% | 11 |
+| 4250 | Data Processing | Services and supplies | $13,284.20 | 0.3% | 1 |
+| 5100 | Office Furniture And Fixtures | Capital outlay | $9,416.87 | 0.2% | 1 |
+| 4125 | Out-Of-State Travel | Services and supplies | $9,195.79 | 0.2% | 17 |
+| 5200 | Technical Equipment | Capital outlay | $7,845.00 | 0.2% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $2,488.49 | 0.1% | 3 |
+| 4275 | Publicity & Publications | Services and supplies | $134.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

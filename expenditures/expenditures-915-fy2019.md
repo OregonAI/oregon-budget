@@ -53,34 +53,44 @@ Construction Ctr Brd (agency code 915, recorded upstream as `CONSTRUCTION CTR BR
 
 The largest budget category was **Facilities Rent & Taxes** at $352,999.94 (19.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $1,648,566.54 | 88.5% | 17 |
+| Personnel services | $197,863.52 | 10.6% | 6 |
+| Capital outlay | $15,640.50 | 0.8% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4425 | Facilities Rent & Taxes | $352,999.94 | 19.0% | 3 |
-| 4650 | Other Services And Supplies | $246,088.28 | 13.2% | 9 |
-| 4175 | Office Expenses | $229,872.13 | 12.3% | 8 |
-| 4225 | State Government Service Charges | $193,497.09 | 10.4% | 5 |
-| 4300 | Professional Services | $182,208.63 | 9.8% | 8 |
-| 4100 | Instate Travel | $144,679.86 | 7.8% | 83 |
-| 3110 | Class/Unclass Salary & Per Diem | $138,784.46 | 7.5% | 3 |
-| 4325 | Attorney General Legal Fees | $69,855.08 | 3.8% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $59,724.93 | 3.2% | 6 |
-| 4315 | It Professional Services | $59,422.53 | 3.2% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $44,848.90 | 2.4% | 8 |
-| 4275 | Publicity & Publications | $32,756.91 | 1.8% | 9 |
-| 3220 | Public Employes' Retirement System | $30,682.43 | 1.6% | 9 |
-| 4715 | It Expendable Property | $17,243.66 | 0.9% | 1 |
-| 5550 | Data Processing Software | $15,640.50 | 0.8% | 1 |
-| 3230 | Social Security Tax | $10,440.59 | 0.6% | 2 |
-| 3270 | Flexible Benefits | $9,435.91 | 0.5% | 2 |
-| 4250 | Data Processing | $8,569.15 | 0.5% | 5 |
-| 3221 | Pension Bond Contribution | $8,491.09 | 0.5% | 2 |
-| 4150 | Employee Training | $4,677.70 | 0.3% | 7 |
-| 4125 | Out-Of-State Travel | $1,178.70 | 0.1% | 5 |
-| 4475 | Facilities Maintenance | $604.25 | 0.0% | 1 |
-| 4700 | Expendable Property $250-$5000 | $338.80 | 0.0% | 1 |
-| 3250 | Workers' Compensation Assessment | $29.04 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4425 | Facilities Rent & Taxes | Services and supplies | $352,999.94 | 19.0% | 3 |
+| 4650 | Other Services And Supplies | Services and supplies | $246,088.28 | 13.2% | 9 |
+| 4175 | Office Expenses | Services and supplies | $229,872.13 | 12.3% | 8 |
+| 4225 | State Government Service Charges | Services and supplies | $193,497.09 | 10.4% | 5 |
+| 4300 | Professional Services | Services and supplies | $182,208.63 | 9.8% | 8 |
+| 4100 | Instate Travel | Services and supplies | $144,679.86 | 7.8% | 83 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $138,784.46 | 7.5% | 3 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $69,855.08 | 3.8% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $59,724.93 | 3.2% | 6 |
+| 4315 | It Professional Services | Services and supplies | $59,422.53 | 3.2% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $44,848.90 | 2.4% | 8 |
+| 4275 | Publicity & Publications | Services and supplies | $32,756.91 | 1.8% | 9 |
+| 3220 | Public Employes' Retirement System | Personnel services | $30,682.43 | 1.6% | 9 |
+| 4715 | It Expendable Property | Services and supplies | $17,243.66 | 0.9% | 1 |
+| 5550 | Data Processing Software | Capital outlay | $15,640.50 | 0.8% | 1 |
+| 3230 | Social Security Tax | Personnel services | $10,440.59 | 0.6% | 2 |
+| 3270 | Flexible Benefits | Personnel services | $9,435.91 | 0.5% | 2 |
+| 4250 | Data Processing | Services and supplies | $8,569.15 | 0.5% | 5 |
+| 3221 | Pension Bond Contribution | Personnel services | $8,491.09 | 0.5% | 2 |
+| 4150 | Employee Training | Services and supplies | $4,677.70 | 0.3% | 7 |
+| 4125 | Out-Of-State Travel | Services and supplies | $1,178.70 | 0.1% | 5 |
+| 4475 | Facilities Maintenance | Services and supplies | $604.25 | 0.0% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $338.80 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $29.04 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

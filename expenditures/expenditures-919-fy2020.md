@@ -54,31 +54,41 @@ Real Estate Agy (agency code 919, recorded upstream as `REAL ESTATE AGY`) spent 
 
 The largest budget category was **State Government Service Charges** at $147,052.47 (20.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $694,461.68 | 96.7% | 19 |
+| Capital outlay | $23,506.00 | 3.3% | 1 |
+| Personnel services | $437.94 | 0.1% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $147,052.47 | 20.5% | 5 |
-| 4425 | Facilities Rent & Taxes | $130,670.62 | 18.2% | 2 |
-| 4325 | Attorney General Legal Fees | $86,572.66 | 12.1% | 1 |
-| 4650 | Other Services And Supplies | $82,599.58 | 11.5% | 5 |
-| 4300 | Professional Services | $49,882.86 | 6.9% | 4 |
-| 4315 | It Professional Services | $31,551.25 | 4.4% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $25,924.76 | 3.6% | 6 |
-| 4250 | Data Processing | $24,102.88 | 3.4% | 2 |
-| 5100 | Office Furniture And Fixtures | $23,506.00 | 3.3% | 1 |
-| 4100 | Instate Travel | $22,092.60 | 3.1% | 60 |
-| 4175 | Office Expenses | $20,302.22 | 2.8% | 10 |
-| 4575 | Agency Program Related Svcs & Supp | $19,376.09 | 2.7% | 1 |
-| 4125 | Out-Of-State Travel | $16,767.51 | 2.3% | 19 |
-| 4715 | It Expendable Property | $13,085.18 | 1.8% | 8 |
-| 4150 | Employee Training | $10,858.34 | 1.5% | 5 |
-| 4700 | Expendable Property $250-$5000 | $5,786.03 | 0.8% | 1 |
-| 4475 | Facilities Maintenance | $3,531.06 | 0.5% | 1 |
-| 4400 | Dues And Subscriptions | $3,530.00 | 0.5% | 2 |
-| 4275 | Publicity & Publications | $486.57 | 0.1% | 3 |
-| 3220 | Public Employes' Retirement System | $437.94 | 0.1% | 1 |
-| 4525 | Medical Supplies And Services | $289.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $147,052.47 | 20.5% | 5 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $130,670.62 | 18.2% | 2 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $86,572.66 | 12.1% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $82,599.58 | 11.5% | 5 |
+| 4300 | Professional Services | Services and supplies | $49,882.86 | 6.9% | 4 |
+| 4315 | It Professional Services | Services and supplies | $31,551.25 | 4.4% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $25,924.76 | 3.6% | 6 |
+| 4250 | Data Processing | Services and supplies | $24,102.88 | 3.4% | 2 |
+| 5100 | Office Furniture And Fixtures | Capital outlay | $23,506.00 | 3.3% | 1 |
+| 4100 | Instate Travel | Services and supplies | $22,092.60 | 3.1% | 60 |
+| 4175 | Office Expenses | Services and supplies | $20,302.22 | 2.8% | 10 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $19,376.09 | 2.7% | 1 |
+| 4125 | Out-Of-State Travel | Services and supplies | $16,767.51 | 2.3% | 19 |
+| 4715 | It Expendable Property | Services and supplies | $13,085.18 | 1.8% | 8 |
+| 4150 | Employee Training | Services and supplies | $10,858.34 | 1.5% | 5 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $5,786.03 | 0.8% | 1 |
+| 4475 | Facilities Maintenance | Services and supplies | $3,531.06 | 0.5% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $3,530.00 | 0.5% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $486.57 | 0.1% | 3 |
+| 3220 | Public Employes' Retirement System | Personnel services | $437.94 | 0.1% | 1 |
+| 4525 | Medical Supplies And Services | Services and supplies | $289.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

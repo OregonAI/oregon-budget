@@ -52,11 +52,19 @@ Cntrl Agy/St General Fund/B-Up Wh (agency code 999, recorded upstream as `CNTRL 
 
 The largest budget category was **Default** at $1,946.74 (100.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Reversions | $1,946.74 | 100.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 9999 | Default | $1,946.74 | 100.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 9999 | Default | Reversions | $1,946.74 | 100.0% | 2 |
 
 ## Largest expenditure classes
 

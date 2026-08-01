@@ -53,22 +53,31 @@ Land Use Brd of Appeals (agency code 662, recorded upstream as `LAND USE BRD OF 
 
 The largest budget category was **Lease Payments & Taxes** at $65,831.44 (31.8% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $202,980.74 | 98.1% | 11 |
+| Personnel services | $3,957.12 | 1.9% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4425 | Lease Payments & Taxes | $65,831.44 | 31.8% | 2 |
-| 4650 | Other Services And Supplies | $48,232.33 | 23.3% | 2 |
-| 4225 | State Government Service Charges | $45,111.84 | 21.8% | 6 |
-| 4250 | Data Processing | $21,652.70 | 10.5% | 3 |
-| 4300 | Professional Services | $8,376.13 | 4.0% | 4 |
-| 4700 | Expendable Property $250-$5000 | $6,740.04 | 3.3% | 2 |
-| 3220 | Public Employes' Retirement System | $3,957.12 | 1.9% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $2,977.00 | 1.4% | 3 |
-| 4175 | Office Expenses | $2,411.97 | 1.2% | 4 |
-| 4150 | Employee Training | $1,099.12 | 0.5% | 7 |
-| 4275 | Publicity & Publications | $405.39 | 0.2% | 1 |
-| 4715 | It Expendable Property | $142.78 | 0.1% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4425 | Lease Payments & Taxes | Services and supplies | $65,831.44 | 31.8% | 2 |
+| 4650 | Other Services And Supplies | Services and supplies | $48,232.33 | 23.3% | 2 |
+| 4225 | State Government Service Charges | Services and supplies | $45,111.84 | 21.8% | 6 |
+| 4250 | Data Processing | Services and supplies | $21,652.70 | 10.5% | 3 |
+| 4300 | Professional Services | Services and supplies | $8,376.13 | 4.0% | 4 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $6,740.04 | 3.3% | 2 |
+| 3220 | Public Employes' Retirement System | Personnel services | $3,957.12 | 1.9% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $2,977.00 | 1.4% | 3 |
+| 4175 | Office Expenses | Services and supplies | $2,411.97 | 1.2% | 4 |
+| 4150 | Employee Training | Services and supplies | $1,099.12 | 0.5% | 7 |
+| 4275 | Publicity & Publications | Services and supplies | $405.39 | 0.2% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $142.78 | 0.1% | 1 |
 
 ## Largest expenditure classes
 

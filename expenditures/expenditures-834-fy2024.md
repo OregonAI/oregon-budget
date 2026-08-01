@@ -54,25 +54,33 @@ Dentistry, Brd of (agency code 834, recorded upstream as `DENTISTRY, BRD OF`) sp
 
 The largest budget category was **Professional Services** at $163,594.87 (23.6% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $692,709.74 | 100.0% | 15 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $163,594.87 | 23.6% | 10 |
-| 4325 | Attorney General Legal Fees | $144,666.18 | 20.9% | 1 |
-| 4425 | Lease Payments & Taxes | $106,011.02 | 15.3% | 2 |
-| 4650 | Other Services And Supplies | $68,678.66 | 9.9% | 6 |
-| 4250 | Data Processing | $63,464.08 | 9.2% | 5 |
-| 4225 | State Government Service Charges | $47,843.69 | 6.9% | 4 |
-| 4715 | It Expendable Property | $28,256.23 | 4.1% | 3 |
-| 4575 | Agency Program Related Svcs & Supp | $23,807.71 | 3.4% | 2 |
-| 4175 | Office Expenses | $12,138.87 | 1.8% | 9 |
-| 4150 | Employee Training | $9,941.71 | 1.4% | 16 |
-| 4200 | Telecomm/Tech Svc And Supplies | $9,894.30 | 1.4% | 4 |
-| 4100 | Instate Travel | $8,333.72 | 1.2% | 25 |
-| 4400 | Dues And Subscriptions | $4,806.80 | 0.7% | 4 |
-| 4275 | Publicity & Publications | $1,151.90 | 0.2% | 3 |
-| 4375 | Employee Recruitment And Development | $120.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $163,594.87 | 23.6% | 10 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $144,666.18 | 20.9% | 1 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $106,011.02 | 15.3% | 2 |
+| 4650 | Other Services And Supplies | Services and supplies | $68,678.66 | 9.9% | 6 |
+| 4250 | Data Processing | Services and supplies | $63,464.08 | 9.2% | 5 |
+| 4225 | State Government Service Charges | Services and supplies | $47,843.69 | 6.9% | 4 |
+| 4715 | It Expendable Property | Services and supplies | $28,256.23 | 4.1% | 3 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $23,807.71 | 3.4% | 2 |
+| 4175 | Office Expenses | Services and supplies | $12,138.87 | 1.8% | 9 |
+| 4150 | Employee Training | Services and supplies | $9,941.71 | 1.4% | 16 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $9,894.30 | 1.4% | 4 |
+| 4100 | Instate Travel | Services and supplies | $8,333.72 | 1.2% | 25 |
+| 4400 | Dues And Subscriptions | Services and supplies | $4,806.80 | 0.7% | 4 |
+| 4275 | Publicity & Publications | Services and supplies | $1,151.90 | 0.2% | 3 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $120.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

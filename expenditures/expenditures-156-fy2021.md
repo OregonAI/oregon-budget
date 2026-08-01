@@ -54,31 +54,42 @@ Legislative Admin Cmte (agency code 156, recorded upstream as `LEGISLATIVE ADMIN
 
 The largest budget category was **Professional Services** at $11,996,481.58 (45.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $16,310,198.27 | 61.1% | 16 |
+| Debt service | $8,257,240.30 | 30.9% | 2 |
+| Distributions | $2,105,886.48 | 7.9% | 1 |
+| Personnel services | $8,348.44 | 0.0% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $11,996,481.58 | 45.0% | 27 |
-| 7100 | Principal - Bonds | $5,024,343.29 | 18.8% | 1 |
-| 7150 | Interest - Bonds | $3,232,897.01 | 12.1% | 1 |
-| 6257 | Dist To State Police | $2,105,886.48 | 7.9% | 1 |
-| 4715 | It Expendable Property | $1,309,028.72 | 4.9% | 50 |
-| 4650 | Other Services And Supplies | $1,173,897.35 | 4.4% | 48 |
-| 4225 | State Government Service Charges | $439,065.96 | 1.6% | 4 |
-| 4450 | Fuels And Utilities | $363,672.86 | 1.4% | 7 |
-| 4475 | Facilities Maintenance | $269,609.02 | 1.0% | 56 |
-| 4250 | Data Processing | $212,828.65 | 0.8% | 13 |
-| 4315 | It Professional Services | $195,270.43 | 0.7% | 9 |
-| 4200 | Telecomm/Tech Svc And Supplies | $185,380.63 | 0.7% | 16 |
-| 4175 | Office Expenses | $51,516.32 | 0.2% | 25 |
-| 4150 | Employee Training | $45,328.12 | 0.2% | 18 |
-| 4700 | Expendable Property $250-$5000 | $32,667.81 | 0.1% | 5 |
-| 4425 | Lease Payments & Taxes | $23,682.26 | 0.1% | 2 |
-| 4325 | Attorney General Legal Fees | $11,128.00 | 0.0% | 1 |
-| 3240 | Unemployment Assessment | $7,471.20 | 0.0% | 1 |
-| 3270 | Flexible Benefits | $877.24 | 0.0% | 1 |
-| 4400 | Dues And Subscriptions | $488.02 | 0.0% | 2 |
-| 4275 | Publicity & Publications | $152.54 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $11,996,481.58 | 45.0% | 27 |
+| 7100 | Principal - Bonds | Debt service | $5,024,343.29 | 18.8% | 1 |
+| 7150 | Interest - Bonds | Debt service | $3,232,897.01 | 12.1% | 1 |
+| 6257 | Dist To State Police | Distributions | $2,105,886.48 | 7.9% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $1,309,028.72 | 4.9% | 50 |
+| 4650 | Other Services And Supplies | Services and supplies | $1,173,897.35 | 4.4% | 48 |
+| 4225 | State Government Service Charges | Services and supplies | $439,065.96 | 1.6% | 4 |
+| 4450 | Fuels And Utilities | Services and supplies | $363,672.86 | 1.4% | 7 |
+| 4475 | Facilities Maintenance | Services and supplies | $269,609.02 | 1.0% | 56 |
+| 4250 | Data Processing | Services and supplies | $212,828.65 | 0.8% | 13 |
+| 4315 | It Professional Services | Services and supplies | $195,270.43 | 0.7% | 9 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $185,380.63 | 0.7% | 16 |
+| 4175 | Office Expenses | Services and supplies | $51,516.32 | 0.2% | 25 |
+| 4150 | Employee Training | Services and supplies | $45,328.12 | 0.2% | 18 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $32,667.81 | 0.1% | 5 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $23,682.26 | 0.1% | 2 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $11,128.00 | 0.0% | 1 |
+| 3240 | Unemployment Assessment | Personnel services | $7,471.20 | 0.0% | 1 |
+| 3270 | Flexible Benefits | Personnel services | $877.24 | 0.0% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $488.02 | 0.0% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $152.54 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

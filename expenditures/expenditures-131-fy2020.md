@@ -54,22 +54,30 @@ Advocacy Commissions, OR (agency code 131, recorded upstream as `ADVOCACY COMMIS
 
 The largest budget category was **Professional Services** at $22,130.44 (29.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $74,472.90 | 100.0% | 12 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $22,130.44 | 29.7% | 2 |
-| 4650 | Other Services And Supplies | $16,055.81 | 21.6% | 2 |
-| 4225 | State Government Service Charges | $9,790.63 | 13.1% | 3 |
-| 4100 | Instate Travel | $8,589.34 | 11.5% | 36 |
-| 4250 | Data Processing | $7,424.73 | 10.0% | 2 |
-| 4715 | It Expendable Property | $5,728.37 | 7.7% | 2 |
-| 4325 | Attorney General Legal Fees | $2,204.20 | 3.0% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $1,172.42 | 1.6% | 3 |
-| 4175 | Office Expenses | $752.86 | 1.0% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $395.94 | 0.5% | 1 |
-| 4150 | Employee Training | $188.26 | 0.3% | 2 |
-| 4375 | Employee Recruitment And Development | $39.90 | 0.1% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $22,130.44 | 29.7% | 2 |
+| 4650 | Other Services And Supplies | Services and supplies | $16,055.81 | 21.6% | 2 |
+| 4225 | State Government Service Charges | Services and supplies | $9,790.63 | 13.1% | 3 |
+| 4100 | Instate Travel | Services and supplies | $8,589.34 | 11.5% | 36 |
+| 4250 | Data Processing | Services and supplies | $7,424.73 | 10.0% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $5,728.37 | 7.7% | 2 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $2,204.20 | 3.0% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $1,172.42 | 1.6% | 3 |
+| 4175 | Office Expenses | Services and supplies | $752.86 | 1.0% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $395.94 | 0.5% | 1 |
+| 4150 | Employee Training | Services and supplies | $188.26 | 0.3% | 2 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $39.90 | 0.1% | 1 |
 
 ## Largest expenditure classes
 

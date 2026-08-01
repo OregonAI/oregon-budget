@@ -53,27 +53,36 @@ Long Term Care Ombud (agency code 114, recorded upstream as `LONG TERM CARE OMBU
 
 The largest budget category was **Attorney General Legal Fees** at $143,901.64 (24.6% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $568,115.16 | 97.1% | 16 |
+| Distributions | $16,795.00 | 2.9% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $143,901.64 | 24.6% | 3 |
-| 4425 | Facilities Rent & Taxes | $99,950.39 | 17.1% | 1 |
-| 4650 | Other Services And Supplies | $80,923.07 | 13.8% | 3 |
-| 4100 | Instate Travel | $80,537.00 | 13.8% | 91 |
-| 4225 | State Government Service Charges | $53,079.86 | 9.1% | 5 |
-| 4175 | Office Expenses | $50,584.53 | 8.6% | 13 |
-| 4300 | Professional Services | $20,373.82 | 3.5% | 4 |
-| 6055 | Distribution To Contract Svc Provider | $16,795.00 | 2.9% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $16,466.42 | 2.8% | 7 |
-| 4275 | Publicity & Publications | $11,723.91 | 2.0% | 10 |
-| 4250 | Data Processing | $5,061.31 | 0.9% | 2 |
-| 4715 | It Expendable Property | $1,427.50 | 0.2% | 5 |
-| 4150 | Employee Training | $1,360.35 | 0.2% | 9 |
-| 4315 | It Professional Services | $1,175.00 | 0.2% | 2 |
-| 4575 | Agency Program Related Svcs & Supp | $769.80 | 0.1% | 11 |
-| 4125 | Out-Of-State Travel | $448.79 | 0.1% | 2 |
-| 4550 | Other Care Of Residents & Patients | $331.77 | 0.1% | 6 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $143,901.64 | 24.6% | 3 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $99,950.39 | 17.1% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $80,923.07 | 13.8% | 3 |
+| 4100 | Instate Travel | Services and supplies | $80,537.00 | 13.8% | 91 |
+| 4225 | State Government Service Charges | Services and supplies | $53,079.86 | 9.1% | 5 |
+| 4175 | Office Expenses | Services and supplies | $50,584.53 | 8.6% | 13 |
+| 4300 | Professional Services | Services and supplies | $20,373.82 | 3.5% | 4 |
+| 6055 | Distribution To Contract Svc Provider | Distributions | $16,795.00 | 2.9% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $16,466.42 | 2.8% | 7 |
+| 4275 | Publicity & Publications | Services and supplies | $11,723.91 | 2.0% | 10 |
+| 4250 | Data Processing | Services and supplies | $5,061.31 | 0.9% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $1,427.50 | 0.2% | 5 |
+| 4150 | Employee Training | Services and supplies | $1,360.35 | 0.2% | 9 |
+| 4315 | It Professional Services | Services and supplies | $1,175.00 | 0.2% | 2 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $769.80 | 0.1% | 11 |
+| 4125 | Out-Of-State Travel | Services and supplies | $448.79 | 0.1% | 2 |
+| 4550 | Other Care Of Residents & Patients | Services and supplies | $331.77 | 0.1% | 6 |
 
 ## Largest expenditure classes
 

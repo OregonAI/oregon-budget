@@ -54,34 +54,44 @@ Legislative Assembly (agency code 155, recorded upstream as `LEGISLATIVE ASSEMBL
 
 The largest budget category was **State Government Service Charges** at $755,501.94 (30.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $2,102,585.11 | 84.1% | 20 |
+| Capital outlay | $316,137.00 | 12.6% | 2 |
+| Personnel services | $81,205.82 | 3.2% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $755,501.94 | 30.2% | 4 |
-| 4175 | Office Expenses | $361,368.71 | 14.5% | 81 |
-| 5900 | Other Capital Outlay | $268,975.00 | 10.8% | 3 |
-| 4650 | Other Services And Supplies | $250,892.96 | 10.0% | 82 |
-| 4275 | Publicity & Publications | $205,490.60 | 8.2% | 18 |
-| 4715 | It Expendable Property | $194,552.60 | 7.8% | 24 |
-| 4125 | Out-Of-State Travel | $108,684.16 | 4.3% | 144 |
-| 3240 | Unemployment Assessment | $79,204.83 | 3.2% | 1 |
-| 4300 | Professional Services | $77,118.58 | 3.1% | 5 |
-| 5200 | Technical Equipment | $47,162.00 | 1.9% | 3 |
-| 4150 | Employee Training | $46,077.55 | 1.8% | 51 |
-| 4100 | Instate Travel | $33,770.10 | 1.4% | 96 |
-| 4700 | Expendable Property $250-$5000 | $20,727.75 | 0.8% | 14 |
-| 4425 | Lease Payments & Taxes | $16,329.75 | 0.7% | 19 |
-| 4400 | Dues And Subscriptions | $13,148.37 | 0.5% | 53 |
-| 4325 | Attorney General Legal Fees | $10,710.00 | 0.4% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $3,605.97 | 0.1% | 7 |
-| 4250 | Data Processing | $3,149.44 | 0.1% | 1 |
-| 3270 | Flexible Benefits | $2,000.99 | 0.1% | 1 |
-| 4500 | Food And Kitchen Supplies | $579.98 | 0.0% | 1 |
-| 4315 | It Professional Services | $324.00 | 0.0% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $305.68 | 0.0% | 2 |
-| 4375 | Employee Recruitment And Development | $230.00 | 0.0% | 2 |
-| 4450 | Fuels And Utilities | $16.97 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $755,501.94 | 30.2% | 4 |
+| 4175 | Office Expenses | Services and supplies | $361,368.71 | 14.5% | 81 |
+| 5900 | Other Capital Outlay | Capital outlay | $268,975.00 | 10.8% | 3 |
+| 4650 | Other Services And Supplies | Services and supplies | $250,892.96 | 10.0% | 82 |
+| 4275 | Publicity & Publications | Services and supplies | $205,490.60 | 8.2% | 18 |
+| 4715 | It Expendable Property | Services and supplies | $194,552.60 | 7.8% | 24 |
+| 4125 | Out-Of-State Travel | Services and supplies | $108,684.16 | 4.3% | 144 |
+| 3240 | Unemployment Assessment | Personnel services | $79,204.83 | 3.2% | 1 |
+| 4300 | Professional Services | Services and supplies | $77,118.58 | 3.1% | 5 |
+| 5200 | Technical Equipment | Capital outlay | $47,162.00 | 1.9% | 3 |
+| 4150 | Employee Training | Services and supplies | $46,077.55 | 1.8% | 51 |
+| 4100 | Instate Travel | Services and supplies | $33,770.10 | 1.4% | 96 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $20,727.75 | 0.8% | 14 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $16,329.75 | 0.7% | 19 |
+| 4400 | Dues And Subscriptions | Services and supplies | $13,148.37 | 0.5% | 53 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $10,710.00 | 0.4% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $3,605.97 | 0.1% | 7 |
+| 4250 | Data Processing | Services and supplies | $3,149.44 | 0.1% | 1 |
+| 3270 | Flexible Benefits | Personnel services | $2,000.99 | 0.1% | 1 |
+| 4500 | Food And Kitchen Supplies | Services and supplies | $579.98 | 0.0% | 1 |
+| 4315 | It Professional Services | Services and supplies | $324.00 | 0.0% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $305.68 | 0.0% | 2 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $230.00 | 0.0% | 2 |
+| 4450 | Fuels And Utilities | Services and supplies | $16.97 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

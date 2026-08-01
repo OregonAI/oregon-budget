@@ -54,22 +54,30 @@ Land Use Brd of Appeals (agency code 662, recorded upstream as `LAND USE BRD OF 
 
 The largest budget category was **Lease Payments & Taxes** at $60,315.36 (32.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $188,424.41 | 100.0% | 12 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4425 | Lease Payments & Taxes | $60,315.36 | 32.0% | 1 |
-| 4225 | State Government Service Charges | $45,573.79 | 24.2% | 5 |
-| 4650 | Other Services And Supplies | $43,998.34 | 23.4% | 3 |
-| 4250 | Data Processing | $21,406.82 | 11.4% | 3 |
-| 4300 | Professional Services | $6,231.08 | 3.3% | 3 |
-| 4200 | Telecomm/Tech Svc And Supplies | $5,099.67 | 2.7% | 3 |
-| 4175 | Office Expenses | $4,037.15 | 2.1% | 4 |
-| 4150 | Employee Training | $881.66 | 0.5% | 8 |
-| 4325 | Attorney General Legal Fees | $338.80 | 0.2% | 1 |
-| 4275 | Publicity & Publications | $225.68 | 0.1% | 1 |
-| 4400 | Dues And Subscriptions | $200.00 | 0.1% | 1 |
-| 4100 | Instate Travel | $116.06 | 0.1% | 4 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4425 | Lease Payments & Taxes | Services and supplies | $60,315.36 | 32.0% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $45,573.79 | 24.2% | 5 |
+| 4650 | Other Services And Supplies | Services and supplies | $43,998.34 | 23.4% | 3 |
+| 4250 | Data Processing | Services and supplies | $21,406.82 | 11.4% | 3 |
+| 4300 | Professional Services | Services and supplies | $6,231.08 | 3.3% | 3 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $5,099.67 | 2.7% | 3 |
+| 4175 | Office Expenses | Services and supplies | $4,037.15 | 2.1% | 4 |
+| 4150 | Employee Training | Services and supplies | $881.66 | 0.5% | 8 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $338.80 | 0.2% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $225.68 | 0.1% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $200.00 | 0.1% | 1 |
+| 4100 | Instate Travel | Services and supplies | $116.06 | 0.1% | 4 |
 
 ## Largest expenditure classes
 

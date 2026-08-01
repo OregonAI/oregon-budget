@@ -54,35 +54,44 @@ Construction Ctr Brd (agency code 915, recorded upstream as `CONSTRUCTION CTR BR
 
 The largest budget category was **Facilities Rent & Taxes** at $391,461.15 (21.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $1,667,870.26 | 91.7% | 17 |
+| Personnel services | $151,078.78 | 8.3% | 8 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4425 | Facilities Rent & Taxes | $391,461.15 | 21.5% | 1 |
-| 4650 | Other Services And Supplies | $225,926.45 | 12.4% | 7 |
-| 4225 | State Government Service Charges | $215,316.18 | 11.8% | 5 |
-| 4175 | Office Expenses | $195,334.75 | 10.7% | 6 |
-| 4100 | Instate Travel | $137,807.99 | 7.6% | 74 |
-| 4575 | Agency Program Related Svcs & Supp | $126,092.53 | 6.9% | 2 |
-| 3110 | Class/Unclass Salary & Per Diem | $95,607.65 | 5.3% | 2 |
-| 4315 | It Professional Services | $91,690.84 | 5.0% | 1 |
-| 4325 | Attorney General Legal Fees | $84,778.10 | 4.7% | 1 |
-| 4300 | Professional Services | $70,411.24 | 3.9% | 5 |
-| 4715 | It Expendable Property | $41,232.20 | 2.3% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $35,522.22 | 2.0% | 5 |
-| 4275 | Publicity & Publications | $29,100.80 | 1.6% | 9 |
-| 3270 | Flexible Benefits | $21,932.92 | 1.2% | 2 |
-| 3220 | Public Employes' Retirement System | $20,278.37 | 1.1% | 6 |
-| 4250 | Data Processing | $17,192.11 | 0.9% | 4 |
-| 3230 | Social Security Tax | $7,075.32 | 0.4% | 2 |
-| 3221 | Pension Bond Contribution | $5,659.86 | 0.3% | 2 |
-| 4475 | Facilities Maintenance | $1,911.50 | 0.1% | 1 |
-| 4125 | Out-Of-State Travel | $1,887.01 | 0.1% | 6 |
-| 4150 | Employee Training | $1,730.19 | 0.1% | 16 |
-| 3260 | Mass Transit | $482.12 | 0.0% | 1 |
-| 4400 | Dues And Subscriptions | $475.00 | 0.0% | 2 |
-| 3250 | Workers' Compensation Assessment | $21.48 | 0.0% | 2 |
-| 3210 | Erb Assessment | $21.06 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4425 | Facilities Rent & Taxes | Services and supplies | $391,461.15 | 21.5% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $225,926.45 | 12.4% | 7 |
+| 4225 | State Government Service Charges | Services and supplies | $215,316.18 | 11.8% | 5 |
+| 4175 | Office Expenses | Services and supplies | $195,334.75 | 10.7% | 6 |
+| 4100 | Instate Travel | Services and supplies | $137,807.99 | 7.6% | 74 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $126,092.53 | 6.9% | 2 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $95,607.65 | 5.3% | 2 |
+| 4315 | It Professional Services | Services and supplies | $91,690.84 | 5.0% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $84,778.10 | 4.7% | 1 |
+| 4300 | Professional Services | Services and supplies | $70,411.24 | 3.9% | 5 |
+| 4715 | It Expendable Property | Services and supplies | $41,232.20 | 2.3% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $35,522.22 | 2.0% | 5 |
+| 4275 | Publicity & Publications | Services and supplies | $29,100.80 | 1.6% | 9 |
+| 3270 | Flexible Benefits | Personnel services | $21,932.92 | 1.2% | 2 |
+| 3220 | Public Employes' Retirement System | Personnel services | $20,278.37 | 1.1% | 6 |
+| 4250 | Data Processing | Services and supplies | $17,192.11 | 0.9% | 4 |
+| 3230 | Social Security Tax | Personnel services | $7,075.32 | 0.4% | 2 |
+| 3221 | Pension Bond Contribution | Personnel services | $5,659.86 | 0.3% | 2 |
+| 4475 | Facilities Maintenance | Services and supplies | $1,911.50 | 0.1% | 1 |
+| 4125 | Out-Of-State Travel | Services and supplies | $1,887.01 | 0.1% | 6 |
+| 4150 | Employee Training | Services and supplies | $1,730.19 | 0.1% | 16 |
+| 3260 | Mass Transit | Personnel services | $482.12 | 0.0% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $475.00 | 0.0% | 2 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $21.48 | 0.0% | 2 |
+| 3210 | Erb Assessment | Personnel services | $21.06 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

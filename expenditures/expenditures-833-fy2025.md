@@ -53,35 +53,44 @@ Health Related Licensing Brds (agency code 833, recorded upstream as `HEALTH REL
 
 The largest budget category was **Agency Program Related Svcs & Supp** at $446,268.02 (29.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $1,533,495.01 | 99.5% | 16 |
+| Personnel services | $7,619.93 | 0.5% | 9 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4575 | Agency Program Related Svcs & Supp | $446,268.02 | 29.0% | 59 |
-| 4325 | Attorney General Legal Fees | $430,433.24 | 27.9% | 6 |
-| 4650 | Other Services And Supplies | $227,913.52 | 14.8% | 28 |
-| 4425 | Lease Payments & Taxes | $157,697.76 | 10.2% | 6 |
-| 4225 | State Government Service Charges | $122,087.92 | 7.9% | 24 |
-| 4300 | Professional Services | $51,487.42 | 3.3% | 12 |
-| 4175 | Office Expenses | $22,897.85 | 1.5% | 32 |
-| 4715 | It Expendable Property | $18,308.02 | 1.2% | 9 |
-| 4315 | It Professional Services | $13,793.00 | 0.9% | 5 |
-| 4200 | Telecomm/Tech Svc And Supplies | $13,143.93 | 0.9% | 28 |
-| 4250 | Data Processing | $10,466.73 | 0.7% | 7 |
-| 4100 | Instate Travel | $9,660.23 | 0.6% | 45 |
-| 3110 | Class/Unclass Salary & Per Diem | $5,523.18 | 0.4% | 6 |
-| 4400 | Dues And Subscriptions | $4,350.00 | 0.3% | 1 |
-| 4150 | Employee Training | $3,949.61 | 0.3% | 14 |
-| 3270 | Flexible Benefits | $1,010.77 | 0.1% | 3 |
-| 4125 | Out-Of-State Travel | $691.88 | 0.0% | 4 |
-| 3220 | Public Employes' Retirement System | $626.94 | 0.0% | 3 |
-| 4275 | Publicity & Publications | $345.88 | 0.0% | 5 |
-| 3230 | Social Security Tax | $264.64 | 0.0% | 3 |
-| 3221 | Pension Bond Contribution | $164.64 | 0.0% | 3 |
-| 3260 | Mass Transit | $13.85 | 0.0% | 2 |
-| 3241 | Paid Family Medical Leave Insurance | $13.83 | 0.0% | 3 |
-| 3210 | Erb Assessment | $1.27 | 0.0% | 3 |
-| 3250 | Workers' Compensation Assessment | $0.81 | 0.0% | 3 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $446,268.02 | 29.0% | 59 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $430,433.24 | 27.9% | 6 |
+| 4650 | Other Services And Supplies | Services and supplies | $227,913.52 | 14.8% | 28 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $157,697.76 | 10.2% | 6 |
+| 4225 | State Government Service Charges | Services and supplies | $122,087.92 | 7.9% | 24 |
+| 4300 | Professional Services | Services and supplies | $51,487.42 | 3.3% | 12 |
+| 4175 | Office Expenses | Services and supplies | $22,897.85 | 1.5% | 32 |
+| 4715 | It Expendable Property | Services and supplies | $18,308.02 | 1.2% | 9 |
+| 4315 | It Professional Services | Services and supplies | $13,793.00 | 0.9% | 5 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $13,143.93 | 0.9% | 28 |
+| 4250 | Data Processing | Services and supplies | $10,466.73 | 0.7% | 7 |
+| 4100 | Instate Travel | Services and supplies | $9,660.23 | 0.6% | 45 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $5,523.18 | 0.4% | 6 |
+| 4400 | Dues And Subscriptions | Services and supplies | $4,350.00 | 0.3% | 1 |
+| 4150 | Employee Training | Services and supplies | $3,949.61 | 0.3% | 14 |
+| 3270 | Flexible Benefits | Personnel services | $1,010.77 | 0.1% | 3 |
+| 4125 | Out-Of-State Travel | Services and supplies | $691.88 | 0.0% | 4 |
+| 3220 | Public Employes' Retirement System | Personnel services | $626.94 | 0.0% | 3 |
+| 4275 | Publicity & Publications | Services and supplies | $345.88 | 0.0% | 5 |
+| 3230 | Social Security Tax | Personnel services | $264.64 | 0.0% | 3 |
+| 3221 | Pension Bond Contribution | Personnel services | $164.64 | 0.0% | 3 |
+| 3260 | Mass Transit | Personnel services | $13.85 | 0.0% | 2 |
+| 3241 | Paid Family Medical Leave Insurance | Personnel services | $13.83 | 0.0% | 3 |
+| 3210 | Erb Assessment | Personnel services | $1.27 | 0.0% | 3 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $0.81 | 0.0% | 3 |
 
 ## Largest expenditure classes
 

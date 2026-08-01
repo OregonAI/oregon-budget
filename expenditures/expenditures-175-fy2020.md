@@ -54,20 +54,28 @@ Judicial Fitness & Disability (agency code 175, recorded upstream as `JUDICIAL F
 
 The largest budget category was **Professional Services** at $21,648.40 (44.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $48,379.01 | 100.0% | 10 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $21,648.40 | 44.7% | 5 |
-| 4225 | State Government Service Charges | $10,670.31 | 22.1% | 4 |
-| 4175 | Office Expenses | $6,037.47 | 12.5% | 9 |
-| 4425 | Facilities Rent & Taxes | $4,950.00 | 10.2% | 2 |
-| 4150 | Employee Training | $1,965.51 | 4.1% | 5 |
-| 4200 | Telecomm/Tech Svc And Supplies | $1,926.01 | 4.0% | 3 |
-| 4400 | Dues And Subscriptions | $592.00 | 1.2% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $338.36 | 0.7% | 1 |
-| 4100 | Instate Travel | $237.85 | 0.5% | 4 |
-| 4125 | Out-Of-State Travel | $13.10 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $21,648.40 | 44.7% | 5 |
+| 4225 | State Government Service Charges | Services and supplies | $10,670.31 | 22.1% | 4 |
+| 4175 | Office Expenses | Services and supplies | $6,037.47 | 12.5% | 9 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $4,950.00 | 10.2% | 2 |
+| 4150 | Employee Training | Services and supplies | $1,965.51 | 4.1% | 5 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $1,926.01 | 4.0% | 3 |
+| 4400 | Dues And Subscriptions | Services and supplies | $592.00 | 1.2% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $338.36 | 0.7% | 1 |
+| 4100 | Instate Travel | Services and supplies | $237.85 | 0.5% | 4 |
+| 4125 | Out-Of-State Travel | Services and supplies | $13.10 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

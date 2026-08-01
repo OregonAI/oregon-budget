@@ -53,21 +53,29 @@ Psychiatric Security Rev Brd (agency code 399, recorded upstream as `PSYCHIATRIC
 
 The largest budget category was **Attorney General Legal Fees** at $150,929.90 (30.8% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $489,392.90 | 100.0% | 11 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $150,929.90 | 30.8% | 1 |
-| 4225 | State Government Service Charges | $91,553.09 | 18.7% | 4 |
-| 4250 | Data Processing | $81,349.98 | 16.6% | 6 |
-| 4425 | Lease Payments & Taxes | $75,778.62 | 15.5% | 1 |
-| 4650 | Other Services And Supplies | $50,271.33 | 10.3% | 2 |
-| 4715 | It Expendable Property | $13,711.10 | 2.8% | 1 |
-| 4300 | Professional Services | $11,952.68 | 2.4% | 3 |
-| 4175 | Office Expenses | $5,112.48 | 1.0% | 4 |
-| 4150 | Employee Training | $4,099.16 | 0.8% | 2 |
-| 4275 | Publicity & Publications | $2,950.00 | 0.6% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $1,684.56 | 0.3% | 3 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $150,929.90 | 30.8% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $91,553.09 | 18.7% | 4 |
+| 4250 | Data Processing | Services and supplies | $81,349.98 | 16.6% | 6 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $75,778.62 | 15.5% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $50,271.33 | 10.3% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $13,711.10 | 2.8% | 1 |
+| 4300 | Professional Services | Services and supplies | $11,952.68 | 2.4% | 3 |
+| 4175 | Office Expenses | Services and supplies | $5,112.48 | 1.0% | 4 |
+| 4150 | Employee Training | Services and supplies | $4,099.16 | 0.8% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $2,950.00 | 0.6% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $1,684.56 | 0.3% | 3 |
 
 ## Largest expenditure classes
 

@@ -53,41 +53,52 @@ Land Conserv & Dev, Dept of (agency code 660, recorded upstream as `LAND CONSERV
 
 The largest budget category was **Professional Services** at $5,843,341.42 (44.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $8,191,467.17 | 62.6% | 18 |
+| Distributions | $4,706,940.38 | 36.0% | 6 |
+| Capital outlay | $144,914.30 | 1.1% | 3 |
+| Personnel services | $43,146.23 | 0.3% | 4 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $5,843,341.42 | 44.7% | 39 |
-| 6025 | Distribution To Other Govts | $1,961,169.43 | 15.0% | 3 |
-| 6015 | Distribution To Cities | $1,675,537.21 | 12.8% | 32 |
-| 4325 | Attorney General Legal Fees | $949,418.80 | 7.3% | 1 |
-| 6048 | Special Payment To Public Universities | $638,198.50 | 4.9% | 1 |
-| 4425 | Lease Payments & Taxes | $541,651.03 | 4.1% | 8 |
-| 4225 | State Government Service Charges | $362,257.92 | 2.8% | 8 |
-| 6020 | Distribution To Counties | $247,076.28 | 1.9% | 10 |
-| 4715 | It Expendable Property | $138,664.81 | 1.1% | 9 |
-| 6085 | Other Special Payments | $126,632.11 | 1.0% | 5 |
-| 4100 | Instate Travel | $106,246.92 | 0.8% | 133 |
-| 5150 | Telecommunications | $77,765.85 | 0.6% | 3 |
-| 4200 | Telecomm/Tech Svc And Supplies | $68,730.13 | 0.5% | 6 |
-| 6030 | Distribution To Non-Governments | $58,326.85 | 0.4% | 1 |
-| 5600 | Data Processing Hardware | $57,746.52 | 0.4% | 2 |
-| 4700 | Expendable Property $250-$5000 | $50,000.00 | 0.4% | 1 |
-| 4400 | Dues And Subscriptions | $42,426.82 | 0.3% | 4 |
-| 4150 | Employee Training | $23,023.84 | 0.2% | 19 |
-| 3240 | Unemployment Assessment | $21,339.40 | 0.2% | 1 |
-| 3220 | Public Employes' Retirement System | $20,561.76 | 0.2% | 1 |
-| 4125 | Out-Of-State Travel | $19,623.43 | 0.1% | 30 |
-| 4575 | Agency Program Related Svcs & Supp | $17,691.38 | 0.1% | 6 |
-| 4175 | Office Expenses | $12,695.64 | 0.1% | 9 |
-| 5550 | Data Processing Software | $9,401.93 | 0.1% | 1 |
-| 4250 | Data Processing | $5,283.37 | 0.0% | 1 |
-| 4315 | It Professional Services | $5,017.10 | 0.0% | 1 |
-| 4650 | Other Services And Supplies | $4,226.56 | 0.0% | 14 |
-| 4275 | Publicity & Publications | $1,075.00 | 0.0% | 2 |
-| 3221 | Pension Bond Contribution | $852.78 | 0.0% | 1 |
-| 3110 | Class/Unclass Salary & Per Diem | $392.29 | 0.0% | 2 |
-| 4475 | Facilities Maintenance | $93.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $5,843,341.42 | 44.7% | 39 |
+| 6025 | Distribution To Other Govts | Distributions | $1,961,169.43 | 15.0% | 3 |
+| 6015 | Distribution To Cities | Distributions | $1,675,537.21 | 12.8% | 32 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $949,418.80 | 7.3% | 1 |
+| 6048 | Special Payment To Public Universities | Distributions | $638,198.50 | 4.9% | 1 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $541,651.03 | 4.1% | 8 |
+| 4225 | State Government Service Charges | Services and supplies | $362,257.92 | 2.8% | 8 |
+| 6020 | Distribution To Counties | Distributions | $247,076.28 | 1.9% | 10 |
+| 4715 | It Expendable Property | Services and supplies | $138,664.81 | 1.1% | 9 |
+| 6085 | Other Special Payments | Distributions | $126,632.11 | 1.0% | 5 |
+| 4100 | Instate Travel | Services and supplies | $106,246.92 | 0.8% | 133 |
+| 5150 | Telecommunications | Capital outlay | $77,765.85 | 0.6% | 3 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $68,730.13 | 0.5% | 6 |
+| 6030 | Distribution To Non-Governments | Distributions | $58,326.85 | 0.4% | 1 |
+| 5600 | Data Processing Hardware | Capital outlay | $57,746.52 | 0.4% | 2 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $50,000.00 | 0.4% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $42,426.82 | 0.3% | 4 |
+| 4150 | Employee Training | Services and supplies | $23,023.84 | 0.2% | 19 |
+| 3240 | Unemployment Assessment | Personnel services | $21,339.40 | 0.2% | 1 |
+| 3220 | Public Employes' Retirement System | Personnel services | $20,561.76 | 0.2% | 1 |
+| 4125 | Out-Of-State Travel | Services and supplies | $19,623.43 | 0.1% | 30 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $17,691.38 | 0.1% | 6 |
+| 4175 | Office Expenses | Services and supplies | $12,695.64 | 0.1% | 9 |
+| 5550 | Data Processing Software | Capital outlay | $9,401.93 | 0.1% | 1 |
+| 4250 | Data Processing | Services and supplies | $5,283.37 | 0.0% | 1 |
+| 4315 | It Professional Services | Services and supplies | $5,017.10 | 0.0% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $4,226.56 | 0.0% | 14 |
+| 4275 | Publicity & Publications | Services and supplies | $1,075.00 | 0.0% | 2 |
+| 3221 | Pension Bond Contribution | Personnel services | $852.78 | 0.0% | 1 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $392.29 | 0.0% | 2 |
+| 4475 | Facilities Maintenance | Services and supplies | $93.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

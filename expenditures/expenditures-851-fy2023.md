@@ -54,32 +54,43 @@ Nursing, Brd of (agency code 851, recorded upstream as `NURSING, BRD OF`) spent 
 
 The largest budget category was **Agency Program Related Svcs & Supp** at $1,281,376.78 (29.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $3,669,089.40 | 83.5% | 16 |
+| Distributions | $697,903.00 | 15.9% | 1 |
+| Personnel services | $14,973.12 | 0.3% | 4 |
+| Capital outlay | $9,831.00 | 0.2% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4575 | Agency Program Related Svcs & Supp | $1,281,376.78 | 29.2% | 14 |
-| 6050 | Distribution To Non-Profit Org | $697,903.00 | 15.9% | 2 |
-| 4325 | Attorney General Legal Fees | $565,320.99 | 12.9% | 2 |
-| 4300 | Professional Services | $497,580.43 | 11.3% | 8 |
-| 4225 | State Government Service Charges | $365,444.60 | 8.3% | 9 |
-| 4425 | Lease Payments & Taxes | $308,323.04 | 7.0% | 4 |
-| 4650 | Other Services And Supplies | $228,155.97 | 5.2% | 4 |
-| 4715 | It Expendable Property | $137,779.46 | 3.1% | 11 |
-| 4250 | Data Processing | $87,011.72 | 2.0% | 8 |
-| 4200 | Telecomm/Tech Svc And Supplies | $66,586.04 | 1.5% | 7 |
-| 4450 | Fuels And Utilities | $28,830.50 | 0.7% | 6 |
-| 4175 | Office Expenses | $28,663.22 | 0.7% | 17 |
-| 4150 | Employee Training | $20,262.96 | 0.5% | 5 |
-| 4100 | Instate Travel | $19,756.37 | 0.4% | 39 |
-| 4700 | Expendable Property $250-$5000 | $16,579.51 | 0.4% | 6 |
-| 4125 | Out-Of-State Travel | $15,388.81 | 0.4% | 30 |
-| 3240 | Unemployment Assessment | $13,070.40 | 0.3% | 1 |
-| 5100 | Office Furniture And Fixtures | $9,831.00 | 0.2% | 1 |
-| 4400 | Dues And Subscriptions | $2,029.00 | 0.0% | 2 |
-| 3270 | Flexible Benefits | $1,751.22 | 0.0% | 1 |
-| 3220 | Public Employes' Retirement System | $90.30 | 0.0% | 1 |
-| 3280 | Other Payroll Expenses | $61.20 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $1,281,376.78 | 29.2% | 14 |
+| 6050 | Distribution To Non-Profit Org | Distributions | $697,903.00 | 15.9% | 2 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $565,320.99 | 12.9% | 2 |
+| 4300 | Professional Services | Services and supplies | $497,580.43 | 11.3% | 8 |
+| 4225 | State Government Service Charges | Services and supplies | $365,444.60 | 8.3% | 9 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $308,323.04 | 7.0% | 4 |
+| 4650 | Other Services And Supplies | Services and supplies | $228,155.97 | 5.2% | 4 |
+| 4715 | It Expendable Property | Services and supplies | $137,779.46 | 3.1% | 11 |
+| 4250 | Data Processing | Services and supplies | $87,011.72 | 2.0% | 8 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $66,586.04 | 1.5% | 7 |
+| 4450 | Fuels And Utilities | Services and supplies | $28,830.50 | 0.7% | 6 |
+| 4175 | Office Expenses | Services and supplies | $28,663.22 | 0.7% | 17 |
+| 4150 | Employee Training | Services and supplies | $20,262.96 | 0.5% | 5 |
+| 4100 | Instate Travel | Services and supplies | $19,756.37 | 0.4% | 39 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $16,579.51 | 0.4% | 6 |
+| 4125 | Out-Of-State Travel | Services and supplies | $15,388.81 | 0.4% | 30 |
+| 3240 | Unemployment Assessment | Personnel services | $13,070.40 | 0.3% | 1 |
+| 5100 | Office Furniture And Fixtures | Capital outlay | $9,831.00 | 0.2% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $2,029.00 | 0.0% | 2 |
+| 3270 | Flexible Benefits | Personnel services | $1,751.22 | 0.0% | 1 |
+| 3220 | Public Employes' Retirement System | Personnel services | $90.30 | 0.0% | 1 |
+| 3280 | Other Payroll Expenses | Personnel services | $61.20 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

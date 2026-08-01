@@ -53,35 +53,44 @@ Criminal Justice Cmsn (agency code 213, recorded upstream as `CRIMINAL JUSTICE C
 
 The largest budget category was **Distribution To Counties** at $29,552,809.61 (84.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $33,086,014.38 | 94.6% | 7 |
+| Services and supplies | $1,877,301.34 | 5.4% | 18 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6020 | Distribution To Counties | $29,552,809.61 | 84.5% | 43 |
-| 6030 | Distribution To Non-Governments | $2,432,664.15 | 7.0% | 5 |
-| 4315 | It Professional Services | $1,047,187.38 | 3.0% | 1 |
-| 6198 | Dist To Judicial | $476,720.40 | 1.4% | 1 |
-| 4300 | Professional Services | $311,574.28 | 0.9% | 12 |
-| 6259 | Dist To Dept Of Public Safety Stds & Tra | $280,288.11 | 0.8% | 1 |
-| 6015 | Distribution To Cities | $181,455.19 | 0.5% | 1 |
-| 6257 | Dist To State Police | $142,076.92 | 0.4% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $123,313.31 | 0.4% | 12 |
-| 4650 | Other Services And Supplies | $110,926.39 | 0.3% | 5 |
-| 4425 | Facilities Rent & Taxes | $71,729.35 | 0.2% | 3 |
-| 4175 | Office Expenses | $40,402.33 | 0.1% | 8 |
-| 4325 | Attorney General Legal Fees | $37,856.00 | 0.1% | 1 |
-| 4225 | State Government Service Charges | $36,622.91 | 0.1% | 6 |
-| 4250 | Data Processing | $32,456.28 | 0.1% | 2 |
-| 4150 | Employee Training | $28,241.22 | 0.1% | 33 |
-| 6291 | Dist To Corrections | $20,000.00 | 0.1% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $13,276.62 | 0.0% | 5 |
-| 4100 | Instate Travel | $9,147.37 | 0.0% | 30 |
-| 4125 | Out-Of-State Travel | $6,207.45 | 0.0% | 5 |
-| 4715 | It Expendable Property | $5,087.53 | 0.0% | 3 |
-| 4700 | Expendable Property $250-$5000 | $1,221.64 | 0.0% | 1 |
-| 4400 | Dues And Subscriptions | $915.00 | 0.0% | 2 |
-| 4375 | Employee Recruitment And Development | $881.02 | 0.0% | 3 |
-| 4275 | Publicity & Publications | $255.26 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6020 | Distribution To Counties | Distributions | $29,552,809.61 | 84.5% | 43 |
+| 6030 | Distribution To Non-Governments | Distributions | $2,432,664.15 | 7.0% | 5 |
+| 4315 | It Professional Services | Services and supplies | $1,047,187.38 | 3.0% | 1 |
+| 6198 | Dist To Judicial | Distributions | $476,720.40 | 1.4% | 1 |
+| 4300 | Professional Services | Services and supplies | $311,574.28 | 0.9% | 12 |
+| 6259 | Dist To Dept Of Public Safety Stds & Tra | Distributions | $280,288.11 | 0.8% | 1 |
+| 6015 | Distribution To Cities | Distributions | $181,455.19 | 0.5% | 1 |
+| 6257 | Dist To State Police | Distributions | $142,076.92 | 0.4% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $123,313.31 | 0.4% | 12 |
+| 4650 | Other Services And Supplies | Services and supplies | $110,926.39 | 0.3% | 5 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $71,729.35 | 0.2% | 3 |
+| 4175 | Office Expenses | Services and supplies | $40,402.33 | 0.1% | 8 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $37,856.00 | 0.1% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $36,622.91 | 0.1% | 6 |
+| 4250 | Data Processing | Services and supplies | $32,456.28 | 0.1% | 2 |
+| 4150 | Employee Training | Services and supplies | $28,241.22 | 0.1% | 33 |
+| 6291 | Dist To Corrections | Distributions | $20,000.00 | 0.1% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $13,276.62 | 0.0% | 5 |
+| 4100 | Instate Travel | Services and supplies | $9,147.37 | 0.0% | 30 |
+| 4125 | Out-Of-State Travel | Services and supplies | $6,207.45 | 0.0% | 5 |
+| 4715 | It Expendable Property | Services and supplies | $5,087.53 | 0.0% | 3 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $1,221.64 | 0.0% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $915.00 | 0.0% | 2 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $881.02 | 0.0% | 3 |
+| 4275 | Publicity & Publications | Services and supplies | $255.26 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

@@ -53,16 +53,24 @@ Public Records Advocate, Office of (agency code 104, recorded upstream as `PUBLI
 
 The largest budget category was **Other Services And Supplies** at $20,976.87 (44.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $47,687.22 | 100.0% | 6 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4650 | Other Services And Supplies | $20,976.87 | 44.0% | 1 |
-| 4225 | State Government Service Charges | $20,204.10 | 42.4% | 3 |
-| 4250 | Data Processing | $5,532.50 | 11.6% | 1 |
-| 4715 | It Expendable Property | $732.27 | 1.5% | 3 |
-| 4100 | Instate Travel | $199.48 | 0.4% | 2 |
-| 4300 | Professional Services | $42.00 | 0.1% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4650 | Other Services And Supplies | Services and supplies | $20,976.87 | 44.0% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $20,204.10 | 42.4% | 3 |
+| 4250 | Data Processing | Services and supplies | $5,532.50 | 11.6% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $732.27 | 1.5% | 3 |
+| 4100 | Instate Travel | Services and supplies | $199.48 | 0.4% | 2 |
+| 4300 | Professional Services | Services and supplies | $42.00 | 0.1% | 1 |
 
 ## Largest expenditure classes
 

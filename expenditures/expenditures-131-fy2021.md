@@ -54,20 +54,28 @@ Advocacy Commissions, OR (agency code 131, recorded upstream as `ADVOCACY COMMIS
 
 The largest budget category was **Other Services And Supplies** at $13,694.37 (38.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $35,837.43 | 100.0% | 10 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4650 | Other Services And Supplies | $13,694.37 | 38.2% | 3 |
-| 4225 | State Government Service Charges | $10,335.60 | 28.8% | 4 |
-| 4250 | Data Processing | $7,297.01 | 20.4% | 2 |
-| 4715 | It Expendable Property | $2,167.68 | 6.0% | 1 |
-| 4150 | Employee Training | $675.00 | 1.9% | 1 |
-| 4100 | Instate Travel | $581.48 | 1.6% | 14 |
-| 4300 | Professional Services | $500.30 | 1.4% | 2 |
-| 4325 | Attorney General Legal Fees | $321.00 | 0.9% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $250.00 | 0.7% | 1 |
-| 4175 | Office Expenses | $14.99 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4650 | Other Services And Supplies | Services and supplies | $13,694.37 | 38.2% | 3 |
+| 4225 | State Government Service Charges | Services and supplies | $10,335.60 | 28.8% | 4 |
+| 4250 | Data Processing | Services and supplies | $7,297.01 | 20.4% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $2,167.68 | 6.0% | 1 |
+| 4150 | Employee Training | Services and supplies | $675.00 | 1.9% | 1 |
+| 4100 | Instate Travel | Services and supplies | $581.48 | 1.6% | 14 |
+| 4300 | Professional Services | Services and supplies | $500.30 | 1.4% | 2 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $321.00 | 0.9% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $250.00 | 0.7% | 1 |
+| 4175 | Office Expenses | Services and supplies | $14.99 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

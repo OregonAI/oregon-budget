@@ -54,32 +54,43 @@ Public Utility Cmsn (agency code 860, recorded upstream as `PUBLIC UTILITY CMSN`
 
 The largest budget category was **Distribution To Non-Governments** at $27,179,925.56 (72.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $27,186,012.62 | 72.7% | 2 |
+| Services and supplies | $10,192,923.08 | 27.3% | 17 |
+| Capital outlay | $19,459.39 | 0.1% | 2 |
+| Personnel services | $734.19 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6030 | Distribution To Non-Governments | $27,179,925.56 | 72.7% | 31 |
-| 4575 | Agency Program Related Svcs & Supp | $2,887,802.17 | 7.7% | 48 |
-| 4325 | Attorney General Legal Fees | $2,383,204.21 | 6.4% | 2 |
-| 4300 | Professional Services | $1,278,739.81 | 3.4% | 24 |
-| 4425 | Lease Payments & Taxes | $1,217,474.21 | 3.3% | 6 |
-| 4225 | State Government Service Charges | $700,907.72 | 1.9% | 5 |
-| 4715 | It Expendable Property | $354,389.26 | 0.9% | 11 |
-| 4250 | Data Processing | $305,648.83 | 0.8% | 5 |
-| 4200 | Telecomm/Tech Svc And Supplies | $227,252.53 | 0.6% | 12 |
-| 4175 | Office Expenses | $213,833.22 | 0.6% | 17 |
-| 4315 | It Professional Services | $140,834.25 | 0.4% | 4 |
-| 4400 | Dues And Subscriptions | $127,140.60 | 0.3% | 14 |
-| 4100 | Instate Travel | $121,287.49 | 0.3% | 51 |
-| 4650 | Other Services And Supplies | $94,292.39 | 0.3% | 22 |
-| 4125 | Out-Of-State Travel | $60,673.56 | 0.2% | 107 |
-| 4150 | Employee Training | $48,475.30 | 0.1% | 60 |
-| 4275 | Publicity & Publications | $22,229.66 | 0.1% | 7 |
-| 5550 | Data Processing Software | $18,919.39 | 0.1% | 1 |
-| 4475 | Facilities Maintenance | $8,737.87 | 0.0% | 4 |
-| 6055 | Distribution To Contract Svc Provider | $6,087.06 | 0.0% | 1 |
-| 3110 | Class/Unclass Salary & Per Diem | $734.19 | 0.0% | 1 |
-| 5200 | Technical Equipment | $540.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6030 | Distribution To Non-Governments | Distributions | $27,179,925.56 | 72.7% | 31 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $2,887,802.17 | 7.7% | 48 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $2,383,204.21 | 6.4% | 2 |
+| 4300 | Professional Services | Services and supplies | $1,278,739.81 | 3.4% | 24 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $1,217,474.21 | 3.3% | 6 |
+| 4225 | State Government Service Charges | Services and supplies | $700,907.72 | 1.9% | 5 |
+| 4715 | It Expendable Property | Services and supplies | $354,389.26 | 0.9% | 11 |
+| 4250 | Data Processing | Services and supplies | $305,648.83 | 0.8% | 5 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $227,252.53 | 0.6% | 12 |
+| 4175 | Office Expenses | Services and supplies | $213,833.22 | 0.6% | 17 |
+| 4315 | It Professional Services | Services and supplies | $140,834.25 | 0.4% | 4 |
+| 4400 | Dues And Subscriptions | Services and supplies | $127,140.60 | 0.3% | 14 |
+| 4100 | Instate Travel | Services and supplies | $121,287.49 | 0.3% | 51 |
+| 4650 | Other Services And Supplies | Services and supplies | $94,292.39 | 0.3% | 22 |
+| 4125 | Out-Of-State Travel | Services and supplies | $60,673.56 | 0.2% | 107 |
+| 4150 | Employee Training | Services and supplies | $48,475.30 | 0.1% | 60 |
+| 4275 | Publicity & Publications | Services and supplies | $22,229.66 | 0.1% | 7 |
+| 5550 | Data Processing Software | Capital outlay | $18,919.39 | 0.1% | 1 |
+| 4475 | Facilities Maintenance | Services and supplies | $8,737.87 | 0.0% | 4 |
+| 6055 | Distribution To Contract Svc Provider | Distributions | $6,087.06 | 0.0% | 1 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $734.19 | 0.0% | 1 |
+| 5200 | Technical Equipment | Capital outlay | $540.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

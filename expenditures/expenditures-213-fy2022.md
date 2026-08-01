@@ -54,31 +54,40 @@ Criminal Justice Cmsn (agency code 213, recorded upstream as `CRIMINAL JUSTICE C
 
 The largest budget category was **Distribution To Counties** at $36,737,092.92 (86.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $41,074,207.92 | 96.7% | 6 |
+| Services and supplies | $1,396,495.84 | 3.3% | 15 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6020 | Distribution To Counties | $36,737,092.92 | 86.5% | 40 |
-| 6198 | Dist To Judicial | $2,045,956.28 | 4.8% | 1 |
-| 6025 | Distribution To Other Govts | $1,199,846.91 | 2.8% | 5 |
-| 6085 | Other Special Payments | $825,000.00 | 1.9% | 2 |
-| 4300 | Professional Services | $386,883.76 | 0.9% | 6 |
-| 4315 | It Professional Services | $300,400.00 | 0.7% | 2 |
-| 4250 | Data Processing | $204,743.35 | 0.5% | 6 |
-| 6291 | Dist To Corrections | $174,918.12 | 0.4% | 1 |
-| 4650 | Other Services And Supplies | $152,806.84 | 0.4% | 4 |
-| 4425 | Lease Payments & Taxes | $130,370.90 | 0.3% | 1 |
-| 4225 | State Government Service Charges | $118,992.40 | 0.3% | 5 |
-| 6257 | Dist To State Police | $91,393.69 | 0.2% | 1 |
-| 4325 | Attorney General Legal Fees | $45,762.80 | 0.1% | 1 |
-| 4715 | It Expendable Property | $34,154.73 | 0.1% | 5 |
-| 4400 | Dues And Subscriptions | $8,462.00 | 0.0% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $8,065.91 | 0.0% | 5 |
-| 4100 | Instate Travel | $2,044.77 | 0.0% | 8 |
-| 4150 | Employee Training | $1,869.80 | 0.0% | 13 |
-| 4700 | Expendable Property $250-$5000 | $1,630.20 | 0.0% | 1 |
-| 4275 | Publicity & Publications | $260.98 | 0.0% | 1 |
-| 4175 | Office Expenses | $47.40 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6020 | Distribution To Counties | Distributions | $36,737,092.92 | 86.5% | 40 |
+| 6198 | Dist To Judicial | Distributions | $2,045,956.28 | 4.8% | 1 |
+| 6025 | Distribution To Other Govts | Distributions | $1,199,846.91 | 2.8% | 5 |
+| 6085 | Other Special Payments | Distributions | $825,000.00 | 1.9% | 2 |
+| 4300 | Professional Services | Services and supplies | $386,883.76 | 0.9% | 6 |
+| 4315 | It Professional Services | Services and supplies | $300,400.00 | 0.7% | 2 |
+| 4250 | Data Processing | Services and supplies | $204,743.35 | 0.5% | 6 |
+| 6291 | Dist To Corrections | Distributions | $174,918.12 | 0.4% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $152,806.84 | 0.4% | 4 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $130,370.90 | 0.3% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $118,992.40 | 0.3% | 5 |
+| 6257 | Dist To State Police | Distributions | $91,393.69 | 0.2% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $45,762.80 | 0.1% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $34,154.73 | 0.1% | 5 |
+| 4400 | Dues And Subscriptions | Services and supplies | $8,462.00 | 0.0% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $8,065.91 | 0.0% | 5 |
+| 4100 | Instate Travel | Services and supplies | $2,044.77 | 0.0% | 8 |
+| 4150 | Employee Training | Services and supplies | $1,869.80 | 0.0% | 13 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $1,630.20 | 0.0% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $260.98 | 0.0% | 1 |
+| 4175 | Office Expenses | Services and supplies | $47.40 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

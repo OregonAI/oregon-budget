@@ -53,29 +53,38 @@ Advocacy Commissions, OR (agency code 131, recorded upstream as `ADVOCACY COMMIS
 
 The largest budget category was **State Government Service Charges** at $29,237.79 (20.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $112,908.20 | 78.0% | 12 |
+| Personnel services | $31,776.73 | 22.0% | 7 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $29,237.79 | 20.2% | 4 |
-| 4650 | Other Services And Supplies | $22,868.94 | 15.8% | 4 |
-| 3240 | Unemployment Assessment | $21,112.00 | 14.6% | 1 |
-| 4325 | Attorney General Legal Fees | $20,405.00 | 14.1% | 1 |
-| 4250 | Data Processing | $15,127.05 | 10.5% | 4 |
-| 4300 | Professional Services | $10,712.92 | 7.4% | 7 |
-| 4150 | Employee Training | $7,343.28 | 5.1% | 7 |
-| 3110 | Class/Unclass Salary & Per Diem | $5,448.27 | 3.8% | 1 |
-| 4100 | Instate Travel | $4,533.13 | 3.1% | 20 |
-| 3220 | Public Employes' Retirement System | $4,309.07 | 3.0% | 2 |
-| 4715 | It Expendable Property | $1,573.49 | 1.1% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $852.18 | 0.6% | 2 |
-| 3230 | Social Security Tax | $416.80 | 0.3% | 1 |
-| 3221 | Pension Bond Contribution | $261.52 | 0.2% | 1 |
-| 3270 | Flexible Benefits | $207.28 | 0.1% | 1 |
-| 4275 | Publicity & Publications | $205.45 | 0.1% | 3 |
-| 4425 | Lease Payments & Taxes | $45.00 | 0.0% | 1 |
-| 3241 | Paid Family Medical Leave Insurance | $21.79 | 0.0% | 1 |
-| 4175 | Office Expenses | $3.97 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $29,237.79 | 20.2% | 4 |
+| 4650 | Other Services And Supplies | Services and supplies | $22,868.94 | 15.8% | 4 |
+| 3240 | Unemployment Assessment | Personnel services | $21,112.00 | 14.6% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $20,405.00 | 14.1% | 1 |
+| 4250 | Data Processing | Services and supplies | $15,127.05 | 10.5% | 4 |
+| 4300 | Professional Services | Services and supplies | $10,712.92 | 7.4% | 7 |
+| 4150 | Employee Training | Services and supplies | $7,343.28 | 5.1% | 7 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $5,448.27 | 3.8% | 1 |
+| 4100 | Instate Travel | Services and supplies | $4,533.13 | 3.1% | 20 |
+| 3220 | Public Employes' Retirement System | Personnel services | $4,309.07 | 3.0% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $1,573.49 | 1.1% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $852.18 | 0.6% | 2 |
+| 3230 | Social Security Tax | Personnel services | $416.80 | 0.3% | 1 |
+| 3221 | Pension Bond Contribution | Personnel services | $261.52 | 0.2% | 1 |
+| 3270 | Flexible Benefits | Personnel services | $207.28 | 0.1% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $205.45 | 0.1% | 3 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $45.00 | 0.0% | 1 |
+| 3241 | Paid Family Medical Leave Insurance | Personnel services | $21.79 | 0.0% | 1 |
+| 4175 | Office Expenses | Services and supplies | $3.97 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

@@ -53,20 +53,28 @@ Legislative Rev Office (agency code 144, recorded upstream as `LEGISLATIVE REV O
 
 The largest budget category was **Professional Services** at $90,500.00 (56.8% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $159,270.61 | 100.0% | 10 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $90,500.00 | 56.8% | 1 |
-| 4715 | It Expendable Property | $27,001.78 | 17.0% | 3 |
-| 4225 | State Government Service Charges | $23,653.27 | 14.9% | 3 |
-| 4400 | Dues And Subscriptions | $4,889.00 | 3.1% | 2 |
-| 4175 | Office Expenses | $2,996.63 | 1.9% | 10 |
-| 4275 | Publicity & Publications | $2,800.00 | 1.8% | 1 |
-| 4650 | Other Services And Supplies | $2,653.50 | 1.7% | 3 |
-| 4150 | Employee Training | $2,205.00 | 1.4% | 5 |
-| 4250 | Data Processing | $1,722.06 | 1.1% | 1 |
-| 4100 | Instate Travel | $849.37 | 0.5% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $90,500.00 | 56.8% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $27,001.78 | 17.0% | 3 |
+| 4225 | State Government Service Charges | Services and supplies | $23,653.27 | 14.9% | 3 |
+| 4400 | Dues And Subscriptions | Services and supplies | $4,889.00 | 3.1% | 2 |
+| 4175 | Office Expenses | Services and supplies | $2,996.63 | 1.9% | 10 |
+| 4275 | Publicity & Publications | Services and supplies | $2,800.00 | 1.8% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $2,653.50 | 1.7% | 3 |
+| 4150 | Employee Training | Services and supplies | $2,205.00 | 1.4% | 5 |
+| 4250 | Data Processing | Services and supplies | $1,722.06 | 1.1% | 1 |
+| 4100 | Instate Travel | Services and supplies | $849.37 | 0.5% | 2 |
 
 ## Largest expenditure classes
 

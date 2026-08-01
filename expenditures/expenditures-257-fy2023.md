@@ -54,68 +54,80 @@ Police, Oregon State (agency code 257, recorded upstream as `POLICE, OREGON STAT
 
 The largest budget category was **Distribution To Other Govts** at $33,682,511.14 (19.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $73,066,257.08 | 41.3% | 15 |
+| Services and supplies | $61,721,305.34 | 34.9% | 21 |
+| Capital outlay | $39,476,756.25 | 22.3% | 8 |
+| Debt service | $2,296,327.78 | 1.3% | 2 |
+| Personnel services | $283,966.83 | 0.2% | 12 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6025 | Distribution To Other Govts | $33,682,511.14 | 19.0% | 279 |
-| 6030 | Distribution To Non-Governments | $21,954,659.79 | 12.4% | 181 |
-| 5350 | Industrial & Heavy Equipment | $14,934,627.50 | 8.4% | 2 |
-| 4650 | Other Services And Supplies | $14,268,127.13 | 8.1% | 977 |
-| 5400 | Automotive & Aircraft | $12,943,269.96 | 7.3% | 25 |
-| 4425 | Lease Payments & Taxes | $9,399,902.85 | 5.3% | 100 |
-| 4575 | Agency Program Related Svcs & Supp | $6,541,712.14 | 3.7% | 266 |
-| 6730 | Dist To Dept Of Transportation | $6,217,229.00 | 3.5% | 2 |
-| 4715 | It Expendable Property | $5,481,879.42 | 3.1% | 53 |
-| 6020 | Distribution To Counties | $5,451,795.79 | 3.1% | 23 |
-| 6015 | Distribution To Cities | $4,648,951.49 | 2.6% | 41 |
-| 4225 | State Government Service Charges | $4,533,447.66 | 2.6% | 3 |
-| 5700 | Buildings And Structures | $4,327,283.73 | 2.4% | 14 |
-| 5200 | Technical Equipment | $3,557,086.16 | 2.0% | 21 |
-| 4250 | Data Processing | $3,242,146.94 | 1.8% | 27 |
-| 4200 | Telecomm/Tech Svc And Supplies | $3,205,571.44 | 1.8% | 46 |
-| 4700 | Expendable Property $250-$5000 | $2,907,904.36 | 1.6% | 57 |
-| 5900 | Other Capital Outlay | $2,639,099.36 | 1.5% | 27 |
-| 4150 | Employee Training | $2,625,091.29 | 1.5% | 1,320 |
-| 4315 | It Professional Services | $2,221,956.29 | 1.3% | 13 |
-| 4300 | Professional Services | $2,058,943.43 | 1.2% | 96 |
-| 7150 | Interest - Bonds | $1,386,327.78 | 0.8% | 1 |
-| 5550 | Data Processing Software | $1,063,900.04 | 0.6% | 3 |
-| 4175 | Office Expenses | $1,021,529.76 | 0.6% | 116 |
-| 4475 | Facilities Maintenance | $934,148.41 | 0.5% | 84 |
-| 4325 | Attorney General Legal Fees | $924,333.07 | 0.5% | 2 |
-| 7100 | Principal - Bonds | $910,000.00 | 0.5% | 1 |
-| 4525 | Medical Supplies And Services | $754,803.14 | 0.4% | 80 |
-| 6629 | Dist To Forestry | $677,952.00 | 0.4% | 1 |
-| 4100 | Instate Travel | $623,077.75 | 0.4% | 992 |
-| 4450 | Fuels And Utilities | $589,812.55 | 0.3% | 66 |
-| 6259 | Dist To Dept Of Public Safety Stds & Tra | $250,000.00 | 0.1% | 1 |
-| 4125 | Out-Of-State Travel | $172,321.83 | 0.1% | 183 |
-| 4400 | Dues And Subscriptions | $165,901.67 | 0.1% | 24 |
-| 3240 | Unemployment Assessment | $145,110.90 | 0.1% | 1 |
-| 3110 | Class/Unclass Salary & Per Diem | $96,457.01 | 0.1% | 5 |
-| 6060 | Intraagency General Fund Transfer | $63,127.15 | 0.0% | 1 |
-| 6085 | Other Special Payments | $40,400.00 | 0.0% | 8 |
-| 6213 | Dist To Criminal Justice Cmsn | $27,850.21 | 0.0% | 1 |
-| 4275 | Publicity & Publications | $26,526.03 | 0.0% | 12 |
-| 4375 | Employee Recruitment And Development | $22,168.18 | 0.0% | 5 |
-| 3220 | Public Employes' Retirement System | $12,820.76 | 0.0% | 8 |
-| 3270 | Flexible Benefits | $12,704.18 | 0.0% | 5 |
-| 6170 | Dist To Treasury Dept | $12,108.78 | 0.0% | 1 |
-| 6340 | Dist To Deq | $12,108.78 | 0.0% | 1 |
-| 6581 | Dist To Dept Of Education | $12,108.78 | 0.0% | 1 |
-| 6040 | Distribution To Local School Dist | $12,000.00 | 0.0% | 3 |
-| 5100 | Office Furniture And Fixtures | $8,525.63 | 0.0% | 1 |
-| 3230 | Social Security Tax | $5,648.78 | 0.0% | 4 |
-| 3221 | Pension Bond Contribution | $4,071.71 | 0.0% | 4 |
-| 3170 | Overtime Payments | $3,617.18 | 0.0% | 1 |
-| 6257 | Dist To State Police | $3,454.17 | 0.0% | 1 |
-| 5150 | Telecommunications | $2,963.87 | 0.0% | 2 |
-| 3190 | All Other Differential | $2,599.25 | 0.0% | 3 |
-| 3241 | Paid Family Medical Leave Insurance | $501.14 | 0.0% | 2 |
-| 3260 | Mass Transit | $401.57 | 0.0% | 3 |
-| 3210 | Erb Assessment | $18.22 | 0.0% | 4 |
-| 3250 | Workers' Compensation Assessment | $16.13 | 0.0% | 4 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6025 | Distribution To Other Govts | Distributions | $33,682,511.14 | 19.0% | 279 |
+| 6030 | Distribution To Non-Governments | Distributions | $21,954,659.79 | 12.4% | 181 |
+| 5350 | Industrial & Heavy Equipment | Capital outlay | $14,934,627.50 | 8.4% | 2 |
+| 4650 | Other Services And Supplies | Services and supplies | $14,268,127.13 | 8.1% | 977 |
+| 5400 | Automotive & Aircraft | Capital outlay | $12,943,269.96 | 7.3% | 25 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $9,399,902.85 | 5.3% | 100 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $6,541,712.14 | 3.7% | 266 |
+| 6730 | Dist To Dept Of Transportation | Distributions | $6,217,229.00 | 3.5% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $5,481,879.42 | 3.1% | 53 |
+| 6020 | Distribution To Counties | Distributions | $5,451,795.79 | 3.1% | 23 |
+| 6015 | Distribution To Cities | Distributions | $4,648,951.49 | 2.6% | 41 |
+| 4225 | State Government Service Charges | Services and supplies | $4,533,447.66 | 2.6% | 3 |
+| 5700 | Buildings And Structures | Capital outlay | $4,327,283.73 | 2.4% | 14 |
+| 5200 | Technical Equipment | Capital outlay | $3,557,086.16 | 2.0% | 21 |
+| 4250 | Data Processing | Services and supplies | $3,242,146.94 | 1.8% | 27 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $3,205,571.44 | 1.8% | 46 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $2,907,904.36 | 1.6% | 57 |
+| 5900 | Other Capital Outlay | Capital outlay | $2,639,099.36 | 1.5% | 27 |
+| 4150 | Employee Training | Services and supplies | $2,625,091.29 | 1.5% | 1,320 |
+| 4315 | It Professional Services | Services and supplies | $2,221,956.29 | 1.3% | 13 |
+| 4300 | Professional Services | Services and supplies | $2,058,943.43 | 1.2% | 96 |
+| 7150 | Interest - Bonds | Debt service | $1,386,327.78 | 0.8% | 1 |
+| 5550 | Data Processing Software | Capital outlay | $1,063,900.04 | 0.6% | 3 |
+| 4175 | Office Expenses | Services and supplies | $1,021,529.76 | 0.6% | 116 |
+| 4475 | Facilities Maintenance | Services and supplies | $934,148.41 | 0.5% | 84 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $924,333.07 | 0.5% | 2 |
+| 7100 | Principal - Bonds | Debt service | $910,000.00 | 0.5% | 1 |
+| 4525 | Medical Supplies And Services | Services and supplies | $754,803.14 | 0.4% | 80 |
+| 6629 | Dist To Forestry | Distributions | $677,952.00 | 0.4% | 1 |
+| 4100 | Instate Travel | Services and supplies | $623,077.75 | 0.4% | 992 |
+| 4450 | Fuels And Utilities | Services and supplies | $589,812.55 | 0.3% | 66 |
+| 6259 | Dist To Dept Of Public Safety Stds & Tra | Distributions | $250,000.00 | 0.1% | 1 |
+| 4125 | Out-Of-State Travel | Services and supplies | $172,321.83 | 0.1% | 183 |
+| 4400 | Dues And Subscriptions | Services and supplies | $165,901.67 | 0.1% | 24 |
+| 3240 | Unemployment Assessment | Personnel services | $145,110.90 | 0.1% | 1 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $96,457.01 | 0.1% | 5 |
+| 6060 | Intraagency General Fund Transfer | Distributions | $63,127.15 | 0.0% | 1 |
+| 6085 | Other Special Payments | Distributions | $40,400.00 | 0.0% | 8 |
+| 6213 | Dist To Criminal Justice Cmsn | Distributions | $27,850.21 | 0.0% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $26,526.03 | 0.0% | 12 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $22,168.18 | 0.0% | 5 |
+| 3220 | Public Employes' Retirement System | Personnel services | $12,820.76 | 0.0% | 8 |
+| 3270 | Flexible Benefits | Personnel services | $12,704.18 | 0.0% | 5 |
+| 6170 | Dist To Treasury Dept | Distributions | $12,108.78 | 0.0% | 1 |
+| 6340 | Dist To Deq | Distributions | $12,108.78 | 0.0% | 1 |
+| 6581 | Dist To Dept Of Education | Distributions | $12,108.78 | 0.0% | 1 |
+| 6040 | Distribution To Local School Dist | Distributions | $12,000.00 | 0.0% | 3 |
+| 5100 | Office Furniture And Fixtures | Capital outlay | $8,525.63 | 0.0% | 1 |
+| 3230 | Social Security Tax | Personnel services | $5,648.78 | 0.0% | 4 |
+| 3221 | Pension Bond Contribution | Personnel services | $4,071.71 | 0.0% | 4 |
+| 3170 | Overtime Payments | Personnel services | $3,617.18 | 0.0% | 1 |
+| 6257 | Dist To State Police | Distributions | $3,454.17 | 0.0% | 1 |
+| 5150 | Telecommunications | Capital outlay | $2,963.87 | 0.0% | 2 |
+| 3190 | All Other Differential | Personnel services | $2,599.25 | 0.0% | 3 |
+| 3241 | Paid Family Medical Leave Insurance | Personnel services | $501.14 | 0.0% | 2 |
+| 3260 | Mass Transit | Personnel services | $401.57 | 0.0% | 3 |
+| 3210 | Erb Assessment | Personnel services | $18.22 | 0.0% | 4 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $16.13 | 0.0% | 4 |
 
 ## Largest expenditure classes
 

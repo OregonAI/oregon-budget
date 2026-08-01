@@ -53,32 +53,42 @@ Watershed Enh Brd (agency code 691, recorded upstream as `WATERSHED ENH BRD`) sp
 
 The largest budget category was **Distribution To Non-Governments** at $51,814,587.75 (60.6% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $82,240,739.09 | 96.2% | 7 |
+| Capital outlay | $2,467,761.04 | 2.9% | 1 |
+| Services and supplies | $771,882.08 | 0.9% | 14 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6030 | Distribution To Non-Governments | $51,814,587.75 | 60.6% | 113 |
-| 6025 | Distribution To Other Govts | $23,495,023.70 | 27.5% | 75 |
-| 6629 | Dist To Forestry | $3,250,000.00 | 3.8% | 1 |
-| 6635 | Dist To Fish And Wildlife | $3,112,075.32 | 3.6% | 1 |
-| 5900 | Other Capital Outlay | $2,467,761.04 | 2.9% | 1 |
-| 6048 | Special Payment To Public Universities | $448,813.32 | 0.5% | 1 |
-| 4225 | State Government Service Charges | $216,023.52 | 0.3% | 6 |
-| 4300 | Professional Services | $155,052.11 | 0.2% | 11 |
-| 4425 | Lease Payments & Taxes | $127,580.30 | 0.1% | 5 |
-| 6690 | Dist To Water Resources | $107,001.00 | 0.1% | 1 |
-| 4325 | Attorney General Legal Fees | $77,381.00 | 0.1% | 1 |
-| 4650 | Other Services And Supplies | $60,869.90 | 0.1% | 4 |
-| 4575 | Agency Program Related Svcs & Supp | $36,792.50 | 0.0% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $27,541.88 | 0.0% | 4 |
-| 4250 | Data Processing | $24,558.39 | 0.0% | 2 |
-| 4100 | Instate Travel | $24,331.83 | 0.0% | 67 |
-| 6035 | Distribution To Individuals | $13,238.00 | 0.0% | 1 |
-| 4715 | It Expendable Property | $8,558.30 | 0.0% | 3 |
-| 4175 | Office Expenses | $4,762.89 | 0.0% | 6 |
-| 4125 | Out-Of-State Travel | $4,679.80 | 0.0% | 5 |
-| 4150 | Employee Training | $3,577.78 | 0.0% | 29 |
-| 4275 | Publicity & Publications | $171.88 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6030 | Distribution To Non-Governments | Distributions | $51,814,587.75 | 60.6% | 113 |
+| 6025 | Distribution To Other Govts | Distributions | $23,495,023.70 | 27.5% | 75 |
+| 6629 | Dist To Forestry | Distributions | $3,250,000.00 | 3.8% | 1 |
+| 6635 | Dist To Fish And Wildlife | Distributions | $3,112,075.32 | 3.6% | 1 |
+| 5900 | Other Capital Outlay | Capital outlay | $2,467,761.04 | 2.9% | 1 |
+| 6048 | Special Payment To Public Universities | Distributions | $448,813.32 | 0.5% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $216,023.52 | 0.3% | 6 |
+| 4300 | Professional Services | Services and supplies | $155,052.11 | 0.2% | 11 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $127,580.30 | 0.1% | 5 |
+| 6690 | Dist To Water Resources | Distributions | $107,001.00 | 0.1% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $77,381.00 | 0.1% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $60,869.90 | 0.1% | 4 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $36,792.50 | 0.0% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $27,541.88 | 0.0% | 4 |
+| 4250 | Data Processing | Services and supplies | $24,558.39 | 0.0% | 2 |
+| 4100 | Instate Travel | Services and supplies | $24,331.83 | 0.0% | 67 |
+| 6035 | Distribution To Individuals | Distributions | $13,238.00 | 0.0% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $8,558.30 | 0.0% | 3 |
+| 4175 | Office Expenses | Services and supplies | $4,762.89 | 0.0% | 6 |
+| 4125 | Out-Of-State Travel | Services and supplies | $4,679.80 | 0.0% | 5 |
+| 4150 | Employee Training | Services and supplies | $3,577.78 | 0.0% | 29 |
+| 4275 | Publicity & Publications | Services and supplies | $171.88 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

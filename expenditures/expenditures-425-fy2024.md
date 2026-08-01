@@ -54,20 +54,28 @@ Indian Services Cmsn (agency code 425, recorded upstream as `INDIAN SERVICES CMS
 
 The largest budget category was **It Expendable Property** at $15,778.33 (37.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $41,851.33 | 100.0% | 10 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4715 | It Expendable Property | $15,778.33 | 37.7% | 3 |
-| 4225 | State Government Service Charges | $12,783.73 | 30.5% | 3 |
-| 4100 | Instate Travel | $7,116.49 | 17.0% | 12 |
-| 4150 | Employee Training | $2,451.63 | 5.9% | 6 |
-| 4200 | Telecomm/Tech Svc And Supplies | $1,951.16 | 4.7% | 1 |
-| 4250 | Data Processing | $477.54 | 1.1% | 1 |
-| 4500 | Food And Kitchen Supplies | $366.00 | 0.9% | 2 |
-| 4650 | Other Services And Supplies | $352.97 | 0.8% | 1 |
-| 4175 | Office Expenses | $297.95 | 0.7% | 3 |
-| 4700 | Expendable Property $250-$5000 | $275.53 | 0.7% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4715 | It Expendable Property | Services and supplies | $15,778.33 | 37.7% | 3 |
+| 4225 | State Government Service Charges | Services and supplies | $12,783.73 | 30.5% | 3 |
+| 4100 | Instate Travel | Services and supplies | $7,116.49 | 17.0% | 12 |
+| 4150 | Employee Training | Services and supplies | $2,451.63 | 5.9% | 6 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $1,951.16 | 4.7% | 1 |
+| 4250 | Data Processing | Services and supplies | $477.54 | 1.1% | 1 |
+| 4500 | Food And Kitchen Supplies | Services and supplies | $366.00 | 0.9% | 2 |
+| 4650 | Other Services And Supplies | Services and supplies | $352.97 | 0.8% | 1 |
+| 4175 | Office Expenses | Services and supplies | $297.95 | 0.7% | 3 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $275.53 | 0.7% | 1 |
 
 ## Largest expenditure classes
 

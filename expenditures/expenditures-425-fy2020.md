@@ -54,20 +54,28 @@ Indian Services Cmsn (agency code 425, recorded upstream as `INDIAN SERVICES CMS
 
 The largest budget category was **State Government Service Charges** at $7,632.29 (37.3% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $20,461.86 | 100.0% | 10 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $7,632.29 | 37.3% | 4 |
-| 4100 | Instate Travel | $5,793.68 | 28.3% | 7 |
-| 4715 | It Expendable Property | $2,518.77 | 12.3% | 3 |
-| 4175 | Office Expenses | $1,477.19 | 7.2% | 5 |
-| 4475 | Facilities Maintenance | $1,472.00 | 7.2% | 1 |
-| 4700 | Expendable Property $250-$5000 | $636.35 | 3.1% | 1 |
-| 4250 | Data Processing | $605.36 | 3.0% | 1 |
-| 4650 | Other Services And Supplies | $175.50 | 0.9% | 2 |
-| 4275 | Publicity & Publications | $150.00 | 0.7% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $0.72 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $7,632.29 | 37.3% | 4 |
+| 4100 | Instate Travel | Services and supplies | $5,793.68 | 28.3% | 7 |
+| 4715 | It Expendable Property | Services and supplies | $2,518.77 | 12.3% | 3 |
+| 4175 | Office Expenses | Services and supplies | $1,477.19 | 7.2% | 5 |
+| 4475 | Facilities Maintenance | Services and supplies | $1,472.00 | 7.2% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $636.35 | 3.1% | 1 |
+| 4250 | Data Processing | Services and supplies | $605.36 | 3.0% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $175.50 | 0.9% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $150.00 | 0.7% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $0.72 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

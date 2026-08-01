@@ -53,41 +53,51 @@ Criminal Justice Cmsn (agency code 213, recorded upstream as `CRIMINAL JUSTICE C
 
 The largest budget category was **Distribution To Counties** at $73,381,631.33 (79.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $90,144,429.48 | 97.3% | 13 |
+| Services and supplies | $2,496,573.94 | 2.7% | 15 |
+| Personnel services | $416.23 | 0.0% | 3 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6020 | Distribution To Counties | $73,381,631.33 | 79.2% | 50 |
-| 6085 | Other Special Payments | $4,252,124.44 | 4.6% | 12 |
-| 6590 | Dist To Ohsu | $2,793,188.22 | 3.0% | 1 |
-| 6015 | Distribution To Cities | $2,761,108.70 | 3.0% | 14 |
-| 6025 | Distribution To Other Govts | $2,555,180.00 | 2.8% | 6 |
-| 6198 | Dist To Judicial | $2,544,214.94 | 2.7% | 1 |
-| 4300 | Professional Services | $986,744.12 | 1.1% | 10 |
-| 6050 | Distribution To Non-Profit Org | $779,691.01 | 0.8% | 7 |
-| 6048 | Special Payment To Public Universities | $484,057.00 | 0.5% | 1 |
-| 4315 | It Professional Services | $455,200.00 | 0.5% | 3 |
-| 4250 | Data Processing | $370,793.65 | 0.4% | 7 |
-| 4425 | Lease Payments & Taxes | $199,023.00 | 0.2% | 4 |
-| 6404 | Dist To Public Defense Commission | $188,954.63 | 0.2% | 1 |
-| 6291 | Dist To Corrections | $155,498.66 | 0.2% | 1 |
-| 6257 | Dist To State Police | $143,818.55 | 0.2% | 1 |
-| 4650 | Other Services And Supplies | $136,953.55 | 0.1% | 7 |
-| 4225 | State Government Service Charges | $104,026.00 | 0.1% | 5 |
-| 4325 | Attorney General Legal Fees | $96,144.40 | 0.1% | 2 |
-| 6415 | Dist To Oregon Youth Authority | $70,352.00 | 0.1% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $66,488.88 | 0.1% | 4 |
-| 4715 | It Expendable Property | $53,162.50 | 0.1% | 4 |
-| 6165 | Dist To Secretary Of State | $34,610.00 | 0.0% | 1 |
-| 4175 | Office Expenses | $9,724.36 | 0.0% | 5 |
-| 4150 | Employee Training | $7,676.16 | 0.0% | 50 |
-| 4100 | Instate Travel | $5,405.73 | 0.0% | 24 |
-| 4200 | Telecomm/Tech Svc And Supplies | $5,110.37 | 0.0% | 4 |
-| 3220 | Public Employes' Retirement System | $303.30 | 0.0% | 2 |
-| 4400 | Dues And Subscriptions | $90.00 | 0.0% | 1 |
-| 3110 | Class/Unclass Salary & Per Diem | $73.88 | 0.0% | 1 |
-| 3221 | Pension Bond Contribution | $39.05 | 0.0% | 1 |
-| 4275 | Publicity & Publications | $31.22 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6020 | Distribution To Counties | Distributions | $73,381,631.33 | 79.2% | 50 |
+| 6085 | Other Special Payments | Distributions | $4,252,124.44 | 4.6% | 12 |
+| 6590 | Dist To Ohsu | Distributions | $2,793,188.22 | 3.0% | 1 |
+| 6015 | Distribution To Cities | Distributions | $2,761,108.70 | 3.0% | 14 |
+| 6025 | Distribution To Other Govts | Distributions | $2,555,180.00 | 2.8% | 6 |
+| 6198 | Dist To Judicial | Distributions | $2,544,214.94 | 2.7% | 1 |
+| 4300 | Professional Services | Services and supplies | $986,744.12 | 1.1% | 10 |
+| 6050 | Distribution To Non-Profit Org | Distributions | $779,691.01 | 0.8% | 7 |
+| 6048 | Special Payment To Public Universities | Distributions | $484,057.00 | 0.5% | 1 |
+| 4315 | It Professional Services | Services and supplies | $455,200.00 | 0.5% | 3 |
+| 4250 | Data Processing | Services and supplies | $370,793.65 | 0.4% | 7 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $199,023.00 | 0.2% | 4 |
+| 6404 | Dist To Public Defense Commission | Distributions | $188,954.63 | 0.2% | 1 |
+| 6291 | Dist To Corrections | Distributions | $155,498.66 | 0.2% | 1 |
+| 6257 | Dist To State Police | Distributions | $143,818.55 | 0.2% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $136,953.55 | 0.1% | 7 |
+| 4225 | State Government Service Charges | Services and supplies | $104,026.00 | 0.1% | 5 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $96,144.40 | 0.1% | 2 |
+| 6415 | Dist To Oregon Youth Authority | Distributions | $70,352.00 | 0.1% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $66,488.88 | 0.1% | 4 |
+| 4715 | It Expendable Property | Services and supplies | $53,162.50 | 0.1% | 4 |
+| 6165 | Dist To Secretary Of State | Distributions | $34,610.00 | 0.0% | 1 |
+| 4175 | Office Expenses | Services and supplies | $9,724.36 | 0.0% | 5 |
+| 4150 | Employee Training | Services and supplies | $7,676.16 | 0.0% | 50 |
+| 4100 | Instate Travel | Services and supplies | $5,405.73 | 0.0% | 24 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $5,110.37 | 0.0% | 4 |
+| 3220 | Public Employes' Retirement System | Personnel services | $303.30 | 0.0% | 2 |
+| 4400 | Dues And Subscriptions | Services and supplies | $90.00 | 0.0% | 1 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $73.88 | 0.0% | 1 |
+| 3221 | Pension Bond Contribution | Personnel services | $39.05 | 0.0% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $31.22 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

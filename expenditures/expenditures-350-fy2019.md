@@ -53,20 +53,28 @@ Columbia River Gorge Cmsn (agency code 350, recorded upstream as `COLUMBIA RIVER
 
 The largest budget category was **Professional Services** at $497,466.37 (98.1% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $507,159.73 | 100.0% | 10 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $497,466.37 | 98.1% | 1 |
-| 4225 | State Government Service Charges | $3,045.50 | 0.6% | 3 |
-| 4100 | Instate Travel | $2,970.15 | 0.6% | 15 |
-| 4575 | Agency Program Related Svcs & Supp | $1,429.28 | 0.3% | 1 |
-| 4125 | Out-Of-State Travel | $1,202.25 | 0.2% | 10 |
-| 4715 | It Expendable Property | $619.20 | 0.1% | 1 |
-| 4425 | Facilities Rent & Taxes | $160.00 | 0.0% | 1 |
-| 4650 | Other Services And Supplies | $129.19 | 0.0% | 1 |
-| 4275 | Publicity & Publications | $113.06 | 0.0% | 1 |
-| 4175 | Office Expenses | $24.73 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $497,466.37 | 98.1% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $3,045.50 | 0.6% | 3 |
+| 4100 | Instate Travel | Services and supplies | $2,970.15 | 0.6% | 15 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $1,429.28 | 0.3% | 1 |
+| 4125 | Out-Of-State Travel | Services and supplies | $1,202.25 | 0.2% | 10 |
+| 4715 | It Expendable Property | Services and supplies | $619.20 | 0.1% | 1 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $160.00 | 0.0% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $129.19 | 0.0% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $113.06 | 0.0% | 1 |
+| 4175 | Office Expenses | Services and supplies | $24.73 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

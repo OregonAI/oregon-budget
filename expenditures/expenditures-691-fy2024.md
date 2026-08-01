@@ -54,46 +54,57 @@ Watershed Enh Brd (agency code 691, recorded upstream as `WATERSHED ENH BRD`) sp
 
 The largest budget category was **Distribution To Non-Governments** at $34,969,729.02 (46.6% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $73,339,556.31 | 97.8% | 9 |
+| Capital outlay | $923,673.00 | 1.2% | 1 |
+| Services and supplies | $719,971.65 | 1.0% | 16 |
+| Personnel services | $38,667.96 | 0.1% | 10 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6030 | Distribution To Non-Governments | $34,969,729.02 | 46.6% | 121 |
-| 6025 | Distribution To Other Govts | $22,335,763.18 | 29.8% | 73 |
-| 6635 | Dist To Fish And Wildlife | $11,909,383.01 | 15.9% | 2 |
-| 6691 | Dist To Or Wtrshd Enhc Brd Agy 691 | $2,500,000.00 | 3.3% | 1 |
-| 6603 | Dist To Agriculture | $978,928.00 | 1.3% | 1 |
-| 5900 | Other Capital Outlay | $923,673.00 | 1.2% | 1 |
-| 6048 | Special Payment To Public Universities | $426,733.71 | 0.6% | 1 |
-| 4225 | State Government Service Charges | $212,654.70 | 0.3% | 5 |
-| 4425 | Lease Payments & Taxes | $121,427.91 | 0.2% | 4 |
-| 6340 | Dist To Deq | $109,532.64 | 0.1% | 1 |
-| 4300 | Professional Services | $107,395.50 | 0.1% | 9 |
-| 6690 | Dist To Water Resources | $107,001.00 | 0.1% | 1 |
-| 4325 | Attorney General Legal Fees | $97,464.53 | 0.1% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $47,154.82 | 0.1% | 4 |
-| 4650 | Other Services And Supplies | $29,215.25 | 0.0% | 7 |
-| 4200 | Telecomm/Tech Svc And Supplies | $25,394.45 | 0.0% | 3 |
-| 3110 | Class/Unclass Salary & Per Diem | $23,034.01 | 0.0% | 1 |
-| 4100 | Instate Travel | $22,230.55 | 0.0% | 65 |
-| 4250 | Data Processing | $21,522.40 | 0.0% | 2 |
-| 4175 | Office Expenses | $8,991.62 | 0.0% | 5 |
-| 4400 | Dues And Subscriptions | $7,471.95 | 0.0% | 1 |
-| 3270 | Flexible Benefits | $7,080.72 | 0.0% | 1 |
-| 4150 | Employee Training | $6,098.79 | 0.0% | 32 |
-| 4715 | It Expendable Property | $5,968.10 | 0.0% | 2 |
-| 4125 | Out-Of-State Travel | $5,960.02 | 0.0% | 10 |
-| 3220 | Public Employes' Retirement System | $4,131.86 | 0.0% | 2 |
-| 6035 | Distribution To Individuals | $2,485.75 | 0.0% | 2 |
-| 3230 | Social Security Tax | $1,807.41 | 0.0% | 1 |
-| 3221 | Pension Bond Contribution | $1,349.38 | 0.0% | 1 |
-| 3190 | All Other Differential | $1,151.67 | 0.0% | 1 |
-| 4275 | Publicity & Publications | $918.73 | 0.0% | 5 |
-| 4525 | Medical Supplies And Services | $102.33 | 0.0% | 1 |
-| 3241 | Paid Family Medical Leave Insurance | $91.44 | 0.0% | 1 |
-| 3180 | Shift Differential | $9.00 | 0.0% | 1 |
-| 3210 | Erb Assessment | $7.20 | 0.0% | 1 |
-| 3250 | Workers' Compensation Assessment | $5.27 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6030 | Distribution To Non-Governments | Distributions | $34,969,729.02 | 46.6% | 121 |
+| 6025 | Distribution To Other Govts | Distributions | $22,335,763.18 | 29.8% | 73 |
+| 6635 | Dist To Fish And Wildlife | Distributions | $11,909,383.01 | 15.9% | 2 |
+| 6691 | Dist To Or Wtrshd Enhc Brd Agy 691 | Distributions | $2,500,000.00 | 3.3% | 1 |
+| 6603 | Dist To Agriculture | Distributions | $978,928.00 | 1.3% | 1 |
+| 5900 | Other Capital Outlay | Capital outlay | $923,673.00 | 1.2% | 1 |
+| 6048 | Special Payment To Public Universities | Distributions | $426,733.71 | 0.6% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $212,654.70 | 0.3% | 5 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $121,427.91 | 0.2% | 4 |
+| 6340 | Dist To Deq | Distributions | $109,532.64 | 0.1% | 1 |
+| 4300 | Professional Services | Services and supplies | $107,395.50 | 0.1% | 9 |
+| 6690 | Dist To Water Resources | Distributions | $107,001.00 | 0.1% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $97,464.53 | 0.1% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $47,154.82 | 0.1% | 4 |
+| 4650 | Other Services And Supplies | Services and supplies | $29,215.25 | 0.0% | 7 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $25,394.45 | 0.0% | 3 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $23,034.01 | 0.0% | 1 |
+| 4100 | Instate Travel | Services and supplies | $22,230.55 | 0.0% | 65 |
+| 4250 | Data Processing | Services and supplies | $21,522.40 | 0.0% | 2 |
+| 4175 | Office Expenses | Services and supplies | $8,991.62 | 0.0% | 5 |
+| 4400 | Dues And Subscriptions | Services and supplies | $7,471.95 | 0.0% | 1 |
+| 3270 | Flexible Benefits | Personnel services | $7,080.72 | 0.0% | 1 |
+| 4150 | Employee Training | Services and supplies | $6,098.79 | 0.0% | 32 |
+| 4715 | It Expendable Property | Services and supplies | $5,968.10 | 0.0% | 2 |
+| 4125 | Out-Of-State Travel | Services and supplies | $5,960.02 | 0.0% | 10 |
+| 3220 | Public Employes' Retirement System | Personnel services | $4,131.86 | 0.0% | 2 |
+| 6035 | Distribution To Individuals | Distributions | $2,485.75 | 0.0% | 2 |
+| 3230 | Social Security Tax | Personnel services | $1,807.41 | 0.0% | 1 |
+| 3221 | Pension Bond Contribution | Personnel services | $1,349.38 | 0.0% | 1 |
+| 3190 | All Other Differential | Personnel services | $1,151.67 | 0.0% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $918.73 | 0.0% | 5 |
+| 4525 | Medical Supplies And Services | Services and supplies | $102.33 | 0.0% | 1 |
+| 3241 | Paid Family Medical Leave Insurance | Personnel services | $91.44 | 0.0% | 1 |
+| 3180 | Shift Differential | Personnel services | $9.00 | 0.0% | 1 |
+| 3210 | Erb Assessment | Personnel services | $7.20 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $5.27 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

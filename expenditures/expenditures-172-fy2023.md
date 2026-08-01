@@ -54,16 +54,24 @@ Facilites Auth, Oregon (agency code 172, recorded upstream as `FACILITES AUTH, O
 
 The largest budget category was **Professional Services** at $237,277.63 (79.3% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $299,166.49 | 100.0% | 6 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $237,277.63 | 79.3% | 4 |
-| 4650 | Other Services And Supplies | $55,464.97 | 18.5% | 2 |
-| 4400 | Dues And Subscriptions | $3,250.00 | 1.1% | 1 |
-| 4325 | Attorney General Legal Fees | $2,697.20 | 0.9% | 1 |
-| 4225 | State Government Service Charges | $399.69 | 0.1% | 3 |
-| 4275 | Publicity & Publications | $77.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $237,277.63 | 79.3% | 4 |
+| 4650 | Other Services And Supplies | Services and supplies | $55,464.97 | 18.5% | 2 |
+| 4400 | Dues And Subscriptions | Services and supplies | $3,250.00 | 1.1% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $2,697.20 | 0.9% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $399.69 | 0.1% | 3 |
+| 4275 | Publicity & Publications | Services and supplies | $77.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

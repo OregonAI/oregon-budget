@@ -54,42 +54,53 @@ Energy, Dept of (agency code 330, recorded upstream as `ENERGY, DEPT OF`) spent 
 
 The largest budget category was **Principal - Bonds** at $13,055,000.00 (57.3% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Debt service | $16,733,391.01 | 73.5% | 2 |
+| Services and supplies | $3,029,287.85 | 13.3% | 18 |
+| Distributions | $3,000,622.61 | 13.2% | 11 |
+| Personnel services | $14,617.04 | 0.1% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 7100 | Principal - Bonds | $13,055,000.00 | 57.3% | 1 |
-| 7150 | Interest - Bonds | $3,678,391.01 | 16.1% | 1 |
-| 6085 | Other Special Payments | $2,672,378.50 | 11.7% | 41 |
-| 4300 | Professional Services | $802,658.30 | 3.5% | 33 |
-| 4425 | Lease Payments & Taxes | $599,287.45 | 2.6% | 1 |
-| 4325 | Attorney General Legal Fees | $577,953.80 | 2.5% | 2 |
-| 4225 | State Government Service Charges | $457,512.83 | 2.0% | 8 |
-| 4315 | It Professional Services | $199,051.50 | 0.9% | 6 |
-| 6048 | Special Payment To Public Universities | $159,682.02 | 0.7% | 1 |
-| 4175 | Office Expenses | $117,587.86 | 0.5% | 18 |
-| 4200 | Telecomm/Tech Svc And Supplies | $72,502.72 | 0.3% | 10 |
-| 4715 | It Expendable Property | $65,802.15 | 0.3% | 4 |
-| 6443 | Dist To Oregon Health Authority | $62,635.64 | 0.3% | 1 |
-| 6020 | Distribution To Counties | $42,049.52 | 0.2% | 3 |
-| 4250 | Data Processing | $36,170.57 | 0.2% | 2 |
-| 6660 | Dist To Lcdc | $28,766.32 | 0.1% | 1 |
-| 4400 | Dues And Subscriptions | $28,120.00 | 0.1% | 4 |
-| 4100 | Instate Travel | $27,747.06 | 0.1% | 24 |
-| 6635 | Dist To Fish And Wildlife | $18,054.06 | 0.1% | 1 |
-| 4650 | Other Services And Supplies | $16,042.47 | 0.1% | 6 |
-| 3110 | Class/Unclass Salary & Per Diem | $14,617.04 | 0.1% | 1 |
-| 4275 | Publicity & Publications | $12,261.15 | 0.1% | 5 |
-| 4150 | Employee Training | $7,571.35 | 0.0% | 8 |
-| 6632 | Dist To Geology | $5,991.27 | 0.0% | 1 |
-| 6109 | Dist To Aviation-Agy109 | $5,982.50 | 0.0% | 1 |
-| 4125 | Out-Of-State Travel | $4,218.31 | 0.0% | 16 |
-| 6035 | Distribution To Individuals | $3,000.00 | 0.0% | 1 |
-| 4475 | Facilities Maintenance | $2,350.50 | 0.0% | 2 |
-| 4575 | Agency Program Related Svcs & Supp | $2,090.83 | 0.0% | 2 |
-| 6025 | Distribution To Other Govts | $1,422.10 | 0.0% | 1 |
-| 6141 | Dist To State Lands | $660.68 | 0.0% | 1 |
-| 4375 | Employee Recruitment And Development | $359.00 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 7100 | Principal - Bonds | Debt service | $13,055,000.00 | 57.3% | 1 |
+| 7150 | Interest - Bonds | Debt service | $3,678,391.01 | 16.1% | 1 |
+| 6085 | Other Special Payments | Distributions | $2,672,378.50 | 11.7% | 41 |
+| 4300 | Professional Services | Services and supplies | $802,658.30 | 3.5% | 33 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $599,287.45 | 2.6% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $577,953.80 | 2.5% | 2 |
+| 4225 | State Government Service Charges | Services and supplies | $457,512.83 | 2.0% | 8 |
+| 4315 | It Professional Services | Services and supplies | $199,051.50 | 0.9% | 6 |
+| 6048 | Special Payment To Public Universities | Distributions | $159,682.02 | 0.7% | 1 |
+| 4175 | Office Expenses | Services and supplies | $117,587.86 | 0.5% | 18 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $72,502.72 | 0.3% | 10 |
+| 4715 | It Expendable Property | Services and supplies | $65,802.15 | 0.3% | 4 |
+| 6443 | Dist To Oregon Health Authority | Distributions | $62,635.64 | 0.3% | 1 |
+| 6020 | Distribution To Counties | Distributions | $42,049.52 | 0.2% | 3 |
+| 4250 | Data Processing | Services and supplies | $36,170.57 | 0.2% | 2 |
+| 6660 | Dist To Lcdc | Distributions | $28,766.32 | 0.1% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $28,120.00 | 0.1% | 4 |
+| 4100 | Instate Travel | Services and supplies | $27,747.06 | 0.1% | 24 |
+| 6635 | Dist To Fish And Wildlife | Distributions | $18,054.06 | 0.1% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $16,042.47 | 0.1% | 6 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $14,617.04 | 0.1% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $12,261.15 | 0.1% | 5 |
+| 4150 | Employee Training | Services and supplies | $7,571.35 | 0.0% | 8 |
+| 6632 | Dist To Geology | Distributions | $5,991.27 | 0.0% | 1 |
+| 6109 | Dist To Aviation-Agy109 | Distributions | $5,982.50 | 0.0% | 1 |
+| 4125 | Out-Of-State Travel | Services and supplies | $4,218.31 | 0.0% | 16 |
+| 6035 | Distribution To Individuals | Distributions | $3,000.00 | 0.0% | 1 |
+| 4475 | Facilities Maintenance | Services and supplies | $2,350.50 | 0.0% | 2 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $2,090.83 | 0.0% | 2 |
+| 6025 | Distribution To Other Govts | Distributions | $1,422.10 | 0.0% | 1 |
+| 6141 | Dist To State Lands | Distributions | $660.68 | 0.0% | 1 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $359.00 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

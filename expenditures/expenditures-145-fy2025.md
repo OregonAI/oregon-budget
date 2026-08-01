@@ -53,21 +53,29 @@ Legislative Fiscal Officer (agency code 145, recorded upstream as `LEGISLATIVE F
 
 The largest budget category was **State Government Service Charges** at $81,128.76 (37.3% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $217,578.31 | 100.0% | 11 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $81,128.76 | 37.3% | 3 |
-| 4715 | It Expendable Property | $54,186.46 | 24.9% | 4 |
-| 4150 | Employee Training | $53,098.57 | 24.4% | 40 |
-| 4175 | Office Expenses | $9,936.92 | 4.6% | 8 |
-| 4250 | Data Processing | $6,888.24 | 3.2% | 1 |
-| 4700 | Expendable Property $250-$5000 | $4,492.68 | 2.1% | 3 |
-| 4100 | Instate Travel | $4,379.75 | 2.0% | 15 |
-| 4125 | Out-Of-State Travel | $1,892.46 | 0.9% | 7 |
-| 4650 | Other Services And Supplies | $1,345.64 | 0.6% | 2 |
-| 4275 | Publicity & Publications | $150.00 | 0.1% | 1 |
-| 4400 | Dues And Subscriptions | $78.83 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $81,128.76 | 37.3% | 3 |
+| 4715 | It Expendable Property | Services and supplies | $54,186.46 | 24.9% | 4 |
+| 4150 | Employee Training | Services and supplies | $53,098.57 | 24.4% | 40 |
+| 4175 | Office Expenses | Services and supplies | $9,936.92 | 4.6% | 8 |
+| 4250 | Data Processing | Services and supplies | $6,888.24 | 3.2% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $4,492.68 | 2.1% | 3 |
+| 4100 | Instate Travel | Services and supplies | $4,379.75 | 2.0% | 15 |
+| 4125 | Out-Of-State Travel | Services and supplies | $1,892.46 | 0.9% | 7 |
+| 4650 | Other Services And Supplies | Services and supplies | $1,345.64 | 0.6% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $150.00 | 0.1% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $78.83 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

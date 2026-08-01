@@ -53,37 +53,47 @@ Library, Oregon St (agency code 543, recorded upstream as `LIBRARY, OREGON ST`) 
 
 The largest budget category was **Lease Payments & Taxes** at $924,514.10 (20.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $2,654,651.51 | 59.5% | 18 |
+| Distributions | $1,794,630.44 | 40.2% | 8 |
+| Capital outlay | $11,620.00 | 0.3% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4425 | Lease Payments & Taxes | $924,514.10 | 20.7% | 2 |
-| 4250 | Data Processing | $847,616.20 | 19.0% | 32 |
-| 6015 | Distribution To Cities | $491,886.50 | 11.0% | 96 |
-| 6050 | Distribution To Non-Profit Org | $489,197.07 | 11.0% | 22 |
-| 6025 | Distribution To Other Govts | $400,740.89 | 9.0% | 25 |
-| 4225 | State Government Service Charges | $281,559.62 | 6.3% | 6 |
-| 4575 | Agency Program Related Svcs & Supp | $240,888.62 | 5.4% | 22 |
-| 6020 | Distribution To Counties | $210,714.04 | 4.7% | 13 |
-| 4650 | Other Services And Supplies | $113,185.74 | 2.5% | 6 |
-| 6045 | Distribution To Comm Coll Districts | $80,073.69 | 1.8% | 5 |
-| 6048 | Special Payment To Public Universities | $69,187.94 | 1.6% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $42,853.30 | 1.0% | 5 |
-| 4300 | Professional Services | $33,582.38 | 0.8% | 8 |
-| 6040 | Distribution To Local School Dist | $27,807.22 | 0.6% | 6 |
-| 4125 | Out-Of-State Travel | $26,487.00 | 0.6% | 34 |
-| 6590 | Dist To Ohsu | $25,023.09 | 0.6% | 1 |
-| 4100 | Instate Travel | $21,793.83 | 0.5% | 53 |
-| 4150 | Employee Training | $21,385.33 | 0.5% | 67 |
-| 4475 | Facilities Maintenance | $20,507.26 | 0.5% | 1 |
-| 4175 | Office Expenses | $19,212.12 | 0.4% | 9 |
-| 4275 | Publicity & Publications | $19,201.68 | 0.4% | 4 |
-| 4400 | Dues And Subscriptions | $17,209.22 | 0.4% | 6 |
-| 4325 | Attorney General Legal Fees | $11,740.50 | 0.3% | 1 |
-| 5100 | Office Furniture And Fixtures | $11,620.00 | 0.3% | 1 |
-| 4715 | It Expendable Property | $7,460.77 | 0.2% | 1 |
-| 4700 | Expendable Property $250-$5000 | $5,309.64 | 0.1% | 2 |
-| 4315 | It Professional Services | $144.20 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4425 | Lease Payments & Taxes | Services and supplies | $924,514.10 | 20.7% | 2 |
+| 4250 | Data Processing | Services and supplies | $847,616.20 | 19.0% | 32 |
+| 6015 | Distribution To Cities | Distributions | $491,886.50 | 11.0% | 96 |
+| 6050 | Distribution To Non-Profit Org | Distributions | $489,197.07 | 11.0% | 22 |
+| 6025 | Distribution To Other Govts | Distributions | $400,740.89 | 9.0% | 25 |
+| 4225 | State Government Service Charges | Services and supplies | $281,559.62 | 6.3% | 6 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $240,888.62 | 5.4% | 22 |
+| 6020 | Distribution To Counties | Distributions | $210,714.04 | 4.7% | 13 |
+| 4650 | Other Services And Supplies | Services and supplies | $113,185.74 | 2.5% | 6 |
+| 6045 | Distribution To Comm Coll Districts | Distributions | $80,073.69 | 1.8% | 5 |
+| 6048 | Special Payment To Public Universities | Distributions | $69,187.94 | 1.6% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $42,853.30 | 1.0% | 5 |
+| 4300 | Professional Services | Services and supplies | $33,582.38 | 0.8% | 8 |
+| 6040 | Distribution To Local School Dist | Distributions | $27,807.22 | 0.6% | 6 |
+| 4125 | Out-Of-State Travel | Services and supplies | $26,487.00 | 0.6% | 34 |
+| 6590 | Dist To Ohsu | Distributions | $25,023.09 | 0.6% | 1 |
+| 4100 | Instate Travel | Services and supplies | $21,793.83 | 0.5% | 53 |
+| 4150 | Employee Training | Services and supplies | $21,385.33 | 0.5% | 67 |
+| 4475 | Facilities Maintenance | Services and supplies | $20,507.26 | 0.5% | 1 |
+| 4175 | Office Expenses | Services and supplies | $19,212.12 | 0.4% | 9 |
+| 4275 | Publicity & Publications | Services and supplies | $19,201.68 | 0.4% | 4 |
+| 4400 | Dues And Subscriptions | Services and supplies | $17,209.22 | 0.4% | 6 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $11,740.50 | 0.3% | 1 |
+| 5100 | Office Furniture And Fixtures | Capital outlay | $11,620.00 | 0.3% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $7,460.77 | 0.2% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $5,309.64 | 0.1% | 2 |
+| 4315 | It Professional Services | Services and supplies | $144.20 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

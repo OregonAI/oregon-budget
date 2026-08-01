@@ -53,19 +53,27 @@ Facilites Auth, Oregon (agency code 172, recorded upstream as `FACILITES AUTH, O
 
 The largest budget category was **Professional Services** at $178,810.26 (77.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $230,709.61 | 100.0% | 9 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $178,810.26 | 77.5% | 3 |
-| 4650 | Other Services And Supplies | $37,520.41 | 16.3% | 2 |
-| 4325 | Attorney General Legal Fees | $9,773.40 | 4.2% | 1 |
-| 4400 | Dues And Subscriptions | $3,000.00 | 1.3% | 1 |
-| 4275 | Publicity & Publications | $660.51 | 0.3% | 1 |
-| 4225 | State Government Service Charges | $438.96 | 0.2% | 3 |
-| 4425 | Facilities Rent & Taxes | $300.00 | 0.1% | 1 |
-| 4100 | Instate Travel | $165.00 | 0.1% | 1 |
-| 4175 | Office Expenses | $41.07 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $178,810.26 | 77.5% | 3 |
+| 4650 | Other Services And Supplies | Services and supplies | $37,520.41 | 16.3% | 2 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $9,773.40 | 4.2% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $3,000.00 | 1.3% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $660.51 | 0.3% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $438.96 | 0.2% | 3 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $300.00 | 0.1% | 1 |
+| 4100 | Instate Travel | Services and supplies | $165.00 | 0.1% | 1 |
+| 4175 | Office Expenses | Services and supplies | $41.07 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

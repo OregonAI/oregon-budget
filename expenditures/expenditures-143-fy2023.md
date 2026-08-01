@@ -54,25 +54,34 @@ Legislative Pol & Research Cmte (agency code 143, recorded upstream as `LEGISLAT
 
 The largest budget category was **Other Services And Supplies** at $310,048.99 (34.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $870,182.40 | 97.5% | 14 |
+| Personnel services | $22,604.97 | 2.5% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4650 | Other Services And Supplies | $310,048.99 | 34.7% | 12 |
-| 4300 | Professional Services | $228,421.64 | 25.6% | 3 |
-| 4225 | State Government Service Charges | $120,849.11 | 13.5% | 4 |
-| 4715 | It Expendable Property | $117,510.88 | 13.2% | 10 |
-| 4150 | Employee Training | $40,790.82 | 4.6% | 29 |
-| 3240 | Unemployment Assessment | $22,604.97 | 2.5% | 1 |
-| 4175 | Office Expenses | $19,727.70 | 2.2% | 17 |
-| 4700 | Expendable Property $250-$5000 | $12,189.89 | 1.4% | 5 |
-| 4100 | Instate Travel | $7,446.55 | 0.8% | 20 |
-| 4125 | Out-Of-State Travel | $4,818.89 | 0.5% | 26 |
-| 4275 | Publicity & Publications | $3,130.00 | 0.4% | 1 |
-| 4375 | Employee Recruitment And Development | $3,128.15 | 0.4% | 3 |
-| 4400 | Dues And Subscriptions | $1,595.24 | 0.2% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $264.54 | 0.0% | 3 |
-| 4425 | Lease Payments & Taxes | $260.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4650 | Other Services And Supplies | Services and supplies | $310,048.99 | 34.7% | 12 |
+| 4300 | Professional Services | Services and supplies | $228,421.64 | 25.6% | 3 |
+| 4225 | State Government Service Charges | Services and supplies | $120,849.11 | 13.5% | 4 |
+| 4715 | It Expendable Property | Services and supplies | $117,510.88 | 13.2% | 10 |
+| 4150 | Employee Training | Services and supplies | $40,790.82 | 4.6% | 29 |
+| 3240 | Unemployment Assessment | Personnel services | $22,604.97 | 2.5% | 1 |
+| 4175 | Office Expenses | Services and supplies | $19,727.70 | 2.2% | 17 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $12,189.89 | 1.4% | 5 |
+| 4100 | Instate Travel | Services and supplies | $7,446.55 | 0.8% | 20 |
+| 4125 | Out-Of-State Travel | Services and supplies | $4,818.89 | 0.5% | 26 |
+| 4275 | Publicity & Publications | Services and supplies | $3,130.00 | 0.4% | 1 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $3,128.15 | 0.4% | 3 |
+| 4400 | Dues And Subscriptions | Services and supplies | $1,595.24 | 0.2% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $264.54 | 0.0% | 3 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $260.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

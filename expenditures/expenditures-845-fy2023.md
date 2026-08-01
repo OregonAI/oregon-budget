@@ -54,45 +54,58 @@ Liquor & Cannabis Com, OR (agency code 845, recorded upstream as `LIQUOR & CANNA
 
 The largest budget category was **Liquor Cost Of Goods Sold** at $424,700,489.51 (64.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Revenue | $424,700,489.51 | 64.7% | 1 |
+| Services and supplies | $102,532,535.37 | 15.6% | 19 |
+| Distributions | $90,088,290.18 | 13.7% | 3 |
+| Capital outlay | $34,830,176.14 | 5.3% | 7 |
+| Debt service | $4,299,827.78 | 0.7% | 2 |
+| Personnel services | $31,205.81 | 0.0% | 3 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 755 | Liquor Cost Of Goods Sold | $424,700,489.51 | 64.7% | 373 |
-| 4300 | Professional Services | $73,797,942.96 | 11.2% | 310 |
-| 6015 | Distribution To Cities | $59,855,298.80 | 9.1% | 240 |
-| 5900 | Other Capital Outlay | $32,412,575.00 | 4.9% | 2 |
-| 6020 | Distribution To Counties | $29,927,649.41 | 4.6% | 36 |
-| 4175 | Office Expenses | $12,687,683.61 | 1.9% | 42 |
-| 4575 | Agency Program Related Svcs & Supp | $4,454,268.03 | 0.7% | 90 |
-| 4315 | It Professional Services | $3,259,495.24 | 0.5% | 8 |
-| 7150 | Interest - Bonds | $2,599,827.78 | 0.4% | 1 |
-| 4225 | State Government Service Charges | $1,829,385.97 | 0.3% | 6 |
-| 7100 | Principal - Bonds | $1,700,000.00 | 0.3% | 1 |
-| 5550 | Data Processing Software | $1,689,914.00 | 0.3% | 1 |
-| 4250 | Data Processing | $1,662,361.27 | 0.3% | 12 |
-| 4200 | Telecomm/Tech Svc And Supplies | $1,034,325.71 | 0.2% | 22 |
-| 4715 | It Expendable Property | $860,356.36 | 0.1% | 20 |
-| 4425 | Lease Payments & Taxes | $848,509.41 | 0.1% | 18 |
-| 5400 | Automotive & Aircraft | $627,349.38 | 0.1% | 3 |
-| 4325 | Attorney General Legal Fees | $546,246.23 | 0.1% | 1 |
-| 4450 | Fuels And Utilities | $440,206.96 | 0.1% | 17 |
-| 4650 | Other Services And Supplies | $399,599.77 | 0.1% | 29 |
-| 4475 | Facilities Maintenance | $364,560.23 | 0.1% | 34 |
-| 6030 | Distribution To Non-Governments | $305,341.97 | 0.0% | 1 |
-| 4100 | Instate Travel | $151,736.18 | 0.0% | 202 |
-| 4125 | Out-Of-State Travel | $63,432.15 | 0.0% | 81 |
-| 4150 | Employee Training | $51,282.91 | 0.0% | 11 |
-| 5350 | Industrial & Heavy Equipment | $41,642.95 | 0.0% | 2 |
-| 4375 | Employee Recruitment And Development | $38,994.11 | 0.0% | 16 |
-| 4275 | Publicity & Publications | $28,764.09 | 0.0% | 8 |
-| 5100 | Office Furniture And Fixtures | $22,959.00 | 0.0% | 1 |
-| 5150 | Telecommunications | $18,592.92 | 0.0% | 1 |
-| 3240 | Unemployment Assessment | $17,956.45 | 0.0% | 1 |
-| 5700 | Buildings And Structures | $17,142.89 | 0.0% | 2 |
-| 4400 | Dues And Subscriptions | $13,384.18 | 0.0% | 6 |
-| 3110 | Class/Unclass Salary & Per Diem | $12,718.06 | 0.0% | 1 |
-| 3280 | Other Payroll Expenses | $531.30 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 755 | Liquor Cost Of Goods Sold | Revenue | $424,700,489.51 | 64.7% | 373 |
+| 4300 | Professional Services | Services and supplies | $73,797,942.96 | 11.2% | 310 |
+| 6015 | Distribution To Cities | Distributions | $59,855,298.80 | 9.1% | 240 |
+| 5900 | Other Capital Outlay | Capital outlay | $32,412,575.00 | 4.9% | 2 |
+| 6020 | Distribution To Counties | Distributions | $29,927,649.41 | 4.6% | 36 |
+| 4175 | Office Expenses | Services and supplies | $12,687,683.61 | 1.9% | 42 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $4,454,268.03 | 0.7% | 90 |
+| 4315 | It Professional Services | Services and supplies | $3,259,495.24 | 0.5% | 8 |
+| 7150 | Interest - Bonds | Debt service | $2,599,827.78 | 0.4% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $1,829,385.97 | 0.3% | 6 |
+| 7100 | Principal - Bonds | Debt service | $1,700,000.00 | 0.3% | 1 |
+| 5550 | Data Processing Software | Capital outlay | $1,689,914.00 | 0.3% | 1 |
+| 4250 | Data Processing | Services and supplies | $1,662,361.27 | 0.3% | 12 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $1,034,325.71 | 0.2% | 22 |
+| 4715 | It Expendable Property | Services and supplies | $860,356.36 | 0.1% | 20 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $848,509.41 | 0.1% | 18 |
+| 5400 | Automotive & Aircraft | Capital outlay | $627,349.38 | 0.1% | 3 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $546,246.23 | 0.1% | 1 |
+| 4450 | Fuels And Utilities | Services and supplies | $440,206.96 | 0.1% | 17 |
+| 4650 | Other Services And Supplies | Services and supplies | $399,599.77 | 0.1% | 29 |
+| 4475 | Facilities Maintenance | Services and supplies | $364,560.23 | 0.1% | 34 |
+| 6030 | Distribution To Non-Governments | Distributions | $305,341.97 | 0.0% | 1 |
+| 4100 | Instate Travel | Services and supplies | $151,736.18 | 0.0% | 202 |
+| 4125 | Out-Of-State Travel | Services and supplies | $63,432.15 | 0.0% | 81 |
+| 4150 | Employee Training | Services and supplies | $51,282.91 | 0.0% | 11 |
+| 5350 | Industrial & Heavy Equipment | Capital outlay | $41,642.95 | 0.0% | 2 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $38,994.11 | 0.0% | 16 |
+| 4275 | Publicity & Publications | Services and supplies | $28,764.09 | 0.0% | 8 |
+| 5100 | Office Furniture And Fixtures | Capital outlay | $22,959.00 | 0.0% | 1 |
+| 5150 | Telecommunications | Capital outlay | $18,592.92 | 0.0% | 1 |
+| 3240 | Unemployment Assessment | Personnel services | $17,956.45 | 0.0% | 1 |
+| 5700 | Buildings And Structures | Capital outlay | $17,142.89 | 0.0% | 2 |
+| 4400 | Dues And Subscriptions | Services and supplies | $13,384.18 | 0.0% | 6 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $12,718.06 | 0.0% | 1 |
+| 3280 | Other Payroll Expenses | Personnel services | $531.30 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

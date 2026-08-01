@@ -54,32 +54,42 @@ Land Conserv & Dev, Dept of (agency code 660, recorded upstream as `LAND CONSERV
 
 The largest budget category was **Professional Services** at $1,698,771.09 (35.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $3,057,945.71 | 62.9% | 18 |
+| Distributions | $1,797,168.88 | 37.0% | 3 |
+| Personnel services | $4,628.25 | 0.1% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $1,698,771.09 | 35.0% | 31 |
-| 6015 | Distribution To Cities | $1,047,481.97 | 21.6% | 87 |
-| 6020 | Distribution To Counties | $504,517.99 | 10.4% | 24 |
-| 4425 | Lease Payments & Taxes | $460,593.12 | 9.5% | 2 |
-| 4325 | Attorney General Legal Fees | $326,771.20 | 6.7% | 1 |
-| 4225 | State Government Service Charges | $296,703.98 | 6.1% | 7 |
-| 6048 | Special Payment To Public Universities | $245,168.92 | 5.0% | 2 |
-| 4315 | It Professional Services | $72,415.39 | 1.5% | 5 |
-| 4200 | Telecomm/Tech Svc And Supplies | $60,586.40 | 1.2% | 12 |
-| 4715 | It Expendable Property | $50,297.29 | 1.0% | 8 |
-| 4400 | Dues And Subscriptions | $21,721.79 | 0.4% | 13 |
-| 4175 | Office Expenses | $20,065.36 | 0.4% | 15 |
-| 4150 | Employee Training | $16,751.13 | 0.3% | 5 |
-| 4100 | Instate Travel | $15,219.47 | 0.3% | 46 |
-| 4125 | Out-Of-State Travel | $5,302.77 | 0.1% | 7 |
-| 3240 | Unemployment Assessment | $4,628.25 | 0.1% | 1 |
-| 4250 | Data Processing | $3,361.37 | 0.1% | 4 |
-| 4275 | Publicity & Publications | $3,309.97 | 0.1% | 5 |
-| 4650 | Other Services And Supplies | $2,439.77 | 0.1% | 6 |
-| 4575 | Agency Program Related Svcs & Supp | $2,288.65 | 0.0% | 1 |
-| 4700 | Expendable Property $250-$5000 | $1,150.96 | 0.0% | 1 |
-| 4475 | Facilities Maintenance | $196.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $1,698,771.09 | 35.0% | 31 |
+| 6015 | Distribution To Cities | Distributions | $1,047,481.97 | 21.6% | 87 |
+| 6020 | Distribution To Counties | Distributions | $504,517.99 | 10.4% | 24 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $460,593.12 | 9.5% | 2 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $326,771.20 | 6.7% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $296,703.98 | 6.1% | 7 |
+| 6048 | Special Payment To Public Universities | Distributions | $245,168.92 | 5.0% | 2 |
+| 4315 | It Professional Services | Services and supplies | $72,415.39 | 1.5% | 5 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $60,586.40 | 1.2% | 12 |
+| 4715 | It Expendable Property | Services and supplies | $50,297.29 | 1.0% | 8 |
+| 4400 | Dues And Subscriptions | Services and supplies | $21,721.79 | 0.4% | 13 |
+| 4175 | Office Expenses | Services and supplies | $20,065.36 | 0.4% | 15 |
+| 4150 | Employee Training | Services and supplies | $16,751.13 | 0.3% | 5 |
+| 4100 | Instate Travel | Services and supplies | $15,219.47 | 0.3% | 46 |
+| 4125 | Out-Of-State Travel | Services and supplies | $5,302.77 | 0.1% | 7 |
+| 3240 | Unemployment Assessment | Personnel services | $4,628.25 | 0.1% | 1 |
+| 4250 | Data Processing | Services and supplies | $3,361.37 | 0.1% | 4 |
+| 4275 | Publicity & Publications | Services and supplies | $3,309.97 | 0.1% | 5 |
+| 4650 | Other Services And Supplies | Services and supplies | $2,439.77 | 0.1% | 6 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $2,288.65 | 0.0% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $1,150.96 | 0.0% | 1 |
+| 4475 | Facilities Maintenance | Services and supplies | $196.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

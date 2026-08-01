@@ -54,21 +54,30 @@ Psychiatric Security Rev Brd (agency code 399, recorded upstream as `PSYCHIATRIC
 
 The largest budget category was **Lease Payments & Taxes** at $73,311.78 (26.9% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $262,732.02 | 96.4% | 10 |
+| Personnel services | $9,952.00 | 3.6% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4425 | Lease Payments & Taxes | $73,311.78 | 26.9% | 1 |
-| 4325 | Attorney General Legal Fees | $63,880.40 | 23.4% | 1 |
-| 4225 | State Government Service Charges | $54,479.90 | 20.0% | 6 |
-| 4250 | Data Processing | $28,916.08 | 10.6% | 5 |
-| 4650 | Other Services And Supplies | $15,359.80 | 5.6% | 4 |
-| 4715 | It Expendable Property | $12,861.10 | 4.7% | 1 |
-| 3240 | Unemployment Assessment | $9,952.00 | 3.6% | 1 |
-| 4175 | Office Expenses | $6,231.28 | 2.3% | 8 |
-| 4200 | Telecomm/Tech Svc And Supplies | $5,102.35 | 1.9% | 3 |
-| 4300 | Professional Services | $1,807.32 | 0.7% | 2 |
-| 4100 | Instate Travel | $782.01 | 0.3% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4425 | Lease Payments & Taxes | Services and supplies | $73,311.78 | 26.9% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $63,880.40 | 23.4% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $54,479.90 | 20.0% | 6 |
+| 4250 | Data Processing | Services and supplies | $28,916.08 | 10.6% | 5 |
+| 4650 | Other Services And Supplies | Services and supplies | $15,359.80 | 5.6% | 4 |
+| 4715 | It Expendable Property | Services and supplies | $12,861.10 | 4.7% | 1 |
+| 3240 | Unemployment Assessment | Personnel services | $9,952.00 | 3.6% | 1 |
+| 4175 | Office Expenses | Services and supplies | $6,231.28 | 2.3% | 8 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $5,102.35 | 1.9% | 3 |
+| 4300 | Professional Services | Services and supplies | $1,807.32 | 0.7% | 2 |
+| 4100 | Instate Travel | Services and supplies | $782.01 | 0.3% | 2 |
 
 ## Largest expenditure classes
 
