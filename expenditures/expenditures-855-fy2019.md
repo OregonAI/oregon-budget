@@ -53,34 +53,43 @@ Pharmacy, Oregon Brd of (agency code 855, recorded upstream as `PHARMACY, OREGON
 
 The largest budget category was **Attorney General Legal Fees** at $207,378.11 (22.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $898,555.03 | 98.3% | 17 |
+| Personnel services | $15,725.82 | 1.7% | 7 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $207,378.11 | 22.7% | 1 |
-| 4650 | Other Services And Supplies | $141,869.94 | 15.5% | 7 |
-| 4300 | Professional Services | $121,244.72 | 13.3% | 7 |
-| 4575 | Agency Program Related Svcs & Supp | $96,874.07 | 10.6% | 5 |
-| 4425 | Facilities Rent & Taxes | $94,986.60 | 10.4% | 1 |
-| 4225 | State Government Service Charges | $73,395.69 | 8.0% | 4 |
-| 4175 | Office Expenses | $53,225.54 | 5.8% | 6 |
-| 4250 | Data Processing | $35,130.13 | 3.8% | 3 |
-| 4100 | Instate Travel | $24,175.76 | 2.6% | 56 |
-| 4315 | It Professional Services | $23,414.00 | 2.6% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $13,680.38 | 1.5% | 4 |
-| 3110 | Class/Unclass Salary & Per Diem | $10,340.37 | 1.1% | 1 |
-| 4150 | Employee Training | $5,627.05 | 0.6% | 11 |
-| 4275 | Publicity & Publications | $3,510.19 | 0.4% | 2 |
-| 3240 | Unemployment Assessment | $1,869.13 | 0.2% | 1 |
-| 4525 | Medical Supplies And Services | $1,541.50 | 0.2% | 1 |
-| 4125 | Out-Of-State Travel | $1,533.83 | 0.2% | 17 |
-| 3270 | Flexible Benefits | $1,365.43 | 0.1% | 1 |
-| 3220 | Public Employes' Retirement System | $1,242.81 | 0.1% | 4 |
-| 4475 | Facilities Maintenance | $867.52 | 0.1% | 1 |
-| 3221 | Pension Bond Contribution | $459.20 | 0.1% | 1 |
-| 3230 | Social Security Tax | $447.40 | 0.0% | 1 |
-| 4400 | Dues And Subscriptions | $100.00 | 0.0% | 1 |
-| 3250 | Workers' Compensation Assessment | $1.48 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $207,378.11 | 22.7% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $141,869.94 | 15.5% | 7 |
+| 4300 | Professional Services | Services and supplies | $121,244.72 | 13.3% | 7 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $96,874.07 | 10.6% | 5 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $94,986.60 | 10.4% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $73,395.69 | 8.0% | 4 |
+| 4175 | Office Expenses | Services and supplies | $53,225.54 | 5.8% | 6 |
+| 4250 | Data Processing | Services and supplies | $35,130.13 | 3.8% | 3 |
+| 4100 | Instate Travel | Services and supplies | $24,175.76 | 2.6% | 56 |
+| 4315 | It Professional Services | Services and supplies | $23,414.00 | 2.6% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $13,680.38 | 1.5% | 4 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $10,340.37 | 1.1% | 1 |
+| 4150 | Employee Training | Services and supplies | $5,627.05 | 0.6% | 11 |
+| 4275 | Publicity & Publications | Services and supplies | $3,510.19 | 0.4% | 2 |
+| 3240 | Unemployment Assessment | Personnel services | $1,869.13 | 0.2% | 1 |
+| 4525 | Medical Supplies And Services | Services and supplies | $1,541.50 | 0.2% | 1 |
+| 4125 | Out-Of-State Travel | Services and supplies | $1,533.83 | 0.2% | 17 |
+| 3270 | Flexible Benefits | Personnel services | $1,365.43 | 0.1% | 1 |
+| 3220 | Public Employes' Retirement System | Personnel services | $1,242.81 | 0.1% | 4 |
+| 4475 | Facilities Maintenance | Services and supplies | $867.52 | 0.1% | 1 |
+| 3221 | Pension Bond Contribution | Personnel services | $459.20 | 0.1% | 1 |
+| 3230 | Social Security Tax | Personnel services | $447.40 | 0.0% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $100.00 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $1.48 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

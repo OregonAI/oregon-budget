@@ -53,21 +53,29 @@ Columbia River Gorge Cmsn (agency code 350, recorded upstream as `COLUMBIA RIVER
 
 The largest budget category was **Professional Services** at $942,702.92 (85.6% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $1,100,669.06 | 100.0% | 11 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $942,702.92 | 85.6% | 1 |
-| 4225 | State Government Service Charges | $150,335.67 | 13.7% | 2 |
-| 4325 | Attorney General Legal Fees | $4,620.00 | 0.4% | 1 |
-| 4425 | Lease Payments & Taxes | $845.51 | 0.1% | 1 |
-| 4250 | Data Processing | $705.43 | 0.1% | 1 |
-| 4100 | Instate Travel | $591.58 | 0.1% | 1 |
-| 4650 | Other Services And Supplies | $439.02 | 0.0% | 2 |
-| 4125 | Out-Of-State Travel | $257.86 | 0.0% | 6 |
-| 4575 | Agency Program Related Svcs & Supp | $100.05 | 0.0% | 1 |
-| 4275 | Publicity & Publications | $53.80 | 0.0% | 1 |
-| 4175 | Office Expenses | $17.22 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $942,702.92 | 85.6% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $150,335.67 | 13.7% | 2 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $4,620.00 | 0.4% | 1 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $845.51 | 0.1% | 1 |
+| 4250 | Data Processing | Services and supplies | $705.43 | 0.1% | 1 |
+| 4100 | Instate Travel | Services and supplies | $591.58 | 0.1% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $439.02 | 0.0% | 2 |
+| 4125 | Out-Of-State Travel | Services and supplies | $257.86 | 0.0% | 6 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $100.05 | 0.0% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $53.80 | 0.0% | 1 |
+| 4175 | Office Expenses | Services and supplies | $17.22 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

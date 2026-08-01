@@ -54,34 +54,43 @@ Health Related Licensing Brds (agency code 833, recorded upstream as `HEALTH REL
 
 The largest budget category was **Attorney General Legal Fees** at $322,011.62 (25.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $1,187,560.69 | 94.1% | 15 |
+| Personnel services | $74,093.20 | 5.9% | 9 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $322,011.62 | 25.5% | 6 |
-| 4575 | Agency Program Related Svcs & Supp | $305,062.00 | 24.2% | 86 |
-| 4425 | Lease Payments & Taxes | $158,697.79 | 12.6% | 16 |
-| 4650 | Other Services And Supplies | $144,941.76 | 11.5% | 20 |
-| 4225 | State Government Service Charges | $123,469.42 | 9.8% | 24 |
-| 3110 | Class/Unclass Salary & Per Diem | $45,177.04 | 3.6% | 2 |
-| 4315 | It Professional Services | $37,766.47 | 3.0% | 20 |
-| 4200 | Telecomm/Tech Svc And Supplies | $36,561.38 | 2.9% | 41 |
-| 4300 | Professional Services | $15,817.73 | 1.3% | 15 |
-| 4250 | Data Processing | $15,731.91 | 1.2% | 17 |
-| 4175 | Office Expenses | $13,778.24 | 1.1% | 28 |
-| 3270 | Flexible Benefits | $9,697.97 | 0.8% | 2 |
-| 3220 | Public Employes' Retirement System | $8,467.79 | 0.7% | 4 |
-| 4715 | It Expendable Property | $6,277.25 | 0.5% | 3 |
-| 4150 | Employee Training | $5,225.00 | 0.4% | 4 |
-| 3190 | All Other Differential | $4,019.23 | 0.3% | 1 |
-| 3230 | Social Security Tax | $3,705.44 | 0.3% | 2 |
-| 3221 | Pension Bond Contribution | $2,741.14 | 0.2% | 2 |
-| 4275 | Publicity & Publications | $1,191.59 | 0.1% | 3 |
-| 4100 | Instate Travel | $778.53 | 0.1% | 8 |
-| 3260 | Mass Transit | $275.95 | 0.0% | 2 |
-| 4400 | Dues And Subscriptions | $250.00 | 0.0% | 1 |
-| 3250 | Workers' Compensation Assessment | $8.56 | 0.0% | 2 |
-| 3210 | Erb Assessment | $0.08 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $322,011.62 | 25.5% | 6 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $305,062.00 | 24.2% | 86 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $158,697.79 | 12.6% | 16 |
+| 4650 | Other Services And Supplies | Services and supplies | $144,941.76 | 11.5% | 20 |
+| 4225 | State Government Service Charges | Services and supplies | $123,469.42 | 9.8% | 24 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $45,177.04 | 3.6% | 2 |
+| 4315 | It Professional Services | Services and supplies | $37,766.47 | 3.0% | 20 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $36,561.38 | 2.9% | 41 |
+| 4300 | Professional Services | Services and supplies | $15,817.73 | 1.3% | 15 |
+| 4250 | Data Processing | Services and supplies | $15,731.91 | 1.2% | 17 |
+| 4175 | Office Expenses | Services and supplies | $13,778.24 | 1.1% | 28 |
+| 3270 | Flexible Benefits | Personnel services | $9,697.97 | 0.8% | 2 |
+| 3220 | Public Employes' Retirement System | Personnel services | $8,467.79 | 0.7% | 4 |
+| 4715 | It Expendable Property | Services and supplies | $6,277.25 | 0.5% | 3 |
+| 4150 | Employee Training | Services and supplies | $5,225.00 | 0.4% | 4 |
+| 3190 | All Other Differential | Personnel services | $4,019.23 | 0.3% | 1 |
+| 3230 | Social Security Tax | Personnel services | $3,705.44 | 0.3% | 2 |
+| 3221 | Pension Bond Contribution | Personnel services | $2,741.14 | 0.2% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $1,191.59 | 0.1% | 3 |
+| 4100 | Instate Travel | Services and supplies | $778.53 | 0.1% | 8 |
+| 3260 | Mass Transit | Personnel services | $275.95 | 0.0% | 2 |
+| 4400 | Dues And Subscriptions | Services and supplies | $250.00 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $8.56 | 0.0% | 2 |
+| 3210 | Erb Assessment | Personnel services | $0.08 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

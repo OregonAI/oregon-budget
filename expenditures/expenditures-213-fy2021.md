@@ -54,34 +54,44 @@ Criminal Justice Cmsn (agency code 213, recorded upstream as `CRIMINAL JUSTICE C
 
 The largest budget category was **Distribution To Counties** at $42,897,351.93 (90.4% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $45,438,778.89 | 95.7% | 9 |
+| Services and supplies | $2,017,223.59 | 4.3% | 14 |
+| Personnel services | $13.38 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6020 | Distribution To Counties | $42,897,351.93 | 90.4% | 45 |
-| 6025 | Distribution To Other Govts | $877,582.01 | 1.8% | 4 |
-| 4300 | Professional Services | $766,352.21 | 1.6% | 9 |
-| 4315 | It Professional Services | $545,907.49 | 1.2% | 2 |
-| 6198 | Dist To Judicial | $415,715.23 | 0.9% | 2 |
-| 6291 | Dist To Corrections | $388,045.00 | 0.8% | 1 |
-| 4250 | Data Processing | $364,148.50 | 0.8% | 6 |
-| 6415 | Dist To Oregon Youth Authority | $350,000.00 | 0.7% | 1 |
-| 6015 | Distribution To Cities | $339,071.00 | 0.7% | 6 |
-| 6257 | Dist To State Police | $132,285.72 | 0.3% | 1 |
-| 4425 | Lease Payments & Taxes | $99,984.90 | 0.2% | 1 |
-| 4650 | Other Services And Supplies | $71,672.28 | 0.2% | 3 |
-| 4225 | State Government Service Charges | $56,845.34 | 0.1% | 5 |
-| 4325 | Attorney General Legal Fees | $41,137.80 | 0.1% | 1 |
-| 4715 | It Expendable Property | $23,648.35 | 0.0% | 4 |
-| 6259 | Dist To Dept Of Public Safety Stds & Tra | $22,728.00 | 0.0% | 1 |
-| 6085 | Other Special Payments | $16,000.00 | 0.0% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $15,515.66 | 0.0% | 5 |
-| 4575 | Agency Program Related Svcs & Supp | $15,000.00 | 0.0% | 1 |
-| 4400 | Dues And Subscriptions | $12,017.00 | 0.0% | 3 |
-| 4175 | Office Expenses | $2,833.27 | 0.0% | 2 |
-| 4150 | Employee Training | $2,149.79 | 0.0% | 3 |
-| 3220 | Public Employes' Retirement System | $13.38 | 0.0% | 1 |
-| 4100 | Instate Travel | $11.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6020 | Distribution To Counties | Distributions | $42,897,351.93 | 90.4% | 45 |
+| 6025 | Distribution To Other Govts | Distributions | $877,582.01 | 1.8% | 4 |
+| 4300 | Professional Services | Services and supplies | $766,352.21 | 1.6% | 9 |
+| 4315 | It Professional Services | Services and supplies | $545,907.49 | 1.2% | 2 |
+| 6198 | Dist To Judicial | Distributions | $415,715.23 | 0.9% | 2 |
+| 6291 | Dist To Corrections | Distributions | $388,045.00 | 0.8% | 1 |
+| 4250 | Data Processing | Services and supplies | $364,148.50 | 0.8% | 6 |
+| 6415 | Dist To Oregon Youth Authority | Distributions | $350,000.00 | 0.7% | 1 |
+| 6015 | Distribution To Cities | Distributions | $339,071.00 | 0.7% | 6 |
+| 6257 | Dist To State Police | Distributions | $132,285.72 | 0.3% | 1 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $99,984.90 | 0.2% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $71,672.28 | 0.2% | 3 |
+| 4225 | State Government Service Charges | Services and supplies | $56,845.34 | 0.1% | 5 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $41,137.80 | 0.1% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $23,648.35 | 0.0% | 4 |
+| 6259 | Dist To Dept Of Public Safety Stds & Tra | Distributions | $22,728.00 | 0.0% | 1 |
+| 6085 | Other Special Payments | Distributions | $16,000.00 | 0.0% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $15,515.66 | 0.0% | 5 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $15,000.00 | 0.0% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $12,017.00 | 0.0% | 3 |
+| 4175 | Office Expenses | Services and supplies | $2,833.27 | 0.0% | 2 |
+| 4150 | Employee Training | Services and supplies | $2,149.79 | 0.0% | 3 |
+| 3220 | Public Employes' Retirement System | Personnel services | $13.38 | 0.0% | 1 |
+| 4100 | Instate Travel | Services and supplies | $11.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

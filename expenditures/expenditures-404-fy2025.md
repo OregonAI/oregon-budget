@@ -53,41 +53,52 @@ Public Defense Services (agency code 404, recorded upstream as `PUBLIC DEFENSE S
 
 The largest budget category was **Professional Services** at $253,000,582.00 (95.4% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $263,627,345.15 | 99.4% | 19 |
+| Distributions | $1,588,848.22 | 0.6% | 1 |
+| Personnel services | $96,032.19 | 0.0% | 10 |
+| Capital outlay | $8,057.46 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $253,000,582.00 | 95.4% | 831 |
-| 4575 | Agency Program Related Svcs & Supp | $4,429,371.13 | 1.7% | 297 |
-| 4100 | Instate Travel | $1,980,027.50 | 0.7% | 712 |
-| 6198 | Dist To Judicial | $1,588,848.22 | 0.6% | 1 |
-| 4425 | Lease Payments & Taxes | $1,100,171.08 | 0.4% | 16 |
-| 4315 | It Professional Services | $1,057,499.64 | 0.4% | 7 |
-| 4225 | State Government Service Charges | $552,472.50 | 0.2% | 4 |
-| 4715 | It Expendable Property | $507,024.64 | 0.2% | 17 |
-| 4200 | Telecomm/Tech Svc And Supplies | $173,173.88 | 0.1% | 12 |
-| 4250 | Data Processing | $170,772.87 | 0.1% | 7 |
-| 4150 | Employee Training | $164,933.07 | 0.1% | 92 |
-| 4325 | Attorney General Legal Fees | $123,247.30 | 0.0% | 1 |
-| 4650 | Other Services And Supplies | $112,063.16 | 0.0% | 15 |
-| 4400 | Dues And Subscriptions | $102,186.51 | 0.0% | 9 |
-| 4175 | Office Expenses | $92,775.57 | 0.0% | 29 |
-| 3220 | Public Employes' Retirement System | $52,147.35 | 0.0% | 2 |
-| 4475 | Facilities Maintenance | $34,520.19 | 0.0% | 9 |
-| 3110 | Class/Unclass Salary & Per Diem | $25,832.62 | 0.0% | 2 |
-| 4700 | Expendable Property $250-$5000 | $12,893.81 | 0.0% | 7 |
-| 4275 | Publicity & Publications | $10,567.86 | 0.0% | 3 |
-| 5150 | Telecommunications | $8,057.46 | 0.0% | 1 |
-| 3240 | Unemployment Assessment | $6,466.94 | 0.0% | 1 |
-| 3190 | All Other Differential | $3,966.60 | 0.0% | 1 |
-| 3270 | Flexible Benefits | $3,788.15 | 0.0% | 1 |
-| 4525 | Medical Supplies And Services | $3,027.53 | 0.0% | 1 |
-| 3230 | Social Security Tax | $2,171.15 | 0.0% | 1 |
-| 3221 | Pension Bond Contribution | $1,368.32 | 0.0% | 1 |
-| 3260 | Mass Transit | $175.10 | 0.0% | 1 |
-| 3241 | Paid Family Medical Leave Insurance | $113.52 | 0.0% | 1 |
-| 4375 | Employee Recruitment And Development | $34.91 | 0.0% | 1 |
-| 3250 | Workers' Compensation Assessment | $2.44 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $253,000,582.00 | 95.4% | 831 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $4,429,371.13 | 1.7% | 297 |
+| 4100 | Instate Travel | Services and supplies | $1,980,027.50 | 0.7% | 712 |
+| 6198 | Dist To Judicial | Distributions | $1,588,848.22 | 0.6% | 1 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $1,100,171.08 | 0.4% | 16 |
+| 4315 | It Professional Services | Services and supplies | $1,057,499.64 | 0.4% | 7 |
+| 4225 | State Government Service Charges | Services and supplies | $552,472.50 | 0.2% | 4 |
+| 4715 | It Expendable Property | Services and supplies | $507,024.64 | 0.2% | 17 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $173,173.88 | 0.1% | 12 |
+| 4250 | Data Processing | Services and supplies | $170,772.87 | 0.1% | 7 |
+| 4150 | Employee Training | Services and supplies | $164,933.07 | 0.1% | 92 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $123,247.30 | 0.0% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $112,063.16 | 0.0% | 15 |
+| 4400 | Dues And Subscriptions | Services and supplies | $102,186.51 | 0.0% | 9 |
+| 4175 | Office Expenses | Services and supplies | $92,775.57 | 0.0% | 29 |
+| 3220 | Public Employes' Retirement System | Personnel services | $52,147.35 | 0.0% | 2 |
+| 4475 | Facilities Maintenance | Services and supplies | $34,520.19 | 0.0% | 9 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $25,832.62 | 0.0% | 2 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $12,893.81 | 0.0% | 7 |
+| 4275 | Publicity & Publications | Services and supplies | $10,567.86 | 0.0% | 3 |
+| 5150 | Telecommunications | Capital outlay | $8,057.46 | 0.0% | 1 |
+| 3240 | Unemployment Assessment | Personnel services | $6,466.94 | 0.0% | 1 |
+| 3190 | All Other Differential | Personnel services | $3,966.60 | 0.0% | 1 |
+| 3270 | Flexible Benefits | Personnel services | $3,788.15 | 0.0% | 1 |
+| 4525 | Medical Supplies And Services | Services and supplies | $3,027.53 | 0.0% | 1 |
+| 3230 | Social Security Tax | Personnel services | $2,171.15 | 0.0% | 1 |
+| 3221 | Pension Bond Contribution | Personnel services | $1,368.32 | 0.0% | 1 |
+| 3260 | Mass Transit | Personnel services | $175.10 | 0.0% | 1 |
+| 3241 | Paid Family Medical Leave Insurance | Personnel services | $113.52 | 0.0% | 1 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $34.91 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $2.44 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

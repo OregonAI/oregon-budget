@@ -54,27 +54,36 @@ Government Ethics Cmsn (agency code 199, recorded upstream as `GOVERNMENT ETHICS
 
 The largest budget category was **It Professional Services** at $306,480.00 (35.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $812,132.59 | 94.6% | 15 |
+| Capital outlay | $46,043.90 | 5.4% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4315 | It Professional Services | $306,480.00 | 35.7% | 1 |
-| 4325 | Attorney General Legal Fees | $212,185.38 | 24.7% | 1 |
-| 4650 | Other Services And Supplies | $85,795.03 | 10.0% | 3 |
-| 4425 | Lease Payments & Taxes | $59,969.29 | 7.0% | 1 |
-| 4225 | State Government Service Charges | $42,902.24 | 5.0% | 4 |
-| 4250 | Data Processing | $39,281.23 | 4.6% | 4 |
-| 5900 | Other Capital Outlay | $32,543.90 | 3.8% | 1 |
-| 4715 | It Expendable Property | $28,055.28 | 3.3% | 1 |
-| 4700 | Expendable Property $250-$5000 | $19,190.04 | 2.2% | 2 |
-| 5100 | Office Furniture And Fixtures | $13,500.00 | 1.6% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $7,916.37 | 0.9% | 5 |
-| 4300 | Professional Services | $4,055.23 | 0.5% | 4 |
-| 4100 | Instate Travel | $3,274.17 | 0.4% | 7 |
-| 4175 | Office Expenses | $1,808.14 | 0.2% | 3 |
-| 4150 | Employee Training | $604.75 | 0.1% | 5 |
-| 4125 | Out-Of-State Travel | $345.94 | 0.0% | 2 |
-| 4275 | Publicity & Publications | $269.50 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4315 | It Professional Services | Services and supplies | $306,480.00 | 35.7% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $212,185.38 | 24.7% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $85,795.03 | 10.0% | 3 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $59,969.29 | 7.0% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $42,902.24 | 5.0% | 4 |
+| 4250 | Data Processing | Services and supplies | $39,281.23 | 4.6% | 4 |
+| 5900 | Other Capital Outlay | Capital outlay | $32,543.90 | 3.8% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $28,055.28 | 3.3% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $19,190.04 | 2.2% | 2 |
+| 5100 | Office Furniture And Fixtures | Capital outlay | $13,500.00 | 1.6% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $7,916.37 | 0.9% | 5 |
+| 4300 | Professional Services | Services and supplies | $4,055.23 | 0.5% | 4 |
+| 4100 | Instate Travel | Services and supplies | $3,274.17 | 0.4% | 7 |
+| 4175 | Office Expenses | Services and supplies | $1,808.14 | 0.2% | 3 |
+| 4150 | Employee Training | Services and supplies | $604.75 | 0.1% | 5 |
+| 4125 | Out-Of-State Travel | Services and supplies | $345.94 | 0.0% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $269.50 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

@@ -54,23 +54,32 @@ Advocacy Commissions, OR (agency code 131, recorded upstream as `ADVOCACY COMMIS
 
 The largest budget category was **State Government Service Charges** at $30,560.82 (19.9% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $151,198.89 | 98.4% | 11 |
+| Personnel services | $2,434.87 | 1.6% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $30,560.82 | 19.9% | 5 |
-| 4650 | Other Services And Supplies | $23,927.03 | 15.6% | 4 |
-| 4300 | Professional Services | $23,652.95 | 15.4% | 4 |
-| 4325 | Attorney General Legal Fees | $20,931.80 | 13.6% | 2 |
-| 4100 | Instate Travel | $18,513.40 | 12.1% | 42 |
-| 4250 | Data Processing | $16,196.55 | 10.5% | 4 |
-| 4575 | Agency Program Related Svcs & Supp | $11,127.63 | 7.2% | 5 |
-| 4715 | It Expendable Property | $5,615.19 | 3.7% | 1 |
-| 3240 | Unemployment Assessment | $1,980.00 | 1.3% | 1 |
-| 4425 | Lease Payments & Taxes | $565.00 | 0.4% | 1 |
-| 3170 | Overtime Payments | $454.87 | 0.3% | 1 |
-| 4275 | Publicity & Publications | $97.11 | 0.1% | 3 |
-| 4175 | Office Expenses | $11.41 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $30,560.82 | 19.9% | 5 |
+| 4650 | Other Services And Supplies | Services and supplies | $23,927.03 | 15.6% | 4 |
+| 4300 | Professional Services | Services and supplies | $23,652.95 | 15.4% | 4 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $20,931.80 | 13.6% | 2 |
+| 4100 | Instate Travel | Services and supplies | $18,513.40 | 12.1% | 42 |
+| 4250 | Data Processing | Services and supplies | $16,196.55 | 10.5% | 4 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $11,127.63 | 7.2% | 5 |
+| 4715 | It Expendable Property | Services and supplies | $5,615.19 | 3.7% | 1 |
+| 3240 | Unemployment Assessment | Personnel services | $1,980.00 | 1.3% | 1 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $565.00 | 0.4% | 1 |
+| 3170 | Overtime Payments | Personnel services | $454.87 | 0.3% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $97.11 | 0.1% | 3 |
+| 4175 | Office Expenses | Services and supplies | $11.41 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

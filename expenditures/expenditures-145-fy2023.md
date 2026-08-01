@@ -54,22 +54,32 @@ Legislative Fiscal Officer (agency code 145, recorded upstream as `LEGISLATIVE F
 
 The largest budget category was **State Government Service Charges** at $72,991.59 (44.1% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $154,766.19 | 93.5% | 10 |
+| Capital outlay | $9,479.17 | 5.7% | 1 |
+| Personnel services | $1,219.99 | 0.7% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $72,991.59 | 44.1% | 4 |
-| 4150 | Employee Training | $39,783.13 | 24.0% | 29 |
-| 4175 | Office Expenses | $12,308.49 | 7.4% | 10 |
-| 5150 | Telecommunications | $9,479.17 | 5.7% | 1 |
-| 4700 | Expendable Property $250-$5000 | $7,155.52 | 4.3% | 5 |
-| 4125 | Out-Of-State Travel | $6,845.80 | 4.1% | 15 |
-| 4715 | It Expendable Property | $6,122.42 | 3.7% | 5 |
-| 4100 | Instate Travel | $6,083.23 | 3.7% | 23 |
-| 4650 | Other Services And Supplies | $1,610.35 | 1.0% | 6 |
-| 4250 | Data Processing | $1,601.15 | 1.0% | 1 |
-| 3240 | Unemployment Assessment | $1,219.99 | 0.7% | 1 |
-| 4400 | Dues And Subscriptions | $264.51 | 0.2% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $72,991.59 | 44.1% | 4 |
+| 4150 | Employee Training | Services and supplies | $39,783.13 | 24.0% | 29 |
+| 4175 | Office Expenses | Services and supplies | $12,308.49 | 7.4% | 10 |
+| 5150 | Telecommunications | Capital outlay | $9,479.17 | 5.7% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $7,155.52 | 4.3% | 5 |
+| 4125 | Out-Of-State Travel | Services and supplies | $6,845.80 | 4.1% | 15 |
+| 4715 | It Expendable Property | Services and supplies | $6,122.42 | 3.7% | 5 |
+| 4100 | Instate Travel | Services and supplies | $6,083.23 | 3.7% | 23 |
+| 4650 | Other Services And Supplies | Services and supplies | $1,610.35 | 1.0% | 6 |
+| 4250 | Data Processing | Services and supplies | $1,601.15 | 1.0% | 1 |
+| 3240 | Unemployment Assessment | Personnel services | $1,219.99 | 0.7% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $264.51 | 0.2% | 1 |
 
 ## Largest expenditure classes
 

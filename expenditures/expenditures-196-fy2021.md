@@ -54,13 +54,22 @@ Dist Attorneys/Deputies (agency code 196, recorded upstream as `DIST ATTORNEYS/D
 
 The largest budget category was **State Government Service Charges** at $258,175.12 (97.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $259,887.36 | 97.9% | 2 |
+| Personnel services | $5,689.00 | 2.1% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $258,175.12 | 97.2% | 4 |
-| 3240 | Unemployment Assessment | $5,689.00 | 2.1% | 1 |
-| 4650 | Other Services And Supplies | $1,712.24 | 0.6% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $258,175.12 | 97.2% | 4 |
+| 3240 | Unemployment Assessment | Personnel services | $5,689.00 | 2.1% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $1,712.24 | 0.6% | 1 |
 
 ## Largest expenditure classes
 

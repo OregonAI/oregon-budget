@@ -54,27 +54,36 @@ Dist Attorneys/Deputies (agency code 196, recorded upstream as `DIST ATTORNEYS/D
 
 The largest budget category was **State Government Service Charges** at $345,428.02 (64.4% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $443,220.98 | 82.7% | 8 |
+| Personnel services | $92,854.17 | 17.3% | 9 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $345,428.02 | 64.4% | 4 |
-| 3110 | Class/Unclass Salary & Per Diem | $41,896.90 | 7.8% | 5 |
-| 4250 | Data Processing | $31,984.00 | 6.0% | 1 |
-| 4300 | Professional Services | $22,507.40 | 4.2% | 2 |
-| 3160 | Temporary Appointments | $19,918.15 | 3.7% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $15,867.20 | 3.0% | 2 |
-| 4715 | It Expendable Property | $13,298.48 | 2.5% | 1 |
-| 3220 | Public Employes' Retirement System | $11,123.65 | 2.1% | 13 |
-| 3270 | Flexible Benefits | $9,948.33 | 1.9% | 6 |
-| 4325 | Attorney General Legal Fees | $7,253.80 | 1.4% | 2 |
-| 4650 | Other Services And Supplies | $6,823.10 | 1.3% | 1 |
-| 3230 | Social Security Tax | $4,892.81 | 0.9% | 6 |
-| 3221 | Pension Bond Contribution | $3,291.39 | 0.6% | 5 |
-| 3190 | All Other Differential | $1,760.23 | 0.3% | 1 |
-| 4175 | Office Expenses | $58.98 | 0.0% | 1 |
-| 3250 | Workers' Compensation Assessment | $11.84 | 0.0% | 6 |
-| 3210 | Erb Assessment | $10.87 | 0.0% | 5 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $345,428.02 | 64.4% | 4 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $41,896.90 | 7.8% | 5 |
+| 4250 | Data Processing | Services and supplies | $31,984.00 | 6.0% | 1 |
+| 4300 | Professional Services | Services and supplies | $22,507.40 | 4.2% | 2 |
+| 3160 | Temporary Appointments | Personnel services | $19,918.15 | 3.7% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $15,867.20 | 3.0% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $13,298.48 | 2.5% | 1 |
+| 3220 | Public Employes' Retirement System | Personnel services | $11,123.65 | 2.1% | 13 |
+| 3270 | Flexible Benefits | Personnel services | $9,948.33 | 1.9% | 6 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $7,253.80 | 1.4% | 2 |
+| 4650 | Other Services And Supplies | Services and supplies | $6,823.10 | 1.3% | 1 |
+| 3230 | Social Security Tax | Personnel services | $4,892.81 | 0.9% | 6 |
+| 3221 | Pension Bond Contribution | Personnel services | $3,291.39 | 0.6% | 5 |
+| 3190 | All Other Differential | Personnel services | $1,760.23 | 0.3% | 1 |
+| 4175 | Office Expenses | Services and supplies | $58.98 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $11.84 | 0.0% | 6 |
+| 3210 | Erb Assessment | Personnel services | $10.87 | 0.0% | 5 |
 
 ## Largest expenditure classes
 

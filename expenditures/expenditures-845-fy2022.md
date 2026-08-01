@@ -54,42 +54,54 @@ Liquor & Cannabis Com, OR (agency code 845, recorded upstream as `LIQUOR & CANNA
 
 The largest budget category was **Liquor Cost Of Goods Sold** at $411,553,994.36 (70.1% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Revenue | $411,553,994.36 | 70.1% | 1 |
+| Services and supplies | $89,838,938.90 | 15.3% | 19 |
+| Distributions | $76,464,263.15 | 13.0% | 3 |
+| Capital outlay | $8,776,576.60 | 1.5% | 6 |
+| Personnel services | $80,969.86 | 0.0% | 3 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 755 | Liquor Cost Of Goods Sold | $411,553,994.36 | 70.1% | 370 |
-| 4300 | Professional Services | $69,187,345.34 | 11.8% | 300 |
-| 6015 | Distribution To Cities | $50,753,774.45 | 8.7% | 240 |
-| 6020 | Distribution To Counties | $25,376,887.22 | 4.3% | 36 |
-| 5900 | Other Capital Outlay | $8,155,106.00 | 1.4% | 1 |
-| 4175 | Office Expenses | $6,285,307.21 | 1.1% | 32 |
-| 4575 | Agency Program Related Svcs & Supp | $3,685,549.32 | 0.6% | 80 |
-| 4225 | State Government Service Charges | $2,719,917.98 | 0.5% | 31 |
-| 4250 | Data Processing | $2,219,272.01 | 0.4% | 13 |
-| 4315 | It Professional Services | $1,929,659.95 | 0.3% | 9 |
-| 4200 | Telecomm/Tech Svc And Supplies | $915,820.19 | 0.2% | 26 |
-| 4425 | Lease Payments & Taxes | $801,659.33 | 0.1% | 22 |
-| 4715 | It Expendable Property | $458,294.74 | 0.1% | 19 |
-| 4325 | Attorney General Legal Fees | $388,569.58 | 0.1% | 1 |
-| 4450 | Fuels And Utilities | $344,893.94 | 0.1% | 16 |
-| 6030 | Distribution To Non-Governments | $333,601.48 | 0.1% | 1 |
-| 4475 | Facilities Maintenance | $305,367.84 | 0.1% | 29 |
-| 4650 | Other Services And Supplies | $283,879.72 | 0.0% | 22 |
-| 5400 | Automotive & Aircraft | $282,187.55 | 0.0% | 2 |
-| 5700 | Buildings And Structures | $196,865.00 | 0.0% | 1 |
-| 4100 | Instate Travel | $147,035.65 | 0.0% | 146 |
-| 3240 | Unemployment Assessment | $73,933.51 | 0.0% | 1 |
-| 5150 | Telecommunications | $65,179.80 | 0.0% | 1 |
-| 5350 | Industrial & Heavy Equipment | $59,325.25 | 0.0% | 1 |
-| 4150 | Employee Training | $55,204.15 | 0.0% | 11 |
-| 4125 | Out-Of-State Travel | $41,556.71 | 0.0% | 53 |
-| 4275 | Publicity & Publications | $29,926.33 | 0.0% | 8 |
-| 4375 | Employee Recruitment And Development | $25,393.33 | 0.0% | 6 |
-| 5100 | Office Furniture And Fixtures | $17,913.00 | 0.0% | 2 |
-| 4400 | Dues And Subscriptions | $14,285.58 | 0.0% | 5 |
-| 3220 | Public Employes' Retirement System | $6,769.65 | 0.0% | 1 |
-| 3280 | Other Payroll Expenses | $266.70 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 755 | Liquor Cost Of Goods Sold | Revenue | $411,553,994.36 | 70.1% | 370 |
+| 4300 | Professional Services | Services and supplies | $69,187,345.34 | 11.8% | 300 |
+| 6015 | Distribution To Cities | Distributions | $50,753,774.45 | 8.7% | 240 |
+| 6020 | Distribution To Counties | Distributions | $25,376,887.22 | 4.3% | 36 |
+| 5900 | Other Capital Outlay | Capital outlay | $8,155,106.00 | 1.4% | 1 |
+| 4175 | Office Expenses | Services and supplies | $6,285,307.21 | 1.1% | 32 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $3,685,549.32 | 0.6% | 80 |
+| 4225 | State Government Service Charges | Services and supplies | $2,719,917.98 | 0.5% | 31 |
+| 4250 | Data Processing | Services and supplies | $2,219,272.01 | 0.4% | 13 |
+| 4315 | It Professional Services | Services and supplies | $1,929,659.95 | 0.3% | 9 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $915,820.19 | 0.2% | 26 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $801,659.33 | 0.1% | 22 |
+| 4715 | It Expendable Property | Services and supplies | $458,294.74 | 0.1% | 19 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $388,569.58 | 0.1% | 1 |
+| 4450 | Fuels And Utilities | Services and supplies | $344,893.94 | 0.1% | 16 |
+| 6030 | Distribution To Non-Governments | Distributions | $333,601.48 | 0.1% | 1 |
+| 4475 | Facilities Maintenance | Services and supplies | $305,367.84 | 0.1% | 29 |
+| 4650 | Other Services And Supplies | Services and supplies | $283,879.72 | 0.0% | 22 |
+| 5400 | Automotive & Aircraft | Capital outlay | $282,187.55 | 0.0% | 2 |
+| 5700 | Buildings And Structures | Capital outlay | $196,865.00 | 0.0% | 1 |
+| 4100 | Instate Travel | Services and supplies | $147,035.65 | 0.0% | 146 |
+| 3240 | Unemployment Assessment | Personnel services | $73,933.51 | 0.0% | 1 |
+| 5150 | Telecommunications | Capital outlay | $65,179.80 | 0.0% | 1 |
+| 5350 | Industrial & Heavy Equipment | Capital outlay | $59,325.25 | 0.0% | 1 |
+| 4150 | Employee Training | Services and supplies | $55,204.15 | 0.0% | 11 |
+| 4125 | Out-Of-State Travel | Services and supplies | $41,556.71 | 0.0% | 53 |
+| 4275 | Publicity & Publications | Services and supplies | $29,926.33 | 0.0% | 8 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $25,393.33 | 0.0% | 6 |
+| 5100 | Office Furniture And Fixtures | Capital outlay | $17,913.00 | 0.0% | 2 |
+| 4400 | Dues And Subscriptions | Services and supplies | $14,285.58 | 0.0% | 5 |
+| 3220 | Public Employes' Retirement System | Personnel services | $6,769.65 | 0.0% | 1 |
+| 3280 | Other Payroll Expenses | Personnel services | $266.70 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

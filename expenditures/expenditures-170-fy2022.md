@@ -54,40 +54,51 @@ Treasury, Oregon St (agency code 170, recorded upstream as `TREASURY, OREGON ST`
 
 The largest budget category was **Professional Services** at $5,531,007.88 (31.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $15,570,863.57 | 87.2% | 20 |
+| Capital outlay | $1,237,060.83 | 6.9% | 4 |
+| Distributions | $1,038,728.21 | 5.8% | 3 |
+| Personnel services | $10,469.07 | 0.1% | 3 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $5,531,007.88 | 31.0% | 36 |
-| 4425 | Lease Payments & Taxes | $2,447,949.48 | 13.7% | 14 |
-| 4575 | Agency Program Related Svcs & Supp | $1,862,107.72 | 10.4% | 42 |
-| 4225 | State Government Service Charges | $1,321,663.08 | 7.4% | 6 |
-| 6035 | Distribution To Individuals | $921,834.35 | 5.2% | 10 |
-| 4250 | Data Processing | $842,057.44 | 4.7% | 13 |
-| 5100 | Office Furniture And Fixtures | $814,801.16 | 4.6% | 2 |
-| 4650 | Other Services And Supplies | $599,699.21 | 3.4% | 42 |
-| 4715 | It Expendable Property | $581,589.96 | 3.3% | 12 |
-| 4175 | Office Expenses | $571,698.63 | 3.2% | 31 |
-| 4315 | It Professional Services | $420,900.17 | 2.4% | 4 |
-| 4200 | Telecomm/Tech Svc And Supplies | $401,458.25 | 2.2% | 14 |
-| 4700 | Expendable Property $250-$5000 | $241,134.21 | 1.4% | 8 |
-| 4400 | Dues And Subscriptions | $211,848.40 | 1.2% | 23 |
-| 5150 | Telecommunications | $210,119.10 | 1.2% | 1 |
-| 5550 | Data Processing Software | $191,160.66 | 1.1% | 4 |
-| 4325 | Attorney General Legal Fees | $187,552.80 | 1.1% | 1 |
-| 6025 | Distribution To Other Govts | $110,122.16 | 0.6% | 6 |
-| 4275 | Publicity & Publications | $104,669.57 | 0.6% | 14 |
-| 4150 | Employee Training | $82,247.27 | 0.5% | 24 |
-| 4375 | Employee Recruitment And Development | $75,586.95 | 0.4% | 9 |
-| 4125 | Out-Of-State Travel | $50,975.73 | 0.3% | 76 |
-| 4100 | Instate Travel | $25,931.63 | 0.1% | 28 |
-| 5600 | Data Processing Hardware | $20,979.91 | 0.1% | 2 |
-| 4450 | Fuels And Utilities | $6,857.47 | 0.0% | 11 |
-| 6030 | Distribution To Non-Governments | $6,771.70 | 0.0% | 1 |
-| 3110 | Class/Unclass Salary & Per Diem | $4,816.00 | 0.0% | 1 |
-| 4475 | Facilities Maintenance | $3,927.72 | 0.0% | 4 |
-| 3240 | Unemployment Assessment | $3,787.00 | 0.0% | 1 |
-| 3280 | Other Payroll Expenses | $1,866.07 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $5,531,007.88 | 31.0% | 36 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $2,447,949.48 | 13.7% | 14 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $1,862,107.72 | 10.4% | 42 |
+| 4225 | State Government Service Charges | Services and supplies | $1,321,663.08 | 7.4% | 6 |
+| 6035 | Distribution To Individuals | Distributions | $921,834.35 | 5.2% | 10 |
+| 4250 | Data Processing | Services and supplies | $842,057.44 | 4.7% | 13 |
+| 5100 | Office Furniture And Fixtures | Capital outlay | $814,801.16 | 4.6% | 2 |
+| 4650 | Other Services And Supplies | Services and supplies | $599,699.21 | 3.4% | 42 |
+| 4715 | It Expendable Property | Services and supplies | $581,589.96 | 3.3% | 12 |
+| 4175 | Office Expenses | Services and supplies | $571,698.63 | 3.2% | 31 |
+| 4315 | It Professional Services | Services and supplies | $420,900.17 | 2.4% | 4 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $401,458.25 | 2.2% | 14 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $241,134.21 | 1.4% | 8 |
+| 4400 | Dues And Subscriptions | Services and supplies | $211,848.40 | 1.2% | 23 |
+| 5150 | Telecommunications | Capital outlay | $210,119.10 | 1.2% | 1 |
+| 5550 | Data Processing Software | Capital outlay | $191,160.66 | 1.1% | 4 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $187,552.80 | 1.1% | 1 |
+| 6025 | Distribution To Other Govts | Distributions | $110,122.16 | 0.6% | 6 |
+| 4275 | Publicity & Publications | Services and supplies | $104,669.57 | 0.6% | 14 |
+| 4150 | Employee Training | Services and supplies | $82,247.27 | 0.5% | 24 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $75,586.95 | 0.4% | 9 |
+| 4125 | Out-Of-State Travel | Services and supplies | $50,975.73 | 0.3% | 76 |
+| 4100 | Instate Travel | Services and supplies | $25,931.63 | 0.1% | 28 |
+| 5600 | Data Processing Hardware | Capital outlay | $20,979.91 | 0.1% | 2 |
+| 4450 | Fuels And Utilities | Services and supplies | $6,857.47 | 0.0% | 11 |
+| 6030 | Distribution To Non-Governments | Distributions | $6,771.70 | 0.0% | 1 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $4,816.00 | 0.0% | 1 |
+| 4475 | Facilities Maintenance | Services and supplies | $3,927.72 | 0.0% | 4 |
+| 3240 | Unemployment Assessment | Personnel services | $3,787.00 | 0.0% | 1 |
+| 3280 | Other Payroll Expenses | Personnel services | $1,866.07 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

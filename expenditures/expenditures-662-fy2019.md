@@ -53,25 +53,34 @@ Land Use Brd of Appeals (agency code 662, recorded upstream as `LAND USE BRD OF 
 
 The largest budget category was **Facilities Rent & Taxes** at $43,082.40 (34.4% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $111,491.15 | 89.1% | 14 |
+| Distributions | $13,619.52 | 10.9% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4425 | Facilities Rent & Taxes | $43,082.40 | 34.4% | 1 |
-| 4225 | State Government Service Charges | $19,904.07 | 15.9% | 5 |
-| 6141 | Dist To State Lands | $13,619.52 | 10.9% | 1 |
-| 4300 | Professional Services | $12,685.60 | 10.1% | 1 |
-| 4275 | Publicity & Publications | $11,228.79 | 9.0% | 3 |
-| 4175 | Office Expenses | $10,800.15 | 8.6% | 9 |
-| 4700 | Expendable Property $250-$5000 | $2,949.82 | 2.4% | 3 |
-| 4715 | It Expendable Property | $2,908.45 | 2.3% | 1 |
-| 4400 | Dues And Subscriptions | $2,863.00 | 2.3% | 2 |
-| 4600 | Intra-Inter Agency Charges | $2,695.00 | 2.2% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $1,847.07 | 1.5% | 3 |
-| 4150 | Employee Training | $199.12 | 0.2% | 2 |
-| 4125 | Out-Of-State Travel | $180.00 | 0.1% | 1 |
-| 4375 | Employee Recruitment And Development | $74.88 | 0.1% | 1 |
-| 4325 | Attorney General Legal Fees | $72.80 | 0.1% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4425 | Facilities Rent & Taxes | Services and supplies | $43,082.40 | 34.4% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $19,904.07 | 15.9% | 5 |
+| 6141 | Dist To State Lands | Distributions | $13,619.52 | 10.9% | 1 |
+| 4300 | Professional Services | Services and supplies | $12,685.60 | 10.1% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $11,228.79 | 9.0% | 3 |
+| 4175 | Office Expenses | Services and supplies | $10,800.15 | 8.6% | 9 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $2,949.82 | 2.4% | 3 |
+| 4715 | It Expendable Property | Services and supplies | $2,908.45 | 2.3% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $2,863.00 | 2.3% | 2 |
+| 4600 | Intra-Inter Agency Charges | Services and supplies | $2,695.00 | 2.2% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $1,847.07 | 1.5% | 3 |
+| 4150 | Employee Training | Services and supplies | $199.12 | 0.2% | 2 |
+| 4125 | Out-Of-State Travel | Services and supplies | $180.00 | 0.1% | 1 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $74.88 | 0.1% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $72.80 | 0.1% | 1 |
 
 ## Largest expenditure classes
 

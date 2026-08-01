@@ -54,34 +54,45 @@ Water Resources, Dept of (agency code 690, recorded upstream as `WATER RESOURCES
 
 The largest budget category was **Distribution To Non-Governments** at $2,901,499.76 (29.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $5,002,855.77 | 50.3% | 18 |
+| Distributions | $4,868,959.60 | 49.0% | 2 |
+| Capital outlay | $70,663.11 | 0.7% | 2 |
+| Personnel services | $3,308.35 | 0.0% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6030 | Distribution To Non-Governments | $2,901,499.76 | 29.2% | 14 |
-| 6025 | Distribution To Other Govts | $1,967,459.84 | 19.8% | 10 |
-| 4300 | Professional Services | $1,509,505.68 | 15.2% | 32 |
-| 4425 | Lease Payments & Taxes | $866,821.94 | 8.7% | 9 |
-| 4325 | Attorney General Legal Fees | $697,623.98 | 7.0% | 1 |
-| 4225 | State Government Service Charges | $661,719.86 | 6.7% | 5 |
-| 4575 | Agency Program Related Svcs & Supp | $382,625.13 | 3.8% | 2 |
-| 4250 | Data Processing | $204,897.09 | 2.1% | 3 |
-| 4650 | Other Services And Supplies | $128,814.30 | 1.3% | 48 |
-| 4200 | Telecomm/Tech Svc And Supplies | $122,595.13 | 1.2% | 19 |
-| 4700 | Expendable Property $250-$5000 | $115,528.19 | 1.2% | 8 |
-| 4175 | Office Expenses | $82,619.40 | 0.8% | 42 |
-| 4400 | Dues And Subscriptions | $68,258.49 | 0.7% | 17 |
-| 4715 | It Expendable Property | $67,977.61 | 0.7% | 8 |
-| 5200 | Technical Equipment | $46,544.28 | 0.5% | 3 |
-| 4100 | Instate Travel | $41,219.73 | 0.4% | 72 |
-| 4275 | Publicity & Publications | $30,161.42 | 0.3% | 28 |
-| 5600 | Data Processing Hardware | $24,118.83 | 0.2% | 1 |
-| 4450 | Fuels And Utilities | $11,346.91 | 0.1% | 6 |
-| 4475 | Facilities Maintenance | $6,462.29 | 0.1% | 2 |
-| 4125 | Out-Of-State Travel | $3,678.62 | 0.0% | 8 |
-| 3240 | Unemployment Assessment | $2,443.54 | 0.0% | 1 |
-| 4150 | Employee Training | $1,000.00 | 0.0% | 1 |
-| 3110 | Class/Unclass Salary & Per Diem | $864.81 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6030 | Distribution To Non-Governments | Distributions | $2,901,499.76 | 29.2% | 14 |
+| 6025 | Distribution To Other Govts | Distributions | $1,967,459.84 | 19.8% | 10 |
+| 4300 | Professional Services | Services and supplies | $1,509,505.68 | 15.2% | 32 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $866,821.94 | 8.7% | 9 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $697,623.98 | 7.0% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $661,719.86 | 6.7% | 5 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $382,625.13 | 3.8% | 2 |
+| 4250 | Data Processing | Services and supplies | $204,897.09 | 2.1% | 3 |
+| 4650 | Other Services And Supplies | Services and supplies | $128,814.30 | 1.3% | 48 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $122,595.13 | 1.2% | 19 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $115,528.19 | 1.2% | 8 |
+| 4175 | Office Expenses | Services and supplies | $82,619.40 | 0.8% | 42 |
+| 4400 | Dues And Subscriptions | Services and supplies | $68,258.49 | 0.7% | 17 |
+| 4715 | It Expendable Property | Services and supplies | $67,977.61 | 0.7% | 8 |
+| 5200 | Technical Equipment | Capital outlay | $46,544.28 | 0.5% | 3 |
+| 4100 | Instate Travel | Services and supplies | $41,219.73 | 0.4% | 72 |
+| 4275 | Publicity & Publications | Services and supplies | $30,161.42 | 0.3% | 28 |
+| 5600 | Data Processing Hardware | Capital outlay | $24,118.83 | 0.2% | 1 |
+| 4450 | Fuels And Utilities | Services and supplies | $11,346.91 | 0.1% | 6 |
+| 4475 | Facilities Maintenance | Services and supplies | $6,462.29 | 0.1% | 2 |
+| 4125 | Out-Of-State Travel | Services and supplies | $3,678.62 | 0.0% | 8 |
+| 3240 | Unemployment Assessment | Personnel services | $2,443.54 | 0.0% | 1 |
+| 4150 | Employee Training | Services and supplies | $1,000.00 | 0.0% | 1 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $864.81 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

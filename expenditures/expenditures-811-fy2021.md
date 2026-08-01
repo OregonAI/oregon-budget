@@ -54,24 +54,32 @@ Chiropractic Exam, Brd of (agency code 811, recorded upstream as `CHIROPRACTIC E
 
 The largest budget category was **Attorney General Legal Fees** at $98,770.58 (33.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $297,517.42 | 100.0% | 14 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $98,770.58 | 33.2% | 1 |
-| 4425 | Lease Payments & Taxes | $50,848.86 | 17.1% | 1 |
-| 4650 | Other Services And Supplies | $45,312.45 | 15.2% | 4 |
-| 4225 | State Government Service Charges | $28,901.18 | 9.7% | 5 |
-| 4575 | Agency Program Related Svcs & Supp | $27,988.50 | 9.4% | 1 |
-| 4315 | It Professional Services | $16,991.50 | 5.7% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $9,077.95 | 3.1% | 4 |
-| 4300 | Professional Services | $8,232.46 | 2.8% | 9 |
-| 4250 | Data Processing | $5,140.18 | 1.7% | 2 |
-| 4400 | Dues And Subscriptions | $2,423.00 | 0.8% | 2 |
-| 4175 | Office Expenses | $2,342.35 | 0.8% | 2 |
-| 4275 | Publicity & Publications | $783.65 | 0.3% | 3 |
-| 4150 | Employee Training | $500.00 | 0.2% | 1 |
-| 4100 | Instate Travel | $204.76 | 0.1% | 4 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $98,770.58 | 33.2% | 1 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $50,848.86 | 17.1% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $45,312.45 | 15.2% | 4 |
+| 4225 | State Government Service Charges | Services and supplies | $28,901.18 | 9.7% | 5 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $27,988.50 | 9.4% | 1 |
+| 4315 | It Professional Services | Services and supplies | $16,991.50 | 5.7% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $9,077.95 | 3.1% | 4 |
+| 4300 | Professional Services | Services and supplies | $8,232.46 | 2.8% | 9 |
+| 4250 | Data Processing | Services and supplies | $5,140.18 | 1.7% | 2 |
+| 4400 | Dues And Subscriptions | Services and supplies | $2,423.00 | 0.8% | 2 |
+| 4175 | Office Expenses | Services and supplies | $2,342.35 | 0.8% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $783.65 | 0.3% | 3 |
+| 4150 | Employee Training | Services and supplies | $500.00 | 0.2% | 1 |
+| 4100 | Instate Travel | Services and supplies | $204.76 | 0.1% | 4 |
 
 ## Largest expenditure classes
 

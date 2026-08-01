@@ -54,45 +54,57 @@ Envi Quality, Dept (agency code 340, recorded upstream as `ENVI QUALITY, DEPT`) 
 
 The largest budget category was **Loans Made-Other** at $55,292,877.00 (49.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $59,373,905.84 | 52.6% | 6 |
+| Services and supplies | $46,941,674.54 | 41.6% | 22 |
+| Debt service | $4,636,062.50 | 4.1% | 2 |
+| Capital outlay | $1,808,431.01 | 1.6% | 4 |
+| Personnel services | $33,548.80 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6080 | Loans Made-Other | $55,292,877.00 | 49.0% | 30 |
-| 4300 | Professional Services | $10,500,007.82 | 9.3% | 70 |
-| 4575 | Agency Program Related Svcs & Supp | $9,365,492.58 | 8.3% | 103 |
-| 4425 | Lease Payments & Taxes | $8,231,773.80 | 7.3% | 36 |
-| 4650 | Other Services And Supplies | $5,343,988.22 | 4.7% | 168 |
-| 4225 | State Government Service Charges | $4,157,476.04 | 3.7% | 6 |
-| 7100 | Principal - Bonds | $3,600,000.00 | 3.2% | 3 |
-| 6030 | Distribution To Non-Governments | $3,240,979.95 | 2.9% | 23 |
-| 4325 | Attorney General Legal Fees | $2,469,033.56 | 2.2% | 2 |
-| 5550 | Data Processing Software | $1,758,185.45 | 1.6% | 5 |
-| 4715 | It Expendable Property | $1,455,144.87 | 1.3% | 30 |
-| 4200 | Telecomm/Tech Svc And Supplies | $1,116,887.33 | 1.0% | 38 |
-| 7150 | Interest - Bonds | $1,036,062.50 | 0.9% | 3 |
-| 4250 | Data Processing | $884,347.40 | 0.8% | 11 |
-| 4315 | It Professional Services | $826,762.93 | 0.7% | 7 |
-| 4100 | Instate Travel | $565,384.44 | 0.5% | 987 |
-| 4150 | Employee Training | $506,167.34 | 0.4% | 119 |
-| 6048 | Special Payment To Public Universities | $390,665.91 | 0.3% | 2 |
-| 4175 | Office Expenses | $346,664.78 | 0.3% | 30 |
-| 4350 | Dispute Resolution Services | $287,314.80 | 0.3% | 2 |
-| 6025 | Distribution To Other Govts | $275,782.08 | 0.2% | 2 |
-| 4450 | Fuels And Utilities | $219,208.35 | 0.2% | 29 |
-| 4475 | Facilities Maintenance | $209,969.36 | 0.2% | 10 |
-| 4125 | Out-Of-State Travel | $195,161.99 | 0.2% | 431 |
-| 6257 | Dist To State Police | $153,649.79 | 0.1% | 1 |
-| 4700 | Expendable Property $250-$5000 | $122,701.08 | 0.1% | 9 |
-| 4400 | Dues And Subscriptions | $70,009.62 | 0.1% | 10 |
-| 4275 | Publicity & Publications | $66,324.75 | 0.1% | 21 |
-| 3240 | Unemployment Assessment | $33,548.80 | 0.0% | 1 |
-| 5600 | Data Processing Hardware | $32,287.88 | 0.0% | 2 |
-| 6443 | Dist To Oregon Health Authority | $19,951.11 | 0.0% | 1 |
-| 5100 | Office Furniture And Fixtures | $16,983.07 | 0.0% | 2 |
-| 4525 | Medical Supplies And Services | $1,755.00 | 0.0% | 2 |
-| 5150 | Telecommunications | $974.61 | 0.0% | 2 |
-| 4375 | Employee Recruitment And Development | $98.48 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6080 | Loans Made-Other | Distributions | $55,292,877.00 | 49.0% | 30 |
+| 4300 | Professional Services | Services and supplies | $10,500,007.82 | 9.3% | 70 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $9,365,492.58 | 8.3% | 103 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $8,231,773.80 | 7.3% | 36 |
+| 4650 | Other Services And Supplies | Services and supplies | $5,343,988.22 | 4.7% | 168 |
+| 4225 | State Government Service Charges | Services and supplies | $4,157,476.04 | 3.7% | 6 |
+| 7100 | Principal - Bonds | Debt service | $3,600,000.00 | 3.2% | 3 |
+| 6030 | Distribution To Non-Governments | Distributions | $3,240,979.95 | 2.9% | 23 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $2,469,033.56 | 2.2% | 2 |
+| 5550 | Data Processing Software | Capital outlay | $1,758,185.45 | 1.6% | 5 |
+| 4715 | It Expendable Property | Services and supplies | $1,455,144.87 | 1.3% | 30 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $1,116,887.33 | 1.0% | 38 |
+| 7150 | Interest - Bonds | Debt service | $1,036,062.50 | 0.9% | 3 |
+| 4250 | Data Processing | Services and supplies | $884,347.40 | 0.8% | 11 |
+| 4315 | It Professional Services | Services and supplies | $826,762.93 | 0.7% | 7 |
+| 4100 | Instate Travel | Services and supplies | $565,384.44 | 0.5% | 987 |
+| 4150 | Employee Training | Services and supplies | $506,167.34 | 0.4% | 119 |
+| 6048 | Special Payment To Public Universities | Distributions | $390,665.91 | 0.3% | 2 |
+| 4175 | Office Expenses | Services and supplies | $346,664.78 | 0.3% | 30 |
+| 4350 | Dispute Resolution Services | Services and supplies | $287,314.80 | 0.3% | 2 |
+| 6025 | Distribution To Other Govts | Distributions | $275,782.08 | 0.2% | 2 |
+| 4450 | Fuels And Utilities | Services and supplies | $219,208.35 | 0.2% | 29 |
+| 4475 | Facilities Maintenance | Services and supplies | $209,969.36 | 0.2% | 10 |
+| 4125 | Out-Of-State Travel | Services and supplies | $195,161.99 | 0.2% | 431 |
+| 6257 | Dist To State Police | Distributions | $153,649.79 | 0.1% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $122,701.08 | 0.1% | 9 |
+| 4400 | Dues And Subscriptions | Services and supplies | $70,009.62 | 0.1% | 10 |
+| 4275 | Publicity & Publications | Services and supplies | $66,324.75 | 0.1% | 21 |
+| 3240 | Unemployment Assessment | Personnel services | $33,548.80 | 0.0% | 1 |
+| 5600 | Data Processing Hardware | Capital outlay | $32,287.88 | 0.0% | 2 |
+| 6443 | Dist To Oregon Health Authority | Distributions | $19,951.11 | 0.0% | 1 |
+| 5100 | Office Furniture And Fixtures | Capital outlay | $16,983.07 | 0.0% | 2 |
+| 4525 | Medical Supplies And Services | Services and supplies | $1,755.00 | 0.0% | 2 |
+| 5150 | Telecommunications | Capital outlay | $974.61 | 0.0% | 2 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $98.48 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

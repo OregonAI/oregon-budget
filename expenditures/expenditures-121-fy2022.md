@@ -54,36 +54,45 @@ Governor, Office of the (agency code 121, recorded upstream as `GOVERNOR, OFFICE
 
 The largest budget category was **State Government Service Charges** at $561,842.94 (22.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $2,372,314.12 | 93.0% | 15 |
+| Personnel services | $177,506.03 | 7.0% | 11 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $561,842.94 | 22.0% | 7 |
-| 4425 | Lease Payments & Taxes | $423,454.66 | 16.6% | 6 |
-| 4300 | Professional Services | $369,758.68 | 14.5% | 19 |
-| 4125 | Out-Of-State Travel | $333,970.84 | 13.1% | 101 |
-| 4650 | Other Services And Supplies | $332,213.73 | 13.0% | 8 |
-| 4400 | Dues And Subscriptions | $146,200.00 | 5.7% | 2 |
-| 3110 | Class/Unclass Salary & Per Diem | $101,155.78 | 4.0% | 3 |
-| 4100 | Instate Travel | $52,161.93 | 2.0% | 100 |
-| 4200 | Telecomm/Tech Svc And Supplies | $49,140.45 | 1.9% | 7 |
-| 4250 | Data Processing | $29,349.32 | 1.2% | 5 |
-| 4175 | Office Expenses | $25,309.89 | 1.0% | 9 |
-| 3220 | Public Employes' Retirement System | $24,856.65 | 1.0% | 8 |
-| 4715 | It Expendable Property | $21,016.32 | 0.8% | 7 |
-| 3270 | Flexible Benefits | $16,319.73 | 0.6% | 3 |
-| 3190 | All Other Differential | $13,351.65 | 0.5% | 4 |
-| 4325 | Attorney General Legal Fees | $9,864.39 | 0.4% | 1 |
-| 3230 | Social Security Tax | $7,928.27 | 0.3% | 2 |
-| 4575 | Agency Program Related Svcs & Supp | $7,490.93 | 0.3% | 6 |
-| 4150 | Employee Training | $7,090.76 | 0.3% | 16 |
-| 3221 | Pension Bond Contribution | $6,249.29 | 0.2% | 2 |
-| 3240 | Unemployment Assessment | $5,290.46 | 0.2% | 1 |
-| 4275 | Publicity & Publications | $3,449.28 | 0.1% | 3 |
-| 3280 | Other Payroll Expenses | $2,072.42 | 0.1% | 1 |
-| 3180 | Shift Differential | $246.71 | 0.0% | 1 |
-| 3250 | Workers' Compensation Assessment | $20.73 | 0.0% | 2 |
-| 3210 | Erb Assessment | $14.34 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $561,842.94 | 22.0% | 7 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $423,454.66 | 16.6% | 6 |
+| 4300 | Professional Services | Services and supplies | $369,758.68 | 14.5% | 19 |
+| 4125 | Out-Of-State Travel | Services and supplies | $333,970.84 | 13.1% | 101 |
+| 4650 | Other Services And Supplies | Services and supplies | $332,213.73 | 13.0% | 8 |
+| 4400 | Dues And Subscriptions | Services and supplies | $146,200.00 | 5.7% | 2 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $101,155.78 | 4.0% | 3 |
+| 4100 | Instate Travel | Services and supplies | $52,161.93 | 2.0% | 100 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $49,140.45 | 1.9% | 7 |
+| 4250 | Data Processing | Services and supplies | $29,349.32 | 1.2% | 5 |
+| 4175 | Office Expenses | Services and supplies | $25,309.89 | 1.0% | 9 |
+| 3220 | Public Employes' Retirement System | Personnel services | $24,856.65 | 1.0% | 8 |
+| 4715 | It Expendable Property | Services and supplies | $21,016.32 | 0.8% | 7 |
+| 3270 | Flexible Benefits | Personnel services | $16,319.73 | 0.6% | 3 |
+| 3190 | All Other Differential | Personnel services | $13,351.65 | 0.5% | 4 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $9,864.39 | 0.4% | 1 |
+| 3230 | Social Security Tax | Personnel services | $7,928.27 | 0.3% | 2 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $7,490.93 | 0.3% | 6 |
+| 4150 | Employee Training | Services and supplies | $7,090.76 | 0.3% | 16 |
+| 3221 | Pension Bond Contribution | Personnel services | $6,249.29 | 0.2% | 2 |
+| 3240 | Unemployment Assessment | Personnel services | $5,290.46 | 0.2% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $3,449.28 | 0.1% | 3 |
+| 3280 | Other Payroll Expenses | Personnel services | $2,072.42 | 0.1% | 1 |
+| 3180 | Shift Differential | Personnel services | $246.71 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $20.73 | 0.0% | 2 |
+| 3210 | Erb Assessment | Personnel services | $14.34 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

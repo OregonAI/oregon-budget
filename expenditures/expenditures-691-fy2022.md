@@ -54,30 +54,40 @@ Watershed Enh Brd (agency code 691, recorded upstream as `WATERSHED ENH BRD`) sp
 
 The largest budget category was **Distribution To Non-Governments** at $24,242,478.93 (54.8% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $43,554,016.12 | 98.5% | 6 |
+| Services and supplies | $669,365.86 | 1.5% | 13 |
+| Personnel services | $597.00 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6030 | Distribution To Non-Governments | $24,242,478.93 | 54.8% | 102 |
-| 6025 | Distribution To Other Govts | $12,189,785.79 | 27.6% | 61 |
-| 6635 | Dist To Fish And Wildlife | $6,693,046.20 | 15.1% | 2 |
-| 6048 | Special Payment To Public Universities | $327,630.72 | 0.7% | 1 |
-| 4225 | State Government Service Charges | $182,499.02 | 0.4% | 7 |
-| 4300 | Professional Services | $140,326.02 | 0.3% | 15 |
-| 4425 | Lease Payments & Taxes | $133,020.02 | 0.3% | 4 |
-| 6690 | Dist To Water Resources | $100,944.48 | 0.2% | 1 |
-| 4325 | Attorney General Legal Fees | $66,983.60 | 0.2% | 1 |
-| 4250 | Data Processing | $35,354.90 | 0.1% | 3 |
-| 4175 | Office Expenses | $24,036.74 | 0.1% | 8 |
-| 4650 | Other Services And Supplies | $23,819.04 | 0.1% | 4 |
-| 4575 | Agency Program Related Svcs & Supp | $23,331.04 | 0.1% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $19,190.09 | 0.0% | 6 |
-| 4715 | It Expendable Property | $16,765.56 | 0.0% | 4 |
-| 4100 | Instate Travel | $2,599.97 | 0.0% | 14 |
-| 4275 | Publicity & Publications | $1,324.86 | 0.0% | 3 |
-| 3240 | Unemployment Assessment | $597.00 | 0.0% | 1 |
-| 6035 | Distribution To Individuals | $130.00 | 0.0% | 1 |
-| 4400 | Dues And Subscriptions | $115.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6030 | Distribution To Non-Governments | Distributions | $24,242,478.93 | 54.8% | 102 |
+| 6025 | Distribution To Other Govts | Distributions | $12,189,785.79 | 27.6% | 61 |
+| 6635 | Dist To Fish And Wildlife | Distributions | $6,693,046.20 | 15.1% | 2 |
+| 6048 | Special Payment To Public Universities | Distributions | $327,630.72 | 0.7% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $182,499.02 | 0.4% | 7 |
+| 4300 | Professional Services | Services and supplies | $140,326.02 | 0.3% | 15 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $133,020.02 | 0.3% | 4 |
+| 6690 | Dist To Water Resources | Distributions | $100,944.48 | 0.2% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $66,983.60 | 0.2% | 1 |
+| 4250 | Data Processing | Services and supplies | $35,354.90 | 0.1% | 3 |
+| 4175 | Office Expenses | Services and supplies | $24,036.74 | 0.1% | 8 |
+| 4650 | Other Services And Supplies | Services and supplies | $23,819.04 | 0.1% | 4 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $23,331.04 | 0.1% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $19,190.09 | 0.0% | 6 |
+| 4715 | It Expendable Property | Services and supplies | $16,765.56 | 0.0% | 4 |
+| 4100 | Instate Travel | Services and supplies | $2,599.97 | 0.0% | 14 |
+| 4275 | Publicity & Publications | Services and supplies | $1,324.86 | 0.0% | 3 |
+| 3240 | Unemployment Assessment | Personnel services | $597.00 | 0.0% | 1 |
+| 6035 | Distribution To Individuals | Distributions | $130.00 | 0.0% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $115.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

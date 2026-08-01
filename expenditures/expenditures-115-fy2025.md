@@ -53,24 +53,33 @@ Employment Relations Brd (agency code 115, recorded upstream as `EMPLOYMENT RELA
 
 The largest budget category was **State Government Service Charges** at $76,411.95 (24.8% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $305,173.52 | 99.2% | 13 |
+| Personnel services | $2,496.72 | 0.8% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $76,411.95 | 24.8% | 4 |
-| 4315 | It Professional Services | $63,750.00 | 20.7% | 1 |
-| 4650 | Other Services And Supplies | $62,137.38 | 20.2% | 2 |
-| 4250 | Data Processing | $37,395.24 | 12.2% | 2 |
-| 4425 | Lease Payments & Taxes | $36,929.76 | 12.0% | 1 |
-| 4100 | Instate Travel | $15,113.31 | 4.9% | 13 |
-| 4175 | Office Expenses | $5,697.34 | 1.9% | 3 |
-| 4150 | Employee Training | $4,535.46 | 1.5% | 7 |
-| 3220 | Public Employes' Retirement System | $2,496.72 | 0.8% | 1 |
-| 4715 | It Expendable Property | $1,476.85 | 0.5% | 3 |
-| 4200 | Telecomm/Tech Svc And Supplies | $1,122.80 | 0.4% | 2 |
-| 4300 | Professional Services | $511.68 | 0.2% | 1 |
-| 4375 | Employee Recruitment And Development | $80.00 | 0.0% | 1 |
-| 4400 | Dues And Subscriptions | $11.75 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $76,411.95 | 24.8% | 4 |
+| 4315 | It Professional Services | Services and supplies | $63,750.00 | 20.7% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $62,137.38 | 20.2% | 2 |
+| 4250 | Data Processing | Services and supplies | $37,395.24 | 12.2% | 2 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $36,929.76 | 12.0% | 1 |
+| 4100 | Instate Travel | Services and supplies | $15,113.31 | 4.9% | 13 |
+| 4175 | Office Expenses | Services and supplies | $5,697.34 | 1.9% | 3 |
+| 4150 | Employee Training | Services and supplies | $4,535.46 | 1.5% | 7 |
+| 3220 | Public Employes' Retirement System | Personnel services | $2,496.72 | 0.8% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $1,476.85 | 0.5% | 3 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $1,122.80 | 0.4% | 2 |
+| 4300 | Professional Services | Services and supplies | $511.68 | 0.2% | 1 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $80.00 | 0.0% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $11.75 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

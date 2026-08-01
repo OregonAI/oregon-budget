@@ -54,14 +54,22 @@ Columbia River Gorge Cmsn (agency code 350, recorded upstream as `COLUMBIA RIVER
 
 The largest budget category was **Professional Services** at $620,932.39 (99.1% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $626,525.69 | 100.0% | 4 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $620,932.39 | 99.1% | 1 |
-| 4225 | State Government Service Charges | $4,673.00 | 0.7% | 2 |
-| 4715 | It Expendable Property | $782.60 | 0.1% | 1 |
-| 4325 | Attorney General Legal Fees | $137.70 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $620,932.39 | 99.1% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $4,673.00 | 0.7% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $782.60 | 0.1% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $137.70 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

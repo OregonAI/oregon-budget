@@ -53,33 +53,44 @@ Parole/Post Prison Supv, Brd (agency code 255, recorded upstream as `PAROLE/POST
 
 The largest budget category was **Buildings And Structures** at $713,616.18 (31.9% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $1,376,963.09 | 61.5% | 18 |
+| Capital outlay | $862,821.78 | 38.5% | 2 |
+| Personnel services | $143.90 | 0.0% | 2 |
+| Distributions | $102.31 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 5700 | Buildings And Structures | $713,616.18 | 31.9% | 1 |
-| 4300 | Professional Services | $504,313.12 | 22.5% | 24 |
-| 4325 | Attorney General Legal Fees | $372,257.59 | 16.6% | 1 |
-| 5100 | Office Furniture And Fixtures | $149,205.60 | 6.7% | 1 |
-| 4425 | Facilities Rent & Taxes | $143,585.00 | 6.4% | 1 |
-| 4225 | State Government Service Charges | $105,920.39 | 4.7% | 5 |
-| 4525 | Medical Supplies And Services | $97,747.02 | 4.4% | 3 |
-| 4175 | Office Expenses | $60,895.78 | 2.7% | 16 |
-| 4715 | It Expendable Property | $35,828.72 | 1.6% | 5 |
-| 4200 | Telecomm/Tech Svc And Supplies | $14,817.00 | 0.7% | 3 |
-| 4100 | Instate Travel | $10,267.28 | 0.5% | 41 |
-| 4650 | Other Services And Supplies | $7,590.18 | 0.3% | 4 |
-| 4125 | Out-Of-State Travel | $7,408.51 | 0.3% | 12 |
-| 4150 | Employee Training | $6,488.84 | 0.3% | 17 |
-| 4700 | Expendable Property $250-$5000 | $3,748.05 | 0.2% | 2 |
-| 4275 | Publicity & Publications | $2,500.00 | 0.1% | 1 |
-| 4400 | Dues And Subscriptions | $1,527.00 | 0.1% | 2 |
-| 4600 | Intra-Inter Agency Charges | $1,036.00 | 0.0% | 1 |
-| 4475 | Facilities Maintenance | $708.62 | 0.0% | 1 |
-| 4250 | Data Processing | $323.99 | 0.0% | 1 |
-| 6035 | Distribution To Individuals | $102.31 | 0.0% | 1 |
-| 3260 | Mass Transit | $95.54 | 0.0% | 1 |
-| 3190 | All Other Differential | $48.36 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 5700 | Buildings And Structures | Capital outlay | $713,616.18 | 31.9% | 1 |
+| 4300 | Professional Services | Services and supplies | $504,313.12 | 22.5% | 24 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $372,257.59 | 16.6% | 1 |
+| 5100 | Office Furniture And Fixtures | Capital outlay | $149,205.60 | 6.7% | 1 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $143,585.00 | 6.4% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $105,920.39 | 4.7% | 5 |
+| 4525 | Medical Supplies And Services | Services and supplies | $97,747.02 | 4.4% | 3 |
+| 4175 | Office Expenses | Services and supplies | $60,895.78 | 2.7% | 16 |
+| 4715 | It Expendable Property | Services and supplies | $35,828.72 | 1.6% | 5 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $14,817.00 | 0.7% | 3 |
+| 4100 | Instate Travel | Services and supplies | $10,267.28 | 0.5% | 41 |
+| 4650 | Other Services And Supplies | Services and supplies | $7,590.18 | 0.3% | 4 |
+| 4125 | Out-Of-State Travel | Services and supplies | $7,408.51 | 0.3% | 12 |
+| 4150 | Employee Training | Services and supplies | $6,488.84 | 0.3% | 17 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $3,748.05 | 0.2% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $2,500.00 | 0.1% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $1,527.00 | 0.1% | 2 |
+| 4600 | Intra-Inter Agency Charges | Services and supplies | $1,036.00 | 0.0% | 1 |
+| 4475 | Facilities Maintenance | Services and supplies | $708.62 | 0.0% | 1 |
+| 4250 | Data Processing | Services and supplies | $323.99 | 0.0% | 1 |
+| 6035 | Distribution To Individuals | Distributions | $102.31 | 0.0% | 1 |
+| 3260 | Mass Transit | Personnel services | $95.54 | 0.0% | 1 |
+| 3190 | All Other Differential | Personnel services | $48.36 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

@@ -53,19 +53,27 @@ Advocacy Commissions, OR (agency code 131, recorded upstream as `ADVOCACY COMMIS
 
 The largest budget category was **Other Services And Supplies** at $19,928.05 (31.6% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $63,041.88 | 100.0% | 9 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4650 | Other Services And Supplies | $19,928.05 | 31.6% | 4 |
-| 4225 | State Government Service Charges | $18,393.29 | 29.2% | 3 |
-| 4175 | Office Expenses | $13,739.17 | 21.8% | 1 |
-| 4250 | Data Processing | $4,984.70 | 7.9% | 1 |
-| 4100 | Instate Travel | $3,222.08 | 5.1% | 23 |
-| 4575 | Agency Program Related Svcs & Supp | $2,000.00 | 3.2% | 3 |
-| 4325 | Attorney General Legal Fees | $618.80 | 1.0% | 1 |
-| 4150 | Employee Training | $107.91 | 0.2% | 2 |
-| 4300 | Professional Services | $47.88 | 0.1% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4650 | Other Services And Supplies | Services and supplies | $19,928.05 | 31.6% | 4 |
+| 4225 | State Government Service Charges | Services and supplies | $18,393.29 | 29.2% | 3 |
+| 4175 | Office Expenses | Services and supplies | $13,739.17 | 21.8% | 1 |
+| 4250 | Data Processing | Services and supplies | $4,984.70 | 7.9% | 1 |
+| 4100 | Instate Travel | Services and supplies | $3,222.08 | 5.1% | 23 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $2,000.00 | 3.2% | 3 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $618.80 | 1.0% | 1 |
+| 4150 | Employee Training | Services and supplies | $107.91 | 0.2% | 2 |
+| 4300 | Professional Services | Services and supplies | $47.88 | 0.1% | 1 |
 
 ## Largest expenditure classes
 

@@ -53,16 +53,24 @@ Judicial Fitness & Disability (agency code 175, recorded upstream as `JUDICIAL F
 
 The largest budget category was **Professional Services** at $13,665.10 (41.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $32,913.99 | 100.0% | 6 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $13,665.10 | 41.5% | 3 |
-| 4425 | Facilities Rent & Taxes | $6,600.00 | 20.1% | 1 |
-| 4225 | State Government Service Charges | $5,516.13 | 16.8% | 4 |
-| 4175 | Office Expenses | $4,071.52 | 12.4% | 8 |
-| 4200 | Telecomm/Tech Svc And Supplies | $2,187.34 | 6.6% | 5 |
-| 4100 | Instate Travel | $873.90 | 2.7% | 5 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $13,665.10 | 41.5% | 3 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $6,600.00 | 20.1% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $5,516.13 | 16.8% | 4 |
+| 4175 | Office Expenses | Services and supplies | $4,071.52 | 12.4% | 8 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $2,187.34 | 6.6% | 5 |
+| 4100 | Instate Travel | Services and supplies | $873.90 | 2.7% | 5 |
 
 ## Largest expenditure classes
 

@@ -54,24 +54,33 @@ Advocacy Commissions, OR (agency code 131, recorded upstream as `ADVOCACY COMMIS
 
 The largest budget category was **Other Services And Supplies** at $28,052.36 (24.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $113,499.68 | 99.1% | 12 |
+| Personnel services | $974.59 | 0.9% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4650 | Other Services And Supplies | $28,052.36 | 24.5% | 4 |
-| 4225 | State Government Service Charges | $18,721.23 | 16.4% | 5 |
-| 4175 | Office Expenses | $17,726.00 | 15.5% | 4 |
-| 4715 | It Expendable Property | $15,728.49 | 13.7% | 3 |
-| 4250 | Data Processing | $12,321.12 | 10.8% | 3 |
-| 4300 | Professional Services | $10,079.05 | 8.8% | 3 |
-| 4100 | Instate Travel | $7,248.50 | 6.3% | 15 |
-| 4575 | Agency Program Related Svcs & Supp | $1,660.97 | 1.5% | 5 |
-| 4425 | Lease Payments & Taxes | $1,143.30 | 1.0% | 2 |
-| 3110 | Class/Unclass Salary & Per Diem | $894.85 | 0.8% | 1 |
-| 4275 | Publicity & Publications | $551.18 | 0.5% | 3 |
-| 4150 | Employee Training | $165.00 | 0.1% | 2 |
-| 4375 | Employee Recruitment And Development | $102.48 | 0.1% | 1 |
-| 3240 | Unemployment Assessment | $79.74 | 0.1% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4650 | Other Services And Supplies | Services and supplies | $28,052.36 | 24.5% | 4 |
+| 4225 | State Government Service Charges | Services and supplies | $18,721.23 | 16.4% | 5 |
+| 4175 | Office Expenses | Services and supplies | $17,726.00 | 15.5% | 4 |
+| 4715 | It Expendable Property | Services and supplies | $15,728.49 | 13.7% | 3 |
+| 4250 | Data Processing | Services and supplies | $12,321.12 | 10.8% | 3 |
+| 4300 | Professional Services | Services and supplies | $10,079.05 | 8.8% | 3 |
+| 4100 | Instate Travel | Services and supplies | $7,248.50 | 6.3% | 15 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $1,660.97 | 1.5% | 5 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $1,143.30 | 1.0% | 2 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $894.85 | 0.8% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $551.18 | 0.5% | 3 |
+| 4150 | Employee Training | Services and supplies | $165.00 | 0.1% | 2 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $102.48 | 0.1% | 1 |
+| 3240 | Unemployment Assessment | Personnel services | $79.74 | 0.1% | 1 |
 
 ## Largest expenditure classes
 

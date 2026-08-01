@@ -54,24 +54,33 @@ Land Use Brd of Appeals (agency code 662, recorded upstream as `LAND USE BRD OF 
 
 The largest budget category was **Lease Payments & Taxes** at $46,053.60 (27.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $165,402.83 | 97.8% | 13 |
+| Personnel services | $3,710.00 | 2.2% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4425 | Lease Payments & Taxes | $46,053.60 | 27.2% | 1 |
-| 4225 | State Government Service Charges | $32,970.83 | 19.5% | 5 |
-| 4650 | Other Services And Supplies | $18,998.02 | 11.2% | 3 |
-| 4175 | Office Expenses | $14,891.41 | 8.8% | 10 |
-| 4250 | Data Processing | $14,668.50 | 8.7% | 2 |
-| 4300 | Professional Services | $13,379.51 | 7.9% | 4 |
-| 4275 | Publicity & Publications | $8,557.27 | 5.1% | 4 |
-| 4200 | Telecomm/Tech Svc And Supplies | $8,124.24 | 4.8% | 4 |
-| 4715 | It Expendable Property | $3,996.44 | 2.4% | 1 |
-| 3240 | Unemployment Assessment | $3,710.00 | 2.2% | 1 |
-| 4700 | Expendable Property $250-$5000 | $2,197.25 | 1.3% | 2 |
-| 4400 | Dues And Subscriptions | $1,283.60 | 0.8% | 3 |
-| 4375 | Employee Recruitment And Development | $196.56 | 0.1% | 1 |
-| 4325 | Attorney General Legal Fees | $85.60 | 0.1% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4425 | Lease Payments & Taxes | Services and supplies | $46,053.60 | 27.2% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $32,970.83 | 19.5% | 5 |
+| 4650 | Other Services And Supplies | Services and supplies | $18,998.02 | 11.2% | 3 |
+| 4175 | Office Expenses | Services and supplies | $14,891.41 | 8.8% | 10 |
+| 4250 | Data Processing | Services and supplies | $14,668.50 | 8.7% | 2 |
+| 4300 | Professional Services | Services and supplies | $13,379.51 | 7.9% | 4 |
+| 4275 | Publicity & Publications | Services and supplies | $8,557.27 | 5.1% | 4 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $8,124.24 | 4.8% | 4 |
+| 4715 | It Expendable Property | Services and supplies | $3,996.44 | 2.4% | 1 |
+| 3240 | Unemployment Assessment | Personnel services | $3,710.00 | 2.2% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $2,197.25 | 1.3% | 2 |
+| 4400 | Dues And Subscriptions | Services and supplies | $1,283.60 | 0.8% | 3 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $196.56 | 0.1% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $85.60 | 0.1% | 1 |
 
 ## Largest expenditure classes
 

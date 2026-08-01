@@ -54,36 +54,46 @@ Library, Oregon St (agency code 543, recorded upstream as `LIBRARY, OREGON ST`) 
 
 The largest budget category was **Data Processing** at $1,050,463.57 (20.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $2,622,703.74 | 51.1% | 7 |
+| Services and supplies | $2,510,636.46 | 48.9% | 18 |
+| Personnel services | $938.28 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4250 | Data Processing | $1,050,463.57 | 20.5% | 28 |
-| 6015 | Distribution To Cities | $783,560.27 | 15.3% | 101 |
-| 4425 | Lease Payments & Taxes | $684,307.32 | 13.3% | 1 |
-| 6050 | Distribution To Non-Profit Org | $617,449.49 | 12.0% | 15 |
-| 6025 | Distribution To Other Govts | $417,585.69 | 8.1% | 25 |
-| 6020 | Distribution To Counties | $360,332.00 | 7.0% | 19 |
-| 4575 | Agency Program Related Svcs & Supp | $212,688.41 | 4.1% | 24 |
-| 4225 | State Government Service Charges | $198,705.52 | 3.9% | 5 |
-| 4650 | Other Services And Supplies | $156,867.80 | 3.1% | 2 |
-| 6040 | Distribution To Local School Dist | $152,453.73 | 3.0% | 4 |
-| 6045 | Distribution To Comm Coll Districts | $148,900.47 | 2.9% | 5 |
-| 6048 | Special Payment To Public Universities | $142,422.09 | 2.8% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $48,452.79 | 0.9% | 5 |
-| 4400 | Dues And Subscriptions | $37,132.00 | 0.7% | 6 |
-| 4100 | Instate Travel | $25,788.08 | 0.5% | 65 |
-| 4325 | Attorney General Legal Fees | $22,247.20 | 0.4% | 1 |
-| 4715 | It Expendable Property | $19,561.51 | 0.4% | 2 |
-| 4275 | Publicity & Publications | $13,238.60 | 0.3% | 5 |
-| 4315 | It Professional Services | $10,487.75 | 0.2% | 2 |
-| 4300 | Professional Services | $8,495.31 | 0.2% | 3 |
-| 4175 | Office Expenses | $7,688.07 | 0.1% | 4 |
-| 4125 | Out-Of-State Travel | $6,862.91 | 0.1% | 14 |
-| 4150 | Employee Training | $6,606.43 | 0.1% | 23 |
-| 3110 | Class/Unclass Salary & Per Diem | $938.28 | 0.0% | 1 |
-| 4475 | Facilities Maintenance | $588.00 | 0.0% | 1 |
-| 4375 | Employee Recruitment And Development | $455.19 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4250 | Data Processing | Services and supplies | $1,050,463.57 | 20.5% | 28 |
+| 6015 | Distribution To Cities | Distributions | $783,560.27 | 15.3% | 101 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $684,307.32 | 13.3% | 1 |
+| 6050 | Distribution To Non-Profit Org | Distributions | $617,449.49 | 12.0% | 15 |
+| 6025 | Distribution To Other Govts | Distributions | $417,585.69 | 8.1% | 25 |
+| 6020 | Distribution To Counties | Distributions | $360,332.00 | 7.0% | 19 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $212,688.41 | 4.1% | 24 |
+| 4225 | State Government Service Charges | Services and supplies | $198,705.52 | 3.9% | 5 |
+| 4650 | Other Services And Supplies | Services and supplies | $156,867.80 | 3.1% | 2 |
+| 6040 | Distribution To Local School Dist | Distributions | $152,453.73 | 3.0% | 4 |
+| 6045 | Distribution To Comm Coll Districts | Distributions | $148,900.47 | 2.9% | 5 |
+| 6048 | Special Payment To Public Universities | Distributions | $142,422.09 | 2.8% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $48,452.79 | 0.9% | 5 |
+| 4400 | Dues And Subscriptions | Services and supplies | $37,132.00 | 0.7% | 6 |
+| 4100 | Instate Travel | Services and supplies | $25,788.08 | 0.5% | 65 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $22,247.20 | 0.4% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $19,561.51 | 0.4% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $13,238.60 | 0.3% | 5 |
+| 4315 | It Professional Services | Services and supplies | $10,487.75 | 0.2% | 2 |
+| 4300 | Professional Services | Services and supplies | $8,495.31 | 0.2% | 3 |
+| 4175 | Office Expenses | Services and supplies | $7,688.07 | 0.1% | 4 |
+| 4125 | Out-Of-State Travel | Services and supplies | $6,862.91 | 0.1% | 14 |
+| 4150 | Employee Training | Services and supplies | $6,606.43 | 0.1% | 23 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $938.28 | 0.0% | 1 |
+| 4475 | Facilities Maintenance | Services and supplies | $588.00 | 0.0% | 1 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $455.19 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

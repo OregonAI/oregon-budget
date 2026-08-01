@@ -68,6 +68,39 @@ SMALL_WORDS = {"of", "and", "the", "for", "to"}
 KEEP_UPPER = {"OR"}
 
 
+_BANDS: dict | None = None
+
+
+def band_of(code: str) -> tuple[str, bool]:
+    """(band label, is it money) for an ORBITS account code, from the committed catalogue.
+
+    The leading digit of a budget_class encodes a category -- revenue, personnel, capital
+    outlay, distributions -- and DAS's crosswalk never states it. `_meta/catalog/
+    account-codes.yml` does, so these documents can say "Capital outlay" where they used to
+    list four codes beginning with 5 and leave the reader to know.
+
+    Falls back to the leading digit when a code is absent from the catalogue. 5 of the codes
+    in the mirror are not in the crosswalk, and a document that refused to render because
+    DAS omitted a code would be the wrong failure -- the band is a property of the NUMBER,
+    which is present either way.
+    """
+    global _BANDS
+    if _BANDS is None:
+        import yaml                                   # noqa: PLC0415
+        p = ROOT / "_meta" / "catalog" / "account-codes.yml"
+        cat = yaml.safe_load(p.read_text(encoding="utf-8")) if p.is_file() else {}
+        by_id = {b["id"]: b for b in cat.get("bands") or []}
+        _BANDS = {"acct": cat.get("accounts") or {}, "band": by_id,
+                  "ranges": [(int(b["range"][:4]), int(b["range"][5:]), b["id"])
+                             for b in cat.get("bands") or []]}
+    e = _BANDS["acct"].get(code)
+    bid = e.get("band") if e else next(
+        (i for lo, hi, i in _BANDS["ranges"] if code.isdigit() and lo <= int(code) <= hi),
+        None)
+    b = _BANDS["band"].get(bid or "")
+    return (b.get("label") if b else "Unclassified"), (b.get("monetary", True) if b else True)
+
+
 def money(d: Decimal) -> str:
     return f"${d:,.2f}"
 
@@ -222,12 +255,45 @@ def build_one(agency, year, name, total, txns, d, retrieved, sha) -> tuple[str, 
                  f"({top[2] / total * 100:.1f}% of the agency's total).")
         L.append("")
 
+    # ROLLED UP BEFORE ITEMISED. A reader asking what an agency spends money ON gets nine
+    # categories rather than forty codes, and the categories are the ones the budget itself
+    # is structured in. The itemised table below keeps every code.
+    rolled: dict[str, list] = {}
+    for code, _bname, amt, n in budget:
+        label, monetary = band_of(code)
+        # A NON-MONETARY CODE MUST NEVER BE SUMMED. The 8000 band is position counts and
+        # FTE -- people, not dollars -- and adding it to a spending total produces a figure
+        # that is not money and looks like it. No expenditure row carries one today, so this
+        # raises rather than filtering: if that ever changes, the right outcome is a build
+        # that stops, not a total quietly missing a category.
+        if not monetary:
+            raise SystemExit(
+                f"{doc_id}: budget_class {code} is in a non-monetary band ({label}) and "
+                f"carries {money(amt)} of expense. Position counts and FTE cannot be summed "
+                f"with dollars — see _meta/catalog/account-codes.yml.")
+        r = rolled.setdefault(label, [Decimal(0), 0, 0])
+        r[0] += amt
+        r[1] += n
+        r[2] += 1
+    L.append("## Spending by band")
+    L.append("")
+    L.append("The leading digit of a budget class encodes its category. This grouping is a "
+             "convention of Oregon's budget structure, not a line in the source data — see "
+             "[the account code reference](../datasets/account-code-structure.md).")
+    L.append("")
+    L.append("| Band | Amount | Share | Codes |")
+    L.append("|---|---:|---:|---:|")
+    for label, (amt, _n, codes) in sorted(rolled.items(), key=lambda kv: -kv[1][0]):
+        L.append(f"| {label} | {money(amt)} | {amt / total * 100:.1f}% | {codes} |")
+    L.append("")
+
     L.append("## Spending by budget class")
     L.append("")
-    L.append("| Code | Budget class | Amount | Share | Records |")
-    L.append("|---|---|---:|---:|---:|")
+    L.append("| Code | Budget class | Band | Amount | Share | Records |")
+    L.append("|---|---|---|---:|---:|---:|")
     for code, bname, amt, n in budget:
-        L.append(f"| {code} | {bname.title()} | {money(amt)} | {amt / total * 100:.1f}% | {n:,} |")
+        L.append(f"| {code} | {bname.title()} | {band_of(code)[0]} | {money(amt)} | "
+                 f"{amt / total * 100:.1f}% | {n:,} |")
     L.append("")
 
     L.append("## Largest expenditure classes")

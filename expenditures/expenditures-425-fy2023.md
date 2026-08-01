@@ -54,20 +54,28 @@ Indian Services Cmsn (agency code 425, recorded upstream as `INDIAN SERVICES CMS
 
 The largest budget category was **Instate Travel** at $7,448.53 (35.9% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $20,738.25 | 100.0% | 10 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4100 | Instate Travel | $7,448.53 | 35.9% | 9 |
-| 4225 | State Government Service Charges | $7,442.48 | 35.9% | 3 |
-| 4715 | It Expendable Property | $1,802.74 | 8.7% | 3 |
-| 4200 | Telecomm/Tech Svc And Supplies | $1,234.62 | 6.0% | 1 |
-| 4150 | Employee Training | $1,223.00 | 5.9% | 1 |
-| 4175 | Office Expenses | $616.62 | 3.0% | 4 |
-| 4575 | Agency Program Related Svcs & Supp | $371.50 | 1.8% | 1 |
-| 4250 | Data Processing | $342.02 | 1.6% | 1 |
-| 4125 | Out-Of-State Travel | $226.74 | 1.1% | 2 |
-| 4650 | Other Services And Supplies | $30.00 | 0.1% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4100 | Instate Travel | Services and supplies | $7,448.53 | 35.9% | 9 |
+| 4225 | State Government Service Charges | Services and supplies | $7,442.48 | 35.9% | 3 |
+| 4715 | It Expendable Property | Services and supplies | $1,802.74 | 8.7% | 3 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $1,234.62 | 6.0% | 1 |
+| 4150 | Employee Training | Services and supplies | $1,223.00 | 5.9% | 1 |
+| 4175 | Office Expenses | Services and supplies | $616.62 | 3.0% | 4 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $371.50 | 1.8% | 1 |
+| 4250 | Data Processing | Services and supplies | $342.02 | 1.6% | 1 |
+| 4125 | Out-Of-State Travel | Services and supplies | $226.74 | 1.1% | 2 |
+| 4650 | Other Services And Supplies | Services and supplies | $30.00 | 0.1% | 1 |
 
 ## Largest expenditure classes
 

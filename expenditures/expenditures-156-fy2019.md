@@ -53,35 +53,46 @@ Legislative Admin Cmte (agency code 156, recorded upstream as `LEGISLATIVE ADMIN
 
 The largest budget category was **Professional Services** at $31,816,289.57 (67.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $37,806,552.99 | 80.5% | 19 |
+| Debt service | $7,136,354.85 | 15.2% | 4 |
+| Distributions | $2,028,792.74 | 4.3% | 1 |
+| Personnel services | $6,488.46 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $31,816,289.57 | 67.7% | 34 |
-| 7100 | Principal - Bonds | $3,662,200.00 | 7.8% | 1 |
-| 7150 | Interest - Bonds | $3,251,689.87 | 6.9% | 1 |
-| 6257 | Dist To State Police | $2,028,792.74 | 4.3% | 1 |
-| 4715 | It Expendable Property | $1,643,460.48 | 3.5% | 55 |
-| 4475 | Facilities Maintenance | $1,003,486.61 | 2.1% | 69 |
-| 4250 | Data Processing | $908,154.48 | 1.9% | 12 |
-| 4200 | Telecomm/Tech Svc And Supplies | $706,733.06 | 1.5% | 17 |
-| 4650 | Other Services And Supplies | $458,125.53 | 1.0% | 123 |
-| 4225 | State Government Service Charges | $358,494.92 | 0.8% | 3 |
-| 4450 | Fuels And Utilities | $341,389.31 | 0.7% | 10 |
-| 4315 | It Professional Services | $233,281.31 | 0.5% | 8 |
-| 7200 | Principal - Cert Of Participation | $201,000.00 | 0.4% | 1 |
-| 4175 | Office Expenses | $128,092.17 | 0.3% | 39 |
-| 4700 | Expendable Property $250-$5000 | $80,002.35 | 0.2% | 8 |
-| 4150 | Employee Training | $51,779.03 | 0.1% | 26 |
-| 4325 | Attorney General Legal Fees | $32,314.10 | 0.1% | 1 |
-| 4425 | Facilities Rent & Taxes | $23,986.60 | 0.1% | 2 |
-| 7250 | Interest - Cert Of Participation | $21,464.98 | 0.0% | 1 |
-| 4275 | Publicity & Publications | $6,812.85 | 0.0% | 2 |
-| 3240 | Unemployment Assessment | $6,488.46 | 0.0% | 1 |
-| 4100 | Instate Travel | $5,913.76 | 0.0% | 35 |
-| 4125 | Out-Of-State Travel | $3,979.87 | 0.0% | 9 |
-| 4375 | Employee Recruitment And Development | $2,651.84 | 0.0% | 6 |
-| 4400 | Dues And Subscriptions | $1,605.15 | 0.0% | 5 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $31,816,289.57 | 67.7% | 34 |
+| 7100 | Principal - Bonds | Debt service | $3,662,200.00 | 7.8% | 1 |
+| 7150 | Interest - Bonds | Debt service | $3,251,689.87 | 6.9% | 1 |
+| 6257 | Dist To State Police | Distributions | $2,028,792.74 | 4.3% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $1,643,460.48 | 3.5% | 55 |
+| 4475 | Facilities Maintenance | Services and supplies | $1,003,486.61 | 2.1% | 69 |
+| 4250 | Data Processing | Services and supplies | $908,154.48 | 1.9% | 12 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $706,733.06 | 1.5% | 17 |
+| 4650 | Other Services And Supplies | Services and supplies | $458,125.53 | 1.0% | 123 |
+| 4225 | State Government Service Charges | Services and supplies | $358,494.92 | 0.8% | 3 |
+| 4450 | Fuels And Utilities | Services and supplies | $341,389.31 | 0.7% | 10 |
+| 4315 | It Professional Services | Services and supplies | $233,281.31 | 0.5% | 8 |
+| 7200 | Principal - Cert Of Participation | Debt service | $201,000.00 | 0.4% | 1 |
+| 4175 | Office Expenses | Services and supplies | $128,092.17 | 0.3% | 39 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $80,002.35 | 0.2% | 8 |
+| 4150 | Employee Training | Services and supplies | $51,779.03 | 0.1% | 26 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $32,314.10 | 0.1% | 1 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $23,986.60 | 0.1% | 2 |
+| 7250 | Interest - Cert Of Participation | Debt service | $21,464.98 | 0.0% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $6,812.85 | 0.0% | 2 |
+| 3240 | Unemployment Assessment | Personnel services | $6,488.46 | 0.0% | 1 |
+| 4100 | Instate Travel | Services and supplies | $5,913.76 | 0.0% | 35 |
+| 4125 | Out-Of-State Travel | Services and supplies | $3,979.87 | 0.0% | 9 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $2,651.84 | 0.0% | 6 |
+| 4400 | Dues And Subscriptions | Services and supplies | $1,605.15 | 0.0% | 5 |
 
 ## Largest expenditure classes
 

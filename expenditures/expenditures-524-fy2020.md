@@ -53,15 +53,23 @@ Chief Edu Office (agency code 524, recorded upstream as `CHIEF EDU OFFICE`) spen
 
 The largest budget category was **Professional Services** at $24,000.00 (92.1% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $26,057.96 | 100.0% | 5 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $24,000.00 | 92.1% | 1 |
-| 4175 | Office Expenses | $692.52 | 2.7% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $681.81 | 2.6% | 3 |
-| 4650 | Other Services And Supplies | $643.53 | 2.5% | 1 |
-| 4225 | State Government Service Charges | $40.10 | 0.2% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $24,000.00 | 92.1% | 1 |
+| 4175 | Office Expenses | Services and supplies | $692.52 | 2.7% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $681.81 | 2.6% | 3 |
+| 4650 | Other Services And Supplies | Services and supplies | $643.53 | 2.5% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $40.10 | 0.2% | 1 |
 
 ## Largest expenditure classes
 

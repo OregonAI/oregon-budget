@@ -54,60 +54,72 @@ Youth Authority, OR (agency code 415, recorded upstream as `YOUTH AUTHORITY, OR`
 
 The largest budget category was **Other Special Payments** at $23,957,261.09 (27.3% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $37,597,445.25 | 42.8% | 4 |
+| Services and supplies | $28,224,255.74 | 32.1% | 23 |
+| Capital outlay | $13,111,704.81 | 14.9% | 9 |
+| Debt service | $8,437,658.33 | 9.6% | 2 |
+| Personnel services | $436,627.53 | 0.5% | 12 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6085 | Other Special Payments | $23,957,261.09 | 27.3% | 73 |
-| 6020 | Distribution To Counties | $11,781,289.28 | 13.4% | 47 |
-| 5700 | Buildings And Structures | $9,231,681.63 | 10.5% | 31 |
-| 7100 | Principal - Bonds | $4,485,000.00 | 5.1% | 1 |
-| 7150 | Interest - Bonds | $3,952,658.33 | 4.5% | 1 |
-| 4225 | State Government Service Charges | $3,824,282.92 | 4.4% | 6 |
-| 4575 | Agency Program Related Svcs & Supp | $3,225,952.96 | 3.7% | 60 |
-| 4525 | Medical Supplies And Services | $3,124,027.02 | 3.6% | 156 |
-| 4475 | Facilities Maintenance | $2,429,886.91 | 2.8% | 64 |
-| 4500 | Food And Kitchen Supplies | $2,221,421.89 | 2.5% | 12 |
-| 5900 | Other Capital Outlay | $2,109,127.73 | 2.4% | 16 |
-| 4715 | It Expendable Property | $1,952,563.66 | 2.2% | 18 |
-| 4100 | Instate Travel | $1,790,440.57 | 2.0% | 314 |
-| 4450 | Fuels And Utilities | $1,750,503.99 | 2.0% | 16 |
-| 4425 | Lease Payments & Taxes | $1,331,825.60 | 1.5% | 21 |
-| 4200 | Telecomm/Tech Svc And Supplies | $1,123,463.44 | 1.3% | 21 |
-| 4250 | Data Processing | $1,115,965.01 | 1.3% | 8 |
-| 6055 | Distribution To Contract Svc Provider | $943,844.25 | 1.1% | 21 |
-| 6035 | Distribution To Individuals | $915,050.63 | 1.0% | 124 |
-| 4650 | Other Services And Supplies | $849,190.52 | 1.0% | 22 |
-| 5550 | Data Processing Software | $774,099.17 | 0.9% | 7 |
-| 4300 | Professional Services | $732,354.70 | 0.8% | 17 |
-| 4175 | Office Expenses | $574,814.71 | 0.7% | 17 |
-| 4150 | Employee Training | $567,680.76 | 0.6% | 328 |
-| 5250 | Household & Institutional Equipment | $539,152.41 | 0.6% | 17 |
-| 4375 | Employee Recruitment And Development | $435,423.75 | 0.5% | 12 |
-| 4700 | Expendable Property $250-$5000 | $343,067.81 | 0.4% | 7 |
-| 4550 | Other Care Of Residents & Patients | $293,530.61 | 0.3% | 1 |
-| 4325 | Attorney General Legal Fees | $291,488.48 | 0.3% | 1 |
-| 3110 | Class/Unclass Salary & Per Diem | $231,962.34 | 0.3% | 3 |
-| 5200 | Technical Equipment | $187,439.93 | 0.2% | 3 |
-| 4315 | It Professional Services | $162,234.00 | 0.2% | 3 |
-| 5650 | Land Improvements | $112,850.88 | 0.1% | 4 |
-| 5600 | Data Processing Hardware | $79,027.51 | 0.1% | 2 |
-| 5400 | Automotive & Aircraft | $73,846.15 | 0.1% | 3 |
-| 3240 | Unemployment Assessment | $69,535.97 | 0.1% | 1 |
-| 3220 | Public Employes' Retirement System | $55,290.37 | 0.1% | 7 |
-| 4275 | Publicity & Publications | $39,297.52 | 0.0% | 5 |
-| 3270 | Flexible Benefits | $37,047.65 | 0.0% | 2 |
-| 4125 | Out-Of-State Travel | $29,182.56 | 0.0% | 22 |
-| 3230 | Social Security Tax | $17,356.52 | 0.0% | 2 |
-| 4400 | Dues And Subscriptions | $15,656.35 | 0.0% | 4 |
-| 3221 | Pension Bond Contribution | $12,702.85 | 0.0% | 2 |
-| 3280 | Other Payroll Expenses | $7,076.72 | 0.0% | 1 |
-| 3190 | All Other Differential | $4,807.33 | 0.0% | 1 |
-| 5100 | Office Furniture And Fixtures | $4,479.40 | 0.0% | 1 |
-| 3260 | Mass Transit | $560.47 | 0.0% | 1 |
-| 3241 | Paid Family Medical Leave Insurance | $184.98 | 0.0% | 2 |
-| 3210 | Erb Assessment | $60.48 | 0.0% | 2 |
-| 3250 | Workers' Compensation Assessment | $41.85 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6085 | Other Special Payments | Distributions | $23,957,261.09 | 27.3% | 73 |
+| 6020 | Distribution To Counties | Distributions | $11,781,289.28 | 13.4% | 47 |
+| 5700 | Buildings And Structures | Capital outlay | $9,231,681.63 | 10.5% | 31 |
+| 7100 | Principal - Bonds | Debt service | $4,485,000.00 | 5.1% | 1 |
+| 7150 | Interest - Bonds | Debt service | $3,952,658.33 | 4.5% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $3,824,282.92 | 4.4% | 6 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $3,225,952.96 | 3.7% | 60 |
+| 4525 | Medical Supplies And Services | Services and supplies | $3,124,027.02 | 3.6% | 156 |
+| 4475 | Facilities Maintenance | Services and supplies | $2,429,886.91 | 2.8% | 64 |
+| 4500 | Food And Kitchen Supplies | Services and supplies | $2,221,421.89 | 2.5% | 12 |
+| 5900 | Other Capital Outlay | Capital outlay | $2,109,127.73 | 2.4% | 16 |
+| 4715 | It Expendable Property | Services and supplies | $1,952,563.66 | 2.2% | 18 |
+| 4100 | Instate Travel | Services and supplies | $1,790,440.57 | 2.0% | 314 |
+| 4450 | Fuels And Utilities | Services and supplies | $1,750,503.99 | 2.0% | 16 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $1,331,825.60 | 1.5% | 21 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $1,123,463.44 | 1.3% | 21 |
+| 4250 | Data Processing | Services and supplies | $1,115,965.01 | 1.3% | 8 |
+| 6055 | Distribution To Contract Svc Provider | Distributions | $943,844.25 | 1.1% | 21 |
+| 6035 | Distribution To Individuals | Distributions | $915,050.63 | 1.0% | 124 |
+| 4650 | Other Services And Supplies | Services and supplies | $849,190.52 | 1.0% | 22 |
+| 5550 | Data Processing Software | Capital outlay | $774,099.17 | 0.9% | 7 |
+| 4300 | Professional Services | Services and supplies | $732,354.70 | 0.8% | 17 |
+| 4175 | Office Expenses | Services and supplies | $574,814.71 | 0.7% | 17 |
+| 4150 | Employee Training | Services and supplies | $567,680.76 | 0.6% | 328 |
+| 5250 | Household & Institutional Equipment | Capital outlay | $539,152.41 | 0.6% | 17 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $435,423.75 | 0.5% | 12 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $343,067.81 | 0.4% | 7 |
+| 4550 | Other Care Of Residents & Patients | Services and supplies | $293,530.61 | 0.3% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $291,488.48 | 0.3% | 1 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $231,962.34 | 0.3% | 3 |
+| 5200 | Technical Equipment | Capital outlay | $187,439.93 | 0.2% | 3 |
+| 4315 | It Professional Services | Services and supplies | $162,234.00 | 0.2% | 3 |
+| 5650 | Land Improvements | Capital outlay | $112,850.88 | 0.1% | 4 |
+| 5600 | Data Processing Hardware | Capital outlay | $79,027.51 | 0.1% | 2 |
+| 5400 | Automotive & Aircraft | Capital outlay | $73,846.15 | 0.1% | 3 |
+| 3240 | Unemployment Assessment | Personnel services | $69,535.97 | 0.1% | 1 |
+| 3220 | Public Employes' Retirement System | Personnel services | $55,290.37 | 0.1% | 7 |
+| 4275 | Publicity & Publications | Services and supplies | $39,297.52 | 0.0% | 5 |
+| 3270 | Flexible Benefits | Personnel services | $37,047.65 | 0.0% | 2 |
+| 4125 | Out-Of-State Travel | Services and supplies | $29,182.56 | 0.0% | 22 |
+| 3230 | Social Security Tax | Personnel services | $17,356.52 | 0.0% | 2 |
+| 4400 | Dues And Subscriptions | Services and supplies | $15,656.35 | 0.0% | 4 |
+| 3221 | Pension Bond Contribution | Personnel services | $12,702.85 | 0.0% | 2 |
+| 3280 | Other Payroll Expenses | Personnel services | $7,076.72 | 0.0% | 1 |
+| 3190 | All Other Differential | Personnel services | $4,807.33 | 0.0% | 1 |
+| 5100 | Office Furniture And Fixtures | Capital outlay | $4,479.40 | 0.0% | 1 |
+| 3260 | Mass Transit | Personnel services | $560.47 | 0.0% | 1 |
+| 3241 | Paid Family Medical Leave Insurance | Personnel services | $184.98 | 0.0% | 2 |
+| 3210 | Erb Assessment | Personnel services | $60.48 | 0.0% | 2 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $41.85 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

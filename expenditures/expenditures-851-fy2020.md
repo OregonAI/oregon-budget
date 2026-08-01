@@ -54,32 +54,42 @@ Nursing, Brd of (agency code 851, recorded upstream as `NURSING, BRD OF`) spent 
 
 The largest budget category was **Agency Program Related Svcs & Supp** at $1,015,251.58 (25.8% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $3,475,760.80 | 88.5% | 18 |
+| Distributions | $349,443.00 | 8.9% | 1 |
+| Capital outlay | $103,325.91 | 2.6% | 3 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4575 | Agency Program Related Svcs & Supp | $1,015,251.58 | 25.8% | 20 |
-| 4300 | Professional Services | $685,265.57 | 17.4% | 7 |
-| 4325 | Attorney General Legal Fees | $675,725.73 | 17.2% | 2 |
-| 6050 | Distribution To Non-Profit Org | $349,443.00 | 8.9% | 1 |
-| 4425 | Facilities Rent & Taxes | $265,114.75 | 6.7% | 2 |
-| 4225 | State Government Service Charges | $230,541.66 | 5.9% | 7 |
-| 4715 | It Expendable Property | $141,715.17 | 3.6% | 13 |
-| 4650 | Other Services And Supplies | $115,751.18 | 2.9% | 5 |
-| 4200 | Telecomm/Tech Svc And Supplies | $76,829.39 | 2.0% | 9 |
-| 5600 | Data Processing Hardware | $71,603.41 | 1.8% | 1 |
-| 4450 | Fuels And Utilities | $60,561.82 | 1.5% | 5 |
-| 4315 | It Professional Services | $44,458.25 | 1.1% | 3 |
-| 4175 | Office Expenses | $36,343.12 | 0.9% | 17 |
-| 4700 | Expendable Property $250-$5000 | $35,632.98 | 0.9% | 5 |
-| 4125 | Out-Of-State Travel | $26,656.93 | 0.7% | 53 |
-| 4100 | Instate Travel | $24,907.25 | 0.6% | 64 |
-| 4150 | Employee Training | $21,088.88 | 0.5% | 7 |
-| 4250 | Data Processing | $19,423.61 | 0.5% | 9 |
-| 5900 | Other Capital Outlay | $17,010.00 | 0.4% | 1 |
-| 5550 | Data Processing Software | $14,712.50 | 0.4% | 1 |
-| 4375 | Employee Recruitment And Development | $257.03 | 0.0% | 2 |
-| 4475 | Facilities Maintenance | $235.90 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $1,015,251.58 | 25.8% | 20 |
+| 4300 | Professional Services | Services and supplies | $685,265.57 | 17.4% | 7 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $675,725.73 | 17.2% | 2 |
+| 6050 | Distribution To Non-Profit Org | Distributions | $349,443.00 | 8.9% | 1 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $265,114.75 | 6.7% | 2 |
+| 4225 | State Government Service Charges | Services and supplies | $230,541.66 | 5.9% | 7 |
+| 4715 | It Expendable Property | Services and supplies | $141,715.17 | 3.6% | 13 |
+| 4650 | Other Services And Supplies | Services and supplies | $115,751.18 | 2.9% | 5 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $76,829.39 | 2.0% | 9 |
+| 5600 | Data Processing Hardware | Capital outlay | $71,603.41 | 1.8% | 1 |
+| 4450 | Fuels And Utilities | Services and supplies | $60,561.82 | 1.5% | 5 |
+| 4315 | It Professional Services | Services and supplies | $44,458.25 | 1.1% | 3 |
+| 4175 | Office Expenses | Services and supplies | $36,343.12 | 0.9% | 17 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $35,632.98 | 0.9% | 5 |
+| 4125 | Out-Of-State Travel | Services and supplies | $26,656.93 | 0.7% | 53 |
+| 4100 | Instate Travel | Services and supplies | $24,907.25 | 0.6% | 64 |
+| 4150 | Employee Training | Services and supplies | $21,088.88 | 0.5% | 7 |
+| 4250 | Data Processing | Services and supplies | $19,423.61 | 0.5% | 9 |
+| 5900 | Other Capital Outlay | Capital outlay | $17,010.00 | 0.4% | 1 |
+| 5550 | Data Processing Software | Capital outlay | $14,712.50 | 0.4% | 1 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $257.03 | 0.0% | 2 |
+| 4475 | Facilities Maintenance | Services and supplies | $235.90 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

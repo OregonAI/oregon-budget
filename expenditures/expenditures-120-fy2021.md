@@ -54,21 +54,29 @@ Accountancy, Oregon Brd of (agency code 120, recorded upstream as `ACCOUNTANCY, 
 
 The largest budget category was **Attorney General Legal Fees** at $225,538.41 (47.6% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $473,590.45 | 100.0% | 11 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $225,538.41 | 47.6% | 1 |
-| 4425 | Lease Payments & Taxes | $62,554.05 | 13.2% | 1 |
-| 4650 | Other Services And Supplies | $53,143.41 | 11.2% | 6 |
-| 4225 | State Government Service Charges | $42,239.61 | 8.9% | 4 |
-| 4300 | Professional Services | $21,160.27 | 4.5% | 4 |
-| 4200 | Telecomm/Tech Svc And Supplies | $20,046.53 | 4.2% | 5 |
-| 4250 | Data Processing | $18,428.04 | 3.9% | 2 |
-| 4715 | It Expendable Property | $15,457.27 | 3.3% | 4 |
-| 4175 | Office Expenses | $10,661.49 | 2.3% | 3 |
-| 4275 | Publicity & Publications | $3,709.20 | 0.8% | 2 |
-| 4100 | Instate Travel | $652.17 | 0.1% | 5 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $225,538.41 | 47.6% | 1 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $62,554.05 | 13.2% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $53,143.41 | 11.2% | 6 |
+| 4225 | State Government Service Charges | Services and supplies | $42,239.61 | 8.9% | 4 |
+| 4300 | Professional Services | Services and supplies | $21,160.27 | 4.5% | 4 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $20,046.53 | 4.2% | 5 |
+| 4250 | Data Processing | Services and supplies | $18,428.04 | 3.9% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $15,457.27 | 3.3% | 4 |
+| 4175 | Office Expenses | Services and supplies | $10,661.49 | 2.3% | 3 |
+| 4275 | Publicity & Publications | Services and supplies | $3,709.20 | 0.8% | 2 |
+| 4100 | Instate Travel | Services and supplies | $652.17 | 0.1% | 5 |
 
 ## Largest expenditure classes
 

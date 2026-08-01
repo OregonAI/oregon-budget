@@ -54,21 +54,30 @@ Accountancy, Oregon Brd of (agency code 120, recorded upstream as `ACCOUNTANCY, 
 
 The largest budget category was **Attorney General Legal Fees** at $99,254.40 (24.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $400,908.05 | 99.0% | 10 |
+| Personnel services | $4,006.97 | 1.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $99,254.40 | 24.5% | 1 |
-| 4650 | Other Services And Supplies | $97,277.20 | 24.0% | 6 |
-| 4225 | State Government Service Charges | $79,493.80 | 19.6% | 4 |
-| 4425 | Lease Payments & Taxes | $64,117.90 | 15.8% | 1 |
-| 4250 | Data Processing | $22,840.03 | 5.6% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $20,026.29 | 4.9% | 6 |
-| 4175 | Office Expenses | $10,013.62 | 2.5% | 1 |
-| 4715 | It Expendable Property | $6,196.71 | 1.5% | 2 |
-| 3110 | Class/Unclass Salary & Per Diem | $4,006.97 | 1.0% | 2 |
-| 4275 | Publicity & Publications | $1,561.26 | 0.4% | 1 |
-| 4300 | Professional Services | $126.84 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $99,254.40 | 24.5% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $97,277.20 | 24.0% | 6 |
+| 4225 | State Government Service Charges | Services and supplies | $79,493.80 | 19.6% | 4 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $64,117.90 | 15.8% | 1 |
+| 4250 | Data Processing | Services and supplies | $22,840.03 | 5.6% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $20,026.29 | 4.9% | 6 |
+| 4175 | Office Expenses | Services and supplies | $10,013.62 | 2.5% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $6,196.71 | 1.5% | 2 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $4,006.97 | 1.0% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $1,561.26 | 0.4% | 1 |
+| 4300 | Professional Services | Services and supplies | $126.84 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

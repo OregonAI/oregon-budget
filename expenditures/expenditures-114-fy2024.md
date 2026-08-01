@@ -54,32 +54,41 @@ Long Term Care Ombud (agency code 114, recorded upstream as `LONG TERM CARE OMBU
 
 The largest budget category was **Attorney General Legal Fees** at $283,228.07 (32.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $863,126.96 | 98.1% | 17 |
+| Personnel services | $17,136.30 | 1.9% | 5 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $283,228.07 | 32.2% | 2 |
-| 4225 | State Government Service Charges | $226,033.42 | 25.7% | 5 |
-| 4100 | Instate Travel | $99,246.29 | 11.3% | 66 |
-| 4650 | Other Services And Supplies | $72,865.43 | 8.3% | 3 |
-| 4300 | Professional Services | $57,537.96 | 6.5% | 7 |
-| 4425 | Lease Payments & Taxes | $50,318.84 | 5.7% | 3 |
-| 4275 | Publicity & Publications | $21,878.24 | 2.5% | 13 |
-| 4250 | Data Processing | $20,003.00 | 2.3% | 5 |
-| 3110 | Class/Unclass Salary & Per Diem | $13,009.14 | 1.5% | 2 |
-| 4175 | Office Expenses | $11,309.02 | 1.3% | 12 |
-| 4315 | It Professional Services | $8,765.00 | 1.0% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $3,674.82 | 0.4% | 7 |
-| 4200 | Telecomm/Tech Svc And Supplies | $3,400.97 | 0.4% | 3 |
-| 4150 | Employee Training | $3,367.99 | 0.4% | 13 |
-| 3221 | Pension Bond Contribution | $2,231.07 | 0.3% | 1 |
-| 3230 | Social Security Tax | $988.38 | 0.1% | 2 |
-| 3220 | Public Employes' Retirement System | $859.11 | 0.1% | 2 |
-| 4715 | It Expendable Property | $694.08 | 0.1% | 1 |
-| 4550 | Other Care Of Residents & Patients | $391.87 | 0.0% | 3 |
-| 4125 | Out-Of-State Travel | $321.69 | 0.0% | 3 |
-| 4525 | Medical Supplies And Services | $90.27 | 0.0% | 1 |
-| 3241 | Paid Family Medical Leave Insurance | $48.60 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $283,228.07 | 32.2% | 2 |
+| 4225 | State Government Service Charges | Services and supplies | $226,033.42 | 25.7% | 5 |
+| 4100 | Instate Travel | Services and supplies | $99,246.29 | 11.3% | 66 |
+| 4650 | Other Services And Supplies | Services and supplies | $72,865.43 | 8.3% | 3 |
+| 4300 | Professional Services | Services and supplies | $57,537.96 | 6.5% | 7 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $50,318.84 | 5.7% | 3 |
+| 4275 | Publicity & Publications | Services and supplies | $21,878.24 | 2.5% | 13 |
+| 4250 | Data Processing | Services and supplies | $20,003.00 | 2.3% | 5 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $13,009.14 | 1.5% | 2 |
+| 4175 | Office Expenses | Services and supplies | $11,309.02 | 1.3% | 12 |
+| 4315 | It Professional Services | Services and supplies | $8,765.00 | 1.0% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $3,674.82 | 0.4% | 7 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $3,400.97 | 0.4% | 3 |
+| 4150 | Employee Training | Services and supplies | $3,367.99 | 0.4% | 13 |
+| 3221 | Pension Bond Contribution | Personnel services | $2,231.07 | 0.3% | 1 |
+| 3230 | Social Security Tax | Personnel services | $988.38 | 0.1% | 2 |
+| 3220 | Public Employes' Retirement System | Personnel services | $859.11 | 0.1% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $694.08 | 0.1% | 1 |
+| 4550 | Other Care Of Residents & Patients | Services and supplies | $391.87 | 0.0% | 3 |
+| 4125 | Out-Of-State Travel | Services and supplies | $321.69 | 0.0% | 3 |
+| 4525 | Medical Supplies And Services | Services and supplies | $90.27 | 0.0% | 1 |
+| 3241 | Paid Family Medical Leave Insurance | Personnel services | $48.60 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

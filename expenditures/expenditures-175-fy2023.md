@@ -54,19 +54,27 @@ Judicial Fitness & Disability (agency code 175, recorded upstream as `JUDICIAL F
 
 The largest budget category was **Attorney General Legal Fees** at $10,272.40 (30.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $33,712.40 | 100.0% | 9 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $10,272.40 | 30.5% | 1 |
-| 4425 | Lease Payments & Taxes | $6,600.00 | 19.6% | 1 |
-| 4225 | State Government Service Charges | $4,707.22 | 14.0% | 5 |
-| 4300 | Professional Services | $4,433.27 | 13.2% | 3 |
-| 4400 | Dues And Subscriptions | $3,513.00 | 10.4% | 4 |
-| 4175 | Office Expenses | $2,832.94 | 8.4% | 5 |
-| 4200 | Telecomm/Tech Svc And Supplies | $809.14 | 2.4% | 3 |
-| 4150 | Employee Training | $475.00 | 1.4% | 1 |
-| 4100 | Instate Travel | $69.43 | 0.2% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $10,272.40 | 30.5% | 1 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $6,600.00 | 19.6% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $4,707.22 | 14.0% | 5 |
+| 4300 | Professional Services | Services and supplies | $4,433.27 | 13.2% | 3 |
+| 4400 | Dues And Subscriptions | Services and supplies | $3,513.00 | 10.4% | 4 |
+| 4175 | Office Expenses | Services and supplies | $2,832.94 | 8.4% | 5 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $809.14 | 2.4% | 3 |
+| 4150 | Employee Training | Services and supplies | $475.00 | 1.4% | 1 |
+| 4100 | Instate Travel | Services and supplies | $69.43 | 0.2% | 1 |
 
 ## Largest expenditure classes
 

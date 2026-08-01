@@ -54,23 +54,32 @@ Land Use Brd of Appeals (agency code 662, recorded upstream as `LAND USE BRD OF 
 
 The largest budget category was **Lease Payments & Taxes** at $52,887.36 (26.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $194,731.73 | 97.7% | 12 |
+| Personnel services | $4,548.04 | 2.3% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4425 | Lease Payments & Taxes | $52,887.36 | 26.5% | 1 |
-| 4650 | Other Services And Supplies | $42,573.14 | 21.4% | 2 |
-| 4225 | State Government Service Charges | $33,640.41 | 16.9% | 5 |
-| 4250 | Data Processing | $23,490.87 | 11.8% | 6 |
-| 4715 | It Expendable Property | $16,038.41 | 8.0% | 5 |
-| 4175 | Office Expenses | $10,801.16 | 5.4% | 5 |
-| 4200 | Telecomm/Tech Svc And Supplies | $7,577.89 | 3.8% | 4 |
-| 4275 | Publicity & Publications | $5,383.44 | 2.7% | 2 |
-| 3240 | Unemployment Assessment | $4,548.04 | 2.3% | 1 |
-| 4150 | Employee Training | $1,698.01 | 0.9% | 10 |
-| 4400 | Dues And Subscriptions | $315.00 | 0.2% | 3 |
-| 4325 | Attorney General Legal Fees | $199.20 | 0.1% | 1 |
-| 4300 | Professional Services | $126.84 | 0.1% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4425 | Lease Payments & Taxes | Services and supplies | $52,887.36 | 26.5% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $42,573.14 | 21.4% | 2 |
+| 4225 | State Government Service Charges | Services and supplies | $33,640.41 | 16.9% | 5 |
+| 4250 | Data Processing | Services and supplies | $23,490.87 | 11.8% | 6 |
+| 4715 | It Expendable Property | Services and supplies | $16,038.41 | 8.0% | 5 |
+| 4175 | Office Expenses | Services and supplies | $10,801.16 | 5.4% | 5 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $7,577.89 | 3.8% | 4 |
+| 4275 | Publicity & Publications | Services and supplies | $5,383.44 | 2.7% | 2 |
+| 3240 | Unemployment Assessment | Personnel services | $4,548.04 | 2.3% | 1 |
+| 4150 | Employee Training | Services and supplies | $1,698.01 | 0.9% | 10 |
+| 4400 | Dues And Subscriptions | Services and supplies | $315.00 | 0.2% | 3 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $199.20 | 0.1% | 1 |
+| 4300 | Professional Services | Services and supplies | $126.84 | 0.1% | 1 |
 
 ## Largest expenditure classes
 

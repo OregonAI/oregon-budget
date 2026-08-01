@@ -54,30 +54,39 @@ Public Utility Cmsn (agency code 860, recorded upstream as `PUBLIC UTILITY CMSN`
 
 The largest budget category was **Distribution To Non-Governments** at $26,511,327.97 (77.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $26,516,085.28 | 77.2% | 2 |
+| Services and supplies | $7,844,894.88 | 22.8% | 18 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6030 | Distribution To Non-Governments | $26,511,327.97 | 77.2% | 32 |
-| 4325 | Attorney General Legal Fees | $2,269,608.71 | 6.6% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $1,757,240.73 | 5.1% | 41 |
-| 4425 | Lease Payments & Taxes | $1,136,690.78 | 3.3% | 3 |
-| 4300 | Professional Services | $623,597.67 | 1.8% | 14 |
-| 4225 | State Government Service Charges | $584,431.57 | 1.7% | 5 |
-| 4315 | It Professional Services | $423,722.49 | 1.2% | 7 |
-| 4250 | Data Processing | $321,586.13 | 0.9% | 9 |
-| 4175 | Office Expenses | $175,535.28 | 0.5% | 17 |
-| 4200 | Telecomm/Tech Svc And Supplies | $150,728.26 | 0.4% | 10 |
-| 4715 | It Expendable Property | $107,120.42 | 0.3% | 6 |
-| 4100 | Instate Travel | $104,261.05 | 0.3% | 31 |
-| 4650 | Other Services And Supplies | $77,917.91 | 0.2% | 19 |
-| 4400 | Dues And Subscriptions | $65,208.26 | 0.2% | 12 |
-| 4125 | Out-Of-State Travel | $21,907.88 | 0.1% | 30 |
-| 4275 | Publicity & Publications | $16,326.10 | 0.0% | 11 |
-| 4475 | Facilities Maintenance | $5,401.24 | 0.0% | 1 |
-| 6055 | Distribution To Contract Svc Provider | $4,757.31 | 0.0% | 1 |
-| 4150 | Employee Training | $3,002.07 | 0.0% | 8 |
-| 4700 | Expendable Property $250-$5000 | $608.33 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6030 | Distribution To Non-Governments | Distributions | $26,511,327.97 | 77.2% | 32 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $2,269,608.71 | 6.6% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $1,757,240.73 | 5.1% | 41 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $1,136,690.78 | 3.3% | 3 |
+| 4300 | Professional Services | Services and supplies | $623,597.67 | 1.8% | 14 |
+| 4225 | State Government Service Charges | Services and supplies | $584,431.57 | 1.7% | 5 |
+| 4315 | It Professional Services | Services and supplies | $423,722.49 | 1.2% | 7 |
+| 4250 | Data Processing | Services and supplies | $321,586.13 | 0.9% | 9 |
+| 4175 | Office Expenses | Services and supplies | $175,535.28 | 0.5% | 17 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $150,728.26 | 0.4% | 10 |
+| 4715 | It Expendable Property | Services and supplies | $107,120.42 | 0.3% | 6 |
+| 4100 | Instate Travel | Services and supplies | $104,261.05 | 0.3% | 31 |
+| 4650 | Other Services And Supplies | Services and supplies | $77,917.91 | 0.2% | 19 |
+| 4400 | Dues And Subscriptions | Services and supplies | $65,208.26 | 0.2% | 12 |
+| 4125 | Out-Of-State Travel | Services and supplies | $21,907.88 | 0.1% | 30 |
+| 4275 | Publicity & Publications | Services and supplies | $16,326.10 | 0.0% | 11 |
+| 4475 | Facilities Maintenance | Services and supplies | $5,401.24 | 0.0% | 1 |
+| 6055 | Distribution To Contract Svc Provider | Distributions | $4,757.31 | 0.0% | 1 |
+| 4150 | Employee Training | Services and supplies | $3,002.07 | 0.0% | 8 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $608.33 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

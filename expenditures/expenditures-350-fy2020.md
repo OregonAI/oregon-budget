@@ -54,20 +54,28 @@ Columbia River Gorge Cmsn (agency code 350, recorded upstream as `COLUMBIA RIVER
 
 The largest budget category was **Professional Services** at $543,575.43 (98.3% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $553,101.14 | 100.0% | 10 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $543,575.43 | 98.3% | 1 |
-| 4225 | State Government Service Charges | $3,750.00 | 0.7% | 3 |
-| 4125 | Out-Of-State Travel | $2,330.36 | 0.4% | 13 |
-| 4575 | Agency Program Related Svcs & Supp | $1,238.99 | 0.2% | 2 |
-| 4100 | Instate Travel | $945.47 | 0.2% | 8 |
-| 4715 | It Expendable Property | $706.92 | 0.1% | 1 |
-| 4425 | Facilities Rent & Taxes | $237.50 | 0.0% | 2 |
-| 4325 | Attorney General Legal Fees | $203.48 | 0.0% | 1 |
-| 4150 | Employee Training | $100.00 | 0.0% | 1 |
-| 4175 | Office Expenses | $12.99 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $543,575.43 | 98.3% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $3,750.00 | 0.7% | 3 |
+| 4125 | Out-Of-State Travel | Services and supplies | $2,330.36 | 0.4% | 13 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $1,238.99 | 0.2% | 2 |
+| 4100 | Instate Travel | Services and supplies | $945.47 | 0.2% | 8 |
+| 4715 | It Expendable Property | Services and supplies | $706.92 | 0.1% | 1 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $237.50 | 0.0% | 2 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $203.48 | 0.0% | 1 |
+| 4150 | Employee Training | Services and supplies | $100.00 | 0.0% | 1 |
+| 4175 | Office Expenses | Services and supplies | $12.99 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

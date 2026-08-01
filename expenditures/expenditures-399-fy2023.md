@@ -54,20 +54,28 @@ Psychiatric Security Rev Brd (agency code 399, recorded upstream as `PSYCHIATRIC
 
 The largest budget category was **Data Processing** at $103,365.21 (24.3% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $425,585.29 | 100.0% | 10 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4250 | Data Processing | $103,365.21 | 24.3% | 4 |
-| 4425 | Lease Payments & Taxes | $77,215.40 | 18.1% | 1 |
-| 4650 | Other Services And Supplies | $71,616.04 | 16.8% | 3 |
-| 4325 | Attorney General Legal Fees | $62,312.80 | 14.6% | 1 |
-| 4225 | State Government Service Charges | $54,937.92 | 12.9% | 5 |
-| 4715 | It Expendable Property | $37,821.95 | 8.9% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $10,348.27 | 2.4% | 4 |
-| 4300 | Professional Services | $3,659.44 | 0.9% | 3 |
-| 4175 | Office Expenses | $3,558.26 | 0.8% | 3 |
-| 4575 | Agency Program Related Svcs & Supp | $750.00 | 0.2% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4250 | Data Processing | Services and supplies | $103,365.21 | 24.3% | 4 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $77,215.40 | 18.1% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $71,616.04 | 16.8% | 3 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $62,312.80 | 14.6% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $54,937.92 | 12.9% | 5 |
+| 4715 | It Expendable Property | Services and supplies | $37,821.95 | 8.9% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $10,348.27 | 2.4% | 4 |
+| 4300 | Professional Services | Services and supplies | $3,659.44 | 0.9% | 3 |
+| 4175 | Office Expenses | Services and supplies | $3,558.26 | 0.8% | 3 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $750.00 | 0.2% | 1 |
 
 ## Largest expenditure classes
 

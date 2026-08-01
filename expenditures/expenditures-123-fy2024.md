@@ -54,45 +54,56 @@ Business Oregon (agency code 123, recorded upstream as `BUSINESS OREGON`) spent 
 
 The largest budget category was **Distribution To Non-Governments** at $136,444,677.06 (30.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $390,096,722.28 | 85.9% | 11 |
+| Debt service | $53,838,638.57 | 11.8% | 2 |
+| Services and supplies | $10,431,473.63 | 2.3% | 21 |
+| Personnel services | $2,863.74 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6030 | Distribution To Non-Governments | $136,444,677.06 | 30.0% | 218 |
-| 6015 | Distribution To Cities | $66,618,627.88 | 14.7% | 103 |
-| 6080 | Loans Made-Other | $60,410,593.00 | 13.3% | 123 |
-| 6040 | Distribution To Local School Dist | $41,028,203.00 | 9.0% | 34 |
-| 6025 | Distribution To Other Govts | $36,999,519.60 | 8.1% | 79 |
-| 7150 | Interest - Bonds | $29,528,638.57 | 6.5% | 3 |
-| 7100 | Principal - Bonds | $24,310,000.00 | 5.4% | 2 |
-| 6050 | Distribution To Non-Profit Org | $24,029,095.12 | 5.3% | 444 |
-| 6020 | Distribution To Counties | $14,655,712.00 | 3.2% | 51 |
-| 6048 | Special Payment To Public Universities | $4,831,017.42 | 1.1% | 4 |
-| 6045 | Distribution To Comm Coll Districts | $4,519,233.00 | 1.0% | 3 |
-| 4300 | Professional Services | $3,810,511.30 | 0.8% | 52 |
-| 4225 | State Government Service Charges | $1,393,202.35 | 0.3% | 5 |
-| 4425 | Lease Payments & Taxes | $1,109,174.14 | 0.2% | 13 |
-| 4315 | It Professional Services | $1,008,533.94 | 0.2% | 10 |
-| 4650 | Other Services And Supplies | $757,599.50 | 0.2% | 16 |
-| 4175 | Office Expenses | $701,019.89 | 0.2% | 15 |
-| 6085 | Other Special Payments | $523,259.20 | 0.1% | 4 |
-| 4325 | Attorney General Legal Fees | $332,933.10 | 0.1% | 1 |
-| 4715 | It Expendable Property | $331,205.37 | 0.1% | 11 |
-| 4100 | Instate Travel | $187,863.62 | 0.0% | 173 |
-| 4125 | Out-Of-State Travel | $169,227.73 | 0.0% | 74 |
-| 4575 | Agency Program Related Svcs & Supp | $168,557.51 | 0.0% | 35 |
-| 4275 | Publicity & Publications | $130,570.41 | 0.0% | 12 |
-| 4400 | Dues And Subscriptions | $122,149.40 | 0.0% | 14 |
-| 4150 | Employee Training | $76,412.18 | 0.0% | 10 |
-| 4250 | Data Processing | $50,022.80 | 0.0% | 1 |
-| 6035 | Distribution To Individuals | $36,785.00 | 0.0% | 2 |
-| 4475 | Facilities Maintenance | $28,586.00 | 0.0% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $24,923.50 | 0.0% | 5 |
-| 4350 | Dispute Resolution Services | $16,130.20 | 0.0% | 2 |
-| 4450 | Fuels And Utilities | $7,275.00 | 0.0% | 1 |
-| 4700 | Expendable Property $250-$5000 | $4,092.69 | 0.0% | 3 |
-| 3240 | Unemployment Assessment | $2,863.74 | 0.0% | 1 |
-| 4375 | Employee Recruitment And Development | $1,483.00 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6030 | Distribution To Non-Governments | Distributions | $136,444,677.06 | 30.0% | 218 |
+| 6015 | Distribution To Cities | Distributions | $66,618,627.88 | 14.7% | 103 |
+| 6080 | Loans Made-Other | Distributions | $60,410,593.00 | 13.3% | 123 |
+| 6040 | Distribution To Local School Dist | Distributions | $41,028,203.00 | 9.0% | 34 |
+| 6025 | Distribution To Other Govts | Distributions | $36,999,519.60 | 8.1% | 79 |
+| 7150 | Interest - Bonds | Debt service | $29,528,638.57 | 6.5% | 3 |
+| 7100 | Principal - Bonds | Debt service | $24,310,000.00 | 5.4% | 2 |
+| 6050 | Distribution To Non-Profit Org | Distributions | $24,029,095.12 | 5.3% | 444 |
+| 6020 | Distribution To Counties | Distributions | $14,655,712.00 | 3.2% | 51 |
+| 6048 | Special Payment To Public Universities | Distributions | $4,831,017.42 | 1.1% | 4 |
+| 6045 | Distribution To Comm Coll Districts | Distributions | $4,519,233.00 | 1.0% | 3 |
+| 4300 | Professional Services | Services and supplies | $3,810,511.30 | 0.8% | 52 |
+| 4225 | State Government Service Charges | Services and supplies | $1,393,202.35 | 0.3% | 5 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $1,109,174.14 | 0.2% | 13 |
+| 4315 | It Professional Services | Services and supplies | $1,008,533.94 | 0.2% | 10 |
+| 4650 | Other Services And Supplies | Services and supplies | $757,599.50 | 0.2% | 16 |
+| 4175 | Office Expenses | Services and supplies | $701,019.89 | 0.2% | 15 |
+| 6085 | Other Special Payments | Distributions | $523,259.20 | 0.1% | 4 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $332,933.10 | 0.1% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $331,205.37 | 0.1% | 11 |
+| 4100 | Instate Travel | Services and supplies | $187,863.62 | 0.0% | 173 |
+| 4125 | Out-Of-State Travel | Services and supplies | $169,227.73 | 0.0% | 74 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $168,557.51 | 0.0% | 35 |
+| 4275 | Publicity & Publications | Services and supplies | $130,570.41 | 0.0% | 12 |
+| 4400 | Dues And Subscriptions | Services and supplies | $122,149.40 | 0.0% | 14 |
+| 4150 | Employee Training | Services and supplies | $76,412.18 | 0.0% | 10 |
+| 4250 | Data Processing | Services and supplies | $50,022.80 | 0.0% | 1 |
+| 6035 | Distribution To Individuals | Distributions | $36,785.00 | 0.0% | 2 |
+| 4475 | Facilities Maintenance | Services and supplies | $28,586.00 | 0.0% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $24,923.50 | 0.0% | 5 |
+| 4350 | Dispute Resolution Services | Services and supplies | $16,130.20 | 0.0% | 2 |
+| 4450 | Fuels And Utilities | Services and supplies | $7,275.00 | 0.0% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $4,092.69 | 0.0% | 3 |
+| 3240 | Unemployment Assessment | Personnel services | $2,863.74 | 0.0% | 1 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $1,483.00 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

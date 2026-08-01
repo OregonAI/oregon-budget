@@ -53,32 +53,42 @@ Public Utility Cmsn (agency code 860, recorded upstream as `PUBLIC UTILITY CMSN`
 
 The largest budget category was **Distribution To Non-Governments** at $30,123,449.88 (78.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $30,123,449.88 | 78.5% | 1 |
+| Services and supplies | $8,206,661.20 | 21.4% | 19 |
+| Capital outlay | $46,543.48 | 0.1% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6030 | Distribution To Non-Governments | $30,123,449.88 | 78.5% | 33 |
-| 4575 | Agency Program Related Svcs & Supp | $3,332,611.72 | 8.7% | 51 |
-| 4325 | Attorney General Legal Fees | $1,788,655.56 | 4.7% | 2 |
-| 4425 | Facilities Rent & Taxes | $874,832.40 | 2.3% | 5 |
-| 4300 | Professional Services | $669,826.76 | 1.7% | 16 |
-| 4225 | State Government Service Charges | $406,852.43 | 1.1% | 6 |
-| 4175 | Office Expenses | $245,446.53 | 0.6% | 14 |
-| 4650 | Other Services And Supplies | $119,623.14 | 0.3% | 19 |
-| 4250 | Data Processing | $116,844.53 | 0.3% | 10 |
-| 4400 | Dues And Subscriptions | $103,791.00 | 0.3% | 20 |
-| 4200 | Telecomm/Tech Svc And Supplies | $98,658.31 | 0.3% | 8 |
-| 4100 | Instate Travel | $94,647.22 | 0.2% | 85 |
-| 4315 | It Professional Services | $94,378.24 | 0.2% | 6 |
-| 4715 | It Expendable Property | $93,257.14 | 0.2% | 9 |
-| 4125 | Out-Of-State Travel | $68,273.46 | 0.2% | 104 |
-| 5100 | Office Furniture And Fixtures | $45,369.48 | 0.1% | 1 |
-| 4150 | Employee Training | $40,525.60 | 0.1% | 57 |
-| 4700 | Expendable Property $250-$5000 | $28,615.23 | 0.1% | 8 |
-| 4275 | Publicity & Publications | $17,641.38 | 0.0% | 13 |
-| 4475 | Facilities Maintenance | $11,882.95 | 0.0% | 2 |
-| 5900 | Other Capital Outlay | $1,174.00 | 0.0% | 1 |
-| 4375 | Employee Recruitment And Development | $297.60 | 0.0% | 4 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6030 | Distribution To Non-Governments | Distributions | $30,123,449.88 | 78.5% | 33 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $3,332,611.72 | 8.7% | 51 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $1,788,655.56 | 4.7% | 2 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $874,832.40 | 2.3% | 5 |
+| 4300 | Professional Services | Services and supplies | $669,826.76 | 1.7% | 16 |
+| 4225 | State Government Service Charges | Services and supplies | $406,852.43 | 1.1% | 6 |
+| 4175 | Office Expenses | Services and supplies | $245,446.53 | 0.6% | 14 |
+| 4650 | Other Services And Supplies | Services and supplies | $119,623.14 | 0.3% | 19 |
+| 4250 | Data Processing | Services and supplies | $116,844.53 | 0.3% | 10 |
+| 4400 | Dues And Subscriptions | Services and supplies | $103,791.00 | 0.3% | 20 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $98,658.31 | 0.3% | 8 |
+| 4100 | Instate Travel | Services and supplies | $94,647.22 | 0.2% | 85 |
+| 4315 | It Professional Services | Services and supplies | $94,378.24 | 0.2% | 6 |
+| 4715 | It Expendable Property | Services and supplies | $93,257.14 | 0.2% | 9 |
+| 4125 | Out-Of-State Travel | Services and supplies | $68,273.46 | 0.2% | 104 |
+| 5100 | Office Furniture And Fixtures | Capital outlay | $45,369.48 | 0.1% | 1 |
+| 4150 | Employee Training | Services and supplies | $40,525.60 | 0.1% | 57 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $28,615.23 | 0.1% | 8 |
+| 4275 | Publicity & Publications | Services and supplies | $17,641.38 | 0.0% | 13 |
+| 4475 | Facilities Maintenance | Services and supplies | $11,882.95 | 0.0% | 2 |
+| 5900 | Other Capital Outlay | Capital outlay | $1,174.00 | 0.0% | 1 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $297.60 | 0.0% | 4 |
 
 ## Largest expenditure classes
 

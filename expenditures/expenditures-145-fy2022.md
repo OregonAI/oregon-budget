@@ -54,23 +54,31 @@ Legislative Fiscal Officer (agency code 145, recorded upstream as `LEGISLATIVE F
 
 The largest budget category was **State Government Service Charges** at $76,457.80 (42.4% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $180,490.99 | 100.0% | 13 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $76,457.80 | 42.4% | 4 |
-| 4150 | Employee Training | $43,978.08 | 24.4% | 12 |
-| 4715 | It Expendable Property | $42,002.83 | 23.3% | 4 |
-| 4250 | Data Processing | $7,545.38 | 4.2% | 1 |
-| 4175 | Office Expenses | $7,244.84 | 4.0% | 6 |
-| 4300 | Professional Services | $1,068.75 | 0.6% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $947.90 | 0.5% | 1 |
-| 4100 | Instate Travel | $390.17 | 0.2% | 3 |
-| 4275 | Publicity & Publications | $325.00 | 0.2% | 1 |
-| 4700 | Expendable Property $250-$5000 | $225.92 | 0.1% | 1 |
-| 4650 | Other Services And Supplies | $158.92 | 0.1% | 1 |
-| 4400 | Dues And Subscriptions | $144.72 | 0.1% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $0.68 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $76,457.80 | 42.4% | 4 |
+| 4150 | Employee Training | Services and supplies | $43,978.08 | 24.4% | 12 |
+| 4715 | It Expendable Property | Services and supplies | $42,002.83 | 23.3% | 4 |
+| 4250 | Data Processing | Services and supplies | $7,545.38 | 4.2% | 1 |
+| 4175 | Office Expenses | Services and supplies | $7,244.84 | 4.0% | 6 |
+| 4300 | Professional Services | Services and supplies | $1,068.75 | 0.6% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $947.90 | 0.5% | 1 |
+| 4100 | Instate Travel | Services and supplies | $390.17 | 0.2% | 3 |
+| 4275 | Publicity & Publications | Services and supplies | $325.00 | 0.2% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $225.92 | 0.1% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $158.92 | 0.1% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $144.72 | 0.1% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $0.68 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

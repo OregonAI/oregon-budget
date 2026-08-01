@@ -54,20 +54,28 @@ Legislative Rev Office (agency code 144, recorded upstream as `LEGISLATIVE REV O
 
 The largest budget category was **State Government Service Charges** at $20,779.53 (32.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $64,934.50 | 100.0% | 10 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $20,779.53 | 32.0% | 3 |
-| 4715 | It Expendable Property | $15,952.22 | 24.6% | 6 |
-| 4300 | Professional Services | $10,500.00 | 16.2% | 1 |
-| 4400 | Dues And Subscriptions | $5,445.96 | 8.4% | 3 |
-| 4175 | Office Expenses | $4,162.50 | 6.4% | 9 |
-| 4275 | Publicity & Publications | $2,943.00 | 4.5% | 2 |
-| 4125 | Out-Of-State Travel | $2,296.23 | 3.5% | 7 |
-| 4150 | Employee Training | $1,390.00 | 2.1% | 2 |
-| 4650 | Other Services And Supplies | $1,226.28 | 1.9% | 3 |
-| 4250 | Data Processing | $238.78 | 0.4% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $20,779.53 | 32.0% | 3 |
+| 4715 | It Expendable Property | Services and supplies | $15,952.22 | 24.6% | 6 |
+| 4300 | Professional Services | Services and supplies | $10,500.00 | 16.2% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $5,445.96 | 8.4% | 3 |
+| 4175 | Office Expenses | Services and supplies | $4,162.50 | 6.4% | 9 |
+| 4275 | Publicity & Publications | Services and supplies | $2,943.00 | 4.5% | 2 |
+| 4125 | Out-Of-State Travel | Services and supplies | $2,296.23 | 3.5% | 7 |
+| 4150 | Employee Training | Services and supplies | $1,390.00 | 2.1% | 2 |
+| 4650 | Other Services And Supplies | Services and supplies | $1,226.28 | 1.9% | 3 |
+| 4250 | Data Processing | Services and supplies | $238.78 | 0.4% | 1 |
 
 ## Largest expenditure classes
 

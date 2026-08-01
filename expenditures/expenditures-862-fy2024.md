@@ -54,27 +54,37 @@ Racing Cmsn (agency code 862, recorded upstream as `RACING CMSN`) spent **$2,008
 
 The largest budget category was **Distribution To Non-Governments** at $1,595,019.91 (79.4% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $1,595,019.91 | 79.4% | 1 |
+| Services and supplies | $408,610.79 | 20.3% | 15 |
+| Personnel services | $5,211.56 | 0.3% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6030 | Distribution To Non-Governments | $1,595,019.91 | 79.4% | 8 |
-| 4100 | Instate Travel | $99,095.28 | 4.9% | 64 |
-| 4325 | Attorney General Legal Fees | $89,899.70 | 4.5% | 1 |
-| 4650 | Other Services And Supplies | $74,102.53 | 3.7% | 11 |
-| 4225 | State Government Service Charges | $46,515.21 | 2.3% | 4 |
-| 4575 | Agency Program Related Svcs & Supp | $42,512.00 | 2.1% | 6 |
-| 4125 | Out-Of-State Travel | $16,356.59 | 0.8% | 21 |
-| 4250 | Data Processing | $11,158.15 | 0.6% | 2 |
-| 4150 | Employee Training | $10,198.80 | 0.5% | 7 |
-| 4300 | Professional Services | $7,198.40 | 0.4% | 4 |
-| 4175 | Office Expenses | $6,358.28 | 0.3% | 9 |
-| 3240 | Unemployment Assessment | $5,211.56 | 0.3% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $2,784.14 | 0.1% | 2 |
-| 4275 | Publicity & Publications | $1,058.49 | 0.1% | 1 |
-| 4425 | Lease Payments & Taxes | $906.50 | 0.0% | 1 |
-| 4715 | It Expendable Property | $379.74 | 0.0% | 2 |
-| 4700 | Expendable Property $250-$5000 | $86.98 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6030 | Distribution To Non-Governments | Distributions | $1,595,019.91 | 79.4% | 8 |
+| 4100 | Instate Travel | Services and supplies | $99,095.28 | 4.9% | 64 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $89,899.70 | 4.5% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $74,102.53 | 3.7% | 11 |
+| 4225 | State Government Service Charges | Services and supplies | $46,515.21 | 2.3% | 4 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $42,512.00 | 2.1% | 6 |
+| 4125 | Out-Of-State Travel | Services and supplies | $16,356.59 | 0.8% | 21 |
+| 4250 | Data Processing | Services and supplies | $11,158.15 | 0.6% | 2 |
+| 4150 | Employee Training | Services and supplies | $10,198.80 | 0.5% | 7 |
+| 4300 | Professional Services | Services and supplies | $7,198.40 | 0.4% | 4 |
+| 4175 | Office Expenses | Services and supplies | $6,358.28 | 0.3% | 9 |
+| 3240 | Unemployment Assessment | Personnel services | $5,211.56 | 0.3% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $2,784.14 | 0.1% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $1,058.49 | 0.1% | 1 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $906.50 | 0.0% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $379.74 | 0.0% | 2 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $86.98 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

@@ -54,16 +54,24 @@ Columbia River Gorge Cmsn (agency code 350, recorded upstream as `COLUMBIA RIVER
 
 The largest budget category was **Professional Services** at $687,764.10 (99.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $693,463.94 | 100.0% | 6 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $687,764.10 | 99.2% | 1 |
-| 4225 | State Government Service Charges | $3,366.00 | 0.5% | 1 |
-| 4100 | Instate Travel | $1,164.67 | 0.2% | 8 |
-| 4715 | It Expendable Property | $662.20 | 0.1% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $331.97 | 0.0% | 1 |
-| 4425 | Lease Payments & Taxes | $175.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $687,764.10 | 99.2% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $3,366.00 | 0.5% | 1 |
+| 4100 | Instate Travel | Services and supplies | $1,164.67 | 0.2% | 8 |
+| 4715 | It Expendable Property | Services and supplies | $662.20 | 0.1% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $331.97 | 0.0% | 1 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $175.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

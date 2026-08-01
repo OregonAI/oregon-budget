@@ -54,18 +54,26 @@ Judicial Fitness & Disability (agency code 175, recorded upstream as `JUDICIAL F
 
 The largest budget category was **Office Expenses** at $10,761.96 (51.3% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $20,975.62 | 100.0% | 8 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4175 | Office Expenses | $10,761.96 | 51.3% | 7 |
-| 4425 | Lease Payments & Taxes | $7,700.00 | 36.7% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $813.46 | 3.9% | 3 |
-| 4715 | It Expendable Property | $769.00 | 3.7% | 1 |
-| 4400 | Dues And Subscriptions | $667.00 | 3.2% | 2 |
-| 4225 | State Government Service Charges | $135.00 | 0.6% | 2 |
-| 4150 | Employee Training | $65.00 | 0.3% | 1 |
-| 4300 | Professional Services | $64.20 | 0.3% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4175 | Office Expenses | Services and supplies | $10,761.96 | 51.3% | 7 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $7,700.00 | 36.7% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $813.46 | 3.9% | 3 |
+| 4715 | It Expendable Property | Services and supplies | $769.00 | 3.7% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $667.00 | 3.2% | 2 |
+| 4225 | State Government Service Charges | Services and supplies | $135.00 | 0.6% | 2 |
+| 4150 | Employee Training | Services and supplies | $65.00 | 0.3% | 1 |
+| 4300 | Professional Services | Services and supplies | $64.20 | 0.3% | 1 |
 
 ## Largest expenditure classes
 

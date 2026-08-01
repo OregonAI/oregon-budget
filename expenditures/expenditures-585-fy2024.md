@@ -54,34 +54,45 @@ Blind, Cmsn for the (agency code 585, recorded upstream as `BLIND, CMSN FOR THE`
 
 The largest budget category was **Other Special Payments** at $2,581,608.67 (46.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $2,851,323.90 | 50.8% | 19 |
+| Distributions | $2,703,033.29 | 48.2% | 2 |
+| Capital outlay | $55,955.00 | 1.0% | 2 |
+| Personnel services | $1,572.87 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6085 | Other Special Payments | $2,581,608.67 | 46.0% | 121 |
-| 4575 | Agency Program Related Svcs & Supp | $574,487.24 | 10.2% | 41 |
-| 4650 | Other Services And Supplies | $567,833.67 | 10.1% | 30 |
-| 4225 | State Government Service Charges | $425,682.28 | 7.6% | 7 |
-| 4425 | Lease Payments & Taxes | $349,146.28 | 6.2% | 17 |
-| 4315 | It Professional Services | $227,130.00 | 4.0% | 3 |
-| 4100 | Instate Travel | $131,075.32 | 2.3% | 82 |
-| 4200 | Telecomm/Tech Svc And Supplies | $126,735.23 | 2.3% | 21 |
-| 6040 | Distribution To Local School Dist | $121,424.62 | 2.2% | 2 |
-| 4325 | Attorney General Legal Fees | $112,723.90 | 2.0% | 2 |
-| 4715 | It Expendable Property | $96,636.26 | 1.7% | 18 |
-| 4475 | Facilities Maintenance | $56,047.90 | 1.0% | 16 |
-| 5700 | Buildings And Structures | $45,671.00 | 0.8% | 1 |
-| 4175 | Office Expenses | $40,950.92 | 0.7% | 25 |
-| 4250 | Data Processing | $39,790.94 | 0.7% | 2 |
-| 4125 | Out-Of-State Travel | $33,897.70 | 0.6% | 32 |
-| 4400 | Dues And Subscriptions | $30,500.00 | 0.5% | 1 |
-| 4150 | Employee Training | $18,565.15 | 0.3% | 9 |
-| 5550 | Data Processing Software | $10,284.00 | 0.2% | 1 |
-| 4700 | Expendable Property $250-$5000 | $7,654.05 | 0.1% | 4 |
-| 4300 | Professional Services | $7,534.79 | 0.1% | 5 |
-| 4450 | Fuels And Utilities | $4,177.62 | 0.1% | 3 |
-| 3110 | Class/Unclass Salary & Per Diem | $1,572.87 | 0.0% | 1 |
-| 4275 | Publicity & Publications | $754.65 | 0.0% | 3 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6085 | Other Special Payments | Distributions | $2,581,608.67 | 46.0% | 121 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $574,487.24 | 10.2% | 41 |
+| 4650 | Other Services And Supplies | Services and supplies | $567,833.67 | 10.1% | 30 |
+| 4225 | State Government Service Charges | Services and supplies | $425,682.28 | 7.6% | 7 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $349,146.28 | 6.2% | 17 |
+| 4315 | It Professional Services | Services and supplies | $227,130.00 | 4.0% | 3 |
+| 4100 | Instate Travel | Services and supplies | $131,075.32 | 2.3% | 82 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $126,735.23 | 2.3% | 21 |
+| 6040 | Distribution To Local School Dist | Distributions | $121,424.62 | 2.2% | 2 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $112,723.90 | 2.0% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $96,636.26 | 1.7% | 18 |
+| 4475 | Facilities Maintenance | Services and supplies | $56,047.90 | 1.0% | 16 |
+| 5700 | Buildings And Structures | Capital outlay | $45,671.00 | 0.8% | 1 |
+| 4175 | Office Expenses | Services and supplies | $40,950.92 | 0.7% | 25 |
+| 4250 | Data Processing | Services and supplies | $39,790.94 | 0.7% | 2 |
+| 4125 | Out-Of-State Travel | Services and supplies | $33,897.70 | 0.6% | 32 |
+| 4400 | Dues And Subscriptions | Services and supplies | $30,500.00 | 0.5% | 1 |
+| 4150 | Employee Training | Services and supplies | $18,565.15 | 0.3% | 9 |
+| 5550 | Data Processing Software | Capital outlay | $10,284.00 | 0.2% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $7,654.05 | 0.1% | 4 |
+| 4300 | Professional Services | Services and supplies | $7,534.79 | 0.1% | 5 |
+| 4450 | Fuels And Utilities | Services and supplies | $4,177.62 | 0.1% | 3 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $1,572.87 | 0.0% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $754.65 | 0.0% | 3 |
 
 ## Largest expenditure classes
 

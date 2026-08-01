@@ -54,37 +54,46 @@ Real Estate Agy (agency code 919, recorded upstream as `REAL ESTATE AGY`) spent 
 
 The largest budget category was **State Government Service Charges** at $258,543.18 (26.3% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $923,549.15 | 93.8% | 18 |
+| Personnel services | $60,562.07 | 6.2% | 9 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $258,543.18 | 26.3% | 5 |
-| 4425 | Lease Payments & Taxes | $140,981.43 | 14.3% | 1 |
-| 4650 | Other Services And Supplies | $91,397.26 | 9.3% | 5 |
-| 4575 | Agency Program Related Svcs & Supp | $89,562.75 | 9.1% | 4 |
-| 4325 | Attorney General Legal Fees | $64,194.80 | 6.5% | 1 |
-| 4315 | It Professional Services | $62,065.00 | 6.3% | 1 |
-| 4250 | Data Processing | $54,417.27 | 5.5% | 4 |
-| 4715 | It Expendable Property | $37,431.26 | 3.8% | 7 |
-| 3110 | Class/Unclass Salary & Per Diem | $36,042.92 | 3.7% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $35,336.99 | 3.6% | 3 |
-| 4100 | Instate Travel | $23,139.18 | 2.4% | 50 |
-| 4150 | Employee Training | $17,220.38 | 1.7% | 4 |
-| 4125 | Out-Of-State Travel | $15,011.44 | 1.5% | 15 |
-| 4475 | Facilities Maintenance | $14,556.12 | 1.5% | 2 |
-| 3270 | Flexible Benefits | $9,696.14 | 1.0% | 1 |
-| 3220 | Public Employes' Retirement System | $6,542.45 | 0.7% | 1 |
-| 4300 | Professional Services | $6,048.20 | 0.6% | 2 |
-| 4175 | Office Expenses | $5,821.09 | 0.6% | 7 |
-| 4400 | Dues And Subscriptions | $4,509.25 | 0.5% | 2 |
-| 3240 | Unemployment Assessment | $3,576.00 | 0.4% | 1 |
-| 4700 | Expendable Property $250-$5000 | $3,296.55 | 0.3% | 1 |
-| 3230 | Social Security Tax | $2,693.12 | 0.3% | 1 |
-| 3221 | Pension Bond Contribution | $1,856.55 | 0.2% | 1 |
-| 3241 | Paid Family Medical Leave Insurance | $140.82 | 0.0% | 1 |
-| 4275 | Publicity & Publications | $17.00 | 0.0% | 1 |
-| 3210 | Erb Assessment | $8.19 | 0.0% | 1 |
-| 3250 | Workers' Compensation Assessment | $5.88 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $258,543.18 | 26.3% | 5 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $140,981.43 | 14.3% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $91,397.26 | 9.3% | 5 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $89,562.75 | 9.1% | 4 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $64,194.80 | 6.5% | 1 |
+| 4315 | It Professional Services | Services and supplies | $62,065.00 | 6.3% | 1 |
+| 4250 | Data Processing | Services and supplies | $54,417.27 | 5.5% | 4 |
+| 4715 | It Expendable Property | Services and supplies | $37,431.26 | 3.8% | 7 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $36,042.92 | 3.7% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $35,336.99 | 3.6% | 3 |
+| 4100 | Instate Travel | Services and supplies | $23,139.18 | 2.4% | 50 |
+| 4150 | Employee Training | Services and supplies | $17,220.38 | 1.7% | 4 |
+| 4125 | Out-Of-State Travel | Services and supplies | $15,011.44 | 1.5% | 15 |
+| 4475 | Facilities Maintenance | Services and supplies | $14,556.12 | 1.5% | 2 |
+| 3270 | Flexible Benefits | Personnel services | $9,696.14 | 1.0% | 1 |
+| 3220 | Public Employes' Retirement System | Personnel services | $6,542.45 | 0.7% | 1 |
+| 4300 | Professional Services | Services and supplies | $6,048.20 | 0.6% | 2 |
+| 4175 | Office Expenses | Services and supplies | $5,821.09 | 0.6% | 7 |
+| 4400 | Dues And Subscriptions | Services and supplies | $4,509.25 | 0.5% | 2 |
+| 3240 | Unemployment Assessment | Personnel services | $3,576.00 | 0.4% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $3,296.55 | 0.3% | 1 |
+| 3230 | Social Security Tax | Personnel services | $2,693.12 | 0.3% | 1 |
+| 3221 | Pension Bond Contribution | Personnel services | $1,856.55 | 0.2% | 1 |
+| 3241 | Paid Family Medical Leave Insurance | Personnel services | $140.82 | 0.0% | 1 |
+| 4275 | Publicity & Publications | Services and supplies | $17.00 | 0.0% | 1 |
+| 3210 | Erb Assessment | Personnel services | $8.19 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $5.88 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

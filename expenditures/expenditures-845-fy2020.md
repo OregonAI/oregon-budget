@@ -54,46 +54,58 @@ Liquor Control Cmsn (agency code 845, recorded upstream as `LIQUOR CONTROL CMSN`
 
 The largest budget category was **Liquor Cost Of Goods Sold** at $357,562,029.92 (71.5% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Revenue | $357,562,029.92 | 71.5% | 1 |
+| Distributions | $77,785,637.23 | 15.6% | 3 |
+| Services and supplies | $63,865,603.09 | 12.8% | 20 |
+| Capital outlay | $833,271.56 | 0.2% | 6 |
+| Personnel services | $73,795.27 | 0.0% | 6 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 755 | Liquor Cost Of Goods Sold | $357,562,029.92 | 71.5% | 343 |
-| 4300 | Professional Services | $52,176,765.65 | 10.4% | 287 |
-| 6015 | Distribution To Cities | $51,644,011.57 | 10.3% | 240 |
-| 6020 | Distribution To Counties | $25,822,005.79 | 5.2% | 36 |
-| 4225 | State Government Service Charges | $3,891,521.06 | 0.8% | 47 |
-| 4250 | Data Processing | $2,487,365.84 | 0.5% | 23 |
-| 4200 | Telecomm/Tech Svc And Supplies | $917,931.78 | 0.2% | 25 |
-| 4315 | It Professional Services | $770,147.63 | 0.2% | 8 |
-| 4425 | Facilities Rent & Taxes | $654,699.89 | 0.1% | 14 |
-| 4175 | Office Expenses | $548,970.52 | 0.1% | 38 |
-| 4475 | Facilities Maintenance | $435,461.03 | 0.1% | 44 |
-| 4325 | Attorney General Legal Fees | $363,164.10 | 0.1% | 2 |
-| 4575 | Agency Program Related Svcs & Supp | $333,738.25 | 0.1% | 50 |
-| 4715 | It Expendable Property | $324,416.14 | 0.1% | 15 |
-| 5100 | Office Furniture And Fixtures | $322,874.22 | 0.1% | 4 |
-| 6030 | Distribution To Non-Governments | $319,619.87 | 0.1% | 1 |
-| 4450 | Fuels And Utilities | $313,326.69 | 0.1% | 16 |
-| 4650 | Other Services And Supplies | $256,915.86 | 0.1% | 37 |
-| 4100 | Instate Travel | $165,303.26 | 0.0% | 296 |
-| 5550 | Data Processing Software | $153,414.15 | 0.0% | 2 |
-| 5700 | Buildings And Structures | $145,319.19 | 0.0% | 2 |
-| 5350 | Industrial & Heavy Equipment | $129,110.93 | 0.0% | 2 |
-| 4275 | Publicity & Publications | $93,556.56 | 0.0% | 9 |
-| 4150 | Employee Training | $72,635.31 | 0.0% | 9 |
-| 5900 | Other Capital Outlay | $61,275.07 | 0.0% | 3 |
-| 4125 | Out-Of-State Travel | $51,297.30 | 0.0% | 93 |
-| 3240 | Unemployment Assessment | $36,018.77 | 0.0% | 1 |
-| 3220 | Public Employes' Retirement System | $28,056.20 | 0.0% | 2 |
-| 5600 | Data Processing Hardware | $21,278.00 | 0.0% | 1 |
-| 3110 | Class/Unclass Salary & Per Diem | $9,162.93 | 0.0% | 2 |
-| 4375 | Employee Recruitment And Development | $4,617.93 | 0.0% | 10 |
-| 4400 | Dues And Subscriptions | $3,318.34 | 0.0% | 6 |
-| 4700 | Expendable Property $250-$5000 | $449.95 | 0.0% | 1 |
-| 3280 | Other Payroll Expenses | $231.00 | 0.0% | 1 |
-| 3190 | All Other Differential | $229.23 | 0.0% | 1 |
-| 3270 | Flexible Benefits | $97.14 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 755 | Liquor Cost Of Goods Sold | Revenue | $357,562,029.92 | 71.5% | 343 |
+| 4300 | Professional Services | Services and supplies | $52,176,765.65 | 10.4% | 287 |
+| 6015 | Distribution To Cities | Distributions | $51,644,011.57 | 10.3% | 240 |
+| 6020 | Distribution To Counties | Distributions | $25,822,005.79 | 5.2% | 36 |
+| 4225 | State Government Service Charges | Services and supplies | $3,891,521.06 | 0.8% | 47 |
+| 4250 | Data Processing | Services and supplies | $2,487,365.84 | 0.5% | 23 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $917,931.78 | 0.2% | 25 |
+| 4315 | It Professional Services | Services and supplies | $770,147.63 | 0.2% | 8 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $654,699.89 | 0.1% | 14 |
+| 4175 | Office Expenses | Services and supplies | $548,970.52 | 0.1% | 38 |
+| 4475 | Facilities Maintenance | Services and supplies | $435,461.03 | 0.1% | 44 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $363,164.10 | 0.1% | 2 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $333,738.25 | 0.1% | 50 |
+| 4715 | It Expendable Property | Services and supplies | $324,416.14 | 0.1% | 15 |
+| 5100 | Office Furniture And Fixtures | Capital outlay | $322,874.22 | 0.1% | 4 |
+| 6030 | Distribution To Non-Governments | Distributions | $319,619.87 | 0.1% | 1 |
+| 4450 | Fuels And Utilities | Services and supplies | $313,326.69 | 0.1% | 16 |
+| 4650 | Other Services And Supplies | Services and supplies | $256,915.86 | 0.1% | 37 |
+| 4100 | Instate Travel | Services and supplies | $165,303.26 | 0.0% | 296 |
+| 5550 | Data Processing Software | Capital outlay | $153,414.15 | 0.0% | 2 |
+| 5700 | Buildings And Structures | Capital outlay | $145,319.19 | 0.0% | 2 |
+| 5350 | Industrial & Heavy Equipment | Capital outlay | $129,110.93 | 0.0% | 2 |
+| 4275 | Publicity & Publications | Services and supplies | $93,556.56 | 0.0% | 9 |
+| 4150 | Employee Training | Services and supplies | $72,635.31 | 0.0% | 9 |
+| 5900 | Other Capital Outlay | Capital outlay | $61,275.07 | 0.0% | 3 |
+| 4125 | Out-Of-State Travel | Services and supplies | $51,297.30 | 0.0% | 93 |
+| 3240 | Unemployment Assessment | Personnel services | $36,018.77 | 0.0% | 1 |
+| 3220 | Public Employes' Retirement System | Personnel services | $28,056.20 | 0.0% | 2 |
+| 5600 | Data Processing Hardware | Capital outlay | $21,278.00 | 0.0% | 1 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $9,162.93 | 0.0% | 2 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $4,617.93 | 0.0% | 10 |
+| 4400 | Dues And Subscriptions | Services and supplies | $3,318.34 | 0.0% | 6 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $449.95 | 0.0% | 1 |
+| 3280 | Other Payroll Expenses | Personnel services | $231.00 | 0.0% | 1 |
+| 3190 | All Other Differential | Personnel services | $229.23 | 0.0% | 1 |
+| 3270 | Flexible Benefits | Personnel services | $97.14 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

@@ -53,17 +53,25 @@ Public Records Advocate, Office of (agency code 104, recorded upstream as `PUBLI
 
 The largest budget category was **Other Services And Supplies** at $20,904.80 (42.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $49,580.73 | 100.0% | 7 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4650 | Other Services And Supplies | $20,904.80 | 42.2% | 1 |
-| 4225 | State Government Service Charges | $20,148.00 | 40.6% | 3 |
-| 4250 | Data Processing | $5,935.38 | 12.0% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $1,411.04 | 2.8% | 2 |
-| 4150 | Employee Training | $728.00 | 1.5% | 1 |
-| 4715 | It Expendable Property | $261.18 | 0.5% | 2 |
-| 4300 | Professional Services | $192.33 | 0.4% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4650 | Other Services And Supplies | Services and supplies | $20,904.80 | 42.2% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $20,148.00 | 40.6% | 3 |
+| 4250 | Data Processing | Services and supplies | $5,935.38 | 12.0% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $1,411.04 | 2.8% | 2 |
+| 4150 | Employee Training | Services and supplies | $728.00 | 1.5% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $261.18 | 0.5% | 2 |
+| 4300 | Professional Services | Services and supplies | $192.33 | 0.4% | 2 |
 
 ## Largest expenditure classes
 

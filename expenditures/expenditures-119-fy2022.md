@@ -54,20 +54,28 @@ Tax Practitioners, St Brd of (agency code 119, recorded upstream as `TAX PRACTIT
 
 The largest budget category was **Other Services And Supplies** at $89,952.30 (33.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $267,207.76 | 100.0% | 10 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4650 | Other Services And Supplies | $89,952.30 | 33.7% | 5 |
-| 4225 | State Government Service Charges | $52,331.20 | 19.6% | 4 |
-| 4325 | Attorney General Legal Fees | $49,134.80 | 18.4% | 1 |
-| 4425 | Lease Payments & Taxes | $35,527.25 | 13.3% | 2 |
-| 4315 | It Professional Services | $21,956.00 | 8.2% | 2 |
-| 4250 | Data Processing | $11,190.00 | 4.2% | 3 |
-| 4200 | Telecomm/Tech Svc And Supplies | $2,795.56 | 1.0% | 5 |
-| 4300 | Professional Services | $2,255.15 | 0.8% | 1 |
-| 4175 | Office Expenses | $1,973.66 | 0.7% | 1 |
-| 4100 | Instate Travel | $91.84 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4650 | Other Services And Supplies | Services and supplies | $89,952.30 | 33.7% | 5 |
+| 4225 | State Government Service Charges | Services and supplies | $52,331.20 | 19.6% | 4 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $49,134.80 | 18.4% | 1 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $35,527.25 | 13.3% | 2 |
+| 4315 | It Professional Services | Services and supplies | $21,956.00 | 8.2% | 2 |
+| 4250 | Data Processing | Services and supplies | $11,190.00 | 4.2% | 3 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $2,795.56 | 1.0% | 5 |
+| 4300 | Professional Services | Services and supplies | $2,255.15 | 0.8% | 1 |
+| 4175 | Office Expenses | Services and supplies | $1,973.66 | 0.7% | 1 |
+| 4100 | Instate Travel | Services and supplies | $91.84 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

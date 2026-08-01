@@ -54,21 +54,30 @@ Tax Practitioners, St Brd of (agency code 119, recorded upstream as `TAX PRACTIT
 
 The largest budget category was **Other Services And Supplies** at $33,924.22 (21.8% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $155,489.60 | 100.0% | 10 |
+| Personnel services | $35.02 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4650 | Other Services And Supplies | $33,924.22 | 21.8% | 6 |
-| 4425 | Lease Payments & Taxes | $31,478.88 | 20.2% | 1 |
-| 4325 | Attorney General Legal Fees | $25,282.26 | 16.3% | 1 |
-| 4225 | State Government Service Charges | $22,375.35 | 14.4% | 5 |
-| 4315 | It Professional Services | $18,000.00 | 11.6% | 1 |
-| 4250 | Data Processing | $13,030.87 | 8.4% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $5,076.85 | 3.3% | 5 |
-| 4175 | Office Expenses | $4,430.36 | 2.8% | 3 |
-| 4275 | Publicity & Publications | $1,593.14 | 1.0% | 2 |
-| 4300 | Professional Services | $297.67 | 0.2% | 1 |
-| 3240 | Unemployment Assessment | $35.02 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4650 | Other Services And Supplies | Services and supplies | $33,924.22 | 21.8% | 6 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $31,478.88 | 20.2% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $25,282.26 | 16.3% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $22,375.35 | 14.4% | 5 |
+| 4315 | It Professional Services | Services and supplies | $18,000.00 | 11.6% | 1 |
+| 4250 | Data Processing | Services and supplies | $13,030.87 | 8.4% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $5,076.85 | 3.3% | 5 |
+| 4175 | Office Expenses | Services and supplies | $4,430.36 | 2.8% | 3 |
+| 4275 | Publicity & Publications | Services and supplies | $1,593.14 | 1.0% | 2 |
+| 4300 | Professional Services | Services and supplies | $297.67 | 0.2% | 1 |
+| 3240 | Unemployment Assessment | Personnel services | $35.02 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

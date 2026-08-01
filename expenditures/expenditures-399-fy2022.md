@@ -54,20 +54,29 @@ Psychiatric Security Rev Brd (agency code 399, recorded upstream as `PSYCHIATRIC
 
 The largest budget category was **Attorney General Legal Fees** at $135,750.26 (32.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $422,633.19 | 99.6% | 9 |
+| Personnel services | $1,652.16 | 0.4% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $135,750.26 | 32.0% | 1 |
-| 4225 | State Government Service Charges | $128,812.92 | 30.4% | 5 |
-| 4425 | Lease Payments & Taxes | $69,376.27 | 16.4% | 1 |
-| 4650 | Other Services And Supplies | $44,828.59 | 10.6% | 3 |
-| 4250 | Data Processing | $23,182.20 | 5.5% | 3 |
-| 4200 | Telecomm/Tech Svc And Supplies | $11,937.65 | 2.8% | 4 |
-| 4300 | Professional Services | $6,497.69 | 1.5% | 3 |
-| 3240 | Unemployment Assessment | $1,652.16 | 0.4% | 1 |
-| 4175 | Office Expenses | $1,294.81 | 0.3% | 6 |
-| 4700 | Expendable Property $250-$5000 | $952.80 | 0.2% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $135,750.26 | 32.0% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $128,812.92 | 30.4% | 5 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $69,376.27 | 16.4% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $44,828.59 | 10.6% | 3 |
+| 4250 | Data Processing | Services and supplies | $23,182.20 | 5.5% | 3 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $11,937.65 | 2.8% | 4 |
+| 4300 | Professional Services | Services and supplies | $6,497.69 | 1.5% | 3 |
+| 3240 | Unemployment Assessment | Personnel services | $1,652.16 | 0.4% | 1 |
+| 4175 | Office Expenses | Services and supplies | $1,294.81 | 0.3% | 6 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $952.80 | 0.2% | 1 |
 
 ## Largest expenditure classes
 

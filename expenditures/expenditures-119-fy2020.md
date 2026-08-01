@@ -54,22 +54,31 @@ Tax Practitioners, St Brd of (agency code 119, recorded upstream as `TAX PRACTIT
 
 The largest budget category was **Attorney General Legal Fees** at $47,002.20 (25.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $183,041.09 | 100.0% | 11 |
+| Personnel services | $11.92 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $47,002.20 | 25.7% | 1 |
-| 4650 | Other Services And Supplies | $40,262.75 | 22.0% | 4 |
-| 4425 | Facilities Rent & Taxes | $30,806.88 | 16.8% | 1 |
-| 4225 | State Government Service Charges | $20,581.39 | 11.2% | 4 |
-| 4315 | It Professional Services | $18,000.00 | 9.8% | 1 |
-| 4250 | Data Processing | $13,995.07 | 7.6% | 3 |
-| 4175 | Office Expenses | $4,732.66 | 2.6% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $4,332.18 | 2.4% | 4 |
-| 4100 | Instate Travel | $2,417.55 | 1.3% | 11 |
-| 4275 | Publicity & Publications | $878.85 | 0.5% | 3 |
-| 4575 | Agency Program Related Svcs & Supp | $31.56 | 0.0% | 1 |
-| 3240 | Unemployment Assessment | $11.92 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $47,002.20 | 25.7% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $40,262.75 | 22.0% | 4 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $30,806.88 | 16.8% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $20,581.39 | 11.2% | 4 |
+| 4315 | It Professional Services | Services and supplies | $18,000.00 | 9.8% | 1 |
+| 4250 | Data Processing | Services and supplies | $13,995.07 | 7.6% | 3 |
+| 4175 | Office Expenses | Services and supplies | $4,732.66 | 2.6% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $4,332.18 | 2.4% | 4 |
+| 4100 | Instate Travel | Services and supplies | $2,417.55 | 1.3% | 11 |
+| 4275 | Publicity & Publications | Services and supplies | $878.85 | 0.5% | 3 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $31.56 | 0.0% | 1 |
+| 3240 | Unemployment Assessment | Personnel services | $11.92 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

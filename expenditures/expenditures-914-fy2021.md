@@ -54,50 +54,61 @@ Housing & Comm Srvcs, Dept of (agency code 914, recorded upstream as `HOUSING & 
 
 The largest budget category was **Distribution To Non-Profit Org** at $276,372,086.88 (52.6% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $489,429,251.68 | 93.1% | 8 |
+| Debt service | $21,713,900.16 | 4.1% | 2 |
+| Services and supplies | $14,274,877.47 | 2.7% | 20 |
+| Personnel services | $135,688.38 | 0.0% | 10 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6050 | Distribution To Non-Profit Org | $276,372,086.88 | 52.6% | 108 |
-| 6020 | Distribution To Counties | $111,407,454.48 | 21.2% | 50 |
-| 6080 | Loans Made-Other | $61,754,226.49 | 11.8% | 53 |
-| 6030 | Distribution To Non-Governments | $32,494,712.60 | 6.2% | 52 |
-| 7100 | Principal - Bonds | $15,005,000.00 | 2.9% | 2 |
-| 7150 | Interest - Bonds | $6,708,900.16 | 1.3% | 2 |
-| 4300 | Professional Services | $6,657,819.28 | 1.3% | 56 |
-| 6085 | Other Special Payments | $6,470,220.00 | 1.2% | 13 |
-| 4650 | Other Services And Supplies | $2,180,411.89 | 0.4% | 30 |
-| 4225 | State Government Service Charges | $1,824,263.96 | 0.3% | 7 |
-| 4425 | Lease Payments & Taxes | $943,546.31 | 0.2% | 3 |
-| 4325 | Attorney General Legal Fees | $894,222.40 | 0.2% | 1 |
-| 6025 | Distribution To Other Govts | $801,545.00 | 0.2% | 2 |
-| 4715 | It Expendable Property | $457,463.48 | 0.1% | 18 |
-| 4700 | Expendable Property $250-$5000 | $364,254.68 | 0.1% | 5 |
-| 4575 | Agency Program Related Svcs & Supp | $268,404.48 | 0.1% | 9 |
-| 4400 | Dues And Subscriptions | $146,340.20 | 0.0% | 12 |
-| 4150 | Employee Training | $138,129.91 | 0.0% | 16 |
-| 4200 | Telecomm/Tech Svc And Supplies | $114,936.68 | 0.0% | 4 |
-| 4250 | Data Processing | $93,300.42 | 0.0% | 5 |
-| 4175 | Office Expenses | $90,813.58 | 0.0% | 20 |
-| 6015 | Distribution To Cities | $76,550.86 | 0.0% | 2 |
-| 3110 | Class/Unclass Salary & Per Diem | $62,713.06 | 0.0% | 3 |
-| 6443 | Dist To Oregon Health Authority | $52,455.37 | 0.0% | 2 |
-| 3240 | Unemployment Assessment | $34,578.28 | 0.0% | 1 |
-| 4100 | Instate Travel | $26,624.63 | 0.0% | 15 |
-| 4275 | Publicity & Publications | $21,155.34 | 0.0% | 3 |
-| 4375 | Employee Recruitment And Development | $18,895.99 | 0.0% | 7 |
-| 4350 | Dispute Resolution Services | $15,988.50 | 0.0% | 8 |
-| 3270 | Flexible Benefits | $13,405.51 | 0.0% | 1 |
-| 4475 | Facilities Maintenance | $10,707.19 | 0.0% | 1 |
-| 3220 | Public Employes' Retirement System | $9,716.06 | 0.0% | 3 |
-| 4315 | It Professional Services | $7,130.23 | 0.0% | 1 |
-| 3190 | All Other Differential | $5,929.19 | 0.0% | 2 |
-| 3170 | Overtime Payments | $5,596.90 | 0.0% | 1 |
-| 3230 | Social Security Tax | $2,149.75 | 0.0% | 1 |
-| 3221 | Pension Bond Contribution | $1,573.89 | 0.0% | 1 |
-| 4125 | Out-Of-State Travel | $468.32 | 0.0% | 3 |
-| 3210 | Erb Assessment | $14.35 | 0.0% | 1 |
-| 3250 | Workers' Compensation Assessment | $11.39 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6050 | Distribution To Non-Profit Org | Distributions | $276,372,086.88 | 52.6% | 108 |
+| 6020 | Distribution To Counties | Distributions | $111,407,454.48 | 21.2% | 50 |
+| 6080 | Loans Made-Other | Distributions | $61,754,226.49 | 11.8% | 53 |
+| 6030 | Distribution To Non-Governments | Distributions | $32,494,712.60 | 6.2% | 52 |
+| 7100 | Principal - Bonds | Debt service | $15,005,000.00 | 2.9% | 2 |
+| 7150 | Interest - Bonds | Debt service | $6,708,900.16 | 1.3% | 2 |
+| 4300 | Professional Services | Services and supplies | $6,657,819.28 | 1.3% | 56 |
+| 6085 | Other Special Payments | Distributions | $6,470,220.00 | 1.2% | 13 |
+| 4650 | Other Services And Supplies | Services and supplies | $2,180,411.89 | 0.4% | 30 |
+| 4225 | State Government Service Charges | Services and supplies | $1,824,263.96 | 0.3% | 7 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $943,546.31 | 0.2% | 3 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $894,222.40 | 0.2% | 1 |
+| 6025 | Distribution To Other Govts | Distributions | $801,545.00 | 0.2% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $457,463.48 | 0.1% | 18 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $364,254.68 | 0.1% | 5 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $268,404.48 | 0.1% | 9 |
+| 4400 | Dues And Subscriptions | Services and supplies | $146,340.20 | 0.0% | 12 |
+| 4150 | Employee Training | Services and supplies | $138,129.91 | 0.0% | 16 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $114,936.68 | 0.0% | 4 |
+| 4250 | Data Processing | Services and supplies | $93,300.42 | 0.0% | 5 |
+| 4175 | Office Expenses | Services and supplies | $90,813.58 | 0.0% | 20 |
+| 6015 | Distribution To Cities | Distributions | $76,550.86 | 0.0% | 2 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $62,713.06 | 0.0% | 3 |
+| 6443 | Dist To Oregon Health Authority | Distributions | $52,455.37 | 0.0% | 2 |
+| 3240 | Unemployment Assessment | Personnel services | $34,578.28 | 0.0% | 1 |
+| 4100 | Instate Travel | Services and supplies | $26,624.63 | 0.0% | 15 |
+| 4275 | Publicity & Publications | Services and supplies | $21,155.34 | 0.0% | 3 |
+| 4375 | Employee Recruitment And Development | Services and supplies | $18,895.99 | 0.0% | 7 |
+| 4350 | Dispute Resolution Services | Services and supplies | $15,988.50 | 0.0% | 8 |
+| 3270 | Flexible Benefits | Personnel services | $13,405.51 | 0.0% | 1 |
+| 4475 | Facilities Maintenance | Services and supplies | $10,707.19 | 0.0% | 1 |
+| 3220 | Public Employes' Retirement System | Personnel services | $9,716.06 | 0.0% | 3 |
+| 4315 | It Professional Services | Services and supplies | $7,130.23 | 0.0% | 1 |
+| 3190 | All Other Differential | Personnel services | $5,929.19 | 0.0% | 2 |
+| 3170 | Overtime Payments | Personnel services | $5,596.90 | 0.0% | 1 |
+| 3230 | Social Security Tax | Personnel services | $2,149.75 | 0.0% | 1 |
+| 3221 | Pension Bond Contribution | Personnel services | $1,573.89 | 0.0% | 1 |
+| 4125 | Out-Of-State Travel | Services and supplies | $468.32 | 0.0% | 3 |
+| 3210 | Erb Assessment | Personnel services | $14.35 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $11.39 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

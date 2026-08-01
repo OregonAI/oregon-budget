@@ -54,25 +54,33 @@ Pharmacy, Oregon Brd of (agency code 855, recorded upstream as `PHARMACY, OREGON
 
 The largest budget category was **Attorney General Legal Fees** at $353,069.25 (26.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $1,347,905.20 | 100.0% | 15 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4325 | Attorney General Legal Fees | $353,069.25 | 26.2% | 1 |
-| 4650 | Other Services And Supplies | $202,228.73 | 15.0% | 6 |
-| 4300 | Professional Services | $187,397.63 | 13.9% | 11 |
-| 4425 | Lease Payments & Taxes | $158,998.46 | 11.8% | 2 |
-| 4225 | State Government Service Charges | $133,203.00 | 9.9% | 4 |
-| 4575 | Agency Program Related Svcs & Supp | $114,314.93 | 8.5% | 3 |
-| 4250 | Data Processing | $109,425.53 | 8.1% | 5 |
-| 4100 | Instate Travel | $33,035.24 | 2.5% | 59 |
-| 4175 | Office Expenses | $25,226.79 | 1.9% | 7 |
-| 4200 | Telecomm/Tech Svc And Supplies | $13,105.68 | 1.0% | 3 |
-| 4275 | Publicity & Publications | $8,644.61 | 0.6% | 3 |
-| 4150 | Employee Training | $7,008.43 | 0.5% | 18 |
-| 4315 | It Professional Services | $1,620.00 | 0.1% | 1 |
-| 4125 | Out-Of-State Travel | $516.42 | 0.0% | 5 |
-| 4475 | Facilities Maintenance | $110.50 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4325 | Attorney General Legal Fees | Services and supplies | $353,069.25 | 26.2% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $202,228.73 | 15.0% | 6 |
+| 4300 | Professional Services | Services and supplies | $187,397.63 | 13.9% | 11 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $158,998.46 | 11.8% | 2 |
+| 4225 | State Government Service Charges | Services and supplies | $133,203.00 | 9.9% | 4 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $114,314.93 | 8.5% | 3 |
+| 4250 | Data Processing | Services and supplies | $109,425.53 | 8.1% | 5 |
+| 4100 | Instate Travel | Services and supplies | $33,035.24 | 2.5% | 59 |
+| 4175 | Office Expenses | Services and supplies | $25,226.79 | 1.9% | 7 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $13,105.68 | 1.0% | 3 |
+| 4275 | Publicity & Publications | Services and supplies | $8,644.61 | 0.6% | 3 |
+| 4150 | Employee Training | Services and supplies | $7,008.43 | 0.5% | 18 |
+| 4315 | It Professional Services | Services and supplies | $1,620.00 | 0.1% | 1 |
+| 4125 | Out-Of-State Travel | Services and supplies | $516.42 | 0.0% | 5 |
+| 4475 | Facilities Maintenance | Services and supplies | $110.50 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

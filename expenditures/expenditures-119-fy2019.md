@@ -53,22 +53,30 @@ Tax Practitioners, St Brd of (agency code 119, recorded upstream as `TAX PRACTIT
 
 The largest budget category was **Other Services And Supplies** at $61,848.04 (33.2% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $186,126.69 | 100.0% | 12 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4650 | Other Services And Supplies | $61,848.04 | 33.2% | 5 |
-| 4425 | Facilities Rent & Taxes | $29,984.41 | 16.1% | 1 |
-| 4325 | Attorney General Legal Fees | $19,062.60 | 10.2% | 1 |
-| 4315 | It Professional Services | $18,000.00 | 9.7% | 1 |
-| 4225 | State Government Service Charges | $17,160.24 | 9.2% | 5 |
-| 4250 | Data Processing | $13,258.48 | 7.1% | 3 |
-| 4175 | Office Expenses | $8,529.97 | 4.6% | 5 |
-| 4300 | Professional Services | $6,740.00 | 3.6% | 8 |
-| 4100 | Instate Travel | $5,845.51 | 3.1% | 18 |
-| 4200 | Telecomm/Tech Svc And Supplies | $4,145.65 | 2.2% | 5 |
-| 4275 | Publicity & Publications | $1,540.80 | 0.8% | 3 |
-| 4575 | Agency Program Related Svcs & Supp | $10.99 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4650 | Other Services And Supplies | Services and supplies | $61,848.04 | 33.2% | 5 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $29,984.41 | 16.1% | 1 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $19,062.60 | 10.2% | 1 |
+| 4315 | It Professional Services | Services and supplies | $18,000.00 | 9.7% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $17,160.24 | 9.2% | 5 |
+| 4250 | Data Processing | Services and supplies | $13,258.48 | 7.1% | 3 |
+| 4175 | Office Expenses | Services and supplies | $8,529.97 | 4.6% | 5 |
+| 4300 | Professional Services | Services and supplies | $6,740.00 | 3.6% | 8 |
+| 4100 | Instate Travel | Services and supplies | $5,845.51 | 3.1% | 18 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $4,145.65 | 2.2% | 5 |
+| 4275 | Publicity & Publications | Services and supplies | $1,540.80 | 0.8% | 3 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $10.99 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

@@ -53,17 +53,25 @@ Indian Services Cmsn (agency code 425, recorded upstream as `INDIAN SERVICES CMS
 
 The largest budget category was **State Government Service Charges** at $5,939.81 (53.4% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $11,122.74 | 100.0% | 7 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $5,939.81 | 53.4% | 4 |
-| 4100 | Instate Travel | $2,521.97 | 22.7% | 10 |
-| 4700 | Expendable Property $250-$5000 | $1,236.59 | 11.1% | 2 |
-| 4175 | Office Expenses | $733.43 | 6.6% | 2 |
-| 4715 | It Expendable Property | $323.02 | 2.9% | 2 |
-| 4200 | Telecomm/Tech Svc And Supplies | $267.92 | 2.4% | 3 |
-| 4650 | Other Services And Supplies | $100.00 | 0.9% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $5,939.81 | 53.4% | 4 |
+| 4100 | Instate Travel | Services and supplies | $2,521.97 | 22.7% | 10 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $1,236.59 | 11.1% | 2 |
+| 4175 | Office Expenses | Services and supplies | $733.43 | 6.6% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $323.02 | 2.9% | 2 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $267.92 | 2.4% | 3 |
+| 4650 | Other Services And Supplies | Services and supplies | $100.00 | 0.9% | 1 |
 
 ## Largest expenditure classes
 

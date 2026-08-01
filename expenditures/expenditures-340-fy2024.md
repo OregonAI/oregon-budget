@@ -54,44 +54,56 @@ Envi Quality, Dept (agency code 340, recorded upstream as `ENVI QUALITY, DEPT`) 
 
 The largest budget category was **Loans Made-Other** at $65,793,074.50 (50.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Distributions | $69,472,776.08 | 52.8% | 6 |
+| Services and supplies | $54,676,969.11 | 41.6% | 21 |
+| Debt service | $5,055,724.38 | 3.8% | 2 |
+| Capital outlay | $2,301,209.66 | 1.7% | 4 |
+| Personnel services | $26,113.53 | 0.0% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6080 | Loans Made-Other | $65,793,074.50 | 50.0% | 25 |
-| 4575 | Agency Program Related Svcs & Supp | $15,850,457.17 | 12.1% | 84 |
-| 4300 | Professional Services | $10,580,649.09 | 8.0% | 74 |
-| 4425 | Lease Payments & Taxes | $8,216,063.77 | 6.2% | 82 |
-| 4650 | Other Services And Supplies | $5,821,463.66 | 4.4% | 212 |
-| 4225 | State Government Service Charges | $4,972,419.81 | 3.8% | 11 |
-| 7100 | Principal - Bonds | $4,035,000.00 | 3.1% | 3 |
-| 6030 | Distribution To Non-Governments | $3,057,495.12 | 2.3% | 25 |
-| 4325 | Attorney General Legal Fees | $2,216,194.94 | 1.7% | 1 |
-| 4715 | It Expendable Property | $1,841,712.33 | 1.4% | 27 |
-| 5550 | Data Processing Software | $1,759,797.54 | 1.3% | 6 |
-| 4200 | Telecomm/Tech Svc And Supplies | $1,203,883.54 | 0.9% | 37 |
-| 7150 | Interest - Bonds | $1,020,724.38 | 0.8% | 3 |
-| 4315 | It Professional Services | $851,021.78 | 0.6% | 4 |
-| 4100 | Instate Travel | $666,301.16 | 0.5% | 1,065 |
-| 4250 | Data Processing | $654,295.81 | 0.5% | 9 |
-| 4150 | Employee Training | $445,173.10 | 0.3% | 109 |
-| 5200 | Technical Equipment | $441,137.61 | 0.3% | 7 |
-| 4450 | Fuels And Utilities | $365,274.81 | 0.3% | 35 |
-| 6048 | Special Payment To Public Universities | $327,698.43 | 0.2% | 2 |
-| 4125 | Out-Of-State Travel | $208,171.00 | 0.2% | 428 |
-| 4350 | Dispute Resolution Services | $205,386.60 | 0.2% | 1 |
-| 6257 | Dist To State Police | $176,366.40 | 0.1% | 1 |
-| 4475 | Facilities Maintenance | $174,979.14 | 0.1% | 7 |
-| 4175 | Office Expenses | $171,874.07 | 0.1% | 28 |
-| 4400 | Dues And Subscriptions | $126,282.93 | 0.1% | 10 |
-| 6025 | Distribution To Other Govts | $101,378.21 | 0.1% | 6 |
-| 5900 | Other Capital Outlay | $56,177.73 | 0.0% | 1 |
-| 4700 | Expendable Property $250-$5000 | $51,401.05 | 0.0% | 7 |
-| 4275 | Publicity & Publications | $49,878.35 | 0.0% | 14 |
-| 5150 | Telecommunications | $44,096.78 | 0.0% | 1 |
-| 3240 | Unemployment Assessment | $26,113.53 | 0.0% | 1 |
-| 6443 | Dist To Oregon Health Authority | $16,763.42 | 0.0% | 1 |
-| 4525 | Medical Supplies And Services | $4,085.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6080 | Loans Made-Other | Distributions | $65,793,074.50 | 50.0% | 25 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $15,850,457.17 | 12.1% | 84 |
+| 4300 | Professional Services | Services and supplies | $10,580,649.09 | 8.0% | 74 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $8,216,063.77 | 6.2% | 82 |
+| 4650 | Other Services And Supplies | Services and supplies | $5,821,463.66 | 4.4% | 212 |
+| 4225 | State Government Service Charges | Services and supplies | $4,972,419.81 | 3.8% | 11 |
+| 7100 | Principal - Bonds | Debt service | $4,035,000.00 | 3.1% | 3 |
+| 6030 | Distribution To Non-Governments | Distributions | $3,057,495.12 | 2.3% | 25 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $2,216,194.94 | 1.7% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $1,841,712.33 | 1.4% | 27 |
+| 5550 | Data Processing Software | Capital outlay | $1,759,797.54 | 1.3% | 6 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $1,203,883.54 | 0.9% | 37 |
+| 7150 | Interest - Bonds | Debt service | $1,020,724.38 | 0.8% | 3 |
+| 4315 | It Professional Services | Services and supplies | $851,021.78 | 0.6% | 4 |
+| 4100 | Instate Travel | Services and supplies | $666,301.16 | 0.5% | 1,065 |
+| 4250 | Data Processing | Services and supplies | $654,295.81 | 0.5% | 9 |
+| 4150 | Employee Training | Services and supplies | $445,173.10 | 0.3% | 109 |
+| 5200 | Technical Equipment | Capital outlay | $441,137.61 | 0.3% | 7 |
+| 4450 | Fuels And Utilities | Services and supplies | $365,274.81 | 0.3% | 35 |
+| 6048 | Special Payment To Public Universities | Distributions | $327,698.43 | 0.2% | 2 |
+| 4125 | Out-Of-State Travel | Services and supplies | $208,171.00 | 0.2% | 428 |
+| 4350 | Dispute Resolution Services | Services and supplies | $205,386.60 | 0.2% | 1 |
+| 6257 | Dist To State Police | Distributions | $176,366.40 | 0.1% | 1 |
+| 4475 | Facilities Maintenance | Services and supplies | $174,979.14 | 0.1% | 7 |
+| 4175 | Office Expenses | Services and supplies | $171,874.07 | 0.1% | 28 |
+| 4400 | Dues And Subscriptions | Services and supplies | $126,282.93 | 0.1% | 10 |
+| 6025 | Distribution To Other Govts | Distributions | $101,378.21 | 0.1% | 6 |
+| 5900 | Other Capital Outlay | Capital outlay | $56,177.73 | 0.0% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $51,401.05 | 0.0% | 7 |
+| 4275 | Publicity & Publications | Services and supplies | $49,878.35 | 0.0% | 14 |
+| 5150 | Telecommunications | Capital outlay | $44,096.78 | 0.0% | 1 |
+| 3240 | Unemployment Assessment | Personnel services | $26,113.53 | 0.0% | 1 |
+| 6443 | Dist To Oregon Health Authority | Distributions | $16,763.42 | 0.0% | 1 |
+| 4525 | Medical Supplies And Services | Services and supplies | $4,085.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

@@ -54,33 +54,44 @@ Labor & Ind, Bureau of (agency code 839, recorded upstream as `LABOR & IND, BURE
 
 The largest budget category was **Professional Services** at $864,424.05 (25.8% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $3,172,918.05 | 94.7% | 19 |
+| Distributions | $141,757.32 | 4.2% | 2 |
+| Capital outlay | $22,391.24 | 0.7% | 1 |
+| Personnel services | $14,547.49 | 0.4% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $864,424.05 | 25.8% | 47 |
-| 4425 | Facilities Rent & Taxes | $556,990.22 | 16.6% | 5 |
-| 4225 | State Government Service Charges | $468,782.34 | 14.0% | 4 |
-| 4175 | Office Expenses | $284,188.15 | 8.5% | 46 |
-| 4715 | It Expendable Property | $220,341.38 | 6.6% | 12 |
-| 4650 | Other Services And Supplies | $126,210.36 | 3.8% | 22 |
-| 6100 | Distribution To Dept Of Human Services | $119,602.07 | 3.6% | 1 |
-| 4575 | Agency Program Related Svcs & Supp | $116,295.13 | 3.5% | 4 |
-| 4325 | Attorney General Legal Fees | $111,209.08 | 3.3% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $86,562.07 | 2.6% | 7 |
-| 4315 | It Professional Services | $82,045.50 | 2.4% | 2 |
-| 4250 | Data Processing | $76,906.62 | 2.3% | 10 |
-| 4100 | Instate Travel | $76,246.33 | 2.3% | 119 |
-| 4600 | Intra-Inter Agency Charges | $39,238.45 | 1.2% | 1 |
-| 4400 | Dues And Subscriptions | $29,945.67 | 0.9% | 11 |
-| 5550 | Data Processing Software | $22,391.24 | 0.7% | 1 |
-| 6035 | Distribution To Individuals | $22,155.25 | 0.7% | 4 |
-| 4125 | Out-Of-State Travel | $20,193.53 | 0.6% | 17 |
-| 3240 | Unemployment Assessment | $14,547.49 | 0.4% | 1 |
-| 4700 | Expendable Property $250-$5000 | $6,408.50 | 0.2% | 5 |
-| 4150 | Employee Training | $6,281.88 | 0.2% | 6 |
-| 4275 | Publicity & Publications | $518.79 | 0.0% | 1 |
-| 4475 | Facilities Maintenance | $130.00 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $864,424.05 | 25.8% | 47 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $556,990.22 | 16.6% | 5 |
+| 4225 | State Government Service Charges | Services and supplies | $468,782.34 | 14.0% | 4 |
+| 4175 | Office Expenses | Services and supplies | $284,188.15 | 8.5% | 46 |
+| 4715 | It Expendable Property | Services and supplies | $220,341.38 | 6.6% | 12 |
+| 4650 | Other Services And Supplies | Services and supplies | $126,210.36 | 3.8% | 22 |
+| 6100 | Distribution To Dept Of Human Services | Distributions | $119,602.07 | 3.6% | 1 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $116,295.13 | 3.5% | 4 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $111,209.08 | 3.3% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $86,562.07 | 2.6% | 7 |
+| 4315 | It Professional Services | Services and supplies | $82,045.50 | 2.4% | 2 |
+| 4250 | Data Processing | Services and supplies | $76,906.62 | 2.3% | 10 |
+| 4100 | Instate Travel | Services and supplies | $76,246.33 | 2.3% | 119 |
+| 4600 | Intra-Inter Agency Charges | Services and supplies | $39,238.45 | 1.2% | 1 |
+| 4400 | Dues And Subscriptions | Services and supplies | $29,945.67 | 0.9% | 11 |
+| 5550 | Data Processing Software | Capital outlay | $22,391.24 | 0.7% | 1 |
+| 6035 | Distribution To Individuals | Distributions | $22,155.25 | 0.7% | 4 |
+| 4125 | Out-Of-State Travel | Services and supplies | $20,193.53 | 0.6% | 17 |
+| 3240 | Unemployment Assessment | Personnel services | $14,547.49 | 0.4% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $6,408.50 | 0.2% | 5 |
+| 4150 | Employee Training | Services and supplies | $6,281.88 | 0.2% | 6 |
+| 4275 | Publicity & Publications | Services and supplies | $518.79 | 0.0% | 1 |
+| 4475 | Facilities Maintenance | Services and supplies | $130.00 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

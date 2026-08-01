@@ -54,30 +54,40 @@ Nursing, Brd of (agency code 851, recorded upstream as `NURSING, BRD OF`) spent 
 
 The largest budget category was **Agency Program Related Svcs & Supp** at $1,338,533.77 (29.6% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $3,835,192.94 | 84.9% | 17 |
+| Distributions | $684,396.00 | 15.1% | 1 |
+| Personnel services | $148.68 | 0.0% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4575 | Agency Program Related Svcs & Supp | $1,338,533.77 | 29.6% | 8 |
-| 6050 | Distribution To Non-Profit Org | $684,396.00 | 15.1% | 2 |
-| 4325 | Attorney General Legal Fees | $646,138.94 | 14.3% | 1 |
-| 4300 | Professional Services | $577,290.77 | 12.8% | 7 |
-| 4225 | State Government Service Charges | $323,339.55 | 7.2% | 7 |
-| 4425 | Lease Payments & Taxes | $317,509.21 | 7.0% | 2 |
-| 4650 | Other Services And Supplies | $223,765.39 | 5.0% | 5 |
-| 4715 | It Expendable Property | $132,299.22 | 2.9% | 12 |
-| 4315 | It Professional Services | $106,300.00 | 2.4% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $66,369.29 | 1.5% | 11 |
-| 4250 | Data Processing | $30,734.78 | 0.7% | 12 |
-| 4450 | Fuels And Utilities | $29,862.00 | 0.7% | 5 |
-| 4175 | Office Expenses | $21,314.67 | 0.5% | 19 |
-| 4150 | Employee Training | $8,087.26 | 0.2% | 3 |
-| 4125 | Out-Of-State Travel | $4,953.90 | 0.1% | 15 |
-| 4700 | Expendable Property $250-$5000 | $3,764.75 | 0.1% | 2 |
-| 4100 | Instate Travel | $3,464.25 | 0.1% | 17 |
-| 4400 | Dues And Subscriptions | $1,465.19 | 0.0% | 2 |
-| 3240 | Unemployment Assessment | $101.08 | 0.0% | 1 |
-| 3220 | Public Employes' Retirement System | $47.60 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $1,338,533.77 | 29.6% | 8 |
+| 6050 | Distribution To Non-Profit Org | Distributions | $684,396.00 | 15.1% | 2 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $646,138.94 | 14.3% | 1 |
+| 4300 | Professional Services | Services and supplies | $577,290.77 | 12.8% | 7 |
+| 4225 | State Government Service Charges | Services and supplies | $323,339.55 | 7.2% | 7 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $317,509.21 | 7.0% | 2 |
+| 4650 | Other Services And Supplies | Services and supplies | $223,765.39 | 5.0% | 5 |
+| 4715 | It Expendable Property | Services and supplies | $132,299.22 | 2.9% | 12 |
+| 4315 | It Professional Services | Services and supplies | $106,300.00 | 2.4% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $66,369.29 | 1.5% | 11 |
+| 4250 | Data Processing | Services and supplies | $30,734.78 | 0.7% | 12 |
+| 4450 | Fuels And Utilities | Services and supplies | $29,862.00 | 0.7% | 5 |
+| 4175 | Office Expenses | Services and supplies | $21,314.67 | 0.5% | 19 |
+| 4150 | Employee Training | Services and supplies | $8,087.26 | 0.2% | 3 |
+| 4125 | Out-Of-State Travel | Services and supplies | $4,953.90 | 0.1% | 15 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $3,764.75 | 0.1% | 2 |
+| 4100 | Instate Travel | Services and supplies | $3,464.25 | 0.1% | 17 |
+| 4400 | Dues And Subscriptions | Services and supplies | $1,465.19 | 0.0% | 2 |
+| 3240 | Unemployment Assessment | Personnel services | $101.08 | 0.0% | 1 |
+| 3220 | Public Employes' Retirement System | Personnel services | $47.60 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

@@ -54,36 +54,47 @@ Labor & Ind, Bureau of (agency code 839, recorded upstream as `LABOR & IND, BURE
 
 The largest budget category was **Distribution To Individuals** at $1,393,408.66 (21.0% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $4,309,756.68 | 65.1% | 17 |
+| Distributions | $1,708,770.78 | 25.8% | 3 |
+| Capital outlay | $592,289.96 | 8.9% | 4 |
+| Personnel services | $10,853.77 | 0.2% | 2 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 6035 | Distribution To Individuals | $1,393,408.66 | 21.0% | 8 |
-| 4300 | Professional Services | $1,370,682.22 | 20.7% | 56 |
-| 4225 | State Government Service Charges | $844,697.80 | 12.8% | 5 |
-| 4425 | Lease Payments & Taxes | $428,522.45 | 6.5% | 7 |
-| 4325 | Attorney General Legal Fees | $339,813.70 | 5.1% | 2 |
-| 4715 | It Expendable Property | $314,455.24 | 4.7% | 10 |
-| 5200 | Technical Equipment | $274,665.17 | 4.1% | 1 |
-| 4315 | It Professional Services | $269,600.63 | 4.1% | 5 |
-| 6588 | Distribution To Or Dept Of Early Lrn | $258,725.52 | 3.9% | 1 |
-| 4175 | Office Expenses | $217,272.76 | 3.3% | 34 |
-| 4200 | Telecomm/Tech Svc And Supplies | $164,824.70 | 2.5% | 6 |
-| 5550 | Data Processing Software | $140,515.43 | 2.1% | 2 |
-| 5600 | Data Processing Hardware | $113,952.27 | 1.7% | 3 |
-| 4250 | Data Processing | $85,596.51 | 1.3% | 8 |
-| 4100 | Instate Travel | $83,434.34 | 1.3% | 108 |
-| 5100 | Office Furniture And Fixtures | $63,157.09 | 1.0% | 3 |
-| 6100 | Distribution To Dept Of Human Services | $56,636.60 | 0.9% | 1 |
-| 4650 | Other Services And Supplies | $54,404.96 | 0.8% | 10 |
-| 4400 | Dues And Subscriptions | $49,443.16 | 0.7% | 8 |
-| 4125 | Out-Of-State Travel | $37,272.15 | 0.6% | 41 |
-| 4150 | Employee Training | $36,625.47 | 0.6% | 12 |
-| 3240 | Unemployment Assessment | $10,655.40 | 0.2% | 1 |
-| 4700 | Expendable Property $250-$5000 | $6,614.21 | 0.1% | 2 |
-| 4600 | Intra-Inter Agency Charges | $6,156.38 | 0.1% | 1 |
-| 4475 | Facilities Maintenance | $340.00 | 0.0% | 2 |
-| 3110 | Class/Unclass Salary & Per Diem | $198.37 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 6035 | Distribution To Individuals | Distributions | $1,393,408.66 | 21.0% | 8 |
+| 4300 | Professional Services | Services and supplies | $1,370,682.22 | 20.7% | 56 |
+| 4225 | State Government Service Charges | Services and supplies | $844,697.80 | 12.8% | 5 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $428,522.45 | 6.5% | 7 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $339,813.70 | 5.1% | 2 |
+| 4715 | It Expendable Property | Services and supplies | $314,455.24 | 4.7% | 10 |
+| 5200 | Technical Equipment | Capital outlay | $274,665.17 | 4.1% | 1 |
+| 4315 | It Professional Services | Services and supplies | $269,600.63 | 4.1% | 5 |
+| 6588 | Distribution To Or Dept Of Early Lrn | Distributions | $258,725.52 | 3.9% | 1 |
+| 4175 | Office Expenses | Services and supplies | $217,272.76 | 3.3% | 34 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $164,824.70 | 2.5% | 6 |
+| 5550 | Data Processing Software | Capital outlay | $140,515.43 | 2.1% | 2 |
+| 5600 | Data Processing Hardware | Capital outlay | $113,952.27 | 1.7% | 3 |
+| 4250 | Data Processing | Services and supplies | $85,596.51 | 1.3% | 8 |
+| 4100 | Instate Travel | Services and supplies | $83,434.34 | 1.3% | 108 |
+| 5100 | Office Furniture And Fixtures | Capital outlay | $63,157.09 | 1.0% | 3 |
+| 6100 | Distribution To Dept Of Human Services | Distributions | $56,636.60 | 0.9% | 1 |
+| 4650 | Other Services And Supplies | Services and supplies | $54,404.96 | 0.8% | 10 |
+| 4400 | Dues And Subscriptions | Services and supplies | $49,443.16 | 0.7% | 8 |
+| 4125 | Out-Of-State Travel | Services and supplies | $37,272.15 | 0.6% | 41 |
+| 4150 | Employee Training | Services and supplies | $36,625.47 | 0.6% | 12 |
+| 3240 | Unemployment Assessment | Personnel services | $10,655.40 | 0.2% | 1 |
+| 4700 | Expendable Property $250-$5000 | Services and supplies | $6,614.21 | 0.1% | 2 |
+| 4600 | Intra-Inter Agency Charges | Services and supplies | $6,156.38 | 0.1% | 1 |
+| 4475 | Facilities Maintenance | Services and supplies | $340.00 | 0.0% | 2 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $198.37 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

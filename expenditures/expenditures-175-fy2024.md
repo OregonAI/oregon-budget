@@ -54,20 +54,28 @@ Judicial Fitness & Disability (agency code 175, recorded upstream as `JUDICIAL F
 
 The largest budget category was **Professional Services** at $26,993.57 (39.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $68,038.35 | 100.0% | 10 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4300 | Professional Services | $26,993.57 | 39.7% | 9 |
-| 4175 | Office Expenses | $16,150.13 | 23.7% | 4 |
-| 4225 | State Government Service Charges | $8,277.87 | 12.2% | 4 |
-| 4425 | Lease Payments & Taxes | $6,050.00 | 8.9% | 1 |
-| 4150 | Employee Training | $5,198.04 | 7.6% | 6 |
-| 4400 | Dues And Subscriptions | $3,490.00 | 5.1% | 4 |
-| 4200 | Telecomm/Tech Svc And Supplies | $944.48 | 1.4% | 3 |
-| 4715 | It Expendable Property | $624.12 | 0.9% | 1 |
-| 4100 | Instate Travel | $306.52 | 0.5% | 2 |
-| 4650 | Other Services And Supplies | $3.62 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4300 | Professional Services | Services and supplies | $26,993.57 | 39.7% | 9 |
+| 4175 | Office Expenses | Services and supplies | $16,150.13 | 23.7% | 4 |
+| 4225 | State Government Service Charges | Services and supplies | $8,277.87 | 12.2% | 4 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $6,050.00 | 8.9% | 1 |
+| 4150 | Employee Training | Services and supplies | $5,198.04 | 7.6% | 6 |
+| 4400 | Dues And Subscriptions | Services and supplies | $3,490.00 | 5.1% | 4 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $944.48 | 1.4% | 3 |
+| 4715 | It Expendable Property | Services and supplies | $624.12 | 0.9% | 1 |
+| 4100 | Instate Travel | Services and supplies | $306.52 | 0.5% | 2 |
+| 4650 | Other Services And Supplies | Services and supplies | $3.62 | 0.0% | 1 |
 
 ## Largest expenditure classes
 

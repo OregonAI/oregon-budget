@@ -53,39 +53,49 @@ Governor, Office of the (agency code 121, recorded upstream as `GOVERNOR, OFFICE
 
 The largest budget category was **State Government Service Charges** at $1,213,635.40 (33.7% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $3,391,431.98 | 94.2% | 15 |
+| Personnel services | $202,732.14 | 5.6% | 13 |
+| Capital outlay | $6,687.70 | 0.2% | 1 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4225 | State Government Service Charges | $1,213,635.40 | 33.7% | 5 |
-| 4425 | Lease Payments & Taxes | $479,024.16 | 13.3% | 4 |
-| 4650 | Other Services And Supplies | $256,148.90 | 7.1% | 6 |
-| 4250 | Data Processing | $254,640.65 | 7.1% | 6 |
-| 4125 | Out-Of-State Travel | $250,550.55 | 7.0% | 84 |
-| 4300 | Professional Services | $189,313.87 | 5.3% | 20 |
-| 4100 | Instate Travel | $175,917.22 | 4.9% | 150 |
-| 4400 | Dues And Subscriptions | $157,200.72 | 4.4% | 4 |
-| 4575 | Agency Program Related Svcs & Supp | $122,019.59 | 3.4% | 13 |
-| 3110 | Class/Unclass Salary & Per Diem | $114,191.20 | 3.2% | 3 |
-| 4715 | It Expendable Property | $85,750.97 | 2.4% | 4 |
-| 4325 | Attorney General Legal Fees | $63,782.40 | 1.8% | 1 |
-| 4200 | Telecomm/Tech Svc And Supplies | $54,453.05 | 1.5% | 8 |
-| 3220 | Public Employes' Retirement System | $53,896.27 | 1.5% | 4 |
-| 4175 | Office Expenses | $48,908.98 | 1.4% | 18 |
-| 4150 | Employee Training | $25,278.52 | 0.7% | 62 |
-| 4275 | Publicity & Publications | $14,807.00 | 0.4% | 4 |
-| 3270 | Flexible Benefits | $10,112.16 | 0.3% | 2 |
-| 3230 | Social Security Tax | $8,666.12 | 0.2% | 2 |
-| 5600 | Data Processing Hardware | $6,687.70 | 0.2% | 1 |
-| 3221 | Pension Bond Contribution | $5,497.50 | 0.2% | 2 |
-| 3240 | Unemployment Assessment | $4,124.40 | 0.1% | 1 |
-| 3280 | Other Payroll Expenses | $3,703.34 | 0.1% | 1 |
-| 3190 | All Other Differential | $1,352.00 | 0.0% | 1 |
-| 3241 | Paid Family Medical Leave Insurance | $453.13 | 0.0% | 2 |
-| 3260 | Mass Transit | $447.40 | 0.0% | 1 |
-| 3170 | Overtime Payments | $263.52 | 0.0% | 1 |
-| 3210 | Erb Assessment | $13.32 | 0.0% | 1 |
-| 3250 | Workers' Compensation Assessment | $11.78 | 0.0% | 2 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4225 | State Government Service Charges | Services and supplies | $1,213,635.40 | 33.7% | 5 |
+| 4425 | Lease Payments & Taxes | Services and supplies | $479,024.16 | 13.3% | 4 |
+| 4650 | Other Services And Supplies | Services and supplies | $256,148.90 | 7.1% | 6 |
+| 4250 | Data Processing | Services and supplies | $254,640.65 | 7.1% | 6 |
+| 4125 | Out-Of-State Travel | Services and supplies | $250,550.55 | 7.0% | 84 |
+| 4300 | Professional Services | Services and supplies | $189,313.87 | 5.3% | 20 |
+| 4100 | Instate Travel | Services and supplies | $175,917.22 | 4.9% | 150 |
+| 4400 | Dues And Subscriptions | Services and supplies | $157,200.72 | 4.4% | 4 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $122,019.59 | 3.4% | 13 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $114,191.20 | 3.2% | 3 |
+| 4715 | It Expendable Property | Services and supplies | $85,750.97 | 2.4% | 4 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $63,782.40 | 1.8% | 1 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $54,453.05 | 1.5% | 8 |
+| 3220 | Public Employes' Retirement System | Personnel services | $53,896.27 | 1.5% | 4 |
+| 4175 | Office Expenses | Services and supplies | $48,908.98 | 1.4% | 18 |
+| 4150 | Employee Training | Services and supplies | $25,278.52 | 0.7% | 62 |
+| 4275 | Publicity & Publications | Services and supplies | $14,807.00 | 0.4% | 4 |
+| 3270 | Flexible Benefits | Personnel services | $10,112.16 | 0.3% | 2 |
+| 3230 | Social Security Tax | Personnel services | $8,666.12 | 0.2% | 2 |
+| 5600 | Data Processing Hardware | Capital outlay | $6,687.70 | 0.2% | 1 |
+| 3221 | Pension Bond Contribution | Personnel services | $5,497.50 | 0.2% | 2 |
+| 3240 | Unemployment Assessment | Personnel services | $4,124.40 | 0.1% | 1 |
+| 3280 | Other Payroll Expenses | Personnel services | $3,703.34 | 0.1% | 1 |
+| 3190 | All Other Differential | Personnel services | $1,352.00 | 0.0% | 1 |
+| 3241 | Paid Family Medical Leave Insurance | Personnel services | $453.13 | 0.0% | 2 |
+| 3260 | Mass Transit | Personnel services | $447.40 | 0.0% | 1 |
+| 3170 | Overtime Payments | Personnel services | $263.52 | 0.0% | 1 |
+| 3210 | Erb Assessment | Personnel services | $13.32 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $11.78 | 0.0% | 2 |
 
 ## Largest expenditure classes
 

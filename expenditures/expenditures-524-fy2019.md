@@ -53,34 +53,43 @@ Chief Edu Office (agency code 524, recorded upstream as `CHIEF EDU OFFICE`) spen
 
 The largest budget category was **It Professional Services** at $811,352.00 (42.6% of the agency's total).
 
+## Spending by band
+
+The leading digit of a budget class encodes its category. This grouping is a convention of Oregon's budget structure, not a line in the source data — see [the account code reference](../datasets/account-code-structure.md).
+
+| Band | Amount | Share | Codes |
+|---|---:|---:|---:|
+| Services and supplies | $1,668,728.94 | 87.7% | 15 |
+| Personnel services | $233,671.16 | 12.3% | 9 |
+
 ## Spending by budget class
 
-| Code | Budget class | Amount | Share | Records |
-|---|---|---:|---:|---:|
-| 4315 | It Professional Services | $811,352.00 | 42.6% | 4 |
-| 4250 | Data Processing | $587,857.58 | 30.9% | 4 |
-| 3110 | Class/Unclass Salary & Per Diem | $144,347.92 | 7.6% | 2 |
-| 4650 | Other Services And Supplies | $76,223.75 | 4.0% | 2 |
-| 4425 | Facilities Rent & Taxes | $60,082.20 | 3.2% | 1 |
-| 4225 | State Government Service Charges | $37,339.64 | 2.0% | 5 |
-| 3270 | Flexible Benefits | $31,647.64 | 1.7% | 2 |
-| 4300 | Professional Services | $29,589.55 | 1.6% | 10 |
-| 4325 | Attorney General Legal Fees | $25,771.20 | 1.4% | 1 |
-| 3220 | Public Employes' Retirement System | $25,305.82 | 1.3% | 8 |
-| 4275 | Publicity & Publications | $11,688.18 | 0.6% | 2 |
-| 3230 | Social Security Tax | $11,635.70 | 0.6% | 2 |
-| 3190 | All Other Differential | $9,949.12 | 0.5% | 3 |
-| 3221 | Pension Bond Contribution | $9,420.82 | 0.5% | 2 |
-| 4175 | Office Expenses | $9,122.62 | 0.5% | 6 |
-| 4150 | Employee Training | $7,076.24 | 0.4% | 32 |
-| 4200 | Telecomm/Tech Svc And Supplies | $5,983.33 | 0.3% | 2 |
-| 4100 | Instate Travel | $3,478.57 | 0.2% | 13 |
-| 4125 | Out-Of-State Travel | $3,055.09 | 0.2% | 8 |
-| 3260 | Mass Transit | $866.08 | 0.0% | 2 |
-| 3170 | Overtime Payments | $464.77 | 0.0% | 1 |
-| 4715 | It Expendable Property | $79.00 | 0.0% | 1 |
-| 3250 | Workers' Compensation Assessment | $33.29 | 0.0% | 2 |
-| 4575 | Agency Program Related Svcs & Supp | $29.99 | 0.0% | 1 |
+| Code | Budget class | Band | Amount | Share | Records |
+|---|---|---|---:|---:|---:|
+| 4315 | It Professional Services | Services and supplies | $811,352.00 | 42.6% | 4 |
+| 4250 | Data Processing | Services and supplies | $587,857.58 | 30.9% | 4 |
+| 3110 | Class/Unclass Salary & Per Diem | Personnel services | $144,347.92 | 7.6% | 2 |
+| 4650 | Other Services And Supplies | Services and supplies | $76,223.75 | 4.0% | 2 |
+| 4425 | Facilities Rent & Taxes | Services and supplies | $60,082.20 | 3.2% | 1 |
+| 4225 | State Government Service Charges | Services and supplies | $37,339.64 | 2.0% | 5 |
+| 3270 | Flexible Benefits | Personnel services | $31,647.64 | 1.7% | 2 |
+| 4300 | Professional Services | Services and supplies | $29,589.55 | 1.6% | 10 |
+| 4325 | Attorney General Legal Fees | Services and supplies | $25,771.20 | 1.4% | 1 |
+| 3220 | Public Employes' Retirement System | Personnel services | $25,305.82 | 1.3% | 8 |
+| 4275 | Publicity & Publications | Services and supplies | $11,688.18 | 0.6% | 2 |
+| 3230 | Social Security Tax | Personnel services | $11,635.70 | 0.6% | 2 |
+| 3190 | All Other Differential | Personnel services | $9,949.12 | 0.5% | 3 |
+| 3221 | Pension Bond Contribution | Personnel services | $9,420.82 | 0.5% | 2 |
+| 4175 | Office Expenses | Services and supplies | $9,122.62 | 0.5% | 6 |
+| 4150 | Employee Training | Services and supplies | $7,076.24 | 0.4% | 32 |
+| 4200 | Telecomm/Tech Svc And Supplies | Services and supplies | $5,983.33 | 0.3% | 2 |
+| 4100 | Instate Travel | Services and supplies | $3,478.57 | 0.2% | 13 |
+| 4125 | Out-Of-State Travel | Services and supplies | $3,055.09 | 0.2% | 8 |
+| 3260 | Mass Transit | Personnel services | $866.08 | 0.0% | 2 |
+| 3170 | Overtime Payments | Personnel services | $464.77 | 0.0% | 1 |
+| 4715 | It Expendable Property | Services and supplies | $79.00 | 0.0% | 1 |
+| 3250 | Workers' Compensation Assessment | Personnel services | $33.29 | 0.0% | 2 |
+| 4575 | Agency Program Related Svcs & Supp | Services and supplies | $29.99 | 0.0% | 1 |
 
 ## Largest expenditure classes
 
