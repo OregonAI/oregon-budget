@@ -63,6 +63,16 @@ jobs:
       # every other gate stayed green. This is that missing check.
       - name: Every join must resolve to a real document and a non-empty key
         run: python3 src/build_joins.py --check
+      # The account-code reference: that every code still sits in the band its NUMBER puts it
+      # in, that the 8000 band still declares itself non-monetary, and that the served
+      # document matches the catalogue it is generated from.
+      #
+      # Offline like its neighbours, and deliberately so. --refresh is what re-reads DAS's
+      # PDF; it needs the network and pypdf, and neither belongs in a check that must pass
+      # when oregon.gov is having a bad afternoon. The committed catalogue is the source of
+      # truth here; drift from DAS is caught by running --refresh in review.
+      - name: Account-code reference must be current
+        run: python3 src/build_account_codes.py --check
 
   # The hybrid seam's disciplines: live figures never merge into mirrored fields, and an
   # unavailable API is never served as a zero. Both are monkeypatched rather than live —
