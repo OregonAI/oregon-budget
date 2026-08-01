@@ -1,7 +1,7 @@
 {
  "corpus": "oregon-budget",
- "n_nodes": 1760,
- "n_edges": 4012,
+ "n_nodes": 1761,
+ "n_edges": 4013,
  "n_edges_external": 1213,
  "nodes": [
   {
@@ -7707,6 +7707,12 @@
    "title": "Appropriations in 2026 Regular Session House Bill 5204",
    "doc_type": "dataset_doc",
    "path": "bills/appropriations-2026r1-hb5204.md"
+  },
+  {
+   "id": "account-code-structure",
+   "title": "Dataset doc: ORBITS/SFMA account code structure",
+   "doc_type": "entity_doc",
+   "path": "datasets/account-code-structure.md"
   },
   {
    "id": "agency-expenditures",
@@ -21605,6 +21611,11 @@
    "from": "appropriations-2026r1-hb5204",
    "type": "references_external",
    "to": "2026 Regular Session House Bill 5204"
+  },
+  {
+   "from": "account-code-structure",
+   "type": "related",
+   "to": "agency-expenditures"
   },
   {
    "from": "agency-expenditures",
