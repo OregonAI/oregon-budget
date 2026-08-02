@@ -15,20 +15,14 @@ jobs:
     with:
       # Pin the CODE, not just the workflow file above — separate knobs.
       toolkit-ref: v1.18.0
-  links:
-    uses: OregonAI/corpus-toolkit/.github/workflows/check-links.yml@v1.18.0
-    with:
-      # Pin the CODE, not just the workflow file above — separate knobs.
-      toolkit-ref: v1.18.0
-      # lychee walks './**/*.md'. Without these exclusions it crawls
-      # _meta/templates/document.md — a skeleton whose example URLs are not meant
-      # to resolve — and every PR fails on link rot that is not link rot.
-      # _meta/snapshots/ is excluded because a large corpus's snapshots would drag
-      # hundreds of upstream URLs into a per-PR gate; upstream availability is what
-      # the scheduled drift job is for.
-      exclude-paths: |
-        _meta/snapshots
-        _meta/templates
+  # NO EXTERNAL LINK GATE, by decision (operator, 2026-08-01). Every external URL in
+  # this corpus is either a generated mirror's source_url — whose SUBSTANCE is already
+  # verified by snapshot hashes and the quotations gate against the sibling — or a
+  # Socrata endpoint whose schema and row counts the weekly live-reconciliation job
+  # verifies, which is a far stronger check than an HTTP 200. The per-PR lychee crawl
+  # added flake without adding verification (data.oregon.gov reset one connection and
+  # failed an unrelated PR on a file it did not touch); internal relationship
+  # integrity is covered by validate-frontmatter above.
 
   # Generated artifacts must not drift from the documents they derive from.
   #
