@@ -12,7 +12,7 @@ source_format: pdf
 snapshot_policy: hash-only
 status: current
 content_mode: summary
-last_verified: '2026-07-28'
+last_verified: '2026-08-02'
 verified_by: '@dzinck'
 maintainer: '@dzinck'
 human_reviewed: false
@@ -41,6 +41,9 @@ biennium_fiscal_years:
 - 2025
 blank_amounts: 0
 blank_recipient: false
+modifies_prior_appropriations: 0
+amends_prior_law: 1
+recipients_in_itemization: []
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -75,7 +78,7 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 | 9 | to the City of Eugene for water and sewer infrastructure improvements along Crow Road | $6,000,000 | (9) $6,000,000 to the City of Eugene for  water and sewer infrastructure improvements along Crow Road. |
 | 10 | to the City of Florence for water, sewer and wastewater infrastructure for four blocks of city-owned property to be developed | $1,900,000 | (10) $1,900,000 to the City of Florence for water, sewer and wastewater infrastructure for four blocks of city-owned property to be developed. |
 | 11 | to the City of Gold Hill for replacement of water distribution main line and improvements and upgrades to water treatment facilities | $1,000,000 | (11) $1,000,000 to  the City of Gold Hill for replacement of water distribution main line and im- provements and upgrades to water treatment facilities. |
-| 12 | to the City of Gresham for water, sewer and stormwater improvements for the NOTE: Matter in boldfaced type in an amended section is new; matter [ italic and bracketed] is existing law to be omitted | $3,000,000 | (12) $3,000,000 to  the City of Gresham for water, sewer and stormwater improvements for the NOTE: Matter in  boldfaced type in an amended section is new;  matter [ italic and bracketed] is existing law to be omitted. |
+| 12 | to the City of Gresham for water, sewer and stormwater improvements for the redevelopment of former Kmart property in Civic Neighborhood at NW Eastman Parkway and NW Burnside Road | $3,000,000 | (12) $3,000,000 to  the City of Gresham for water, sewer and stormwater improvements for the NOTE: Matter in  boldfaced type in an amended section is new;  matter [ italic and bracketed] is existing law to be omitted. |
 | 13 | to the City of Hood River for water, sewer and stormwater site improvements for 7.1 acres of city-owned land for housing development | $2,438,595 | (13) $2,438,595 to the City of Hood River for water, sewer and stormwater site improvements  for 7.1 acres of city-owned land for housing development. |
 | 14 | to the City of Hubbard for upgrades to a wastewater lift station, water system improvements and wastewater system improvements | $1,100,000 | (14) $1,100,000 to the City of Hubbard for upgrades to a wastewater lift  station, water system improvements and wastewater system improvements. |
 | 15 | to the City of Independence for sewer infrastructure for Polk Community Development Corporation on Gun Club Road | $500,000 | (15) $500,000 to the City of Independence for sewer infrastructure  for Polk Community Devel- opment Corporation on Gun Club Road. |

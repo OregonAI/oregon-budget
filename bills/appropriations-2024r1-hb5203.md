@@ -12,7 +12,7 @@ source_format: pdf
 snapshot_policy: hash-only
 status: current
 content_mode: summary
-last_verified: '2026-07-28'
+last_verified: '2026-08-02'
 verified_by: '@dzinck'
 maintainer: '@dzinck'
 human_reviewed: false
@@ -41,6 +41,9 @@ biennium_fiscal_years:
 - 2025
 blank_amounts: 0
 blank_recipient: false
+modifies_prior_appropriations: 0
+amends_prior_law: 13
+recipients_in_itemization: []
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -139,6 +142,8 @@ Line items sum to **$7,820,632** — which matches NO stated appropriation in th
 Line items sum to **$2,174,357,994** — which matches NO stated appropriation in this section.
 
 ## Curator notes
+
+**This bill MODIFIES prior session laws** — 13 section(s) amending a prior chapter. The recipient of each amount lives in the amended chapter, not in this bill's own text, so `appropriated_to` is accurately null: no agency name could be extracted because this bill's appropriation sentences name none.
 
 Summing every dollar figure in an appropriation bill **double-counts**: a bill states an appropriation and then itemizes the same money. The stated appropriation and the line items are separate tables above for exactly that reason, and must never be added together.
 

@@ -93,6 +93,29 @@ APPROPRIATED_TO = re.compile(
 # are this, NOT a regex failure — the bill genuinely names nobody yet. Detected so the
 # document can say so instead of looking like an extraction bug.
 BLANK_RECIPIENT = re.compile(r"appropriat(?:ed|ion)\s+to\s+_{2,}", re.I)
+
+# A bill that only MODIFIES appropriations made by prior session laws contains no
+# "appropriated to <Body>" sentence in ANY form — the recipient lives in the amended
+# chapter, not in this bill. Two shapes, both measured: amount amendments ("the amount
+# ... is increased by $X" / "is decreased by $Y", 2017R1 SB 5508: 29 increases, 11
+# decreases) and whole-section amendments ("Section 3, chapter 598, Oregon Laws 2023, is
+# amended to read", 2024R1 HB 5203, an allocation schedule). An accurate null, previously
+# reported as a parser failure; counted so the document (and build_joins' report) can say
+# which it is.
+MODIFIES_PRIOR = re.compile(r"is\s+(?:increased|decreased)\s+by", re.I)
+AMENDS_PRIOR = re.compile(r"chapter\s+\d+,\s+Oregon\s+Laws\s+\d{4},\s+is\s+amended", re.I)
+
+# The MULTI-RECIPIENT construction (2023R1 HB 2983): "there is appropriated: (1) To the
+# Housing and Community Services Department: (a) $35,000,000 for deposit ...". A colon,
+# an item number and a capital "To" stand between "appropriated" and every recipient, and
+# there are SEVERAL recipients — a shape the single appropriated_to field cannot represent
+# without attributing the whole bill to one of them. Recipients are captured as a list and
+# reported; per-recipient joins are deliberately NOT built until the join model can carry
+# them (a wrong single join is worse than an honest none). The terminator is a colon OR a
+# comma: HB 2983's own two recipients split one each way ("To the Housing and Community
+# Services Department:" / "To the Department of Land Conservation and Development, the
+# amount of").
+RECIPIENT_ITEM = re.compile(r"\(\d+\)\s+To\s+(?:the\s+)?([A-Z][A-Za-z’'&/.\- ]{3,70}?)[:,]")
 AMOUNT_OF = re.compile(r"the\s+amount\s+of\s+\$\s?(\d[\d,]*(?:\.\d{2})?)")
 SUBITEM = re.compile(r"\((\d+)\)\s*([^$]{0,160}?)\$\s?(\d[\d,]*(?:\.\d{2})?)")
 FUND = re.compile(r"out\s+of\s+the\s+([A-Z][A-Za-z ]{2,40}?\s+Fund)", re.I)
@@ -136,6 +159,28 @@ def money(s: str) -> int | float:
 def strip_margin(text: str) -> list[str]:
     """Drop the bill's left-margin line numbers, which extract as their own lines."""
     return [l for l in text.splitlines() if not MARGIN_NUMBER.fullmatch(l)]
+
+
+# PAGE FURNITURE the PDF extraction injects at every page break: the drafting-office
+# footer, the LC number, and the bill-number page header. It can land MID-WORD — 2025R1
+# HB 3162 reads "there is appropri- NOTE: Matter in boldfaced type ... LC 3687 HB 3162
+# ated to the Department of Education" — which defeats reflow()'s de-hyphenation and
+# recorded the recipient as null in two bills (the other: 2023R1 HB 3274).
+PAGE_FURNITURE = re.compile(
+    r"NOTE:\s+Matter\s+in\s+boldfaced.*"
+    r"|New\s+sections\s+are\s+in\s+boldfaced.*"
+    r"|LC\s+\d{1,5}"
+    r"|(?:HB|SB|HJR|SJR|HCR|SCR|HJM|SJM|HR|SR)\s+\d{1,4}[A-Z]?")
+
+
+def strip_page_furniture(lines: list[str]) -> list[str]:
+    """Drop page-break furniture from the PARSING text only.
+
+    Applied to reflow()'s input and never to the raw evidence lines: a verbatim source
+    line must stay quotable against the snapshot's own bytes, page furniture included,
+    or --check would go hunting for a cleaned-up string the snapshot does not contain.
+    """
+    return [l for l in lines if not PAGE_FURNITURE.fullmatch(l.strip())]
 
 
 def reflow(lines: list[str]) -> str:
@@ -279,6 +324,12 @@ def parse_bill(flowed: str, raw_lines: list[str]) -> dict:
         "distinct_amounts_in_text": len(AMOUNT.findall(flowed)),
         "blank_amounts": len(BLANK_AMOUNT.findall(flowed)),
         "blank_recipient": bool(BLANK_RECIPIENT.search(flowed)),
+        "modifies_prior_appropriations": len(MODIFIES_PRIOR.findall(flowed)),
+        "amends_prior_law": len(AMENDS_PRIOR.findall(flowed)),
+        # Deduplicated in order of first appearance; a 6-item list naming one department
+        # twice is two items to one recipient, not two recipients.
+        "recipients_in_itemization": list(dict.fromkeys(
+            m.strip() for m in RECIPIENT_ITEM.findall(flowed))),
     }
 
 
@@ -416,6 +467,9 @@ def build_doc(measure: dict, parsed: dict, rec: dict, sibling_sha: str, today: s
         "biennium_fiscal_years": parsed["biennium_fiscal_years"],
         "blank_amounts": parsed.get("blank_amounts", 0),
         "blank_recipient": parsed.get("blank_recipient", False),
+        "modifies_prior_appropriations": parsed.get("modifies_prior_appropriations", 0),
+        "amends_prior_law": parsed.get("amends_prior_law", 0),
+        "recipients_in_itemization": parsed.get("recipients_in_itemization", []),
     }
 
     L = []
@@ -473,6 +527,25 @@ def build_doc(measure: dict, parsed: dict, rec: dict, sibling_sha: str, today: s
                  "to ______\". It is a budget-bill template whose agency has not been "
                  "filled in yet. No agency could be extracted because the bill names none; "
                  "this is not an extraction failure.")
+        L.append("")
+    mods = parsed.get("modifies_prior_appropriations", 0)
+    amends = parsed.get("amends_prior_law", 0)
+    if (mods or amends) and not parsed.get("appropriated_to"):
+        what = " and ".join(filter(None, [
+            f"{mods} increase/decrease clause(s)" if mods else "",
+            f"{amends} section(s) amending a prior chapter" if amends else ""]))
+        L.append(f"**This bill MODIFIES prior session laws** — {what}. The recipient of "
+                 "each amount lives in the amended chapter, not in this bill's own text, "
+                 "so `appropriated_to` is accurately null: no agency name could be "
+                 "extracted because this bill's appropriation sentences name none.")
+        L.append("")
+    if parsed.get("recipients_in_itemization"):
+        names = ", ".join(f"**{n}**" for n in parsed["recipients_in_itemization"])
+        L.append(f"**This bill appropriates to MULTIPLE recipients in one itemization** — "
+                 f"{names}. A single `appropriated_to` field cannot carry that without "
+                 "attributing the whole bill to one of them, so it is left null and the "
+                 "recipients are listed here. Per-recipient joins are future work; an "
+                 "honest none beats a wrong one.")
         L.append("")
     if parsed.get("blank_amounts"):
         L.append(f"**This bill contains {parsed['blank_amounts']} appropriation(s) with the "
@@ -612,7 +685,7 @@ def main() -> int:
             skipped.append((meas["id"], "no committed .txt in the sibling"))
             continue
         raw_lines = strip_margin(snap.read_text(errors="replace"))
-        parsed = parse_bill(reflow(raw_lines), raw_lines)
+        parsed = parse_bill(reflow(strip_page_furniture(raw_lines)), raw_lines)
         if not parsed["stated_totals"] and not parsed["line_items"]:
             # A bill whose ONLY amounts are blank still appropriates money — the sums are
             # simply not filled in yet. Skipping it as "no dollar amounts found" would make

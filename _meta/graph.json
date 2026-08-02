@@ -1,8 +1,8 @@
 {
  "corpus": "oregon-budget",
- "n_nodes": 1761,
- "n_edges": 4013,
- "n_edges_external": 1213,
+ "n_nodes": 1762,
+ "n_edges": 4017,
+ "n_edges_external": 1214,
  "nodes": [
   {
    "id": "expenditures-100-fy2019",
@@ -9867,6 +9867,12 @@
    "title": "2023 Regular Session House Bill 3255 → agency 525 spending, FY2024–FY2025",
    "doc_type": "dataset_doc",
    "path": "joins/join-2023r1-hb3255-agency-525.md"
+  },
+  {
+   "id": "join-2023r1-hb3274-agency-525",
+   "title": "2023 Regular Session House Bill 3274 → agency 525 spending, FY2024–FY2025",
+   "doc_type": "dataset_doc",
+   "path": "joins/join-2023r1-hb3274-agency-525.md"
   },
   {
    "id": "join-2023r1-hb3282-agency-107",
@@ -28294,6 +28300,26 @@
   },
   {
    "from": "join-2023r1-hb3255-agency-525",
+   "type": "related",
+   "to": "expenditures-525-fy2025"
+  },
+  {
+   "from": "join-2023r1-hb3274-agency-525",
+   "type": "references_external",
+   "to": "2023 Regular Session House Bill 3274"
+  },
+  {
+   "from": "join-2023r1-hb3274-agency-525",
+   "type": "related",
+   "to": "appropriations-2023r1-hb3274"
+  },
+  {
+   "from": "join-2023r1-hb3274-agency-525",
+   "type": "related",
+   "to": "expenditures-525-fy2024"
+  },
+  {
+   "from": "join-2023r1-hb3274-agency-525",
    "type": "related",
    "to": "expenditures-525-fy2025"
   },

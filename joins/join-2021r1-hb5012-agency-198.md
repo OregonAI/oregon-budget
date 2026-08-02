@@ -12,7 +12,7 @@ source_format: soda
 snapshot_policy: hash-only
 status: current
 content_mode: summary
-last_verified: '2026-07-28'
+last_verified: '2026-08-02'
 verified_by: '@dzinck'
 maintainer: '@dzinck'
 human_reviewed: false

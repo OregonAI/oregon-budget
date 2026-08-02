@@ -366,7 +366,7 @@ def unresolved_report(registry: Path) -> int:
             continue
         groups[name].append(fm)
 
-    blank, missing, variant, nocode, absent = [], [], [], [], []
+    blank, modifies, multi, missing, variant, nocode, absent = [], [], [], [], [], [], []
     for name, docs in groups.items():
         if not name or len(toks(name)) == 0:
             # The bill itself leaves the recipient blank ("appropriated to ______") — a
@@ -377,9 +377,23 @@ def unresolved_report(registry: Path) -> int:
             # cases, and an `all()` over the group put every one of them in whichever
             # bucket the outlier chose.
             b = [d for d in docs if d.get("blank_recipient")]
-            m = [d for d in docs if not d.get("blank_recipient")]
+            rest = [d for d in docs if not d.get("blank_recipient")]
+            # A null that is ACCURATE is not a parser failure. Two shapes, both flagged
+            # by the extractor itself: bills that only modify/amend prior session laws
+            # (the recipient lives in the amended chapter), and multi-recipient
+            # itemizations (a single field cannot carry several recipients without
+            # attributing the whole bill to one of them).
+            mod = [d for d in rest if d.get("modifies_prior_appropriations")
+                   or d.get("amends_prior_law")]
+            mr = [d for d in rest
+                  if d.get("recipients_in_itemization") and d not in mod]
+            m = [d for d in rest if d not in mod and d not in mr]
             if b:
                 blank.append((name, b, None, 0.0))
+            if mod:
+                modifies.append((name, mod, None, 0.0))
+            if mr:
+                multi.append((name, mr, None, 0.0))
             if m:
                 missing.append((name, m, None, 0.0))
             continue
@@ -425,6 +439,37 @@ def unresolved_report(registry: Path) -> int:
         L += ["| captured value | appropriations | example bill |", "|---|---:|---|"]
         for name, docs, _, _ in sorted(missing, key=lambda x: -len(x[1])):
             L.append(f"| `{name or '(empty)'}` | {len(docs)} | `{docs[0]['id']}` |")
+    else:
+        L.append("_None._")
+
+    L += ["", "## 1c. The bill only MODIFIES prior session laws — the null is accurate", "",
+          f"**{sum(len(d) for _, d, _, _ in modifies)} appropriations.** These bills "
+          f"increase, decrease or amend amounts appropriated by earlier session laws "
+          f"(\"is increased by $X\", \"Section 3, chapter 598, Oregon Laws 2023, is "
+          f"amended to read\"). The recipient of each amount lives in the amended "
+          f"chapter, not in this bill's own text — no agency name exists here to "
+          f"extract. Joining these means resolving the amended chapter first, which is "
+          f"future work, not parser work.", ""]
+    if modifies:
+        L += ["| appropriations | example bill |", "|---:|---|"]
+        for name, docs, _, _ in sorted(modifies, key=lambda x: -len(x[1])):
+            L.append(f"| {len(docs)} | `{docs[0]['id']}` |")
+    else:
+        L.append("_None._")
+
+    L += ["", "## 1d. Multi-recipient itemization — no single recipient exists", "",
+          f"**{sum(len(d) for _, d, _, _ in multi)} appropriations.** The bill "
+          f"appropriates to several bodies in one itemized list (\"(1) To the Housing "
+          f"and Community Services Department: ...\"). A single `appropriated_to` "
+          f"cannot carry that without attributing the whole bill to one recipient; the "
+          f"names are recorded per document under `recipients_in_itemization`. "
+          f"Per-recipient joins need the join model to carry them — an honest none "
+          f"beats a wrong one.", ""]
+    if multi:
+        L += ["| recipients (from the bill) | appropriations | example bill |", "|---|---:|---|"]
+        for name, docs, _, _ in sorted(multi, key=lambda x: -len(x[1])):
+            names = "; ".join(docs[0].get("recipients_in_itemization") or [])
+            L.append(f"| {names} | {len(docs)} | `{docs[0]['id']}` |")
     else:
         L.append("_None._")
 
@@ -474,6 +519,8 @@ def unresolved_report(registry: Path) -> int:
     out.write_text("\n".join(L))
     print(f"wrote {out.relative_to(ROOT)}")
     print(f"  {sum(len(d) for _,d,_,_ in blank):>4} bill leaves recipient blank (no fix exists)")
+    print(f"  {sum(len(d) for _,d,_,_ in modifies):>4} modifies prior session laws (null is accurate)")
+    print(f"  {sum(len(d) for _,d,_,_ in multi):>4} multi-recipient itemization (no single recipient)")
     print(f"  {sum(len(d) for _,d,_,_ in missing):>4} extraction genuinely failed (parser work)")
     print(f"  {sum(len(d) for _,d,_,_ in variant):>4} probable name variant (human confirms)")
     print(f"  {sum(len(d) for _,d,_,_ in nocode):>4} in registry, no budget code (cannot join)")

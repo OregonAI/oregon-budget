@@ -1,8 +1,8 @@
 # Unresolved agencies
 
-_Generated 2026-07-28 by `python3 src/build_joins.py --unresolved-report`. Do not edit by hand._
+_Generated 2026-08-02 by `python3 src/build_joins.py --unresolved-report`. Do not edit by hand._
 
-**71 appropriations** across **11 distinct names** overlap the FY2019–FY2025 expenditure mirror but name an agency that does not resolve against the sibling registry's `budget_agency_code`, so no join was built.
+**70 appropriations** across **11 distinct names** overlap the FY2019–FY2025 expenditure mirror but name an agency that does not resolve against the sibling registry's `budget_agency_code`, so no join was built.
 
 Resolution is deliberately exact-only. A near-match attaches an appropriation to the wrong agency and the result reads as a finding — which is how the *Legislative* Revenue Office once got matched to the Department of Revenue. Everything below stays unjoined until a human confirms it.
 
@@ -16,11 +16,25 @@ Resolution is deliberately exact-only. A near-match attaches an appropriation to
 
 ## 1b. Extraction genuinely failed — the parser
 
-**4 appropriations.** The bill names an agency and `APPROPRIATED_TO` failed to capture it. This is parser work in `src/extract_appropriations.py`.
+**0 appropriations.** The bill names an agency and `APPROPRIATED_TO` failed to capture it. This is parser work in `src/extract_appropriations.py`.
 
-| captured value | appropriations | example bill |
+_None._
+
+## 1c. The bill only MODIFIES prior session laws — the null is accurate
+
+**2 appropriations.** These bills increase, decrease or amend amounts appropriated by earlier session laws ("is increased by $X", "Section 3, chapter 598, Oregon Laws 2023, is amended to read"). The recipient of each amount lives in the amended chapter, not in this bill's own text — no agency name exists here to extract. Joining these means resolving the amended chapter first, which is future work, not parser work.
+
+| appropriations | example bill |
+|---:|---|
+| 2 | `appropriations-2020r1-hb5204` |
+
+## 1d. Multi-recipient itemization — no single recipient exists
+
+**1 appropriations.** The bill appropriates to several bodies in one itemized list ("(1) To the Housing and Community Services Department: ..."). A single `appropriated_to` cannot carry that without attributing the whole bill to one recipient; the names are recorded per document under `recipients_in_itemization`. Per-recipient joins need the join model to carry them — an honest none beats a wrong one.
+
+| recipients (from the bill) | appropriations | example bill |
 |---|---:|---|
-| `(empty)` | 4 | `appropriations-2020r1-hb5204` |
+| Housing and Community Services Department; Department of Land Conservation and Development | 1 | `appropriations-2023r1-hb2983` |
 
 ## 2. Probable name variant — needs a human to confirm
 

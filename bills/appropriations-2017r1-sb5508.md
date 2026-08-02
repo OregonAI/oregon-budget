@@ -12,7 +12,7 @@ source_format: pdf
 snapshot_policy: hash-only
 status: current
 content_mode: summary
-last_verified: '2026-07-28'
+last_verified: '2026-08-02'
 verified_by: '@dzinck'
 maintainer: '@dzinck'
 human_reviewed: false
@@ -41,6 +41,9 @@ biennium_fiscal_years:
 - 2017
 blank_amounts: 0
 blank_recipient: false
+modifies_prior_appropriations: 47
+amends_prior_law: 0
+recipients_in_itemization: []
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -206,6 +209,8 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 | (7) | - | $380,000 | General Fund Ch. 692 1(7) -$380,000 Oregon Military Department: |
 
 ## Curator notes
+
+**This bill MODIFIES prior session laws** — 47 increase/decrease clause(s). The recipient of each amount lives in the amended chapter, not in this bill's own text, so `appropriated_to` is accurately null: no agency name could be extracted because this bill's appropriation sentences name none.
 
 Summing every dollar figure in an appropriation bill **double-counts**: a bill states an appropriation and then itemizes the same money. The stated appropriation and the line items are separate tables above for exactly that reason, and must never be added together.
 

@@ -12,7 +12,7 @@ source_format: pdf
 snapshot_policy: hash-only
 status: current
 content_mode: summary
-last_verified: '2026-07-28'
+last_verified: '2026-08-02'
 verified_by: '@dzinck'
 maintainer: '@dzinck'
 human_reviewed: false
@@ -33,7 +33,7 @@ sibling_document_id: measure-2023r1-hb3274
 sibling_snapshot_id: measure-2023r1-hb3274-introduced
 sibling_source_sha256: 5eca7edd977413b47e0dc126d25339aa49bb305e75fc090079387f1cb4d6ed57
 extraction_status: single-appropriation
-appropriated_to: null
+appropriated_to: Higher Education Coordinating Commission
 fund: General Fund
 biennium: beginning 2023
 biennium_fiscal_years:
@@ -41,6 +41,9 @@ biennium_fiscal_years:
 - 2025
 blank_amounts: 0
 blank_recipient: false
+modifies_prior_appropriations: 0
+amends_prior_law: 0
+recipients_in_itemization: []
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -54,7 +57,7 @@ blank_recipient: false
 
 HB 3274 (2023R1): Requires Southern Oregon University, subject to appropriation of sufficient moneys, to address state's behavioral and mental health needs by materially increasing number of mental health practitioners who graduate in southern Oregon and teaching behavioral and mental health competencies through alternative academic pathways.
 
-Parsed context: out of the **General Fund**, for the biennium **beginning 2023** (fiscal years 2024–2025).
+Parsed context: appropriated to **Higher Education Coordinating Commission**, out of the **General Fund**, for the biennium **beginning 2023** (fiscal years 2024–2025).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 
