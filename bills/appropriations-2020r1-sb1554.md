@@ -12,7 +12,7 @@ source_format: pdf
 snapshot_policy: hash-only
 status: current
 content_mode: summary
-last_verified: '2026-07-28'
+last_verified: '2026-08-02'
 verified_by: '@dzinck'
 maintainer: '@dzinck'
 human_reviewed: false
@@ -41,6 +41,9 @@ biennium_fiscal_years:
 - 2021
 blank_amounts: 0
 blank_recipient: false
+modifies_prior_appropriations: 0
+amends_prior_law: 0
+recipients_in_itemization: []
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -97,7 +100,7 @@ Line items sum to **$1,060,000** — which matches NO stated appropriation in th
 | Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
 | (1) | to support the Molluscan Broodstock Program at the Hatfield Marine Science Center in conjunction with the Whiskey Creek Shellfish Hatchery | $170,000 | (1) $170,000 to support the Molluscan Broodstock Program at the Hatfield Marine  Science Center in conjunction with the Whiskey Creek Shellfish Hatchery; |
-| (2) | to support the work of the Cooperative Institute for Marine Resources [2] SB 1554 Studies in augmentation of sampling along the Newport Hydrographic Line in order to support research on ocean acidifi | $100,000 | (2) $100,000 to support the work of the Cooperative Institute for Marine Resources [2] |
+| (2) | to support the work of the Cooperative Institute for Marine Resources [2] Studies in augmentation of sampling along the Newport Hydrographic Line in order to support research on ocean acidification a | $100,000 | (2) $100,000 to support the work of the Cooperative Institute for Marine Resources [2] |
 | (3) | to support the work of the College of Earth, Ocean, and Atmospheric Sciences in monitoring for ocean acidification using Burke-O-Lator systems | $100,000 | (3) $100,000 for ocean acidification and hypoxia monitoring at Yaquina Bay; |
 
 ## Curator notes

@@ -1,15 +1,15 @@
 # STATUS — Oregon Budget — Appropriations and Expenditures
 
-Generated 2026-07-28. Non-authoritative; see DISCLAIMER.md.
+Generated 2026-08-01. Non-authoritative; see DISCLAIMER.md.
 
 ## Documents by type
 
 | doc_type | count |
 |---|---|
-| dataset_doc | 1757 |
-| entity_doc | 3 |
+| dataset_doc | 1758 |
+| entity_doc | 4 |
 
-**Total: 1760**
+**Total: 1762**
 
 ## Source manifest
 
@@ -17,5 +17,9 @@ Generated 2026-07-28. Non-authoritative; see DISCLAIMER.md.
 
 ## Freshness (reverify every 90 days)
 
-0 of 1760 document(s) overdue for re-verification.
+1 of 1762 document(s) overdue for re-verification.
+
+| id | doc_type | last_verified |
+|---|---|---|
+| account-code-structure | entity_doc | never |
 

@@ -12,7 +12,7 @@ source_format: pdf
 snapshot_policy: hash-only
 status: current
 content_mode: summary
-last_verified: '2026-07-28'
+last_verified: '2026-08-02'
 verified_by: '@dzinck'
 maintainer: '@dzinck'
 human_reviewed: false
@@ -41,6 +41,11 @@ biennium_fiscal_years:
 - 2025
 blank_amounts: 0
 blank_recipient: false
+modifies_prior_appropriations: 0
+amends_prior_law: 0
+recipients_in_itemization:
+- Housing and Community Services Department
+- Department of Land Conservation and Development
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -74,6 +79,8 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 | (2) | To the Department of Land Conservation and Development, the amount of | $250,000 | (2) To the Department of Land Conservation and Development, the amount of $250,000 to develop: |
 
 ## Curator notes
+
+**This bill appropriates to MULTIPLE recipients in one itemization** — **Housing and Community Services Department**, **Department of Land Conservation and Development**. A single `appropriated_to` field cannot carry that without attributing the whole bill to one of them, so it is left null and the recipients are listed here. Per-recipient joins are future work; an honest none beats a wrong one.
 
 Summing every dollar figure in an appropriation bill **double-counts**: a bill states an appropriation and then itemizes the same money. The stated appropriation and the line items are separate tables above for exactly that reason, and must never be added together.
 

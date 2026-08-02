@@ -12,7 +12,7 @@ source_format: pdf
 snapshot_policy: hash-only
 status: current
 content_mode: summary
-last_verified: '2026-07-28'
+last_verified: '2026-08-02'
 verified_by: '@dzinck'
 maintainer: '@dzinck'
 human_reviewed: false
@@ -41,6 +41,9 @@ biennium_fiscal_years:
 - 2025
 blank_amounts: 0
 blank_recipient: false
+modifies_prior_appropriations: 0
+amends_prior_law: 0
+recipients_in_itemization: []
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -76,7 +79,7 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 | # | Purpose (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| 2 | to: NOTE: Matter in boldfaced type in an amended section is new; matter [ italic and bracketed] is existing law to be omitted | $7,880,293 | (2) $7,880,293 to: |
+| 2 | to: CULTURAL RESOURCES ECONOMIC FUND VENUES. Name of venue Grant Amount Black United Fund .................... $ 900,000 Clatsop County Historical Society ...................................... $ 1,0 | $7,880,293 | (2) $7,880,293 to: |
 
 Line items sum to **$7,880,293** — which matches NO stated appropriation in this section.
 

@@ -12,7 +12,7 @@ source_format: pdf
 snapshot_policy: hash-only
 status: current
 content_mode: summary
-last_verified: '2026-07-28'
+last_verified: '2026-08-02'
 verified_by: '@dzinck'
 maintainer: '@dzinck'
 human_reviewed: false
@@ -33,7 +33,7 @@ sibling_document_id: measure-2025r1-hb3162
 sibling_snapshot_id: measure-2025r1-hb3162-introduced
 sibling_source_sha256: 405d1a32159f642569ede97008f8de93d13868fe0219033987f3e4bbb1112f7e
 extraction_status: single-appropriation
-appropriated_to: null
+appropriated_to: Department of Education
 fund: General Fund
 biennium: beginning 2025
 biennium_fiscal_years:
@@ -41,6 +41,9 @@ biennium_fiscal_years:
 - 2027
 blank_amounts: 0
 blank_recipient: false
+modifies_prior_appropriations: 0
+amends_prior_law: 0
+recipients_in_itemization: []
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -54,7 +57,7 @@ blank_recipient: false
 
 HB 3162 (2025R1): Appropriates moneys from the General Fund to the Department of Education for distribution to schools for the purpose of providing child care before and after school hours.
 
-Parsed context: out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
+Parsed context: appropriated to **Department of Education**, out of the **General Fund**, for the biennium **beginning 2025** (fiscal years 2026–2027).
 
 Extraction status: **single-appropriation**. No itemization to reconcile against.
 

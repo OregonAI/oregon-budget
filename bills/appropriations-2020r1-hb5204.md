@@ -12,7 +12,7 @@ source_format: pdf
 snapshot_policy: hash-only
 status: current
 content_mode: summary
-last_verified: '2026-07-28'
+last_verified: '2026-08-02'
 verified_by: '@dzinck'
 maintainer: '@dzinck'
 human_reviewed: false
@@ -41,6 +41,9 @@ biennium_fiscal_years:
 - 2021
 blank_amounts: 0
 blank_recipient: false
+modifies_prior_appropriations: 35
+amends_prior_law: 0
+recipients_in_itemization: []
 ---
 
 > **NON-AUTHORITATIVE — UNREVIEWED MACHINE EXTRACTION.** Every figure on this
@@ -84,7 +87,7 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 
 | Subsection | Text (parsed) | Amount | Verbatim source line |
 |---|---|---:|---|
-| (2) | chapter 664, Oregon Laws 2019, for [2] HB 5204 the biennium ending June 30, 2021, for fire protection, is increased by | $12,757,565 | the biennium ending June 30, 2021, for fire  protection, is increased by $12,757,565 for the payment of emergency firefighting costs, interest expenses and  severity resources associated |
+| (2) | chapter 664, Oregon Laws 2019, for [2] the biennium ending June 30, 2021, for fire protection, is increased by | $12,757,565 | the biennium ending June 30, 2021, for fire  protection, is increased by $12,757,565 for the payment of emergency firefighting costs, interest expenses and  severity resources associated |
 
 ## Section 22 — single-appropriation
 
@@ -127,6 +130,8 @@ The full text of this bill lives in the `oregon-legislature` corpus as `measure-
 | (6) | chapter 612, Oregon Laws 2019, for the biennium ending June 30, 2021, for the Information Technology Services Division, is decreased by | $128,780 | creased by $128,780. |
 
 ## Curator notes
+
+**This bill MODIFIES prior session laws** — 35 increase/decrease clause(s). The recipient of each amount lives in the amended chapter, not in this bill's own text, so `appropriated_to` is accurately null: no agency name could be extracted because this bill's appropriation sentences name none.
 
 Summing every dollar figure in an appropriation bill **double-counts**: a bill states an appropriation and then itemizes the same money. The stated appropriation and the line items are separate tables above for exactly that reason, and must never be added together.
 
