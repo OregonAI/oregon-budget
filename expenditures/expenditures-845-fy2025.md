@@ -14,8 +14,8 @@ source_sha256: 5e9f0c30287913ac0bfff8d74a1225d0c2816ca6a307f2141ebb35602c5a91ed
 snapshot_policy: hash-only
 status: current
 content_mode: summary
-last_verified: '2026-07-28'
-verified_by: '@dzinck'
+last_verified: ''
+verified_by: ''
 maintainer: '@dzinck'
 conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
   Abbreviations are not expanded. Figures are aggregated, not extracted text.

@@ -12,8 +12,8 @@ source_format: soda
 snapshot_policy: hash-only
 status: current
 content_mode: summary
-last_verified: '2026-07-28'
-verified_by: '@dzinck'
+last_verified: ''
+verified_by: ''
 maintainer: '@dzinck'
 live_schema_hash: 3d5ab79dfc275effffbfaf9c7925f22913dfb650ffa57f27c835a376773aac67
 relationships:

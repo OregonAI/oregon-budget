@@ -12,8 +12,8 @@ source_format: soda
 snapshot_policy: hash-only
 status: current
 content_mode: summary
-last_verified: '2026-08-02'
-verified_by: '@dzinck'
+last_verified: ''
+verified_by: ''
 maintainer: '@dzinck'
 human_reviewed: false
 joins:
