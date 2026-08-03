@@ -187,8 +187,8 @@ def build(fm: dict, org: dict, con, today: str) -> tuple[str, str]:
         "snapshot_policy": "hash-only",
         "status": "current",
         "content_mode": "summary",
-        "last_verified": today,
-        "verified_by": MAINTAINER,
+        "last_verified": "",  # rule 6: only corpus-verify writes this
+        "verified_by": "",
         "maintainer": MAINTAINER,
         "human_reviewed": False,
         "joins": joins,

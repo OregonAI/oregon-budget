@@ -12,6 +12,7 @@ source_format: soda
 retrieved: '2026-07-28'
 source_sha256: 5e9f0c30287913ac0bfff8d74a1225d0c2816ca6a307f2141ebb35602c5a91ed
 snapshot_policy: hash-only
+source_data_file: data/expenditures/expenditures-2025.parquet
 status: current
 content_mode: summary
 last_verified: '2026-07-28'

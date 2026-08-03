@@ -444,8 +444,8 @@ def build_doc(measure: dict, parsed: dict, rec: dict, sibling_sha: str, today: s
         "snapshot_policy": "hash-only",
         "status": "current",
         "content_mode": "summary",
-        "last_verified": today,
-        "verified_by": MAINTAINER,
+        "last_verified": "",  # rule 6: only corpus-verify writes this
+        "verified_by": "",
         "maintainer": MAINTAINER,
         # FALSE UNTIL A HUMAN SAYS OTHERWISE. Every figure below was read out of prose by
         # a regex; none of it is servable as fact until someone has compared it to the
