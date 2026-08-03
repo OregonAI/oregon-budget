@@ -227,8 +227,8 @@ def build(slug: str, spec: dict, m: dict, today: str) -> str:
         "snapshot_policy": "hash-only",
         "status": "current",
         "content_mode": "summary",
-        "last_verified": today,
-        "verified_by": MAINTAINER,
+        "last_verified": "",  # rule 6: only corpus-verify writes this
+        "verified_by": "",
         "maintainer": MAINTAINER,
         "live_schema_hash": m["schema_hash"],
         "relationships": {

@@ -208,10 +208,13 @@ def build_one(agency, year, name, total, txns, d, retrieved, sha) -> tuple[str, 
         "retrieved": retrieved,
         "source_sha256": sha,
         "snapshot_policy": "hash-only",
+        # names the committed artifact the hash pins, so verify-provenance
+        # (toolkit >= v1.22.0) re-verifies it instead of greening on nothing
+        "source_data_file": f"data/expenditures/expenditures-{year}.parquet",
         "status": "current",
         "content_mode": "summary",
-        "last_verified": retrieved,
-        "verified_by": MAINTAINER,
+        "last_verified": "",  # rule 6: only corpus-verify writes this
+        "verified_by": "",
         "maintainer": MAINTAINER,
         "conversion_notes": ("Title is the source agency name title-cased for reading; the "
                              "verbatim string is `agency_name`. Abbreviations are not "
