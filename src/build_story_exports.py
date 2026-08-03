@@ -1,0 +1,206 @@
+#!/usr/bin/env python3
+"""Build the two story-facing exports the oregon-stories charts consume.
+
+  python3 src/build_story_exports.py           # write both _meta exports
+  python3 src/build_story_exports.py --check   # exit 1 if either is stale (CI)
+
+WHY THESE EXIST. No dollar figure in this corpus reaches any published artifact —
+corpus-index.json carries titles, the graph carries edges, and the numbers live in
+document frontmatter and generated tables. A stories-side chart therefore had the
+choice of 544 raw-markdown fetches or a live SODA query per build; both are the wrong
+tool. These exports are the corpus answering the two questions the operator chose to
+chart (2026-08-03), from the same local sources the documents themselves are built
+from, with the corpus's own caveats embedded IN the artifact rather than hoped for at
+the far end.
+
+_meta/line-items.json — every row of every bill's "Line items" table (the
+`| # | Purpose (parsed) | Amount | Verbatim source line |` tables): 18 sessions of
+legislature-named recipients and amounts. THE DOUBLE-COUNT RULE RIDES ALONG: line
+items and stated totals overlap differently per `extraction_status`, so rows carry
+their bill's status and the artifact's own note says never to sum across statuses.
+`human_reviewed: false` everywhere — the parse beside each verbatim line is machine
+work (the corpus keeps the verbatim line precisely so a reader can check, e.g. the
+2019 sb678 row where "$1.2 million" parsed as $1 — status MISMATCH, which is the
+system catching it).
+
+_meta/vendor-concentration.json — per agency × fiscal year: total spend, distinct
+payees, and the share absorbed by the top 20 payees, computed with duckdb over the
+committed Parquet mirror (the same bytes the expenditure documents hash). The
+UNDERSTATEMENT caveat is embedded: vendor strings are not de-duplicated upstream
+("ACME INC" vs "ACME, INC."), so every concentration figure here is a floor.
+
+A NOTE FOR THE SEMANTIC-CURIOUS (measured 2026-08-03, recorded here because this file
+is where budget story data lives): doc-level embeddings over this corpus have a
+0.82–0.85 cosine baseline (generated-table boilerplate) and cross-agency neighbors are
+dominated by drafting boilerplate — semantic similarity is an MCP retrieval
+affordance here, not a story. The one promising future surface is line-item-grain
+embeddings over the 1,811 purpose texts this export now isolates.
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import sys
+from pathlib import Path
+
+import yaml
+
+REPO = Path(__file__).resolve().parent.parent
+BILLS = REPO / "bills"
+JOINS = REPO / "joins"
+PARQUET_GLOB = str(REPO / "data" / "expenditures" / "*.parquet")
+OUT_ITEMS = REPO / "_meta" / "line-items.json"
+OUT_VENDOR = REPO / "_meta" / "vendor-concentration.json"
+
+ROW = re.compile(r"^\|\s*(\d+)\s*\|(.*?)\|(.*?)\|(.*?)\|\s*$")
+AMOUNT = re.compile(r"^\$?([\d,]+)$")
+
+
+def _fm(path: Path) -> dict:
+    return yaml.safe_load(path.read_text(encoding="utf-8").split("---", 2)[1]) or {}
+
+
+def build_line_items() -> dict:
+    items, by_status = [], {}
+    bills_with = 0
+    for p in sorted(BILLS.glob("*.md")):
+        fm = _fm(p)
+        text = p.read_text(encoding="utf-8")
+        rows = []
+        in_table = False
+        for line in text.splitlines():
+            if line.startswith("| # |"):
+                in_table = True
+                continue
+            if in_table:
+                if line.startswith("|---"):
+                    continue
+                m = ROW.match(line)
+                if not m:
+                    in_table = False
+                    continue
+                purpose = m.group(2).strip()
+                amount_raw = m.group(3).strip()
+                verbatim = m.group(4).strip()
+                am = AMOUNT.match(amount_raw.replace(" ", ""))
+                rows.append({
+                    "n": int(m.group(1)),
+                    "purpose": purpose,
+                    "amount_text": amount_raw,
+                    # null when the cell is not a clean dollar figure — never guessed
+                    "amount_usd": int(am.group(1).replace(",", "")) if am else None,
+                    "verbatim": verbatim,
+                })
+        if not rows:
+            continue
+        bills_with += 1
+        session = p.stem.split("-")[1]  # appropriations-<session>-<bill>
+        status = fm.get("extraction_status", "unknown")
+        by_status[status] = by_status.get(status, 0) + len(rows)
+        for r in rows:
+            items.append({
+                "bill_id": fm.get("id", p.stem),
+                "session": session,
+                "biennium": fm.get("biennium"),
+                "appropriated_to": fm.get("appropriated_to"),
+                "extraction_status": status,
+                "human_reviewed": bool(fm.get("human_reviewed", False)),
+                **r,
+            })
+    return {
+        "note": (
+            "GENERATED by src/build_story_exports.py — do not hand-edit. Every row of "
+            "every bill's 'Line items' table, with its bill's extraction_status. NEVER "
+            "SUM ACROSS STATUSES: line items and stated totals overlap differently per "
+            "status, and a cross-status sum double-counts — segregate, or use one "
+            "status class at a time. All parses are machine work with "
+            "human_reviewed: false; the verbatim source line rides with every row so a "
+            "reader can check the parse (MISMATCH rows exist because the check works)."),
+        "n_items": len(items),
+        "n_bills_with_items": bills_with,
+        "by_extraction_status": dict(sorted(by_status.items())),
+        "items": items,
+    }
+
+
+def build_vendor_concentration() -> dict:
+    import duckdb
+    con = duckdb.connect()
+    rows = con.execute(f"""
+        with sums as (
+          select fiscal_year, agency, any_value(agency_1) as agency_name,
+                 vendor, sum(expense) as v
+          from read_parquet('{PARQUET_GLOB}')
+          group by fiscal_year, agency, vendor
+        ), ranked as (
+          select *, row_number() over (partition by fiscal_year, agency
+                                       order by v desc) as rk
+          from sums
+        )
+        select fiscal_year, agency, any_value(agency_name),
+               count(*) as n_payees, sum(v) as total,
+               sum(case when rk <= 20 then v else 0 end) as top20
+        from ranked group by fiscal_year, agency
+        order by fiscal_year, agency
+    """).fetchall()
+    # agency code -> registry slug, from the join docs' own frontmatter
+    slug_by_code: dict[str, str] = {}
+    for p in JOINS.glob("*.md"):
+        fm = _fm(p)
+        code, slug = str(fm.get("agency_code", "")), fm.get("agency_registry_slug")
+        if code and slug:
+            slug_by_code.setdefault(code, slug)
+    recs = []
+    for fy, code, name, n_payees, total, top20 in rows:
+        if not total:
+            continue
+        recs.append({
+            "fiscal_year": int(fy), "agency_code": str(code), "agency_name": name,
+            "agency_registry_slug": slug_by_code.get(str(code)),
+            "n_payees": int(n_payees),
+            "total_expense": round(float(total), 2),
+            "top20_share": round(float(top20) / float(total), 4),
+        })
+    return {
+        "note": (
+            "GENERATED by src/build_story_exports.py — do not hand-edit. Per agency x "
+            "fiscal year over the committed Parquet mirror (the same bytes the "
+            "expenditure documents hash). VENDOR STRINGS ARE NOT DE-DUPLICATED "
+            "upstream, so every top20_share here is a FLOOR — real concentration is "
+            "higher, never lower. agency_registry_slug is null where no join doc "
+            "carries one; null means unmapped, not unaffiliated."),
+        "n_rows": len(recs),
+        "rows": recs,
+    }
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--check", action="store_true")
+    args = ap.parse_args()
+
+    outputs = {OUT_ITEMS: build_line_items(), OUT_VENDOR: build_vendor_concentration()}
+    stale = []
+    for path, data in outputs.items():
+        text = json.dumps(data, indent=1, ensure_ascii=False) + "\n"
+        if args.check:
+            current = path.read_text(encoding="utf-8") if path.is_file() else ""
+            if current != text:
+                stale.append(path.name)
+        else:
+            path.write_text(text, encoding="utf-8")
+            print(f"wrote {path.relative_to(REPO)}: "
+                  f"{data.get('n_items', data.get('n_rows'))} row(s)")
+    if args.check:
+        if stale:
+            print(f"STALE: {', '.join(stale)} — re-run src/build_story_exports.py",
+                  file=sys.stderr)
+            return 1
+        print("story exports are current.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
