@@ -108,7 +108,7 @@ wired into CI. The split is deliberate:
 
 | Check | Runs | Why there |
 |---|---|---|
-| `build_documents.py --check` | every PR | offline; re-derives all 544 documents' figures from the Parquet |
+| `build_documents.py --check` | every PR | offline; re-derives every agency-year document's figures from the Parquet |
 | `build_graph.py --check` | every PR | offline; catches a document added without rebuilding the graph |
 | `ingest_expenditures.py --check` | weekly | needs the live API; compares row count **and** summed expense per year |
 | `build_dataset_docs.py --check` | weekly | needs the live API; detects upstream schema drift |
