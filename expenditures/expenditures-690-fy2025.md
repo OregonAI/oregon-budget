@@ -15,8 +15,8 @@ snapshot_policy: hash-only
 source_data_file: data/expenditures/expenditures-2025.parquet
 status: current
 content_mode: summary
-last_verified: '2026-07-28'
-verified_by: '@dzinck'
+last_verified: ''
+verified_by: ''
 maintainer: '@dzinck'
 conversion_notes: Title is the source agency name title-cased for reading; the verbatim string is `agency_name`.
   Abbreviations are not expanded. Figures are aggregated, not extracted text.
