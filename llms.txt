@@ -12,7 +12,8 @@
 
 ## Contents
 
-<!-- One annotated link per knowledge body / index, e.g.
-     - `[Title](path/_index.md)`: when an agent should consult it
-     Written as inline code rather than a live link: lychee checks llms.txt by
-     name, and an example path that does not exist would fail CI on day one. -->
+- `[Agency-year expenditure documents](expenditures/)`: one document per agency per fiscal year (FY2019–FY2025), every figure re-derived from the committed Parquet mirror — consult for "what did agency X spend in FY20NN".
+- `[Appropriation extractions](bills/)`: appropriation line items quoted verbatim from budget bills, 2017R1 onward. The bills themselves live in `oregon-legislature`; this corpus never copies bill text beyond the quoted lines.
+- `[Dataset docs](datasets/)`: the shape, keys, and quirks of each upstream data.oregon.gov (Socrata) dataset — read before querying the mirror through `list_datasets`/`query_dataset`.
+- `[Appropriation-to-spending joins](joins/)`: which appropriations map to which mirrored spending, with the biennium-to-fiscal-year assumption stated on every join document. `join_lookup: found: false` means *no join recorded*, never *no relationship exists*.
+- `[Authority graph](_meta/graph.json)`: document relationships feeding `graph_neighbors` and `authority_chain`.
