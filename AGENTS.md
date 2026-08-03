@@ -102,5 +102,7 @@ PR. See toolkit `docs/replication-guide.md`.
 |---|---|---|
 | `_meta/graph.json` | `src/build_graph.py` | `generated` job, every PR |
 | `STATUS.md` | `corpus-generate-status` | weekly `drift` job |
+| `_meta/line-items.json` | `src/build_story_exports.py` | `generated` job, every PR |
+| `_meta/vendor-concentration.json` | `src/build_story_exports.py` | `generated` job, every PR |
 
 Regenerate at the source and commit the result.

@@ -44,6 +44,8 @@ jobs:
       - run: pip install pyyaml duckdb
       - name: Authority graph must be current
         run: python3 src/build_graph.py --check
+      - name: Story exports must be current
+        run: python3 src/build_story_exports.py --check
       # Re-derives every figure in all 544 agency-year documents from the committed
       # Parquet. corpus-verify-provenance structurally cannot do this: these are derived
       # aggregates, not extracted source text, so with snapshot_policy: hash-only and no
