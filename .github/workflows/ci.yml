@@ -6,15 +6,15 @@ on:
 
 jobs:
   frontmatter:
-    uses: OregonAI/corpus-toolkit/.github/workflows/validate-frontmatter.yml@v1.24.1
+    uses: OregonAI/corpus-toolkit/.github/workflows/validate-frontmatter.yml@v1.25.0
     with:
       # Pin the CODE, not just the workflow file above — separate knobs.
-      toolkit-ref: v1.24.1
+      toolkit-ref: v1.25.0
   provenance:
-    uses: OregonAI/corpus-toolkit/.github/workflows/verify-provenance.yml@v1.24.1
+    uses: OregonAI/corpus-toolkit/.github/workflows/verify-provenance.yml@v1.25.0
     with:
       # Pin the CODE, not just the workflow file above — separate knobs.
-      toolkit-ref: v1.24.1
+      toolkit-ref: v1.25.0
   # NO EXTERNAL LINK GATE, by decision (operator, 2026-08-01). Every external URL in
   # this corpus is either a generated mirror's source_url — whose SUBSTANCE is already
   # verified by snapshot hashes and the quotations gate against the sibling — or a
@@ -84,7 +84,7 @@ jobs:
       # The mcp extra is a TEST dependency here, not just a runtime one: these tests build
       # a real server. Installing without it made the toolkit's own suite red for four
       # releases while every one of them reported "N tests pass".
-      - run: pip install pytest "corpus-toolkit[mcp,semantic] @ git+https://github.com/OregonAI/corpus-toolkit@v1.24.1"
+      - run: pip install pytest "corpus-toolkit[mcp,semantic] @ git+https://github.com/OregonAI/corpus-toolkit@v1.25.0"
       - run: python -m pytest tests/ -q
 
   # Bill text is REFERENCED, not copied, so this corpus holds no bytes to check its own
