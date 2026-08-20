@@ -23,8 +23,28 @@
 
 sources:
   - id: agency-expenditures
+    sha256: "90f2f698490aeae5a952f671602619a44da90bb04da9e1f7d63df74719442186"
     url: "https://data.oregon.gov/api/views/y9g9-xsxs.json"
     format: json
+    # WHAT A CHANGE HERE ACTUALLY MEANS (corpus-toolkit#72). `url` points at the dataset's
+    # METADATA document, not its rows — hashing 668,906 rows reports a change every run and
+    # says nothing — but that metadata carries counters that move on their own:
+    #
+    #     rowsUpdatedAt   1765475245   the data, unchanged since 2025-12-11
+    #     viewCount       13812 -> 13875     +63 in one day, measured
+    #     downloadCount   35632 -> 36010    +378 in one day, measured
+    #
+    # So a whole-document hash drifted continuously while the data sat still. These paths
+    # are the ones worth waking someone for: when the data was last refreshed, and whether
+    # the schema this corpus ingests against still has the columns it expects.
+    #
+    # An ALLOWLIST, not a blocklist: a new Socrata counter is inert by construction rather
+    # than a fresh false positive until somebody extends a list of things to ignore.
+    watch:
+      - rowsUpdatedAt
+      - columns[].name
+      - columns[].fieldName
+      - columns[].dataTypeName
     citation: "Oregon Open Data dataset y9g9-xsxs — Agency Expenditures, Multi-Year Report"
     title: "Agency Expenditures – Multi-Year Report"
     doc_type: entity_doc
@@ -37,8 +57,28 @@ sources:
     references_out: []
 
   - id: budgeted-revenue
+    sha256: "ce5e816bb5616d0ae0a67a7762c55210087c8367adea7359f2e87c61bf86fe19"
     url: "https://data.oregon.gov/api/views/mwsa-rpk9.json"
     format: json
+    # WHAT A CHANGE HERE ACTUALLY MEANS (corpus-toolkit#72). `url` points at the dataset's
+    # METADATA document, not its rows — hashing 668,906 rows reports a change every run and
+    # says nothing — but that metadata carries counters that move on their own:
+    #
+    #     rowsUpdatedAt   1765475245   the data, unchanged since 2025-12-11
+    #     viewCount       13812 -> 13875     +63 in one day, measured
+    #     downloadCount   35632 -> 36010    +378 in one day, measured
+    #
+    # So a whole-document hash drifted continuously while the data sat still. These paths
+    # are the ones worth waking someone for: when the data was last refreshed, and whether
+    # the schema this corpus ingests against still has the columns it expects.
+    #
+    # An ALLOWLIST, not a blocklist: a new Socrata counter is inert by construction rather
+    # than a fresh false positive until somebody extends a list of things to ignore.
+    watch:
+      - rowsUpdatedAt
+      - columns[].name
+      - columns[].fieldName
+      - columns[].dataTypeName
     citation: "Oregon Open Data dataset mwsa-rpk9 — Budgeted Revenue"
     title: "Budgeted Revenue (2025-27 biennium)"
     doc_type: entity_doc
@@ -50,8 +90,28 @@ sources:
     references_out: []
 
   - id: lottery-expenditures
+    sha256: "8f2fef21d177fa67dd49ae29d78aa780bd6b9ccb0747683372ee983f35305e4d"
     url: "https://data.oregon.gov/api/views/anxj-teqh.json"
     format: json
+    # WHAT A CHANGE HERE ACTUALLY MEANS (corpus-toolkit#72). `url` points at the dataset's
+    # METADATA document, not its rows — hashing 668,906 rows reports a change every run and
+    # says nothing — but that metadata carries counters that move on their own:
+    #
+    #     rowsUpdatedAt   1765475245   the data, unchanged since 2025-12-11
+    #     viewCount       13812 -> 13875     +63 in one day, measured
+    #     downloadCount   35632 -> 36010    +378 in one day, measured
+    #
+    # So a whole-document hash drifted continuously while the data sat still. These paths
+    # are the ones worth waking someone for: when the data was last refreshed, and whether
+    # the schema this corpus ingests against still has the columns it expects.
+    #
+    # An ALLOWLIST, not a blocklist: a new Socrata counter is inert by construction rather
+    # than a fresh false positive until somebody extends a list of things to ignore.
+    watch:
+      - rowsUpdatedAt
+      - columns[].name
+      - columns[].fieldName
+      - columns[].dataTypeName
     citation: "Oregon Open Data dataset anxj-teqh — Lottery Expenditures, Multi-Year Report"
     title: "Lottery Expenditures – Multi-Year Report"
     doc_type: entity_doc
