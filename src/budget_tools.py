@@ -18,6 +18,11 @@ reasons — see MAX_ROWS.
 """
 from __future__ import annotations
 
+# Declared so the SDK emits an output schema naming corpus/archetype/authoritative_source
+# (corpus-toolkit#96). A bare `-> dict` declares no schema at all, so the answer travels
+# only as JSON text and a validating client can check nothing.
+from corpus_toolkit.mcp.responses import ResponseEnvelope
+
 import sys
 from pathlib import Path
 
@@ -116,7 +121,8 @@ def register(mcp, framework):
     joins_by_doc, joins_by_key = _load_joins()
 
     @mcp.tool()
-    def join_lookup(document_id: str = "", dataset_key: str = "") -> dict:
+    def join_lookup(document_id: str = "",
+                    dataset_key: str = "") -> ResponseEnvelope:
         """Find the appropriation↔spending links for a document id or a dataset key.
 
         The hybrid half of the MCP contract. Pass a document_id (an appropriation, a join,
@@ -125,33 +131,36 @@ def register(mcp, framework):
         counterparts on the other side, or an explicit empty result naming what was
         searched — never a bare empty list."""
         if not document_id and not dataset_key:
-            return {"error": "pass document_id or dataset_key",
-                    "example_key": "agency=107;fiscal_year=2024"}
+            return framework.with_envelope(
+    {"error": "pass document_id or dataset_key",
+                        "example_key": "agency=107;fiscal_year=2024"})
         hits = joins_by_doc.get(document_id, []) if document_id \
             else joins_by_key.get(dataset_key, [])
         if not hits:
             # "No mapping recorded" is NOT "no relationship exists". 150 of 170
             # appropriations fall outside the mirrored fiscal years and can never be
             # joined; a caller must be able to tell that from a missing document.
-            return {"found": False, "searched": document_id or dataset_key,
-                    "join_documents": 0,
-                    "note": ("No join is recorded for this. That is not evidence no "
-                             "relationship exists: joins are only built where an "
-                             "appropriation's biennium overlaps the mirrored fiscal years "
-                             "FY2019-FY2025, which excludes 150 of the 170 extracted "
-                             "appropriation documents, and where the agency name resolves "
-                             "exactly against the sibling registry."),
-                    "disclaimer": "non-authoritative"}
-        return {"found": True, "searched": document_id or dataset_key,
-                "join_documents": len(hits), "joins": hits,
-                "warning": ("These links pair an ENTITY and a PERIOD, never dollars with "
-                            "dollars. Agency spending totals do not account for a given "
-                            "appropriation and must not be presented as though they do. "
-                            "Every join is human_reviewed: false."),
-                "disclaimer": "non-authoritative"}
+            return framework.with_envelope(
+    {"found": False, "searched": document_id or dataset_key,
+                        "join_documents": 0,
+                        "note": ("No join is recorded for this. That is not evidence no "
+                                 "relationship exists: joins are only built where an "
+                                 "appropriation's biennium overlaps the mirrored fiscal years "
+                                 "FY2019-FY2025, which excludes 150 of the 170 extracted "
+                                 "appropriation documents, and where the agency name resolves "
+                                 "exactly against the sibling registry."),
+                        "disclaimer": "non-authoritative"})
+        return framework.with_envelope(
+    {"found": True, "searched": document_id or dataset_key,
+                    "join_documents": len(hits), "joins": hits,
+                    "warning": ("These links pair an ENTITY and a PERIOD, never dollars with "
+                                "dollars. Agency spending totals do not account for a given "
+                                "appropriation and must not be presented as though they do. "
+                                "Every join is human_reviewed: false."),
+                    "disclaimer": "non-authoritative"})
 
     @mcp.tool()
-    def list_datasets() -> dict:
+    def list_datasets() -> ResponseEnvelope:
         """The live Socrata datasets this corpus can query, with their filterable
         columns, whether each is also mirrored locally, and the known traps in each.
         Call this before query_dataset."""
@@ -165,17 +174,19 @@ def register(mcp, framework):
             if d.get("warning"):
                 entry["warning"] = d["warning"]
             out.append(entry)
-        return {"datasets": out,
-                "note": ("Figures returned by query_dataset are LIVE and carry their own "
-                         "executed_at. They are not covered by the corpus's git commit, "
-                         "which dates the mirrored documents only."),
-                "disclaimer": "non-authoritative; verify at the endpoint shown"}
+        return framework.with_envelope(
+    {"datasets": out,
+                    "note": ("Figures returned by query_dataset are LIVE and carry their own "
+                             "executed_at. They are not covered by the corpus's git commit, "
+                             "which dates the mirrored documents only."),
+                    "disclaimer": "non-authoritative; verify at the endpoint shown"})
 
     @mcp.tool()
     def query_dataset(dataset: str, group_by: str = "", limit: int = 50,
                       fiscal_year: str = "", agency: str = "", budget_class: str = "",
                       expend_class: str = "", vendor: str = "", dept_no: str = "",
-                      acct_name: str = "", gl_acct: str = "") -> dict:
+                      acct_name: str = "",
+                      gl_acct: str = "") -> ResponseEnvelope:
         """Query a live dataset with equality filters, optionally aggregating.
 
         `dataset` is a key from list_datasets. With `group_by` set to a column name the
@@ -185,9 +196,10 @@ def register(mcp, framework):
         SoQL executed, the endpoint, and executed_at."""
         d = DATASETS.get(dataset)
         if not d:
-            return {"error": f"no dataset {dataset!r}",
-                    "available": sorted(DATASETS),
-                    "hint": "call list_datasets() for columns and caveats"}
+            return framework.with_envelope(
+    {"error": f"no dataset {dataset!r}",
+                        "available": sorted(DATASETS),
+                        "hint": "call list_datasets() for columns and caveats"})
 
         supplied = {"fiscal_year": fiscal_year, "agency": agency,
                     "budget_class": budget_class, "expend_class": expend_class,
@@ -196,11 +208,13 @@ def register(mcp, framework):
         active = {k: v for k, v in supplied.items() if v}
         bad = [k for k in active if k not in d["columns"]]
         if bad:
-            return {"error": f"{d['title']} has no column(s): {', '.join(sorted(bad))}",
-                    "filterable_columns": d["columns"]}
+            return framework.with_envelope(
+    {"error": f"{d['title']} has no column(s): {', '.join(sorted(bad))}",
+                        "filterable_columns": d["columns"]})
         if group_by and group_by not in d["columns"]:
-            return {"error": f"cannot group by {group_by!r}",
-                    "filterable_columns": d["columns"]}
+            return framework.with_envelope(
+    {"error": f"cannot group by {group_by!r}",
+                        "filterable_columns": d["columns"]})
 
         where = _combine(soda.build_where(**active), d.get("exclude_where"))
         measure = d["measure"]
@@ -216,9 +230,10 @@ def register(mcp, framework):
 
         r = soda.fetch(d["id"], params)
         if not r.ok:
-            return {**r.envelope(), "dataset": dataset,
-                    "note": "the live API could not be queried — this is NOT a result of "
-                            "zero, and must not be reported as one"}
+            return framework.with_envelope(
+    {**r.envelope(), "dataset": dataset,
+                        "note": "the live API could not be queried — this is NOT a result of "
+                                "zero, and must not be reported as one"})
 
         out = {**r.envelope(), "dataset": dataset, "socrata_id": d["id"],
                "filters_applied": active or None,
@@ -237,4 +252,4 @@ def register(mcp, framework):
             row = r.rows[0] if r.rows else {}
             out["total"] = row.get("total")
             out["records"] = int(row.get("n") or 0)
-        return out
+        return framework.with_envelope(out)
