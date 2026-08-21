@@ -76,11 +76,21 @@ DISCLAIMER = "NON-AUTHORITATIVE"
 
 
 def erf_agencies(registry: Path) -> dict:
-    """name -> {slug, budget_agency_code} for ERF orgs carrying a budget code.
+    """oar_name -> {slug, budget_agency_code} for ERF orgs carrying a budget code.
 
     The codes are hand-reviewed in the sibling (src/link_budget_codes.py there). This
     corpus consumes them; it does not re-derive them, because a second fuzzy name match
     would reintroduce exactly the errors that review caught.
+
+    KEYED ON `oar_name`, NOT `name`. ERF's ADR 0003 splits the registry's one name field in
+    two: `name` becomes the body's STATUTORY name, while `oar_name` keeps the OAR chapter
+    title and "remains the string OAR-derived joins must match". The strings this corpus
+    resolves are `appropriated_to` lines lifted out of appropriation bills, which spell
+    agencies the way the rules index does, so this join belongs on the `oar_name` side of
+    that split. The two fields are identical in the registry today, so this changes nothing
+    now — and that is the point: it is changed BEFORE the values diverge, because a join
+    that silently keeps matching on a string that has quietly come to mean something else
+    is the exact failure this crosswalk exists to prevent.
     """
     if not registry.is_file():
         return {}
@@ -89,7 +99,13 @@ def erf_agencies(registry: Path) -> dict:
     for o in orgs:
         if not o.get("budget_agency_code"):
             continue
-        out[o["name"].lower()] = o
+        # A row with no `oar_name` is NOT OAR-joinable, and that is a legitimate registry
+        # state, not a defect: 19 bodies hold no OAR chapter (ADR 0003 admits bodies on
+        # enabling authority alone), so after #168 they have no chapter title to carry.
+        # Such a body stays reachable by alias below, and otherwise lands in the unresolved
+        # report — the visible state this corpus already keeps for "no counterpart".
+        if o.get("oar_name"):
+            out[o["oar_name"].lower()] = o
         # ALIASES are the sibling's curated assertion that these names denote the same
         # body — reviewed once there rather than fuzzy-matched here. This is the seam that
         # lets "State Forestry Department" resolve without loosening the matcher, and it
@@ -342,13 +358,17 @@ def unresolved_report(registry: Path) -> int:
 
     def suggest(name):
         """Closest registry entry by content-word overlap. A SUGGESTION for a human, never
-        applied — this is exactly the fuzzy matching resolve_agency refuses to do."""
+        applied — this is exactly the fuzzy matching resolve_agency refuses to do.
+
+        Scored against `oar_name` for the same reason erf_agencies() keys on it: a
+        suggestion is only actionable if it is computed over the string the join would
+        actually have to match."""
         t = toks(name)
         if not t:
             return None, 0.0
         best, score = None, 0.0
         for o in reg:
-            ot = toks(o["name"])
+            ot = toks(o.get("oar_name") or "")
             if not ot:
                 continue
             j = len(t & ot) / len(t | ot)
