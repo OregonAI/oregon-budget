@@ -4,6 +4,14 @@ corpus:
   name: "Oregon Budget — Appropriations and Expenditures"            # display name
   jurisdiction: "oregon"   # e.g. oregon | oregon/marion-county | oregon/salem
   archetype: "hybrid"         # document | api | hybrid
+  # WHERE THE OFFICIAL RECORD LIVES. This corpus has two upstreams and this names the
+  # larger: 1,214 of its 1,762 documents carry a source_url on OLIS, the Legislature's
+  # information system, which is where the enacted appropriation bills are published.
+  # The other 548 come from data.oregon.gov, the state's open-data portal, which is where
+  # the expenditure data lives. Per-document `source_url` remains the authority for any
+  # single document; this is the corpus-level pointer, not a claim that one host holds
+  # everything.
+  authoritative_source: "https://olis.oregonlegislature.gov/"
   schema_version: 1
   contract_version: 1
 
