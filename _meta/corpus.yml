@@ -66,6 +66,24 @@ plugins:
   tools_module: "src.budget_tools:register"
   # citation_module: "src.citation_schemes"    # calls mcp.framework.register_scheme()
   # snapshot_slice_module: "src.slicing:slice" # (doc_id, snapshot_id, raw_text) -> str
+  # THE FIELD THAT CARRIES AN AGENCY IDENTITY, declared so `documents_by_agency` reads it.
+  # Without this the toolkit falls back to a PATH-DERIVED scope slug and never looks at the
+  # frontmatter, so this corpus advertised the tool and answered a confident `total: 0` for
+  # every agency alive while 474 documents carried the slug it was asked for. A missing tool
+  # is visible; a zero is not (OregonAI/oregon-budget#40).
+  #
+  # Measured 2026-08-22 before declaring it: 474 of 1,762 documents carry the field, ALL of
+  # them under `joins/`, and all 55 distinct values resolve against ERF's 189-entry registry
+  # — zero unknown slugs, no sentinel values in use. The 1,288 that carry nothing are
+  # `bills/` (740), `expenditures/` (544) and `datasets/` (4): legislative and dataset
+  # documents that name no single agency, which `attribution` now reports as a COUNT rather
+  # than leaving to be inferred from a total.
+  #
+  # NO REGISTRY IS DECLARED BELOW, deliberately. The toolkit answers `slug_in_registry: null`
+  # and says it did not check, which is true — the crosswalk lives in the consumer by design
+  # ("the table lives in the consumer, correctness belongs to the registry"), and
+  # oregon-kpm and oregon-audits are in exactly this shape.
+  issuing_body_slug_field: "agency_registry_slug"
   # issuing_body_registry: "_meta/catalog/issuing-bodies.yml"
   # issuing_body_registry_key: "entries"       # the TOP-LEVEL KEY inside that file.
   #                                            # Defaults to "entries"; if your registry
