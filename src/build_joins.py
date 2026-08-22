@@ -180,8 +180,9 @@ def spending(con, agency: str, years: list[int]) -> dict:
     return {"total": row[0], "records": row[1], "vendors": row[2], "by_year": per}
 
 
-def build(fm: dict, org: dict, con, today: str) -> tuple[str, str]:
+def build(fm: dict, org: dict, con, today: str, cw: dict) -> tuple[str, str]:
     code = org["budget_agency_code"]
+    basis, basis_key = basis_provenance(code, cw)
     years = [y for y in fm["biennium_fiscal_years"] if y in MIRROR_YEARS]
     sp = spending(con, code, years)
     doc_id = f"join-{fm['id'].replace('appropriations-', '')}-agency-{code}"
@@ -218,6 +219,12 @@ def build(fm: dict, org: dict, con, today: str) -> tuple[str, str]:
         "sibling_document_id": fm.get("sibling_document_id"),
         "agency_code": code,
         "agency_registry_slug": org["slug"],
+        # WHY that slug is right, carried from the crosswalk rather than restated, so a
+        # consumer reading this document can tell a mechanical match from a judgment. It
+        # is the crosswalk's warrant for the AGENCY, about the crosswalk key named below
+        # — not a description of how this bill's own `appropriated_to` string matched.
+        "agency_registry_basis": basis,
+        "agency_registry_basis_key": basis_key,
         "agency_registry_corpus": "executive-regulatory-frameworks",
         "biennium": fm.get("biennium"),
         "fiscal_years": years,
@@ -283,7 +290,13 @@ def build(fm: dict, org: dict, con, today: str) -> tuple[str, str]:
              f"`{fm.get('sibling_corpus')}` corpus, referenced not copied.")
     L.append(f"- Agency identity: `{org['slug']}` in the "
              f"`executive-regulatory-frameworks` corpus, whose registry carries the "
-             f"hand-reviewed `budget_agency_code: {code}`.")
+             f"hand-reviewed `budget_agency_code: {code}`. Resolved here by matching this "
+             f"bill's `appropriated_to` string against that registry, exact-only.")
+    L.append(f"- Agency identity, independently: `_meta/agency-crosswalk.yml` resolves the "
+             f"expenditure feed's own name for this body, `{basis_key}`, to the same slug "
+             f"on basis `{basis}`. The `agency_registry_basis` in this document's "
+             f"frontmatter is THAT claim, about THAT string — not a description of how the "
+             f"bill's wording matched.")
     L.append(f"- Spending: the committed Parquet mirror, reconciled against live SODA "
              f"weekly.")
     L.append("")
@@ -325,6 +338,68 @@ def check(con) -> int:
           else f"  {bad} problem(s)")
     return 1 if bad else 0
 
+
+
+# ONE reader and ONE lookup for the crosswalk, imported rather than reimplemented.
+# Written the other way first, and the two copies immediately disagreed: this file's
+# lookup rescanned the mapping linearly and could not see the das-number conflict that
+# --check fails on, so a rebuild could write a basis the gate then rejected.
+import link_agency_registry as registry_link                     # noqa: E402
+
+CROSSWALK = registry_link.CROSSWALK
+
+
+def load_crosswalk(path: Path = CROSSWALK) -> dict:
+    """The crosswalk, or {} when it is absent. Absence is the caller's decision to make:
+    --unresolved-report degrades to "not recorded", the builder refuses to run."""
+    return registry_link.load_crosswalk(path) if path.is_file() else {}
+
+
+def basis_provenance(code: str, cw: dict) -> tuple[str, str]:
+    """(basis, crosswalk key) for DAS agency number `code`.
+
+    TWO DIFFERENT RESOLUTIONS OF THE SAME BODY MEET IN A JOIN DOCUMENT, and conflating
+    them would misattribute a warrant. This document's `agency_registry_slug` was reached
+    by resolve_agency() matching the BILL's `appropriated_to` string ("Department of
+    Justice") against the registry. The crosswalk reached the same slug from the
+    EXPENDITURE feed's string ("JUSTICE, DEPT OF") through the DAS number. They agree —
+    --check fails if they ever do not — but the `basis` recorded here is the crosswalk's,
+    about the crosswalk's key, and stamping it unlabelled would read as a description of
+    how the bill's own string matched. So the key travels with the basis and a reader can
+    see which string it is a claim about.
+
+    Raises rather than defaulting: a join that asserts a registry identity with no
+    recorded basis is exactly the state oregon-budget#23 was filed on, and a blank there
+    would be indistinguishable from a mapping nobody recorded.
+    """
+    index, conflicts = registry_link.by_das_number(cw.get("mapping") or {})
+    if conflicts:
+        raise KeyError("; ".join(conflicts))
+    for key, entry in sorted((cw.get("mapping") or {}).items()):
+        if str(entry.get("das_agency_number") or "") == str(code):
+            return index[str(code)]["basis"], key
+    raise KeyError(f"_meta/agency-crosswalk.yml maps no agency with das_agency_number "
+                   f"{code!r}; the join cannot record why its slug is right")
+
+
+def crosswalk_decision(name: str, cw: dict) -> str:
+    """The decision recorded for `name` in _meta/agency-crosswalk.yml, for section 4.
+
+    THE CROSSWALK IS THE SOURCE OF RECORD for why a body has no registry counterpart;
+    this report renders it. Before that was decided (oregon-budget#23) the reason lived
+    only in this generator's section-4 paragraph, which is a fixed class statement printed
+    over whichever names scored below the fuzzy threshold — a bucket label being read as a
+    finding about each body in it. A body with no entry reads as "not recorded" rather
+    than as a blank cell, because a blank is precisely how "we looked and there is nothing"
+    and "nobody has looked" became the same state.
+    """
+    entry = (cw.get("unmapped") or {}).get(name) or (cw.get("mapping") or {}).get(name)
+    if not isinstance(entry, dict):
+        return "**not recorded** — add an entry to `_meta/agency-crosswalk.yml`"
+    if entry.get("slug"):
+        return f"mapped to `{entry['slug']}` (basis `{entry.get('basis')}`)"
+    reason = " ".join((entry.get("reason") or "").split())
+    return f"`{entry.get('basis')}` — {reason}"
 
 
 def unresolved_report(registry: Path) -> int:
@@ -516,19 +591,25 @@ def unresolved_report(registry: Path) -> int:
     for name, docs, best, score in sorted(nocode, key=lambda x: -len(x[1])):
         L.append(f"| {name} | {len(docs)} | `{best['slug']}` |")
 
-    L += ["", "## 4. No registry counterpart — correctly unresolved", "",
-          f"**{sum(len(d) for _, d, _, _ in absent)} appropriations.** These bodies issue "
-          f"no administrative rules, so they hold no OAR chapter and do not appear in a "
-          f"registry keyed on chapter assignment. The Emergency Board is a contingency "
-          f"fund that disburses through other agencies; the Governor's office and the "
-          f"legislative-branch bodies are outside the executive rulemaking scheme "
-          f"entirely. Absence here is a fact about the registry's scope, not a gap to "
-          f"fill.", "",
-          "| bill says | appropriations | closest registry entry (no code / low overlap) |",
-          "|---|---:|---|"]
+    cw = load_crosswalk()
+    L += ["", "## 4. No registry counterpart", "",
+          f"**{sum(len(d) for _, d, _, _ in absent)} appropriations.** The exact-only "
+          f"matcher resolved none of these names against the registry, and the "
+          f"content-word suggester below found nothing close enough to propose. THAT IS "
+          f"ALL THIS SECTION MEASURES. Whether a body is absent because it issues no "
+          f"administrative rules and so holds no OAR chapter — the registry is keyed on "
+          f"chapter assignment — or because nobody has looked, is a decision, and "
+          f"decisions live in `_meta/agency-crosswalk.yml`. The last column is that "
+          f"file's, rendered here rather than restated: `reviewed` means somebody "
+          f"established why there is no counterpart, `not-reviewed` means the mechanical "
+          f"check found none and nobody has established why.", "",
+          "| bill says | appropriations | closest registry entry (no code / low overlap) "
+          "| recorded decision (`_meta/agency-crosswalk.yml`) |",
+          "|---|---:|---|---|"]
     for name, docs, best, score in sorted(absent, key=lambda x: -len(x[1])):
         near = f"`{best['slug']}` ({score:.2f})" if best and score >= 0.4 else "—"
-        L.append(f"| {name} | {len(docs)} | {near} |")
+        L.append(f"| {name} | {len(docs)} | {near} | "
+                 f"{crosswalk_decision(name, cw).replace('|', chr(92) + '|')} |")
 
     L += ["", "---", "",
           "Appropriations whose biennium falls OUTSIDE FY2019–FY2025 are not listed here — "
@@ -575,6 +656,13 @@ def main() -> int:
               f"NOT a pass.", file=sys.stderr)
         return 2
 
+    cw = load_crosswalk()
+    if not (cw.get("mapping") or {}):
+        print(f"SKIPPED: no crosswalk at {CROSSWALK}. Join documents cannot record the "
+              f"basis for the registry slug they carry, and this is NOT a pass.",
+              file=sys.stderr)
+        return 2
+
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     OUT.mkdir(exist_ok=True)
     written = out_of_range = unresolved = 0
@@ -589,7 +677,7 @@ def main() -> int:
             unresolved += 1
             unresolved_names.append((fm["id"], (fm.get("appropriated_to") or "")[:48]))
             continue
-        doc_id, text = build(fm, org, con, today)
+        doc_id, text = build(fm, org, con, today, cw)
         (OUT / f"{doc_id}.md").write_text(text)
         written += 1
 

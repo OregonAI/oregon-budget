@@ -69,6 +69,18 @@ jobs:
       # truth here; drift from DAS is caught by running --refresh in review.
       - name: Account-code reference must be current
         run: python3 src/build_account_codes.py --check
+      # Every agency name string this corpus records must be a DECISION: mapped to a
+      # registry slug with a stated basis, or recorded as unmapped with a stated reason.
+      # Before the crosswalk existed, 474 documents carried a slug with no recorded
+      # warrant and 83 expenditure agency strings had no recorded resolution in either
+      # direction — "we looked and there is no counterpart" and "nobody has looked yet"
+      # were the same state.
+      #
+      # OFFLINE like its neighbours. This mode reads only what is committed here, which
+      # is why it can run per-PR at all: resolving slugs against the sibling registry is
+      # `--verify-registry`, run locally and in review.
+      - name: Every agency string must be a recorded decision
+        run: python3 src/link_agency_registry.py --check
 
   # The hybrid seam's disciplines: live figures never merge into mirrored fields, and an
   # unavailable API is never served as a zero. Both are monkeypatched rather than live —

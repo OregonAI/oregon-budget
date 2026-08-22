@@ -114,6 +114,8 @@ wired into CI. The split is deliberate:
 | `build_dataset_docs.py --check` | weekly | needs the live API; detects upstream schema drift |
 | `build_joins.py --check` | every PR | offline; every `document_id` resolves and every key selects rows |
 | `extract_appropriations.py --check` | every PR | clones the sibling; all 1,704 quoted bill lines must still exist |
+| `link_agency_registry.py --check` | every PR | offline; every agency name string is a recorded decision, and every stamped slug agrees with the crosswalk |
+| `link_agency_registry.py --verify-registry` | locally, in review | resolves every crosswalk slug and DAS number against ERF; **exits 2**, never 0, with no sibling present |
 
 The live checks are deliberately not per-PR. A gate that depends on a third party being up
 goes red for reasons unrelated to the change, and a gate that cries wolf is one people

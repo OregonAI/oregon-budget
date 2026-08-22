@@ -39,6 +39,8 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2017r1-sb5536
 agency_code: '165'
 agency_registry_slug: secretary-of-state
+agency_registry_basis: exact
+agency_registry_basis_key: SECRETARY OF STATE
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2017
 fiscal_years:
@@ -76,5 +78,6 @@ Answering "was this appropriation spent?" needs an expenditure record carrying t
 
 - Appropriation figures: `appropriations-2017r1-sb5536` in this corpus — machine-extracted from bill text and **not human-reviewed**.
 - Bill text: `measure-2017r1-sb5536` in the `oregon-legislature` corpus, referenced not copied.
-- Agency identity: `secretary-of-state` in the `executive-regulatory-frameworks` corpus, whose registry carries the hand-reviewed `budget_agency_code: 165`.
+- Agency identity: `secretary-of-state` in the `executive-regulatory-frameworks` corpus, whose registry carries the hand-reviewed `budget_agency_code: 165`. Resolved here by matching this bill's `appropriated_to` string against that registry, exact-only.
+- Agency identity, independently: `_meta/agency-crosswalk.yml` resolves the expenditure feed's own name for this body, `SECRETARY OF STATE`, to the same slug on basis `exact`. The `agency_registry_basis` in this document's frontmatter is THAT claim, about THAT string — not a description of how the bill's wording matched.
 - Spending: the committed Parquet mirror, reconciled against live SODA weekly.

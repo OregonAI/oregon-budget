@@ -43,6 +43,8 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2019r1-hb5028
 agency_code: '662'
 agency_registry_slug: land-use-board-of-appeals
+agency_registry_basis: das_number
+agency_registry_basis_key: LAND USE BRD OF APPEALS
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2019
 fiscal_years:
@@ -82,5 +84,6 @@ Answering "was this appropriation spent?" needs an expenditure record carrying t
 
 - Appropriation figures: `appropriations-2019r1-hb5028` in this corpus — machine-extracted from bill text and **not human-reviewed**.
 - Bill text: `measure-2019r1-hb5028` in the `oregon-legislature` corpus, referenced not copied.
-- Agency identity: `land-use-board-of-appeals` in the `executive-regulatory-frameworks` corpus, whose registry carries the hand-reviewed `budget_agency_code: 662`.
+- Agency identity: `land-use-board-of-appeals` in the `executive-regulatory-frameworks` corpus, whose registry carries the hand-reviewed `budget_agency_code: 662`. Resolved here by matching this bill's `appropriated_to` string against that registry, exact-only.
+- Agency identity, independently: `_meta/agency-crosswalk.yml` resolves the expenditure feed's own name for this body, `LAND USE BRD OF APPEALS`, to the same slug on basis `das_number`. The `agency_registry_basis` in this document's frontmatter is THAT claim, about THAT string — not a description of how the bill's wording matched.
 - Spending: the committed Parquet mirror, reconciled against live SODA weekly.

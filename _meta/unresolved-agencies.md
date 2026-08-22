@@ -1,6 +1,6 @@
 # Unresolved agencies
 
-_Generated 2026-08-02 by `python3 src/build_joins.py --unresolved-report`. Do not edit by hand._
+_Generated 2026-08-22 by `python3 src/build_joins.py --unresolved-report`. Do not edit by hand._
 
 **70 appropriations** across **11 distinct names** overlap the FY2019–FY2025 expenditure mirror but name an agency that does not resolve against the sibling registry's `budget_agency_code`, so no join was built.
 
@@ -53,19 +53,19 @@ _None._
 | Oregon Patient Safety Commission | 1 | `oregon-patient-safety-commission` |
 | Invasive Species Council | 1 | `department-of-agriculture-oregon-invasive-species-council` |
 
-## 4. No registry counterpart — correctly unresolved
+## 4. No registry counterpart
 
-**12 appropriations.** These bodies issue no administrative rules, so they hold no OAR chapter and do not appear in a registry keyed on chapter assignment. The Emergency Board is a contingency fund that disburses through other agencies; the Governor's office and the legislative-branch bodies are outside the executive rulemaking scheme entirely. Absence here is a fact about the registry's scope, not a gap to fill.
+**12 appropriations.** The exact-only matcher resolved none of these names against the registry, and the content-word suggester below found nothing close enough to propose. THAT IS ALL THIS SECTION MEASURES. Whether a body is absent because it issues no administrative rules and so holds no OAR chapter — the registry is keyed on chapter assignment — or because nobody has looked, is a decision, and decisions live in `_meta/agency-crosswalk.yml`. The last column is that file's, rendered here rather than restated: `reviewed` means somebody established why there is no counterpart, `not-reviewed` means the mechanical check found none and nobody has established why.
 
-| bill says | appropriations | closest registry entry (no code / low overlap) |
-|---|---:|---|
-| Emergency Board | 6 | — |
-| State Workforce Investment Board | 1 | — |
-| Oregon Ocean Science Trust | 1 | — |
-| Oregon Climate Authority | 1 | — |
-| State Workforce and Talent Development Board | 1 | — |
-| Office of Child Care | 1 | — |
-| Elliott State Research Forest Authority | 1 | — |
+| bill says | appropriations | closest registry entry (no code / low overlap) | recorded decision (`_meta/agency-crosswalk.yml`) |
+|---|---:|---|---|
+| Emergency Board | 6 | — | `reviewed` — The Emergency Board is a contingency fund that disburses through other agencies, so it issues no administrative rules, holds no OAR chapter, and does not appear in a registry keyed on chapter assignment. Absence here is a fact about the registry's scope, not a gap to fill. |
+| State Workforce Investment Board | 1 | — | `not-reviewed` — NOT REVIEWED. The only thing on record about this body is the `checked` field of this entry: the exact-only matcher resolved it to nothing and the report's suggester found no registry entry close enough to propose. Whether it holds no OAR chapter — which would make its absence correct by construction — or holds one the registry has not recorded, nobody has established. |
+| Oregon Ocean Science Trust | 1 | — | `not-reviewed` — NOT REVIEWED. The only thing on record is the `checked` field of this entry. Whether this body holds no OAR chapter, or holds one the registry has not recorded, nobody has established. |
+| Oregon Climate Authority | 1 | — | `not-reviewed` — NOT REVIEWED. The only thing on record is the `checked` field of this entry. A name appearing in a bill is not by itself evidence that the body was created, so even "this body exists" is unestablished here, let alone why the registry has no entry for it. |
+| State Workforce and Talent Development Board | 1 | — | `not-reviewed` — NOT REVIEWED. The only thing on record is the `checked` field of this entry. Whether this body holds no OAR chapter, or holds one the registry has not recorded, nobody has established. Note that "State Workforce Investment Board" is also recorded here, unreviewed, and whether the two names denote one body across a rename is part of what nobody has looked at. |
+| Office of Child Care | 1 | — | `not-reviewed` — NOT REVIEWED. The only thing on record is the `checked` field of this entry. The registry does carry early-learning bodies (oregon-department-of-education-early- learning-division, DAS number 588), so whether this is a unit of one of them, a body the registry has not recorded, or correctly absent, is exactly the question nobody has answered. |
+| Elliott State Research Forest Authority | 1 | — | `not-reviewed` — NOT REVIEWED. The only thing on record is the `checked` field of this entry. Whether this body holds no OAR chapter, or holds one the registry has not recorded, nobody has established. |
 
 ---
 

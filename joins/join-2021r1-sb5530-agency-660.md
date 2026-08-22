@@ -43,6 +43,8 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2021r1-sb5530
 agency_code: '660'
 agency_registry_slug: land-conservation-and-development-department
+agency_registry_basis: das_number
+agency_registry_basis_key: LAND CONSERV & DEV, DEPT OF
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2021
 fiscal_years:
@@ -82,5 +84,6 @@ Answering "was this appropriation spent?" needs an expenditure record carrying t
 
 - Appropriation figures: `appropriations-2021r1-sb5530` in this corpus — machine-extracted from bill text and **not human-reviewed**.
 - Bill text: `measure-2021r1-sb5530` in the `oregon-legislature` corpus, referenced not copied.
-- Agency identity: `land-conservation-and-development-department` in the `executive-regulatory-frameworks` corpus, whose registry carries the hand-reviewed `budget_agency_code: 660`.
+- Agency identity: `land-conservation-and-development-department` in the `executive-regulatory-frameworks` corpus, whose registry carries the hand-reviewed `budget_agency_code: 660`. Resolved here by matching this bill's `appropriated_to` string against that registry, exact-only.
+- Agency identity, independently: `_meta/agency-crosswalk.yml` resolves the expenditure feed's own name for this body, `LAND CONSERV & DEV, DEPT OF`, to the same slug on basis `das_number`. The `agency_registry_basis` in this document's frontmatter is THAT claim, about THAT string — not a description of how the bill's wording matched.
 - Spending: the committed Parquet mirror, reconciled against live SODA weekly.
