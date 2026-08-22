@@ -28,6 +28,7 @@ from __future__ import annotations
 import argparse
 import re
 import sys
+from collections.abc import Sequence
 from pathlib import Path
 
 import yaml
@@ -110,8 +111,31 @@ def report_bodies(text: str) -> list[str]:
     return out
 
 
+def check_report_readable(text: str | None) -> list[str]:
+    """The section-4 gate's own precondition, checked separately.
+
+    Written after a review pointed out that the gate passed silently when the report was
+    missing or its heading no longer matched — a gate whose input cannot be read reports
+    "checked" for a comparison that never ran, which is the exact failure mode this repo's
+    CI comments keep naming. Absent input is a FAILURE here, never a skip.
+    """
+    if text is None:
+        return ["_meta/unresolved-agencies.md is missing, so the crosswalk could not be "
+                "checked against it — regenerate it with "
+                "`python3 src/build_joins.py --unresolved-report`"]
+    if not SECTION_4_RE.search(text):
+        return ["_meta/unresolved-agencies.md has no section 4 heading (`## 4.`), so the "
+                "crosswalk could not be checked against it — the report's shape changed "
+                "and this gate was not read"]
+    if not report_bodies(text):
+        return ["section 4 of _meta/unresolved-agencies.md parsed to zero bodies — either "
+                "the table shape changed or the rows were removed; either way nothing "
+                "was checked"]
+    return []
+
+
 def check(cw: dict, names: dict[str, int], bills: dict[str, int],
-          stamped: list[dict], section_4_bodies: list[str] = ()) -> list[str]:
+          stamped: list[dict], section_4_bodies: Sequence[str] = ()) -> list[str]:
     """Committed-data-only validation. Never touches the sibling.
 
     Returns a list of problems, each NAMING the offending string — a count alone sends
@@ -193,6 +217,20 @@ def check(cw: dict, names: dict[str, int], bills: dict[str, int],
         bad.append(f"{len(undecided)} body/bodies in section 4 of "
                    f"_meta/unresolved-agencies.md have no crosswalk entry: {undecided[:5]}")
 
+    # ... AND THE OTHER WAY ROUND, because a one-sided gate is defeated by editing the
+    # file it gates: drop a row from section 4 and the assertion disappears instead of
+    # failing. An unmapped entry keyed on a bill string exists to carry that section's
+    # reason, so it must still be found there. Deleting information is now a failure, not
+    # a way to pass.
+    if section_4_bodies:
+        orphaned = sorted(k for k in unmapped
+                          if k in bills and k not in names and k not in set(section_4_bodies))
+        if orphaned:
+            bad.append(f"{len(orphaned)} unmapped entry/entries carry a reason for a bill "
+                       f"string that section 4 of _meta/unresolved-agencies.md no longer "
+                       f"names — regenerate the report, or say in the entry why it is "
+                       f"recorded here: {orphaned[:5]}")
+
     bad += check_stamps(mapping, stamped)
     return bad
 
@@ -211,6 +249,7 @@ def by_das_number(mapping: dict) -> tuple[dict[str, dict], list[str]]:
         n = str(v.get("das_agency_number") or "")
         if not n:
             continue
+        v = dict(v, crosswalk_key=k)
         prev = out.setdefault(n, v)
         if (prev.get("slug"), prev.get("basis")) != (v.get("slug"), v.get("basis")):
             conflicts.append(f"das_agency_number {n} resolves two ways: "
@@ -232,7 +271,7 @@ def check_stamps(mapping: dict, stamped: list[dict]) -> list[str]:
     same report with the count buried, and it is how a reader stops reading CI output.
     """
     index, bad = by_das_number(mapping)
-    unknown, wrong_slug, no_basis, wrong_basis = [], [], [], []
+    unknown, wrong_slug, no_basis, wrong_basis, wrong_key = [], [], [], [], []
     for doc in stamped:
         code = str(doc.get("agency_code") or "")
         entry = index.get(code)
@@ -247,6 +286,15 @@ def check_stamps(mapping: dict, stamped: list[dict]) -> list[str]:
         elif doc["agency_registry_basis"] != entry.get("basis"):
             wrong_basis.append(f"{doc.get('id')}: {doc['agency_registry_basis']!r} vs "
                                f"crosswalk {entry.get('basis')!r}")
+        # The KEY is what makes the stamped basis attributable: it names the string the
+        # basis is a claim about, which is the expenditure feed's spelling and NOT this
+        # document's own `appropriated_to`. Without it the basis reads as a description
+        # of a resolution it did not describe.
+        if not doc.get("agency_registry_basis_key"):
+            wrong_key.append(f"{doc.get('id')}: no agency_registry_basis_key")
+        elif doc["agency_registry_basis_key"] != entry.get("crosswalk_key"):
+            wrong_key.append(f"{doc.get('id')}: {doc['agency_registry_basis_key']!r} vs "
+                             f"crosswalk key {entry.get('crosswalk_key')!r}")
 
     def line(items: list[str], msg: str) -> None:
         if items:
@@ -259,6 +307,9 @@ def check_stamps(mapping: dict, stamped: list[dict]) -> list[str]:
                    "`python3 src/link_agency_registry.py --stamp`")
     line(wrong_basis, "carry an agency_registry_basis the crosswalk disagrees with — run "
                       "`python3 src/link_agency_registry.py --stamp`")
+    line(wrong_key, "carry a missing or wrong agency_registry_basis_key, so the stamped "
+                    "basis names no string it is a claim about — run "
+                    "`python3 src/link_agency_registry.py --stamp`")
     return bad
 
 
@@ -268,7 +319,12 @@ def check_stamps(mapping: dict, stamped: list[dict]) -> list[str]:
 # "copy it verbatim ... both sides then compute the same answers by construction instead
 # of by agreement". All three corpora define `basis: exact` with the same permitted moves,
 # so they must normalise identically or the same pair of names is exact in one repo and
-# not the other.
+# not the other. VERIFIED byte-identical against both siblings on 2026-08-22.
+#
+# NOT COVERED BY A PARITY GATE. The oregon-audits copy says in as many words: "if this
+# block grows a third copy, wire that gate before it drifts." This IS the third copy and
+# the gate is not here — filed as OregonAI/oregon-budget#44 rather than left as a comment
+# nobody greps.
 def norm_variants(name: str) -> set[str]:
     """Every reading the crosswalk note permits `basis: exact` to use.
 
@@ -283,7 +339,7 @@ def norm_variants(name: str) -> set[str]:
     always-invert reported 'Secretary of State Audits Division' as failing to match an
     oar_name that is the same name with a comma in it.
     """
-    n = name.strip().replace("’", "'")
+    n = name.strip().replace("\u2019", "'")
     readings = {n.replace(",", " ")}
     if "," in n:
         head, tail = n.rsplit(",", 1)
@@ -358,7 +414,7 @@ def verify_registry(cw: dict, index: dict[str, dict]) -> list[str]:
     return bad
 
 
-STAMP_RE = re.compile(r"^agency_registry_basis: .*\n", re.M)
+STAMP_RE = re.compile(r"^agency_registry_basis(_key)?: .*\n", re.M)
 
 
 def stamped_docs(roots=(JOINS, EXPENDITURES, BILLS)) -> list[dict]:
@@ -374,7 +430,9 @@ def stamped_docs(roots=(JOINS, EXPENDITURES, BILLS)) -> list[dict]:
                             "path": p,
                             "agency_code": str(fm.get("agency_code") or ""),
                             "agency_registry_slug": fm.get("agency_registry_slug"),
-                            "agency_registry_basis": fm.get("agency_registry_basis")})
+                            "agency_registry_basis": fm.get("agency_registry_basis"),
+                            "agency_registry_basis_key":
+                                fm.get("agency_registry_basis_key")})
     return out
 
 
@@ -394,8 +452,11 @@ def stamp(mapping: dict, docs: list[dict] | None = None) -> tuple[int, int]:
         examined += 1
         p = doc["path"]
         text = p.read_text(encoding="utf-8")
-        head, body = text.split("---\n", 2)[1], text.split("---\n", 2)[2]
-        want = f"agency_registry_basis: {entry['basis']}\n"
+        _, head, body = text.split("---\n", 2)
+        want = (f"agency_registry_basis: {entry['basis']}\n"
+                + "agency_registry_basis_key: "
+                + yaml.safe_dump(entry["crosswalk_key"], default_flow_style=True,
+                                 allow_unicode=True).removesuffix("\n...\n") + "\n")
         head = STAMP_RE.sub("", head)
         # Immediately after the slug it qualifies, so the warrant sits beside the claim.
         anchor = re.compile(r"^(agency_registry_slug: .*\n)", re.M)
@@ -425,8 +486,9 @@ def main() -> int:
     if args.check:
         names, bills, docs = corpus_names(), bill_names(), stamped_docs()
         report = ROOT / "_meta" / "unresolved-agencies.md"
-        bodies = report_bodies(report.read_text(encoding="utf-8")) if report.is_file() else []
-        problems = check(cw, names, bills, docs, bodies)
+        text = report.read_text(encoding="utf-8") if report.is_file() else None
+        problems = check_report_readable(text)
+        problems += check(cw, names, bills, docs, report_bodies(text or ""))
         for p in problems:
             print(f"FAIL  {p}", file=sys.stderr)
         reviewed = sum(1 for v in unmapped.values()

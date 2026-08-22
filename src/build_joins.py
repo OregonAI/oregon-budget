@@ -182,6 +182,7 @@ def spending(con, agency: str, years: list[int]) -> dict:
 
 def build(fm: dict, org: dict, con, today: str, cw: dict) -> tuple[str, str]:
     code = org["budget_agency_code"]
+    basis, basis_key = basis_provenance(code, cw)
     years = [y for y in fm["biennium_fiscal_years"] if y in MIRROR_YEARS]
     sp = spending(con, code, years)
     doc_id = f"join-{fm['id'].replace('appropriations-', '')}-agency-{code}"
@@ -219,8 +220,11 @@ def build(fm: dict, org: dict, con, today: str, cw: dict) -> tuple[str, str]:
         "agency_code": code,
         "agency_registry_slug": org["slug"],
         # WHY that slug is right, carried from the crosswalk rather than restated, so a
-        # consumer reading this document can tell a mechanical match from a judgment.
-        "agency_registry_basis": join_basis(code, cw),
+        # consumer reading this document can tell a mechanical match from a judgment. It
+        # is the crosswalk's warrant for the AGENCY, about the crosswalk key named below
+        # — not a description of how this bill's own `appropriated_to` string matched.
+        "agency_registry_basis": basis,
+        "agency_registry_basis_key": basis_key,
         "agency_registry_corpus": "executive-regulatory-frameworks",
         "biennium": fm.get("biennium"),
         "fiscal_years": years,
@@ -286,7 +290,13 @@ def build(fm: dict, org: dict, con, today: str, cw: dict) -> tuple[str, str]:
              f"`{fm.get('sibling_corpus')}` corpus, referenced not copied.")
     L.append(f"- Agency identity: `{org['slug']}` in the "
              f"`executive-regulatory-frameworks` corpus, whose registry carries the "
-             f"hand-reviewed `budget_agency_code: {code}`.")
+             f"hand-reviewed `budget_agency_code: {code}`. Resolved here by matching this "
+             f"bill's `appropriated_to` string against that registry, exact-only.")
+    L.append(f"- Agency identity, independently: `_meta/agency-crosswalk.yml` resolves the "
+             f"expenditure feed's own name for this body, `{basis_key}`, to the same slug "
+             f"on basis `{basis}`. The `agency_registry_basis` in this document's "
+             f"frontmatter is THAT claim, about THAT string — not a description of how the "
+             f"bill's wording matched.")
     L.append(f"- Spending: the committed Parquet mirror, reconciled against live SODA "
              f"weekly.")
     L.append("")
@@ -330,25 +340,44 @@ def check(con) -> int:
 
 
 
-CROSSWALK = ROOT / "_meta" / "agency-crosswalk.yml"
+# ONE reader and ONE lookup for the crosswalk, imported rather than reimplemented.
+# Written the other way first, and the two copies immediately disagreed: this file's
+# lookup rescanned the mapping linearly and could not see the das-number conflict that
+# --check fails on, so a rebuild could write a basis the gate then rejected.
+import link_agency_registry as registry_link                     # noqa: E402
+
+CROSSWALK = registry_link.CROSSWALK
 
 
 def load_crosswalk(path: Path = CROSSWALK) -> dict:
-    return yaml.safe_load(path.read_text(encoding="utf-8")) or {} if path.is_file() else {}
+    """The crosswalk, or {} when it is absent. Absence is the caller's decision to make:
+    --unresolved-report degrades to "not recorded", the builder refuses to run."""
+    return registry_link.load_crosswalk(path) if path.is_file() else {}
 
 
-def join_basis(code: str, cw: dict) -> str:
-    """The `basis` _meta/agency-crosswalk.yml records for DAS agency number `code`.
+def basis_provenance(code: str, cw: dict) -> tuple[str, str]:
+    """(basis, crosswalk key) for DAS agency number `code`.
 
-    The join document repeats the crosswalk's slug, so it must repeat its WARRANT too, and
-    from the same file — otherwise a rebuild and a `--stamp` can write different answers
-    into the same field. Raises rather than defaulting: a join that asserts a registry
-    identity with no recorded basis is exactly the state oregon-budget#23 was filed on, and
-    a blank there would be indistinguishable from a mapping nobody recorded.
+    TWO DIFFERENT RESOLUTIONS OF THE SAME BODY MEET IN A JOIN DOCUMENT, and conflating
+    them would misattribute a warrant. This document's `agency_registry_slug` was reached
+    by resolve_agency() matching the BILL's `appropriated_to` string ("Department of
+    Justice") against the registry. The crosswalk reached the same slug from the
+    EXPENDITURE feed's string ("JUSTICE, DEPT OF") through the DAS number. They agree —
+    --check fails if they ever do not — but the `basis` recorded here is the crosswalk's,
+    about the crosswalk's key, and stamping it unlabelled would read as a description of
+    how the bill's own string matched. So the key travels with the basis and a reader can
+    see which string it is a claim about.
+
+    Raises rather than defaulting: a join that asserts a registry identity with no
+    recorded basis is exactly the state oregon-budget#23 was filed on, and a blank there
+    would be indistinguishable from a mapping nobody recorded.
     """
-    for k, v in sorted((cw.get("mapping") or {}).items()):
-        if isinstance(v, dict) and str(v.get("das_agency_number") or "") == str(code):
-            return v["basis"]
+    index, conflicts = registry_link.by_das_number(cw.get("mapping") or {})
+    if conflicts:
+        raise KeyError("; ".join(conflicts))
+    for key, entry in sorted((cw.get("mapping") or {}).items()):
+        if str(entry.get("das_agency_number") or "") == str(code):
+            return index[str(code)]["basis"], key
     raise KeyError(f"_meta/agency-crosswalk.yml maps no agency with das_agency_number "
                    f"{code!r}; the join cannot record why its slug is right")
 

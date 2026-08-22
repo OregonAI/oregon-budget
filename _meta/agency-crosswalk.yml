@@ -38,9 +38,9 @@ note: 'Crosswalk from the agency name strings this corpus records to the
   through, so that a variant is never confirmed by loosening src/build_joins.py''s
   exact-only matcher.
 
-  HOW THE 81 `das_number` ENTRIES GOT HERE. Seeded once, mechanically, by composing the two
-  committed facts above; the file is COMMITTED SOURCE OF RECORD from then on, not a
-  generated artifact — no script rewrites it, and --verify-registry re-tests every slug and
+  HOW THE 81 MAPPING ENTRIES GOT HERE — 75 `das_number`, 6 `exact`, 0 `alias`. Seeded once,
+  mechanically, by composing the two committed facts above; the file is COMMITTED SOURCE OF
+  RECORD from then on, not a generated artifact — no script rewrites it, and --verify-registry re-tests every slug and
   every das_agency_number against ERF rather than trusting what is written here.
 
   ITS RELATION TO _meta/unresolved-agencies.md, decided rather than left to both files
@@ -50,6 +50,14 @@ note: 'Crosswalk from the agency name strings this corpus records to the
   report renders them from here, so the same fact is asserted in one voice. The report keeps
   what it is good at — counting appropriations and bucketing them by the response each needs
   — and no longer states a per-body reason of its own.
+
+  WHAT A DOCUMENT CARRIES. A document whose agency this file maps is stamped with
+  `agency_registry_basis` AND `agency_registry_basis_key`. The key is not decoration: a join
+  document reached its `agency_registry_slug` by matching the BILL''s `appropriated_to`
+  wording against the registry, while the basis stamped beside it is this file''s warrant,
+  about the EXPENDITURE feed''s spelling of the same body. Two resolutions, agreeing —
+  --check fails if they ever do not — but a basis carrying no key would read as a
+  description of the resolution it is not about.
 
   Follows oregon-audits'' and oregon-kpm''s _meta/agency-crosswalk.yml: the table lives in the
   consumer, correctness belongs to the registry.'
@@ -435,6 +443,17 @@ unmapped:
       by name. Carried here rather than restated; the report now renders it from this file.
   'State Workforce Investment Board':
     basis: not-reviewed
+    previously_stated: 'Carried verbatim from _meta/unresolved-agencies.md section 4 as it
+      read before this file existed, so nothing is lost by the report no longer saying it:
+      "These bodies issue no administrative rules, so they hold no OAR chapter and do not
+      appear in a registry keyed on chapter assignment. The Emergency Board is a contingency
+      fund that disburses through other agencies; the Governor''s office and the
+      legislative-branch bodies are outside the executive rulemaking scheme entirely. Absence
+      here is a fact about the registry''s scope, not a gap to fill." It is recorded, not
+      adopted: that paragraph was printed over every name scoring below the suggester''s
+      threshold, and it reasons about the Governor''s office and legislative-branch bodies,
+      which have not been in that bucket since those names started resolving. It says nothing
+      about THIS body, which is why the basis above is not-reviewed.'
     checked: No organization in ERF's registry is named "State Workforce Investment Board"
       and none carries an alias for it.
     reason: >-
@@ -445,6 +464,17 @@ unmapped:
       recorded, nobody has established.
   'Oregon Ocean Science Trust':
     basis: not-reviewed
+    previously_stated: 'Carried verbatim from _meta/unresolved-agencies.md section 4 as it
+      read before this file existed, so nothing is lost by the report no longer saying it:
+      "These bodies issue no administrative rules, so they hold no OAR chapter and do not
+      appear in a registry keyed on chapter assignment. The Emergency Board is a contingency
+      fund that disburses through other agencies; the Governor''s office and the
+      legislative-branch bodies are outside the executive rulemaking scheme entirely. Absence
+      here is a fact about the registry''s scope, not a gap to fill." It is recorded, not
+      adopted: that paragraph was printed over every name scoring below the suggester''s
+      threshold, and it reasons about the Governor''s office and legislative-branch bodies,
+      which have not been in that bucket since those names started resolving. It says nothing
+      about THIS body, which is why the basis above is not-reviewed.'
     checked: No organization in ERF's registry is named "Oregon Ocean Science Trust" and
       none carries an alias for it.
     reason: >-
@@ -453,6 +483,17 @@ unmapped:
       has established.
   'Oregon Climate Authority':
     basis: not-reviewed
+    previously_stated: 'Carried verbatim from _meta/unresolved-agencies.md section 4 as it
+      read before this file existed, so nothing is lost by the report no longer saying it:
+      "These bodies issue no administrative rules, so they hold no OAR chapter and do not
+      appear in a registry keyed on chapter assignment. The Emergency Board is a contingency
+      fund that disburses through other agencies; the Governor''s office and the
+      legislative-branch bodies are outside the executive rulemaking scheme entirely. Absence
+      here is a fact about the registry''s scope, not a gap to fill." It is recorded, not
+      adopted: that paragraph was printed over every name scoring below the suggester''s
+      threshold, and it reasons about the Governor''s office and legislative-branch bodies,
+      which have not been in that bucket since those names started resolving. It says nothing
+      about THIS body, which is why the basis above is not-reviewed.'
     checked: No organization in ERF's registry is named "Oregon Climate Authority" and none
       carries an alias for it.
     reason: >-
@@ -462,6 +503,17 @@ unmapped:
       for it.
   'State Workforce and Talent Development Board':
     basis: not-reviewed
+    previously_stated: 'Carried verbatim from _meta/unresolved-agencies.md section 4 as it
+      read before this file existed, so nothing is lost by the report no longer saying it:
+      "These bodies issue no administrative rules, so they hold no OAR chapter and do not
+      appear in a registry keyed on chapter assignment. The Emergency Board is a contingency
+      fund that disburses through other agencies; the Governor''s office and the
+      legislative-branch bodies are outside the executive rulemaking scheme entirely. Absence
+      here is a fact about the registry''s scope, not a gap to fill." It is recorded, not
+      adopted: that paragraph was printed over every name scoring below the suggester''s
+      threshold, and it reasons about the Governor''s office and legislative-branch bodies,
+      which have not been in that bucket since those names started resolving. It says nothing
+      about THIS body, which is why the basis above is not-reviewed.'
     checked: No organization in ERF's registry is named "State Workforce and Talent
       Development Board" and none carries an alias for it.
     reason: >-
@@ -472,6 +524,17 @@ unmapped:
       nobody has looked at.
   'Office of Child Care':
     basis: not-reviewed
+    previously_stated: 'Carried verbatim from _meta/unresolved-agencies.md section 4 as it
+      read before this file existed, so nothing is lost by the report no longer saying it:
+      "These bodies issue no administrative rules, so they hold no OAR chapter and do not
+      appear in a registry keyed on chapter assignment. The Emergency Board is a contingency
+      fund that disburses through other agencies; the Governor''s office and the
+      legislative-branch bodies are outside the executive rulemaking scheme entirely. Absence
+      here is a fact about the registry''s scope, not a gap to fill." It is recorded, not
+      adopted: that paragraph was printed over every name scoring below the suggester''s
+      threshold, and it reasons about the Governor''s office and legislative-branch bodies,
+      which have not been in that bucket since those names started resolving. It says nothing
+      about THIS body, which is why the basis above is not-reviewed.'
     checked: No organization in ERF's registry is named "Office of Child Care" and none
       carries an alias for it.
     reason: >-
@@ -482,6 +545,17 @@ unmapped:
       has answered.
   'Elliott State Research Forest Authority':
     basis: not-reviewed
+    previously_stated: 'Carried verbatim from _meta/unresolved-agencies.md section 4 as it
+      read before this file existed, so nothing is lost by the report no longer saying it:
+      "These bodies issue no administrative rules, so they hold no OAR chapter and do not
+      appear in a registry keyed on chapter assignment. The Emergency Board is a contingency
+      fund that disburses through other agencies; the Governor''s office and the
+      legislative-branch bodies are outside the executive rulemaking scheme entirely. Absence
+      here is a fact about the registry''s scope, not a gap to fill." It is recorded, not
+      adopted: that paragraph was printed over every name scoring below the suggester''s
+      threshold, and it reasons about the Governor''s office and legislative-branch bodies,
+      which have not been in that bucket since those names started resolving. It says nothing
+      about THIS body, which is why the basis above is not-reviewed.'
     checked: No organization in ERF's registry is named "Elliott State Research Forest
       Authority" and none carries an alias for it.
     reason: >-

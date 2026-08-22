@@ -60,7 +60,8 @@ def good() -> dict:
 NAMES = {"ENVI QUALITY, DEPT": 7, "SECRETARY OF STATE": 7, "CNTRL AGY": 1}
 STAMPED = [{"id": "join-a", "agency_code": "340",
             "agency_registry_slug": "department-of-environmental-quality",
-            "agency_registry_basis": "das_number"}]
+            "agency_registry_basis": "das_number",
+            "agency_registry_basis_key": "ENVI QUALITY, DEPT"}]
 
 
 def test_check_passes_on_a_consistent_crosswalk():
@@ -388,12 +389,12 @@ def test_the_report_says_so_when_a_body_has_no_recorded_decision():
 
 
 def test_the_joins_builder_reads_the_basis_from_the_crosswalk():
-    """AC9. A regenerated join must carry the same basis --stamp would write, from the
-    same file. Two writers of one field that read different sources is how the crosswalk
-    and the documents drift apart between builds."""
+    """A regenerated join must carry the same basis --stamp would write, from the same
+    file. Two writers of one field reading different sources is how the crosswalk and the
+    documents drift apart between builds."""
     import build_joins
-    assert build_joins.join_basis("340", good()) == "das_number"
-    assert build_joins.join_basis("165", good()) == "exact"
+    assert build_joins.basis_provenance("340", good())[0] == "das_number"
+    assert build_joins.basis_provenance("165", good())[0] == "exact"
 
 
 def test_the_joins_builder_refuses_to_stamp_a_slug_it_has_no_basis_for():
@@ -401,4 +402,42 @@ def test_the_joins_builder_refuses_to_stamp_a_slug_it_has_no_basis_for():
     filed on. The builder must stop, not write a blank."""
     import build_joins
     with pytest.raises(KeyError, match="777"):
-        build_joins.join_basis("777", good())
+        build_joins.basis_provenance("777", good())
+
+
+def test_check_fails_when_the_section_4_gate_cannot_read_the_report():
+    """A gate that quietly passes when its input is unreadable is not a gate. The report
+    is a committed generated file; if it is missing, or its section 4 no longer parses,
+    the crosswalk-vs-report agreement was NOT checked and must not be reported as checked."""
+    problems = lar.check_report_readable(None)
+    assert any("not read" in p or "missing" in p for p in problems), problems
+    problems = lar.check_report_readable("# Unresolved agencies\n\nno section four here\n")
+    assert any("section 4" in p for p in problems), problems
+    assert lar.check_report_readable(SECTION_4) == []
+
+
+def test_a_join_says_which_crosswalk_entry_its_basis_came_from():
+    """The stamped `agency_registry_basis` is the crosswalk's warrant for the AGENCY,
+    reached by DAS number — NOT a description of how this document's own
+    `appropriated_to` string was matched. Those are different resolutions of the same
+    body, and a document that carried the first while looking like the second would be
+    attributing a warrant it does not have. So the document names the crosswalk key the
+    basis belongs to, and a reader can check it."""
+    import build_joins
+    assert build_joins.basis_provenance("340", good()) == (
+        "das_number", "ENVI QUALITY, DEPT")
+
+
+def test_check_names_a_document_whose_basis_key_disagrees_with_the_crosswalk():
+    """The key is what makes the stamped basis attributable. A document naming a key the
+    crosswalk does not resolve that way is asserting a warrant that is not there."""
+    stamped = [dict(STAMPED[0], agency_registry_basis_key="SECRETARY OF STATE")]
+    problems = lar.check(good(), NAMES, {}, stamped)
+    assert any("join-a" in p and "SECRETARY OF STATE" in p for p in problems), problems
+
+
+def test_check_names_a_document_carrying_a_basis_but_no_key():
+    stamped = [dict(STAMPED[0])]
+    del stamped[0]["agency_registry_basis_key"]
+    problems = lar.check(good(), NAMES, {}, stamped)
+    assert any("join-a" in p and "agency_registry_basis_key" in p for p in problems), problems

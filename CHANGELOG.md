@@ -19,12 +19,18 @@ Repo-curation dates only — official effective dates live in frontmatter.
   REVIEWED**, which is a different, honest state and is the whole point of the file.
   `--check` runs per-PR from committed data alone; `--verify-registry` resolves every slug
   and DAS number against the sibling and exits 2, never 0, when it is absent.
-- 2026-08-22 — **`agency_registry_basis` on all 474 slugged join documents.** The slug
-  said which agency; nothing said why that answer was right. `src/build_joins.py` now
-  writes it at build time from the crosswalk and `--stamp` backfills documents built
-  before the crosswalk existed, so one file answers and both writers read it. `--check`
-  fails if a stamped document and the crosswalk disagree, which is the gate that was
-  missing while the same fact was asserted in two places.
+- 2026-08-22 — **`agency_registry_basis` and `agency_registry_basis_key` on all 474
+  slugged join documents.** The slug said which agency; nothing said why that answer was
+  right. `src/build_joins.py` now writes both at build time from the crosswalk and
+  `--stamp` backfills documents built before it existed, so one file answers and both
+  writers read it. `--check` fails if a stamped document and the crosswalk disagree,
+  which is the gate that was missing while the same fact was asserted in two places.
+  The KEY is there because two different resolutions of one body meet in a join: the
+  document's slug came from matching the bill's `appropriated_to` wording against the
+  registry, while the basis beside it is the crosswalk's warrant for the expenditure
+  feed's spelling of the same body. They agree, and `--check` fails if they stop
+  agreeing — but a basis carrying no key would read as a description of the resolution
+  it is not about.
 
 ### Changed
 - 2026-08-22 — **`_meta/unresolved-agencies.md` section 4 now renders the decision

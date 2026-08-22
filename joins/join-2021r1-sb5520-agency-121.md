@@ -44,6 +44,7 @@ sibling_document_id: measure-2021r1-sb5520
 agency_code: '121'
 agency_registry_slug: office-of-the-governor
 agency_registry_basis: exact
+agency_registry_basis_key: GOVERNOR, OFFICE OF THE
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2021
 fiscal_years:
@@ -83,5 +84,6 @@ Answering "was this appropriation spent?" needs an expenditure record carrying t
 
 - Appropriation figures: `appropriations-2021r1-sb5520` in this corpus — machine-extracted from bill text and **not human-reviewed**.
 - Bill text: `measure-2021r1-sb5520` in the `oregon-legislature` corpus, referenced not copied.
-- Agency identity: `office-of-the-governor` in the `executive-regulatory-frameworks` corpus, whose registry carries the hand-reviewed `budget_agency_code: 121`.
+- Agency identity: `office-of-the-governor` in the `executive-regulatory-frameworks` corpus, whose registry carries the hand-reviewed `budget_agency_code: 121`. Resolved here by matching this bill's `appropriated_to` string against that registry, exact-only.
+- Agency identity, independently: `_meta/agency-crosswalk.yml` resolves the expenditure feed's own name for this body, `GOVERNOR, OFFICE OF THE`, to the same slug on basis `exact`. The `agency_registry_basis` in this document's frontmatter is THAT claim, about THAT string — not a description of how the bill's wording matched.
 - Spending: the committed Parquet mirror, reconciled against live SODA weekly.
