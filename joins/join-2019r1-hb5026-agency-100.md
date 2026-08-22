@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2019r1-hb5026
 agency_code: '100'
 agency_registry_slug: department-of-human-services
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2019
 fiscal_years:

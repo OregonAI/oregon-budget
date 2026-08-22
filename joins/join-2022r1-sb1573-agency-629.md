@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2022r1-sb1573
 agency_code: '629'
 agency_registry_slug: department-of-forestry
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: ending 2023
 fiscal_years:

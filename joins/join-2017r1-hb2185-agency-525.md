@@ -39,6 +39,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2017r1-hb2185
 agency_code: '525'
 agency_registry_slug: higher-education-coordinating-commission
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2017
 fiscal_years:

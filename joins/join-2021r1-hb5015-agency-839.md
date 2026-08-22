@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2021r1-hb5015
 agency_code: '839'
 agency_registry_slug: bureau-of-labor-and-industries
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2021
 fiscal_years:

@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2023r1-sb924
 agency_code: '155'
 agency_registry_slug: legislative-assembly
+agency_registry_basis: exact
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2023
 fiscal_years:

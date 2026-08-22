@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2019r1-sb756
 agency_code: '340'
 agency_registry_slug: department-of-environmental-quality
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2019
 fiscal_years:

@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2023r1-hb3177
 agency_code: '581'
 agency_registry_slug: oregon-department-of-education
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2023
 fiscal_years:

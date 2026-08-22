@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2020r1-hb4141
 agency_code: '107'
 agency_registry_slug: department-of-administrative-services
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: ending 2021
 fiscal_years:

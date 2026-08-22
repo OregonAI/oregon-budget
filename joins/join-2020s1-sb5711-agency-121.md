@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2020s1-sb5711
 agency_code: '121'
 agency_registry_slug: office-of-the-governor
+agency_registry_basis: exact
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: ending 2021
 fiscal_years:

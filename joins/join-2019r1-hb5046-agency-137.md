@@ -39,6 +39,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2019r1-hb5046
 agency_code: '137'
 agency_registry_slug: department-of-justice
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: ending 2019
 fiscal_years:

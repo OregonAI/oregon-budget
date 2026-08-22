@@ -104,6 +104,14 @@ PR. See toolkit `docs/replication-guide.md`.
 | `STATUS.md` | `corpus-generate-status` | weekly `drift` job |
 | `_meta/line-items.json` | `src/build_story_exports.py` | `generated` job, every PR |
 | `_meta/vendor-concentration.json` | `src/build_story_exports.py` | `generated` job, every PR |
+| `_meta/unresolved-agencies.md` | `src/build_joins.py --unresolved-report` | not in CI (needs the sibling registry); its section 4 must name only bodies `_meta/agency-crosswalk.yml` has decided, and THAT is gated by `link_agency_registry.py --check` |
+
+`_meta/agency-crosswalk.yml` is the exception that proves the table: it is **committed
+source of record, not generated**. Nothing rewrites it. Its `das_number` entries were
+seeded once by composing two committed facts (the expenditure feed publishes the DAS
+number beside the agency name; ERF records that number on the organization, hand-reviewed
+there), and `--verify-registry` re-tests every one of them against ERF rather than
+trusting what is written in it. Edit it by hand; that is the point of it.
 
 Regenerate at the source and commit the result.
 

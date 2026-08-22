@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2019r1-sb5520
 agency_code: '114'
 agency_registry_slug: long-term-care-ombudsman
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2019
 fiscal_years:

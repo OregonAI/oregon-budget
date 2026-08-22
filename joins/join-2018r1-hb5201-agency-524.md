@@ -39,6 +39,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2018r1-hb5201
 agency_code: '524'
 agency_registry_slug: chief-education-office
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: ending 2019
 fiscal_years:

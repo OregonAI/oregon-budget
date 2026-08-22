@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2023r1-hb5035
 agency_code: '165'
 agency_registry_slug: secretary-of-state
+agency_registry_basis: exact
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2023
 fiscal_years:

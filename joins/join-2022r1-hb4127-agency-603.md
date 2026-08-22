@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2022r1-hb4127
 agency_code: '603'
 agency_registry_slug: department-of-agriculture
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: ending 2023
 fiscal_years:

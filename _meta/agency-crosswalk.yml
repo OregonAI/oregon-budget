@@ -1,0 +1,490 @@
+note: 'Crosswalk from the agency name strings this corpus records to the
+  executive-regulatory-frameworks agency registry slug. Keyed on the EXACT string, never a
+  derived key: the expenditure feed writes one abbreviated all-caps spelling per agency
+  ("ENVI QUALITY, DEPT") and that string is the identity, so a 84th spelling appearing
+  upstream must fail --check as unclassified rather than be normalised away.
+
+  THE DOMAIN. Two name spaces reach documents in this corpus. Every `agency_name` on an
+  expenditure document MUST appear in exactly one block below — that is what --check
+  enforces, and a string in neither is a validation failure, not a default. Bill
+  `appropriated_to` strings MAY appear: they are resolved by src/build_joins.py against the
+  registry at build time and are not required here (OregonAI/oregon-budget#23 puts bill
+  documents out of scope), but the bodies its unresolved report finds no counterpart for
+  are recorded below, because that report''s section 4 is where the reasons already lived.
+
+  An entry under `unmapped` is a DECISION with a stated reason, never a blank: "we looked
+  and there is no counterpart" and "nobody has looked yet" must not be the same state.
+  Those two states are told apart HERE by `basis`, not by tone: `reviewed` means a person
+  established why there is no counterpart, `not-reviewed` means the mechanical check found
+  none and nobody has established why. Every unmapped entry also carries `checked`, the
+  literal thing that was tested, so a reader can tell what was verified from what was
+  concluded.
+
+  BASIS ON A MAPPING ENTRY, and why there are three values rather than the two the issue
+  named. `exact` — the corpus string and the registry entry''s `oar_name` are the same name
+  after mechanical normalisation only (case, punctuation, comma-inversion, a leading
+  "Oregon"), checked by --verify-registry against the registry, not asserted here.
+  `das_number` — the two sides are joined by the DAS agency number, NOT by their names: the
+  state expenditure feed publishes `agency` (the number) beside `agency_name` in the same
+  row, and ERF records `das_agency_number` on the organization, hand-reviewed there
+  (src/link_budget_codes.py, "is NOT scraped ... hand-reviewed"). Composing two committed
+  facts is a stronger warrant than a name judgment, and it is not one: "ENVI QUALITY, DEPT"
+  does not resemble "Department of Environmental Quality" under any mechanical rule, and
+  filing it as an `alias` would oblige this file to name a `reviewed_by` for a judgment
+  nobody made. Inventing that reviewer is precisely the failure this file exists to
+  prevent, so the basis says what actually holds. `alias` — a human asserts the two names
+  denote the same body where no number joins them; it REQUIRES `note`, `reviewed_by` and
+  `reviewed_on`. No entry uses `alias` today; it is the seam a confirmed name variant goes
+  through, so that a variant is never confirmed by loosening src/build_joins.py''s
+  exact-only matcher.
+
+  HOW THE 81 `das_number` ENTRIES GOT HERE. Seeded once, mechanically, by composing the two
+  committed facts above; the file is COMMITTED SOURCE OF RECORD from then on, not a
+  generated artifact — no script rewrites it, and --verify-registry re-tests every slug and
+  every das_agency_number against ERF rather than trusting what is written here.
+
+  ITS RELATION TO _meta/unresolved-agencies.md, decided rather than left to both files
+  (issue #23 asked for the choice to be stated). That report is generated and marked "do
+  not edit by hand", yet it held the only reasons this corpus had for bodies with no
+  registry counterpart. THE CROSSWALK IS NOW THE SOURCE OF RECORD FOR THOSE REASONS and the
+  report renders them from here, so the same fact is asserted in one voice. The report keeps
+  what it is good at — counting appropriations and bucketing them by the response each needs
+  — and no longer states a per-body reason of its own.
+
+  Follows oregon-audits'' and oregon-kpm''s _meta/agency-crosswalk.yml: the table lives in the
+  consumer, correctness belongs to the registry.'
+registry_corpus: executive-regulatory-frameworks
+registry_source: https://github.com/OregonAI/executive-regulatory-frameworks/blob/main/_meta/catalog/agencies.yml
+retrieved: '2026-08-22'
+mapping:
+  'ACCOUNTANCY, OREGON BRD OF':
+    slug: oregon-board-of-accountancy
+    das_agency_number: '120'
+    basis: das_number
+  'ADMINISTRATIVE SRVCS, DEPT OF':
+    slug: department-of-administrative-services
+    das_agency_number: '107'
+    basis: das_number
+  'ADVOCACY COMMISSIONS, OR':
+    slug: oregon-advocacy-commissions-office
+    das_agency_number: '131'
+    basis: das_number
+  'AGRICULTURE, DEPT OF':
+    slug: department-of-agriculture
+    das_agency_number: '603'
+    basis: das_number
+  'AVIATION, DEPT OF':
+    slug: oregon-department-of-aviation
+    das_agency_number: '109'
+    basis: das_number
+  'BLIND, CMSN FOR THE':
+    slug: commission-for-the-blind
+    das_agency_number: '585'
+    basis: das_number
+  'BUSINESS OREGON':
+    slug: oregon-business-development-department
+    das_agency_number: '123'
+    basis: das_number
+  'CHIEF EDU OFFICE':
+    slug: chief-education-office
+    das_agency_number: '524'
+    basis: das_number
+  'CHIROPRACTIC EXAM, BRD OF':
+    slug: board-of-chiropractic-examiners
+    das_agency_number: '811'
+    basis: das_number
+  'COLUMBIA RIVER GORGE CMSN':
+    slug: columbia-river-gorge-commission
+    das_agency_number: '350'
+    basis: das_number
+  'CONSTRUCTION CTR BRD':
+    slug: construction-contractors-board
+    das_agency_number: '915'
+    basis: das_number
+  'CONSUMER & BUS SRVCS, DEPT':
+    slug: department-of-consumer-and-business-services
+    das_agency_number: '440'
+    basis: das_number
+  'CORRECTIONS, DEPT OF':
+    slug: department-of-corrections
+    das_agency_number: '291'
+    basis: das_number
+  'CRIMINAL JUSTICE CMSN':
+    slug: oregon-criminal-justice-commission
+    das_agency_number: '213'
+    basis: das_number
+  'DENTISTRY, BRD OF':
+    slug: oregon-board-of-dentistry
+    das_agency_number: '834'
+    basis: das_number
+  'DIST ATTORNEYS/DEPUTIES':
+    slug: district-attorneys-and-deputies
+    das_agency_number: '196'
+    basis: das_number
+  'EARLY LEARNING & CARE, DEPT OF':
+    slug: oregon-department-of-education-early-learning-division
+    das_agency_number: '588'
+    basis: das_number
+  'EDUCATION, DEPT OF':
+    slug: oregon-department-of-education
+    das_agency_number: '581'
+    basis: das_number
+  'EMERGENCY MANAGEMENT, DEPT OF':
+    slug: oregon-military-department-office-of-emergency-management
+    das_agency_number: '258'
+    basis: das_number
+  'EMPLOYMENT DEPT':
+    slug: employment-department
+    das_agency_number: '471'
+    basis: das_number
+  'EMPLOYMENT RELATIONS BRD':
+    slug: employment-relations-board
+    das_agency_number: '115'
+    basis: das_number
+  'ENERGY, DEPT OF':
+    slug: department-of-energy
+    das_agency_number: '330'
+    basis: das_number
+  'ENVI QUALITY, DEPT':
+    slug: department-of-environmental-quality
+    das_agency_number: '340'
+    basis: das_number
+  'FACILITES AUTH, OREGON':
+    slug: oregon-facilities-authority
+    das_agency_number: '172'
+    basis: das_number
+  'FISH & WILDLIFE, DEPT OF':
+    slug: department-of-fish-and-wildlife
+    das_agency_number: '635'
+    basis: das_number
+  'FOREST RESOURCES INST, OR':
+    slug: oregon-forest-resources-institute
+    das_agency_number: '628'
+    basis: das_number
+  'FORESTRY, DEPT OF':
+    slug: department-of-forestry
+    das_agency_number: '629'
+    basis: das_number
+  'GEOLOGY & MINERAL IND, DEPT OF':
+    slug: department-of-geology-and-mineral-industries
+    das_agency_number: '632'
+    basis: das_number
+  'GOVERNMENT ETHICS CMSN':
+    slug: oregon-government-ethics-commission
+    das_agency_number: '199'
+    basis: das_number
+  'GOVERNOR, OFFICE OF THE':
+    slug: office-of-the-governor
+    das_agency_number: '121'
+    basis: exact
+  'HI-ED COORD CMSN':
+    slug: higher-education-coordinating-commission
+    das_agency_number: '525'
+    basis: das_number
+  'HOUSING & COMM SRVCS, DEPT OF':
+    slug: oregon-housing-and-community-services-department
+    das_agency_number: '914'
+    basis: das_number
+  'HUMAN SERVICES, DEPT OF':
+    slug: department-of-human-services
+    das_agency_number: '100'
+    basis: das_number
+  'INDIAN SERVICES CMSN':
+    slug: legislative-commission-on-indian-services
+    das_agency_number: '425'
+    basis: das_number
+  'JUDICIAL DEPT':
+    slug: judicial-department
+    das_agency_number: '198'
+    basis: das_number
+  'JUDICIAL FITNESS & DISABILITY':
+    slug: commission-on-judicial-fitness-and-disability
+    das_agency_number: '175'
+    basis: das_number
+  'JUSTICE, DEPT OF':
+    slug: department-of-justice
+    das_agency_number: '137'
+    basis: das_number
+  'LABOR & IND, BUREAU OF':
+    slug: bureau-of-labor-and-industries
+    das_agency_number: '839'
+    basis: das_number
+  'LAND CONSERV & DEV, DEPT OF':
+    slug: land-conservation-and-development-department
+    das_agency_number: '660'
+    basis: das_number
+  'LAND USE BRD OF APPEALS':
+    slug: land-use-board-of-appeals
+    das_agency_number: '662'
+    basis: das_number
+  'LANDS, DEPT OF ST':
+    slug: department-of-state-lands
+    das_agency_number: '141'
+    basis: das_number
+  'LEGISLATIVE ADMIN CMTE':
+    slug: legislative-administration-committee
+    das_agency_number: '156'
+    basis: das_number
+  'LEGISLATIVE ASSEMBLY':
+    slug: legislative-assembly
+    das_agency_number: '155'
+    basis: exact
+  'LEGISLATIVE COUNSEL OFFICE':
+    slug: legislative-counsel-office
+    das_agency_number: '142'
+    basis: exact
+  'LEGISLATIVE FISCAL OFFICER':
+    slug: legislative-fiscal-officer
+    das_agency_number: '145'
+    basis: exact
+  'LEGISLATIVE POL & RESEARCH CMTE':
+    slug: legislative-policy-and-research-committee
+    das_agency_number: '143'
+    basis: das_number
+  'LEGISLATIVE REV OFFICE':
+    slug: legislative-revenue-office
+    das_agency_number: '144'
+    basis: das_number
+  'LIBRARY, OREGON ST':
+    slug: oregon-state-library
+    das_agency_number: '543'
+    basis: das_number
+  'LICENSED SOCIAL WORKERS BRD':
+    slug: board-of-licensed-social-workers
+    das_agency_number: '124'
+    basis: das_number
+  'LIQUOR & CANNABIS COM, OR':
+    slug: oregon-liquor-control-commission
+    das_agency_number: '845'
+    basis: das_number
+  'LIQUOR CONTROL CMSN':
+    slug: oregon-liquor-control-commission
+    das_agency_number: '845'
+    basis: das_number
+  'LONG TERM CARE OMBUD':
+    slug: long-term-care-ombudsman
+    das_agency_number: '114'
+    basis: das_number
+  'MARINE BOARD':
+    slug: oregon-state-marine-board
+    das_agency_number: '250'
+    basis: das_number
+  'MEDICAL BRD, OR':
+    slug: oregon-medical-board
+    das_agency_number: '847'
+    basis: das_number
+  'MENTAL HEALTH REGULATORY AGY':
+    slug: mental-health-regulatory-agency
+    das_agency_number: '108'
+    basis: das_number
+  'MILITARY, DEPT OF':
+    slug: oregon-military-department
+    das_agency_number: '248'
+    basis: das_number
+  'NURSING, BRD OF':
+    slug: board-of-nursing
+    das_agency_number: '851'
+    basis: das_number
+  'OREGON HEALTH AUTHORITY':
+    slug: oregon-health-authority
+    das_agency_number: '443'
+    basis: exact
+  'PARKS & RECREATION, DEPT OF':
+    slug: parks-and-recreation-department
+    das_agency_number: '634'
+    basis: das_number
+  'PAROLE/POST PRISON SUPV, BRD':
+    slug: board-of-parole-and-post-prison-supervision
+    das_agency_number: '255'
+    basis: das_number
+  'PHARMACY, OREGON BRD OF':
+    slug: board-of-pharmacy
+    das_agency_number: '855'
+    basis: das_number
+  'POLICE, OREGON STATE':
+    slug: department-of-state-police
+    das_agency_number: '257'
+    basis: das_number
+  'PSYCHIATRIC SECURITY REV BRD':
+    slug: psychiatric-security-review-board
+    das_agency_number: '399'
+    basis: das_number
+  'PUBLIC DEFENSE SERVICES':
+    slug: office-of-public-defense-services
+    das_agency_number: '404'
+    basis: das_number
+  'PUBLIC EMPS RETIREMENT SYS':
+    slug: oregon-public-employees-retirement-system
+    das_agency_number: '459'
+    basis: das_number
+  'PUBLIC RECORDS ADVOCATE, OFFICE OF':
+    slug: public-records-advocate
+    das_agency_number: '104'
+    basis: das_number
+  'PUBLIC SAFETY STANDARDS & TRNG':
+    slug: department-of-public-safety-standards-and-training
+    das_agency_number: '259'
+    basis: das_number
+  'PUBLIC UTILITY CMSN':
+    slug: public-utility-commission
+    das_agency_number: '860'
+    basis: das_number
+  'RACING CMSN':
+    slug: oregon-racing-commission
+    das_agency_number: '862'
+    basis: das_number
+  'REAL ESTATE AGY':
+    slug: real-estate-agency
+    das_agency_number: '919'
+    basis: das_number
+  'REVENUE, DEPT OF':
+    slug: department-of-revenue
+    das_agency_number: '150'
+    basis: das_number
+  'SECRETARY OF STATE':
+    slug: secretary-of-state
+    das_agency_number: '165'
+    basis: exact
+  'STATE FIRE MARSHAL, DEPT OF':
+    slug: department-of-state-police-office-of-state-fire-marshal
+    das_agency_number: '260'
+    basis: das_number
+  'TAX PRACTITIONERS, ST BRD OF':
+    slug: state-board-of-tax-practitioners
+    das_agency_number: '119'
+    basis: das_number
+  'TEACHER STANDARDS & PRACTICES':
+    slug: teacher-standards-and-practices-commission
+    das_agency_number: '584'
+    basis: das_number
+  'TRANSPORTATION, DEPT OF':
+    slug: department-of-transportation
+    das_agency_number: '730'
+    basis: das_number
+  'TREASURY, OREGON ST':
+    slug: oregon-state-treasury
+    das_agency_number: '170'
+    basis: das_number
+  'VETERANS AFFAIRS, DEPT OF':
+    slug: department-of-veterans-affairs
+    das_agency_number: '274'
+    basis: das_number
+  'WATER RESOURCES, DEPT OF':
+    slug: water-resources-department
+    das_agency_number: '690'
+    basis: das_number
+  'WATERSHED ENH BRD':
+    slug: oregon-watershed-enhancement-board
+    das_agency_number: '691'
+    basis: das_number
+  'YOUTH AUTHORITY, OR':
+    slug: oregon-youth-authority
+    das_agency_number: '415'
+    basis: das_number
+unmapped:
+  # ---- expenditure `agency_name` strings (required domain) ----------------------------
+  'CNTRL AGY/ST GENERAL FUND/B-UP WH':
+    basis: not-reviewed
+    checked: No organization in ERF's registry carries das_agency_number 999, and no
+      registry name matches this string.
+    reason: >-
+      NOT REVIEWED — nobody has established what this string denotes. The `checked` field
+      of this entry is all it asserts. Read literally it looks like a central-agency /
+      state general fund / back-up-withholding accounting bucket rather than a body, and
+      the corpus holds exactly one document for it (expenditures-999-fy2019, $1,946.74
+      across 2 transactions, ranked 78 of 78 agencies that year), which is consistent with
+      that reading — but consistent is not established, and neither this corpus nor the
+      registry says what it is. Reporting this as "we looked and there is no counterpart"
+      would be a conclusion nobody reached.
+  'HEALTH RELATED LICENSING BRDs':
+    basis: not-reviewed
+    checked: No organization in ERF's registry carries das_agency_number 833, and no
+      registry name matches this string.
+    reason: >-
+      NOT REVIEWED — nobody has established whether this has a registry counterpart. The
+      registry does carry individual health-related licensing boards under their own slugs
+      and their own DAS numbers (board-of-nursing 851, board-of-pharmacy 855,
+      oregon-board-of-dentistry 834 and others, each already mapped above), so the string
+      may name an administrative grouping that correctly has no single counterpart, or it
+      may be a body the registry has not recorded. Nothing here decides between those, and
+      the corpus records 7 fiscal years of spending under it.
+  # ---- bill `appropriated_to` strings: the bodies _meta/unresolved-agencies.md finds no
+  #      counterpart for. Optional domain (issue #23 puts bill documents out of scope), but
+  #      recorded here because section 4 of that report is where the reasons used to live
+  #      and this file is now their single source of record. ------------------------------
+  #
+  #      WHAT THAT REPORT USED TO SAY, since these entries answer it. Its section 4 printed
+  #      one fixed paragraph over every name whose content-word overlap with a registry
+  #      entry fell below the suggester's threshold: "These bodies issue no administrative
+  #      rules, so they hold no OAR chapter and do not appear in a registry keyed on chapter
+  #      assignment." That is a bucket label, not a finding about any body in the bucket —
+  #      it even reasoned about "the Governor's office and the legislative-branch bodies",
+  #      neither of which the bucket has contained since those names started resolving. Its
+  #      one body-specific sentence, about the Emergency Board, is carried below as a
+  #      `reviewed` reason. The rest are recorded as what they are: not reviewed.
+  'Emergency Board':
+    basis: reviewed
+    checked: No organization in ERF's registry is named "Emergency Board" and none carries
+      an alias for it.
+    reason: >-
+      The Emergency Board is a contingency fund that disburses through other agencies, so it
+      issues no administrative rules, holds no OAR chapter, and does not appear in a registry
+      keyed on chapter assignment. Absence here is a fact about the registry's scope, not a
+      gap to fill.
+    source: _meta/unresolved-agencies.md section 4, which stated this of the Emergency Board
+      by name. Carried here rather than restated; the report now renders it from this file.
+  'State Workforce Investment Board':
+    basis: not-reviewed
+    checked: No organization in ERF's registry is named "State Workforce Investment Board"
+      and none carries an alias for it.
+    reason: >-
+      NOT REVIEWED. The only thing on record about this body is the `checked` field of this
+      entry: the exact-only matcher resolved it to nothing and the report's suggester found
+      no registry entry close enough to propose. Whether it holds no OAR chapter — which
+      would make its absence correct by construction — or holds one the registry has not
+      recorded, nobody has established.
+  'Oregon Ocean Science Trust':
+    basis: not-reviewed
+    checked: No organization in ERF's registry is named "Oregon Ocean Science Trust" and
+      none carries an alias for it.
+    reason: >-
+      NOT REVIEWED. The only thing on record is the `checked` field of this entry. Whether
+      this body holds no OAR chapter, or holds one the registry has not recorded, nobody
+      has established.
+  'Oregon Climate Authority':
+    basis: not-reviewed
+    checked: No organization in ERF's registry is named "Oregon Climate Authority" and none
+      carries an alias for it.
+    reason: >-
+      NOT REVIEWED. The only thing on record is the `checked` field of this entry. A name
+      appearing in a bill is not by itself evidence that the body was created, so even
+      "this body exists" is unestablished here, let alone why the registry has no entry
+      for it.
+  'State Workforce and Talent Development Board':
+    basis: not-reviewed
+    checked: No organization in ERF's registry is named "State Workforce and Talent
+      Development Board" and none carries an alias for it.
+    reason: >-
+      NOT REVIEWED. The only thing on record is the `checked` field of this entry. Whether
+      this body holds no OAR chapter, or holds one the registry has not recorded, nobody
+      has established. Note that "State Workforce Investment Board" is also recorded here,
+      unreviewed, and whether the two names denote one body across a rename is part of what
+      nobody has looked at.
+  'Office of Child Care':
+    basis: not-reviewed
+    checked: No organization in ERF's registry is named "Office of Child Care" and none
+      carries an alias for it.
+    reason: >-
+      NOT REVIEWED. The only thing on record is the `checked` field of this entry. The
+      registry does carry early-learning bodies (oregon-department-of-education-early-
+      learning-division, DAS number 588), so whether this is a unit of one of them, a body
+      the registry has not recorded, or correctly absent, is exactly the question nobody
+      has answered.
+  'Elliott State Research Forest Authority':
+    basis: not-reviewed
+    checked: No organization in ERF's registry is named "Elliott State Research Forest
+      Authority" and none carries an alias for it.
+    reason: >-
+      NOT REVIEWED. The only thing on record is the `checked` field of this entry. Whether
+      this body holds no OAR chapter, or holds one the registry has not recorded, nobody
+      has established.

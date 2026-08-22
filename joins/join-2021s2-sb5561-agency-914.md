@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2021s2-sb5561
 agency_code: '914'
 agency_registry_slug: oregon-housing-and-community-services-department
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: ending 2023
 fiscal_years:

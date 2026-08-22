@@ -39,6 +39,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2017r1-hb3249
 agency_code: '691'
 agency_registry_slug: oregon-watershed-enhancement-board
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: ending 2019
 fiscal_years:

@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2019r1-hb5028
 agency_code: '662'
 agency_registry_slug: land-use-board-of-appeals
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2019
 fiscal_years:

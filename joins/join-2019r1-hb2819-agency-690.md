@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2019r1-hb2819
 agency_code: '690'
 agency_registry_slug: water-resources-department
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2019
 fiscal_years:

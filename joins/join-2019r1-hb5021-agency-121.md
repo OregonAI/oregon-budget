@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2019r1-hb5021
 agency_code: '121'
 agency_registry_slug: office-of-the-governor
+agency_registry_basis: exact
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2019
 fiscal_years:

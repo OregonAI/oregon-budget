@@ -39,6 +39,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2017r1-hb5026
 agency_code: '443'
 agency_registry_slug: oregon-health-authority
+agency_registry_basis: exact
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2017
 fiscal_years:

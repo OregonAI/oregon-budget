@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2021r1-hb2977
 agency_code: '443'
 agency_registry_slug: oregon-health-authority
+agency_registry_basis: exact
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2021
 fiscal_years:

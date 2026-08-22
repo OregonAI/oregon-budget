@@ -39,6 +39,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2017r1-hb5021
 agency_code: '114'
 agency_registry_slug: long-term-care-ombudsman
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2017
 fiscal_years:

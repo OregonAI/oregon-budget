@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2024r1-sb1582
 agency_code: '123'
 agency_registry_slug: oregon-business-development-department
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: ending 2025
 fiscal_years:

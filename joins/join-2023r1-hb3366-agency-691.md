@@ -43,6 +43,7 @@ sibling_corpus: oregon-legislature
 sibling_document_id: measure-2023r1-hb3366
 agency_code: '691'
 agency_registry_slug: oregon-watershed-enhancement-board
+agency_registry_basis: das_number
 agency_registry_corpus: executive-regulatory-frameworks
 biennium: beginning 2023
 fiscal_years:
