@@ -250,6 +250,26 @@ REG = {"department-of-environmental-quality":
        {"oar_name": "Secretary of State", "das_agency_number": "165"}}
 
 
+# oregon-budget#49's hard switch, extended to this file's own registry reader:
+# `registry_index()` fed a `das_agency_number or budget_agency_code` fallback into
+# `verify_registry()`, which build_joins.py's own review found and #49 rejected as a
+# pattern ("would buy independence the equality check already guarantees, and would then
+# need a second change to remove"). An organization where the two fields AGREE would pass
+# this either way, so the fixture below carries only `budget_agency_code` -- the shape a
+# stale or not-yet-migrated registry, or ERF#177's retirement itself, actually produces --
+# to prove the fallback is gone rather than merely untriggered.
+def test_registry_index_does_not_fall_back_to_budget_agency_code(tmp_path):
+    """An organization carrying only `budget_agency_code` must resolve to no
+    das_agency_number here, not silently fall back to the deprecated alias."""
+    p = tmp_path / "agencies.yml"
+    p.write_text(yaml.safe_dump({"organizations": [
+        {"slug": "department-of-forestry", "oar_name": "Forestry Department, Oregon",
+         "budget_agency_code": "629"},
+    ]}), encoding="utf-8")
+    index = lar.registry_index(p)
+    assert index["department-of-forestry"]["das_agency_number"] is None
+
+
 def test_verify_registry_accepts_the_good_fixture():
     assert lar.verify_registry(good(), REG) == []
 

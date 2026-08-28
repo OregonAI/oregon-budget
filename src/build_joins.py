@@ -54,29 +54,36 @@ ROOT = Path(__file__).resolve().parent.parent
 BILLS = ROOT / "bills"
 OUT = ROOT / "joins"
 GLOB = str(ROOT / "data" / "expenditures" / "*.parquet")
-# The sibling's agency registry, which carries the hand-reviewed budget_agency_code. Tried
-# in order beside this repo; the upstream repo is `executive-regulatory-frameworks` but a
-# local checkout may still use its former name. Override with --registry.
+# The sibling's agency registry, which carries the hand-reviewed das_agency_number.
+# Found beside this repo under the upstream repo's current name. Override with --registry.
+#
+# oregon-budget#37: this list used to also try `oregon-policy-repo`, ERF's name before its
+# rename -- sound while the two names meant the same content, but a fallback to a
+# repository that was renamed away is not resilience, it is a second source of truth that
+# can only ever be stale. Not repaired, because repairing it would keep the mechanism that
+# caused the problem; the emptiness/staleness refusal in `erf_agencies` is the durable
+# fix, and it holds for ANY candidate here, not just this one that got deleted.
 #
 # BUILDING needs this; --check does NOT, which is deliberate: referential integrity is a
 # property of what was committed here and must be verifiable in CI without checking out a
 # sibling. Only regenerating the joins requires the registry.
 ERF_REGISTRY_CANDIDATES = [
     ROOT.parent / "executive-regulatory-frameworks" / "_meta/catalog/agencies.yml",
-    ROOT.parent / "oregon-policy-repo" / "_meta/catalog/agencies.yml",
 ]
 
 
 def default_registry() -> Path:
     return next((p for p in ERF_REGISTRY_CANDIDATES if p.is_file()),
                 ERF_REGISTRY_CANDIDATES[0])
+
+
 MIRROR_YEARS = set(range(2019, 2026))
 MAINTAINER = "@dzinck"
 DISCLAIMER = "NON-AUTHORITATIVE"
 
 
 def erf_agencies(registry: Path) -> dict:
-    """oar_name -> {slug, budget_agency_code} for ERF orgs carrying a budget code.
+    """oar_name -> {slug, das_agency_number} for ERF orgs carrying a budget code.
 
     The codes are hand-reviewed in the sibling (src/link_budget_codes.py there). This
     corpus consumes them; it does not re-derive them, because a second fuzzy name match
@@ -95,9 +102,23 @@ def erf_agencies(registry: Path) -> dict:
     if not registry.is_file():
         return {}
     orgs = yaml.safe_load(registry.read_text())["organizations"]
+    # A registry that is PRESENT and PARSES but carries neither key this corpus resolves
+    # against is not "no registry" -- it is a pre-migration checkout (oregon-budget#37: a
+    # local clone parked before ERF's ADR 0003/0004, or any future drift of the same
+    # shape). Filtering rows below would quietly hand back `{}`, which reads identically
+    # to "the registry has no bodies", and the run would proceed to build joins from
+    # nothing while every slug still looked plausible. Refuse instead, and name the file
+    # actually read so the refusal cannot be mistaken for "no registry found".
+    if orgs and not any(o.get("das_agency_number") or o.get("budget_agency_code")
+                        for o in orgs):
+        raise ValueError(
+            f"{registry} has {len(orgs)} organization(s) but none carries "
+            f"das_agency_number or budget_agency_code -- this is a pre-migration "
+            f"registry, not a current one. Refusing rather than building joins from an "
+            f"empty mapping.")
     out = {}
     for o in orgs:
-        if not o.get("budget_agency_code"):
+        if not o.get("das_agency_number"):
             continue
         # A row with no `oar_name` is NOT OAR-joinable, and that is a legitimate registry
         # state, not a defect: 19 bodies hold no OAR chapter (ADR 0003 admits bodies on
@@ -114,6 +135,38 @@ def erf_agencies(registry: Path) -> dict:
         for alias in o.get("aliases") or []:
             out[alias.lower()] = o
     return out
+
+
+def load_registry_or_refuse(registry: Path) -> dict | None:
+    """The one place --build and --unresolved-report both go to get (or refuse) the
+    registry, so `erf_agencies`'s ValueError -- raised only since #37, when the
+    pre-migration refusal was added -- has exactly one catch site instead of needing to be
+    added at both call sites separately. (That ValueError is the actual reason this exists:
+    at the base #37 replaced, the two callers' own emptiness checks were already identical,
+    both guarded on `if not by_name`, and could not have diverged on any input.)
+
+    Returns None, having already printed why, when the registry should not be used:
+    present-but-pre-migration (`erf_agencies` raises, caught here and reported as
+    `REFUSED`, naming the file actually read); present but resolving to no mapping this
+    corpus can build from (`SKIPPED`, naming the file and noting it was found); or the file
+    not existing at all (also `SKIPPED`, with a message that says so instead).
+    """
+    try:
+        by_name = erf_agencies(registry)
+    except ValueError as e:
+        print(f"REFUSED: {e}", file=sys.stderr)
+        return None
+    if not by_name:
+        if registry.is_file():
+            print(f"SKIPPED: {registry} exists but no organization in it resolves to a "
+                  f"das_agency_number mapping this corpus can build from. Join documents "
+                  f"cannot be built without one, and this is NOT a pass.", file=sys.stderr)
+        else:
+            print(f"SKIPPED: no agency registry at {registry}. Join documents cannot be "
+                  f"built without the hand-reviewed das_agency_number mapping, and this "
+                  f"is NOT a pass.", file=sys.stderr)
+        return None
+    return by_name
 
 
 def _norm(s: str) -> str:
@@ -148,7 +201,7 @@ def resolve_agency(name: str, by_name: dict):
     "Department of Forestry", 17 appropriations). It is almost certainly the same body, but
     "almost certainly" is how the Legislative Revenue Office got matched to the Department
     of Revenue in the sibling corpus. Those stay unresolved and reported until a human
-    records the mapping, which is what the registry's budget_agency_code exists for.
+    records the mapping, which is what the registry's das_agency_number exists for.
     """
     if not name:
         return None
@@ -181,7 +234,7 @@ def spending(con, agency: str, years: list[int]) -> dict:
 
 
 def build(fm: dict, org: dict, con, today: str, cw: dict) -> tuple[str, str]:
-    code = org["budget_agency_code"]
+    code = org["das_agency_number"]
     basis, basis_key = basis_provenance(code, cw)
     years = [y for y in fm["biennium_fiscal_years"] if y in MIRROR_YEARS]
     sp = spending(con, code, years)
@@ -290,7 +343,7 @@ def build(fm: dict, org: dict, con, today: str, cw: dict) -> tuple[str, str]:
              f"`{fm.get('sibling_corpus')}` corpus, referenced not copied.")
     L.append(f"- Agency identity: `{org['slug']}` in the "
              f"`executive-regulatory-frameworks` corpus, whose registry carries the "
-             f"hand-reviewed `budget_agency_code: {code}`. Resolved here by matching this "
+             f"hand-reviewed `das_agency_number: {code}`. Resolved here by matching this "
              f"bill's `appropriated_to` string against that registry, exact-only.")
     L.append(f"- Agency identity, independently: `_meta/agency-crosswalk.yml` resolves the "
              f"expenditure feed's own name for this body, `{basis_key}`, to the same slug "
@@ -418,10 +471,8 @@ def unresolved_report(registry: Path) -> int:
     import re
     from datetime import datetime, timezone
 
-    by_name = erf_agencies(registry)
-    if not by_name:
-        print(f"SKIPPED: no agency registry at {registry}; refusing to report every "
-              f"appropriation as unresolved.", file=sys.stderr)
+    by_name = load_registry_or_refuse(registry)
+    if by_name is None:
         return 2
     reg = yaml.safe_load(registry.read_text())["organizations"]
 
@@ -649,11 +700,8 @@ def main() -> int:
         return unresolved_report(Path(args.registry) if args.registry else default_registry())
 
     registry = Path(args.registry) if args.registry else default_registry()
-    by_name = erf_agencies(registry)
-    if not by_name:
-        print(f"SKIPPED: no agency registry at {registry}. Join documents cannot be "
-              f"built without the hand-reviewed budget_agency_code mapping, and this is "
-              f"NOT a pass.", file=sys.stderr)
+    by_name = load_registry_or_refuse(registry)
+    if by_name is None:
         return 2
 
     cw = load_crosswalk()
