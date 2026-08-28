@@ -77,26 +77,6 @@ def default_registry() -> Path:
                 ERF_REGISTRY_CANDIDATES[0])
 
 
-def load_registry_or_refuse(registry: Path) -> dict | None:
-    """The one place --build and --unresolved-report both go to get (or refuse) the
-    registry, so a stale-registry refusal cannot land on one path and not the other the
-    way the two calls' separately-written emptiness checks previously could (#37).
-
-    Returns None, having already printed why, when the registry should not be used:
-    absent (`SKIPPED`), or present-but-pre-migration (`erf_agencies` raises, caught here
-    and reported as `REFUSED`, naming the file actually read).
-    """
-    try:
-        by_name = erf_agencies(registry)
-    except ValueError as e:
-        print(f"REFUSED: {e}", file=sys.stderr)
-        return None
-    if not by_name:
-        print(f"SKIPPED: no agency registry at {registry}. Join documents cannot be "
-              f"built without the hand-reviewed budget_agency_code mapping, and this is "
-              f"NOT a pass.", file=sys.stderr)
-        return None
-    return by_name
 MIRROR_YEARS = set(range(2019, 2026))
 MAINTAINER = "@dzinck"
 DISCLAIMER = "NON-AUTHORITATIVE"
@@ -130,7 +110,7 @@ def erf_agencies(registry: Path) -> dict:
     # nothing while every slug still looked plausible. Refuse instead, and name the file
     # actually read so the refusal cannot be mistaken for "no registry found".
     if orgs and not any(o.get("das_agency_number") or o.get("budget_agency_code")
-                         for o in orgs):
+                        for o in orgs):
         raise ValueError(
             f"{registry} has {len(orgs)} organization(s) but none carries "
             f"das_agency_number or budget_agency_code -- this is a pre-migration "
@@ -155,6 +135,38 @@ def erf_agencies(registry: Path) -> dict:
         for alias in o.get("aliases") or []:
             out[alias.lower()] = o
     return out
+
+
+def load_registry_or_refuse(registry: Path) -> dict | None:
+    """The one place --build and --unresolved-report both go to get (or refuse) the
+    registry, so `erf_agencies`'s ValueError -- raised only since #37, when the
+    pre-migration refusal was added -- has exactly one catch site instead of needing to be
+    added at both call sites separately. (That ValueError is the actual reason this exists:
+    at the base #37 replaced, the two callers' own emptiness checks were already identical,
+    both guarded on `if not by_name`, and could not have diverged on any input.)
+
+    Returns None, having already printed why, when the registry should not be used:
+    present-but-pre-migration (`erf_agencies` raises, caught here and reported as
+    `REFUSED`, naming the file actually read); present but resolving to no mapping this
+    corpus can build from (`SKIPPED`, naming the file and noting it was found); or the file
+    not existing at all (also `SKIPPED`, with a message that says so instead).
+    """
+    try:
+        by_name = erf_agencies(registry)
+    except ValueError as e:
+        print(f"REFUSED: {e}", file=sys.stderr)
+        return None
+    if not by_name:
+        if registry.is_file():
+            print(f"SKIPPED: {registry} exists but no organization in it resolves to a "
+                  f"budget_agency_code mapping this corpus can build from. Join documents "
+                  f"cannot be built without one, and this is NOT a pass.", file=sys.stderr)
+        else:
+            print(f"SKIPPED: no agency registry at {registry}. Join documents cannot be "
+                  f"built without the hand-reviewed budget_agency_code mapping, and this "
+                  f"is NOT a pass.", file=sys.stderr)
+        return None
+    return by_name
 
 
 def _norm(s: str) -> str:

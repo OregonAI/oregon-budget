@@ -122,7 +122,7 @@ def test_registry_with_neither_key_is_refused_not_emptied(stale_registry):
     caller's only signal is that emptiness. A registry that IS present and DOES parse but
     carries neither expected key must refuse loudly, not degrade into that same empty
     shape by accident."""
-    with pytest.raises(ValueError, match=str(stale_registry)):
+    with pytest.raises(ValueError):
         build_joins.erf_agencies(stale_registry)
 
 
@@ -134,13 +134,18 @@ def test_refusal_names_the_file_it_read(stale_registry):
     assert str(stale_registry) in str(exc.value)
 
 
-def test_unresolved_report_refuses_a_stale_registry_rather_than_running(stale_registry):
+def test_unresolved_report_refuses_a_stale_registry_rather_than_running(stale_registry,
+                                                                         capsys):
     """`--unresolved-report` calls through to the same registry loader as the build path,
     but had its own ad hoc emptiness check rather than the shared refusal -- so a stale
     registry that raises here must still come back as a clean exit 2, not an uncaught
-    traceback, and the message must name the file."""
+    traceback. Asserting `REFUSED` specifically -- not just exit 2 -- matters: the base
+    this replaced also returned 2 with a message on the same input, just the wrong one
+    (`SKIPPED`, not `REFUSED`), so exit code alone cannot tell the new behaviour from the
+    old."""
     code = build_joins.unresolved_report(stale_registry)
     assert code == 2
+    assert "REFUSED" in capsys.readouterr().err
 
 
 def test_unresolved_report_refusal_names_the_file(stale_registry, capsys):
@@ -168,3 +173,34 @@ def test_registry_carrying_only_das_agency_number_is_not_stale(tmp_path):
     ]}), encoding="utf-8")
     by_name = build_joins.erf_agencies(p)  # must not raise
     assert by_name == {}
+
+
+def test_load_registry_or_refuse_does_not_call_an_existing_file_absent(tmp_path, capsys):
+    """A registry carrying only `das_agency_number` exists, parses, and does not trip the
+    `neither key` refusal -- but `erf_agencies` still filters every row out because it
+    still reads `budget_agency_code` (that switch is #49's job, not this one's). The
+    resulting empty mapping must not be reported with the message reserved for a registry
+    that was never found: the file is right there. This is the exact shape #37's own
+    acceptance criteria were filed to kill, reached again one level up, at the caller
+    `erf_agencies` does not control."""
+    p = tmp_path / "agencies.yml"
+    p.write_text(yaml.safe_dump({"organizations": [
+        {"slug": "department-of-forestry", "name": "Oregon Department of Forestry",
+         "oar_name": "Forestry Department, Oregon", "das_agency_number": "629"},
+    ]}), encoding="utf-8")
+    result = build_joins.load_registry_or_refuse(p)
+    assert result is None
+    assert "no agency registry at" not in capsys.readouterr().err
+
+
+def test_main_refuses_a_stale_registry_rather_than_building(stale_registry, monkeypatch,
+                                                              capsys):
+    """The consolidation's own justification is that `--build` and `--unresolved-report`
+    now behave identically; `unresolved_report` was exercised directly above, but nothing
+    called `main()` -- the path that actually writes the 474 join documents and the one
+    issue #37 is titled after. This is the cheap seam that checks the claim instead of
+    assuming it."""
+    monkeypatch.setattr(sys, "argv", ["build_joins.py", "--registry", str(stale_registry)])
+    code = build_joins.main()
+    assert code == 2
+    assert "REFUSED" in capsys.readouterr().err
