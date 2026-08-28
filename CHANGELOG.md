@@ -42,6 +42,26 @@ Repo-curation dates only — official effective dates live in frontmatter.
   about each body in it, and it reasoned about "the Governor's office and the
   legislative-branch bodies", neither of which the bucket has contained since those names
   started resolving. The section now states only what it measures.
+- 2026-08-27 — **All 474 published join documents' agency-identity line, and both code
+  readers of ERF's registry in this repo, switch from `budget_agency_code` to
+  `das_agency_number`** (OregonAI/oregon-budget#49). ERF's ADR 0003 renamed the registry's
+  hand-reviewed budget code field because the number identifies a body in the state's
+  financial administration and says nothing about whether it spends money, and deprecated
+  the old name as an alias — writing both today and asserting them equal (measured on the
+  real registry: 80 organizations carry both, zero disagree). oregon-budget was the last
+  reader of the old name on the platform, so this is a hard switch with no fallback:
+  `src/build_joins.py`'s `erf_agencies()`/`build()` and `src/link_agency_registry.py`'s
+  `registry_index()` — a second, independent reader this ticket's own fleet survey missed
+  on first pass — both now read `das_agency_number` only. Regenerated against the real ERF
+  registry checkout: `grep -l budget_agency_code joins/*.md` goes 474 → 0,
+  `grep -l das_agency_number` goes 0 → 474, one hunk per file, no document added or
+  removed. `--check` is unaffected (474 documents, 854 join entries, clean) — it asserts
+  referential integrity only and never reads the registry either way. The generated
+  `_meta/unresolved-agencies.md` report's separate, non-CI-gated `budget_agency_code`
+  reads are tracked as oregon-budget#53, out of this change's scope. The At-a-glance
+  sentence's spaced English phrase "budget agency code `NNN`" is unchanged by design — the
+  ticket's own Implementation Decision names only "the agency-identity template line",
+  which is the `- Agency identity: ...` bullet, not this descriptive prose.
 
 ### Fixed
 - 2026-08-02 — **Un-stamped fabricated `last_verified`/`verified_by` on all

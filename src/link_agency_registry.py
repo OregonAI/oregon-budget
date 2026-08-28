@@ -370,17 +370,18 @@ def find_registry(explicit: str | None) -> Path | None:
 def registry_index(path: Path) -> dict[str, dict]:
     """{slug: {oar_name, das_agency_number}} from ERF's committed registry.
 
-    `das_agency_number` is read with `budget_agency_code` as a fallback: ERF's ADR 0003
-    renamed the field and keeps the old key readable for one deprecation cycle, holding the
-    same value. Reading only the new name would make this check silently pass nothing on a
-    registry that has not migrated yet.
+    Reads `das_agency_number` only -- oregon-budget#49's hard switch, no fallback. ERF
+    writes both keys today and asserts them equal, so this resolves against ERF exactly as
+    it stands; a `das_agency_number or budget_agency_code` fallback would buy independence
+    that equality check already guarantees, and would then need a second change to remove
+    when ERF#177 retires the alias.
     """
     data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     out = {}
     for o in data.get("organizations") or []:
         if not o.get("slug"):
             continue
-        code = o.get("das_agency_number") or o.get("budget_agency_code")
+        code = o.get("das_agency_number")
         out[o["slug"]] = {"oar_name": o.get("oar_name"),
                           "das_agency_number": str(code) if code else None}
     return out

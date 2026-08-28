@@ -280,19 +280,25 @@ def synthetic_cw():
                                             "slug": "test-agency"}}}
 
 
-def test_build_output_is_identical_regardless_of_today(synthetic_fm, synthetic_org,
-                                                         synthetic_cw):
-    """The only date `build()` is handed must never reach the document it returns."""
+@pytest.fixture
+def con():
+    """A `duckdb.connect()` in-memory database, closed after the test. Not a connection
+    "over" the mirror in any stored sense -- it reads the committed Parquet files only
+    because spending()'s SQL globs them by path on every query."""
     import duckdb
 
-    con = duckdb.connect()
-    try:
-        doc_id_early, text_early = build_joins.build(
-            synthetic_fm, synthetic_org, con, "2020-01-01", synthetic_cw)
-        doc_id_late, text_late = build_joins.build(
-            synthetic_fm, synthetic_org, con, "2099-12-31", synthetic_cw)
-    finally:
-        con.close()
+    c = duckdb.connect()
+    yield c
+    c.close()
+
+
+def test_build_output_is_identical_regardless_of_today(synthetic_fm, synthetic_org,
+                                                         synthetic_cw, con):
+    """The only date `build()` is handed must never reach the document it returns."""
+    doc_id_early, text_early = build_joins.build(
+        synthetic_fm, synthetic_org, con, "2020-01-01", synthetic_cw)
+    doc_id_late, text_late = build_joins.build(
+        synthetic_fm, synthetic_org, con, "2099-12-31", synthetic_cw)
     # The fixture must actually exercise the branch every real document with overlapping
     # fiscal years takes, or a date line hidden inside it would go unobserved.
     assert "Agency spending by fiscal year" in text_early
@@ -335,36 +341,30 @@ def disagreeing_cw():
 
 
 def test_build_code_is_das_agency_number_not_budget_agency_code(synthetic_fm, disagreeing_org,
-                                                                  disagreeing_cw):
+                                                                  disagreeing_cw, con):
     """The hard switch, proved where it actually matters: the `code` that ends up in the
-    document id is das_agency_number's value. The mirror has no rows for either fabricated
-    code, so this exercises code selection itself, not spending lookup."""
-    import duckdb
-
-    con = duckdb.connect()
-    try:
-        doc_id, text = build_joins.build(synthetic_fm, disagreeing_org, con, "2026-08-27",
-                                         disagreeing_cw)
-    finally:
-        con.close()
+    document id is das_agency_number's value, 629 -- Department of Forestry, a REAL code
+    with rows in the committed mirror for both FY2024 and FY2025 (4,293 records/$197.0M and
+    4,351 records/$393.9M respectively), so this exercises code selection through the same
+    "Agency spending by fiscal year" branch every one of the 474 committed documents takes
+    when built, not the empty-mirror branch. Only budget_agency_code's fabricated 999999
+    has no mirror rows; a fallback landing on it would both misname the code AND silently
+    swap the document onto that empty branch, which `assert "999999" not in text` below
+    catches either way."""
+    doc_id, text = build_joins.build(synthetic_fm, disagreeing_org, con, "2026-08-27",
+                                     disagreeing_cw)
     assert doc_id == "join-test-hb0000-agency-629"
     assert "999999" not in text
 
 
 def test_build_output_names_das_agency_number_not_budget_agency_code(synthetic_fm,
                                                                       disagreeing_org,
-                                                                      disagreeing_cw):
+                                                                      disagreeing_cw, con):
     """The agency-identity line every one of the 474 committed join documents carries must
     name the field ERF's registry actually carries going forward -- not the alias ERF#177
     is scheduled to retire, and not both (a stray leftover mention would misdescribe the
     provenance this line records)."""
-    import duckdb
-
-    con = duckdb.connect()
-    try:
-        _, text = build_joins.build(synthetic_fm, disagreeing_org, con, "2026-08-27",
-                                    disagreeing_cw)
-    finally:
-        con.close()
+    _, text = build_joins.build(synthetic_fm, disagreeing_org, con, "2026-08-27",
+                                disagreeing_cw)
     assert "das_agency_number: 629" in text
     assert "budget_agency_code" not in text

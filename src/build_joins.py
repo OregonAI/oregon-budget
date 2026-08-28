@@ -54,7 +54,7 @@ ROOT = Path(__file__).resolve().parent.parent
 BILLS = ROOT / "bills"
 OUT = ROOT / "joins"
 GLOB = str(ROOT / "data" / "expenditures" / "*.parquet")
-# The sibling's agency registry, which carries the hand-reviewed budget_agency_code.
+# The sibling's agency registry, which carries the hand-reviewed das_agency_number.
 # Found beside this repo under the upstream repo's current name. Override with --registry.
 #
 # oregon-budget#37: this list used to also try `oregon-policy-repo`, ERF's name before its
