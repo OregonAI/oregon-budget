@@ -204,3 +204,48 @@ def test_main_refuses_a_stale_registry_rather_than_building(stale_registry, monk
     code = build_joins.main()
     assert code == 2
     assert "REFUSED" in capsys.readouterr().err
+
+
+# --- oregon-budget#50: the determinism claim that makes an empty `git diff` over joins/ a
+# meaningful thing to require, rather than something that merely happened to be true the day
+# someone ran it. ---------------------------------------------------------------------------
+#
+# `main()` computes `today` once and threads it into every `build()` call, so a signature
+# test alone would not show whether the value actually reaches the document -- `build()`
+# could read `today` and simply be called with the same value on both runs of a regen and
+# the diff would still be empty by coincidence. The only way to observe "unused" is to call
+# `build()` directly with two DIFFERENT `today` values and require byte-identical output;
+# if `today` ever starts landing in the document (a "generated on <date>" line, say) this is
+# the test that would need to start disagreeing with itself to still pass, and it can't.
+#
+# `con` is a real duckdb connection over the committed Parquet mirror -- cheap, deterministic,
+# already a test dependency of this suite -- but `fm`/`org`/`cw` are synthetic, keyed on an
+# agency code (`999999`) that matches no row in the mirror, so this test does not depend on
+# the real ERF registry checkout the other fixtures in this file also avoid.
+def _synthetic_join_inputs():
+    fm = {
+        "id": "appropriations-test-hb0000",
+        "citation": "Test HB 0000 (2025)",
+        "source_url": "https://example.invalid/test-hb0000",
+        "biennium_fiscal_years": [2024, 2025],
+        "biennium": "biennium ending June 30, 2025",
+        "sibling_corpus": "oregon-legislature",
+        "sibling_document_id": "bill-test-hb0000",
+    }
+    org = {"budget_agency_code": "999999", "slug": "test-agency", "name": "Test Agency"}
+    cw = {"mapping": {"TEST AGENCY, OR": {"das_agency_number": "999999",
+                                          "basis": "das_agency_number",
+                                          "slug": "test-agency"}}}
+    return fm, org, cw
+
+
+def test_build_output_is_identical_regardless_of_today():
+    """The only date `build()` is handed must never reach the document it returns."""
+    import duckdb
+
+    fm, org, cw = _synthetic_join_inputs()
+    con = duckdb.connect()
+    doc_id_early, text_early = build_joins.build(fm, org, con, "2020-01-01", cw)
+    doc_id_late, text_late = build_joins.build(fm, org, con, "2099-12-31", cw)
+    assert doc_id_early == doc_id_late
+    assert text_early == text_late
