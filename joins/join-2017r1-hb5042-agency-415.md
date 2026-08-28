@@ -78,6 +78,6 @@ Answering "was this appropriation spent?" needs an expenditure record carrying t
 
 - Appropriation figures: `appropriations-2017r1-hb5042` in this corpus — machine-extracted from bill text and **not human-reviewed**.
 - Bill text: `measure-2017r1-hb5042` in the `oregon-legislature` corpus, referenced not copied.
-- Agency identity: `oregon-youth-authority` in the `executive-regulatory-frameworks` corpus, whose registry carries the hand-reviewed `budget_agency_code: 415`. Resolved here by matching this bill's `appropriated_to` string against that registry, exact-only.
+- Agency identity: `oregon-youth-authority` in the `executive-regulatory-frameworks` corpus, whose registry carries the hand-reviewed `das_agency_number: 415`. Resolved here by matching this bill's `appropriated_to` string against that registry, exact-only.
 - Agency identity, independently: `_meta/agency-crosswalk.yml` resolves the expenditure feed's own name for this body, `YOUTH AUTHORITY, OR`, to the same slug on basis `das_number`. The `agency_registry_basis` in this document's frontmatter is THAT claim, about THAT string — not a description of how the bill's wording matched.
 - Spending: the committed Parquet mirror, reconciled against live SODA weekly.

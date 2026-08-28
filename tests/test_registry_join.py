@@ -26,7 +26,13 @@ import build_joins                                              # noqa: E402
 
 @pytest.fixture
 def split_registry(tmp_path):
-    """A registry after ERF#168: `name` is statutory, `oar_name` is the OAR chapter title."""
+    """A registry after ERF#168: `name` is statutory, `oar_name` is the OAR chapter title.
+
+    Carries BOTH `das_agency_number` and `budget_agency_code`, equal, matching ERF's actual
+    dual-write today -- these tests are about the oar_name/alias key, not about which of the
+    two code fields wins, so an agreeing fixture is correct here (that disagreement is
+    `disagreeing_org` below, the one built to observe it).
+    """
     p = tmp_path / "agencies.yml"
     p.write_text(yaml.safe_dump({"organizations": [
         # No aliases: nothing but `oar_name` can reach this one, so a test that resolves it
@@ -34,13 +40,13 @@ def split_registry(tmp_path):
         {"slug": "department-of-forestry",
          "name": "Oregon Department of Forestry",          # statutory
          "oar_name": "Forestry Department, Oregon",        # OAR chapter title
-         "budget_agency_code": "629"},
+         "das_agency_number": "629", "budget_agency_code": "629"},
         # Aliases live on a SEPARATE body so the alias test cannot be satisfied by the
         # key under test, nor the key test by an alias.
         {"slug": "department-of-revenue",
          "name": "Oregon Department of Revenue",
          "oar_name": "Revenue Department, Oregon",
-         "budget_agency_code": "150",
+         "das_agency_number": "150", "budget_agency_code": "150",
          "aliases": ["Revenue Division"]},
     ]}), encoding="utf-8")
     return p
@@ -72,7 +78,7 @@ def test_row_without_oar_name_is_not_oar_joinable(tmp_path):
     p = tmp_path / "agencies.yml"
     p.write_text(yaml.safe_dump({"organizations": [
         {"slug": "governors-office", "name": "Office of the Governor",
-         "budget_agency_code": "100", "aliases": ["Governor's Office"]},
+         "das_agency_number": "100", "aliases": ["Governor's Office"]},
     ]}), encoding="utf-8")
     by_name = build_joins.erf_agencies(p)
     assert build_joins.resolve_agency("Office of the Governor", by_name) is None
@@ -161,32 +167,38 @@ def test_the_dead_former_name_candidate_is_gone():
     assert not any("oregon-policy-repo" in str(p) for p in build_joins.ERF_REGISTRY_CANDIDATES)
 
 
-def test_registry_carrying_only_das_agency_number_is_not_stale(tmp_path):
-    """The refusal is `neither` field, not `not budget_agency_code` alone -- a registry
-    that has already migrated to `das_agency_number` and dropped the old key must NOT be
-    mistaken for a pre-migration one. (Building the mapping from it is #49's job; this
-    only proves the refusal itself does not fire.)"""
+def test_registry_carrying_only_das_agency_number_resolves(tmp_path):
+    """#49: erf_agencies() now selects on `das_agency_number`, so a registry that has
+    already migrated and dropped `budget_agency_code` must resolve normally rather than
+    degrade to an empty mapping. (Before #49, filtering on `budget_agency_code` alone
+    excluded this org entirely -- this test used to assert `by_name == {}` and document
+    that "building the mapping from it is #49's job"; that job is this one.)"""
     p = tmp_path / "agencies.yml"
     p.write_text(yaml.safe_dump({"organizations": [
         {"slug": "department-of-forestry", "name": "Oregon Department of Forestry",
          "oar_name": "Forestry Department, Oregon", "das_agency_number": "629"},
     ]}), encoding="utf-8")
-    by_name = build_joins.erf_agencies(p)  # must not raise
-    assert by_name == {}
+    by_name = build_joins.erf_agencies(p)
+    hit = build_joins.resolve_agency("Forestry Department, Oregon", by_name)
+    assert hit is not None and hit["slug"] == "department-of-forestry"
 
 
 def test_load_registry_or_refuse_does_not_call_an_existing_file_absent(tmp_path, capsys):
-    """A registry carrying only `das_agency_number` exists, parses, and does not trip the
-    `neither key` refusal -- but `erf_agencies` still filters every row out because it
-    still reads `budget_agency_code` (that switch is #49's job, not this one's). The
+    """#49: a registry carrying only `budget_agency_code` -- the actual pre-migration shape
+    #37's own review measured (80 real orgs, all `budget_agency_code`, zero
+    `das_agency_number`) -- exists, parses, and does not trip the `neither key` refusal,
+    but `erf_agencies` now filters every row out because it reads `das_agency_number`. The
     resulting empty mapping must not be reported with the message reserved for a registry
     that was never found: the file is right there. This is the exact shape #37's own
-    acceptance criteria were filed to kill, reached again one level up, at the caller
-    `erf_agencies` does not control."""
+    acceptance criteria were filed to kill, now reached from the other field after the
+    hard switch, at the caller `erf_agencies` does not control.
+
+    (Before #49 this fixture carried only `das_agency_number`, the mirror image of today's
+    shape, because at that point `erf_agencies` still read `budget_agency_code`.)"""
     p = tmp_path / "agencies.yml"
     p.write_text(yaml.safe_dump({"organizations": [
         {"slug": "department-of-forestry", "name": "Oregon Department of Forestry",
-         "oar_name": "Forestry Department, Oregon", "das_agency_number": "629"},
+         "oar_name": "Forestry Department, Oregon", "budget_agency_code": "629"},
     ]}), encoding="utf-8")
     result = build_joins.load_registry_or_refuse(p)
     assert result is None
@@ -223,7 +235,7 @@ def test_main_refuses_a_stale_registry_rather_than_building(stale_registry, monk
 # because two `build()` calls in one test process would share those anyway; that broader
 # claim is the double-regen-and-diff run manually and pasted into #50, not this test.
 #
-# `org["budget_agency_code"]` is `107` -- Department of Administrative Services, a REAL DAS
+# `org["das_agency_number"]` is `107` -- Department of Administrative Services, a REAL DAS
 # code, chosen because the committed Parquet mirror carries rows for it in both FY2024 and
 # FY2025 (verified: `select agency, fiscal_year, sum(expense) ... where agency = '107'`
 # returns a row for each year). That is deliberate, not incidental: a fabricated code with
@@ -258,7 +270,7 @@ def synthetic_fm():
 
 @pytest.fixture
 def synthetic_org():
-    return {"budget_agency_code": "107", "slug": "test-agency", "name": "Test Agency"}
+    return {"das_agency_number": "107", "slug": "test-agency", "name": "Test Agency"}
 
 
 @pytest.fixture
@@ -286,3 +298,73 @@ def test_build_output_is_identical_regardless_of_today(synthetic_fm, synthetic_o
     assert "Agency spending by fiscal year" in text_early
     assert doc_id_early == doc_id_late
     assert text_early == text_late
+
+
+# --- oregon-budget#49: build_joins.py reads das_agency_number, not budget_agency_code, and
+# the field name it emits into the 474 published join documents' agency-identity line moves
+# with it. -------------------------------------------------------------------------------
+#
+# ERF writes both keys and asserts them equal (measured on the real registry: 80
+# organizations carry both, zero disagree), so a fixture where the two fields AGREE would
+# pass this ticket's tests whichever one `build()` actually reads -- exactly the "passes by
+# construction" trap this file's own module docstring warns against, and exactly why the
+# ticket itself rejects a `das_agency_number or budget_agency_code` fallback: such a
+# fallback would also pass an agreeing fixture, coincidentally. `disagreeing_org` below
+# gives one organization a `das_agency_number` that DIFFERS from its `budget_agency_code`,
+# so only a genuine, exclusive read of the new field lands on the value these tests assert.
+
+
+@pytest.fixture
+def disagreeing_org():
+    """A resolved org record carrying both code fields with DIFFERENT values. build() must
+    select `das_agency_number` (629) and never `budget_agency_code` (999999) -- a fallback
+    that read the fields in the wrong order would land on 999999 here, which is exactly
+    what distinguishes this fixture from one where the two fields merely agree."""
+    return {"das_agency_number": "629", "budget_agency_code": "999999",
+            "slug": "test-agency-disagree", "name": "Test Agency Disagree"}
+
+
+@pytest.fixture
+def disagreeing_cw():
+    """The crosswalk's own mapping is keyed on `das_agency_number` already (unaffected by
+    this ticket); it must name the SAME code build() is expected to select, or
+    basis_provenance() raises KeyError on a code it cannot find."""
+    return {"mapping": {"TEST AGENCY DISAGREE, OR": {
+        "das_agency_number": "629", "basis": "das_agency_number",
+        "slug": "test-agency-disagree"}}}
+
+
+def test_build_code_is_das_agency_number_not_budget_agency_code(synthetic_fm, disagreeing_org,
+                                                                  disagreeing_cw):
+    """The hard switch, proved where it actually matters: the `code` that ends up in the
+    document id is das_agency_number's value. The mirror has no rows for either fabricated
+    code, so this exercises code selection itself, not spending lookup."""
+    import duckdb
+
+    con = duckdb.connect()
+    try:
+        doc_id, text = build_joins.build(synthetic_fm, disagreeing_org, con, "2026-08-27",
+                                         disagreeing_cw)
+    finally:
+        con.close()
+    assert doc_id == "join-test-hb0000-agency-629"
+    assert "999999" not in text
+
+
+def test_build_output_names_das_agency_number_not_budget_agency_code(synthetic_fm,
+                                                                      disagreeing_org,
+                                                                      disagreeing_cw):
+    """The agency-identity line every one of the 474 committed join documents carries must
+    name the field ERF's registry actually carries going forward -- not the alias ERF#177
+    is scheduled to retire, and not both (a stray leftover mention would misdescribe the
+    provenance this line records)."""
+    import duckdb
+
+    con = duckdb.connect()
+    try:
+        _, text = build_joins.build(synthetic_fm, disagreeing_org, con, "2026-08-27",
+                                    disagreeing_cw)
+    finally:
+        con.close()
+    assert "das_agency_number: 629" in text
+    assert "budget_agency_code" not in text

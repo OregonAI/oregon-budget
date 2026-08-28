@@ -83,7 +83,7 @@ DISCLAIMER = "NON-AUTHORITATIVE"
 
 
 def erf_agencies(registry: Path) -> dict:
-    """oar_name -> {slug, budget_agency_code} for ERF orgs carrying a budget code.
+    """oar_name -> {slug, das_agency_number} for ERF orgs carrying a budget code.
 
     The codes are hand-reviewed in the sibling (src/link_budget_codes.py there). This
     corpus consumes them; it does not re-derive them, because a second fuzzy name match
@@ -118,7 +118,7 @@ def erf_agencies(registry: Path) -> dict:
             f"empty mapping.")
     out = {}
     for o in orgs:
-        if not o.get("budget_agency_code"):
+        if not o.get("das_agency_number"):
             continue
         # A row with no `oar_name` is NOT OAR-joinable, and that is a legitimate registry
         # state, not a defect: 19 bodies hold no OAR chapter (ADR 0003 admits bodies on
@@ -159,11 +159,11 @@ def load_registry_or_refuse(registry: Path) -> dict | None:
     if not by_name:
         if registry.is_file():
             print(f"SKIPPED: {registry} exists but no organization in it resolves to a "
-                  f"budget_agency_code mapping this corpus can build from. Join documents "
+                  f"das_agency_number mapping this corpus can build from. Join documents "
                   f"cannot be built without one, and this is NOT a pass.", file=sys.stderr)
         else:
             print(f"SKIPPED: no agency registry at {registry}. Join documents cannot be "
-                  f"built without the hand-reviewed budget_agency_code mapping, and this "
+                  f"built without the hand-reviewed das_agency_number mapping, and this "
                   f"is NOT a pass.", file=sys.stderr)
         return None
     return by_name
@@ -201,7 +201,7 @@ def resolve_agency(name: str, by_name: dict):
     "Department of Forestry", 17 appropriations). It is almost certainly the same body, but
     "almost certainly" is how the Legislative Revenue Office got matched to the Department
     of Revenue in the sibling corpus. Those stay unresolved and reported until a human
-    records the mapping, which is what the registry's budget_agency_code exists for.
+    records the mapping, which is what the registry's das_agency_number exists for.
     """
     if not name:
         return None
@@ -234,7 +234,7 @@ def spending(con, agency: str, years: list[int]) -> dict:
 
 
 def build(fm: dict, org: dict, con, today: str, cw: dict) -> tuple[str, str]:
-    code = org["budget_agency_code"]
+    code = org["das_agency_number"]
     basis, basis_key = basis_provenance(code, cw)
     years = [y for y in fm["biennium_fiscal_years"] if y in MIRROR_YEARS]
     sp = spending(con, code, years)
@@ -343,7 +343,7 @@ def build(fm: dict, org: dict, con, today: str, cw: dict) -> tuple[str, str]:
              f"`{fm.get('sibling_corpus')}` corpus, referenced not copied.")
     L.append(f"- Agency identity: `{org['slug']}` in the "
              f"`executive-regulatory-frameworks` corpus, whose registry carries the "
-             f"hand-reviewed `budget_agency_code: {code}`. Resolved here by matching this "
+             f"hand-reviewed `das_agency_number: {code}`. Resolved here by matching this "
              f"bill's `appropriated_to` string against that registry, exact-only.")
     L.append(f"- Agency identity, independently: `_meta/agency-crosswalk.yml` resolves the "
              f"expenditure feed's own name for this body, `{basis_key}`, to the same slug "
