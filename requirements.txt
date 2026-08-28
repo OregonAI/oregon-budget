@@ -14,6 +14,6 @@
 # key silently and serve a server with no list_datasets, query_dataset or join_lookup — the
 # exact failure the seam's fatal-on-error behaviour exists to prevent, reintroduced by a
 # stale pin.
-corpus-toolkit[mcp,semantic] @ git+https://github.com/OregonAI/corpus-toolkit@v1.30.0
+corpus-toolkit[mcp,semantic] @ git+https://github.com/OregonAI/corpus-toolkit@v1.31.0
 pyyaml
 jsonschema
