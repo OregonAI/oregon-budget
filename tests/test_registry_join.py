@@ -85,3 +85,86 @@ def test_aliases_still_resolve(split_registry):
     by_name = build_joins.erf_agencies(split_registry)
     hit = build_joins.resolve_agency("Revenue Division", by_name)
     assert hit is not None and hit["slug"] == "department-of-revenue"
+
+
+# --- oregon-budget#37: a present, parsing registry that carries neither key is a refusal,
+# not an empty mapping. -----------------------------------------------------------------
+#
+# A fixture where every entry disagrees with the CURRENT registry on the field that
+# matters would pass by construction if it merely repeated `budget_agency_code` under a
+# new name. So `stale_registry` below carries NEITHER `das_agency_number` NOR
+# `budget_agency_code` -- the actual shape of the checkout the issue measured: it parses,
+# every slug resolves, and it is not detectably old by looking at any one field. Only the
+# absence of BOTH fields across every organization distinguishes it, so that is what the
+# fixture withholds.
+
+
+@pytest.fixture
+def stale_registry(tmp_path):
+    """A pre-migration registry: present, parses, resolves nothing this corpus can use.
+
+    Carries `parent_slug`, the schema ERF's ADR 0004 retired, to match the real checkout
+    the issue measured -- present only for realism, not read by anything under test.
+    """
+    p = tmp_path / "agencies.yml"
+    p.write_text(yaml.safe_dump({"organizations": [
+        {"slug": "department-of-forestry", "name": "Oregon Department of Forestry",
+         "oar_name": "Forestry Department, Oregon", "parent_slug": None},
+        {"slug": "department-of-revenue", "name": "Oregon Department of Revenue",
+         "oar_name": "Revenue Department, Oregon", "parent_slug": None},
+    ]}), encoding="utf-8")
+    return p
+
+
+def test_registry_with_neither_key_is_refused_not_emptied(stale_registry):
+    """Today's loader would skip both rows for lacking `budget_agency_code` and hand back
+    `{}` -- a mapping indistinguishable from 'the registry has no bodies at all', and the
+    caller's only signal is that emptiness. A registry that IS present and DOES parse but
+    carries neither expected key must refuse loudly, not degrade into that same empty
+    shape by accident."""
+    with pytest.raises(ValueError, match=str(stale_registry)):
+        build_joins.erf_agencies(stale_registry)
+
+
+def test_refusal_names_the_file_it_read(stale_registry):
+    """The refusal must identify which file was actually opened -- not a generic 'no
+    registry found', which reads as though the path were never reached at all."""
+    with pytest.raises(ValueError) as exc:
+        build_joins.erf_agencies(stale_registry)
+    assert str(stale_registry) in str(exc.value)
+
+
+def test_unresolved_report_refuses_a_stale_registry_rather_than_running(stale_registry):
+    """`--unresolved-report` calls through to the same registry loader as the build path,
+    but had its own ad hoc emptiness check rather than the shared refusal -- so a stale
+    registry that raises here must still come back as a clean exit 2, not an uncaught
+    traceback, and the message must name the file."""
+    code = build_joins.unresolved_report(stale_registry)
+    assert code == 2
+
+
+def test_unresolved_report_refusal_names_the_file(stale_registry, capsys):
+    build_joins.unresolved_report(stale_registry)
+    assert str(stale_registry) in capsys.readouterr().err
+
+
+def test_the_dead_former_name_candidate_is_gone():
+    """oregon-policy-repo was ERF's name before its rename; that checkout was verified
+    deleted, but the path itself must not still be listed, or any other checkout -- a
+    different machine, a fresh clone of the old branch -- reproduces the exact fallback
+    this issue was filed on."""
+    assert not any("oregon-policy-repo" in str(p) for p in build_joins.ERF_REGISTRY_CANDIDATES)
+
+
+def test_registry_carrying_only_das_agency_number_is_not_stale(tmp_path):
+    """The refusal is `neither` field, not `not budget_agency_code` alone -- a registry
+    that has already migrated to `das_agency_number` and dropped the old key must NOT be
+    mistaken for a pre-migration one. (Building the mapping from it is #49's job; this
+    only proves the refusal itself does not fire.)"""
+    p = tmp_path / "agencies.yml"
+    p.write_text(yaml.safe_dump({"organizations": [
+        {"slug": "department-of-forestry", "name": "Oregon Department of Forestry",
+         "oar_name": "Forestry Department, Oregon", "das_agency_number": "629"},
+    ]}), encoding="utf-8")
+    by_name = build_joins.erf_agencies(p)  # must not raise
+    assert by_name == {}
