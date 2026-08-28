@@ -216,14 +216,36 @@ def test_main_refuses_a_stale_registry_rather_than_building(stale_registry, monk
 # the diff would still be empty by coincidence. The only way to observe "unused" is to call
 # `build()` directly with two DIFFERENT `today` values and require byte-identical output;
 # if `today` ever starts landing in the document (a "generated on <date>" line, say) this is
-# the test that would need to start disagreeing with itself to still pass, and it can't.
+# the test that would need to start disagreeing with itself to still pass -- PROVIDED the
+# fixture actually reaches the branch a real date line would land in. That pins one axis of
+# AC3 -- that the `today` parameter itself never reaches the output. It says nothing about
+# any OTHER source of non-determinism (an internal clock read, unstable dict/set ordering),
+# because two `build()` calls in one test process would share those anyway; that broader
+# claim is the double-regen-and-diff run manually and pasted into #50, not this test.
 #
-# `con` is a real duckdb connection over the committed Parquet mirror -- cheap, deterministic,
-# already a test dependency of this suite -- but `fm`/`org`/`cw` are synthetic, keyed on an
-# agency code (`999999`) that matches no row in the mirror, so this test does not depend on
-# the real ERF registry checkout the other fixtures in this file also avoid.
-def _synthetic_join_inputs():
-    fm = {
+# `org["budget_agency_code"]` is `107` -- Department of Administrative Services, a REAL DAS
+# code, chosen because the committed Parquet mirror carries rows for it in both FY2024 and
+# FY2025 (verified: `select agency, fiscal_year, sum(expense) ... where agency = '107'`
+# returns a row for each year). That is deliberate, not incidental: a fabricated code with
+# no mirror rows sends `build()` down the "no spending at all" branch, which never renders
+# the "## Agency spending by fiscal year" table that all 474 committed join documents DO
+# carry when they have overlapping fiscal years -- so a date line hidden in that table's
+# rendering would go unobserved by this test. `fm`'s biennium and `cw`'s mapping are still
+# entirely synthetic (the crosswalk key and slug name a body that doesn't exist in any real
+# registry), so this still does not depend on the real ERF registry checkout the other
+# fixtures in this file also avoid -- only the bare numeric code needs to line up with the
+# mirror, not the identity attached to it.
+#
+# `con` is a `duckdb.connect()` in-memory database, not a connection "over" the mirror in
+# any stored sense -- it reads the committed Parquet files only because `spending()`'s SQL
+# globs them by path on every query. With agency `107` that glob genuinely returns rows;
+# with the old fabricated `999999` it always returned none, which is what let the fixture's
+# blind spot go unnoticed. The connection is closed at the end of the test that uses it.
+
+
+@pytest.fixture
+def synthetic_fm():
+    return {
         "id": "appropriations-test-hb0000",
         "citation": "Test HB 0000 (2025)",
         "source_url": "https://example.invalid/test-hb0000",
@@ -232,20 +254,35 @@ def _synthetic_join_inputs():
         "sibling_corpus": "oregon-legislature",
         "sibling_document_id": "bill-test-hb0000",
     }
-    org = {"budget_agency_code": "999999", "slug": "test-agency", "name": "Test Agency"}
-    cw = {"mapping": {"TEST AGENCY, OR": {"das_agency_number": "999999",
-                                          "basis": "das_agency_number",
-                                          "slug": "test-agency"}}}
-    return fm, org, cw
 
 
-def test_build_output_is_identical_regardless_of_today():
+@pytest.fixture
+def synthetic_org():
+    return {"budget_agency_code": "107", "slug": "test-agency", "name": "Test Agency"}
+
+
+@pytest.fixture
+def synthetic_cw():
+    return {"mapping": {"TEST AGENCY, OR": {"das_agency_number": "107",
+                                            "basis": "das_agency_number",
+                                            "slug": "test-agency"}}}
+
+
+def test_build_output_is_identical_regardless_of_today(synthetic_fm, synthetic_org,
+                                                         synthetic_cw):
     """The only date `build()` is handed must never reach the document it returns."""
     import duckdb
 
-    fm, org, cw = _synthetic_join_inputs()
     con = duckdb.connect()
-    doc_id_early, text_early = build_joins.build(fm, org, con, "2020-01-01", cw)
-    doc_id_late, text_late = build_joins.build(fm, org, con, "2099-12-31", cw)
+    try:
+        doc_id_early, text_early = build_joins.build(
+            synthetic_fm, synthetic_org, con, "2020-01-01", synthetic_cw)
+        doc_id_late, text_late = build_joins.build(
+            synthetic_fm, synthetic_org, con, "2099-12-31", synthetic_cw)
+    finally:
+        con.close()
+    # The fixture must actually exercise the branch every real document with overlapping
+    # fiscal years takes, or a date line hidden inside it would go unobserved.
+    assert "Agency spending by fiscal year" in text_early
     assert doc_id_early == doc_id_late
     assert text_early == text_late
