@@ -368,3 +368,88 @@ def test_build_output_names_das_agency_number_not_budget_agency_code(synthetic_f
                                 disagreeing_cw)
     assert "das_agency_number: 629" in text
     assert "budget_agency_code" not in text
+
+
+# --- oregon-budget#53: unresolved_report()'s suggest() reads the registry's raw YAML
+# directly, NOT through erf_agencies() -- so #49's hard switch never touched it. This is
+# the second and last reader of `budget_agency_code` outside the #37 dual-key detection
+# block (erf_agencies() lines 112/116, which intentionally checks both keys). --------------
+#
+# The two code fields agree on every REAL org today (ERF dual-writes them and asserts
+# equality), so a fixture where they merely agree would pass this ticket's test whichever
+# field suggest() actually read -- the exact "passes by construction" trap this file's own
+# module docstring warns against. `migrated_only_registry` below carries ONLY
+# `das_agency_number`, the post-ERF#177 shape: not a differing value but an ABSENT key, so
+# a reader still keyed on the retired alias sees nothing there at all. That absence is what
+# gives the fixture power to fail the unfixed code and pass only the fix.
+
+
+@pytest.fixture
+def migrated_only_registry(tmp_path):
+    """Post-ERF#177: the registry carries `das_agency_number` and no `budget_agency_code`
+    at all -- not `erf_agencies()`'s already-covered case (#49), but `unresolved_report()`'s
+    own raw-YAML `reg` list, which `suggest()` reads directly."""
+    p = tmp_path / "agencies.yml"
+    p.write_text(yaml.safe_dump({"organizations": [
+        {"slug": "department-of-forestry", "name": "Oregon Department of Forestry",
+         "oar_name": "Forestry Department, Oregon", "das_agency_number": "629"},
+    ]}), encoding="utf-8")
+    return p
+
+
+@pytest.fixture
+def unmatched_bill(tmp_path):
+    """One synthetic bill whose `appropriated_to` is the word-order variant
+    `resolve_agency` DELIBERATELY refuses to resolve ("State Forestry Department" vs the
+    registry's "Forestry Department, Oregon" -- see resolve_agency's own docstring on this
+    exact example). It must reach `suggest()`, the codepath under test, rather than
+    resolving exactly and never reaching it."""
+    bills = tmp_path / "bills"
+    bills.mkdir()
+    fm = {"id": "appropriations-test-hb0001",
+          "appropriated_to": "State Forestry Department",
+          "biennium_fiscal_years": [2024, 2025]}
+    (bills / "appropriations-test-hb0001.md").write_text(
+        "---\n" + yaml.safe_dump(fm) + "---\nbody\n", encoding="utf-8")
+    return bills
+
+
+@pytest.fixture
+def report_root(unmatched_bill, monkeypatch, tmp_path):
+    """Points `unresolved_report()` at `unmatched_bill` and a scratch `_meta/` it can write
+    into, so the two tests below share one setup instead of repeating the same four lines."""
+    monkeypatch.setattr(build_joins, "BILLS", unmatched_bill)
+    out_root = tmp_path / "out"
+    (out_root / "_meta").mkdir(parents=True)
+    monkeypatch.setattr(build_joins, "ROOT", out_root)
+    return out_root
+
+
+def test_unresolved_report_variant_reads_das_agency_number_not_budget_agency_code(
+        migrated_only_registry, report_root):
+    """`suggest()`'s `best.get("budget_agency_code")` truthiness check, and the code column
+    it prints, must read `das_agency_number` -- like `erf_agencies()` has since #49 -- or a
+    migrated registry (ONLY `das_agency_number`, no `budget_agency_code` at all) sees every
+    truthy check on the retired key come back None, and a genuine name-variant match falls
+    from "## 2. Probable name variant" into "## 3. ... no `das_agency_number` -- cannot
+    join", exactly the misclassification ERF#177 was filed to cause (#53)."""
+    code = build_joins.unresolved_report(migrated_only_registry)
+    assert code == 0
+    text = (report_root / "_meta" / "unresolved-agencies.md").read_text()
+
+    variant_section = text.split("## 2. Probable name variant")[1].split("## 3.")[0]
+    nocode_section = text.split("## 3. In the registry")[1].split("## 4.")[0]
+    assert "State Forestry Department" in variant_section
+    assert "| 629 |" in variant_section
+    assert "State Forestry Department" not in nocode_section
+
+
+def test_unresolved_report_prose_does_not_name_the_retired_alias(
+        migrated_only_registry, report_root):
+    """The report's own prose (module-level intro, section headings, table headers, and
+    the section 3 explanation) must not keep asserting the retired field name once every
+    reader is switched."""
+    build_joins.unresolved_report(migrated_only_registry)
+    text = (report_root / "_meta" / "unresolved-agencies.md").read_text()
+    assert "budget_agency_code" not in text
+    assert "budget code" not in text

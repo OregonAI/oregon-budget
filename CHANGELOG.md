@@ -62,6 +62,28 @@ Repo-curation dates only — official effective dates live in frontmatter.
   sentence's spaced English phrase "budget agency code `NNN`" is unchanged by design — the
   ticket's own Implementation Decision names only "the agency-identity template line",
   which is the `- Agency identity: ...` bullet, not this descriptive prose.
+- 2026-08-30 — **`unresolved_report()`'s `suggest()` switches from `budget_agency_code` to
+  `das_agency_number`, and `_meta/unresolved-agencies.md` is regenerated** (OregonAI/oregon-budget#53,
+  the read #49 tracked as out of its own scope). `suggest()` reads the registry's raw YAML
+  directly rather than through `erf_agencies()`, so it was the one reader #49's hard switch
+  missed; on a registry carrying only `das_agency_number` (the post-migration shape), every
+  truthy check on the retired key came back `None` and a genuine name variant fell out of
+  "## 2. Probable name variant" into "## 3. ... cannot join". The report's own prose (module
+  intro, section 2/3 headings and table headers, the stdout summary, and the
+  `erf_agencies()` docstring) is switched too — all now read `das_agency_number`; the
+  dual-key detection at lines 112/116 that intentionally still checks both names is
+  untouched. Section 3's explanation was also reworded: it previously said a body carries no
+  code "because the expenditure data records no separate spending line for it", a causal
+  claim ADR 0003 rules out in general (`das_agency_number` "says nothing about whether it
+  spends money" — thirteen semi-independent bodies carry one and are explicitly outside the
+  state's accounting system). It now says the absence means ERF does not track the body as
+  distinct in the state's financial administration, typically because it is a sub-unit
+  funded through its parent. Regenerated against the real ERF registry: the diff is exactly
+  the terminology/prose lines above, with `**70 appropriations**`, `**11 distinct names**`,
+  and the `**4 appropriations**` in section 3 all unchanged, confirming a pure wording fix
+  with zero effect on which appropriations land in which bucket. Two new tests
+  (`tests/test_registry_join.py`) use a `das_agency_number`-only registry fixture, because
+  the real registry dual-writes both keys today and would pass unfixed code too.
 
 ### Fixed
 - 2026-08-02 — **Un-stamped fabricated `last_verified`/`verified_by` on all

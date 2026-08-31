@@ -83,7 +83,7 @@ DISCLAIMER = "NON-AUTHORITATIVE"
 
 
 def erf_agencies(registry: Path) -> dict:
-    """oar_name -> {slug, das_agency_number} for ERF orgs carrying a budget code.
+    """oar_name -> {slug, das_agency_number} for ERF orgs carrying a das_agency_number.
 
     The codes are hand-reviewed in the sibling (src/link_budget_codes.py there). This
     corpus consumes them; it does not re-derive them, because a second fuzzy name match
@@ -544,10 +544,10 @@ def unresolved_report(registry: Path) -> int:
                 missing.append((name, m, None, 0.0))
             continue
         best, score = suggest(name)
-        if best and best.get("budget_agency_code") and score >= 0.6:
+        if best and best.get("das_agency_number") and score >= 0.6:
             variant.append((name, docs, best, score))
         elif best and score >= 0.6:
-            # The body IS in the registry — it simply carries no budget_agency_code,
+            # The body IS in the registry — it simply carries no das_agency_number,
             # because it has no separately-recorded spending line. Reporting it as "no
             # registry counterpart" would send someone to create an entry that exists.
             nocode.append((name, docs, best, score))
@@ -561,7 +561,7 @@ def unresolved_report(registry: Path) -> int:
          f"Do not edit by hand._", "",
          f"**{n} appropriations** across **{len(groups)} distinct names** overlap the "
          f"FY2019–FY2025 expenditure mirror but name an agency that does not resolve "
-         f"against the sibling registry's `budget_agency_code`, so no join was built.", "",
+         f"against the sibling registry's `das_agency_number`, so no join was built.", "",
          "Resolution is deliberately exact-only. A near-match attaches an appropriation to "
          "the wrong agency and the result reads as a finding — which is how the "
          "*Legislative* Revenue Office once got matched to the Department of Revenue. "
@@ -621,24 +621,26 @@ def unresolved_report(registry: Path) -> int:
 
     L += ["", "## 2. Probable name variant — needs a human to confirm", "",
           f"**{sum(len(d) for _, d, _, _ in variant)} appropriations.** A registry entry "
-          f"with a budget code looks like the same body, usually differing only in word "
-          f"order (\"State Forestry Department\" vs \"Department of Forestry\"). "
+          f"with a `das_agency_number` looks like the same body, usually differing only in "
+          f"word order (\"State Forestry Department\" vs \"Department of Forestry\"). "
           f"**Suggestions are unverified** and were produced by exactly the fuzzy matching "
           f"`resolve_agency` refuses to apply. Confirm one by recording it in the "
           f"sibling's registry, not by loosening the matcher.", "",
           "| bill says | appropriations | suggested registry entry | code | overlap |",
           "|---|---:|---|---:|---:|"]
     for name, docs, best, score in sorted(variant, key=lambda x: -len(x[1])):
-        L.append(f"| {name} | {len(docs)} | `{best['slug']}` | {best['budget_agency_code']} "
+        L.append(f"| {name} | {len(docs)} | `{best['slug']}` | {best['das_agency_number']} "
                  f"| {score:.2f} |")
 
-    L += ["", "## 3. In the registry, but no budget code — cannot join", "",
+    L += ["", "## 3. In the registry, but no `das_agency_number` — cannot join", "",
           f"**{sum(len(d) for _, d, _, _ in nocode)} appropriations.** The body has a "
           f"registry entry, so this is NOT a missing agency. It carries no "
-          f"`budget_agency_code` because the expenditure data records no separate "
-          f"spending line for it — typically a sub-unit funded through its parent. "
-          f"Nothing to join to; adding a code would mean inventing one.", "",
-          "| bill says | appropriations | registry entry (no budget code) |", "|---|---:|---|"]
+          f"`das_agency_number` — ERF does not track it as a distinct body in the state's "
+          f"financial administration, typically because it is a sub-unit funded through "
+          f"its parent rather than because it fails to appear in the expenditure mirror. "
+          f"Nothing to join to; adding one would mean inventing it.", "",
+          "| bill says | appropriations | registry entry (no `das_agency_number`) |",
+          "|---|---:|---|"]
     for name, docs, best, score in sorted(nocode, key=lambda x: -len(x[1])):
         L.append(f"| {name} | {len(docs)} | `{best['slug']}` |")
 
@@ -675,7 +677,7 @@ def unresolved_report(registry: Path) -> int:
     print(f"  {sum(len(d) for _,d,_,_ in multi):>4} multi-recipient itemization (no single recipient)")
     print(f"  {sum(len(d) for _,d,_,_ in missing):>4} extraction genuinely failed (parser work)")
     print(f"  {sum(len(d) for _,d,_,_ in variant):>4} probable name variant (human confirms)")
-    print(f"  {sum(len(d) for _,d,_,_ in nocode):>4} in registry, no budget code (cannot join)")
+    print(f"  {sum(len(d) for _,d,_,_ in nocode):>4} in registry, no das_agency_number (cannot join)")
     print(f"  {sum(len(d) for _,d,_,_ in absent):>4} no registry counterpart (correct)")
     return 0
 
