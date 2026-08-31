@@ -1,8 +1,8 @@
 # Unresolved agencies
 
-_Generated 2026-08-22 by `python3 src/build_joins.py --unresolved-report`. Do not edit by hand._
+_Generated 2026-08-31 by `python3 src/build_joins.py --unresolved-report`. Do not edit by hand._
 
-**70 appropriations** across **11 distinct names** overlap the FY2019–FY2025 expenditure mirror but name an agency that does not resolve against the sibling registry's `budget_agency_code`, so no join was built.
+**70 appropriations** across **11 distinct names** overlap the FY2019–FY2025 expenditure mirror but name an agency that does not resolve against the sibling registry's `das_agency_number`, so no join was built.
 
 Resolution is deliberately exact-only. A near-match attaches an appropriation to the wrong agency and the result reads as a finding — which is how the *Legislative* Revenue Office once got matched to the Department of Revenue. Everything below stays unjoined until a human confirms it.
 
@@ -38,16 +38,16 @@ _None._
 
 ## 2. Probable name variant — needs a human to confirm
 
-**0 appropriations.** A registry entry with a budget code looks like the same body, usually differing only in word order ("State Forestry Department" vs "Department of Forestry"). **Suggestions are unverified** and were produced by exactly the fuzzy matching `resolve_agency` refuses to apply. Confirm one by recording it in the sibling's registry, not by loosening the matcher.
+**0 appropriations.** A registry entry with a `das_agency_number` looks like the same body, usually differing only in word order ("State Forestry Department" vs "Department of Forestry"). **Suggestions are unverified** and were produced by exactly the fuzzy matching `resolve_agency` refuses to apply. Confirm one by recording it in the sibling's registry, not by loosening the matcher.
 
 | bill says | appropriations | suggested registry entry | code | overlap |
 |---|---:|---|---:|---:|
 
-## 3. In the registry, but no budget code — cannot join
+## 3. In the registry, but no `das_agency_number` — cannot join
 
-**4 appropriations.** The body has a registry entry, so this is NOT a missing agency. It carries no `budget_agency_code` because the expenditure data records no separate spending line for it — typically a sub-unit funded through its parent. Nothing to join to; adding a code would mean inventing one.
+**4 appropriations.** The body has a registry entry, so this is NOT a missing agency. It carries no `das_agency_number` — ERF does not track it as a distinct body in the state's financial administration, typically because it is a sub-unit funded through its parent rather than because it fails to appear in the expenditure mirror. Nothing to join to; adding one would mean inventing it.
 
-| bill says | appropriations | registry entry (no budget code) |
+| bill says | appropriations | registry entry (no `das_agency_number`) |
 |---|---:|---|
 | Youth Development Division | 2 | `oregon-department-of-education-youth-development-division` |
 | Oregon Patient Safety Commission | 1 | `oregon-patient-safety-commission` |
