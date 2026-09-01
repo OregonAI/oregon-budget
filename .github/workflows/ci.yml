@@ -96,7 +96,14 @@ jobs:
       # The mcp extra is a TEST dependency here, not just a runtime one: these tests build
       # a real server. Installing without it made the toolkit's own suite red for four
       # releases while every one of them reported "N tests pass".
-      - run: pip install pytest "corpus-toolkit[mcp,semantic] @ git+https://github.com/OregonAI/corpus-toolkit@v1.31.1"
+      # duckdb because tests/test_registry_join.py drives build_joins' real duckdb path
+      # (an in-memory connect(), not the committed Parquet). It is in
+      # requirements-build.txt rather than requirements.txt on purpose -- the served
+      # image never reads Parquet -- so it has to be named here explicitly, the same
+      # way the `generated` job above names it. Without it those tests ERROR at setup
+      # rather than skipping, which is the behaviour we want: a test that quietly
+      # skips in CI is a test that is not running, and nobody finds out.
+      - run: pip install pytest duckdb "corpus-toolkit[mcp,semantic] @ git+https://github.com/OregonAI/corpus-toolkit@v1.31.1"
       - run: python -m pytest tests/ -q
 
   # Bill text is REFERENCED, not copied, so this corpus holds no bytes to check its own
