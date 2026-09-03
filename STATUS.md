@@ -1,6 +1,6 @@
 # STATUS — Oregon Budget — Appropriations and Expenditures
 
-Generated 2026-08-03. Non-authoritative; see DISCLAIMER.md.
+Generated 2026-09-03. Non-authoritative; see DISCLAIMER.md.
 
 ## Documents by type
 

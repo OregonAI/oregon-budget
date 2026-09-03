@@ -1,0 +1,51 @@
+{
+  "group_filter": null,
+  "groups": {
+    "manifest": {
+      "changed": 0,
+      "checked": 3,
+      "fetch_failed": 0,
+      "no_baseline": 0,
+      "unchanged": 3,
+      "unreadable_json": 0,
+      "watch_path_missing": 0
+    }
+  },
+  "groups_in_scope": [
+    "manifest"
+  ],
+  "mode": null,
+  "schema_version": 1,
+  "sources": [
+    {
+      "group": "manifest",
+      "had_baseline": true,
+      "id": "agency-expenditures",
+      "outcome": "unchanged",
+      "url": "https://data.oregon.gov/api/views/y9g9-xsxs.json"
+    },
+    {
+      "group": "manifest",
+      "had_baseline": true,
+      "id": "budgeted-revenue",
+      "outcome": "unchanged",
+      "url": "https://data.oregon.gov/api/views/mwsa-rpk9.json"
+    },
+    {
+      "group": "manifest",
+      "had_baseline": true,
+      "id": "lottery-expenditures",
+      "outcome": "unchanged",
+      "url": "https://data.oregon.gov/api/views/anxj-teqh.json"
+    }
+  ],
+  "totals": {
+    "changed": 0,
+    "fetch_failed": 0,
+    "no_baseline": 0,
+    "total": 3,
+    "unchanged": 3,
+    "unreadable_json": 0,
+    "watch_path_missing": 0
+  }
+}
