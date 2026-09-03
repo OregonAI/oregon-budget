@@ -6,15 +6,15 @@ on:
 
 jobs:
   frontmatter:
-    uses: OregonAI/corpus-toolkit/.github/workflows/validate-frontmatter.yml@v1.31.1
+    uses: OregonAI/corpus-toolkit/.github/workflows/validate-frontmatter.yml@v1.32.0
     with:
       # Pin the CODE, not just the workflow file above — separate knobs.
-      toolkit-ref: v1.31.1
+      toolkit-ref: v1.32.0
   provenance:
-    uses: OregonAI/corpus-toolkit/.github/workflows/verify-provenance.yml@v1.31.1
+    uses: OregonAI/corpus-toolkit/.github/workflows/verify-provenance.yml@v1.32.0
     with:
       # Pin the CODE, not just the workflow file above — separate knobs.
-      toolkit-ref: v1.31.1
+      toolkit-ref: v1.32.0
   # NO EXTERNAL LINK GATE, by decision (operator, 2026-08-01). Every external URL in
   # this corpus is either a generated mirror's source_url — whose SUBSTANCE is already
   # verified by snapshot hashes and the quotations gate against the sibling — or a
@@ -103,7 +103,7 @@ jobs:
       # way the `generated` job above names it. Without it those tests ERROR at setup
       # rather than skipping, which is the behaviour we want: a test that quietly
       # skips in CI is a test that is not running, and nobody finds out.
-      - run: pip install pytest duckdb "corpus-toolkit[mcp,semantic] @ git+https://github.com/OregonAI/corpus-toolkit@v1.31.1"
+      - run: pip install pytest duckdb "corpus-toolkit[mcp,semantic] @ git+https://github.com/OregonAI/corpus-toolkit@v1.32.0"
       - run: python -m pytest tests/ -q
 
   # Bill text is REFERENCED, not copied, so this corpus holds no bytes to check its own
