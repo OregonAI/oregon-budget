@@ -9,6 +9,14 @@ jobs:
     uses: OregonAI/corpus-toolkit/.github/workflows/validate-frontmatter.yml@v1
   provenance:
     uses: OregonAI/corpus-toolkit/.github/workflows/verify-provenance.yml@v1
+
+  # The gates every template-shaped corpus owes -- authority graph current, STATUS.md current,
+  # llms.txt Contents filled in -- run from the toolkit's reusable template-gates.yml, so they
+  # cannot drop out of this file one at a time (corpus-toolkit v1.35.0; CONTEXT.md "Template
+  # gates"). Corpus-specific checks stay in `generated` below.
+  template-gates:
+    uses: OregonAI/corpus-toolkit/.github/workflows/template-gates.yml@v1
+
   # NO EXTERNAL LINK GATE, by decision (operator, 2026-08-01). Every external URL in
   # this corpus is either a generated mirror's source_url — whose SUBSTANCE is already
   # verified by snapshot hashes and the quotations gate against the sibling — or a
@@ -26,18 +34,26 @@ jobs:
   # it, silently, with no error anywhere. Add a step here for every generated file
   # this corpus commits.
   generated:
+    # Waits for template-gates and fails when it failed, so the template gates are binding
+    # through this (required) check until `template-gates / gates` is itself required.
+    needs: template-gates
+    if: always()
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: template-gates must have passed
+        if: needs.template-gates.result != 'success'
+        run: |
+          echo "template-gates finished with '${{ needs.template-gates.result }}' -- see that job" >&2
+          exit 1
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       # duckdb reads the committed Parquet; pyarrow is not needed to CHECK, only to
       # re-mirror. These checks are deliberately OFFLINE — see the note below.
-      - run: pip install pyyaml duckdb
-      - name: Authority graph must be current
-        run: python3 src/build_graph.py --check
+      # The serving pin: link_agency_registry.py imports corpus_toolkit.crosswalk.
+      - run: pip install duckdb -r requirements.txt
       - name: Story exports must be current
         run: python3 src/build_story_exports.py --check
       # Re-derives every figure in all 544 agency-year documents from the committed

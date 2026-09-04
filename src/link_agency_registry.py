@@ -33,6 +33,8 @@ from pathlib import Path
 
 import yaml
 
+from corpus_toolkit.crosswalk import names_agree
+
 ROOT = Path(__file__).resolve().parent.parent
 EXPENDITURES = ROOT / "expenditures"
 BILLS = ROOT / "bills"
@@ -311,53 +313,6 @@ def check_stamps(mapping: dict, stamped: list[dict]) -> list[str]:
                     "basis names no string it is a claim about — run "
                     "`python3 src/link_agency_registry.py --stamp`")
     return bad
-
-
-# --- BEGIN VERBATIM SHARED BLOCK (norm_variants / names_agree) -------------------------
-# Kept BYTE-IDENTICAL with the copies in oregon-kpm/src/link_agency_registry.py and
-# oregon-audits/src/link_agency_registry.py, following the convention those files state:
-# "copy it verbatim ... both sides then compute the same answers by construction instead
-# of by agreement". All three corpora define `basis: exact` with the same permitted moves,
-# so they must normalise identically or the same pair of names is exact in one repo and
-# not the other. VERIFIED byte-identical against both siblings on 2026-08-22.
-#
-# NOT COVERED BY A PARITY GATE. The oregon-audits copy says in as many words: "if this
-# block grows a third copy, wire that gate before it drifts." This IS the third copy and
-# the gate is not here — filed as OregonAI/oregon-budget#44 rather than left as a comment
-# nobody greps.
-def norm_variants(name: str) -> set[str]:
-    """Every reading the crosswalk note permits `basis: exact` to use.
-
-    The note lists the allowed moves as "case, punctuation, comma-inversion, a leading
-    Oregon" -- a SET of moves, not a pipeline that must apply all of them. A comma does two
-    different jobs in these strings: catalog inversion ("Administrative Services, Department
-    of") and a parent/child qualifier ("Secretary of State, Audits Division"). Inverting the
-    second is wrong and dropping the comma in the first is not enough, so both readings are
-    produced and a match on either is a match.
-
-    Written this way because forcing a single reading is a MEASURED bug, not a hypothetical:
-    always-invert reported 'Secretary of State Audits Division' as failing to match an
-    oar_name that is the same name with a comma in it.
-    """
-    n = name.strip().replace("\u2019", "'")
-    readings = {n.replace(",", " ")}
-    if "," in n:
-        head, tail = n.rsplit(",", 1)
-        readings.add(f"{tail.strip()} {head.strip()}")
-    out = set()
-    for r in readings:
-        r = " ".join(r.lower().replace(".", "").split())
-        for pre in ("oregon ", "state of oregon "):
-            if r.startswith(pre):
-                r = r[len(pre):]
-        out.add(r)
-    return out
-
-
-def names_agree(a: str, b: str) -> bool:
-    """True when two names are the same name under any reading the note permits."""
-    return bool(norm_variants(a) & norm_variants(b))
-# --- END VERBATIM SHARED BLOCK ---------------------------------------------------------
 
 
 def find_registry(explicit: str | None) -> Path | None:
