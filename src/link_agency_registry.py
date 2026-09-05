@@ -44,7 +44,6 @@ CROSSWALK = ROOT / "_meta" / "agency-crosswalk.yml"
 REGISTRY_CORPUS = "executive-regulatory-frameworks"
 REGISTRY_CANDIDATES = [
     ROOT.parent / "executive-regulatory-frameworks" / "_meta" / "catalog" / "agencies.yml",
-    ROOT.parent / "oregon-policy-repo" / "_meta" / "catalog" / "agencies.yml",
 ]
 
 MAPPING_BASES = {"exact", "das_number", "alias"}
