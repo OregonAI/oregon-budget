@@ -25,17 +25,26 @@ So a join document says: this appropriation was made to this agency, that agency
 spending in the covered fiscal years is this, and THE SECOND DOES NOT ACCOUNT FOR THE
 FIRST. The link is entity-and-period, not dollars.
 
-THE COVERAGE IS SMALL, AND SAYING SO IS THE POINT
---------------------------------------------------
-Measured over the 170 extracted appropriation documents:
+THE COVERAGE IS PARTIAL, AND SAYING SO IS THE POINT
+---------------------------------------------------
+Re-measured 2026-09-04 over the 740 appropriation documents in bills/ (oregon-budget#54; the
+first version of this note was measured over 170 and said 88% fell outside the mirror):
 
-    150  biennium beginning July 1, 2025  -> FY2026-FY2027, OUTSIDE the mirror
-     20  biennium ending June 30, 2025    -> FY2024-FY2025, inside it
+    544  biennium overlaps FY2019-FY2025   -> inside the expenditure mirror
+    192  biennium entirely after FY2025    -> OUTSIDE the mirror (money not yet spent, or
+                                              data not yet published)
+      4  no biennium recorded
 
-The mirror ends at FY2025, so 88% of the appropriations in this corpus have no spending to
-compare against — the money has not been spent yet, or the data does not exist yet. Of the
-20 that overlap, 18 resolve to an agency code exactly; 2 do not and are recorded as
-unresolved rather than guessed.
+So about a quarter of the appropriations in this corpus have no spending to compare against.
+Of the 544 inside, the ones whose recipient resolves to an agency code get a join document
+(474 documents, 854 entries at the time of writing, every one checked by `--check`); the rest
+are recorded as unresolved with a stated reason rather than guessed -- `--unresolved-report`
+writes _meta/unresolved-agencies.md with the breakdown (51 bills leave the recipient blank,
+12 name a body the registry has no counterpart for, 4 name a body with no DAS number, ...).
+
+Do not trust these numbers over the live ones: `python3 src/build_joins.py --check` prints
+the join count and `--unresolved-report` the rest. They are here so the denominator is
+stated next to the claim, not so the claim outlives the data.
 
 Reporting a join layer without that denominator would imply coverage this corpus does not
 have.
