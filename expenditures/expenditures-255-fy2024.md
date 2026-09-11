@@ -37,9 +37,9 @@ tags:
 - parole-post-prison-supv-brd
 agency_code: '255'
 agency_registry_slug: board-of-parole-and-post-prison-supervision
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: PAROLE/POST PRISON SUPV, BRD
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: PAROLE/POST PRISON SUPV, BRD
 fiscal_year: 2024
 total_expense: '2030426.04'

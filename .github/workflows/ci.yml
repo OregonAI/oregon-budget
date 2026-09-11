@@ -94,7 +94,7 @@ jobs:
       - name: Read the pinned ERF registry commit
         id: erf-pin
         run: |
-          ref=$(python3 -c "import yaml; print(yaml.safe_load(open('_meta/erf-registry-pin.yml'))['ref'])")
+          ref=$(python3 src/build_joins.py --print-pin)
           echo "ref=$ref" >> "$GITHUB_OUTPUT"
       - name: Checkout the pinned ERF registry
         uses: actions/checkout@v4
@@ -105,7 +105,11 @@ jobs:
       - name: joins/ must be current against the pinned ERF registry
         run: |
           python3 src/build_joins.py --registry .erf-registry-pin/_meta/catalog/agencies.yml
-          git diff --exit-code -- joins/
+          # `git diff --exit-code` alone is blind to a NEW file the generator writes --
+          # `git add -A` first stages one, so `--cached` sees it too. A generator change
+          # that emits an additional join document must fail here, not pass silently.
+          git add -A -- joins/
+          git diff --cached --exit-code -- joins/
 
   # The hybrid seam's disciplines: live figures never merge into mirrored fields, and an
   # unavailable API is never served as a zero. Both are monkeypatched rather than live —

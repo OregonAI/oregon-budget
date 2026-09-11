@@ -36,9 +36,9 @@ tags:
 - dist-attorneys-deputies
 agency_code: '196'
 agency_registry_slug: district-attorneys-and-deputies
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: DIST ATTORNEYS/DEPUTIES
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: DIST ATTORNEYS/DEPUTIES
 fiscal_year: 2019
 total_expense: '794593.15'

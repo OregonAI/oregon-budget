@@ -37,9 +37,9 @@ tags:
 - facilites-auth-oregon
 agency_code: '172'
 agency_registry_slug: oregon-facilities-authority
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: FACILITES AUTH, OREGON
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: FACILITES AUTH, OREGON
 fiscal_year: 2023
 total_expense: '299166.49'

@@ -37,9 +37,9 @@ tags:
 - aviation-dept-of
 agency_code: '109'
 agency_registry_slug: oregon-department-of-aviation
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: AVIATION, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: AVIATION, DEPT OF
 fiscal_year: 2022
 total_expense: '3988294.51'

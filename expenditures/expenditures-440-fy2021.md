@@ -37,9 +37,9 @@ tags:
 - consumer-bus-srvcs-dept
 agency_code: '440'
 agency_registry_slug: department-of-consumer-and-business-services
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: CONSUMER & BUS SRVCS, DEPT
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: CONSUMER & BUS SRVCS, DEPT
 fiscal_year: 2021
 total_expense: '189060013.77'

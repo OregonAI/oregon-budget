@@ -37,9 +37,9 @@ tags:
 - envi-quality-dept
 agency_code: '340'
 agency_registry_slug: department-of-environmental-quality
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: ENVI QUALITY, DEPT
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: ENVI QUALITY, DEPT
 fiscal_year: 2020
 total_expense: '123487127.54'

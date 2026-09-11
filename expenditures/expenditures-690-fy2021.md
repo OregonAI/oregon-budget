@@ -37,9 +37,9 @@ tags:
 - water-resources-dept-of
 agency_code: '690'
 agency_registry_slug: water-resources-department
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: WATER RESOURCES, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: WATER RESOURCES, DEPT OF
 fiscal_year: 2021
 total_expense: '9945786.83'

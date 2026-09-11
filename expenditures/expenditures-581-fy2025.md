@@ -36,9 +36,9 @@ tags:
 - education-dept-of
 agency_code: '581'
 agency_registry_slug: oregon-department-of-education
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: EDUCATION, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: EDUCATION, DEPT OF
 fiscal_year: 2025
 total_expense: '12967161506.56'

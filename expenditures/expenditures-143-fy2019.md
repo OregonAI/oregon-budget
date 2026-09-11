@@ -36,9 +36,9 @@ tags:
 - legislative-pol-research-cmte
 agency_code: '143'
 agency_registry_slug: legislative-policy-and-research-committee
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: LEGISLATIVE POL & RESEARCH CMTE
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: LEGISLATIVE POL & RESEARCH CMTE
 fiscal_year: 2019
 total_expense: '555546.78'

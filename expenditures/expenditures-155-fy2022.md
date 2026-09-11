@@ -37,9 +37,9 @@ tags:
 - legislative-assembly
 agency_code: '155'
 agency_registry_slug: legislative-assembly
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: exact
 agency_registry_basis_key: LEGISLATIVE ASSEMBLY
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: LEGISLATIVE ASSEMBLY
 fiscal_year: 2022
 total_expense: '3487656.95'

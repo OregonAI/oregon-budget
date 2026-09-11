@@ -36,9 +36,9 @@ tags:
 - human-services-dept-of
 agency_code: '100'
 agency_registry_slug: department-of-human-services
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: HUMAN SERVICES, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: HUMAN SERVICES, DEPT OF
 fiscal_year: 2019
 total_expense: '1767371898.62'

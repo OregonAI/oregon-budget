@@ -37,9 +37,9 @@ tags:
 - real-estate-agy
 agency_code: '919'
 agency_registry_slug: real-estate-agency
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: REAL ESTATE AGY
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: REAL ESTATE AGY
 fiscal_year: 2024
 total_expense: '984111.22'

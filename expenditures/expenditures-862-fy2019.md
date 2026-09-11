@@ -36,9 +36,9 @@ tags:
 - racing-cmsn
 agency_code: '862'
 agency_registry_slug: oregon-racing-commission
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: RACING CMSN
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: RACING CMSN
 fiscal_year: 2019
 total_expense: '1893085.01'

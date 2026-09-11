@@ -68,6 +68,27 @@ def test_check_passes_on_a_consistent_crosswalk():
     assert lar.check(good(), NAMES, {}, STAMPED) == []
 
 
+def test_check_flags_a_mapped_agency_code_carrying_no_slug_at_all():
+    """Coverage gap closed (test-quality review on #42): a LOST stamp — a document whose
+    `agency_code` the crosswalk maps but which carries no `agency_registry_slug` at
+    all — was previously invisible to `--check`; `stamped_docs()` only ever looks at
+    documents that already carry a slug, so nothing looked at this direction.
+    Mutation-verified against the real committed tree: deleting the four
+    `agency_registry_*` lines from `expenditures-100-fy2019.md` moved `--check` from
+    exit 0 to exit 1 (then restored, no working-tree change survives that test)."""
+    unslugged = [{"id": "expenditures-340-fy2019", "agency_code": "340"}]
+    assert lar.check(good(), NAMES, {}, STAMPED, unslugged=unslugged) == [
+        "1 document(s) have an agency_code the crosswalk maps but carry no "
+        "agency_registry_slug at all — run "
+        "`python3 src/link_agency_registry.py --stamp`: "
+        "[\"expenditures-340-fy2019 (das number '340')\"]"
+    ]
+    # An unslugged document with an agency_code the crosswalk does NOT map is exactly
+    # the two `unmapped` strings' expected state — not a defect, so no line for it.
+    assert lar.check(good(), NAMES, {}, STAMPED,
+                     unslugged=[{"id": "x", "agency_code": "999"}]) == []
+
+
 def test_check_names_an_expenditure_agency_string_with_no_entry():
     """AC4. Adding an agency to the corpus without classifying it must fail, by name."""
     names = dict(NAMES, **{"SPACE FORCE, DEPT OF": 3})
@@ -477,15 +498,17 @@ def test_expenditure_registry_fields_reads_the_same_basis_a_join_would():
     one crosswalk, one warrant, regardless of which content root reads it."""
     assert lar.expenditure_registry_fields("340", good()) == {
         "agency_registry_slug": "department-of-environmental-quality",
-        "agency_registry_corpus": "executive-regulatory-frameworks",
         "agency_registry_basis": "das_number",
         "agency_registry_basis_key": "ENVI QUALITY, DEPT",
+        "agency_registry_corpus": "executive-regulatory-frameworks",
     }
 
 
 def test_expenditure_registry_fields_is_none_for_an_unmapped_code():
     """An agency_code the crosswalk does not map must not be guessed at — the remaining
-    8 documents (the two NOT YET REVIEWED strings) stay unstamped, not wrong."""
+    8 documents (the two strings recorded as `unmapped`) stay unstamped, not wrong. Both
+    now carry `basis: reviewed` since #43; "NOT YET REVIEWED" describes neither of them
+    any more."""
     assert lar.expenditure_registry_fields("999", good()) is None
 
 
@@ -520,11 +543,112 @@ def test_build_documents_writes_the_same_registry_fields_a_rebuild_would():
     import build_documents
     assert build_documents.registry_fields("340", good()) == {
         "agency_registry_slug": "department-of-environmental-quality",
-        "agency_registry_corpus": "executive-regulatory-frameworks",
         "agency_registry_basis": "das_number",
         "agency_registry_basis_key": "ENVI QUALITY, DEPT",
+        "agency_registry_corpus": "executive-regulatory-frameworks",
     }
     assert build_documents.registry_fields("999", good()) == {}
+
+
+def test_build_one_actually_wires_the_registry_fields_into_a_document(tmp_path):
+    """The wiring, not just the helper (test-quality caveat on #42): the previous test
+    asserted only on `registry_fields()`, the pure `or {}` wrapper — deleting
+    `**registry_fields(str(agency), cw)` from `build_one()` left that test, and every
+    other test in the suite, green. This drives `build_one()` itself, the function a
+    rebuild actually calls, and fails if that splat is ever removed.
+
+    Also locks in the FIELD ORDER `build_one()` emits into frontmatter: slug, basis,
+    basis_key, corpus — the order `stamp()` converges an already-slugged document to, so
+    a document `build_documents.py` writes and one `--stamp` backfills read the same
+    order (`test_stamp_round_trips_the_committed_tree_to_a_fixed_point` guards the other
+    half: that this order is ALSO the order already on disk, not just the order the
+    generator emits fresh).
+    """
+    import build_documents
+    from decimal import Decimal
+
+    year = 2019
+    d = {
+        "years": {year}, "statewide": {year: Decimal("1000")},
+        "totals": {("340", year): Decimal("500")},
+        "rank": {("340", year): (1, 1)},
+        "by_budget": {("340", year): [("1000", "SALARIES", Decimal("500"), 3)]},
+        "by_expend": {("340", year): [("100", "GENERAL", Decimal("500"), 3)]},
+        "by_vendor": {("340", year): [("SOME VENDOR", Decimal("500"), 3)]},
+    }
+    doc_id, _body, fm = build_documents.build_one(
+        "340", year, "ENVI QUALITY, DEPT", Decimal("500"), 3, d,
+        "2026-01-01", "deadbeef", good())
+    assert doc_id == "expenditures-340-fy2019"
+    assert fm["agency_registry_slug"] == "department-of-environmental-quality"
+    assert fm["agency_registry_basis"] == "das_number"
+    assert fm["agency_registry_basis_key"] == "ENVI QUALITY, DEPT"
+    assert fm["agency_registry_corpus"] == "executive-regulatory-frameworks"
+
+    keys = list(fm.keys())
+    i = keys.index("agency_registry_slug")
+    assert keys[i:i + 4] == ["agency_registry_slug", "agency_registry_basis",
+                            "agency_registry_basis_key", "agency_registry_corpus"]
+
+    # And the ACTUAL frontmatter text a rebuild would write, not just the dict.
+    text = build_documents.dump_fm(fm)
+    lines = [ln for ln in text.splitlines() if ln.startswith("agency_registry_")]
+    assert lines == [
+        "agency_registry_slug: department-of-environmental-quality",
+        "agency_registry_basis: das_number",
+        "agency_registry_basis_key: ENVI QUALITY, DEPT",
+        "agency_registry_corpus: executive-regulatory-frameworks",
+    ]
+
+
+def test_stamp_round_trips_the_committed_tree_to_a_fixed_point(tmp_path):
+    """The missing half of the round trip (review finding on #42): the COMMITTED tree
+    must already be what `--stamp` converges to, not just what a fresh rebuild converges
+    to. Before `expenditure_registry_fields()`'s field order matched `stamp()`'s (slug,
+    basis, basis_key, corpus), running `--stamp` on the clean committed tree reordered
+    every one of the 536 stamped expenditure documents — a real, reproducible 536-file
+    diff (536 insertions / 536 deletions, `agency_registry_corpus` moving from above the
+    basis pair to below it), not a hypothetical one. A second `--stamp` was then a
+    no-op, and a following rebuild flipped all 536 back — so an operator following
+    `--check`'s own advice to run `--stamp` got a no-op diff and the next rebuild
+    reversed it.
+
+    Copies expenditures/, joins/ and bills/ into tmp_path (never touches the real working
+    tree) and calls `stamp()` / `stamp_expenditures()` with `docs=` pointed at the copy,
+    the seam those functions expose for exactly this. `changed == 0` on both IS the fixed
+    point: nothing needed rewriting because the committed order already matches.
+    """
+    import shutil
+
+    copies = {}
+    for name in ("expenditures", "joins", "bills"):
+        dst = tmp_path / name
+        shutil.copytree(ROOT / name, dst)
+        copies[name] = dst
+
+    cw = lar.load_crosswalk()
+    mapping = cw.get("mapping") or {}
+
+    stamped = lar.stamped_docs(roots=(copies["joins"], copies["expenditures"],
+                                      copies["bills"]))
+    assert stamped, "fixture produced no stamped documents — the test proves nothing"
+    examined, changed = lar.stamp(mapping, docs=stamped)
+    assert changed == 0, (
+        f"{changed} of {examined} already-slugged document(s) were rewritten by "
+        f"--stamp on the committed tree — the tree is not a fixed point of --stamp")
+
+    # unslugged_expenditure_docs() also returns the 8 documents behind the two
+    # `unmapped` crosswalk strings (833, 999) — correctly unslugged, not a defect. The
+    # fixed-point claim is narrower: of whichever documents carry no slug, none may have
+    # a `agency_code` the crosswalk DOES map (that would be a lost stamp, #42's
+    # coverage-gap fix in check_stamps), which is exactly what stamp_expenditures()'s
+    # own `examined` count measures.
+    unslugged = lar.unslugged_expenditure_docs(root=copies["expenditures"])
+    ex_examined, ex_changed = lar.stamp_expenditures(mapping, docs=unslugged)
+    assert ex_examined == 0, (
+        f"{ex_examined} unslugged document(s) have an agency_code the crosswalk maps — "
+        f"a lost stamp on the committed tree")
+    assert ex_changed == 0
 
 
 def test_documents_by_agency_floor_for_deq_now_includes_its_spending():

@@ -36,9 +36,9 @@ tags:
 - pharmacy-oregon-brd-of
 agency_code: '855'
 agency_registry_slug: board-of-pharmacy
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: PHARMACY, OREGON BRD OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: PHARMACY, OREGON BRD OF
 fiscal_year: 2025
 total_expense: '1433212.01'

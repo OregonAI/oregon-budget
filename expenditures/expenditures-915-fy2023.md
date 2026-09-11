@@ -37,9 +37,9 @@ tags:
 - construction-ctr-brd
 agency_code: '915'
 agency_registry_slug: construction-contractors-board
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: CONSTRUCTION CTR BRD
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: CONSTRUCTION CTR BRD
 fiscal_year: 2023
 total_expense: '1655971.34'

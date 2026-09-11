@@ -36,9 +36,9 @@ tags:
 - forest-resources-inst-or
 agency_code: '628'
 agency_registry_slug: oregon-forest-resources-institute
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: FOREST RESOURCES INST, OR
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: FOREST RESOURCES INST, OR
 fiscal_year: 2025
 total_expense: '2458561.03'

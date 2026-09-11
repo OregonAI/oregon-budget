@@ -37,9 +37,9 @@ tags:
 - dentistry-brd-of
 agency_code: '834'
 agency_registry_slug: oregon-board-of-dentistry
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: DENTISTRY, BRD OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: DENTISTRY, BRD OF
 fiscal_year: 2023
 total_expense: '642345.27'

@@ -731,7 +731,15 @@ def main() -> int:
                          "registry does not resolve")
     ap.add_argument("--registry", default=None,
                     help="path to executive-regulatory-frameworks' agencies.yml")
+    ap.add_argument("--print-pin", action="store_true",
+                    help="print the ERF commit ref pinned in _meta/erf-registry-pin.yml "
+                         "and exit (oregon-budget#52) -- what CI reads before checking "
+                         "out the sibling for the joins/ currency check")
     args = ap.parse_args()
+
+    if args.print_pin:
+        print(pinned_registry_ref())
+        return 0
 
     import duckdb
     con = duckdb.connect()

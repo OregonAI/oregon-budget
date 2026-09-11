@@ -36,9 +36,9 @@ tags:
 - chiropractic-exam-brd-of
 agency_code: '811'
 agency_registry_slug: board-of-chiropractic-examiners
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: CHIROPRACTIC EXAM, BRD OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: CHIROPRACTIC EXAM, BRD OF
 fiscal_year: 2025
 total_expense: '485825.43'

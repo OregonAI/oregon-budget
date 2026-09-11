@@ -37,9 +37,9 @@ tags:
 - veterans-affairs-dept-of
 agency_code: '274'
 agency_registry_slug: department-of-veterans-affairs
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: VETERANS AFFAIRS, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: VETERANS AFFAIRS, DEPT OF
 fiscal_year: 2021
 total_expense: '102618814.32'

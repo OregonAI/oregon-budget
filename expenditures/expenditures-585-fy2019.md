@@ -36,9 +36,9 @@ tags:
 - blind-cmsn-for-the
 agency_code: '585'
 agency_registry_slug: commission-for-the-blind
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: BLIND, CMSN FOR THE
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: BLIND, CMSN FOR THE
 fiscal_year: 2019
 total_expense: '4245648.22'

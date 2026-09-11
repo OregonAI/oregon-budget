@@ -37,9 +37,9 @@ tags:
 - columbia-river-gorge-cmsn
 agency_code: '350'
 agency_registry_slug: columbia-river-gorge-commission
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: COLUMBIA RIVER GORGE CMSN
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: COLUMBIA RIVER GORGE CMSN
 fiscal_year: 2022
 total_expense: '626525.69'

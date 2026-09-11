@@ -36,9 +36,9 @@ tags:
 - forestry-dept-of
 agency_code: '629'
 agency_registry_slug: department-of-forestry
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: FORESTRY, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: FORESTRY, DEPT OF
 fiscal_year: 2025
 total_expense: '393850615.48'

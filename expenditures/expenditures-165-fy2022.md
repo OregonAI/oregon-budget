@@ -37,9 +37,9 @@ tags:
 - secretary-of-state
 agency_code: '165'
 agency_registry_slug: secretary-of-state
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: exact
 agency_registry_basis_key: SECRETARY OF STATE
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: SECRETARY OF STATE
 fiscal_year: 2022
 total_expense: '15867084.14'

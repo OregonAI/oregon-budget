@@ -36,9 +36,9 @@ tags:
 - tax-practitioners-st-brd-of
 agency_code: '119'
 agency_registry_slug: state-board-of-tax-practitioners
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: TAX PRACTITIONERS, ST BRD OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: TAX PRACTITIONERS, ST BRD OF
 fiscal_year: 2019
 total_expense: '186126.69'

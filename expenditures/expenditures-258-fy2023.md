@@ -36,9 +36,9 @@ tags:
 - emergency-management-dept-of
 agency_code: '258'
 agency_registry_slug: oregon-military-department-office-of-emergency-management
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: EMERGENCY MANAGEMENT, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: EMERGENCY MANAGEMENT, DEPT OF
 fiscal_year: 2023
 total_expense: '448702861.95'

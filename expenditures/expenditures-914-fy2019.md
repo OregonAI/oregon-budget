@@ -36,9 +36,9 @@ tags:
 - housing-comm-srvcs-dept-of
 agency_code: '914'
 agency_registry_slug: oregon-housing-and-community-services-department
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: HOUSING & COMM SRVCS, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: HOUSING & COMM SRVCS, DEPT OF
 fiscal_year: 2019
 total_expense: '188775989.21'

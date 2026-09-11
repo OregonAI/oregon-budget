@@ -37,9 +37,9 @@ tags:
 - land-conserv-dev-dept-of
 agency_code: '660'
 agency_registry_slug: land-conservation-and-development-department
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: LAND CONSERV & DEV, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: LAND CONSERV & DEV, DEPT OF
 fiscal_year: 2024
 total_expense: '6435441.51'

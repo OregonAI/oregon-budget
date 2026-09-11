@@ -37,9 +37,9 @@ tags:
 - youth-authority-or
 agency_code: '415'
 agency_registry_slug: oregon-youth-authority
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: YOUTH AUTHORITY, OR
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: YOUTH AUTHORITY, OR
 fiscal_year: 2022
 total_expense: '84033172.71'

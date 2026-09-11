@@ -36,9 +36,9 @@ tags:
 - long-term-care-ombud
 agency_code: '114'
 agency_registry_slug: long-term-care-ombudsman
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: LONG TERM CARE OMBUD
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: LONG TERM CARE OMBUD
 fiscal_year: 2019
 total_expense: '584910.16'

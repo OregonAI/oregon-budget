@@ -36,9 +36,9 @@ tags:
 - advocacy-commissions-or
 agency_code: '131'
 agency_registry_slug: oregon-advocacy-commissions-office
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: ADVOCACY COMMISSIONS, OR
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: ADVOCACY COMMISSIONS, OR
 fiscal_year: 2019
 total_expense: '63041.88'

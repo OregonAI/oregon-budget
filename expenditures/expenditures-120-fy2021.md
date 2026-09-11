@@ -37,9 +37,9 @@ tags:
 - accountancy-oregon-brd-of
 agency_code: '120'
 agency_registry_slug: oregon-board-of-accountancy
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: ACCOUNTANCY, OREGON BRD OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: ACCOUNTANCY, OREGON BRD OF
 fiscal_year: 2021
 total_expense: '473590.45'

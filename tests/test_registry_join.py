@@ -487,15 +487,41 @@ def test_pinned_registry_ref_reads_a_fixture(tmp_path):
     assert build_joins.pinned_registry_ref(p) == "deadbeefdeadbeefdeadbeefdeadbeefdeadbeef"
 
 
+def test_print_pin_cli_flag_reaches_pinned_registry_ref():
+    """Standards review on #52: `pinned_registry_ref()` was dead production code -- its
+    own docstring claimed "The ERF commit CI checks out before regenerating joins/", but
+    nothing outside tests/ called it, and `ci.yml` read the pin file with an inline
+    `python3 -c "import yaml; ..."` instead. `--print-pin` is the wiring that makes the
+    docstring's claim true; this drives the actual CLI subprocess, not the bare
+    function, so a future ci.yml step could not silently go back to reading the file
+    directly without this failing to notice a divergence."""
+    import subprocess
+    out = subprocess.run([sys.executable, str(ROOT / "src" / "build_joins.py"),
+                          "--print-pin"], capture_output=True, text=True, check=True)
+    assert out.stdout.strip() == build_joins.pinned_registry_ref()
+
+
 def test_the_generated_job_gates_joins_currency_against_the_pinned_registry():
     """AGENTS.md: 'Add a --check CI step for every generated file you commit.' joins/'s
     four siblings all run a currency check in the `generated` job; this locks in that
-    joins/ now does too, checked out against the pin rather than ERF's live main."""
+    joins/ now does too, checked out against the pin rather than ERF's live main.
+
+    Precise about the SHAPE of the gate, not just that the right words appear somewhere
+    in the job: it must read the pin through the function that documents the guard
+    (`--print-pin`, not an inline YAML read that could silently diverge from it), and the
+    diff must be `--exit-code` against the STAGED tree (`git add -A` first), because a
+    plain `git diff --exit-code` is blind to a new untracked file the generator writes."""
     ci = (ROOT / ".github" / "workflows" / "ci.yml").read_text()
     generated_job = ci.split("\n  generated:", 1)[1].split("\n  hybrid:", 1)[0]
     assert "erf-registry-pin.yml" in generated_job, \
         "the generated job does not read the pinned ERF ref"
+    assert "build_joins.py --print-pin" in generated_job, \
+        "the generated job does not read the pin through pinned_registry_ref()"
     assert "executive-regulatory-frameworks" in generated_job, \
         "the generated job does not checkout the ERF sibling"
     assert "joins/" in generated_job and "diff" in generated_job, \
         "the generated job has no regenerate-and-diff step for joins/"
+    assert re.search(r"git add -A.*joins/", generated_job), \
+        "the joins/ diff does not stage first, so a NEW untracked file would pass silently"
+    assert "git diff --cached --exit-code -- joins/" in generated_job, \
+        "the joins/ currency check is not gated against the staged tree"

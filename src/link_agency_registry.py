@@ -136,7 +136,8 @@ def check_report_readable(text: str | None) -> list[str]:
 
 
 def check(cw: dict, names: dict[str, int], bills: dict[str, int],
-          stamped: list[dict], section_4_bodies: Sequence[str] = ()) -> list[str]:
+          stamped: list[dict], section_4_bodies: Sequence[str] = (),
+          unslugged: list[dict] = ()) -> list[str]:
     """Committed-data-only validation. Never touches the sibling.
 
     Returns a list of problems, each NAMING the offending string — a count alone sends
@@ -232,7 +233,7 @@ def check(cw: dict, names: dict[str, int], bills: dict[str, int],
                        f"names — regenerate the report, or say in the entry why it is "
                        f"recorded here: {orphaned[:5]}")
 
-    bad += check_stamps(mapping, stamped)
+    bad += check_stamps(mapping, stamped, unslugged)
     return bad
 
 
@@ -273,6 +274,16 @@ def expenditure_registry_fields(code: str, cw: dict) -> dict | None:
     document has no slug asserted yet the way a join does, so an unmapped code is a
     document that stays unstamped -- exactly the remaining 8 of #42's 544, not a wrong
     answer for them.
+
+    FIELD ORDER matches `build_joins.py`'s own writer (slug, basis, basis_key, corpus),
+    not an arbitrary choice: this dict's key order is what both `build_documents.py`
+    (via `**registry_fields(...)`) and `stamp_expenditures()` emit into frontmatter, and
+    `stamp()` converges any already-slugged document to that same order (it strips and
+    reinserts the basis pair immediately after the slug line). One order, read from one
+    place, is what makes the committed tree a fixed point of BOTH writers -- see the
+    round-trip test in test_agency_crosswalk.py. Before this was unified, `--stamp`
+    reordered every one of the 536 committed expenditure documents on its first run,
+    because `build_documents.py` had written corpus before the basis pair.
     """
     index, conflicts = by_das_number(cw.get("mapping") or {})
     if conflicts:
@@ -282,19 +293,28 @@ def expenditure_registry_fields(code: str, cw: dict) -> dict | None:
         return None
     return {
         "agency_registry_slug": entry["slug"],
-        "agency_registry_corpus": REGISTRY_CORPUS,
         "agency_registry_basis": entry["basis"],
         "agency_registry_basis_key": entry["crosswalk_key"],
+        "agency_registry_corpus": REGISTRY_CORPUS,
     }
 
 
-def check_stamps(mapping: dict, stamped: list[dict]) -> list[str]:
+def check_stamps(mapping: dict, stamped: list[dict],
+                 unslugged: list[dict] = ()) -> list[str]:
     """The gate between the crosswalk and the documents that repeat it.
 
     Both assert a registry slug. Nothing made them agree before this: a join document
     could carry a slug the crosswalk resolves differently, or none at all, and every gate
     in the repo stayed green. Each entry of `stamped` is one document's
     {id, agency_code, agency_registry_slug, agency_registry_basis}.
+
+    `unslugged` is the OTHER direction of the same gate (oregon-budget#42 follow-up): a
+    document whose `agency_code` the crosswalk maps but which carries no
+    `agency_registry_slug` at all is not merely unstamped, it is a LOST stamp if it is an
+    expenditure document -- `stamped_docs()` never looks at it, so nothing previously
+    caught one going missing (a mutation test confirmed: deleting the four
+    `agency_registry_*` lines from a committed expenditure document left `--check`
+    exiting 0). Pass `unslugged_expenditure_docs()` here to close that.
 
     GROUPED, one line per KIND of disagreement, naming up to five documents and the total.
     474 identical lines is not a more precise report than one line saying 474 — it is the
@@ -309,8 +329,15 @@ def check_stamps(mapping: dict, stamped: list[dict]) -> list[str]:
             unknown.append(f"{doc.get('id')} (das number {code!r})")
             continue
         if doc.get("agency_registry_slug") != entry.get("slug"):
+            # A wrong slug is not what --stamp repairs -- it never touches the slug
+            # value, only the basis pair beside it -- so name the tool that actually
+            # would: whichever generator owns this document's content root.
+            root = Path(doc["path"]).parent.name if doc.get("path") else None
+            remedy = "python3 src/build_documents.py" if root == "expenditures" \
+                else "python3 src/build_joins.py"
             wrong_slug.append(f"{doc.get('id')}: {doc.get('agency_registry_slug')!r} vs "
-                              f"crosswalk {entry.get('slug')!r} for das number {code}")
+                              f"crosswalk {entry.get('slug')!r} for das number {code} "
+                              f"— run `{remedy}`")
         if not doc.get("agency_registry_basis"):
             no_basis.append(str(doc.get("id")))
         elif doc["agency_registry_basis"] != entry.get("basis"):
@@ -326,6 +353,12 @@ def check_stamps(mapping: dict, stamped: list[dict]) -> list[str]:
             wrong_key.append(f"{doc.get('id')}: {doc['agency_registry_basis_key']!r} vs "
                              f"crosswalk key {entry.get('crosswalk_key')!r}")
 
+    missing_stamp = []
+    for doc in unslugged:
+        code = str(doc.get("agency_code") or "")
+        if code in index:
+            missing_stamp.append(f"{doc.get('id')} (das number {code!r})")
+
     def line(items: list[str], msg: str) -> None:
         if items:
             bad.append(f"{len(items)} document(s) {msg}: {items[:5]}"
@@ -340,6 +373,9 @@ def check_stamps(mapping: dict, stamped: list[dict]) -> list[str]:
     line(wrong_key, "carry a missing or wrong agency_registry_basis_key, so the stamped "
                     "basis names no string it is a claim about — run "
                     "`python3 src/link_agency_registry.py --stamp`")
+    line(missing_stamp, "have an agency_code the crosswalk maps but carry no "
+                        "agency_registry_slug at all — run "
+                        "`python3 src/link_agency_registry.py --stamp`")
     return bad
 
 
@@ -398,7 +434,28 @@ def verify_registry(cw: dict, index: dict[str, dict]) -> list[str]:
     return bad
 
 
+def splice_fields(text: str, anchor: re.Pattern, insert: str,
+                  strip: re.Pattern | None = None) -> str | None:
+    """Splice `insert` into `text`'s frontmatter, immediately after the line `anchor`
+    matches (keeping `anchor`'s own capture group 1), first deleting any lines `strip`
+    matches. `None` when `anchor` finds nothing to anchor on -- the caller's SKIP case.
+
+    The one place both `stamp()` and `stamp_expenditures()` touch a document's bytes.
+    Before this was shared, the two re-implemented the same split/anchor/rebuild by hand
+    with two different field orders -- and the divergence, not the duplication itself, is
+    what made a committed expenditure document NOT a fixed point of `--stamp` (#42's
+    round-trip test guards the fix; see `expenditure_registry_fields`'s docstring).
+    """
+    _, head, body = text.split("---\n", 2)
+    if strip is not None:
+        head = strip.sub("", head)
+    if not anchor.search(head):
+        return None
+    return f"---\n{anchor.sub(lambda m: m.group(1) + insert, head, count=1)}---\n{body}"
+
+
 STAMP_RE = re.compile(r"^agency_registry_basis(_key)?: .*\n", re.M)
+SLUG_ANCHOR = re.compile(r"^(agency_registry_slug: .*\n)", re.M)
 
 
 def stamped_docs(roots=(JOINS, EXPENDITURES, BILLS)) -> list[dict]:
@@ -436,19 +493,16 @@ def stamp(mapping: dict, docs: list[dict] | None = None) -> tuple[int, int]:
         examined += 1
         p = doc["path"]
         text = p.read_text(encoding="utf-8")
-        _, head, body = text.split("---\n", 2)
+        # Immediately after the slug it qualifies, so the warrant sits beside the claim.
         want = (f"agency_registry_basis: {entry['basis']}\n"
                 + "agency_registry_basis_key: "
                 + yaml.safe_dump(entry["crosswalk_key"], default_flow_style=True,
                                  allow_unicode=True).removesuffix("\n...\n") + "\n")
-        head = STAMP_RE.sub("", head)
-        # Immediately after the slug it qualifies, so the warrant sits beside the claim.
-        anchor = re.compile(r"^(agency_registry_slug: .*\n)", re.M)
-        if not anchor.search(head):
+        new = splice_fields(text, SLUG_ANCHOR, want, strip=STAMP_RE)
+        if new is None:
             print(f"SKIP {p.name}: no agency_registry_slug line to anchor on",
                   file=sys.stderr)
             continue
-        new = f"---\n{anchor.sub(lambda m: m.group(1) + want, head, count=1)}---\n{body}"
         if new != text:
             p.write_text(new, encoding="utf-8")
             changed += 1
@@ -491,16 +545,15 @@ def stamp_expenditures(mapping: dict, docs: list[dict] | None = None) -> tuple[i
         examined += 1
         p = doc["path"]
         text = p.read_text(encoding="utf-8")
-        _, head, body = text.split("---\n", 2)
         want = "".join(f"{k}: "
                       + (yaml.safe_dump(v, default_flow_style=True, allow_unicode=True)
                          .removesuffix("\n...\n") if k == "agency_registry_basis_key"
                          else str(v))
                       + "\n" for k, v in fields.items())
-        if not REGISTRY_FIELD_ANCHOR.search(head):
+        new = splice_fields(text, REGISTRY_FIELD_ANCHOR, want)
+        if new is None:
             print(f"SKIP {p.name}: no agency_code line to anchor on", file=sys.stderr)
             continue
-        new = f"---\n{REGISTRY_FIELD_ANCHOR.sub(lambda m: m.group(1) + want, head, count=1)}---\n{body}"
         if new != text:
             p.write_text(new, encoding="utf-8")
             changed += 1
@@ -521,10 +574,11 @@ def main() -> int:
 
     if args.check:
         names, bills, docs = corpus_names(), bill_names(), stamped_docs()
+        unslugged = unslugged_expenditure_docs()
         report = ROOT / "_meta" / "unresolved-agencies.md"
         text = report.read_text(encoding="utf-8") if report.is_file() else None
         problems = check_report_readable(text)
-        problems += check(cw, names, bills, docs, report_bodies(text or ""))
+        problems += check(cw, names, bills, docs, report_bodies(text or ""), unslugged)
         for p in problems:
             print(f"FAIL  {p}", file=sys.stderr)
         reviewed = sum(1 for v in unmapped.values()

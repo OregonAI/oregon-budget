@@ -36,9 +36,9 @@ tags:
 - labor-ind-bureau-of
 agency_code: '839'
 agency_registry_slug: bureau-of-labor-and-industries
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: LABOR & IND, BUREAU OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: LABOR & IND, BUREAU OF
 fiscal_year: 2019
 total_expense: '3654558.77'

@@ -36,9 +36,9 @@ tags:
 - chief-edu-office
 agency_code: '524'
 agency_registry_slug: chief-education-office
-agency_registry_corpus: executive-regulatory-frameworks
 agency_registry_basis: das_number
 agency_registry_basis_key: CHIEF EDU OFFICE
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: CHIEF EDU OFFICE
 fiscal_year: 2020
 total_expense: '26057.96'
