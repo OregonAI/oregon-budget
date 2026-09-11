@@ -392,30 +392,31 @@ mapping:
 unmapped:
   # ---- expenditure `agency_name` strings (required domain) ----------------------------
   'CNTRL AGY/ST GENERAL FUND/B-UP WH':
-    basis: not-reviewed
-    checked: No organization in ERF's registry carries das_agency_number 999, and no
-      registry name matches this string.
-    reason: >-
-      NOT REVIEWED — nobody has established what this string denotes. The `checked` field
-      of this entry is all it asserts. Read literally it looks like a central-agency /
-      state general fund / back-up-withholding accounting bucket rather than a body, and
-      the corpus holds exactly one document for it (expenditures-999-fy2019, $1,946.74
-      across 2 transactions, ranked 78 of 78 agencies that year), which is consistent with
-      that reading — but consistent is not established, and neither this corpus nor the
-      registry says what it is. Reporting this as "we looked and there is no counterpart"
-      would be a conclusion nobody reached.
+    basis: reviewed
+    checked: No organization in ERF's registry carries das_agency_number 999, and no registry name matches
+      this string.
+    reason: 'The publisher defines this feed''s agency fields as enterprise accounting-system labels,
+      not names of legal bodies: "Agency name as specified on enterprise accounting system", and "State
+      agency number used by enterprise systems". A central-agency / state general fund line carrying $1,946.74
+      across 2 transactions in FY2019 only (ranked 78 of 78) is an accounting bucket in that system. ERF''s
+      own hand-reviewed DAS table records 999 as "an accounting construct, not an agency -- confirmed
+      with the maintainer". Absence here is a fact about the registry''s scope, not a gap to fill. The
+      literal expansion of "B-UP WH" is not established and is deliberately not asserted.'
+    source: data.oregon.gov dataset y9g9-xsxs, column descriptions for `agency` and `agency_1` (fetched
+      2026-09-10); OregonAI/executive-regulatory-frameworks src/link_budget_codes.py UNMAPPED["999"].
   'HEALTH RELATED LICENSING BRDs':
-    basis: not-reviewed
-    checked: No organization in ERF's registry carries das_agency_number 833, and no
-      registry name matches this string.
-    reason: >-
-      NOT REVIEWED — nobody has established whether this has a registry counterpart. The
-      registry does carry individual health-related licensing boards under their own slugs
-      and their own DAS numbers (board-of-nursing 851, board-of-pharmacy 855,
-      oregon-board-of-dentistry 834 and others, each already mapped above), so the string
-      may name an administrative grouping that correctly has no single counterpart, or it
-      may be a body the registry has not recorded. Nothing here decides between those, and
-      the corpus records 7 fiscal years of spending under it.
+    basis: reviewed
+    checked: No organization in ERF's registry carries das_agency_number 833, and no registry name matches
+      this string.
+    reason: DAS 833 is a combined budget unit covering several small boards, not one legal entity. The
+      Health Licensing Office (OAR chapter 331) administers many of them but is not the same thing --
+      mapping this aggregate onto that one registry entry would attribute other boards' spending to it,
+      which is why the Health Licensing Office row carries no das_agency_number. The feed reports 833
+      separately from Oregon Health Authority (443) because it is a distinct accounting line, not a distinct
+      body; boards with their own numbers (nursing 851, pharmacy 855, dentistry 834) are mapped individually
+      above.
+    source: OregonAI/executive-regulatory-frameworks src/link_budget_codes.py UNMAPPED["833"] -- a hand-reviewed
+      table, not a generated one.
   # ---- bill `appropriated_to` strings: the bodies _meta/unresolved-agencies.md finds no
   #      counterpart for. Optional domain (issue #23 puts bill documents out of scope), but
   #      recorded here because section 4 of that report is where the reasons used to live
@@ -442,123 +443,70 @@ unmapped:
     source: _meta/unresolved-agencies.md section 4, which stated this of the Emergency Board
       by name. Carried here rather than restated; the report now renders it from this file.
   'State Workforce Investment Board':
-    basis: not-reviewed
-    previously_stated: 'Carried verbatim from _meta/unresolved-agencies.md section 4 as it
-      read before this file existed, so nothing is lost by the report no longer saying it:
-      "These bodies issue no administrative rules, so they hold no OAR chapter and do not
-      appear in a registry keyed on chapter assignment. The Emergency Board is a contingency
-      fund that disburses through other agencies; the Governor''s office and the
-      legislative-branch bodies are outside the executive rulemaking scheme entirely. Absence
-      here is a fact about the registry''s scope, not a gap to fill." It is recorded, not
-      adopted: that paragraph was printed over every name scoring below the suggester''s
-      threshold, and it reasons about the Governor''s office and legislative-branch bodies,
-      which have not been in that bucket since those names started resolving. It says nothing
-      about THIS body, which is why the basis above is not-reviewed.'
-    checked: No organization in ERF's registry is named "State Workforce Investment Board"
-      and none carries an alias for it.
-    reason: >-
-      NOT REVIEWED. The only thing on record about this body is the `checked` field of this
-      entry: the exact-only matcher resolved it to nothing and the report's suggester found
-      no registry entry close enough to propose. Whether it holds no OAR chapter — which
-      would make its absence correct by construction — or holds one the registry has not
-      recorded, nobody has established.
+    basis: reviewed
+    checked: No organization in ERF's registry is named "State Workforce Investment Board" and none carries
+      an alias for it.
+    reason: The predecessor name of the State Workforce and Talent Development Board. It appears in no
+      current ORS section and no OAR rule; the successor name appears in 31 ORS sections. Neither holds
+      an OAR chapter -- the board's programs are established in the Higher Education Coordinating Commission
+      (ORS 660.380, ORS 660.400), which issues the rules. A board that issues no rules has no chapter
+      and correctly does not appear in a registry keyed on chapter assignment. The renaming act was not
+      identified and is deliberately not cited.
+    source: ERF statute and rule mirrors, searched 2026-09-10.
   'Oregon Ocean Science Trust':
-    basis: not-reviewed
-    previously_stated: 'Carried verbatim from _meta/unresolved-agencies.md section 4 as it
-      read before this file existed, so nothing is lost by the report no longer saying it:
-      "These bodies issue no administrative rules, so they hold no OAR chapter and do not
-      appear in a registry keyed on chapter assignment. The Emergency Board is a contingency
-      fund that disburses through other agencies; the Governor''s office and the
-      legislative-branch bodies are outside the executive rulemaking scheme entirely. Absence
-      here is a fact about the registry''s scope, not a gap to fill." It is recorded, not
-      adopted: that paragraph was printed over every name scoring below the suggester''s
-      threshold, and it reasons about the Governor''s office and legislative-branch bodies,
-      which have not been in that bucket since those names started resolving. It says nothing
-      about THIS body, which is why the basis above is not-reviewed.'
-    checked: No organization in ERF's registry is named "Oregon Ocean Science Trust" and
-      none carries an alias for it.
-    reason: >-
-      NOT REVIEWED. The only thing on record is the `checked` field of this entry. Whether
-      this body holds no OAR chapter, or holds one the registry has not recorded, nobody
-      has established.
+    basis: reviewed
+    checked: No organization in ERF's registry is named "Oregon Ocean Science Trust" and none carries
+      an alias for it.
+    reason: Established by ORS 196.565 as a seven-member appointed body (ORS 196.565 to 196.573). It issues
+      no administrative rules and holds no OAR chapter -- it is named in the Department of State Lands'
+      rules (OAR 141-141-0100, 141-141-0120), which DSL issues. A body that issues no rules correctly
+      does not appear in a registry keyed on chapter assignment.
+    source: ERF statute and rule mirrors, searched 2026-09-10.
   'Oregon Climate Authority':
-    basis: not-reviewed
-    previously_stated: 'Carried verbatim from _meta/unresolved-agencies.md section 4 as it
-      read before this file existed, so nothing is lost by the report no longer saying it:
-      "These bodies issue no administrative rules, so they hold no OAR chapter and do not
-      appear in a registry keyed on chapter assignment. The Emergency Board is a contingency
-      fund that disburses through other agencies; the Governor''s office and the
-      legislative-branch bodies are outside the executive rulemaking scheme entirely. Absence
-      here is a fact about the registry''s scope, not a gap to fill." It is recorded, not
-      adopted: that paragraph was printed over every name scoring below the suggester''s
-      threshold, and it reasons about the Governor''s office and legislative-branch bodies,
-      which have not been in that bucket since those names started resolving. It says nothing
-      about THIS body, which is why the basis above is not-reviewed.'
-    checked: No organization in ERF's registry is named "Oregon Climate Authority" and none
-      carries an alias for it.
-    reason: >-
-      NOT REVIEWED. The only thing on record is the `checked` field of this entry. A name
-      appearing in a bill is not by itself evidence that the body was created, so even
-      "this body exists" is unestablished here, let alone why the registry has no entry
-      for it.
+    basis: reviewed
+    checked: No organization in ERF's registry is named "Oregon Climate Authority" and none carries an
+      alias for it.
+    reason: No such body was ever created. The single appropriation naming it, HB 5044 (2019 regular session),
+      was never enacted -- it carries no chapter number, no effective date, and remains in the Joint Committee
+      on Ways and Means; only an Introduced version exists. Its companion policy bill, HB 2020 (2019),
+      would have established a "Climate Policy Office" within the Department of Administrative Services
+      -- a differently named body inside an existing department -- and was also not enacted. The string
+      appears in no ORS section and no OAR rule. There is no registry counterpart because there is no
+      body, not because the registry missed one.
+    source: OLIS measure records for HB 5044 (2019R1) and HB 2020 (2019R1), checked against the Oregon
+      Legislature OData service 2026-09-11; ERF statute and rule mirrors, searched 2026-09-10.
   'State Workforce and Talent Development Board':
-    basis: not-reviewed
-    previously_stated: 'Carried verbatim from _meta/unresolved-agencies.md section 4 as it
-      read before this file existed, so nothing is lost by the report no longer saying it:
-      "These bodies issue no administrative rules, so they hold no OAR chapter and do not
-      appear in a registry keyed on chapter assignment. The Emergency Board is a contingency
-      fund that disburses through other agencies; the Governor''s office and the
-      legislative-branch bodies are outside the executive rulemaking scheme entirely. Absence
-      here is a fact about the registry''s scope, not a gap to fill." It is recorded, not
-      adopted: that paragraph was printed over every name scoring below the suggester''s
-      threshold, and it reasons about the Governor''s office and legislative-branch bodies,
-      which have not been in that bucket since those names started resolving. It says nothing
-      about THIS body, which is why the basis above is not-reviewed.'
-    checked: No organization in ERF's registry is named "State Workforce and Talent
-      Development Board" and none carries an alias for it.
-    reason: >-
-      NOT REVIEWED. The only thing on record is the `checked` field of this entry. Whether
-      this body holds no OAR chapter, or holds one the registry has not recorded, nobody
-      has established. Note that "State Workforce Investment Board" is also recorded here,
-      unreviewed, and whether the two names denote one body across a rename is part of what
-      nobody has looked at.
+    basis: reviewed
+    checked: No organization in ERF's registry is named "State Workforce and Talent Development Board"
+      and none carries an alias for it.
+    reason: Current name of the body formerly called the State Workforce Investment Board (see that entry).
+      Named in 31 ORS sections; holds no OAR chapter of its own -- its programs are established in the
+      Higher Education Coordinating Commission (ORS 660.380, ORS 660.400), which issues the rules. Absence
+      from a chapter-keyed registry is correct by construction, not a gap.
+    source: ERF statute and rule mirrors, searched 2026-09-10.
   'Office of Child Care':
-    basis: not-reviewed
-    previously_stated: 'Carried verbatim from _meta/unresolved-agencies.md section 4 as it
-      read before this file existed, so nothing is lost by the report no longer saying it:
-      "These bodies issue no administrative rules, so they hold no OAR chapter and do not
-      appear in a registry keyed on chapter assignment. The Emergency Board is a contingency
-      fund that disburses through other agencies; the Governor''s office and the
-      legislative-branch bodies are outside the executive rulemaking scheme entirely. Absence
-      here is a fact about the registry''s scope, not a gap to fill." It is recorded, not
-      adopted: that paragraph was printed over every name scoring below the suggester''s
-      threshold, and it reasons about the Governor''s office and legislative-branch bodies,
-      which have not been in that bucket since those names started resolving. It says nothing
-      about THIS body, which is why the basis above is not-reviewed.'
-    checked: No organization in ERF's registry is named "Office of Child Care" and none
-      carries an alias for it.
-    reason: >-
-      NOT REVIEWED. The only thing on record is the `checked` field of this entry. The
-      registry does carry early-learning bodies (oregon-department-of-education-early-
-      learning-division, DAS number 588), so whether this is a unit of one of them, a body
-      the registry has not recorded, or correctly absent, is exactly the question nobody
-      has answered.
+    basis: reviewed
+    checked: No organization in ERF's registry is named "Office of Child Care" and none carries an alias
+      for it.
+    reason: A division within the Department of Early Learning and Care, since renamed -- OAR 414-061-0020
+      states that the Child Care Licensing Division "is the division within the Department of Early Learning
+      and Care formerly known as the Office of Child Care (OCC)". It holds no OAR chapter of its own;
+      it is named in other bodies' chapters (407, 411, 413, 414, 581), and DELC -- which ERF carries as
+      oregon-department-of-education-early-learning-division (DAS 588, OAR chapter 414) -- issues the
+      rules that govern it. The registry is keyed on chapter assignment, so a division inside a chapter-holder
+      correctly has no entry of its own; mapping this string onto DELC would attribute the parent's rulemaking
+      to one of its divisions.
+    source: OAR 414-061-0020; ORS 315.213; ERF statute and rule mirrors, searched 2026-09-10.
   'Elliott State Research Forest Authority':
-    basis: not-reviewed
-    previously_stated: 'Carried verbatim from _meta/unresolved-agencies.md section 4 as it
-      read before this file existed, so nothing is lost by the report no longer saying it:
-      "These bodies issue no administrative rules, so they hold no OAR chapter and do not
-      appear in a registry keyed on chapter assignment. The Emergency Board is a contingency
-      fund that disburses through other agencies; the Governor''s office and the
-      legislative-branch bodies are outside the executive rulemaking scheme entirely. Absence
-      here is a fact about the registry''s scope, not a gap to fill." It is recorded, not
-      adopted: that paragraph was printed over every name scoring below the suggester''s
-      threshold, and it reasons about the Governor''s office and legislative-branch bodies,
-      which have not been in that bucket since those names started resolving. It says nothing
-      about THIS body, which is why the basis above is not-reviewed.'
-    checked: No organization in ERF's registry is named "Elliott State Research Forest
-      Authority" and none carries an alias for it.
-    reason: >-
-      NOT REVIEWED. The only thing on record is the `checked` field of this entry. Whether
-      this body holds no OAR chapter, or holds one the registry has not recorded, nobody
-      has established.
+    basis: reviewed
+    checked: No organization in ERF's registry is named "Elliott State Research Forest Authority" and
+      none carries an alias for it.
+    reason: 'A real, funded body -- its appropriation, HB 5048 (2023 regular session), was enacted as
+      Oregon Laws 2023 chapter 463, effective 2024-01-01. It holds no OAR chapter of its own: the statutes
+      ERF mirrors (ORS 273.830 to 273.840) govern the Elliott State Research Forest and assign management
+      to the State Land Board, and the only rule naming it is in OAR chapter 141, the Department of State
+      Lands. A body that issues no rules under its own chapter correctly has no entry in a registry keyed
+      on chapter assignment. This is NOT the Oregon Climate Authority case: that body was never created;
+      this one exists and is funded, and simply does not hold a chapter.'
+    source: OLIS measure record for HB 5048 (2023R1), checked against the Oregon Legislature OData service
+      2026-09-11; ERF statute and rule mirrors, searched 2026-09-10.
