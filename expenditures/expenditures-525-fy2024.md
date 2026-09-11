@@ -36,6 +36,10 @@ tags:
 - agency-525
 - hi-ed-coord-cmsn
 agency_code: '525'
+agency_registry_slug: higher-education-coordinating-commission
+agency_registry_basis: das_number
+agency_registry_basis_key: HI-ED COORD CMSN
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: HI-ED COORD CMSN
 fiscal_year: 2024
 total_expense: '2090241581.73'

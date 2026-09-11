@@ -35,6 +35,10 @@ tags:
 - agency-399
 - psychiatric-security-rev-brd
 agency_code: '399'
+agency_registry_slug: psychiatric-security-review-board
+agency_registry_basis: das_number
+agency_registry_basis_key: PSYCHIATRIC SECURITY REV BRD
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: PSYCHIATRIC SECURITY REV BRD
 fiscal_year: 2019
 total_expense: '288614.17'

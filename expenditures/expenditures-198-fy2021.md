@@ -36,6 +36,10 @@ tags:
 - agency-198
 - judicial-dept
 agency_code: '198'
+agency_registry_slug: judicial-department
+agency_registry_basis: das_number
+agency_registry_basis_key: JUDICIAL DEPT
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: JUDICIAL DEPT
 fiscal_year: 2021
 total_expense: '81208965.53'

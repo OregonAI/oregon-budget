@@ -36,6 +36,10 @@ tags:
 - agency-137
 - justice-dept-of
 agency_code: '137'
+agency_registry_slug: department-of-justice
+agency_registry_basis: das_number
+agency_registry_basis_key: JUSTICE, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: JUSTICE, DEPT OF
 fiscal_year: 2021
 total_expense: '172446053.17'

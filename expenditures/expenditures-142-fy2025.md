@@ -35,6 +35,10 @@ tags:
 - agency-142
 - legislative-counsel-office
 agency_code: '142'
+agency_registry_slug: legislative-counsel-office
+agency_registry_basis: exact
+agency_registry_basis_key: LEGISLATIVE COUNSEL OFFICE
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: LEGISLATIVE COUNSEL OFFICE
 fiscal_year: 2025
 total_expense: '516912.98'

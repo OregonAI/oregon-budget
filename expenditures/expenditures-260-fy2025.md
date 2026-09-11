@@ -35,6 +35,10 @@ tags:
 - agency-260
 - state-fire-marshal-dept-of
 agency_code: '260'
+agency_registry_slug: department-of-state-police-office-of-state-fire-marshal
+agency_registry_basis: das_number
+agency_registry_basis_key: STATE FIRE MARSHAL, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: STATE FIRE MARSHAL, DEPT OF
 fiscal_year: 2025
 total_expense: '58017818.43'

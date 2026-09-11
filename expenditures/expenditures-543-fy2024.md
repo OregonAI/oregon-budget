@@ -36,6 +36,10 @@ tags:
 - agency-543
 - library-oregon-st
 agency_code: '543'
+agency_registry_slug: oregon-state-library
+agency_registry_basis: das_number
+agency_registry_basis_key: LIBRARY, OREGON ST
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: LIBRARY, OREGON ST
 fiscal_year: 2024
 total_expense: '4163659.17'

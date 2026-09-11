@@ -86,6 +86,36 @@ def default_registry() -> Path:
                 ERF_REGISTRY_CANDIDATES[0])
 
 
+ERF_REGISTRY_PIN = ROOT / "_meta" / "erf-registry-pin.yml"
+
+
+def pinned_registry_ref(path: Path = ERF_REGISTRY_PIN) -> str:
+    """The ERF commit CI checks out before regenerating joins/ for the currency check
+    (oregon-budget#52).
+
+    joins/ needs the ERF sibling's agency registry to regenerate, unlike the four other
+    generated-file checks in the `generated` CI job, all of which run fully offline from
+    data committed in THIS repo. A currency check that read ERF's live `main` would
+    conflate two different failure modes: joins/ drifting from build_joins.py itself (a
+    template edit, a logic change -- the thing this gate exists to catch) and ERF's
+    registry simply having moved since the last deliberate regeneration here (an
+    expected, routine state, not a defect in oregon-budget). Pinning to a recorded commit
+    separates them: CI checks out ERF at EXACTLY this ref, so a red currency check can
+    only mean oregon-budget changed.
+
+    Raises rather than defaulting to a moving ref -- `main`, or whatever
+    `actions/checkout` picks with none given -- when the pin file carries no `ref`: that
+    would silently re-adopt the live-registry coupling this pin exists to avoid.
+    """
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) if path.is_file() else {}
+    ref = (data or {}).get("ref")
+    if not ref:
+        sys.exit(f"{path} has no `ref` -- the joins/ currency check has nothing to pin "
+                 f"the ERF sibling to, and checking out a moving ref would defeat the "
+                 f"whole point of pinning one")
+    return ref
+
+
 MIRROR_YEARS = set(range(2019, 2026))
 MAINTAINER = "@dzinck"
 DISCLAIMER = "NON-AUTHORITATIVE"
@@ -701,7 +731,15 @@ def main() -> int:
                          "registry does not resolve")
     ap.add_argument("--registry", default=None,
                     help="path to executive-regulatory-frameworks' agencies.yml")
+    ap.add_argument("--print-pin", action="store_true",
+                    help="print the ERF commit ref pinned in _meta/erf-registry-pin.yml "
+                         "and exit (oregon-budget#52) -- what CI reads before checking "
+                         "out the sibling for the joins/ currency check")
     args = ap.parse_args()
+
+    if args.print_pin:
+        print(pinned_registry_ref())
+        return 0
 
     import duckdb
     con = duckdb.connect()

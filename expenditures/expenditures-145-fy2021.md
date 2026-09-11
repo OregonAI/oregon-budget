@@ -36,6 +36,10 @@ tags:
 - agency-145
 - legislative-fiscal-officer
 agency_code: '145'
+agency_registry_slug: legislative-fiscal-officer
+agency_registry_basis: exact
+agency_registry_basis_key: LEGISLATIVE FISCAL OFFICER
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: LEGISLATIVE FISCAL OFFICER
 fiscal_year: 2021
 total_expense: '125283.97'

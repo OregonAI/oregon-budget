@@ -35,6 +35,10 @@ tags:
 - agency-248
 - military-dept-of
 agency_code: '248'
+agency_registry_slug: oregon-military-department
+agency_registry_basis: das_number
+agency_registry_basis_key: MILITARY, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: MILITARY, DEPT OF
 fiscal_year: 2025
 total_expense: '88654854.79'

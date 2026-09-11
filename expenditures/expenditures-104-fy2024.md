@@ -35,6 +35,10 @@ tags:
 - agency-104
 - public-records-advocate-office-of
 agency_code: '104'
+agency_registry_slug: public-records-advocate
+agency_registry_basis: das_number
+agency_registry_basis_key: PUBLIC RECORDS ADVOCATE, OFFICE OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: PUBLIC RECORDS ADVOCATE, OFFICE OF
 fiscal_year: 2024
 total_expense: '47687.22'

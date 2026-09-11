@@ -36,6 +36,10 @@ tags:
 - agency-662
 - land-use-brd-of-appeals
 agency_code: '662'
+agency_registry_slug: land-use-board-of-appeals
+agency_registry_basis: das_number
+agency_registry_basis_key: LAND USE BRD OF APPEALS
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: LAND USE BRD OF APPEALS
 fiscal_year: 2021
 total_expense: '169112.83'

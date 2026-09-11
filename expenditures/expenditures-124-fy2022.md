@@ -36,6 +36,10 @@ tags:
 - agency-124
 - licensed-social-workers-brd
 agency_code: '124'
+agency_registry_slug: board-of-licensed-social-workers
+agency_registry_basis: das_number
+agency_registry_basis_key: LICENSED SOCIAL WORKERS BRD
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: LICENSED SOCIAL WORKERS BRD
 fiscal_year: 2022
 total_expense: '303356.20'

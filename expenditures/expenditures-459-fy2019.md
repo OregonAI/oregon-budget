@@ -35,6 +35,10 @@ tags:
 - agency-459
 - public-emps-retirement-sys
 agency_code: '459'
+agency_registry_slug: oregon-public-employees-retirement-system
+agency_registry_basis: das_number
+agency_registry_basis_key: PUBLIC EMPS RETIREMENT SYS
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: PUBLIC EMPS RETIREMENT SYS
 fiscal_year: 2019
 total_expense: '628924091.00'

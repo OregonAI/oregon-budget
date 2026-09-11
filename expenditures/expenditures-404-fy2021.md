@@ -36,6 +36,10 @@ tags:
 - agency-404
 - public-defense-services
 agency_code: '404'
+agency_registry_slug: office-of-public-defense-services
+agency_registry_basis: das_number
+agency_registry_basis_key: PUBLIC DEFENSE SERVICES
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: PUBLIC DEFENSE SERVICES
 fiscal_year: 2021
 total_expense: '160714252.25'

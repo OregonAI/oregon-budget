@@ -35,6 +35,10 @@ tags:
 - agency-156
 - legislative-admin-cmte
 agency_code: '156'
+agency_registry_slug: legislative-administration-committee
+agency_registry_basis: das_number
+agency_registry_basis_key: LEGISLATIVE ADMIN CMTE
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: LEGISLATIVE ADMIN CMTE
 fiscal_year: 2025
 total_expense: '178913223.15'

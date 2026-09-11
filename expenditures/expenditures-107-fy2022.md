@@ -36,6 +36,10 @@ tags:
 - agency-107
 - administrative-srvcs-dept-of
 agency_code: '107'
+agency_registry_slug: department-of-administrative-services
+agency_registry_basis: das_number
+agency_registry_basis_key: ADMINISTRATIVE SRVCS, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: ADMINISTRATIVE SRVCS, DEPT OF
 fiscal_year: 2022
 total_expense: '3501528244.90'

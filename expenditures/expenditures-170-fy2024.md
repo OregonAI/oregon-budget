@@ -36,6 +36,10 @@ tags:
 - agency-170
 - treasury-oregon-st
 agency_code: '170'
+agency_registry_slug: oregon-state-treasury
+agency_registry_basis: das_number
+agency_registry_basis_key: TREASURY, OREGON ST
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: TREASURY, OREGON ST
 fiscal_year: 2024
 total_expense: '20316170.46'

@@ -35,6 +35,10 @@ tags:
 - agency-443
 - oregon-health-authority
 agency_code: '443'
+agency_registry_slug: oregon-health-authority
+agency_registry_basis: exact
+agency_registry_basis_key: OREGON HEALTH AUTHORITY
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: OREGON HEALTH AUTHORITY
 fiscal_year: 2019
 total_expense: '2935783795.26'

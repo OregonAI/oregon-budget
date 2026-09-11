@@ -36,6 +36,10 @@ tags:
 - agency-632
 - geology-mineral-ind-dept-of
 agency_code: '632'
+agency_registry_slug: department-of-geology-and-mineral-industries
+agency_registry_basis: das_number
+agency_registry_basis_key: GEOLOGY & MINERAL IND, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: GEOLOGY & MINERAL IND, DEPT OF
 fiscal_year: 2022
 total_expense: '2778677.23'

@@ -36,6 +36,10 @@ tags:
 - agency-250
 - marine-board
 agency_code: '250'
+agency_registry_slug: oregon-state-marine-board
+agency_registry_basis: das_number
+agency_registry_basis_key: MARINE BOARD
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: MARINE BOARD
 fiscal_year: 2023
 total_expense: '10841955.68'

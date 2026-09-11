@@ -35,6 +35,10 @@ tags:
 - agency-199
 - government-ethics-cmsn
 agency_code: '199'
+agency_registry_slug: oregon-government-ethics-commission
+agency_registry_basis: das_number
+agency_registry_basis_key: GOVERNMENT ETHICS CMSN
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: GOVERNMENT ETHICS CMSN
 fiscal_year: 2019
 total_expense: '441195.17'

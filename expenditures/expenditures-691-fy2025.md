@@ -35,6 +35,10 @@ tags:
 - agency-691
 - watershed-enh-brd
 agency_code: '691'
+agency_registry_slug: oregon-watershed-enhancement-board
+agency_registry_basis: das_number
+agency_registry_basis_key: WATERSHED ENH BRD
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: WATERSHED ENH BRD
 fiscal_year: 2025
 total_expense: '85480382.21'

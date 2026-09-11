@@ -36,6 +36,10 @@ tags:
 - agency-144
 - legislative-rev-office
 agency_code: '144'
+agency_registry_slug: legislative-revenue-office
+agency_registry_basis: das_number
+agency_registry_basis_key: LEGISLATIVE REV OFFICE
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: LEGISLATIVE REV OFFICE
 fiscal_year: 2020
 total_expense: '66705.65'

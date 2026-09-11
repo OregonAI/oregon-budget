@@ -40,6 +40,9 @@ from pathlib import Path
 
 import duckdb
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import link_agency_registry as registry_link                     # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "expenditures"
 OUT = ROOT / "expenditures"
@@ -176,7 +179,19 @@ def gather(con) -> dict:
     return d
 
 
-def build_one(agency, year, name, total, txns, d, retrieved, sha) -> tuple[str, str, dict]:
+def registry_fields(code: str, cw: dict) -> dict:
+    """The `agency_registry_*` fields this expenditure document should carry (#42), read
+    from the crosswalk alone -- no ERF sibling needed at build time, the same way
+    `build_joins.py`'s `basis_provenance` reads only the crosswalk for a join's basis.
+
+    `{}` when the crosswalk does not map this agency_code: the two agency strings still
+    recorded as `unmapped`/`not-reviewed` produce documents with no registry fields at
+    all, not a guess -- exactly the state `--stamp` leaves them in.
+    """
+    return registry_link.expenditure_registry_fields(code, cw) or {}
+
+
+def build_one(agency, year, name, total, txns, d, retrieved, sha, cw) -> tuple[str, str, dict]:
     doc_id = f"expenditures-{agency}-fy{year}"
     disp = display_name(name)
     rank, of = d["rank"][(agency, year)]
@@ -232,7 +247,9 @@ def build_one(agency, year, name, total, txns, d, retrieved, sha) -> tuple[str, 
         },
         "tags": ["oregon-budget", "expenditures", f"fy{year}", f"agency-{agency}",
                  slug(name)],
-        "agency_code": str(agency), "agency_name": name, "fiscal_year": int(year),
+        "agency_code": str(agency),
+        **registry_fields(str(agency), cw),
+        "agency_name": name, "fiscal_year": int(year),
         "total_expense": str(total), "transaction_count": int(txns),
     }
 
@@ -391,11 +408,13 @@ def main() -> int:
     if args.check:
         return check(d, sha_by_year)
 
+    cw = registry_link.load_crosswalk()
+
     OUT.mkdir(exist_ok=True)
     written = 0
     for agency, year, name, total, txns in d["pairs"]:
         doc_id, body, fm = build_one(agency, year, name, total, txns, d, retrieved,
-                                     sha_by_year[str(year)])
+                                     sha_by_year[str(year)], cw)
         (OUT / f"{doc_id}.md").write_text(f"---\n{dump_fm(fm)}---\n\n{body}")
         written += 1
 

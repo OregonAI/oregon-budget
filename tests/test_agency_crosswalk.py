@@ -68,6 +68,27 @@ def test_check_passes_on_a_consistent_crosswalk():
     assert lar.check(good(), NAMES, {}, STAMPED) == []
 
 
+def test_check_flags_a_mapped_agency_code_carrying_no_slug_at_all():
+    """Coverage gap closed (test-quality review on #42): a LOST stamp — a document whose
+    `agency_code` the crosswalk maps but which carries no `agency_registry_slug` at
+    all — was previously invisible to `--check`; `stamped_docs()` only ever looks at
+    documents that already carry a slug, so nothing looked at this direction.
+    Mutation-verified against the real committed tree: deleting the four
+    `agency_registry_*` lines from `expenditures-100-fy2019.md` moved `--check` from
+    exit 0 to exit 1 (then restored, no working-tree change survives that test)."""
+    unslugged = [{"id": "expenditures-340-fy2019", "agency_code": "340"}]
+    assert lar.check(good(), NAMES, {}, STAMPED, unslugged=unslugged) == [
+        "1 document(s) have an agency_code the crosswalk maps but carry no "
+        "agency_registry_slug at all — run "
+        "`python3 src/link_agency_registry.py --stamp`: "
+        "[\"expenditures-340-fy2019 (das number '340')\"]"
+    ]
+    # An unslugged document with an agency_code the crosswalk does NOT map is exactly
+    # the two `unmapped` strings' expected state — not a defect, so no line for it.
+    assert lar.check(good(), NAMES, {}, STAMPED,
+                     unslugged=[{"id": "x", "agency_code": "999"}]) == []
+
+
 def test_check_names_an_expenditure_agency_string_with_no_entry():
     """AC4. Adding an agency to the corpus without classifying it must fail, by name."""
     names = dict(NAMES, **{"SPACE FORCE, DEPT OF": 3})
@@ -461,3 +482,186 @@ def test_check_names_a_document_carrying_a_basis_but_no_key():
     del stamped[0]["agency_registry_basis_key"]
     problems = lar.check(good(), NAMES, {}, stamped)
     assert any("join-a" in p and "agency_registry_basis_key" in p for p in problems), problems
+
+
+# --- #42: 536 expenditure documents could carry a registry slug and carry none ---------
+# Every join document already carries the four agency_registry_* fields, from a match
+# against the BILL's `appropriated_to` wording. An expenditure document has no bill to
+# match against — its only handle on identity is `agency_code`, the same DAS number the
+# crosswalk's `das_number` entries are keyed by — so the same warrant `stamp()` writes
+# beside an existing join slug must be reachable from `agency_code` alone, with nothing
+# in ERF required to look it up.
+
+def test_expenditure_registry_fields_reads_the_same_basis_a_join_would():
+    """build_documents.py must write the same four fields for an expenditure document
+    that link_agency_registry.py --stamp writes onto a join for the same DAS number —
+    one crosswalk, one warrant, regardless of which content root reads it."""
+    assert lar.expenditure_registry_fields("340", good()) == {
+        "agency_registry_slug": "department-of-environmental-quality",
+        "agency_registry_basis": "das_number",
+        "agency_registry_basis_key": "ENVI QUALITY, DEPT",
+        "agency_registry_corpus": "executive-regulatory-frameworks",
+    }
+
+
+def test_expenditure_registry_fields_is_none_for_an_unmapped_code():
+    """An agency_code the crosswalk does not map must not be guessed at — the remaining
+    8 documents (the two strings recorded as `unmapped`) stay unstamped, not wrong. Both
+    now carry `basis: reviewed` since #43; "NOT YET REVIEWED" describes neither of them
+    any more."""
+    assert lar.expenditure_registry_fields("999", good()) is None
+
+
+def test_deq_expenditure_documents_carry_the_slug_the_crosswalk_maps_them_to():
+    """#42, on the real committed data. DEQ's seven `expenditures-340-fy20XX.md`
+    documents are the ones the issue names as "the documents that actually hold what DEQ
+    spent" — they must carry the slug, not just the 13 join documents that already did.
+    Independent literals: das_agency_number 340 and the seven fiscal years come from the
+    committed crosswalk and the issue's own count, not from re-running the code under
+    test."""
+    cw = lar.load_crosswalk()
+    docs = {p.stem: yaml.safe_load(p.read_text().split("---\n", 2)[1])
+            for p in sorted((ROOT / "expenditures").glob("expenditures-340-fy*.md"))}
+    assert set(docs) == {f"expenditures-340-fy{y}" for y in range(2019, 2026)}
+    for doc_id, fm in sorted(docs.items()):
+        assert fm.get("agency_registry_slug") == "department-of-environmental-quality", \
+            (doc_id, fm.get("agency_registry_slug"))
+        assert fm.get("agency_registry_corpus") == "executive-regulatory-frameworks", doc_id
+        assert fm.get("agency_registry_basis") == "das_number", doc_id
+        assert fm.get("agency_registry_basis_key") == "ENVI QUALITY, DEPT", doc_id
+    # Independent of the crosswalk fixture above: re-derive from the REAL crosswalk too.
+    real = lar.expenditure_registry_fields("340", cw)
+    assert docs["expenditures-340-fy2019"]["agency_registry_slug"] == real["agency_registry_slug"]
+
+
+def test_build_documents_writes_the_same_registry_fields_a_rebuild_would():
+    """#42. `src/build_documents.py`, not just `--stamp`, must write these fields — a
+    rebuild-from-scratch is the second half the issue names ("extending it (and
+    src/build_documents.py, so a rebuild writes the same thing) is mechanical"). Two
+    writers of one field reading different sources is how the crosswalk and a freshly
+    regenerated document would drift apart on the very next rebuild."""
+    import build_documents
+    assert build_documents.registry_fields("340", good()) == {
+        "agency_registry_slug": "department-of-environmental-quality",
+        "agency_registry_basis": "das_number",
+        "agency_registry_basis_key": "ENVI QUALITY, DEPT",
+        "agency_registry_corpus": "executive-regulatory-frameworks",
+    }
+    assert build_documents.registry_fields("999", good()) == {}
+
+
+def test_build_one_actually_wires_the_registry_fields_into_a_document(tmp_path):
+    """The wiring, not just the helper (test-quality caveat on #42): the previous test
+    asserted only on `registry_fields()`, the pure `or {}` wrapper — deleting
+    `**registry_fields(str(agency), cw)` from `build_one()` left that test, and every
+    other test in the suite, green. This drives `build_one()` itself, the function a
+    rebuild actually calls, and fails if that splat is ever removed.
+
+    Also locks in the FIELD ORDER `build_one()` emits into frontmatter: slug, basis,
+    basis_key, corpus — the order `stamp()` converges an already-slugged document to, so
+    a document `build_documents.py` writes and one `--stamp` backfills read the same
+    order (`test_stamp_round_trips_the_committed_tree_to_a_fixed_point` guards the other
+    half: that this order is ALSO the order already on disk, not just the order the
+    generator emits fresh).
+    """
+    import build_documents
+    from decimal import Decimal
+
+    year = 2019
+    d = {
+        "years": {year}, "statewide": {year: Decimal("1000")},
+        "totals": {("340", year): Decimal("500")},
+        "rank": {("340", year): (1, 1)},
+        "by_budget": {("340", year): [("1000", "SALARIES", Decimal("500"), 3)]},
+        "by_expend": {("340", year): [("100", "GENERAL", Decimal("500"), 3)]},
+        "by_vendor": {("340", year): [("SOME VENDOR", Decimal("500"), 3)]},
+    }
+    doc_id, _body, fm = build_documents.build_one(
+        "340", year, "ENVI QUALITY, DEPT", Decimal("500"), 3, d,
+        "2026-01-01", "deadbeef", good())
+    assert doc_id == "expenditures-340-fy2019"
+    assert fm["agency_registry_slug"] == "department-of-environmental-quality"
+    assert fm["agency_registry_basis"] == "das_number"
+    assert fm["agency_registry_basis_key"] == "ENVI QUALITY, DEPT"
+    assert fm["agency_registry_corpus"] == "executive-regulatory-frameworks"
+
+    keys = list(fm.keys())
+    i = keys.index("agency_registry_slug")
+    assert keys[i:i + 4] == ["agency_registry_slug", "agency_registry_basis",
+                            "agency_registry_basis_key", "agency_registry_corpus"]
+
+    # And the ACTUAL frontmatter text a rebuild would write, not just the dict.
+    text = build_documents.dump_fm(fm)
+    lines = [ln for ln in text.splitlines() if ln.startswith("agency_registry_")]
+    assert lines == [
+        "agency_registry_slug: department-of-environmental-quality",
+        "agency_registry_basis: das_number",
+        "agency_registry_basis_key: ENVI QUALITY, DEPT",
+        "agency_registry_corpus: executive-regulatory-frameworks",
+    ]
+
+
+def test_stamp_round_trips_the_committed_tree_to_a_fixed_point(tmp_path):
+    """The missing half of the round trip (review finding on #42): the COMMITTED tree
+    must already be what `--stamp` converges to, not just what a fresh rebuild converges
+    to. Before `expenditure_registry_fields()`'s field order matched `stamp()`'s (slug,
+    basis, basis_key, corpus), running `--stamp` on the clean committed tree reordered
+    every one of the 536 stamped expenditure documents — a real, reproducible 536-file
+    diff (536 insertions / 536 deletions, `agency_registry_corpus` moving from above the
+    basis pair to below it), not a hypothetical one. A second `--stamp` was then a
+    no-op, and a following rebuild flipped all 536 back — so an operator following
+    `--check`'s own advice to run `--stamp` got a no-op diff and the next rebuild
+    reversed it.
+
+    Copies expenditures/, joins/ and bills/ into tmp_path (never touches the real working
+    tree) and calls `stamp()` / `stamp_expenditures()` with `docs=` pointed at the copy,
+    the seam those functions expose for exactly this. `changed == 0` on both IS the fixed
+    point: nothing needed rewriting because the committed order already matches.
+    """
+    import shutil
+
+    copies = {}
+    for name in ("expenditures", "joins", "bills"):
+        dst = tmp_path / name
+        shutil.copytree(ROOT / name, dst)
+        copies[name] = dst
+
+    cw = lar.load_crosswalk()
+    mapping = cw.get("mapping") or {}
+
+    stamped = lar.stamped_docs(roots=(copies["joins"], copies["expenditures"],
+                                      copies["bills"]))
+    assert stamped, "fixture produced no stamped documents — the test proves nothing"
+    examined, changed = lar.stamp(mapping, docs=stamped)
+    assert changed == 0, (
+        f"{changed} of {examined} already-slugged document(s) were rewritten by "
+        f"--stamp on the committed tree — the tree is not a fixed point of --stamp")
+
+    # unslugged_expenditure_docs() also returns the 8 documents behind the two
+    # `unmapped` crosswalk strings (833, 999) — correctly unslugged, not a defect. The
+    # fixed-point claim is narrower: of whichever documents carry no slug, none may have
+    # a `agency_code` the crosswalk DOES map (that would be a lost stamp, #42's
+    # coverage-gap fix in check_stamps), which is exactly what stamp_expenditures()'s
+    # own `examined` count measures.
+    unslugged = lar.unslugged_expenditure_docs(root=copies["expenditures"])
+    ex_examined, ex_changed = lar.stamp_expenditures(mapping, docs=unslugged)
+    assert ex_examined == 0, (
+        f"{ex_examined} unslugged document(s) have an agency_code the crosswalk maps — "
+        f"a lost stamp on the committed tree")
+    assert ex_changed == 0
+
+
+def test_documents_by_agency_floor_for_deq_now_includes_its_spending():
+    """#42's headline number. Measured 2026-08-22 at 13 (joins only); this is the count
+    #23's verification pinned and the issue's own warning says SHOULD change when this
+    lands — deliberately re-measured and updated here, not left stale. DEQ has 13 join
+    documents and 7 expenditure documents, both now carrying the slug, so the floor
+    documents_by_agency answers from this corpus's committed files is 20."""
+    import yaml as _yaml
+    matches = []
+    for root in ("joins", "expenditures"):
+        for p in sorted((ROOT / root).glob("*.md")):
+            fm = _yaml.safe_load(p.read_text().split("---\n", 2)[1])
+            if fm.get("agency_registry_slug") == "department-of-environmental-quality":
+                matches.append(fm["id"])
+    assert len(matches) == 20, (len(matches), matches)

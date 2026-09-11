@@ -35,6 +35,10 @@ tags:
 - agency-291
 - corrections-dept-of
 agency_code: '291'
+agency_registry_slug: department-of-corrections
+agency_registry_basis: das_number
+agency_registry_basis_key: CORRECTIONS, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: CORRECTIONS, DEPT OF
 fiscal_year: 2019
 total_expense: '397589793.50'

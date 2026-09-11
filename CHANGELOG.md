@@ -31,6 +31,43 @@ Repo-curation dates only — official effective dates live in frontmatter.
   feed's spelling of the same body. They agree, and `--check` fails if they stop
   agreeing — but a basis carrying no key would read as a description of the resolution
   it is not about.
+- 2026-09-10 — **536 of 544 expenditure documents now carry `agency_registry_slug` /
+  `agency_registry_corpus` / `agency_registry_basis` / `agency_registry_basis_key`**
+  (OregonAI/oregon-budget#42). `_meta/agency-crosswalk.yml` had resolved 81 of 83
+  expenditure agency strings to a registry slug since #23, and every resolution was
+  verified against ERF — but none of it reached `expenditures/*.md`, so
+  `documents_by_agency` answered only from `joins/`'s 474 documents and DEQ's own seven
+  agency-year spending documents appeared under no agency at all.
+  `src/link_agency_registry.py --stamp` now writes the same four fields onto an
+  expenditure document that it already writes beside a join's slug, keyed on
+  `agency_code` (the DAS number) rather than a bill match, since an expenditure document
+  has no bill to resolve against; `src/build_documents.py` writes them at generation time
+  too, from the crosswalk alone (no ERF sibling needed to build), so a rebuild does not
+  regress the stamp. Re-measured after stamping: a full `python3 src/build_documents.py`
+  regenerate reproduces the 544 stamped documents byte-for-byte (empty diff). The
+  remaining 8 documents (the 2 `unmapped` agency strings) are unchanged, not guessed at.
+  **`documents_by_agency('department-of-environmental-quality')` moves from 13 (joins
+  only) to 20 (13 joins + DEQ's 7 expenditure documents)** — #23's verification pinned 13
+  and said this number SHOULD change when #42 landed; it has, deliberately, and is
+  re-measured and locked in by `tests/test_agency_crosswalk.py`'s
+  `test_documents_by_agency_floor_for_deq_now_includes_its_spending`.
+- 2026-09-10 — **`joins/` gets a standing currency gate in CI's `generated` job, and
+  `_meta/erf-registry-pin.yml` pins the ERF commit it regenerates against**
+  (OregonAI/oregon-budget#52). `build_joins.py --check` only ever verified referential
+  integrity — a different claim from "this is what the generator emits today" — and #50
+  proved that second claim by hand (an empty diff over 474 files) with nothing to keep it
+  true going forward. Unlike its four `generated`-job siblings, `build_joins.py` cannot
+  regenerate offline: it needs ERF's agency registry, which is not committed here. A
+  currency check against ERF's live `main` would conflate joins/ drifting from
+  `build_joins.py` itself with ERF's registry simply having moved since the last
+  deliberate regeneration — an expected, routine state, not a defect in oregon-budget, and
+  the same "second source of truth that can only ever be stale" problem #37 already fixed
+  one layer down in `ERF_REGISTRY_CANDIDATES`. So the `generated` job now checks out the
+  commit recorded in `_meta/erf-registry-pin.yml` (pinned at
+  `34930fcd55b30927d3b150dbe62f081f299600fd`, verified to reproduce today's committed
+  `joins/` byte-for-byte), regenerates, and diffs — a red run means oregon-budget changed,
+  never that ERF did. The pin is bumped only in the same PR that regenerates `joins/`
+  against the newer commit, recorded in the pin file's own comment.
 
 ### Changed
 - 2026-08-22 — **`_meta/unresolved-agencies.md` section 4 now renders the decision
@@ -86,6 +123,40 @@ Repo-curation dates only — official effective dates live in frontmatter.
   the real registry dual-writes both keys today and would pass unfixed code too.
 
 ### Fixed
+- 2026-09-10 — **Review follow-up on #42/#52: the committed tree is now a fixed point of
+  `--stamp`, `_meta/corpus.yml`'s document-count comment is re-measured, `joins/`'s
+  currency gate closes an untracked-file hole and actually calls the function its guard
+  documents, and a LOST stamp is now caught by `--check`.** A two-axis review found that
+  `expenditure_registry_fields()` and `stamp()` wrote the four `agency_registry_*` fields
+  in two different orders (slug/corpus/basis/basis_key vs. slug/basis/basis_key/corpus):
+  running `--stamp` on the just-committed tree reordered all 536 stamped expenditure
+  documents (536 insertions/536 deletions, reproduced and confirmed here), a second
+  `--stamp` was then a no-op, and a following rebuild flipped all 536 back. Both writers
+  now emit one order (matching `build_joins.py`'s own), `stamp()` and `stamp_expenditures()`
+  share one `splice_fields()` helper instead of two hand-rolled ones, and
+  `expenditures/*.md` is regenerated to the converged order — verified: `--stamp` on the
+  regenerated tree now reports "0 (re)stamped", locked in by
+  `test_stamp_round_trips_the_committed_tree_to_a_fixed_point`.
+  `_meta/corpus.yml`'s `issuing_body_slug_field` comment still quoted #42's pre-stamp
+  count (474 of 1,762, "ALL of them under `joins/`"); re-measured from committed
+  frontmatter and corrected to 1,010 of 1,762 (474 joins + 536 expenditures), 80 distinct
+  slugs re-verified against ERF's now-190-organization registry with zero problems.
+  `joins/`'s new currency-check step (`git diff --exit-code -- joins/`) could not see an
+  untracked file the generator might add; it now stages first (`git add -A`) and diffs
+  the cached tree — verified: an extra untracked file in `joins/` now fails the gate,
+  where it previously passed silently. `pinned_registry_ref()` was dead production code
+  reachable only from tests, contradicting its own docstring's claim that "CI checks out"
+  the ref it returns; `build_joins.py --print-pin` is the real call site now, and
+  `ci.yml`'s pin-reading step uses it instead of an inline `python3 -c` YAML read.
+  Lastly, deleting a stamp from a non-DEQ expenditure document previously left `--check`
+  exiting 0 (it only ever inspected documents that already carried a slug); `--check`
+  now also flags a mapped `agency_code` carrying no `agency_registry_slug` at all —
+  verified against the real committed tree, then reverted with no working-tree change
+  surviving that test. CONTRIBUTING.md's "commits carry an `Assisted-by:` trailer" line
+  was stale against this repo's own history (`git log --all` shows zero uses, and every
+  credited commit since #67 uses `Co-Authored-By:`/`Claude-Session:`); corrected to match
+  actual practice rather than amending past commits to a convention this repo has never
+  used.
 - 2026-08-02 — **Un-stamped fabricated `last_verified`/`verified_by` on all
   1,761 stamped content documents** across `expenditures/`, `bills/`,
   `datasets/`, and `joins/`. Every stamp was an ingestion date ('2026-07-28'

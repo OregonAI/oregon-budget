@@ -36,6 +36,10 @@ tags:
 - agency-845
 - liquor-control-cmsn
 agency_code: '845'
+agency_registry_slug: oregon-liquor-control-commission
+agency_registry_basis: das_number
+agency_registry_basis_key: LIQUOR & CANNABIS COM, OR
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: LIQUOR CONTROL CMSN
 fiscal_year: 2020
 total_expense: '500120337.07'

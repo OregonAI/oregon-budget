@@ -36,6 +36,10 @@ tags:
 - agency-121
 - governor-office-of-the
 agency_code: '121'
+agency_registry_slug: office-of-the-governor
+agency_registry_basis: exact
+agency_registry_basis_key: GOVERNOR, OFFICE OF THE
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: GOVERNOR, OFFICE OF THE
 fiscal_year: 2022
 total_expense: '2549820.15'

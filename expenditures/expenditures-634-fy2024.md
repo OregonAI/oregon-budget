@@ -36,6 +36,10 @@ tags:
 - agency-634
 - parks-recreation-dept-of
 agency_code: '634'
+agency_registry_slug: parks-and-recreation-department
+agency_registry_basis: das_number
+agency_registry_basis_key: PARKS & RECREATION, DEPT OF
+agency_registry_corpus: executive-regulatory-frameworks
 agency_name: PARKS & RECREATION, DEPT OF
 fiscal_year: 2024
 total_expense: '70323629.94'
