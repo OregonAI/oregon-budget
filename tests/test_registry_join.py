@@ -12,6 +12,7 @@ pass by construction. So the fixture below is a registry in which the two fields
 the state ERF#168 will actually ship — and the assertions pin which side the join lands on.
 Without that disagreement there is nothing here to observe.
 """
+import re
 import sys
 from pathlib import Path
 
@@ -453,3 +454,48 @@ def test_unresolved_report_prose_does_not_name_the_retired_alias(
     text = (report_root / "_meta" / "unresolved-agencies.md").read_text()
     assert "budget_agency_code" not in text
     assert "budget code" not in text
+
+
+# --- #52: joins/'s currency gate needs the ERF registry pinned first --------------------
+# build_joins.py needs the ERF sibling's agency registry to regenerate joins/, and that
+# registry is not committed here -- unlike the data its four siblings regenerate from
+# offline. A currency check that read ERF's live main would conflate joins/ drifting from
+# build_joins.py itself with ERF's registry simply having moved since the last deliberate
+# regeneration, an expected and routine state. `_meta/erf-registry-pin.yml` records the
+# exact commit CI checks out first, so the gate can only ever fail for the first reason.
+
+def test_pinned_registry_ref_reads_the_committed_pin():
+    """The real committed pin: a 40-character commit SHA, not a moving ref like `main` --
+    a branch name would defeat the whole point of pinning."""
+    ref = build_joins.pinned_registry_ref()
+    assert len(ref) == 40 and re.fullmatch(r"[0-9a-f]{40}", ref), ref
+
+
+def test_pinned_registry_ref_requires_a_ref(tmp_path):
+    """A pin file with no `ref` is not a pin -- the currency check must refuse to run
+    against nothing, not silently check out whatever `actions/checkout` defaults to."""
+    p = tmp_path / "pin.yml"
+    p.write_text("repo: OregonAI/executive-regulatory-frameworks\n")
+    with pytest.raises(SystemExit, match="ref"):
+        build_joins.pinned_registry_ref(p)
+
+
+def test_pinned_registry_ref_reads_a_fixture(tmp_path):
+    p = tmp_path / "pin.yml"
+    p.write_text("repo: OregonAI/executive-regulatory-frameworks\n"
+                "ref: 'deadbeefdeadbeefdeadbeefdeadbeefdeadbeef'\n")
+    assert build_joins.pinned_registry_ref(p) == "deadbeefdeadbeefdeadbeefdeadbeefdeadbeef"
+
+
+def test_the_generated_job_gates_joins_currency_against_the_pinned_registry():
+    """AGENTS.md: 'Add a --check CI step for every generated file you commit.' joins/'s
+    four siblings all run a currency check in the `generated` job; this locks in that
+    joins/ now does too, checked out against the pin rather than ERF's live main."""
+    ci = (ROOT / ".github" / "workflows" / "ci.yml").read_text()
+    generated_job = ci.split("\n  generated:", 1)[1].split("\n  hybrid:", 1)[0]
+    assert "erf-registry-pin.yml" in generated_job, \
+        "the generated job does not read the pinned ERF ref"
+    assert "executive-regulatory-frameworks" in generated_job, \
+        "the generated job does not checkout the ERF sibling"
+    assert "joins/" in generated_job and "diff" in generated_job, \
+        "the generated job has no regenerate-and-diff step for joins/"

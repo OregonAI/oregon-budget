@@ -51,6 +51,23 @@ Repo-curation dates only — official effective dates live in frontmatter.
   and said this number SHOULD change when #42 landed; it has, deliberately, and is
   re-measured and locked in by `tests/test_agency_crosswalk.py`'s
   `test_documents_by_agency_floor_for_deq_now_includes_its_spending`.
+- 2026-09-10 — **`joins/` gets a standing currency gate in CI's `generated` job, and
+  `_meta/erf-registry-pin.yml` pins the ERF commit it regenerates against**
+  (OregonAI/oregon-budget#52). `build_joins.py --check` only ever verified referential
+  integrity — a different claim from "this is what the generator emits today" — and #50
+  proved that second claim by hand (an empty diff over 474 files) with nothing to keep it
+  true going forward. Unlike its four `generated`-job siblings, `build_joins.py` cannot
+  regenerate offline: it needs ERF's agency registry, which is not committed here. A
+  currency check against ERF's live `main` would conflate joins/ drifting from
+  `build_joins.py` itself with ERF's registry simply having moved since the last
+  deliberate regeneration — an expected, routine state, not a defect in oregon-budget, and
+  the same "second source of truth that can only ever be stale" problem #37 already fixed
+  one layer down in `ERF_REGISTRY_CANDIDATES`. So the `generated` job now checks out the
+  commit recorded in `_meta/erf-registry-pin.yml` (pinned at
+  `34930fcd55b30927d3b150dbe62f081f299600fd`, verified to reproduce today's committed
+  `joins/` byte-for-byte), regenerates, and diffs — a red run means oregon-budget changed,
+  never that ERF did. The pin is bumped only in the same PR that regenerates `joins/`
+  against the newer commit, recorded in the pin file's own comment.
 
 ### Changed
 - 2026-08-22 — **`_meta/unresolved-agencies.md` section 4 now renders the decision

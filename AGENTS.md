@@ -149,6 +149,7 @@ PR. See toolkit `docs/replication-guide.md`.
 | `_meta/line-items.json` | `src/build_story_exports.py` | `generated` job, every PR |
 | `_meta/vendor-concentration.json` | `src/build_story_exports.py` | `generated` job, every PR |
 | `_meta/unresolved-agencies.md` | `src/build_joins.py --unresolved-report` | not in CI (needs the sibling registry); its section 4 must name only bodies `_meta/agency-crosswalk.yml` has decided, and THAT is gated by `link_agency_registry.py --check` |
+| `joins/*.md` | `src/build_joins.py` | `generated` job, every PR — regenerated against the executive-regulatory-frameworks commit pinned in `_meta/erf-registry-pin.yml` (never its live `main`) and diffed for drift (oregon-budget#52). `build_joins.py --check` is a SEPARATE, narrower claim — referential integrity only (every `document_id` resolves, every `{dataset, key}` selects rows) — and runs offline in the same job. |
 
 `_meta/agency-crosswalk.yml` is the exception that proves the table: it is **committed
 source of record, not generated**. Nothing rewrites it. Its `das_number` entries were

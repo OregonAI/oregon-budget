@@ -1,0 +1,30 @@
+# The executive-regulatory-frameworks commit joins/ was last regenerated against, and
+# the `generated` CI job checks out before running the joins/ currency gate
+# (oregon-budget#52).
+#
+# WHY A PIN AT ALL. build_joins.py's generator needs ERF's agency registry
+# (_meta/catalog/agencies.yml) to build joins/, and that registry is NOT committed in
+# this repo -- unlike the data every one of joins/'s four siblings (build_graph.py,
+# build_story_exports.py, build_documents.py, build_account_codes.py) regenerates from,
+# which is why those run fully offline. A currency check that read ERF's LIVE main would
+# conflate two different failure modes: joins/ drifting from build_joins.py itself (a
+# template edit, a logic change -- the thing this gate exists to catch) and ERF's
+# registry simply having moved since the last deliberate regeneration here (an expected,
+# routine state, not a defect in oregon-budget -- the same "second source of truth that
+# can only ever be stale" problem oregon-budget#37 already named and fixed for
+# ERF_REGISTRY_CANDIDATES, one layer up, in CI instead of in the fallback list). Pinning
+# to a recorded commit separates them: CI checks out ERF at EXACTLY this ref, so a red
+# currency check can only mean oregon-budget changed.
+#
+# WHO BUMPS THIS, AND WHEN. Bump `ref` in the SAME PR that regenerates joins/ against the
+# newer ERF commit -- never on its own. Bumping without regenerating pins a ref nothing
+# was checked against; regenerating without bumping leaves the next PR's currency check
+# comparing against a ref the committed joins/ no longer reflects.
+#
+# Verified against this exact ref on 2026-09-10: `python3 src/build_joins.py --registry
+# <this ref's agencies.yml>` over the current bills/ and data/expenditures/ produced an
+# empty `git diff` across all 474 committed joins/ files.
+repo: "OregonAI/executive-regulatory-frameworks"
+ref: "34930fcd55b30927d3b150dbe62f081f299600fd"
+pinned_on: "2026-09-10"
+pinned_by: "@dzinck"

@@ -82,6 +82,30 @@ jobs:
       # `--verify-registry`, run locally and in review.
       - name: Every agency string must be a recorded decision
         run: python3 src/link_agency_registry.py --check
+      # joins/'s currency gate (oregon-budget#52), and the ONE step in this job that is
+      # NOT offline. build_joins.py needs ERF's agency registry to regenerate, and that
+      # registry is not committed in this repo the way every other file above is — so
+      # this cannot be a self-contained --check like its four siblings. Reading ERF's
+      # LIVE main here would conflate joins/ drifting from build_joins.py itself (what
+      # this gate exists to catch) with ERF's registry simply having moved since the
+      # last deliberate regeneration (routine, not a defect in oregon-budget). So this
+      # checks out the PINNED commit recorded in _meta/erf-registry-pin.yml, never
+      # `main`: a red run here means oregon-budget changed, not that ERF did.
+      - name: Read the pinned ERF registry commit
+        id: erf-pin
+        run: |
+          ref=$(python3 -c "import yaml; print(yaml.safe_load(open('_meta/erf-registry-pin.yml'))['ref'])")
+          echo "ref=$ref" >> "$GITHUB_OUTPUT"
+      - name: Checkout the pinned ERF registry
+        uses: actions/checkout@v4
+        with:
+          repository: OregonAI/executive-regulatory-frameworks
+          ref: ${{ steps.erf-pin.outputs.ref }}
+          path: .erf-registry-pin
+      - name: joins/ must be current against the pinned ERF registry
+        run: |
+          python3 src/build_joins.py --registry .erf-registry-pin/_meta/catalog/agencies.yml
+          git diff --exit-code -- joins/
 
   # The hybrid seam's disciplines: live figures never merge into mirrored fields, and an
   # unavailable API is never served as a zero. Both are monkeypatched rather than live —
