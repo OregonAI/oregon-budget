@@ -36,6 +36,10 @@ tags:
 - agency-259
 - public-safety-standards-trng
 agency_code: '259'
+agency_registry_slug: department-of-public-safety-standards-and-training
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: PUBLIC SAFETY STANDARDS & TRNG
 agency_name: PUBLIC SAFETY STANDARDS & TRNG
 fiscal_year: 2024
 total_expense: '17095779.07'

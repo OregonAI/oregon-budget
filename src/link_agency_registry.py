@@ -3,7 +3,7 @@
 
   python3 src/link_agency_registry.py --check            # CI: committed data only
   python3 src/link_agency_registry.py --verify-registry  # local: slugs + numbers vs ERF
-  python3 src/link_agency_registry.py --stamp            # write basis into joins/
+  python3 src/link_agency_registry.py --stamp            # write basis into joins/, slug+basis into expenditures/
 
 Adapted from oregon-audits/src/link_agency_registry.py, which in turn adapts
 oregon-kpm's. Same shape, same --check / --verify-registry split, same governing
@@ -259,6 +259,35 @@ def by_das_number(mapping: dict) -> tuple[dict[str, dict], list[str]]:
     return out, conflicts
 
 
+def expenditure_registry_fields(code: str, cw: dict) -> dict | None:
+    """The four `agency_registry_*` fields for expenditure `agency_code` `code`, from the
+    crosswalk alone -- no ERF sibling needed (oregon-budget#42).
+
+    An expenditure document has no bill to match against, unlike a join -- its only
+    handle on identity is `agency_code`, the same DAS number `by_das_number` keys the
+    crosswalk's `das_number` entries by. So this reaches the same warrant
+    `basis_provenance` computes for a join, from the same input, and the two must never
+    read two different sources for one fact.
+
+    Returns None, not a guess, when `code` is not in the crosswalk: an expenditure
+    document has no slug asserted yet the way a join does, so an unmapped code is a
+    document that stays unstamped -- exactly the remaining 8 of #42's 544, not a wrong
+    answer for them.
+    """
+    index, conflicts = by_das_number(cw.get("mapping") or {})
+    if conflicts:
+        raise KeyError("; ".join(conflicts))
+    entry = index.get(str(code))
+    if not entry:
+        return None
+    return {
+        "agency_registry_slug": entry["slug"],
+        "agency_registry_corpus": REGISTRY_CORPUS,
+        "agency_registry_basis": entry["basis"],
+        "agency_registry_basis_key": entry["crosswalk_key"],
+    }
+
+
 def check_stamps(mapping: dict, stamped: list[dict]) -> list[str]:
     """The gate between the crosswalk and the documents that repeat it.
 
@@ -426,6 +455,58 @@ def stamp(mapping: dict, docs: list[dict] | None = None) -> tuple[int, int]:
     return examined, changed
 
 
+def unslugged_expenditure_docs(root: Path = EXPENDITURES) -> list[dict]:
+    """Expenditure documents with an `agency_code` but no `agency_registry_slug` yet --
+    the 536-of-544 oregon-budget#42 is about. `stamped_docs()` deliberately excludes
+    these (it reads only documents that ALREADY carry a slug, because for a join the
+    slug is asserted by `build_joins.py` from the bill side); this is the other half."""
+    out = []
+    for p in sorted(root.glob("*.md")):
+        fm = frontmatter(p)
+        if fm.get("agency_registry_slug"):
+            continue
+        code = str(fm.get("agency_code") or "")
+        if code:
+            out.append({"id": fm.get("id") or p.stem, "path": p, "agency_code": code})
+    return out
+
+
+REGISTRY_FIELD_ANCHOR = re.compile(r"^(agency_code: .*\n)", re.M)
+
+
+def stamp_expenditures(mapping: dict, docs: list[dict] | None = None) -> tuple[int, int]:
+    """Write all four `agency_registry_*` fields onto expenditure documents whose
+    `agency_code` the crosswalk maps (#42). (examined, changed).
+
+    Mechanically the same warrant `stamp()` writes beside an EXISTING slug on a join
+    document -- here there is no existing slug to anchor on, so the whole block is
+    inserted fresh, anchored after `agency_code` instead, which every expenditure
+    document already carries.
+    """
+    examined = changed = 0
+    for doc in (unslugged_expenditure_docs() if docs is None else docs):
+        fields = expenditure_registry_fields(doc["agency_code"], {"mapping": mapping})
+        if fields is None:
+            continue
+        examined += 1
+        p = doc["path"]
+        text = p.read_text(encoding="utf-8")
+        _, head, body = text.split("---\n", 2)
+        want = "".join(f"{k}: "
+                      + (yaml.safe_dump(v, default_flow_style=True, allow_unicode=True)
+                         .removesuffix("\n...\n") if k == "agency_registry_basis_key"
+                         else str(v))
+                      + "\n" for k, v in fields.items())
+        if not REGISTRY_FIELD_ANCHOR.search(head):
+            print(f"SKIP {p.name}: no agency_code line to anchor on", file=sys.stderr)
+            continue
+        new = f"---\n{REGISTRY_FIELD_ANCHOR.sub(lambda m: m.group(1) + want, head, count=1)}---\n{body}"
+        if new != text:
+            p.write_text(new, encoding="utf-8")
+            changed += 1
+    return examined, changed
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -475,6 +556,9 @@ def main() -> int:
     if args.stamp:
         examined, changed = stamp(mapping)
         print(f"{examined} slugged document(s) with a mapped agency; {changed} (re)stamped.")
+        ex_examined, ex_changed = stamp_expenditures(mapping)
+        print(f"{ex_examined} unslugged expenditure document(s) with a mapped agency_code; "
+              f"{ex_changed} newly stamped.")
         return 0
 
     ap.print_help()

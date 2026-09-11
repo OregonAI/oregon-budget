@@ -35,6 +35,10 @@ tags:
 - agency-107
 - administrative-srvcs-dept-of
 agency_code: '107'
+agency_registry_slug: department-of-administrative-services
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: ADMINISTRATIVE SRVCS, DEPT OF
 agency_name: ADMINISTRATIVE SRVCS, DEPT OF
 fiscal_year: 2019
 total_expense: '398924957.98'

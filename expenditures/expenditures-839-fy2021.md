@@ -36,6 +36,10 @@ tags:
 - agency-839
 - labor-ind-bureau-of
 agency_code: '839'
+agency_registry_slug: bureau-of-labor-and-industries
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: LABOR & IND, BUREAU OF
 agency_name: LABOR & IND, BUREAU OF
 fiscal_year: 2021
 total_expense: '3381188.47'

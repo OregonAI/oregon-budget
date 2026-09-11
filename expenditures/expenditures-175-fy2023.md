@@ -36,6 +36,10 @@ tags:
 - agency-175
 - judicial-fitness-disability
 agency_code: '175'
+agency_registry_slug: commission-on-judicial-fitness-and-disability
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: JUDICIAL FITNESS & DISABILITY
 agency_name: JUDICIAL FITNESS & DISABILITY
 fiscal_year: 2023
 total_expense: '33712.40'

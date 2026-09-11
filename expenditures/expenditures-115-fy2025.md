@@ -35,6 +35,10 @@ tags:
 - agency-115
 - employment-relations-brd
 agency_code: '115'
+agency_registry_slug: employment-relations-board
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: EMPLOYMENT RELATIONS BRD
 agency_name: EMPLOYMENT RELATIONS BRD
 fiscal_year: 2025
 total_expense: '307670.24'

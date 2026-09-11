@@ -36,6 +36,10 @@ tags:
 - agency-257
 - police-oregon-state
 agency_code: '257'
+agency_registry_slug: department-of-state-police
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: POLICE, OREGON STATE
 agency_name: POLICE, OREGON STATE
 fiscal_year: 2021
 total_expense: '88802220.47'

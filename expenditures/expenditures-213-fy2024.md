@@ -36,6 +36,10 @@ tags:
 - agency-213
 - criminal-justice-cmsn
 agency_code: '213'
+agency_registry_slug: oregon-criminal-justice-commission
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: CRIMINAL JUSTICE CMSN
 agency_name: CRIMINAL JUSTICE CMSN
 fiscal_year: 2024
 total_expense: '54702086.59'

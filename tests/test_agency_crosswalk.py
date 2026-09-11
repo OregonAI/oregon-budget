@@ -461,3 +461,83 @@ def test_check_names_a_document_carrying_a_basis_but_no_key():
     del stamped[0]["agency_registry_basis_key"]
     problems = lar.check(good(), NAMES, {}, stamped)
     assert any("join-a" in p and "agency_registry_basis_key" in p for p in problems), problems
+
+
+# --- #42: 536 expenditure documents could carry a registry slug and carry none ---------
+# Every join document already carries the four agency_registry_* fields, from a match
+# against the BILL's `appropriated_to` wording. An expenditure document has no bill to
+# match against — its only handle on identity is `agency_code`, the same DAS number the
+# crosswalk's `das_number` entries are keyed by — so the same warrant `stamp()` writes
+# beside an existing join slug must be reachable from `agency_code` alone, with nothing
+# in ERF required to look it up.
+
+def test_expenditure_registry_fields_reads_the_same_basis_a_join_would():
+    """build_documents.py must write the same four fields for an expenditure document
+    that link_agency_registry.py --stamp writes onto a join for the same DAS number —
+    one crosswalk, one warrant, regardless of which content root reads it."""
+    assert lar.expenditure_registry_fields("340", good()) == {
+        "agency_registry_slug": "department-of-environmental-quality",
+        "agency_registry_corpus": "executive-regulatory-frameworks",
+        "agency_registry_basis": "das_number",
+        "agency_registry_basis_key": "ENVI QUALITY, DEPT",
+    }
+
+
+def test_expenditure_registry_fields_is_none_for_an_unmapped_code():
+    """An agency_code the crosswalk does not map must not be guessed at — the remaining
+    8 documents (the two NOT YET REVIEWED strings) stay unstamped, not wrong."""
+    assert lar.expenditure_registry_fields("999", good()) is None
+
+
+def test_deq_expenditure_documents_carry_the_slug_the_crosswalk_maps_them_to():
+    """#42, on the real committed data. DEQ's seven `expenditures-340-fy20XX.md`
+    documents are the ones the issue names as "the documents that actually hold what DEQ
+    spent" — they must carry the slug, not just the 13 join documents that already did.
+    Independent literals: das_agency_number 340 and the seven fiscal years come from the
+    committed crosswalk and the issue's own count, not from re-running the code under
+    test."""
+    cw = lar.load_crosswalk()
+    docs = {p.stem: yaml.safe_load(p.read_text().split("---\n", 2)[1])
+            for p in sorted((ROOT / "expenditures").glob("expenditures-340-fy*.md"))}
+    assert set(docs) == {f"expenditures-340-fy{y}" for y in range(2019, 2026)}
+    for doc_id, fm in sorted(docs.items()):
+        assert fm.get("agency_registry_slug") == "department-of-environmental-quality", \
+            (doc_id, fm.get("agency_registry_slug"))
+        assert fm.get("agency_registry_corpus") == "executive-regulatory-frameworks", doc_id
+        assert fm.get("agency_registry_basis") == "das_number", doc_id
+        assert fm.get("agency_registry_basis_key") == "ENVI QUALITY, DEPT", doc_id
+    # Independent of the crosswalk fixture above: re-derive from the REAL crosswalk too.
+    real = lar.expenditure_registry_fields("340", cw)
+    assert docs["expenditures-340-fy2019"]["agency_registry_slug"] == real["agency_registry_slug"]
+
+
+def test_build_documents_writes_the_same_registry_fields_a_rebuild_would():
+    """#42. `src/build_documents.py`, not just `--stamp`, must write these fields — a
+    rebuild-from-scratch is the second half the issue names ("extending it (and
+    src/build_documents.py, so a rebuild writes the same thing) is mechanical"). Two
+    writers of one field reading different sources is how the crosswalk and a freshly
+    regenerated document would drift apart on the very next rebuild."""
+    import build_documents
+    assert build_documents.registry_fields("340", good()) == {
+        "agency_registry_slug": "department-of-environmental-quality",
+        "agency_registry_corpus": "executive-regulatory-frameworks",
+        "agency_registry_basis": "das_number",
+        "agency_registry_basis_key": "ENVI QUALITY, DEPT",
+    }
+    assert build_documents.registry_fields("999", good()) == {}
+
+
+def test_documents_by_agency_floor_for_deq_now_includes_its_spending():
+    """#42's headline number. Measured 2026-08-22 at 13 (joins only); this is the count
+    #23's verification pinned and the issue's own warning says SHOULD change when this
+    lands — deliberately re-measured and updated here, not left stale. DEQ has 13 join
+    documents and 7 expenditure documents, both now carrying the slug, so the floor
+    documents_by_agency answers from this corpus's committed files is 20."""
+    import yaml as _yaml
+    matches = []
+    for root in ("joins", "expenditures"):
+        for p in sorted((ROOT / root).glob("*.md")):
+            fm = _yaml.safe_load(p.read_text().split("---\n", 2)[1])
+            if fm.get("agency_registry_slug") == "department-of-environmental-quality":
+                matches.append(fm["id"])
+    assert len(matches) == 20, (len(matches), matches)

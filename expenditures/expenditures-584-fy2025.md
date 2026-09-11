@@ -35,6 +35,10 @@ tags:
 - agency-584
 - teacher-standards-practices
 agency_code: '584'
+agency_registry_slug: teacher-standards-and-practices-commission
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: TEACHER STANDARDS & PRACTICES
 agency_name: TEACHER STANDARDS & PRACTICES
 fiscal_year: 2025
 total_expense: '2506425.39'

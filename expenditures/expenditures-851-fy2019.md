@@ -35,6 +35,10 @@ tags:
 - agency-851
 - nursing-brd-of
 agency_code: '851'
+agency_registry_slug: board-of-nursing
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: NURSING, BRD OF
 agency_name: NURSING, BRD OF
 fiscal_year: 2019
 total_expense: '3536841.43'

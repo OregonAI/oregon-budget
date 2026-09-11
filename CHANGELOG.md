@@ -31,6 +31,26 @@ Repo-curation dates only — official effective dates live in frontmatter.
   feed's spelling of the same body. They agree, and `--check` fails if they stop
   agreeing — but a basis carrying no key would read as a description of the resolution
   it is not about.
+- 2026-09-10 — **536 of 544 expenditure documents now carry `agency_registry_slug` /
+  `agency_registry_corpus` / `agency_registry_basis` / `agency_registry_basis_key`**
+  (OregonAI/oregon-budget#42). `_meta/agency-crosswalk.yml` had resolved 81 of 83
+  expenditure agency strings to a registry slug since #23, and every resolution was
+  verified against ERF — but none of it reached `expenditures/*.md`, so
+  `documents_by_agency` answered only from `joins/`'s 474 documents and DEQ's own seven
+  agency-year spending documents appeared under no agency at all.
+  `src/link_agency_registry.py --stamp` now writes the same four fields onto an
+  expenditure document that it already writes beside a join's slug, keyed on
+  `agency_code` (the DAS number) rather than a bill match, since an expenditure document
+  has no bill to resolve against; `src/build_documents.py` writes them at generation time
+  too, from the crosswalk alone (no ERF sibling needed to build), so a rebuild does not
+  regress the stamp. Re-measured after stamping: a full `python3 src/build_documents.py`
+  regenerate reproduces the 544 stamped documents byte-for-byte (empty diff). The
+  remaining 8 documents (the 2 `unmapped` agency strings) are unchanged, not guessed at.
+  **`documents_by_agency('department-of-environmental-quality')` moves from 13 (joins
+  only) to 20 (13 joins + DEQ's 7 expenditure documents)** — #23's verification pinned 13
+  and said this number SHOULD change when #42 landed; it has, deliberately, and is
+  re-measured and locked in by `tests/test_agency_crosswalk.py`'s
+  `test_documents_by_agency_floor_for_deq_now_includes_its_spending`.
 
 ### Changed
 - 2026-08-22 — **`_meta/unresolved-agencies.md` section 4 now renders the decision

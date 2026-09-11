@@ -35,6 +35,10 @@ tags:
 - agency-588
 - early-learning-care-dept-of
 agency_code: '588'
+agency_registry_slug: oregon-department-of-education-early-learning-division
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: EARLY LEARNING & CARE, DEPT OF
 agency_name: EARLY LEARNING & CARE, DEPT OF
 fiscal_year: 2024
 total_expense: '459690805.29'

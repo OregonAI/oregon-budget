@@ -35,6 +35,10 @@ tags:
 - agency-603
 - agriculture-dept-of
 agency_code: '603'
+agency_registry_slug: department-of-agriculture
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: AGRICULTURE, DEPT OF
 agency_name: AGRICULTURE, DEPT OF
 fiscal_year: 2025
 total_expense: '35844067.17'

@@ -36,6 +36,10 @@ tags:
 - agency-811
 - chiropractic-exam-brd-of
 agency_code: '811'
+agency_registry_slug: board-of-chiropractic-examiners
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: CHIROPRACTIC EXAM, BRD OF
 agency_name: CHIROPRACTIC EXAM, BRD OF
 fiscal_year: 2022
 total_expense: '377797.94'

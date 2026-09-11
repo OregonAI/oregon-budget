@@ -35,6 +35,10 @@ tags:
 - agency-425
 - indian-services-cmsn
 agency_code: '425'
+agency_registry_slug: legislative-commission-on-indian-services
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: INDIAN SERVICES CMSN
 agency_name: INDIAN SERVICES CMSN
 fiscal_year: 2025
 total_expense: '23671.22'

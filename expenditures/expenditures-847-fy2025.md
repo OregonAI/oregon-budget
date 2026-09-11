@@ -35,6 +35,10 @@ tags:
 - agency-847
 - medical-brd-or
 agency_code: '847'
+agency_registry_slug: oregon-medical-board
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: MEDICAL BRD, OR
 agency_name: MEDICAL BRD, OR
 fiscal_year: 2025
 total_expense: '2210201.35'

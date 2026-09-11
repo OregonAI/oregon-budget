@@ -36,6 +36,10 @@ tags:
 - agency-123
 - business-oregon
 agency_code: '123'
+agency_registry_slug: oregon-business-development-department
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: BUSINESS OREGON
 agency_name: BUSINESS OREGON
 fiscal_year: 2023
 total_expense: '353605397.96'

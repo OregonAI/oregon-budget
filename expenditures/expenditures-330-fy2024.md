@@ -36,6 +36,10 @@ tags:
 - agency-330
 - energy-dept-of
 agency_code: '330'
+agency_registry_slug: department-of-energy
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: ENERGY, DEPT OF
 agency_name: ENERGY, DEPT OF
 fiscal_year: 2024
 total_expense: '38965419.98'

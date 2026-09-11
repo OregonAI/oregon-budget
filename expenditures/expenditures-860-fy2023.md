@@ -36,6 +36,10 @@ tags:
 - agency-860
 - public-utility-cmsn
 agency_code: '860'
+agency_registry_slug: public-utility-commission
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: PUBLIC UTILITY CMSN
 agency_name: PUBLIC UTILITY CMSN
 fiscal_year: 2023
 total_expense: '36050837.37'

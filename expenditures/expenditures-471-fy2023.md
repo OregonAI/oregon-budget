@@ -36,6 +36,10 @@ tags:
 - agency-471
 - employment-dept
 agency_code: '471'
+agency_registry_slug: employment-department
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: EMPLOYMENT DEPT
 agency_name: EMPLOYMENT DEPT
 fiscal_year: 2023
 total_expense: '79040247.28'

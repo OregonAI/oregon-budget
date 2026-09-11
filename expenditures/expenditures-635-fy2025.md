@@ -35,6 +35,10 @@ tags:
 - agency-635
 - fish-wildlife-dept-of
 agency_code: '635'
+agency_registry_slug: department-of-fish-and-wildlife
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: FISH & WILDLIFE, DEPT OF
 agency_name: FISH & WILDLIFE, DEPT OF
 fiscal_year: 2025
 total_expense: '106356724.75'

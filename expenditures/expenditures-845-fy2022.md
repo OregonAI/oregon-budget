@@ -36,6 +36,10 @@ tags:
 - agency-845
 - liquor-cannabis-com-or
 agency_code: '845'
+agency_registry_slug: oregon-liquor-control-commission
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: LIQUOR & CANNABIS COM, OR
 agency_name: LIQUOR & CANNABIS COM, OR
 fiscal_year: 2022
 total_expense: '586714742.87'

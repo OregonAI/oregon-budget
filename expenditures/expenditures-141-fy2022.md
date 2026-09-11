@@ -36,6 +36,10 @@ tags:
 - agency-141
 - lands-dept-of-st
 agency_code: '141'
+agency_registry_slug: department-of-state-lands
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: LANDS, DEPT OF ST
 agency_name: LANDS, DEPT OF ST
 fiscal_year: 2022
 total_expense: '14126791.21'

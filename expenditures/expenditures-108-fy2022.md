@@ -36,6 +36,10 @@ tags:
 - agency-108
 - mental-health-regulatory-agy
 agency_code: '108'
+agency_registry_slug: mental-health-regulatory-agency
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: MENTAL HEALTH REGULATORY AGY
 agency_name: MENTAL HEALTH REGULATORY AGY
 fiscal_year: 2022
 total_expense: '703269.53'

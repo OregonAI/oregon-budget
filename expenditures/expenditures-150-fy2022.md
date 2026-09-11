@@ -36,6 +36,10 @@ tags:
 - agency-150
 - revenue-dept-of
 agency_code: '150'
+agency_registry_slug: department-of-revenue
+agency_registry_corpus: executive-regulatory-frameworks
+agency_registry_basis: das_number
+agency_registry_basis_key: REVENUE, DEPT OF
 agency_name: REVENUE, DEPT OF
 fiscal_year: 2022
 total_expense: '34342625.13'
