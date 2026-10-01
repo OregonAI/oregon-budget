@@ -1,21 +1,22 @@
 {
-  "generated_by": "corpus-detect-changes 1.34.0",
+  "generated_by": "corpus-detect-changes 1.36.4",
   "last_run": {
-    "date": "2026-09-03",
+    "date": "2026-10-01",
     "group_filter": null,
     "groups_in_scope": [
       "manifest"
     ],
     "mode": "seed",
     "red_reasons": [],
-    "toolkit_version": "1.34.0",
+    "toolkit_version": "1.36.4",
     "totals": {
       "accepted": 0,
-      "changed": 0,
+      "archive_unreadable": 0,
+      "changed": 1,
       "fetch_failed": 0,
       "seeded": 0,
       "total": 3,
-      "unchanged": 3,
+      "unchanged": 2,
       "unreadable_json": 0,
       "watch_path_missing": 0
     }
@@ -29,7 +30,7 @@
       "had_baseline": true,
       "id": "agency-expenditures",
       "new": "",
-      "observed_at": "2026-09-03",
+      "observed_at": "2026-10-01",
       "old": "",
       "outcome": "unchanged",
       "seeded_at": null,
@@ -37,14 +38,14 @@
     },
     {
       "accepted_at": null,
-      "first_changed_at": null,
+      "first_changed_at": "2026-10-01",
       "group": "manifest",
       "had_baseline": true,
       "id": "budgeted-revenue",
-      "new": "",
-      "observed_at": "2026-09-03",
-      "old": "",
-      "outcome": "unchanged",
+      "new": "f0be926fa85d9d06c9ba2ffa61536fd56159e1182d4b09349856b45ceacc7687",
+      "observed_at": "2026-10-01",
+      "old": "ce5e816bb5616d0ae0a67a7762c55210087c8367adea7359f2e87c61bf86fe19",
+      "outcome": "changed",
       "seeded_at": null,
       "url": "https://data.oregon.gov/api/views/mwsa-rpk9.json"
     },
@@ -55,7 +56,7 @@
       "had_baseline": true,
       "id": "lottery-expenditures",
       "new": "",
-      "observed_at": "2026-09-03",
+      "observed_at": "2026-10-01",
       "old": "",
       "outcome": "unchanged",
       "seeded_at": null,
