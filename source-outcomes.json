@@ -2,11 +2,12 @@
   "group_filter": null,
   "groups": {
     "manifest": {
-      "changed": 0,
+      "archive_unreadable": 0,
+      "changed": 1,
       "checked": 3,
       "fetch_failed": 0,
       "no_baseline": 0,
-      "unchanged": 3,
+      "unchanged": 2,
       "unreadable_json": 0,
       "watch_path_missing": 0
     }
@@ -28,7 +29,7 @@
       "group": "manifest",
       "had_baseline": true,
       "id": "budgeted-revenue",
-      "outcome": "unchanged",
+      "outcome": "changed",
       "url": "https://data.oregon.gov/api/views/mwsa-rpk9.json"
     },
     {
@@ -40,11 +41,12 @@
     }
   ],
   "totals": {
-    "changed": 0,
+    "archive_unreadable": 0,
+    "changed": 1,
     "fetch_failed": 0,
     "no_baseline": 0,
     "total": 3,
-    "unchanged": 3,
+    "unchanged": 2,
     "unreadable_json": 0,
     "watch_path_missing": 0
   }
