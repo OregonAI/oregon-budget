@@ -3,11 +3,11 @@
   "groups": {
     "manifest": {
       "archive_unreadable": 0,
-      "changed": 1,
+      "changed": 2,
       "checked": 3,
       "fetch_failed": 0,
       "no_baseline": 0,
-      "unchanged": 2,
+      "unchanged": 1,
       "unreadable_json": 0,
       "watch_path_missing": 0
     }
@@ -36,17 +36,17 @@
       "group": "manifest",
       "had_baseline": true,
       "id": "lottery-expenditures",
-      "outcome": "unchanged",
+      "outcome": "changed",
       "url": "https://data.oregon.gov/api/views/anxj-teqh.json"
     }
   ],
   "totals": {
     "archive_unreadable": 0,
-    "changed": 1,
+    "changed": 2,
     "fetch_failed": 0,
     "no_baseline": 0,
     "total": 3,
-    "unchanged": 2,
+    "unchanged": 1,
     "unreadable_json": 0,
     "watch_path_missing": 0
   }
