@@ -1,7 +1,7 @@
 {
   "generated_by": "corpus-detect-changes 1.36.4",
   "last_run": {
-    "date": "2026-10-01",
+    "date": "2026-11-01",
     "group_filter": null,
     "groups_in_scope": [
       "manifest"
@@ -12,11 +12,11 @@
     "totals": {
       "accepted": 0,
       "archive_unreadable": 0,
-      "changed": 1,
+      "changed": 2,
       "fetch_failed": 0,
       "seeded": 0,
       "total": 3,
-      "unchanged": 2,
+      "unchanged": 1,
       "unreadable_json": 0,
       "watch_path_missing": 0
     }
@@ -30,7 +30,7 @@
       "had_baseline": true,
       "id": "agency-expenditures",
       "new": "",
-      "observed_at": "2026-10-01",
+      "observed_at": "2026-11-01",
       "old": "",
       "outcome": "unchanged",
       "seeded_at": null,
@@ -43,7 +43,7 @@
       "had_baseline": true,
       "id": "budgeted-revenue",
       "new": "f0be926fa85d9d06c9ba2ffa61536fd56159e1182d4b09349856b45ceacc7687",
-      "observed_at": "2026-10-01",
+      "observed_at": "2026-11-01",
       "old": "ce5e816bb5616d0ae0a67a7762c55210087c8367adea7359f2e87c61bf86fe19",
       "outcome": "changed",
       "seeded_at": null,
@@ -51,14 +51,14 @@
     },
     {
       "accepted_at": null,
-      "first_changed_at": null,
+      "first_changed_at": "2026-11-01",
       "group": "manifest",
       "had_baseline": true,
       "id": "lottery-expenditures",
-      "new": "",
-      "observed_at": "2026-10-01",
-      "old": "",
-      "outcome": "unchanged",
+      "new": "c559b119bec5c4d35299ba725c6dad73cca2530dcb8dc6dd25afaf31803312d7",
+      "observed_at": "2026-11-01",
+      "old": "8f2fef21d177fa67dd49ae29d78aa780bd6b9ccb0747683372ee983f35305e4d",
+      "outcome": "changed",
       "seeded_at": null,
       "url": "https://data.oregon.gov/api/views/anxj-teqh.json"
     }
